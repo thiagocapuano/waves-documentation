@@ -98,7 +98,7 @@ Matcher 노드는 블록체인 내의 주문들을 페어링하고 거래를 빠
 
 원칙적으로는 **어떤 노드이든** **Matcher**가 될 수 있습니다. Waves 클라이언트는 기본적으로 [nodes.wavesnodes.com](https://nodes.wavesnodes.com/) Matcher에 연결됩니다.
 
-Matcher들은 서비스를 제공함으로써 수수료를 보상 받고 Waves 풀 노드에 대한 부가적인 매출원 추가 합니다.
+Matcher들은 서비스를 제공함으로써 수수료를 보상 받고 추가적으로 Waves 풀 노드에 대한 부가적인 수입을 얻게 됩니다.
 
 **참고.** Waves 노드에는 Matcher 설정 섹션에서 [Waves 노드 configuration 파일](/waves-full-node/how-to-configure-a-node.md)을 설정하여 활성화 시킬 수 있는 DEX Matcher를 포함합니다.
 
