@@ -31,27 +31,27 @@ Basic path is `https://client.wavesplatform.com#gateway/auth`. Then the query pa
 
 #### Referrer
 
-`?r=https://example.com` — the URL of your service. It should be HTTPS-only. \(Required\)
+`?r=https://example.com` — the URL of your service. It should be HTTPS-only. _\(Required\)_
 
 #### Name
 
-`?n=Service%20Name` — the name of your service. \(Required\)
+`?n=Service%20Name` — the name of your service. _\(Required\)_
 
 #### Data
 
-`?d=randomChars` — the data which is signed by the user's private key. \(Required\)
+`?d=randomChars` — the data which is signed by the user's private key. _\(Required\)_
 
 #### Icon path
 
-`?i=/path/to/the/icon.png` — a path relative to the Referrer parameter. It hosts the logo of your app. \(Optional\)
+`?i=/path/to/the/icon.png` — a path relative to the Referrer parameter. It hosts the logo of your app. _\(Optional\)_
 
 #### Success path
 
-`?s=/path/to/an/API/method` — a path to the method which redirects the user while the signing is successful. By default, the user is redirected to the referrer root. \(Optional\)
+`?s=/path/to/an/API/method` — a path to the method which redirects the user while the signing is successful. By default, the user is redirected to the referrer root. _\(Optional\)_
 
 #### Debug mode
 
-`?debug=true` — a flag to display error messages. \(Optional\)
+`?debug=true` — a flag to display error messages. _\(Optional\)_
 
 ### Response
 
@@ -75,6 +75,7 @@ You can use the [@waves/signature-generator](https://www.npmjs.com/package/@wave
 
 Signed data consists of three objects `Prefix string` + `URL host` + `Provided Data`
 Signature is taken from the data in the following order: a `WavesWalletAuthentication` string, then a string with your host parameter value, then a string with your data parameter value.
+All strings is converted to `length bytes + value bytes` as in [Data Transactions](technical-details/data-transaction.md)
 Prefix string and the host is required for security purposes if malicious service tries to use transaction data and signature from Auth API it would be useless to broadcast into blockchain.
 
 We also suggest address validation in case the signature and public key is valid but the address was swapped.
