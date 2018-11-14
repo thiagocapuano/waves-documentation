@@ -43,7 +43,7 @@ Waves.auth({
 
 ## Sign Transaction
 
-This function only generates a signature for the transaction but doesn't send it to the node. You can you a response for self-sending to the node
+This function only generates a signature for the transaction but doesn't send it to the node. You can get a Promise object for self-sending to the node
 
 `signTransaction(TRANSACTION)`
 
@@ -57,23 +57,24 @@ The example of `TRANSACTION` you can find below.
 An example of a request to signing a transfer transaction:
 
 ```
-Waves.signAndPublishTransaction({
-  type: 4,
-  {
-    amount: {
-      assetId: 'WAVES',
-      tokens: '0.123456'
-   },
-  fee: {
-    assetId: 'WAVES',
-    tokens: '0.01'
-   },
-  recipient: '3N5net4nzSeeqxPfGZrvVvnGavsinipQHbE'
-  }
+Waves.signTransaction({
+type: 4,
+data: {
+	amount: {
+		assetId: ‘WAVES’,
+		tokens: ‘0.123456’
+	},
+	fee: {
+		assetId: ‘WAVES’,
+		tokens: ‘0.01’
+	},
+	recipient: ‘3N5net4nzSeeqxPfGZrvVvnGavsinipQHbE’
+}
 }).then(
-	res,  // res - a transaction with a signature, ready for a sending to the node
+	res,  // res - result for self-sending to the node
 	err   // err - the error message 
 )
+
 ```
 
 ## Sign and Publish Transaction
@@ -102,7 +103,7 @@ Waves.signAndPublishTransaction({
     recipient: '3N5net4nzSeeqxPfGZrvVvnGavsinipQHbE'
   }
 }).then(
-  res,  // res - result of a sending transaction to the server
+  	res,  // res - result of a sending transaction to the server
 	err   // err - the error message 
 )
 ```
@@ -111,7 +112,7 @@ Waves.signAndPublishTransaction({
 
 This function returns signature of data. The full request is:
 
-`Waves.signRequest(SIGN_REQUEST_DATA)`
+`Waves.signRequest(SIGN_REQUEST_DATA)`.
 
 ```
 SIGN_REQUEST_DATA {
@@ -121,9 +122,69 @@ SIGN_REQUEST_DATA {
 ```
 ```
 REQUEST_TYPE {
-MATCHER_ORDERS = 1001,
+	MATCHER_ORDERS = 1001,
+	COINOMAT_CONFIRMATION: = 1004
 }
 ```
+
+## Sign Order
+
+This function returns signature of order's data. It signs data and returns a Promise object for self-sending to the matcher.
+
+The full request is:
+
+`Waves.signOrder(SIGN_ORDER_DATA)`.
+
+## Sign and Publish Order
+
+This function signs the order, send it to the matcher and return a Promise object with the server response. The full request is:
+
+`Waves.signAndPublishOrder(SIGN_ORDER_DATA)`
+```
+SIGN_ORDER_DATA  {
+	type: 1002,
+	data: {
+		amount: {
+			assetId: ASSET_ID,
+			tokens: Number|String
+		},
+		price: {
+			assetId: ASSET_ID,
+			tokens: Number|String
+		},
+		orderType: 'string' //  only 'sell' or 'buy'
+		matcherFee: {
+			assetId: ASSET_ID,
+			tokens: Number|String
+		},
+		expiration: number // timepstamp
+		timestamp: number // timepstamp
+	}
+}
+```
+
+## Sign Cancel Order
+
+This function returns signature of order cancel data. It signs data and returns a Promise object for self-sending to the matcher.
+
+The full request is:
+
+`Waves.signCancelOrder(SIGN_CANCEL_ORDER_DATA)`.
+
+## Sign and Publish Cancel Order
+
+This function signs the order cancel, send it to the matcher and return a Promise object with the server response. The full request is:
+
+`Waves.signAndPublishCancelOrder(SIGN_CANCEL_ORDER_DATA)`.
+```
+SIGN_CANCEL_ORDER_DATA  {
+	type: 1003,
+	data: {
+		id: 'string' // order id
+	}
+}
+```
+
 
 ### General TRANSACTION structure
 
@@ -214,7 +275,7 @@ A `TRANSACTION_DATA` contains information about the transaction with json in sta
     tokens: Number|String
   },
   reistruesuable: boolean,
-  quantity: string|number,
+  amount: string|number,
   assetId: string,	
 }
 ```
