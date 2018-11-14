@@ -1,3 +1,5 @@
+#About Waves Keeper
+
 Waves Keeper is an extension that allows you to interact with Waves-enabled web services securely from your Chrome browser.
 
 SEEDs and private keys are encrypted and stored within the extension and cannot be accessed by the dApps and services on the web, giving you peace of mind that your funds are always safe from hackers and malicious sites. Completing a transaction doesn’t require entering any sensitive information.
