@@ -4,4 +4,8 @@ If you have already created a Waves account, you can sing in directly by choosin
 
 ![](/_assets/login_page.png)
 
+___
+
+See more articles in the [Account Management](/waves-client/account-management.md) chapter.
+
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
