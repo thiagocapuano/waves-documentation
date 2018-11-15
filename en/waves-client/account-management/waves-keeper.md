@@ -10,18 +10,18 @@ So, just install Google Chrome extension. Also, we plan to develop the same exte
 
 Open official [link](https://chrome.google.com/webstore/detail/waveskeeper/mloobbginacfkecaaihjhhdoljfgfncp) in Google Chrome and click on the **Add to Chrome**.
 
-![](/_assets/waves_keepr_00.png)
+![](/_assets/waves_keeper_00.png)
 
 After installation you will be able to find installed extension at the top right corner. Click on it and click on the **Get Started**.
 
-![](/_assets/waves_keepr_01.png)
+![](/_assets/waves_keeper_01.png)
 
 Read the Terms and Conditions and click on the **Accept** button.
 
 The following pop-up will appear.
 Protect your account with keeper password.
 
-![](/_assets/waves_keepr_02.png)
+![](/_assets/waves_keeper_02.png)
 
 The password you entered will be stored locally. If you change device or lose your password, you will have to repeat the process of adding accounts to Waves Keeper. Waves does not store your passwords.
 
@@ -30,29 +30,29 @@ After entering the password and confirmation, click on the **Continue**.
 The following pop-up will appear.
 Now you need to create a new account or import an existing account.
 
-![](/_assets/waves_keepr_03.png)
+![](/_assets/waves_keeper_03.png)
 
 # How to create a new account
 
 Click on the **Create a new account**. Choose address avatar and click on the **Continue**.
 
-![](/_assets/waves_keepr_04.png)
+![](/_assets/waves_keeper_04.png)
 
 Choose account name and click on the **Continue**.
 
-![](/_assets/waves_keepr_05.png)
+![](/_assets/waves_keeper_05.png)
 
 Save backup phrase. Please carefully write down these 15 words or copy them. After that click on the **Continue**.
 
-![](/_assets/waves_keepr_06.png)
+![](/_assets/waves_keeper_06.png)
 
 Confirm backup phrase by placing each word in the correct order and click on the **Confirm**.
 
-![](/_assets/waves_keepr_07.png)
+![](/_assets/waves_keeper_07.png)
 
 After that, you'll see keeper main page.
 
-![](/_assets/waves_keepr_08.png)
+![](/_assets/waves_keeper_08.png)
 
 There you can shortly **Copy address**, scan **QR** code or find private data of your account.
 
@@ -60,25 +60,25 @@ So, now you can open official [online app](https://client.wavesplatform.com) and
 
 To do it, open the online app. On the main page click on the **Import accounts** and choose **Keeper Client**
 
-![](/_assets/waves_keepr_09.png)
+![](/_assets/waves_keeper_09.png)
 
 After that, a new dialog box will open. Check **Account address** and **Account name**. After that click on the **Continue**.
 
-![](/_assets/waves_keepr_10.png)
+![](/_assets/waves_keeper_10.png)
 
 There you need to check the following data: Account address and request link. **Always check these data before confirmation**. If everything is correct click on the **Sign**.
 
-![](/_assets/waves_keepr_11.png)
+![](/_assets/waves_keeper_11.png)
 
 At the final stage, read carefully the conditions and if you are agree, put the checkboxes.
 
 Click on **Confirm and Begin**.
 
-![](/_assets/waves_keepr_12.png)
+![](/_assets/waves_keeper_12.png)
 
 If you have done all of the above, you are forwarded to the user interface.
 
-![](/_assets/waves_keepr_13.png)
+![](/_assets/waves_keeper_13.png)
 
 # How to import an existing account
 
@@ -86,15 +86,15 @@ Importing an existing account is straightforward. Just open Waves keeper and cli
 
 Put your seed phrase in the **Wallet seed** field. Check generated Waves address. If everything is correct, click on the **Import Account**.
 
-![](/_assets/waves_keepr_14.png)
+![](/_assets/waves_keeper_14.png)
 
 Choose account name and click on the **Continue**.
 
-![](/_assets/waves_keepr_05.png)
+![](/_assets/waves_keeper_05.png)
 
 After that, you'll see keeper main page.
 
-![](/_assets/waves_keepr_08.png)
+![](/_assets/waves_keeper_08.png)
 
 There you can shortly **Copy address**, scan **QR** code or find private data of your account.
 
