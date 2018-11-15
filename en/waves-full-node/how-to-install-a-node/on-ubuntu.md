@@ -2,7 +2,7 @@
 
 Ubuntu users can use the following commands to install JRE.
 
-```
+```cpp
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get -y install oracle-java8-installer
@@ -22,35 +22,23 @@ But if you get an error, then check your installation and try to find some bette
 
 **Note.** It's necessary to install **Oracle JRE 8** with **64-bit version, **you also can check Waves Releases [Here](https://github.com/wavesplatform/Waves/releases).
 
-# Installation from deb package
+## Installation from deb package on deb-based linux \(Ubuntu, Debian\)
 
-There are two types of deb packages of waves nodes: with upstart loader and systemd loader.
+Just [download latest waves deb](https://github.com/wavesplatform/Waves/releases) and install it with `sudo dpkg -i waves*.deb`. Now it's time to check your waves config!
 
-## Installation from Upstart deb package
+It's embedded into the deb package and unpacked to `/usr/share/waves/conf/waves.conf` \(or `waves-testnet` folder for testnet\) and symlinked to `/etc/waves/waves.conf`. [Please read this and edit waves config](/waves-full-node/configuration-parameters.md) with caution.
 
-You should use the deb with Upstart if you have an operating system Ubuntu &lt; 15.04.
+There are two types of deb packages of waves nodes: with _**upstart loader**_ and _**systemd loader**_.
 
-Just [download latest waves deb](https://github.com/wavesplatform/Waves/releases) and install it with `sudo dpkg -i waves*.deb`.
+### 1. _**Systemd \(Ubuntu &gt;= 15.04\):**_
 
-Now it's time to check your waves config! It's embedded into the deb package and unpacked to `/usr/share/waves/conf/waves.conf` \(or `waves-testnet` folder for testnet\) and symlinked to `/etc/waves/waves.conf`. Please [read this and edit waves config](/waves-full-node/configuration-parameters.md) with caution.
+_** **Users can start the node with _`sudo systemctl start waves.service`_ \(_`waves-testnet`_ for testnet\) and enable autoload on start with _`sudo systemctl enable waves.service`_. _**Systemd **users can find waves app logs in journald storage like that `journalctl -u waves.service -f`. You can read about journald tips [here](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs).
 
-Upstart users can start the node with `sudo service waves start` \(`waves-testnet` for testnet\) and enable autoload on start with `sudo service waves enable`.
+### 2. **Upstart \(Ubuntu &lt; 15.04\):**
 
-You can find waves app logs in `/var/log/upstart/` folder like that `tail -f /var/log/upstart/waves-testnet.log`.
+Users can start the node with `sudo service waves start` \(`waves-testnet` for testnet\) and enable autoload on start with `sudo service waves enable`. You can find **waves app logs** in `/var/log/waves` folder like that tail `-f /var/log/waves/waves.log`
 
-**If you want to change waves directory \(for wallet, blockchain and other node files\) in ubuntu packages you should change it using **`-J-Dwaves.directory=path`** in **`/etc/waves/application.ini`**. Default waves directory is **`/var/lib/waves-testnet/`** is set in run upstart script **`/etc/waves-testnet/upstart.conf`**.**
 
-## Installation from Systemd deb package
-
-You should use the deb with Systemd if you have an operating system Ubuntu &gt;= 15.04 or latest Debian releases.
-
-Just [download latest waves deb](https://github.com/wavesplatform/Waves/releases) and install it with `sudo dpkg -i waves*.deb`.
-
-Now it's time to check your waves config! It's embedded into the deb package and unpacked to `/usr/share/waves/conf/waves.conf` \(or `waves-testnet` folder for testnet\) and symlinked to `/etc/waves/waves.conf`. Please [read this and edit waves config](/waves-full-node/configuration-parameters.md)** **and ** **with caution.
-
-Systemd users can start the node with `sudo systemctl start waves.service` \(`waves-testnet` for testnet\) and enable autoload on start with `sudo systemctl enable waves.service`.
-
-Systemd users can find waves app logs in journald storage like that `journalctl -u waves.service -f`. You can read about journald tips [here](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs).
 
 **If you want to change waves directory \(for wallet, blockchain and other node files\) in ubuntu packages you should change it using **`-J-Dwaves.directory=path`** in **`/etc/waves/application.ini`**. Default waves directory is **`/var/lib/waves-testnet/`** is set in run systemd start script.**
 
@@ -119,3 +107,4 @@ Also, you may want to limit the use of these folders only specified users. You c
 If you decide to use RPC, you should protect it with embedded in ubuntu `ufw` or any other firewall. You can read about it [here](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server). If your server is public and available to the Internet and you decide to enable and use RPC, then allow only certain methods using [Nginx's proxy\_pass module](http://nginx.org/ru/docs/http/ngx_http_proxy_module.html) and do not forget to set the `apiKeyHash` in waves.conf.
 
 Also, do not forget to install the OS and other software security updates.
+
