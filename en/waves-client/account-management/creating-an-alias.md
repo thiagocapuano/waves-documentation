@@ -25,4 +25,8 @@ After you have done it, just click on the Create new to complete the procedure.
 
 Your Alias should be ready to use as from the next block update.
 
+___
+
+See more articles in the [Account Management](/waves-client/account-management.md) chapter.
+
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

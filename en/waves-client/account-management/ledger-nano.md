@@ -73,4 +73,8 @@ Re-check entered data and confirm the transaction on your Ledger Nano S
 
 ![](/_assets/ledger_nano_07.png)
 
+___
+
+See more articles in the [Account Management](/waves-client/account-management.md) chapter.
+
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
