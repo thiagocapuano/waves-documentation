@@ -16,7 +16,12 @@ _**Smart assets**_ are unique virtual currency tokens that may represent a tangi
 
 In simple words, **Smart assets **are assets with an attached script which validates every transaction within that asset.
 
-**Note. **A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/technical-details/data-structures.md).
+**Notes:**
+
+* The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: `'true'`
+* A smart asset's script can be changed via [SetAssetScriptTransaction](/technical-details/data-structures.md) \([fee](/technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
+* Only the issuer can change the asset's script.
+* Sponsorship of smart assets is prohibited.
 
 ## Smart Assets Features
 
