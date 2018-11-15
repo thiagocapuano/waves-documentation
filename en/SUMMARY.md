@@ -150,6 +150,7 @@
   * [WavesCS](development-and-api/client-libraries/wavescs.md)
   * [WavesC](development-and-api/client-libraries/waves-c.md)
   * [WavesRS](development-and-api/client-libraries/wavesrs.md)
+  * [Waves Signature Adapter](development-and-api/client-libraries/waves-signature-adapter.md)
   * [Waves Transactions](development-and-api/client-libraries/waves-transactions.md)
   * [Community Libraries](development-and-api/client-libraries/unofficial-libraries.md)
 * [DEX API](development-and-api/dex-api.md)
