@@ -112,9 +112,9 @@ Table 3. Parameters to describe the token
 | logo | Project logo in svg format |
 
 
-## Example of blacklist smart-contract
+## Example of a blacklist smart-contract
 
-Here we present an example of smart-contract which blacklist all transactions with suspicious and scam tokens:
+Here we present an example of a smart-contract which blacklists all transactions with suspicious and scam tokens:
 ```
 let address = …
 
@@ -125,7 +125,7 @@ match tx {
 
 ```
 
-### Interaction Waves applications with the protocol
+### Interaction of Waves applications with the protocol
 
 Table 4. Values of token parameters in the UI
 
@@ -225,10 +225,9 @@ Table 4. Values of token parameters in the UI
 ## Settings
 
 The default settings indicate the addresses of bettertokens and the community spam-list.
-The user has the opportunity to add the addresses of their providers.
+The user has the ability to add the addresses of their providers.
 
-If, when connecting a provider, intersections are detected by the token ID, the user is prompted to select the provider he trusts more. In this case, information about the token that is present in the lists with several providers will request from the chosen provider.
-
+If a tokenId is present in the several proveders' lists then the user is able to choose the most trusted provider and use this information in the future.
 
 
 ### UI change depending on status
