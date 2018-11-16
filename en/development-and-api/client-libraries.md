@@ -2,12 +2,13 @@
 
 Waves Full Node provides access to the [REST API](/en/development-and-api/node-api-overview.md) also there are community-driven open source libraries for different programming languages:
 
-* [_**Python:  PyWaves**_](/development-and-api/client-libraries/pywaves.md)
-* [_**Java: WavesJ**_](/development-and-api/client-libraries/wavesj.md)
-* [_**C\#: WavesCS**_](/development-and-api/client-libraries/wavescs.md)
-* [_**TypeScript/JavaScript: Waves Signature Adapter**_](/development-and-api/client-libraries/waves-signature-adapter.md)
-* [_**C: WavesC**_](/development-and-api/client-libraries/waves-c.md)
-* [_**TypeScript/JavaScript: Waves Transactions**_](/development-and-api/client-libraries/waves-transactions.md)
+* _**Python: **_[PyWaves](/development-and-api/client-libraries/pywaves.md)
+* _**Java: **_[WavesJ](/development-and-api/client-libraries/wavesj.md)
+* _**C\#: **_[WavesCS](/development-and-api/client-libraries/wavescs.md)
+* _**TypeScript/JavaScript:**_ 
+    - [Waves Signature Adapter](/development-and-api/client-libraries/waves-signature-adapter.md)
+    - [Waves Transactions](/development-and-api/client-libraries/waves-transactions.md)
+* **C: **_[WavesC](/development-and-api/client-libraries/waves-c.md)
 * [_**Community Libraries**_](/development-and-api/client-libraries/unofficial-libraries.md)
 
 All libraries are open for contribution and testing.
