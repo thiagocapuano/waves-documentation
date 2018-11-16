@@ -72,11 +72,11 @@ A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/t
 
 * Only the issuer can change the asset's script.
 
-### 1. Create an asset that behaves as non-scripted but can be upgraded later
+### 1. Create a smart asset
 
-Here you should use an [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md) and specify the script in this transaction.
+Here you can create a smartAsset via [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md) and specify the script in this transaction, you can also change a smartAsset’s script \(via [SetAssetScriptTx](/technical-details/data-structures.md)\) with script=“…” \(any script you want\).
 
-Here’s an example of JSON for IssueTxV2, this line ``"script" : "base64:AQa3b8tH"```  contains the compiled script \(“**true**” in the following example\):
+Here’s an example of JSON for [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md) , this line **"script" : "base64:AQa3b8tH"**  contains the compiled script \(which is equal to “**true**” in our example \):
 
 ```js
 {
@@ -95,7 +95,7 @@ Here’s an example of JSON for IssueTxV2, this line ``"script" : "base64:AQa3b8
 }
 ```
 
-### 1. Issue an unburnable asset
+### 2. Issue an unburnable asset
 
 ```js
 match tx {
@@ -104,14 +104,14 @@ match tx {
 }
 ```
 
-### 2. Freeze your assets till the certain height
+### 3. Freeze your assets till the certain height
 
 ```js
 let targetHeight = 1500000
 height >= targetHeight
 ```
 
-### 3. Require a fee in a certain asset to get a share after each transfer
+### 4. Require a fee in a certain asset to get a share after each transfer
 
 ```js
 match tx {
@@ -121,7 +121,7 @@ match tx {
 }
 ```
 
-### 4. Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
+### 5. Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
 
 ```js
 match tx {
@@ -132,7 +132,7 @@ match tx {
 }
 ```
 
-### 5. Issue an untransferable asset
+### 6. Issue an untransferable asset
 
 ```js
 match tx {
@@ -141,7 +141,7 @@ match tx {
 }
 ```
 
-### 6. Asset tradable only with BTC
+### 7. Asset tradable only with BTC
 
 ```js
 let BTCId = base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS'
@@ -152,7 +152,7 @@ match tx {
 }
 ```
 
-### 7. Require using a certain matcher
+### 8. Require using a certain matcher
 
 ```js
 match tx {
