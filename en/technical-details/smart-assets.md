@@ -98,7 +98,7 @@ Only the issuer can change the asset's script.
 
 ### 1. Issue an unburnable asset
 
-Here, we used [pattern matching ](/technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md)in order to issue an unburnable with a false value to burn transaction:
+For issue an unburnable asset you can use [pattern matching ](/technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md) with a `false` value to BurnTransaction:
 
 ```js
 match tx {
@@ -107,18 +107,18 @@ match tx {
 }
 ```
 
-### 2. Freeze your assets till the certain height
+### 2. Asset Freezing
 
-Here, we just defined a target height variable in order to freeze your assets till that height:
+You can freeze your assets till the certain height by defining a target height variable:
 
 ```js
 let targetHeight = 1500000
 height >= targetHeight
 ```
 
-### 3. Require a fee in a certain asset to get a share after each transfer
+### 3. Getting a share after each asset transfer
 
-Here, we just need to use transfer transaction depending on the asset id:
+For requiring a fee in a certain asset to get a share after each transfer you can use TransferTransaction depending on the asset id:
 
 ```js
 match tx {
@@ -128,9 +128,9 @@ match tx {
 }
 ```
 
-### 4. Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
+### 4. Transferring by issuer permission
 
-Here, we restricted the token transfer option to be done only by the token issuer's permission:
+You can restrict the token transfer option to be done only by the token issuer's permission \(commitment/debt label\):
 
 ```js
 match tx {
@@ -143,7 +143,7 @@ match tx {
 
 ### 5. Issue an untransferable asset
 
-To make the asset untransferable, we need to assign a false value to transfer, massTransfer and exchange Transaction:
+To make the asset untransferable, you can assign a `false` value to TransferTransaction, MassTransferTransaction and ExchangeTransaction:
 
 ```js
 match tx {
@@ -153,6 +153,8 @@ match tx {
 ```
 
 ### 6. Asset tradable only with BTC
+
+To allow asset trading only with bitcoins you can do as here:
 
 ```js
 let BTCId = base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS'
@@ -165,7 +167,7 @@ match tx {
 
 ### 7. Require using a certain matcher
 
-To define a certain matcher, we need to assign the matcher address as a sender value:
+To define a certain matcher, you can assign the matcher address as a sender value:
 
 ```js
 match tx {
