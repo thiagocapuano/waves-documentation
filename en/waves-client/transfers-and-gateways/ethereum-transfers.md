@@ -4,22 +4,31 @@ Waves allow you to hold and transfer Ethereum on its blockchain. This works thro
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-## How to deposit Ethereum
+# How to deposit Ethereum
 
 Open your Waves wallet  
 In the Ethereum section, click on the **Receive** button.
 
 ![](/_assets/ethereum_transfers_01.png)
 
-The following pop-up will appear.  
+The following window will appear. Before proceeding please carefully read the conditions:
+
+**The minimum amount of deposit is 0.001 BTC**
+```
+If you will send less than 0.001 BTC, you will lose that money.
+```
+**Send only BTC to this deposit address**
+```
+Sending any other currency to this address may result in the total loss of your deposit.
+```
+
 Copy the shown Ethereum address or Scan QR Code and send a payment.  
-Read the conditions carefully in yellow boxes before proceeding.
 
 ![](/_assets/ethereum_transfers_02.png)
 
 **Note**: Processing can take up to 120 minutes.
 
-# **How to send Ethereum**
+# How to send Ethereum
 
 Open your Waves wallet,  
 In the Ethereum section, click on the **Send** button.
@@ -28,7 +37,8 @@ In the Ethereum section, click on the **Send** button.
 
 The following pop-up will appear.  
 Paste the Ethereum address you want to send to as well as the amount of Ethereum.  
-Please note that the gateway charges 0.001 ETH for the gateway fee as well as 0.001 Waves for the network fee.
+Please note that the gateway charges **0.001 ETH** for the gateway fee as well as **0.001 Waves** for the network fee.
+**Before proceeding please carefully read the conditions**.
 
 After you have filled the form, click on the **Continue** button.
 
@@ -39,9 +49,9 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 ![](/_assets/ethereum_transfers_05.png)
 
-**Note**: Processing can take up to 120 minutes, the minimum amount is 0.005 ETH.
+**Note**: Processing can take up to 120 minutes.
 
-## How to create internal transaction through Waves network
+# How to create internal transaction through Waves network
 
 You can send Ethereum directly to another Waves account, just use the recipient Waves address, click on Send and fill-in the sending form.
 
