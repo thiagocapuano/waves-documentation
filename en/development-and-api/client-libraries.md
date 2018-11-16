@@ -5,7 +5,7 @@ Waves Full Node provides access to the [REST API](/en/development-and-api/node-a
 * [_**Python-PyWaves**_](/development-and-api/client-libraries/pywaves.md)
 * [_**Java-WavesJ**_](/development-and-api/client-libraries/wavesj.md)
 * [_**C\#-WavesCS**_](/development-and-api/client-libraries/wavescs.md)
-* [_**TypeScript/JavaScript**_](https://github.com/wavesplatform/waves-api)_**-Waves Signature Adapter**_
+* [_**TypeScript/JavaScript-Waves Signature Adapter**_](/development-and-api/client-libraries/waves-signature-adapter.md)
 * [_**C-WavesC**_](/development-and-api/client-libraries/waves-c.md)
 * [_**Waves Transactions**_](/development-and-api/client-libraries/waves-transactions.md)
 * [_**Community Libraries**_](/development-and-api/client-libraries/unofficial-libraries.md)
