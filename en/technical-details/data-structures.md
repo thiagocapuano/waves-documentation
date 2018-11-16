@@ -563,10 +563,11 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 | ChainId | Byte | 1 |
 | Sender's Public Key | PublicKeyAccount | 32 |
 | AssetId | Bytes | 32 |
-| Script object length \(N\) | Short | 2 |
-| Script object bytes | Bytes | N |
 | Fee | Long | 8 |
 | Timestamp | Long | 8 |
+| 1 if script is not null, 0 otherwise |  Byte |  1 |
+| Script object length \(N\) | Short | 2 |
+| Script object bytes | Bytes | N |
 | Proofs | Bytes | 64 |
 
 Below is a sample **Set Asset Script** encoded as **JSON**:
