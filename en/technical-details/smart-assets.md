@@ -73,7 +73,7 @@ A smart asset’s script validates any of the following transaction types with t
 
 A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/technical-details/data-structures.md).
 
-### Issue an unburnable asset
+### 1. Issue an unburnable asset
 
 ```js
 match tx {
@@ -82,53 +82,14 @@ match tx {
 }
 ```
 
-### Taxation
-
-```js
-match tx {
-  case t : MassTransferTransaction =>
-    let twoTransfers = size(t.transfers) == 2
-    let issuerIsRecipient = t.transfers[0].recipient == addressFromString("3MgkTXzD72BTfYpd9UW42wdqTVg8HqnXEfc")
-    let taxesPaid = t.transfers[0].amount >= t.transfers[1].amount / 10
-    twoTransfers && issuerIsRecipient && taxesPaid
-  case _ => false
-}
-```
-
-### Freeze your assets till the certain height
+### 2. Freeze your assets till the certain height
 
 ```js
 let targetHeight = 1500000
 height >= targetHeight
 ```
 
-### Whitelist transfer recipients
-
-```js
-match tx {
-  case t : TransferTransaction =>
-    let trustedRecipient1 = addressFromString("3P6ms9EotRX8JwSrebeTXYVnzpsGCrKWLv4")
-    let trustedRecipient2 = addressFromString("3PLZcCJyYQnfWfzhKXRA4rteCQC9J1ewf5K")
-    let trustedRecipient3 = addressFromString("3PHrS6VNPRtUD8MHkfkmELavL8JnGtSq5sx")
-    t.recipient == trustedRecipient1 || t.recipient == trustedRecipient2 || t.recipient == trustedRecipient3
-  case _ => false
-}
-```
-
-### Blacklist transfer recipients
-
-```js
-match tx {
-  case t : TransferTransaction =>
-    let bannedRecipient1 = addressFromString("3P6ms9EotRX8JwSrebeTXYVnzpsGCrKWLv4")
-    let bannedRecipient2 = addressFromString("3PLZcCJyYQnfWfzhKXRA4rteCQC9J1ewf5K")
-    let bannedRecipient3 = addressFromString("3PHrS6VNPRtUD8MHkfkmELavL8JnGtSq5sx")
-    t.recipient != bannedRecipient1 && t.recipient != bannedRecipient2 && t.recipient != bannedRecipient3
-  case _ => false
-}
-```
-
-### Require a fee in a certain asset to get a share after each transfer
+### 3. Require a fee in a certain asset to get a share after each transfer
 
 ```js
 match tx {
@@ -138,7 +99,7 @@ match tx {
 }
 ```
 
-### Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
+### 4. Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
 
 ```js
 match tx {
@@ -149,7 +110,7 @@ match tx {
 }
 ```
 
-### Issue an untransferable asset
+### 5. Issue an untransferable asset
 
 ```js
 match tx {
@@ -158,7 +119,7 @@ match tx {
 }
 ```
 
-### Asset tradable only with BTC
+### 6. Asset tradable only with BTC
 
 ```js
 let BTCId = base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS'
@@ -169,7 +130,7 @@ match tx {
 }
 ```
 
-### Require using a certain matcher
+### 7. Require using a certain matcher
 
 ```js
 match tx {
