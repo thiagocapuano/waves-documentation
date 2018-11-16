@@ -1,6 +1,6 @@
 # How to Lease your Waves
 
-# **Leasing or LPoS**
+# Leasing or LPoS
 
 [_**LPoS \(Leased Proof of Stake\)**_](/platform-features/leased-proof-of-stake-lpos.md) gives you the opportunity to make the network stronger and safer while receiving more Waves and other assets as a reward for doing so. It's the so called "Leasing".
 
@@ -8,7 +8,7 @@ Most people don't have 1000 WAVES to run their own node, so they are still able 
 
 Most big nodes pay in a one week cycle to their users.
 
-# **How to Lease Your Waves**
+# How to Lease Your Waves
 
 Open your Waves wallet and click on the **Leasing** button in the main menu
 
@@ -38,7 +38,7 @@ So it means that you have successfully leased your Waves.
 
 ![](/_assets/waves_leasing_05.png)
 
-# **How To Close Active Lease**
+# How to close Active Lease
 
 To cancel your lease simply open **Leasing** section in the Waves wallet and scroll down to Leasing Transactions.  
 Select the required leasing click on the icon in the right. Select **Cancel Leasing** in the drop-down menu.
