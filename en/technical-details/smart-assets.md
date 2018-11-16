@@ -62,21 +62,11 @@ A smart asset’s script validates any of [_**the following transaction**_](/tec
 
 **Note.** Smart Assets scripts **do not validate orders**. Therefore, although RIDE allows to use `case t : Order => …` branch, in fact this branch does not validate anything when used in SmartAssets’ scripts and will be ignored. So all the logic regarding orders should be moved to `case t : ExchangeTransaction => …` branch. The Sponsorship of smart assets is _**prohibited**_.
 
-## Examples of Scripts for Smart Assets
+## Smart Asset Creation
 
-A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/technical-details/data-structures.md) \([fee](/technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
+You can create a smartAsset via [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md) and specify the script in this transaction.
 
-### _Technical **Notes**_
-
-* The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: **'true' **which means the asset has a script and '**false**' when it does not have a script** **\(it's explained with an **example** below\).
-
-* Only the issuer can change the asset's script.
-
-### 1. Create a smart asset
-
-Here you can create a smartAsset via [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md) and specify the script in this transaction, you can also change a smartAsset’s script \(via [SetAssetScriptTx](/technical-details/data-structures.md)\) with script=“…” \(any script you want\).
-
-Here’s an example of JSON for [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md) , this line **"script" : "base64:AQa3b8tH"**  contains the compiled script \(which is equal to “**true**” in our example \):
+Here’s an example of JSON for [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md):
 
 ```js
 {
@@ -90,12 +80,23 @@ Here’s an example of JSON for [IssueTransaction\(Version2\)](/technical-detail
  "reissuable" : true,
  "fee" : 100000000,
  "timestamp" : 1537456619027,
- "script" : "base64:AQa3b8tH",
+ "script" : "base64:AQa3b8tH", // the compiled script “**true**”
  "proofs" : ["3fP2NNKtqRjJQsVXkhXKFcdU7YvRBrJ4Ren6tg8a3g1wuctrfp8PfDap6"]
 }
 ```
 
-### 2. Issue an unburnable asset
+**Note**
+The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: **'true'**.
+
+
+## Changing a Smart Asset's Script
+A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/technical-details/data-structures.md) \([fee](/technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
+
+Only the issuer can change the asset's script.
+
+## Examples of Scripts for Smart Assets
+
+### 1. Issue an unburnable asset
 
 Here, we used [pattern matching ](/technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md)in order to issue an unburnable with a false value to burn transaction:
 
@@ -106,7 +107,7 @@ match tx {
 }
 ```
 
-### 3. Freeze your assets till the certain height
+### 2. Freeze your assets till the certain height
 
 Here, we just defined a target height variable in order to freeze your assets till that height:
 
@@ -115,7 +116,7 @@ let targetHeight = 1500000
 height >= targetHeight
 ```
 
-### 4. Require a fee in a certain asset to get a share after each transfer
+### 3. Require a fee in a certain asset to get a share after each transfer
 
 Here, we just need to use transfer transaction depending on the asset id:
 
@@ -127,7 +128,7 @@ match tx {
 }
 ```
 
-### 5. Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
+### 4. Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
 
 Here, we restricted the token transfer option to be done only by the token issuer's permission:
 
@@ -140,7 +141,7 @@ match tx {
 }
 ```
 
-### 6. Issue an untransferable asset
+### 5. Issue an untransferable asset
 
 To maske the asset untransferable, we need to assign a false value to transfer, massTransfer and exchange Transaction:
 
@@ -151,7 +152,7 @@ match tx {
 }
 ```
 
-### 7. Asset tradable only with BTC
+### 6. Asset tradable only with BTC
 
 ```js
 let BTCId = base58'8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS'
@@ -162,7 +163,7 @@ match tx {
 }
 ```
 
-### 8. Require using a certain matcher
+### 7. Require using a certain matcher
 
 To define a certain matcher, we need to assign the matcher address as a sender value:
 
@@ -173,6 +174,3 @@ match tx {
   case _ => true
 }
 ```
-
-
-
