@@ -16,13 +16,6 @@ _**Smart assets**_ are unique virtual currency tokens that may represent a tangi
 
 In simple words, **Smart assets **are assets with an attached script which validates every transaction within that asset.
 
-**Notes:**
-
-* The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: `'true'`
-* A smart asset's script can be changed via [SetAssetScriptTransaction](/technical-details/data-structures.md) \([fee](/technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
-* Only the issuer can change the asset's script.
-* Sponsorship of smart assets is prohibited.
-
 ## Smart Assets Features
 
 * **Smart assets** will allow to apply constraints on all operations for a specific asset.
@@ -58,7 +51,7 @@ Trading on SmartAssets is allowed \(node validates every ExchangeTransaction usi
 
 ## Validation
 
-A smart asset’s script validates any of the following transaction types with the asset:
+A smart asset’s script validates any of [_**the following transaction**_](/technical-details/transactions-structure.md) types with the asset:
 
 1. ReissueTransaction
 2. BurnTransaction
@@ -67,11 +60,40 @@ A smart asset’s script validates any of the following transaction types with t
 5. ExchangeTransaction
 6. SetAssetScriptTransaction
 
-**Note.** Smart Assets’ scripts **do not validate orders**. Therefore, although RIDE allows to use `case t : Order => …` branch, in fact this branch does not validate anything when used in SmartAssets’ scripts and will be ignored. So all the logic regarding orders should be moved to `case t : ExchangeTransaction => …` branch.
+**Note.** Smart Assets scripts **do not validate orders**. Therefore, although RIDE allows to use `case t : Order => …` branch, in fact this branch does not validate anything when used in SmartAssets’ scripts and will be ignored. So all the logic regarding orders should be moved to `case t : ExchangeTransaction => …` branch. The Sponsorship of smart assets is _**prohibited**_.
 
 ## Examples of Scripts for Smart Assets
 
-A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/technical-details/data-structures.md).
+A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/technical-details/data-structures.md) \([fee](/technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
+
+### _Technical **Notes**_
+
+* The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: **'true' **which means the asset has a script and 'false' when it does not have a script** **\(it's explained with an **example** below\).
+
+* Only the issuer can change the asset's script.
+
+### 1. Create an asset that behaves as non-scripted but can be upgraded later
+
+Here you should use an [IssueTransaction\(Version2\)](/technical-details/transactions-structure.md) and specify the script in this transaction.
+
+Here’s an example of JSON for IssueTxV2, this line ``"script" : "base64:AQa3b8tH"```  contains the compiled script \(“**true**” in the following example\):
+
+```js
+{
+ "type" : 3,
+ "version" : 2,
+ "senderPublicKey" : "rWaQhEMTz6saZmZwLR3iuLBhCU2QSq51QmfTX9Je2Mk",
+ "name" : "mySmartAsset",
+ "description" : "my smart asset",
+ "quantity" : 2000000,
+ "decimals" : 6,
+ "reissuable" : true,
+ "fee" : 100000000,
+ "timestamp" : 1537456619027,
+ "script" : "base64:AQa3b8tH",
+ "proofs" : ["3fP2NNKtqRjJQsVXkhXKFcdU7YvRBrJ4Ren6tg8a3g1wuctrfp8PfDap6"]
+}
+```
 
 ### 1. Issue an unburnable asset
 
