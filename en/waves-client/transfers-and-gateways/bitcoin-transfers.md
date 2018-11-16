@@ -11,7 +11,17 @@ In the Bitcoin section, click on the **Receive** button.
 
 ![](/_assets/bitcoin_transfers_01.png)
 
-The following pop-up will appear.  
+The following window will appear. Before proceeding please carefully read the conditions:
+
+**The minimum amount of deposit is 0.001 BTC**
+```
+If you will send less than 0.001 BTC, you will lose that money.
+```
+**Send only BTC to this deposit address**
+```
+Sending any other currency to this address may result in the total loss of your deposit.
+```
+
 Copy the shown Bitcoin address or Scan QR Code and send a payment.  
 Read the conditions carefully in yellow boxes before proceeding.
 
