@@ -97,6 +97,8 @@ Here’s an example of JSON for [IssueTransaction\(Version2\)](/technical-detail
 
 ### 2. Issue an unburnable asset
 
+Here, we used [pattern matching ](/technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md)in order to issue an unburnable with a false value to burn transaction:
+
 ```js
 match tx {
   case t : BurnTransaction => false
@@ -106,12 +108,16 @@ match tx {
 
 ### 3. Freeze your assets till the certain height
 
+Here, we just defined a target height variable in order to freeze your assets till that height
+
 ```js
 let targetHeight = 1500000
 height >= targetHeight
 ```
 
 ### 4. Require a fee in a certain asset to get a share after each transfer
+
+Here, we just need to use transfer transaction depending on the asset id:
 
 ```js
 match tx {
