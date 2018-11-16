@@ -75,7 +75,7 @@ Each provider has its own Waves address. Before starting to supply information a
   "fee": 100000
 }
 ```
-Where `version` is a DataTransaction version of transaction (this information you can find in our documentation),  `sender` is a provider address, `data` consists of data entries each of which contains fields `key`, `type` and `value`, and `fee` is a fee amount in Waves. The token can have one status from scam one to proven or gateway. More detailed information about parameters you can find in the tables below.
+Where `version` is a DataTransaction version of transaction (this information you can find in our documentation),  `sender` is a provider address, `data` consists of data entries each of which contains fields `key`, `type` and `value`, and `fee` is a fee amount in Waves. The token's status can be "scam", "suspicious", "with detailed description", "proven" or "gateway". More detailed information about parameters you can find in the tables below.
 
 
 Table 1. Tokens statuses
