@@ -68,7 +68,7 @@ A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/t
 
 ### _Technical **Notes**_
 
-* The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: **'true' **which means the asset has a script and 'false' when it does not have a script** **\(it's explained with an **example** below\).
+* The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: **'true' **which means the asset has a script and '**false**' when it does not have a script** **\(it's explained with an **example** below\).
 
 * Only the issuer can change the asset's script.
 
