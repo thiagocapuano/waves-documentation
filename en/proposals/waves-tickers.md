@@ -14,9 +14,9 @@ The good example of such provider is [bettertokens](http://bettertokens.org/) - 
 ## Specification
 
 
-We plan that client interface will react to token’s rating respectively to the chosen listing. Our protocol is supposed to serve as an interaction between providers and blockchain. The provider can be both a centralized organization with a developed methodology and a decentralized service for ranking tokens by voting. 
+We plan that the client interface will react to a token’s rating respectively to the chosen listing. Our protocol is supposed to serve as an interaction between providers and the blockchain. A provider can be both a centralized organization with a developed methodology and a decentralized service for ranking tokens by voting. 
 
-Waves addresses of providers will be specified in the settings to read the corresponding account state with a rank. So that the user has the opportunity to choose a "good" provider, it is also planned to organize a rating of the providers, determined by users’ voting.
+The providers' accounts are specified in the settings so the ranking can be read from the corresponding account's state. So that the user has the opportunity to choose a "good" provider. It is also planned to organize a rating of the providers, determined by users’ voting.
 
 ![](/_assets/waves_ticker_1.png)
 
