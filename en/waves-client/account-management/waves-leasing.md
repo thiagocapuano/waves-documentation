@@ -11,9 +11,9 @@ Most big nodes pay in a one week cycle to their users. The LPoS reward depends o
 
 We do not regulate the payment process, so before using LPoS service, please read carefully the terms of payment and do your investigation of the pool that you want to use.
 
-The terms can vary between LPOS pools. Please use list of LPoS pools - https://wavesplatform.com/leasing#nodes
+The terms can vary between LPOS pools. Please use list of LPoS pools - https://forum.wavesplatform.com/c/pools
 
-To find the List of generators click [here](http://dev.pywaves.org/generators/) and to find Waves Nodes click [here](https://wavesplatform.com/leasing#nodes).
+To find the List of generators click [here](http://dev.pywaves.org/generators/).
 ```
 
 # How to Lease Your Waves
