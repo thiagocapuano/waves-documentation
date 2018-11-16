@@ -23,7 +23,6 @@ Sending any other currency to this address may result in the total loss of your 
 ```
 
 Copy the shown Bitcoin address or Scan QR Code and send a payment.  
-Read the conditions carefully in yellow boxes before proceeding.
 
 ![](/_assets/bitcoin_transfers_02.png)
 
