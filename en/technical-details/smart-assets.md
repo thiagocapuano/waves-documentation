@@ -80,16 +80,16 @@ Here’s an example of JSON for [IssueTransaction\(Version2\)](/technical-detail
  "reissuable" : true,
  "fee" : 100000000,
  "timestamp" : 1537456619027,
- "script" : "base64:AQa3b8tH", // the compiled script “**true**”
+ "script" : "base64:AQa3b8tH", // the compiled script “true”
  "proofs" : ["3fP2NNKtqRjJQsVXkhXKFcdU7YvRBrJ4Ren6tg8a3g1wuctrfp8PfDap6"]
 }
 ```
 
-**Note**
+**Note**  
 The assets that were issued without a script cannot become scripted. You can create an asset that behaves as non-scripted but can be upgraded later, by issuing an asset with a script: **'true'**.
 
-
 ## Changing a Smart Asset's Script
+
 A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/technical-details/data-structures.md) \([fee](/technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
 
 Only the issuer can change the asset's script.
@@ -174,3 +174,6 @@ match tx {
   case _ => true
 }
 ```
+
+
+
