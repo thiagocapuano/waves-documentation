@@ -6,7 +6,16 @@
 
 Most people don't have 1000 WAVES to run their own node, so they are still able to help the whole project through leasing their Waves to someone who is able to run a node.
 
+```
 Most big nodes pay in a one week cycle to their users.
+
+The LPoS reward depends on the conditions of the selected pool.
+We do not regulate the payment process, so before using LPoS service, please read carefully the terms of payment and do your investigation of the pool that you want to use.
+
+The terms can vary between LPOS pools. Please use list of LPoS pools - https://wavesplatform.com/leasing#nodes
+
+To find the List of generators click [here](http://dev.pywaves.org/generators/) and to find Waves Nodes click [here](https://wavesplatform.com/leasing#nodes).
+```
 
 # How to Lease Your Waves
 
@@ -47,13 +56,6 @@ Select the required leasing click on the icon in the right. Select **Cancel Leas
 
 That's it! You'll see the **The leasing canceled complete**.
 
-```
-The LPoS reward depends on the conditions of the selected pool.
-We do not regulate the payment process, so before using LPoS service, please read carefully the terms of payment and do your investigation of the pool that you want to use.
-The terms can vary between LPOS pools. Please use list of LPoS pools - https://wavesplatform.com/leasing#nodes
-```
-
-**Note.** To find the List of generators click [here](http://dev.pywaves.org/generators/) and to find Waves Nodes click [here](https://wavesplatform.com/leasing#nodes).
 ___
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
