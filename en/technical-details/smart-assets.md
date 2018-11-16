@@ -25,7 +25,7 @@ In simple words, **Smart assets **are assets with an attached script which valid
 
 Smart assets can be used in the following cases:
 
-1. **Freezing assets: **It is similar to keeping the assets untouched for a particular interval of time or for a certain height, This is useful in case of having multiple funding rounds.
+1. **Freezing assets:** It is similar to keeping the assets untouched for a particular interval of time or for a certain height, This is useful in case of having multiple funding rounds.
 2. **Whitelist/blacklist:** Giving the possibility to allow/deny making a transfer for specific addresses.
 3. **Taxation:** The issuer can get a share after each transaction.
 4. **Multi-signature:** It's a digital signature scheme which allows a group of users to sign a transaction, It requires another user or users to sign a transaction before it can be broadcast onto the blockchain.
@@ -143,7 +143,7 @@ match tx {
 
 ### 5. Issue an untransferable asset
 
-To maske the asset untransferable, we need to assign a false value to transfer, massTransfer and exchange Transaction:
+To make the asset untransferable, we need to assign a false value to transfer, massTransfer and exchange Transaction:
 
 ```js
 match tx {
