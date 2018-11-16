@@ -57,7 +57,7 @@
 | drop|Remmove sring prefix|  xs [String](#String) string    number [Int](#Int) prefix size  | [String](#String)
 | takeRight|Take string suffix|  @xs [String](#String) String    @number [Int](#Int) suffix size in characters  | [String](#String)
 | dropRight|Remove string suffix|  @xs [String](#String) string    @number [Int](#Int) suffix size in characters  | [String](#String)
-| _isInstanceOf|Internal function to check value type|  obj T value    of [String](#String) type name  | [Boolean](#Boolean)
+| isInstanceOf|Internal function to check value type|  obj T value    of [String](#String) type name  | [Boolean](#Boolean)
 | isDefined|Check the value is defined|  @a OPTION[ T] Option value  | [Boolean](#Boolean)
 | extract|Extract value from option or fail|  @a OPTION[ T] Optional value  |  T
 | throw|Fail script|  err [String](#String) Error message  | [Nothing](#Nothing)

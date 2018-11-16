@@ -108,7 +108,7 @@ match tx {
 
 ### 3. Freeze your assets till the certain height
 
-Here, we just defined a target height variable in order to freeze your assets till that height
+Here, we just defined a target height variable in order to freeze your assets till that height:
 
 ```js
 let targetHeight = 1500000
@@ -129,6 +129,8 @@ match tx {
 
 ### 5. Token that can be only transferred with the issuer’s permission \(commitment/debt label\)
 
+Here, we restricted the token transfer option to be done only by the token issuer's permission:
+
 ```js
 match tx {
   case t : TransferTransaction =>
@@ -139,6 +141,8 @@ match tx {
 ```
 
 ### 6. Issue an untransferable asset
+
+To maske the asset untransferable, we need to assign a false value to transfer, massTransfer and exchange Transaction:
 
 ```js
 match tx {
@@ -159,6 +163,8 @@ match tx {
 ```
 
 ### 8. Require using a certain matcher
+
+To define a certain matcher, we need to assign the matcher address as a sender value:
 
 ```js
 match tx {
