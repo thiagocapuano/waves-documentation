@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Waves allow you to hold and transfer Bitcoin on its blockchain. This works through a so-called Multigateway approach: Bitcoins are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin token \(wBTC\) on the Waves blockchain. Every single Bitcoin token is backed 1:1 with a real Bitcoin.
+Waves allow you to hold and transfer Bitcoin on its blockchain. This works through a so-called Multigateway approach: Bitcoins are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin token \(wBTC\) issued in the Waves blockchain. Every single Bitcoin token is backed 1:1 with the real Bitcoin.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 

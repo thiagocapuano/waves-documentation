@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Waves allow you to hold and transfer Ethereum on its blockchain. This works through a so-called Multigateway approach: Ethereum sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Ethereum token \(wETH\) on the Waves blockchain. Every single Ethereum token is backed 1:1 with a real Ethereum.
+Waves allow you to hold and transfer Ethereum on its blockchain. This works through a so-called Multigateway approach: Ethereum sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Ethereum token \(wETH\) issued in the Waves blockchain. Every single Ethereum token is backed 1:1 with the real Ethereum.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 

@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Waves allow you to hold and transfer Litecoin on its blockchain. This works through a so-called Multigateway approach: Litecoin sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Litecoin token \(wLTC\) on the Waves blockchain. Every single Litecoin token is backed 1:1 with a real Litecoin.
+Waves allow you to hold and transfer Litecoin on its blockchain. This works through a so-called Multigateway approach: Litecoin sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Litecoin token \(wLTC\) issued in the Waves blockchain. Every single Litecoin token is backed 1:1 with the real Litecoin.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
