@@ -1,8 +1,8 @@
 **Menu**:
 
 * [Introduction](#introduction)
-* [How to receive Bitcoin](#how-to-receive-ethereum)
-* [How to send Bitcoin](#how-to-send-ethereum)
+* [How to receive Ethereum](#how-to-receive-ethereum)
+* [How to send Ethereum](#how-to-send-ethereum)
 * [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
 
 ## Introduction

@@ -1,8 +1,8 @@
 **Menu**:
 
 * [Introduction](#introduction)
-* [How to receive Bitcoin](#how-to-receive-bitcoin-cash)
-* [How to send Bitcoin](#how-to-send-bitcoin-cash)
+* [How to receive Bitcoin Cash](#how-to-receive-bitcoin-cash)
+* [How to send Bitcoin Cash](#how-to-send-bitcoin-cash)
 * [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
 
 ## Introduction

@@ -1,8 +1,8 @@
 **Menu**:
 
 * [Introduction](#introduction)
-* [How to receive Bitcoin](#how-to-receive-litecoin)
-* [How to send Bitcoin](#how-to-send-litecoin)
+* [How to receive Litecoin](#how-to-receive-litecoin)
+* [How to send Litecoin](#how-to-send-litecoin)
 * [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
 
 ## Introduction

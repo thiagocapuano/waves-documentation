@@ -1,8 +1,8 @@
 **Menu**:
 
 * [Introduction](#introduction)
-* [How to receive Bitcoin](#how-to-receive-zcash)
-* [How to send Bitcoin](#how-to-send-zcash)
+* [How to receive Zcash](#how-to-receive-zcash)
+* [How to send Zcash](#how-to-send-zcash)
 * [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
 
 ## Introduction

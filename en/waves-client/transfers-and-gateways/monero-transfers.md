@@ -1,8 +1,8 @@
 **Menu**:
 
 * [Introduction](#introduction)
-* [How to receive Bitcoin](#how-to-receive-monero)
-* [How to send Bitcoin](#how-to-send-monero)
+* [How to receive Monero](#how-to-receive-monero)
+* [How to send Monero](#how-to-send-monero)
 * [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
 
 ## Introduction
