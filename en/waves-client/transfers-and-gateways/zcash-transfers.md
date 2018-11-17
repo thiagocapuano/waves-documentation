@@ -43,7 +43,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 ## **How to create internal transaction through Waves network**
 
-You can send Zcash directly to another Waves account, just use the recipient Waves address, click on Send and fill-in the sending form.
+You can send Zcash directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 
 **Note.** The network fee is only 0.001 Waves \(no gateway fee\)
 
