@@ -3,8 +3,8 @@
 **Menu**:
 
 * [**Introduction**](#Introduction)
-* [**How to receive Bitcoin**](#How-to-deposit-Bitcoin)
-* [**How to send Bitcoin**](#How-to send-Bitcoin)
+* [**How to receive Bitcoin**](#How-to-receive-Bitcoin)
+* [**How to send Bitcoin**](#How-to-send-Bitcoin)
 * [**How to create internal transaction through Waves network**](#How-to-create-internal-transaction-through-Waves-network)
 
 # Introduction
@@ -13,7 +13,7 @@ Waves allow you to hold and transfer Bitcoin on its blockchain. This works throu
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-# How to deposit Bitcoin
+# How to receive Bitcoin
 
 Open your Waves wallet,  
 In the Bitcoin section, click on the **Receive** button.
