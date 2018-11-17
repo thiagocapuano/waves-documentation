@@ -2,10 +2,10 @@
 
 **Menu**:
 
-* [**Introduction**](# Introduction)
-* [**How to receive Bitcoin**](# How to deposit Bitcoin)
-* [**How to send Bitcoin**](# How to send Bitcoin)
-* [**How to create internal transaction through Waves network**](# How to create internal transaction through Waves network)
+* [**Introduction**](#Introduction)
+* [**How to receive Bitcoin**](#How to deposit Bitcoin)
+* [**How to send Bitcoin**](#How to send Bitcoin)
+* [**How to create internal transaction through Waves network**](#How to create internal transaction through Waves network)
 
 # Introduction
 
