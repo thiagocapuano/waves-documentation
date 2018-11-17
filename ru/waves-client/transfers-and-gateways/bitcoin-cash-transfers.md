@@ -1,4 +1,11 @@
-# Как получить и отправить Bitcoin Cash
+**Меню**:
+
+* [Вступление](#вступление)
+* [Как получить Bitcoin Cash](#как-получить-bitcoin-cash)
+* [Как отправить Bitcoin Cash](#как-отправить-bitcoin-cash)
+* [Как перевести Bitcoin Cash в другой Waves аккаунт](#как-перевести-bitcoin-cash-в-другой-waves-аккаунт)
+
+## Вступление
 
 Waves client позволяет хранить и переводить Bitcoin Cash внутри сети Waves. Это возможно благодаря шлюзу: Bitcoin Cash поступают на Bitcoin Cash адрес выданный пользователю в Waves client, а взамен пользователь получает ассет Bitcoin Cash в сети Waves (wBCH). При выводе wBCH из сети Waves пользователь получает Bitcoin Cash из расчета 1:1.
 
