@@ -15,8 +15,8 @@ Read more about [What is a payment gateway?](/waves-client/frequently-asked-ques
 
 # How to receive Bitcoin
 
-Open your Waves wallet,  
-In the Bitcoin section, click on the **Receive** button.
+Open your Waves wallet.
+In the Bitcoin section click on the **Receive** button.
 
 ![](/_assets/bitcoin_transfers_01.png)
 
