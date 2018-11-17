@@ -7,17 +7,17 @@
 * [**How to send Bitcoin**](#3)
 * [**How to create internal transaction through Waves network**](#4)
 
+# Introduction
 <a name="1">
 </a>
-# Introduction
 
 Waves allow you to hold and transfer Bitcoin on its blockchain. This works through a so-called Multigateway approach: Bitcoins are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin token \(wBTC\) on the Waves blockchain. Every single Bitcoin token is backed 1:1 with a real Bitcoin.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
+# How to receive Bitcoin
 <a name="2">
 </a>
-# How to receive Bitcoin
 
 Open your Waves wallet.
 In the Bitcoin section click on the **Receive** button.
@@ -41,9 +41,9 @@ Copy the shown Bitcoin address or Scan QR Code and send a payment.
 
 **Note**: Processing can take up to 120 minutes.
 
+# How to send Bitcoin
 <a name="3">
 </a>
-# How to send Bitcoin
 
 Open your Waves wallet,  
 In the Bitcoin section, click on the **Send** button.
@@ -66,9 +66,9 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing can take up to 120 minutes.
 
+# How to create internal transaction through Waves network
 <a name="4">
 </a>
-# How to create internal transaction through Waves network
 
 You can send Bitcoins directly to another Waves account, just use the recipient Waves address, click on Send and fill-in the sending form.
 
