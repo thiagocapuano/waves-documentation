@@ -1,12 +1,17 @@
-# How to receive and send Litecoin
+**Menu**:
 
-# Introduction
+* [Introduction](#introduction)
+* [How to receive Bitcoin](#how-to-receive-litecoin)
+* [How to send Bitcoin](#how-to-send-litecoin)
+* [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
+
+## Introduction
 
 Waves allow you to hold and transfer Litecoin on its blockchain. This works through a so-called Multigateway approach: Litecoin sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Litecoin token \(wLTC\) on the Waves blockchain. Every single Litecoin token is backed 1:1 with a real Litecoin.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-# How to receive Litecoin
+## How to receive Litecoin
 
 Open your Waves wallet  
 In the Litecoin section, click on the **Receive** button.
@@ -30,7 +35,7 @@ Copy the shown Litecoin address or Scan QR Code and send a payment.
 
 **Note**: Processing may take up to 120 minutes.
 
-# How to send Litecoin
+## How to send Litecoin
 
 Open your Waves wallet  
 In the Litecoin section, click on the **Send** button.
@@ -53,7 +58,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing may take up to 120 minutes.
 
-# How to create internal transaction through Waves network
+## How to create internal transaction through Waves network
 
 You can send Litecoin directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 

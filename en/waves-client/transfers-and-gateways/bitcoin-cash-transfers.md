@@ -1,10 +1,17 @@
-# How to receive and send Bitcoin Cash
+**Menu**:
+
+* [Introduction](#introduction)
+* [How to receive Bitcoin](#how-to-receive-bitcoin-cash)
+* [How to send Bitcoin](#how-to-send-bitcoin-cash)
+* [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
+
+## Introduction
 
 Waves allow you to hold and transfer Bitcoin Cash on its blockchain. This works through a so-called Multigateway approach: Bitcoins Cash are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin Cash token \(wBCH\) on the Waves blockchain. Every single Bitcoin Cash token is backed 1:1 with a real Bitcoin Cash.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-## **How to receive Bitcoin Cash**
+## How to receive Bitcoin Cash
 
 Open your Waves wallet  
 In the Bitcoin Cash section, click on the **Receive** button.
@@ -19,7 +26,7 @@ Read the conditions carefully in yellow boxes before proceeding.
 
 **Note**: Processing can take up to 120 minutes.
 
-## **How to send Bitcoin Cash**
+## How to send Bitcoin Cash
 
 Open your Waves wallet  
 In the Bitcoin Cash section, click on the **Send** button.
@@ -41,7 +48,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing can take up to 120 minutes, the minimum amount is 0.001 BCH.
 
-## **How to create internal transaction through Waves network**
+## How to create internal transaction through Waves network
 
 You can send Bitcoin Cash directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 
