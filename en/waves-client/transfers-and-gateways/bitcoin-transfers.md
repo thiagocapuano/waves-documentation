@@ -24,11 +24,11 @@ If you will send less than 0.001 BTC, you will lose that money.
 Sending any other currency to this address may result in the total loss of your deposit.
 ```
 
-Copy the shown Bitcoin address or Scan QR Code and send a payment.  
+Copy the shown Bitcoin address or Scan QR Code and send a payment.
 
 ![](/_assets/bitcoin_transfers_02.png)
 
-**Note**: Processing can take up to 120 minutes.
+**Note**: Processing may take up to 120 minutes.
 
 # How to send Bitcoin
 
@@ -51,7 +51,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 ![](/_assets/bitcoin_transfers_05.png)
 
-**Note**: Processing can take up to 120 minutes.
+**Note**: Processing may take up to 120 minutes.
 
 # How to create internal transaction through Waves network
 

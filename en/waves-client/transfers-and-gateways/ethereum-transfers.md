@@ -1,5 +1,7 @@
 # How to receive and send Ethereum
 
+# Introduction
+
 Waves allow you to hold and transfer Ethereum on its blockchain. This works through a so-called Multigateway approach: Ethereum sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Ethereum token \(wETH\) on the Waves blockchain. Every single Ethereum token is backed 1:1 with a real Ethereum.
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
@@ -26,7 +28,7 @@ Copy the shown Ethereum address or Scan QR Code and send a payment.
 
 ![](/_assets/ethereum_transfers_02.png)
 
-**Note**: Processing can take up to 120 minutes.
+**Note**: Processing may take up to 120 minutes.
 
 # How to send Ethereum
 
@@ -49,7 +51,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 ![](/_assets/ethereum_transfers_05.png)
 
-**Note**: Processing can take up to 120 minutes.
+**Note**: Processing may take up to 120 minutes.
 
 # How to create internal transaction through Waves network
 
