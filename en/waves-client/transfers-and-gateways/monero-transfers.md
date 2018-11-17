@@ -3,7 +3,7 @@
 * [Introduction](#introduction)
 * [How to receive Monero](#how-to-receive-monero)
 * [How to send Monero](#how-to-send-monero)
-* [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
+* [How to transfer Monero to another Waves account](#how-to-transfer-monero-to-another-waves-account)
 
 ## Introduction
 
@@ -52,7 +52,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing can take up to 120 minutes.
 
-## How to create internal transaction through Waves network
+## How to transfer Monero to another Waves account
 
 You can send Monero directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 

@@ -3,7 +3,7 @@
 * [Introduction](#introduction)
 * [How to receive Dash](#how-to-receive-dash)
 * [How to send Dash](#how-to-send-dash)
-* [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
+* [How to transfer Dash to another Waves account](#how-to-transfer-dash-to-another-waves-account)
 
 ## Introduction
 
@@ -49,7 +49,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing can take up to 120 minutes.
 
-## How to create internal transaction through Waves network
+## How to transfer Dash to another Waves account
 
 You can send Dash directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 

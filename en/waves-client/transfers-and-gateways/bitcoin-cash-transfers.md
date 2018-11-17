@@ -3,7 +3,7 @@
 * [Introduction](#introduction)
 * [How to receive Bitcoin Cash](#how-to-receive-bitcoin-cash)
 * [How to send Bitcoin Cash](#how-to-send-bitcoin-cash)
-* [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
+* [How to transfer Bitcoin Cash to another Waves account](#how-to-transfer-bitcoin-cash-to-another-waves-account)
 
 ## Introduction
 
@@ -48,7 +48,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing can take up to 120 minutes, the minimum amount is 0.001 BCH.
 
-## How to create internal transaction through Waves network
+## How to transfer Bitcoin Cash to another Waves account
 
 You can send Bitcoin Cash directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 

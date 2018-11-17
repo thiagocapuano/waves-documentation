@@ -3,7 +3,7 @@
 * [Introduction](#introduction)
 * [How to receive Zcash](#how-to-receive-zcash)
 * [How to send Zcash](#how-to-send-zcash)
-* [How to create internal transaction through Waves network](#how-to-create-internal-transaction-through-waves-network)
+* [How to transfer Zcash to another Waves account](#how-to-transfer-zcash-to-another-waves-account)
 
 ## Introduction
 
@@ -48,7 +48,7 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 
 **Note**: Processing can take up to 120 minutes, the minimum amount is 0.1 ZEC.
 
-## How to create internal transaction through Waves network
+## How to transfer Zcash to another Waves account
 
 You can send Zcash directly to another Waves account. Just use the recipient **Waves** address, click on the **Send** and fill-in the sending form.
 
