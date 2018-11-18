@@ -25,7 +25,7 @@ The following window will appear. Before proceeding please carefully read the co
 ```
 If you will send less than 0.1 DASH, you will lose that money.
 ```
-**Send only ZEC to this deposit address**
+**Send only DASH to this deposit address**
 ```
 Sending any other currency to this address may result in the total loss of your deposit.
 ```
