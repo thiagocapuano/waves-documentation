@@ -19,9 +19,18 @@ In the Dash section, click on the **Receive**.
 
 ![](/_assets/dash_transfers_01.png)
 
-The following pop-up will appear.
+The following window will appear. Before proceeding please carefully read the conditions:
+
+**The minimum amount of deposit is 0.1 DASH**
+```
+If you will send less than 0.1 DASH, you will lose that money.
+```
+**Send only ZEC to this deposit address**
+```
+Sending any other currency to this address may result in the total loss of your deposit.
+```
+
 Copy the shown Dash address or Scan QR Code and send a payment.
-Read the conditions carefully in yellow boxes before proceeding.
 
 ![](/_assets/dash_transfers_02.png)
 
@@ -35,10 +44,10 @@ In the Dash section, click on the **Send** button.
 ![](/_assets/dash_transfers_03.png)
 
 The following pop-up will appear.
-
 Paste the Dash address you want to send to as well as the amount of Dash.
+Please note that the gateway charges **0.001 DASH** for the gateway fee as well as **0.001 Waves** for the network fee.
+**Before proceeding please carefully read the conditions**.
 
-Please note that the gateway charges 0.001 Dash for the gateway fee as well as 0.001 Waves for the network fee. Read the conditions carefully in yellow boxes before proceeding.
 After you have filled the form, click on the **Continue** button.
 
 ![](/_assets/dash_transfers_04.png)
