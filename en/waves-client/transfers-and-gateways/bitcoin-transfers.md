@@ -4,6 +4,7 @@
 * [How to receive Bitcoin](#how-to-receive-bitcoin)
 * [How to send Bitcoin](#how-to-send-bitcoin)
 * [How to transfer Bitcoin to another Waves account](#how-to-transfer-bitcoin-to-another-waves-account)
+* [More info](#more-info)
 
 ## Introduction
 
@@ -76,6 +77,8 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 ![](/_assets/bitcoin_transfers_08.png)
 
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

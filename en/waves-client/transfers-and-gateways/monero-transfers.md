@@ -4,6 +4,7 @@
 * [How to receive Monero](#how-to-receive-monero)
 * [How to send Monero](#how-to-send-monero)
 * [How to transfer Monero to another Waves account](#how-to-transfer-monero-to-another-waves-account)
+* [More info](#more-info)
 
 ## Introduction
 
@@ -70,6 +71,8 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 ![](/_assets/monero_transfers_08.png)
 
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

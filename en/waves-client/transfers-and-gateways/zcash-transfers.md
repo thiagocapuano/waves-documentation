@@ -4,6 +4,7 @@
 * [How to receive Zcash](#how-to-receive-zcash)
 * [How to send Zcash](#how-to-send-zcash)
 * [How to transfer Zcash to another Waves account](#how-to-transfer-zcash-to-another-waves-account)
+* [More info](#more-info)
 
 ## Introduction
 
@@ -66,6 +67,8 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 ![](/_assets/zcash_transfers_08.png)
 
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

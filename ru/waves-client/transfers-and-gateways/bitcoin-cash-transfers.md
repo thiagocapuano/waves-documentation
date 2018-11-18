@@ -4,6 +4,7 @@
 * [Как получить Bitcoin Cash](#как-получить-bitcoin-cash)
 * [Как отправить Bitcoin Cash](#как-отправить-bitcoin-cash)
 * [Как перевести Bitcoin Cash в другой Waves аккаунт](#как-перевести-bitcoin-cash-в-другой-waves-аккаунт)
+* [Больше информации](#больше-информации)
 
 ## Вступление
 
@@ -78,6 +79,8 @@ Bitcoin Cash поступают на Bitcoin Cash адрес выданный п
 ![](/_assets/bch_transfers_08.png)
 
 ___
+
+## Больше информации
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/wallet-management.md)
 

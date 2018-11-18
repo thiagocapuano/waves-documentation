@@ -4,6 +4,7 @@
 * [How to receive Dash](#how-to-receive-dash)
 * [How to send Dash](#how-to-send-dash)
 * [How to transfer Dash to another Waves account](#how-to-transfer-dash-to-another-waves-account)
+* [More info](#more-info)
 
 ## Introduction
 
@@ -67,6 +68,8 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 ![](/_assets/dash_transfers_08.png)
 
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

@@ -4,6 +4,7 @@
 * [How to receive Litecoin](#how-to-receive-litecoin)
 * [How to send Litecoin](#how-to-send-litecoin)
 * [How to transfer Litecoin to another Waves account](#how-to-transfer-litecoin-to-another-waves-account)
+* [More info](#more-info)
 
 ## Introduction
 
@@ -76,6 +77,8 @@ To complete the operation, click on the **Confirm** or **Back** to repeat the pr
 ![](/_assets/litecoin_transfers_08.png)
 
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 
