@@ -61,7 +61,7 @@ Waves also added trader’s script check in Matcher. When it receives an order f
 
 ### Fee Calculation Rules for trading
 
-Smart Accounts don’t pay extra 0.004 for Order placements. Exchange Transaction’s fee is not increased by +0.004 if any of the accounts is a Smart Account.
+Smart Accounts _**don’t pay extra 0.004**_ for Order placements. Exchange Transaction’s fee is _**not increased by +0.004**_ if any of the accounts is a Smart Account.
 
 ### Examples
 
