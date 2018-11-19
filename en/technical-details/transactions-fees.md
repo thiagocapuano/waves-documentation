@@ -22,12 +22,12 @@ There are currently 13 different types of transactions in the Waves Blockchain. 
 
 ## Fee Calculation with Smart Trading Feature
 
-The accounts pay the matcher for orders placement, then the matcher pays the fee when an _**ExchangeTransaction**_ is put to the blockchain and it doesn’t matter if the accounts are smart or not. But if the matcher is a SmartAccount \(has a script\) then the fee for the matcher is increased by 0.004
+The accounts pay the matcher for orders placement, then the matcher pays the fee when an _**ExchangeTransaction**_ is put to the blockchain and it doesn’t matter if the accounts are smart or not. But if the matcher is a SmartAccount \(has a script\) then the fee for the matcher is increased by 0.004.
 
 * If an Asset Pair contains a Smart Asset then the fee is increased by** + 0.004** \(**+0.008** if both assets are smart\).
-* It doesn't matter if any of the accounts is a SmartAccount, SmartAccounts pay in the same way as non-smart Accounts do.
-* Smart Accounts don’t pay extra** 0.004** for Order placements.
-* Exchange Transaction’s fee is not increased by **+0.004** if any of the accounts is a Smart Account.
+* It **doesn't** matter if any of the accounts is a Smart Account, Smart Accounts pay in the same way as non-smart Accounts do.
+* Smart Accounts **don’t** pay extra** 0.004** for Order placements.
+* Exchange Transaction’s fee is **not** increased by **+0.004** if any of the accounts is a Smart Account.
 
 **Examples: **
 
