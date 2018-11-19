@@ -41,7 +41,7 @@ As a result, We define the following constraint for a _**script cost**_:
 
 **Examples:**
 
-* If transaction's usual cost is 0.001 WAVES, in case of smart scripting exactly the same transaction will be cost 0.001 + 0.004 WAVES. 
+* If transaction's usual cost is 0.001 WAVES, in case of smart scripting exactly the same transaction will be cost 0.001 + 0.004 WAVES. 
 * Set Alias for an account without a script would cost 0.001 WAVES, whereas for a Smart Account it would be 0.001+0.004=0.005 WAVES.
 
 **Note. **All minimal transactions fees can be found [_**here**_](/technical-details/transactions-fees.md).
@@ -58,6 +58,10 @@ When an exchange transaction broadcasts to the UTX Pool and then to the blockcha
 * Exchange Transaction is checked by transaction sender’s \(Matcher’s\) script account if it’s set.
 
 Waves also added trader’s script check in Matcher. When it receives an order from a smart account, it executes the script for the order.
+
+### Fee Calculation Rules for trading
+
+Smart Accounts don’t pay extra 0.004 for Order placements. Exchange Transaction’s fee is not increased by +0.004 if any of the accounts is a Smart Account.
 
 ### Examples
 
