@@ -106,6 +106,8 @@ Only the issuer can change the asset's script.
 
 ## Examples of Scripts for Smart Assets
 
+You can find an example of _**SetAssetScript **_transaction on _**testnet**_ in the following [transactions examples](/development-and-api/waves-node-rest-api/example-transactions.md).
+
 ### 1. Issue an unburnable asset
 
 For issue an unburnable asset you can use [pattern matching ](/technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md) with a `false` value to BurnTransaction:
