@@ -19,9 +19,18 @@ In the Monero section, click on the **Receive**.
 
 ![](/_assets/monero_transfers_01.png)
 
-The following pop-up will appear.
+The following window will appear. Before proceeding please carefully read the conditions:
+
+**The minimum amount of deposit is 0.01 XMR**
+```
+If you will send less than 0.01 XMR, you will lose that money.
+```
+**Send only XMR to this deposit address**
+```
+Sending any other currency to this address may result in the total loss of your deposit.
+```
+
 Copy the shown Monero address or Scan QR Code and send a payment.
-Read the conditions carefully in yellow boxes before proceeding.
 
 **Note**: Monero Payment ID already included in the recipient Monero address.
 But if the sender side required Payment ID, please contact Coinomat support team - support@coinomat.com
@@ -41,8 +50,8 @@ The following pop-up will appear.
 
 Paste the Monero address you want to send to, Payment ID which you are getting from the recipient side as well as the amount of Monero.
 
-Please note that the gateway charges 0.01 Monero for the gateway fee as well as 0.001 Waves for the network fee. Read the conditions carefully in yellow boxes before proceeding.
-After you have filled the form, click on the **Continue** button.
+Please note that the gateway charges **0.01 XMR** for the gateway fee as well as **0.001 Waves** for the network fee.
+**Before proceeding please carefully read the conditions**.
 
 ![](/_assets/monero_transfers_04.png)
 

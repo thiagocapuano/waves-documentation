@@ -19,9 +19,18 @@ In the Bitcoin Cash section, click on the **Receive** button.
 
 ![](/_assets/bch_transfers_01.png)
 
-The following pop-up will appear.  
+The following window will appear. Before proceeding please carefully read the conditions:
+
+**The minimum amount of deposit is 0.001 BCH**
+```
+If you will send less than 0.001 BCH, you will lose that money.
+```
+**Send only BCH to this deposit address**
+```
+Sending any other currency to this address may result in the total loss of your deposit.
+```
+
 Copy the shown Bitcoin Cash address or Scan QR Code and send a payment.  
-Read the conditions carefully in yellow boxes before proceeding.
 
 ![](/_assets/bch_transfers_02.png)
 
@@ -36,7 +45,8 @@ In the Bitcoin Cash section, click on the **Send** button.
 
 The following pop-up will appear.  
 Paste the Bitcoin Cash address you want to send to as well as the amount of Bitcoin Cash.  
-Please note that the gateway charges 0.01 BCH for the gateway fee as well as 0.001 Waves for the network fee. Read the conditions carefully in yellow boxes before proceeding.
+Please note that the gateway charges **0.001 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
+**Before proceeding please carefully read the conditions**.
 
 After you have filled the form, click on the **Continue** button.
 
