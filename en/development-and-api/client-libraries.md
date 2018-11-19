@@ -7,7 +7,7 @@ Waves Full Node provides access to the [REST API](/en/development-and-api/node-a
 * _**C\#: **_[_**WavesCS**_](/development-and-api/client-libraries/wavescs.md).
 * **TypeScript/JavaScript:** [_**Waves Signature Adapter**_](/development-and-api/client-libraries/waves-signature-adapter.md) and [_**Waves Transactions**_](/development-and-api/client-libraries/waves-transactions.md).
 * **C: ** [_**WavesC**_](/development-and-api/client-libraries/waves-c.md).
-* [_**Community Libraries**_](/development-and-api/client-libraries/unofficial-libraries.md)
+* [_**Community Libraries**_](/development-and-api/client-libraries/unofficial-libraries.md).
 
 All libraries are open for contribution and testing.
 
