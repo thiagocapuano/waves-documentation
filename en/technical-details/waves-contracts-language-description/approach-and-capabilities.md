@@ -65,11 +65,9 @@ Waves also added trader’s script check in Matcher. When it receives an order f
 * Exchange Transaction’s fee is _**not increased by +0.004**_ if any of the accounts is a Smart Account.
 * If the matcher is a Smart Account\(has a script\) then the fee for the matcher is increased by 0.004.
 
-
-
 ### Examples
 
-1. An account can trade only with BTC:
+#### 1. An account can trade only with BTC:
 
 ```js
 let cooperPubKey = base58'BVqYXrapgJP9atQccdBPAgJPwHDKkh6A8'
@@ -81,7 +79,7 @@ match tx {
 }
 ```
 
-1. Buy back custom asset on specified price in WAVES:
+#### 2. Buy back custom asset on specified price in WAVES:
 
 ```js
 let myAssetId = base58'BVqYXrapgJP9atQccdBPAgJPwHDKkh6B9'
