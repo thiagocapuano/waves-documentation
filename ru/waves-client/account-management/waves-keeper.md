@@ -4,7 +4,7 @@ Waves platform имеет надежную систему безопасност
 
 Waves Keeper предназначен также и для удобства пользователей: вы можете подтверждать транзакции всего за пару кликов. Вы можете создавать несколько кошельков и легко переключаться между ними, и если вы забыли пароль для учетной записи, вы можете восстановить ее с помощью Seed фразы, как обычно.
 
-Чтобы установить расширение Google Chrome (в будущем мы планируем разработать такое же расширение для пользователей Firefox и Safari), откройте официальный [сайт](https://chrome.google.com/webstore/detail/waveskeeper/mloobbginacfkecaaihjhhdoljfgfncp) в Google Chrome и нажмите кнопку **Add to Chrome**.
+Чтобы установить расширение Google Chrome (в будущем мы планируем разработать такое же расширение для пользователей Firefox и Safari), откройте официальный [сайт](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en) в Google Chrome и нажмите кнопку **Add to Chrome**.
 
 ![](/_assets/waves_keeper_00.png)
 

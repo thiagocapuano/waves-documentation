@@ -8,7 +8,7 @@ Waves Keeper is designed for convenience, so you can sign transactions with just
 
 So, just install Google Chrome extension. Also, we plan to develop the same extension for Firefox and Safari users in the future.
 
-Open official [link](https://chrome.google.com/webstore/detail/waveskeeper/mloobbginacfkecaaihjhhdoljfgfncp) in Google Chrome and click on the **Add to Chrome**.
+Open official [link](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en) in Google Chrome and click on the **Add to Chrome**.
 
 ![](/_assets/waves_keeper_00.png)
 
