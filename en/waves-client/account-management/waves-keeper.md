@@ -1,4 +1,4 @@
-# How to use Waves Keeper (Not released)
+# How to use Waves Keeper
 
 Waves is a secure system, but we continue to take care of safekeeping of the clients funds. So, we developed and called it **Waves Keeper** because it allows you to hold your WAVES keys securely while interacting safely with third-party web resources. It is a kind of Simple Authentication and SSO for dApps or Waves-enabled web applications and enables you to sign transactions without entering your private key or password. Your seed is held securely within the extension and cannot be accessed by outside apps, keeping your funds safe from malicious sites.
 
