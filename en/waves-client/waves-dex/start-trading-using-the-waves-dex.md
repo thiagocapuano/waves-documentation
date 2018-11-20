@@ -1,4 +1,8 @@
-# Start trading using the Waves DEX
+**Menu**:
+
+* [How to buy crypto currency](#how-to-buy-crypto-currency)
+* [How to sell crypto currency](#how-to-sell-crypto-currency)
+* [More info](#more-info)
 
 Open up your Waves wallet.
 
@@ -18,7 +22,8 @@ Click on the found token.
 
 By default, all selected tokens in the ALL section will be adding to the pair with Waves.
 
-If you want to open an order with other pair, such as "Asset"/BTC please click on the BTC | ETH and type a name or asset ID in the search box.
+If you want to open an order with other pair, such as "Asset"/BTC please click on the BTC | ETH and type a name or asset ID in the search box. Or just use Asset ID with any other Asset ID in the search field. E.g. **DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J** /
+**8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS**.
 
 ![](/_assets/dex_05.png)
 
@@ -26,7 +31,7 @@ If you need more options, just click on the ETH and select the base currency fro
 
 ![](/_assets/dex_05_1.png)
 
-## **How to buy crypto currency**
+## How to buy crypto currency
 
 Choose a pair you want to work with and look at the right bottom corner.
 
@@ -54,7 +59,7 @@ The placed order will appears in the **My Open Orders** box and in the **Order B
 
 **Attention** The commission for creating **one buy or sell order** on the **DEX platform** is **0.003 Waves**. This amount will be frozen for the order fee. If the order is not executed and then canceled, the amount will be unfrozen.
 
-## **How to sell crypto currency**
+## How to sell crypto currency
 
 Choose a pair you want to work with and look at the right bottom corner.
 
@@ -84,5 +89,9 @@ The placed order will appears in the **My Open Orders** box and in the **Order B
 
 > *Before sending, receiving and trading crypto assets, educate yourself to make informed decisions. Crypto assets are volatile and the prices can go up and down. Carefully evaluate your trading goals and the financial risk you are willing to take.
 Please beware that Wavesplatform does not provide financial, tax, or legal advice. You should take such decisions on your own or consult with reliable experts*.
+
+___
+
+## More info
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com) ticket or write a [question](https://forum.wavesplatform.com) on our forum.
