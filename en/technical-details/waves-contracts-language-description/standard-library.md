@@ -4,123 +4,123 @@
 |type|adds|
 |-------|---|
 | [Unit](#Unit) | Native |   
-| [Int](#Int) | Native |   
-| [Boolean](#Boolean) | Native |   
-| [ByteVector](#ByteVector) | Native |   
-| [String](#String) | Native |   
-| [Address](#Address) |   <ul> <li> <b>bytes</b> <a> ByteVector </li></ul>|
-| [Alias](#Alias) |   <ul> <li> <b>alias</b> <a> String</li></ul>| 
+| <a>Int</a> | Native |   
+|  <a>Boolean</a> | Native |   
+| <a>ByteVector</a> | Native |   
+| <a>String | Native |   
+| <a>Address</a> |   <ul> <li> <b>bytes</b> <a> ByteVector </li></ul>|
+| <a>Alias</a> |   <ul> <li> <b>alias</b> <a> String</li></ul>|
 | [Transfer](#Transfer) |   <ul> <li> <b>recipient</b> <a>Address</a> <a>Alias </li> <li> <b>amount</b> <a>Int </li></ul>|
 | [Order](#Order) |   <ul> <li> <b>id</b> <a> ByteVector </li> <li> <b>matcherPublicKey</b> <a>ByteVector </li> <li> <b>assetPair</b> <a>AssetPair </li> <li> <b>orderType</b> <a>Buy</a> <a>Sell </li> <li> <b>price</b> <a>Int </li> <li> <b>amount</b> <a>Int </li> <li> <b>timestamp</b> <a>Int </li> <li> <b>expiration</b> <a> Int </li> <li> <b>matcherFee</b> <a>Int </li> <li> <b>sender</b> <a>Address </li> <li> <b>senderPublicKey</b> <a>ByteVector </li> <li> <b>bodyBytes</b> <a>ByteVector </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</li></ul>|
 | <a> AssetPair |   <ul> <li> <b>amountAsset</b> <a>OPTION(ByteVector)</li> <li> <b>priceAsset</b> <a>OPTION(ByteVector)</li></ul>|
-| [DataEntry](#DataEntry) |   <ul> <li> <b>key</b> [String](#String) </li> <li> <b>value</b>[Int](#Int) [Boolean](#Boolean) [ByteVector](#ByteVector) [String](#String) </li></ul>|
+| [DataEntry](#DataEntry) |   <ul> <li> <b>key</b> <a>String </li> <li> <b>value</b>  <a> Int </a> <a> Boolean </a> <a>ByteVector</a> <a>String </li></ul>|
 | [Transaction](#Transaction) |    [TransferTransaction](#TransferTransaction) [IssueTransaction](#IssueTransaction) [ReissueTransaction](#ReissueTransaction) [BurnTransaction](#BurnTransaction) [LeaseTransaction](#LeaseTransaction) [LeaseCancelTransaction](#LeaseCancelTransaction) [MassTransferTransaction](#MassTransferTransaction) [CreateAliasTransaction](#CreateAliasTransaction) [SetScriptTransaction](#SetScriptTransaction) [SponsorFeeTransaction](#SponsorFeeTransaction) [ExchangeTransaction](#ExchangeTransaction) [DataTransaction](#DataTransaction)
-| [GenesisTransaction](#GenesisTransaction) |   <ul> <li> <b>amount</b> [Int](#Int) </li> <li> <b>recipient</b>[Address](#Address) [Alias](#Alias) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li></ul>|
-| [PaymentTransaction](#PaymentTransaction) |   <ul> <li> <b>amount</b> [Int](#Int) </li> <li> <b>recipient</b>[Address](#Address) [Alias](#Alias) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [TransferTransaction](#TransferTransaction) |   <ul> <li> <b>feeAssetId</b> <a>OPTION(ByteVector)</li> <li> <b>amount</b> [Int](#Int) </li> <li> <b>assetId</b> <a>OPTION(ByteVector)</li> <li> <b>recipient</b>[Address](#Address) [Alias](#Alias) </li> <li> <b>attachment</b> [ByteVector](#ByteVector) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [IssueTransaction](#IssueTransaction) |   <ul> <li> <b>quantity</b> [Int](#Int) </li> <li> <b>name</b> [ByteVector](#ByteVector) </li> <li> <b>description</b> [ByteVector](#ByteVector) </li> <li> <b>reissuable</b> [Boolean](#Boolean) </li> <li> <b>decimals</b> [Int](#Int) </li> <li> <b>script</b> [OPTION](#OPTION)[ [ByteVector](#ByteVector)]</li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [ReissueTransaction](#ReissueTransaction) |   <ul> <li> <b>quantity</b> [Int](#Int) </li> <li> <b>assetId</b> [ByteVector](#ByteVector) </li> <li> <b>reissuable</b> [Boolean](#Boolean) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [BurnTransaction](#BurnTransaction) |   <ul> <li> <b>quantity</b> [Int](#Int) </li> <li> <b>assetId</b> [ByteVector](#ByteVector) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [LeaseTransaction](#LeaseTransaction) |   <ul> <li> <b>amount</b> [Int](#Int) </li> <li> <b>recipient</b>[Address](#Address) [Alias](#Alias) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [LeaseCancelTransaction](#LeaseCancelTransaction) |   <ul> <li> <b>leaseId</b> [ByteVector](#ByteVector) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [MassTransferTransaction](#MassTransferTransaction) |   <ul> <li> <b>feeAssetId</b> [OPTION](#OPTION)[ [ByteVector](#ByteVector)]</li> <li> <b>assetId</b> [OPTION](#OPTION)[ [ByteVector](#ByteVector)]</li> <li> <b>totalAmount</b> [Int](#Int) </li> <li> <b>transfers</b> [LIST](#LIST)[ [Transfer](#Transfer)]</li> <li> <b>transferCount</b> [Int](#Int) </li> <li> <b>attachment</b> [ByteVector](#ByteVector) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [CreateAliasTransaction](#CreateAliasTransaction) |   <ul> <li> <b>alias</b> [String](#String) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [SetScriptTransaction](#SetScriptTransaction) |   <ul> <li> <b>script</b> [OPTION](#OPTION)[ [ByteVector](#ByteVector)]</li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [SponsorFeeTransaction](#SponsorFeeTransaction) |   <ul> <li> <b>assetId</b> [ByteVector](#ByteVector) </li> <li> <b>minSponsoredAssetFee</b> [OPTION](#OPTION)[ [Int](#Int)]</li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [ExchangeTransaction](#ExchangeTransaction) |   <ul> <li> <b>buyOrder</b>[Order](#Order) </li> <li> <b>sellOrder</b>[Order](#Order) </li> <li> <b>price</b> [Int](#Int) </li> <li> <b>amount</b> [Int](#Int) </li> <li> <b>buyMatcherFee</b> [Int](#Int) </li> <li> <b>sellMatcherFee</b> [Int](#Int) </li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
-| [DataTransaction](#DataTransaction) |   <ul> <li> <b>data</b> [LIST](#LIST)[ [DataEntry](#DataEntry)]</li> <li> <b>id</b> [ByteVector](#ByteVector) </li> <li> <b>fee</b> [Int](#Int) </li> <li> <b>timestamp</b> [Int](#Int) </li> <li> <b>version</b> [Int](#Int) </li> <li> <b>sender</b>[Address](#Address) </li> <li> <b>senderPublicKey</b> [ByteVector](#ByteVector) </li> <li> <b>bodyBytes</b> [ByteVector](#ByteVector) </li> <li> <b>proofs</b> [LIST](#LIST)[ [ByteVector](#ByteVector)]</li></ul>|
+| [GenesisTransaction](#GenesisTransaction) |   <ul> <li> <b>amount</b> <a>Int</a> </li> <li> <b>recipient</b><a>Address</a> <a>Alias</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li></ul>|
+| [PaymentTransaction](#PaymentTransaction) |   <ul> <li> <b>amount</b> <a>Int</a> </li> <li> <b>recipient</b><a>Address</a> <a>Alias</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [TransferTransaction](#TransferTransaction) |   <ul> <li> <b>feeAssetId</b> <a>OPTION(ByteVector)</li> <li> <b>amount</b> <a>Int</a> </li> <li> <b>assetId</b> <a>OPTION(ByteVector)</li> <li> <b>recipient</b><a>Address</a> <a>Alias</a> </li> <li> <b>attachment</b> <a>ByteVector</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [IssueTransaction](#IssueTransaction) |   <ul> <li> <b>quantity</b> <a>Int</a> </li> <li> <b>name</b> <a>ByteVector</a> </li> <li> <b>description</b> <a>ByteVector</a> </li> <li> <b>reissuable</b>  <a>Boolean</a> </li> <li> <b>decimals</b> <a>Int</a> </li> <li> <b>script</b>  <a>OPTION(ByteVector)</a></li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [ReissueTransaction](#ReissueTransaction) |   <ul> <li> <b>quantity</b> <a>Int</a> </li> <li> <b>assetId</b> <a>ByteVector</a> </li> <li> <b>reissuable</b>  <a>Boolean</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [BurnTransaction](#BurnTransaction) |   <ul> <li> <b>quantity</b> <a>Int</a> </li> <li> <b>assetId</b> <a>ByteVector</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [LeaseTransaction](#LeaseTransaction) |   <ul> <li> <b>amount</b> <a>Int</a> </li> <li> <b>recipient</b><a>Address</a> <a>Alias</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [LeaseCancelTransaction](#LeaseCancelTransaction) |   <ul> <li> <b>leaseId</b> <a>ByteVector</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [MassTransferTransaction](#MassTransferTransaction) |   <ul> <li> <b>feeAssetId</b>  <a>OPTION(ByteVector)</a></li> <li> <b>assetId</b>  <a>OPTION(ByteVector)</a></li> <li> <b>totalAmount</b> <a>Int</a> </li> <li> <b>transfers</b> <a>LIST</a>[ [Transfer](#Transfer)]</li> <li> <b>transferCount</b> <a>Int</a> </li> <li> <b>attachment</b> <a>ByteVector</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [CreateAliasTransaction](#CreateAliasTransaction) |   <ul> <li> <b>alias</b> <a>String </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [SetScriptTransaction](#SetScriptTransaction) |   <ul> <li> <b>script</b>  <a>OPTION(ByteVector)</a></li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [SponsorFeeTransaction](#SponsorFeeTransaction) |   <ul> <li> <b>assetId</b> <a>ByteVector</a> </li> <li> <b>minSponsoredAssetFee</b>  <a>OPTION(Int)</a></li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [ExchangeTransaction](#ExchangeTransaction) |   <ul> <li> <b>buyOrder</b>[Order](#Order) </li> <li> <b>sellOrder</b>[Order](#Order) </li> <li> <b>price</b> <a>Int</a> </li> <li> <b>amount</b> <a>Int</a> </li> <li> <b>buyMatcherFee</b> <a>Int</a> </li> <li> <b>sellMatcherFee</b> <a>Int</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+| [DataTransaction](#DataTransaction) |   <ul> <li> <b>data</b> <a>LIST</a>[ [DataEntry](#DataEntry)]</li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
 
 # Input variables
 |vars|type|doc|
 |-------|---|---|
 | unit| [Unit](#Unit) | Single instance value|
-| height| [Int](#Int) | Current blockchain height|
+| height| <a>Int</a> | Current blockchain height|
 | tx| [Order](#Order) [TransferTransaction](#TransferTransaction) [IssueTransaction](#IssueTransaction) [ReissueTransaction](#ReissueTransaction) [BurnTransaction](#BurnTransaction) [LeaseTransaction](#LeaseTransaction) [LeaseCancelTransaction](#LeaseCancelTransaction) [MassTransferTransaction](#MassTransferTransaction) [CreateAliasTransaction](#CreateAliasTransaction) [SetScriptTransaction](#SetScriptTransaction) [SponsorFeeTransaction](#SponsorFeeTransaction) [ExchangeTransaction](#ExchangeTransaction) [DataTransaction](#DataTransaction)|  Processing transaction|
 
 
 # Functions
 |funcs|cost|doc|params|type|
 |-------|-|---|---|---|
-| fraction|1|Multiply and dividion with big integer intermediate representation|<ul> <li>value [Int](#Int) multiplyer</li> <li>numerator [Int](#Int) multiplyer</li> <li>denominator [Int](#Int) divisor</li></ul>| [Int](#Int)
-| size|1|Size of bytes vector|<ul> <li>byteVector [ByteVector](#ByteVector) vector</li></ul>| [Int](#Int)
-| toBytes|1|Bytes array representation|<ul> <li>b [Boolean](#Boolean) value</li></ul>| [ByteVector](#ByteVector)
-| toBytes|1|Bytes array representation|<ul> <li>n [Int](#Int) value</li></ul>| [ByteVector](#ByteVector)
-| toBytes|1|Bytes array representation|<ul> <li>s [String](#String) value</li></ul>| [ByteVector](#ByteVector)
-| take|1|Take firsts bytes subvector|<ul> <li>xs [ByteVector](#ByteVector) vector</li> <li>number [Int](#Int) Bytes number</li></ul>| [ByteVector](#ByteVector)
-| drop|1|Skip firsts bytes|<ul> <li>xs [ByteVector](#ByteVector) vector</li> <li>number [Int](#Int) Bytes number</li></ul>| [ByteVector](#ByteVector)
-| takeRight||Take vector tail|<ul> <li>@xs [ByteVector](#ByteVector) vector</li> <li>@number [Int](#Int) taking size</li></ul>| [ByteVector](#ByteVector)
-| dropRight||Cut vectors tail|<ul> <li>@xs [ByteVector](#ByteVector) vector</li> <li>@number [Int](#Int) cuting size</li></ul>| [ByteVector](#ByteVector)
-| size|1|Scting size in characters|<ul> <li>xs [String](#String) string</li></ul>| [Int](#Int)
-| toString|1|String representation|<ul> <li>b [Boolean](#Boolean) value</li></ul>| [String](#String)
-| toString|1|String representation|<ul> <li>n [Int](#Int) value</li></ul>| [String](#String)
-| take|1|Take string prefix|<ul> <li>xs [String](#String) sctring</li> <li>number [Int](#Int) prefix size in characters</li></ul>| [String](#String)
-| drop|1|Remmove sring prefix|<ul> <li>xs [String](#String) string</li> <li>number [Int](#Int) prefix size</li></ul>| [String](#String)
-| takeRight||Take string suffix|<ul> <li>@xs [String](#String) String</li> <li>@number [Int](#Int) suffix size in characters</li></ul>| [String](#String)
-| dropRight||Remove string suffix|<ul> <li>@xs [String](#String) string</li> <li>@number [Int](#Int) suffix size in characters</li></ul>| [String](#String)
-| _isInstanceOf|1|Internal function to check value type|<ul> <li>obj T value</li> <li>of [String](#String) type name</li></ul>| [Boolean](#Boolean)
-| isDefined||Check the value is defined|<ul> <li>@a OPTION[ T] Option value</li></ul>| [Boolean](#Boolean)
+| fraction|1|Multiply and dividion with big integer intermediate representation|<ul> <li>value <a>Int</a> multiplyer</li> <li>numerator <a>Int</a> multiplyer</li> <li>denominator <a>Int</a> divisor</li></ul>| <a>Int</a>
+| size|1|Size of bytes vector|<ul> <li>byteVector <a>ByteVector</a> vector</li></ul>| <a>Int</a>
+| toBytes|1|Bytes array representation|<ul> <li>b  <a>Boolean</a> value</li></ul>| <a>ByteVector</a>
+| toBytes|1|Bytes array representation|<ul> <li>n <a>Int</a> value</li></ul>| <a>ByteVector</a>
+| toBytes|1|Bytes array representation|<ul> <li>s <a>String value</li></ul>| <a>ByteVector</a>
+| take|1|Take firsts bytes subvector|<ul> <li>xs <a>ByteVector</a> vector</li> <li>number <a>Int</a> Bytes number</li></ul>| <a>ByteVector</a>
+| drop|1|Skip firsts bytes|<ul> <li>xs <a>ByteVector</a> vector</li> <li>number <a>Int</a> Bytes number</li></ul>| <a>ByteVector</a>
+| takeRight||Take vector tail|<ul> <li>@xs <a>ByteVector</a> vector</li> <li>@number <a>Int</a> taking size</li></ul>| <a>ByteVector</a>
+| dropRight||Cut vectors tail|<ul> <li>@xs <a>ByteVector</a> vector</li> <li>@number <a>Int</a> cuting size</li></ul>| <a>ByteVector</a>
+| size|1|Scting size in characters|<ul> <li>xs <a>String string</li></ul>| <a>Int</a>
+| toString|1|String representation|<ul> <li>b  <a>Boolean</a> value</li></ul>| <a>String
+| toString|1|String representation|<ul> <li>n <a>Int</a> value</li></ul>| <a>String
+| take|1|Take string prefix|<ul> <li>xs <a>String sctring</li> <li>number <a>Int</a> prefix size in characters</li></ul>| <a>String
+| drop|1|Remmove sring prefix|<ul> <li>xs <a>String string</li> <li>number <a>Int</a> prefix size</li></ul>| <a>String
+| takeRight||Take string suffix|<ul> <li>@xs <a>String String</li> <li>@number <a>Int</a> suffix size in characters</li></ul>| <a>String
+| dropRight||Remove string suffix|<ul> <li>@xs <a>String string</li> <li>@number <a>Int</a> suffix size in characters</li></ul>| <a>String
+| _isInstanceOf|1|Internal function to check value type|<ul> <li>obj T value</li> <li>of <a>String type name</li></ul>|  <a>Boolean</a>
+| isDefined||Check the value is defined|<ul> <li>@a OPTION[ T] Option value</li></ul>|  <a>Boolean</a>
 | extract||Extract value from option or fail|<ul> <li>@a OPTION[ T] Optional value</li></ul>|  T
-| throw|1|Fail script|<ul> <li>err [String](#String) Error message</li></ul>| [Nothing](#Nothing)
+| throw|1|Fail script|<ul> <li>err <a>String Error message</li></ul>| [Nothing](#Nothing)
 | throw||Fail script|<ul></ul>| [Nothing](#Nothing)
-| *|1|Integer multiplication|<ul> <li>a [Int](#Int) multiplyer</li> <li>b [Int](#Int) multiplyer</li></ul>| [Int](#Int)
-| /|1|Integer devision|<ul> <li>a [Int](#Int) divisible</li> <li>b [Int](#Int) divisor</li></ul>| [Int](#Int)
-| %|1|Modulo|<ul> <li>a [Int](#Int) divisible</li> <li>b [Int](#Int) divisor</li></ul>| [Int](#Int)
-| +|1|Integer sum|<ul> <li>a [Int](#Int) term</li> <li>b [Int](#Int) term</li></ul>| [Int](#Int)
-| -|1|Integer substitution|<ul> <li>a [Int](#Int) term</li> <li>b [Int](#Int) term</li></ul>| [Int](#Int)
-| +|10|Limited strings concatination|<ul> <li>a [String](#String) prefix</li> <li>b [String](#String) suffix</li></ul>| [String](#String)
-| +|10|Limited bytes vectors concatination|<ul> <li>a [ByteVector](#ByteVector) prefix</li> <li>b [ByteVector](#ByteVector) suffix</li></ul>| [ByteVector](#ByteVector)
-| &#61;&#61;|1|Equality|<ul> <li>a T value</li> <li>b T value</li></ul>| [Boolean](#Boolean)
-| !&#61;||Inequality|<ul> <li>@a T value</li> <li>@b T value</li></ul>| [Boolean](#Boolean)
-| &gt;&#61;|1|Integer grater or equal comparation|<ul> <li>a [Int](#Int) term</li> <li>b [Int](#Int) term</li></ul>| [Boolean](#Boolean)
-| &gt;|1|Integer grater comparation|<ul> <li>a [Int](#Int) term</li> <li>b [Int](#Int) term</li></ul>| [Boolean](#Boolean)
-| getElement|2|Get list element by position|<ul> <li>arr LIST[ T] list</li> <li>pos [Int](#Int) element position</li></ul>|  T
-| size|2|Size of list|<ul> <li>arr LIST[ T] list</li></ul>| [Int](#Int)
-| -||Change integer sign|<ul> <li>@n [Int](#Int) value</li></ul>| [Int](#Int)
-| !||unary negation|<ul> <li>@p [Boolean](#Boolean) boolean</li></ul>| [Boolean](#Boolean)
-| keccak256|10|256 bit Keccak/SHA-3/TIPS-202|<ul> <li>bytes [ByteVector](#ByteVector) value</li></ul>| [ByteVector](#ByteVector)
-| blake2b256|10|256 bit BLAKE|<ul> <li>bytes [ByteVector](#ByteVector) value</li></ul>| [ByteVector](#ByteVector)
-| sha256|10|256 bit SHA-2|<ul> <li>bytes [ByteVector](#ByteVector) value</li></ul>| [ByteVector](#ByteVector)
-| sigVerify|100|check signature|<ul> <li>message [ByteVector](#ByteVector) value</li> <li>sig [ByteVector](#ByteVector) signature</li> <li>pub [ByteVector](#ByteVector) public key</li></ul>| [Boolean](#Boolean)
-| toBase58String|10|Base58 encode|<ul> <li>bytes [ByteVector](#ByteVector) value</li></ul>| [String](#String)
-| fromBase58String|10|Base58 decode|<ul> <li>str [String](#String) base58 encoded string</li></ul>| [ByteVector](#ByteVector)
-| toBase64String|10|Base64 encode|<ul> <li>bytes [ByteVector](#ByteVector) value</li></ul>| [String](#String)
-| fromBase64String|10|Base64 decode|<ul> <li>str [String](#String) base64 encoded string</li></ul>| [ByteVector](#ByteVector)
-| transactionById|100|Lookup transaction|<ul> <li>id [ByteVector](#ByteVector) transaction Id</li></ul>| [Unit](#Unit) [GenesisTransaction](#GenesisTransaction) [PaymentTransaction](#PaymentTransaction) [TransferTransaction](#TransferTransaction) [IssueTransaction](#IssueTransaction) [ReissueTransaction](#ReissueTransaction) [BurnTransaction](#BurnTransaction) [LeaseTransaction](#LeaseTransaction) [LeaseCancelTransaction](#LeaseCancelTransaction) [MassTransferTransaction](#MassTransferTransaction) [CreateAliasTransaction](#CreateAliasTransaction) [SetScriptTransaction](#SetScriptTransaction) [SponsorFeeTransaction](#SponsorFeeTransaction) [ExchangeTransaction](#ExchangeTransaction) [DataTransaction](#DataTransaction)
-| transactionHeightById|100|get height when transaction was stored to blockchain|<ul> <li>id [ByteVector](#ByteVector) transaction Id</li></ul>| OPTION[ [Int](#Int)]
-| getInteger|100|get data from the account state|<ul> <li>addressOrAlias [Address](#Address) [Alias](#Alias) account</li> <li>key [String](#String) key</li></ul>| OPTION[ [Int](#Int)]
-| getBoolean|100|get data from the account state|<ul> <li>addressOrAlias [Address](#Address) [Alias](#Alias) account</li> <li>key [String](#String) key</li></ul>| OPTION[ [Boolean](#Boolean)]
-| getBinary|100|get data from the account state|<ul> <li>addressOrAlias [Address](#Address) [Alias](#Alias) account</li> <li>key [String](#String) key</li></ul>| OPTION[ [ByteVector](#ByteVector)]
-| getString|100|get data from the account state|<ul> <li>addressOrAlias [Address](#Address) [Alias](#Alias) account</li> <li>key [String](#String) key</li></ul>| OPTION[ [String](#String)]
-| getInteger|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key [String](#String) key</li></ul>| OPTION[ [Int](#Int)]
-| getBoolean|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key [String](#String) key</li></ul>| OPTION[ [Boolean](#Boolean)]
-| getBinary|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key [String](#String) key</li></ul>| OPTION[ [ByteVector](#ByteVector)]
-| getString|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key [String](#String) key</li></ul>| OPTION[ [String](#String)]
-| getInteger||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index [Int](#Int) index</li></ul>| OPTION[ [Int](#Int)]
-| getBoolean||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index [Int](#Int) index</li></ul>| OPTION[ [Boolean](#Boolean)]
-| getBinary||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index [Int](#Int) index</li></ul>| OPTION[ [ByteVector](#ByteVector)]
-| getString||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index [Int](#Int) index</li></ul>| OPTION[ [String](#String)]
-| addressFromPublicKey||Convert public key to account address|<ul> <li>@publicKey [ByteVector](#ByteVector) public key</li></ul>| [Address](#Address)
-| addressFromString||Decode account address|<ul> <li>@string [String](#String) string address represntation</li></ul>| OPTION[ [Address](#Address)]
-| addressFromRecipient|100|Extract address or lookup alias|<ul> <li>AddressOrAlias [Address](#Address) [Alias](#Alias) address or alias, usually tx.recipient</li></ul>| [Address](#Address)
-| assetBalance|100|get asset balance for account|<ul> <li>addressOrAlias [Address](#Address) [Alias](#Alias) account</li> <li>assetId OPTION[ [ByteVector](#ByteVector)] assetId (WAVES if none)</li></ul>| [Int](#Int)
-| wavesBalance||get WAVES balanse for account|<ul> <li>@addressOrAlias [Address](#Address) [Alias](#Alias) account</li></ul>| [Int](#Int)
+| *|1|Integer multiplication|<ul> <li>a <a>Int</a> multiplyer</li> <li>b <a>Int</a> multiplyer</li></ul>| <a>Int</a>
+| /|1|Integer devision|<ul> <li>a <a>Int</a> divisible</li> <li>b <a>Int</a> divisor</li></ul>| <a>Int</a>
+| %|1|Modulo|<ul> <li>a <a>Int</a> divisible</li> <li>b <a>Int</a> divisor</li></ul>| <a>Int</a>
+| +|1|Integer sum|<ul> <li>a <a>Int</a> term</li> <li>b <a>Int</a> term</li></ul>| <a>Int</a>
+| -|1|Integer substitution|<ul> <li>a <a>Int</a> term</li> <li>b <a>Int</a> term</li></ul>| <a>Int</a>
+| +|10|Limited strings concatination|<ul> <li>a <a>String prefix</li> <li>b <a>String suffix</li></ul>| <a>String
+| +|10|Limited bytes vectors concatination|<ul> <li>a <a>ByteVector</a> prefix</li> <li>b <a>ByteVector</a> suffix</li></ul>| <a>ByteVector</a>
+| &#61;&#61;|1|Equality|<ul> <li>a T value</li> <li>b T value</li></ul>|  <a>Boolean</a>
+| !&#61;||Inequality|<ul> <li>@a T value</li> <li>@b T value</li></ul>|  <a>Boolean</a>
+| &gt;&#61;|1|Integer grater or equal comparation|<ul> <li>a <a>Int</a> term</li> <li>b <a>Int</a> term</li></ul>|  <a>Boolean</a>
+| &gt;|1|Integer grater comparation|<ul> <li>a <a>Int</a> term</li> <li>b <a>Int</a> term</li></ul>|  <a>Boolean</a>
+| getElement|2|Get list element by position|<ul> <li>arr LIST[ T] list</li> <li>pos <a>Int</a> element position</li></ul>|  T
+| size|2|Size of list|<ul> <li>arr LIST[ T] list</li></ul>| <a>Int</a>
+| -||Change integer sign|<ul> <li>@n <a>Int</a> value</li></ul>| <a>Int</a>
+| !||unary negation|<ul> <li>@p  <a>Boolean</a> boolean</li></ul>|  <a>Boolean</a>
+| keccak256|10|256 bit Keccak/SHA-3/TIPS-202|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>ByteVector</a>
+| blake2b256|10|256 bit BLAKE|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>ByteVector</a>
+| sha256|10|256 bit SHA-2|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>ByteVector</a>
+| sigVerify|100|check signature|<ul> <li>message <a>ByteVector</a> value</li> <li>sig <a>ByteVector</a> signature</li> <li>pub <a>ByteVector</a> public key</li></ul>|  <a>Boolean</a>
+| toBase58String|10|Base58 encode|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>String
+| fromBase58String|10|Base58 decode|<ul> <li>str <a>String base58 encoded string</li></ul>| <a>ByteVector</a>
+| toBase64String|10|Base64 encode|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>String
+| fromBase64String|10|Base64 decode|<ul> <li>str <a>String base64 encoded string</li></ul>| <a>ByteVector</a>
+| transactionById|100|Lookup transaction|<ul> <li>id <a>ByteVector</a> transaction Id</li></ul>| [Unit](#Unit) [GenesisTransaction](#GenesisTransaction) [PaymentTransaction](#PaymentTransaction) [TransferTransaction](#TransferTransaction) [IssueTransaction](#IssueTransaction) [ReissueTransaction](#ReissueTransaction) [BurnTransaction](#BurnTransaction) [LeaseTransaction](#LeaseTransaction) [LeaseCancelTransaction](#LeaseCancelTransaction) [MassTransferTransaction](#MassTransferTransaction) [CreateAliasTransaction](#CreateAliasTransaction) [SetScriptTransaction](#SetScriptTransaction) [SponsorFeeTransaction](#SponsorFeeTransaction) [ExchangeTransaction](#ExchangeTransaction) [DataTransaction](#DataTransaction)
+| transactionHeightById|100|get height when transaction was stored to blockchain|<ul> <li>id <a>ByteVector</a> transaction Id</li></ul>| OPTION[ <a>Int</a>]
+| getInteger|100|get data from the account state|<ul> <li>addressOrAlias <a>Address</a> <a>Alias</a> account</li> <li>key <a>String key</li></ul>| OPTION[ <a>Int</a>]
+| getBoolean|100|get data from the account state|<ul> <li>addressOrAlias <a>Address</a> <a>Alias</a> account</li> <li>key <a>String key</li></ul>| OPTION[  <a>Boolean</a>]
+| getBinary|100|get data from the account state|<ul> <li>addressOrAlias <a>Address</a> <a>Alias</a> account</li> <li>key <a>String key</li></ul>| OPTION <a>ByteVector</a>
+| getString|100|get data from the account state|<ul> <li>addressOrAlias <a>Address</a> <a>Alias</a> account</li> <li>key <a>String key</li></ul>| OPTION[ <a>String]
+| getInteger|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key <a>String key</li></ul>| OPTION[ <a>Int</a>]
+| getBoolean|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key <a>String key</li></ul>| OPTION[  <a>Boolean</a>]
+| getBinary|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key <a>String key</li></ul>| OPTION <a>ByteVector</a>
+| getString|10|Find and extract data by key|<ul> <li>data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>key <a>String key</li></ul>| OPTION[ <a>String]
+| getInteger||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index <a>Int</a> index</li></ul>| OPTION[ <a>Int</a>]
+| getBoolean||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index <a>Int</a> index</li></ul>| OPTION[  <a>Boolean</a>]
+| getBinary||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index <a>Int</a> index</li></ul>| OPTION <a>ByteVector</a>
+| getString||Extract data by index|<ul> <li>@data LIST[ [DataEntry](#DataEntry)] DataEntry vector, usally tx.data</li> <li>@index <a>Int</a> index</li></ul>| OPTION[ <a>String]
+| addressFromPublicKey||Convert public key to account address|<ul> <li>@publicKey <a>ByteVector</a> public key</li></ul>| <a>Address</a>
+| addressFromString||Decode account address|<ul> <li>@string <a>String string address represntation</li></ul>| OPTION[ <a>Address</a>]
+| addressFromRecipient|100|Extract address or lookup alias|<ul> <li>AddressOrAlias <a>Address</a> <a>Alias</a> address or alias, usually tx.recipient</li></ul>| <a>Address</a>
+| assetBalance|100|get asset balance for account|<ul> <li>addressOrAlias <a>Address</a> <a>Alias</a> account</li> <li>assetId OPTION <a>ByteVector</a> assetId (WAVES if none)</li></ul>| <a>Int</a>
+| wavesBalance||get WAVES balanse for account|<ul> <li>@addressOrAlias <a>Address</a> <a>Alias</a> account</li></ul>| <a>Int</a>
 
 
 # Common fields
 |tx type|id | fee| timestamp|version|sender|senderPublicKey|bodyBytes|proofs|
 |---|---|---|---|---|---|---|---|---|
-|TransferTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|IssueTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|ReissueTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|BurnTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|LeaseTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|LeaseCancelTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|MassTransferTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|CreateAliasTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|SetScriptTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|SponsorFeeTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|ExchangeTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
-|DataTransaction|  [ByteVector](#ByteVector) |  [Int](#Int) |  [Int](#Int) |  [Int](#Int) |  [Address](#Address) |  [ByteVector](#ByteVector) |  [ByteVector](#ByteVector) |  LIST[[ByteVector](#ByteVector)]|
+|TransferTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|IssueTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|ReissueTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|BurnTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|LeaseTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|LeaseCancelTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|MassTransferTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|CreateAliasTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|SetScriptTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|SponsorFeeTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|ExchangeTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
+|DataTransaction|  <a>ByteVector</a> |  <a>Int</a> |  <a>Int</a> |  <a>Int</a> |  <a>Address</a> |  <a>ByteVector</a> |  <a>ByteVector</a> |  LIST[<a>ByteVector</a>]|
 
 
  <h1>Transfers fields</h1><table><tr><td></td><td>PaymentTransaction</td><td>TransferTransaction</td><td>MassTransferTransaction</td><tr><tr><td>amount</td><td>  <a href="#Int">Int</a></td><td>  <a href="#Int">Int</a></td><td>-</td></tr><tr><td>recipient</td><td>    <a href="#Address">Address</a> <a href="#Alias">Alias</a></td><td>    <a href="#Address">Address</a> <a href="#Alias">Alias</a></td><td>-</td></tr><tr><td>feeAssetId</td><td>-</td><td>  OPTION[<a href="#ByteVector">ByteVector</a>]</td><td>  OPTION[<a href="#ByteVector">ByteVector</a>]</td></tr><tr><td>assetId</td><td>-</td><td>  OPTION[<a href="#ByteVector">ByteVector</a>]</td><td>  OPTION[<a href="#ByteVector">ByteVector</a>]</td></tr><tr><td>attachment</td><td>-</td><td>  <a href="#ByteVector">ByteVector</a></td><td>  <a href="#ByteVector">ByteVector</a></td></tr><tr><td>totalAmount</td><td>-</td><td>-</td><td>  <a href="#Int">Int</a></td></tr><tr><td>transfers</td><td>-</td><td>-</td><td>  LIST[<a href="#Transfer">Transfer</a>]</td></tr><tr><td>transferCount</td><td>-</td><td>-</td><td>  <a href="#Int">Int</a></td></tr></table>
