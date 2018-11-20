@@ -22,8 +22,8 @@ Click on the found token.
 
 By default, all selected tokens in the ALL section will be adding to the pair with Waves.
 
-If you want to open an order with other pair, such as "Asset"/BTC please click on the BTC | ETH and type a name or asset ID in the search box. Or just use Asset ID with any other Asset ID in the search field. E.g. **DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J** /
-**8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS**.
+If you want to open an order with other pair, such as "Asset"/BTC please click on the BTC | ETH and type a name or asset ID in the search box. Or just use Asset ID with any other Asset ID in the search field.
+E.g. **DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J** / **8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS**.
 
 ![](/_assets/dex_05.png)
 
