@@ -57,7 +57,7 @@ broadcast(Tx)
   Here, We must obviously specify an increased fee \(find the formula for the calculation\) and we can explicitly specify senderPublicKey and in the second parameter we need to specify valid SEEDs \(2 of 3\):
 
 ```js
-const DataTx = data({data: [{key: "abcd", value: 42}], senderPublicKey: publicKey(), fee: 500000}, ["alice", null, "carol"])
+const DataTx = data({data: [{key: "abcd", value: 42}], senderPublicKey: publicKey(), fee: 500000}, ['alice', null, 'cooper'])
 broadcast(DataTx)
 ```
 
