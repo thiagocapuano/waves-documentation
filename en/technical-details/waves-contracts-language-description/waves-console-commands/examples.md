@@ -49,7 +49,7 @@ compile(contract())
 * Now We can create a transaction to set the script to our current account and broadcast the transaction to the blockchain      network:
 
 ```js
-const Tx = setScript({script: compile (contract())})
+const Tx = setScript({script: compile(contract())})
 broadcast(Tx)
 ```
 
