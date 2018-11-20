@@ -13,7 +13,7 @@ To get more information about the receiving amount, please see **Approximately**
 ![](/_assets/buying_waves_using_card_02.png)
 
 After you have filled the form, click on the **Continue** button and you will be forwarded to our gateway partner [Indacoin.com](https://indacoin.com/)
-Go through the verification and payment process and you'll receive your Waves within a few minutes.
+Go through the verification and payment process and you'll receive your Waves within a few minutes. Full identity verification is required when you create the first purchase. All subsequent purchases will need only the providing of the card details.
 
 ![](/_assets/buying_waves_using_card_03.png)
 
