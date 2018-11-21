@@ -23,7 +23,7 @@ In other words, there is practically no difference when using 8 or 16 nuclear CP
 
 The remaining blocks will be synchronized during normal operation.
 
-When synchronizing the state, an active writing to disk exceeds the IOPS values that the HDD gives. In particular, there may be delays when the operating system doesn't have enough physical memory. We recommend keeping at least 30% of the total memory for the needs of the operating system \(cache/buffers\).   
+When synchronizing the state, an active writing to disk exceeds the IOPS values that the HDD gives. In particular, there may be delays when the operating system doesn't have enough physical memory. We recommend keeping at least 30% of the total memory for the needs of the operating system \(cache/buffers\).  
 Therefore, we choose SSD.
 
 ## 3. Copy the finished node database
@@ -34,7 +34,7 @@ In this case, the longest operation is to download the archive. Then it is enoug
 
 ## Statistics \(0-1220000\).
 
-Block verification is not a linear operation, “heavy” blocks are verified longer. The ”heaviness" of a block is determined by the number and type of transactions it contains.  So the first blocks \(for example, the first 200.000\) are empty and verified much faster than the same number of blocks after the million.  On the chart it looks as follows:
+Block verification is not a linear operation, “heavy” blocks are verified longer. The ”heaviness" of a block is determined by the number and type of transactions it contains.  So the first blocks \(for example, the first 200.000\) are empty and verified much faster than the same number of blocks after the million.  On the chart it looks as follows: 
 
 ![](/assets/statistics_blocks_receiving.png)
 
