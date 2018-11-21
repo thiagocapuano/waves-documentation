@@ -1,4 +1,8 @@
-# How to receive and receive Asset
+**Menu**:
+
+* [How to receive Asset](#how-to-receive-asset)
+* [How to send Asset](#how-to-send-asset)
+* [More info](#more-info)
 
 ## How to receive Asset
 
@@ -49,6 +53,8 @@ Re-check entered data and click on the **Confirm** button.
 ![](/_assets/asset_transfers_04.png)
 
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 
