@@ -32,11 +32,11 @@ Therefore, we choose SSD.
 
 In this case, the longest operation is to download the archive. Then it is enough to unpack the archive files to the /var/lib/waves/data directory and run the node.  The remaining blocks will be synchronized during normal operation.
 
-## Statistics \(0-1220000\).
+## Statistics \(0-1220000\)
 
-Block verification is not a linear operation, “heavy” blocks are verified longer. The ”heaviness" of a block is determined by the number and type of transactions it contains.  So the first blocks \(for example, the first 200.000\) are empty and verified much faster than the same number of blocks after the million.  On the chart it looks as follows: 
+Block verification is not a linear operation, “heavy” blocks are verified longer. The ”heaviness" of a block is determined by the number and type of transactions it contains.  So the first blocks \(for example, the first 200.000\) are empty and verified much faster than the same number of blocks after the million.  On the chart it looks as follows:
 
-![](/assets/statistics_blocks_receiving.png)
+![](/_assets/statistics_blocks_receiving.png)
 
 The time to reach the block 1220000 on different CPUs \(number of cores and frequencies\) in numbers:
 
