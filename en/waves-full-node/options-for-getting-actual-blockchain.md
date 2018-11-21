@@ -19,7 +19,7 @@ After launch, the node begins to receive blocks from the network, verify them an
 
 In this case, we exclude network sharing costs \(we don’t count the time to download the file itself\). In addition, the import will not allow our node to "get on the fork"  
 The speed of block verification and signature verification affects the time of reaching the current state by the import method. These operations are performed on the CPU. The verification of the blocks goes in one stream, therefore, a gain in time will be given by a high-frequency CPU rather than a multicore one. The signature verification operation is multi-threaded, but against the background of block verification, it has an insignificant effect.  
-In other words, there is practically no difference when using 8 or 16 nuclear CPUs operating at the same frequency.
+In other words, there is practically no difference when using 8 or 16 cores CPUs operating at the same frequency.
 
 The remaining blocks will be synchronized during normal operation.
 
