@@ -1,4 +1,4 @@
-**Menu**:
+## **Contents**:
 
 * [Introduction](#introduction)
 * [How to receive Zcash](#how-to-receive-zcash)

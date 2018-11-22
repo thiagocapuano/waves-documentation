@@ -1,4 +1,4 @@
-**Menu**:
+## **Contents**:
 
 * [Introduction](#introduction)
 * [How to receive Dash](#how-to-receive-dash)

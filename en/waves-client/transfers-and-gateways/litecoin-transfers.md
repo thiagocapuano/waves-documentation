@@ -1,4 +1,4 @@
-**Menu**:
+## **Contents**:
 
 * [Introduction](#introduction)
 * [How to receive Litecoin](#how-to-receive-litecoin)

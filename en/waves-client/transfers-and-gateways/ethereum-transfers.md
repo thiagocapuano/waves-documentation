@@ -1,4 +1,4 @@
-**Menu**:
+## **Contents**:
 
 * [Introduction](#introduction)
 * [How to receive Ethereum](#how-to-receive-ethereum)
