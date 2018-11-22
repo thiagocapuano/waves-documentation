@@ -16,7 +16,7 @@ Copy the shown Monero address or Scan QR Code and send a payment.
 Read the conditions carefully in yellow boxes before proceeding.
 
 **Note**: Monero Payment ID already included in the recipient Monero address.
-But if the sender side required Payment ID, please contact Coinomat support team - support@coinomat.com
+But if the sender side required Payment ID, please contact Coinomat support team - **support@coinomat.com**
 
 ![](/_assets/monero_transfers_02.png)
 
