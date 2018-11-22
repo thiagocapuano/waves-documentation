@@ -3,7 +3,7 @@
 В данном разделе содержатся все необходимые сведения о транзакциях ввода и вывода криптовалют, которые поддерживает платформа Waves. Все транзакции с внешними криптовалютами обрабатываются [платежными шлюзами](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md).
 
 * [Переводы Waves](transfers-and-gateways/waves-transfers.md)
-* [Переводы Токенов](transfers-and-gateways/asset-transfers.md)
+* [Переводы Ассетов](transfers-and-gateways/asset-transfers.md)
 * [Переводы Bitcoin](transfers-and-gateways/bitcoin-transfers.md)
 * [Переводы Ethereum](transfers-and-gateways/ethereum-transfers.md)
 * [Переводы Litecoin](transfers-and-gateways/litecoin-transfers.md)

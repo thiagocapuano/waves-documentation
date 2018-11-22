@@ -18,7 +18,7 @@ A user initiates his willingness to buy or sell assets by creating, signing and 
 | matcher | PublicKeyAccount | Public key of matcher to whom user authorize to match his order |
 | spendAssetId | Option\[Array\[Byte\]\] | Asset Id that creator wants to spend after exchange. Empty spendAssetId means **WAVES** |
 | receiveAssetId | Option\[Array\[Byte\]\] | Asset Id that creator wants to receive after exchange. Empty receiveAssetId means **WAVES** |
-| price | Long | 10^\(8+marketDecimals-assetDecimals\) |
+| price | Long | 10^\(8+Asset2Decimals-Asset1Decimals\) |
 | amount | Long | Amount in `Asset1` |
 | expiration | Long | Max time of open order to live before execution. Currently, max is 1 month |
 | matcherFee | Long | Fee which goes to Matcher for order matching \(execution\) |
@@ -48,7 +48,7 @@ else if (spendAssetId == Asset1) OrderType.SELL
 
 When a new `Order` is submitted to the Matcher all its fields are validated:
 
-1. _`amount`_ should be &gt; 0 and &lt; MaxAmount
+1. `amount` should be &gt; 0 and &lt; MaxAmount
 2. `price` should be &gt; 0 and &lt;MaxAmount
 3. `matcherFee` be &gt; 0 and &lt; MaxAmount
 4. `maxTimestamp` should be &gt; now and &lt; than 30 days in the future

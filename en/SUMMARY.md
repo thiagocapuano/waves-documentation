@@ -67,7 +67,6 @@
 * [Advanced features](waves-client/advanced_features.md)
   * [Script transaction](waves-client/advanced_features/script_transaction.md)
   * [JSON confirmation](waves-client/advanced_features/json_confirmation.md)
-
 * [Mobile applications](waves-client/mobile-apps.md)
   * [Waves Wallet for iOS Devices](waves-client/mobile-apps/iOS.md)
     * [iOS: Account Management](waves-client/mobile-apps/iOS/account-management.md)
@@ -87,7 +86,6 @@
       * [Asset transfers](waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.md)
     * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading using the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-using-the-waves-dex.md)
-
 * [FAQ](waves-client/faq.md)
   * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
@@ -145,12 +143,14 @@
   * [Waves-NG Solution](technical-details/waves-ng-solution.md)
   * [Sponsored Fee](technical-details/sponsored-fee.md)
   * [Transactions Structure](technical-details/transactions-structure.md)
+  * [Transactions Fees](technical-details/transactions-fees.md)
 * [Client Libraries](development-and-api/client-libraries.md)
   * [PyWaves](development-and-api/client-libraries/pywaves.md)
   * [WavesJ](development-and-api/client-libraries/wavesj.md)
   * [WavesCS](development-and-api/client-libraries/wavescs.md)
   * [WavesC](development-and-api/client-libraries/waves-c.md)
   * [WavesRS](development-and-api/client-libraries/wavesrs.md)
+  * [Waves Signature Adapter](development-and-api/client-libraries/waves-signature-adapter.md)
   * [Waves Transactions](development-and-api/client-libraries/waves-transactions.md)
   * [Community Libraries](development-and-api/client-libraries/unofficial-libraries.md)
 * [DEX API](development-and-api/dex-api.md)
@@ -168,9 +168,10 @@
   * [Utils](development-and-api/waves-node-rest-api/utils.md)
   * [Examples of Transactions](development-and-api/waves-node-rest-api/example-transactions.md)
 * [Client API](development-and-api/client-api/overview.md)
-  * [Web auth API](development-and-api/client-api/auth-api.md)
+  * [Web Auth API](development-and-api/client-api/auth-api.md)
   * [Payment API](development-and-api/client-api/payments-api.md)
-* [Waves Keeper API](development-and-api/waves-keeper-api/waves-keeper-api.md)
+* [Waves Keeper](development-and-api/waves-keeper-api/overview.md)
+  * [Waves Keeper API](development-and-api/waves-keeper-api/waves-keeper-api.md)
 * [Examples](development-and-api/examples.md)
   * [Create Your First crypto Trading Bot](development-and-api/examples/trading-bot.md)
 
@@ -179,3 +180,4 @@
 * [Sponsored transactions](proposals/sponsored-transactions.md)
 * [Versioned transactions](proposals/versioned-transactions.md)
 * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
+

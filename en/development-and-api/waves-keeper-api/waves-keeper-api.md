@@ -113,7 +113,7 @@ Waves.signAndPublishTransaction({
 
 ## Sign Request
 
-This function returns signature of data. The full request is:
+This function returns the signature of data. The full request is:
 
 `Waves.signRequest(SIGN_REQUEST_DATA)`
 

@@ -1,6 +1,6 @@
 # 1. Video Tutorials
 
-Here you can find some video tutorial about our smart contracts use-cases which were build using:
+Here you can find some video tutorials about our smart contracts use-cases which were build using:
 
 1. [Waves IDE](https://ide.wavesplatform.com)
 2. [WaveJ \(Waves Java Library\) ](/development-and-api/client-libraries/wavesj.md)
@@ -40,6 +40,24 @@ Waves IDE has a **Waves console** feature which supports different commands.
 
 * [_**Video**_](https://www.youtube.com/watch?v=gBgLjg6nrvA&amp=&feature=youtu.be)
 * [_**Waves Console Commands Examples**_](/technical-details/waves-contracts-language-description/waves-console-commands.md)
+
+## 1.5 Create MultiSig Account via Waves Client
+
+[In this tutorial](https://www.youtube.com/watch?v=OIQoheOYJw8), we went through Waves Client advanced features which are:
+
+1. Get the transaction as JSON.
+2. Attach a script to your account.
+
+As a first step in our example, we created a script for 2 of 2 MultiSig account, Attach the script to our account via Waves client and then made a transfer transaction with two signatures.
+
+## 1.6 Create MultiSig Account via Waves IDE tools
+
+[In this tutorial](https://www.youtube.com/watch?v=8DKRGnwsBjk), we went through Waves IDE Tools which are:
+
+1. Multisignature account wizard.
+2. Transfer Tx generator.
+
+As a first step in our example, we created and deployed a script for 2 of 2 MultiSig account by using the Multisignature account wizard and then made a transfer transaction with two signatures\(proofs\) by using Transfer Tx generator.
 
 # 2. Smart Contract Articles
 
