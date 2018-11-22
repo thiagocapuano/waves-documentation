@@ -1,6 +1,6 @@
 # ​How to burn issued Token
 
-You can burn extra tokens if you are the asset issuer or if the received spam tokens and you no longer want to see it in the Waves account.
+You can burn extra tokens if you are the asset issuer or if you received spam tokens and you no longer want to see it in the Waves account.
 
 Open up your Waves wallet.
 
