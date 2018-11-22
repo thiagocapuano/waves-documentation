@@ -38,9 +38,7 @@ Block verification is not a linear operation, “heavy” blocks are verified lo
 
 ![](/_assets/statisticsBlocksReceiving.png)
 
-
-
-### The time to reach the block 1220000 on different CPUs \(number of cores and frequencies\) in numbers:
+The time to reach the block 1220000 on different CPUs \(number of cores and frequencies\) in numbers:
 
 | CPU/MEM | Synchronization time | Import time |
 | :--- | :--- | :--- |
