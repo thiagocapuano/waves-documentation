@@ -1,4 +1,4 @@
-**Menu**:
+## **Contents**:
 
 * [How to buy crypto currency](#how-to-buy-crypto-currency)
 * [How to sell crypto currency](#how-to-sell-crypto-currency)

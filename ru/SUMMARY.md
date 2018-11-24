@@ -49,7 +49,7 @@
     * [Перевод EUR и USD](waves-client/transfers-and-gateways/eur-usd-transfers.md)
     * [Покупка Waves с банковской карты](waves-client/transfers-and-gateways/buying-waves-using-card.md)
   * [Waves DEX](waves-client/waves-dex.md)
-    * [Использование биржи DEX](waves-client/waves-dex/start-trading-using-the-waves-dex.md)
+    * [Использование биржи DEX](waves-client/waves-dex/sstart-trading-on-the-waves-dex.md)
   * [Управление ассетами](waves-client/assets-management.md)
     * [Создание токена](waves-client/assets-management/issue-an-asset.md)
     * [Перевыпуск токена](waves-client/assets-management/reissue-an-asset.md)

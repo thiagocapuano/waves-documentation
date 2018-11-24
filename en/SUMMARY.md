@@ -55,7 +55,7 @@
   * [EURO and USD transfers](waves-client/transfers-and-gateways/eur-usd-transfers.md)
   * [Buying Waves using credit or debit card](waves-client/transfers-and-gateways/buying-waves-using-card.md)
 * [Waves DEX](waves-client/waves-dex.md)
-  * [Start trading using the Waves DEX](waves-client/waves-dex/start-trading-using-the-waves-dex.md)
+  * [Start trading on the Waves DEX](waves-client/waves-dex/start-trading-on-the-waves-dex.md)
 * [Assets Management](waves-client/assets-management.md)
   * [Token creation](waves-client/assets-management/issue-an-asset.md)
   * [Token reissuing](waves-client/assets-management/reissue-an-asset.md)
@@ -180,4 +180,3 @@
 * [Sponsored transactions](proposals/sponsored-transactions.md)
 * [Versioned transactions](proposals/versioned-transactions.md)
 * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
-
