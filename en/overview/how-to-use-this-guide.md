@@ -1,7 +1,5 @@
 # How To Use This Guide?
 
-{% prettylink link="президент.роисси.рф/test/?34567sdfsdfdsfsesefsefesfesfsefsfesffsefesfsefsefesef34567sdfsdfdsfsesefsefesfesfsefsfesffsefesfsefsefesef34567sdfsdfdsfsesefsefesfesfsefsfesffsefesfsefsefesef34567sdfsdfdsfsesefsefesfesfsefsfesffsefesfsefsefesef" %}blah-blah-blah{% endprettylink %}
-
 In this guide, you can find all the information about Waves Platform as the structure shown below:
 
 1. [Overview](#overview)
