@@ -2,6 +2,7 @@
   "plugins": [
     "custom-js-css",
     "tree-shaper@git+https://github.com/KardanovIR/gitbook-plugin-tree-shaper.git",
+    "pretty-link@git+https://github.com/Shushik/gitbook-plugin-pretty-link.git",
     "headers-with-anchors@git+https://github.com/Shushik/gitbook-plugin-headers-with-anchors.git",
     "custom-favicon"
   ],
@@ -17,6 +18,7 @@
       ],
       "css": [
         "_theme/tree-shaper.css",
+        "_theme/pretty-link.css",
         "_theme/headers-with-anchors.css"
       ]
     }
