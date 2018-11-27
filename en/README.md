@@ -12,5 +12,5 @@ _**Waves Platform is a comprehensive blockchain platform that features **_[_**fi
 * [_**Leased Proof-of-Stake\(LPoS\)**_](/platform-features/leased-proof-of-stake-lpos.md) algorithm to find a distributed consensus.
 * Built on top of the Scorex framework.
 
-**Note.**If you're a new reader, please check our [_**DOCUMENTATION GUIDE**_](/overview/how-to-use-this-guide.md).
 
+{% prettyhint type="info" %} If you're a new reader, please check our [_**DOCUMENTATION GUIDE**_](/overview/how-to-use-this-guide.md) {% endprettyhint %}
