@@ -1,4 +1,4 @@
-[\[\]\(/development-and-api/waves-keeper-api/overview.md](/development-and-api/waves-keeper-api/overview.md)\)\# Getting Started as a Developer
+# Getting Started as a Developer
 
 1. [Overview](#overview)
 2. [Client Libraries](#client-libraries)
