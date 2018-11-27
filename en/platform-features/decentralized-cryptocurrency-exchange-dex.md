@@ -1,6 +1,6 @@
 # Decentralized Exchange (DEX) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
-1. [Motivation](#motivation)
+1. [Motivation](#section-50063dd43f8c41269fe69fa46a556490)
 2. [Decentralized Exchange](#decentralized-exchange)
 3. [Waves DEX](#waves-dex)
 4. [Matcher Fee Calculation](#matcher-fee-calculation)
