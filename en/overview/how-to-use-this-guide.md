@@ -1,5 +1,14 @@
 # How To Use This Guide?
 
+{% prettylink link="https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo" %}Download{% endprettylink %}
+
+{% prettyhint type="hint" %}
+    *Some text yay*
+    test
+    1. first item;
+    2. second item.
+{% endprettyhint %}
+
 In this guide, you can find all the information about Waves Platform as the structure shown below:
 
 1. [Overview](#overview)
