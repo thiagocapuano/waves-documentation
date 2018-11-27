@@ -2,7 +2,7 @@
 
 {% prettylink link="https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo" %}Download{% endprettylink %}
 
-{% prettylink link="https://chrome-ext.wvservices.com/" %}Demo Page{% endprettylink %}
+{% prettylink link="https://chrome-ext.wvservices.com" %}Demo Page{% endprettylink %}
 
  
 
