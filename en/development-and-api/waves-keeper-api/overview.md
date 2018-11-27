@@ -1,6 +1,11 @@
 # About Waves Keeper
 
-[_**Waves Keeper**_](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo) is an extension that allows you to interact with _**Waves-enabled web services**_ securely from your Chrome browser.  
+[_**Waves Keeper**_](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo) is an extension that allows you to interact with _**Waves-enabled web services**_ securely from your Chrome browser.
+
+{% prettylink link="/development-and-api/waves-keeper-api/waves-keeper-api.md" %}Waves Keeper API{% endprettylink %}
+
+
+
 
 ## Waves Keeper Features
 
@@ -13,7 +18,5 @@
 * Users can create multiple wallets and switch between them easily, and if the user ever forget the password to the account, he can recover it from his SEED, as normal.
 
 You can view the [source code for Waves Keeper on GitHub](https://github.com/wavesplatform/waveskeeper), or check it like any other [Chrome extension](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo).
-
-{% prettylink link="/development-and-api/waves-keeper-api/waves-keeper-api.md" %}Waves Keeper API{% endprettylink %}
 
 
