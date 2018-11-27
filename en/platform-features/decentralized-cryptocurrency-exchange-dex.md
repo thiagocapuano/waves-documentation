@@ -1,4 +1,4 @@
-# Decentralized Exchange \(DEX\) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
+# Decentralized Exchange (DEX) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
 1. [Motivation](#motivation)
 2. [Decentralized Exchange](#decentralized-exchange)
@@ -56,7 +56,7 @@ If the order is **partially** executed by some deal-transaction, matcherFee is i
 
 The remaining matcher fee for this order will be included in other transactions until order's full execution.
 
-## 3.1 Example:
+## 3.1 Example
 
 There are 3 different orders \(Figure 2\): two buy orders and one sell. For each full order, a user has to pay exactly **0.003 waves** of a fee, and this fee will be written off as the order is executed. In our example:
 
@@ -95,7 +95,7 @@ The current balance in `asset`:
 * [WAVES](../development-and-api/waves-node-rest-api/address.md#get-addressesbalanceaddress);
 * [assets](../development-and-api/waves-node-rest-api/address.md#get-assetsbalanceaddress).
 
-## spendings\_of\_asset\_in\_transactions\_in\_utx\_pool
+## spendings of asset in transactions in utx pool
 
 The sum of all spending by the asset of unconfirmed transactions.
 
@@ -104,7 +104,7 @@ and these transactions haven't yet forged, `spendings_of_WAVES_in_transactions_i
 
 Note: UTX pool of one node could not be the same as on other node.
 
-## reserved\_balance\_for\_asset
+## reserved balance for asset
 
 Also known as `open volume`. The sum of all spending by the asset of all orders in pairs with this asset.
 
