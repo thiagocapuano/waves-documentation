@@ -1,6 +1,6 @@
 # Waves Keeper API
 
-[Download](https://drive.google.com/drive/folders/1m4dD4C8pEJ4y6-hpauF9TGSIsevY-3me?usp=sharing)
+[Download](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo)
 
 [Demo page](https://chrome-ext.wvservices.com/)
 
