@@ -14,3 +14,6 @@
 
 You can view the [source code for Waves Keeper on GitHub](https://github.com/wavesplatform/waveskeeper), or check it like any other [Chrome extension](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo).
 
+{% prettylink link="/development-and-api/waves-keeper-api/waves-keeper-api.md" %}Waves Keeper API{% endprettylink %}
+
+
