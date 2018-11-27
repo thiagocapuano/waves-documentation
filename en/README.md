@@ -13,4 +13,4 @@ _**Waves Platform is a comprehensive blockchain platform that features **_[_**fi
 * Built on top of the Scorex framework.
 
 
-{% prettyhint type="info" %} If you're a new reader, please check our [_**DOCUMENTATION GUIDE**_](/overview/how-to-use-this-guide.md) {% endprettyhint %}
+{% prettyhint type="info" %} If you're a new reader, please check our <a href="/overview/how-to-use-this-guide.md"> DOCUMENTATION GUIDE </a> {% endprettyhint %}
