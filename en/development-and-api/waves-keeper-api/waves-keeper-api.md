@@ -1,6 +1,6 @@
 # Waves Keeper API
 
-[Download](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo)
+{% prettylink link="https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo" %}Download{% endprettylink %}
 
 [Demo page](https://chrome-ext.wvservices.com/)
 
