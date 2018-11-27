@@ -4,8 +4,7 @@
     "tree-shaper@git+https://github.com/KardanovIR/gitbook-plugin-tree-shaper.git",
     "pretty-link@git+https://github.com/Shushik/gitbook-plugin-pretty-link.git",
     "headers-with-anchors@git+https://github.com/Shushik/gitbook-plugin-headers-with-anchors.git",
-    "custom-favicon",
-    "copy-code-button"
+    "custom-favicon"
   ],
   "pluginsConfig": {
     "gtm": {
