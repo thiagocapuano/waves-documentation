@@ -15,14 +15,13 @@ This will give you all the information you need as a developer to get started in
 
 ## Client Libraries
 
-Waves Client is supported by many libraries, please Get to know our client libraries_** **_and use them depending on which language you're familiar with:
+Waves Client is supported by many libraries, please Get to know our client libraries\_** **\_and use them depending on which language you're familiar with:
 
-* [_**Python-PyWaves**_](/development-and-api/client-libraries/pywaves.md)
-* [_**Java-WavesJ**_](/development-and-api/client-libraries/wavesj.md)
-* [_**C\#-WavesCS**_](/development-and-api/client-libraries/wavescs.md)
-* [_**TypeScript/JavaScript-Waves Signature Adapter**_](/development-and-api/client-libraries/waves-signature-adapter.md)
-* [_**C-WavesC**_](/development-and-api/client-libraries/waves-c.md)
-* [_**Waves Transactions**_](/development-and-api/client-libraries/waves-transactions.md)
+* [_**Python: PyWaves**_](/development-and-api/client-libraries/pywaves.md)
+* [_**Java: WavesJ**_](/development-and-api/client-libraries/wavesj.md)
+* [_**C\#: WavesCS**_](/development-and-api/client-libraries/wavescs.md)
+* [_**TypeScript/JavaScript, Waves Signature Adapter**_](/development-and-api/client-libraries/waves-signature-adapter.md) and [_**Waves Transactions**_](#)
+* [_**C: WavesC**_](/development-and-api/client-libraries/waves-c.md)
 * [_**Community Libraries**_](/development-and-api/client-libraries/unofficial-libraries.md)
 
 ## Node REST API
