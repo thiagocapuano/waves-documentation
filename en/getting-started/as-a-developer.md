@@ -1,4 +1,4 @@
-# Getting Started as a Developer
+[\[\]\(/development-and-api/waves-keeper-api/overview.md](/development-and-api/waves-keeper-api/overview.md)\)\# Getting Started as a Developer
 
 1. [Overview](#overview)
 2. [Client Libraries](#client-libraries)
@@ -62,7 +62,7 @@ Please take a look to [_**Waves DEX API **_](/development-and-api/dex-api/matche
 
 ## Keeper API
 
-Check the new [_**Waves Keeper**_](/development-and-api/waves-keeper-api/waves-keeper-api.md) browser extension which turns your browser into a keychain that enables you to sign transactions securely on third-party web resources without entering your seed or password. So now, if a Waves-integrated website or Dapp requires you to sign a transaction, you can do it with just a couple of clicks, right in your browser.
+Check the new [_**Waves Keeper **_](/en/development-and-api/waves-keeper-api/overview.md)browser extension which turns your browser into a keychain that enables you to sign transactions securely on third-party web resources without entering your seed or password. So now, if a Waves-integrated website or Dapp requires you to sign a transaction, you can do it with just a couple of clicks, right in your browser.
 
 The extension will be particularly _**useful to developers**_ who want to embed Waves functionality in their projects, because it supports the Auth and Payment APIs. For testing purposes you can switch between using it on MainNet and TestNet.
 
