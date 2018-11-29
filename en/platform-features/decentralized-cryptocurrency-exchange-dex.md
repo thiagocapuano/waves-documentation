@@ -1,12 +1,12 @@
 # Decentralized Exchange (DEX) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
 1. [Motivation](#section-50063dd43f8c41269fe69fa46a556490)
-2. [Decentralized Exchange](#decentralized-exchange)
-3. [Waves DEX](#waves-dex)
-4. [Matcher Fee Calculation](#matcher-fee-calculation)
-5. [Tradable Balance](#tradable-balance)
-6. [Installing DEX](#installing-dex)
-7. [Installing your Own Matcher](#installing-your-own-matcher)
+2. [Decentralized Exchange](#section-5eac62efecd14f59a7538b4889e78667)
+3. [Waves DEX](#section-c2a0ffafa28a38b6bcc0a76785704185)
+4. [Matcher Fee Calculation](#section-a11fec1e6a79da6f3707177bc8f31282)
+5. [Tradable Balance](#section-5b93ee4bb1086faecef207bdd1e12cfe)
+6. [Installing DEX](#section-2704bcb73bc56ab90c3904dffdff1895)
+7. [Installing your Own Matcher](#section-29d324a61d60bb625930291898846701)
 
 # Motivation {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
@@ -83,8 +83,8 @@ To sum up, for all time the matcher keeps only 18.74% of fees and everything els
 Tradable balance shows, how much you can spend in orders. It calculates by the formula:
 
 ```
-tradable_balance(asset) = balance_of_asset - 
-  spendings_of_asset_in_transactions_in_utx_pool - 
+tradable_balance(asset) = balance_of_asset -
+  spendings_of_asset_in_transactions_in_utx_pool -
   reserved_balance_for_asset
 ```
 
@@ -132,4 +132,3 @@ So, you can buy `WAVES` for `BTC` even if you have no `WAVES`.
 * When a user sends an order to Matcher he doesn't transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order.
 
 **Note.** Find more technical details about the Matcher [**here.**](/development-and-api/dex-api/matcher.md)
-
