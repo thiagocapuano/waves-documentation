@@ -100,7 +100,7 @@
       * [Create a personal Alias](waves-client/mobile-apps/iOS/account-management/creating-an-alias.md)
       * [Lease Your Waves tokens](waves-client/mobile-apps/iOS/account-management/waves-leasing.md)
     * [Android: Assets Management](waves-client/mobile-apps/android/assets-management.md)
-      * [Token burning](en/waves-client/mobile-apps/android/assets-management/burn-an-asset.md)
+      * [Token burning](waves-client/mobile-apps/android/assets-management/burn-an-asset.md)
     * [Android: Transfers and gateways](waves-client/mobile-apps/android/wallet-management.md)
       * [Waves transfers](waves-client/mobile-apps/android/transfers-and-gateways/waves-transfers.md)
       * [Asset transfers](waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.md)
