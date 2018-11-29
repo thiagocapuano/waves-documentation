@@ -1,9 +1,9 @@
 # Leased Proof of Stake (LPoS)
 
 1. [Overview](#overview)
-2. [Proof of Work](#proof-of-work)
-3. [Proof of Stake](#proof-of-stake)
-4. [Leased Proof of Stake](#leased-proof-of-stake)
+2. [Proof of Work](#section-bca88d7b19d1d7fe3f1486630763d510)
+3. [Proof of Stake](#section-876cd5d6902e2205e65ec50e3605d5cf)
+4. [Leased Proof of Stake](#section-f420ab9b3a0abef324c2651efc4583ba)
 
 # Overview
 
