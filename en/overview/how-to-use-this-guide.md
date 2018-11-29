@@ -64,7 +64,7 @@ This section contains all information about Installing, configuring and upgradin
 4. [Upgrading](../waves-full-node/upgrading.md)
 5. [How to Rollback a Node](../waves-full-node/how-to-rollback-a-node.md)
 6. [Waves Node in Docker](../waves-full-node/waves-node-in-docker.md)
-7. [How to Configure a node](../waves-full-node/how-to-configure-a-node.md)
+7. [How to Configure a node](../waves-full-node/configuration-parameters.md)
 8. [Joining Testnet](../waves-full-node/joining-testnet.md)
 
 # Smart Contracts
