@@ -1,4 +1,4 @@
-**Menu**:
+## **Contents**:
 
 * [Introduction](#introduction)
 * [How to receive Bitcoin Cash](#how-to-receive-bitcoin-cash)

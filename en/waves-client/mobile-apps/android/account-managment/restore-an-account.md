@@ -1,42 +1,73 @@
-# Restore Your Account
+## **Contents**:
 
-**Step 1.** Download and install the latest version from Google Play. Please use only the [official resource](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
+* [How to restore your account](#how-to-restore-your-account)
+* [How to pairing accounts between devices](#how-to-pairing-accounts-between-devices)
+* [More info](#more-info)
 
-**Step 2.** Open your wallet and click on the **IMPORT WALLET** button.
+## How to restore your account
 
-![](/_assets/account_restoring_android_01.png)
+Download and install the latest version from the App Store.  
+Please use only the [official link](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 
-**Step 3.** At the bottom of the next window, click on the **Enter seed manually**.
+Open the installed app.
+Choose language and click on the **Continue**
 
-![](/_assets/account_restoring_android_02.png)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_01.png)
 
-**Step 4.** Copy and paste or type your SEED into blank text field.  
-Click on the **Continue** button and you will be forwarded to the user interface.
+The following pop-up will appear.
 
-![](/_assets/account_restoring_android_03.png)
+So, let's restore already existing account. At the bottom of the page click on the **Import account**.
 
-**Step 5.** To finish the process, set wallet name, password and repeat it for encryption of the SEED phrase.
+![](/waves-client/mobile-apps/_assets/account_restoring_ios_01.png)
 
-Click on the **Create Wallet** button.
+Choose **Manually** tab if you want to copy and paste or type your Seed into the blank text field. Or **Scan** tab if you want to scan the pairing code from the desktop or online app.
 
-![](/_assets/account_restoring_android_04.png)
+![](/waves-client/mobile-apps/_assets/account_restoring_ios_02.png)
 
-**Step 6.** For additional security, set the **PIN** code and you will be forwarded to the user interface.
+If you entered the correct Seed, it would display your Waves address.
 
-![](/_assets/account_restoring_android_05.png)
+Choose the **Account name** and wallet **password** then **repeat** the password.
 
-![](/_assets/account_restoring_android_06.png)
+To finish the process, click on **Continue**.
 
-Make sure that you imported the correct account. It is enough to check Waves address by clicking on the menu button ![](/_assets/account_restoring_android_07.png)
+![](/waves-client/mobile-apps/_assets/account_restoring_ios_03.png)
 
-![](/_assets/account_restoring_android_08.png)
+Choose and confirm a Passcode for additional security.
 
-If you find an address that does not belong to you and your balance is empty, it means that you have incorrectly restored access. To gain access, you need to repeat the restoration procedure.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_09.png)
+
+At the final stage, read carefully the conditions and if you are agree, put the checkboxes.
+
+After that click on the **Confirm and Begin**.
+
+![](/waves-client/mobile-apps/_assets/account_creation_ios_11.png)
+
+If you have done all of the above, you are forwarded to the user interface.
+
+![](/waves-client/mobile-apps/_assets/account_creation_ios_12.png)
+
+If you find an address that does not belong to you and your balance is empty, it means that you have incorrectly restored access. To gain access, you need to repeat the restoring procedure.
 
 **Note**: The seed phrase always contains 15 words with spaces between each word, except the beginning of the first word and the end of the last word. It is not possible to recover your password. However, you can restore your wallet only from the seed phrase, and choose a new password.
 
 If you lose both your password and your seed, there is no way to recover your money. This is why we ask you to save your seed phrase on paper.
 
 **Wavesplatform does not have access to users accounts and seed phrases**.
+
+## How to pairing accounts between devices
+
+Also, you can synchronize your accounts between [Mobile apps](/waves-client/mobile-apps.md) and desktop or online accounts. So, to sync your account from the desktop or online app, just open Waves app > **Settings** > **General** > **Export account**.
+
+![](/waves-client/mobile-apps/_assets/account_restoring_06.png)
+
+After clicking on the **Show Pairing Code** you will be getting QR-code. After that, open mobile app and click on the **Scan pairing code** and scan QR-code.
+
+![](/waves-client/mobile-apps/_assets/account_restoring_07.png)
+
+___
+
+## More info
+
+See more articles in the [Account Management](/waves-client/mobile-apps/android/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

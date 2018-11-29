@@ -1,55 +1,74 @@
 # How to Create an Account
 
-**Step 1.** Download and install the latest version from App Store.  
-Please use only the [official resource.](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
+Download and install the latest version from the App Store.  
+Please use only the [official link](https://itunes.apple.com/us/app/waves-wallet/id1233158971).
 
-**Step 2.** Open the installed app and click on the **Create New Wallet**
+Open the installed app.
+Choose language and click on the **Continue**
 
-![](/_assets/account_creation_ios_01.jpg)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_01.png)
 
-**Step 3.** Read carefully the **NOTICE**.  
-When you have done so, click on the **I understand**.
+Please take some time to understand some important things for your own safety. We cannot recover your funds or freeze your account if you visit a phishing site or lose your backup phrase (aka SEED phrase). By continuing to use our platform, you agree to accept all risks associated with the loss of your SEED, including but not limited to the inability to obtain your funds and dispose of them. In case you lose your SEED, you agree and acknowledge that the Waves Platform would not be responsible for the negative consequences of this.
 
-![](/_assets/account_creation_ios_02.png)
+To continue, click on the **Next**.
+We strongly recommend reading all articles before you begin.
 
-**Warning**. We recommend using the proposed SEED consisting of 15 English words.  
-The total different English terms used for the SEED creation is 2048. This gives us 2048^15 different possibilities - with current technology unbreakable.  
-We cannot guarantee the safety of the funds if the Seed phrase you come up with yourself.  
-Each SEED is linked to a unique address shown underneath the proposed SEED.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_02.png)
+
+After all click on the **I Understand**.
+
+The following pop-up will appear.
+
+So, let's create a new account. Click on the **Create a new account**.
+
+![](/waves-client/mobile-apps/_assets/account_creation_ios_03.png)
+
+Choose your address avatar. When you have done so, choose account name and wallet password then repeat the password.
+Click on the **Continue**.
+
+![](/waves-client/mobile-apps/_assets/account_creation_ios_04.png)
+
+Now, it's an important step to backup your account. To start the process click on the **Back Up Now**.
+
+Never provide your backup phrase to anyone except the official Waves client. We recommend that you write the backup phrase on a piece of paper and store it in a secure place. Do not store the backup phrase unencrypted on any electronic devices.
 
 You can restore your wallet only from the seed phrase. If you lose your seed, there is no way to recover your money. This is why we ask you to save your seed in the safe place.
 
-**Waves platform does not have access to users accounts and seed phrases**.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_05.png)
 
-**Step 4.** write down the seed phrase and select a name for the wallet.
+Carefully read the warning and only then click on the **I understand**.
 
-When you have done so, click on the **Create Wallet**.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_06.png)
 
-![](/_assets/account_creation_ios_03.jpg)
+After that, you will get account seed phrase. Waves wants to make sure you actually wrote down the backup phrase. Therefore, Waves will ask you to verify the backup phrase before proceeding. Create several copies of the seed phrase and click on the **I've written it down**.
 
-**Step 5.**  you need to add and confirm wallet password.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_07.png)
 
-**Warning**. The wallet password uses for encryption of current wallet seed. If you forget or lose this password, In this case there is only one way to restore access, using the seed phrase.
+Сonfirm your seed phrase with the correct sequence of words (just click on the words). If you have made a mistake just click on the **Back** and start the process again.
 
-When you have done so, click on the **OK**.
+After finishing, click on the **Confirm**.
 
-![](/_assets/account_creation_ios_04.jpg)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_08.png)
 
-If you have done all of the above, you will forwarded to the user interface.
+Choose and confirm a Passcode for additional security.
+After that, you can enable additional protection by using **Touch ID** or **Face ID**.
 
-![](/_assets/account_creation_ios_05.png)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_09.png)
 
-In the additional section of the main menu, you will find **1** notification above the **More** button.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_10.png)
 
-![](/_assets/account_creation_ios_06.jpg)
+At the final stage, read carefully the conditions and if you are agree, put the checkboxes.
 
-Click on it and you will forwarded to additional wallet section:
+After that click on the **Confirm and Begin**.
 
-![](/_assets/account_creation_ios_07.png)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_11.png)
 
-1. **My Address** - Waves address of current account.
-2. **Backup Wallet** - Additional section for creating a backup copy of the seed phrase. **Warning**. Don't forget to create a backup copy of the seed phrase.
-3. **Receive Money** - Use this section to copy or to get QR Code with recipient account address.
-4. **Log Out**- Exit the current account.
+If you have done all of the above, you are forwarded to the user interface.
+
+![](/waves-client/mobile-apps/_assets/account_creation_ios_12.png)
+
+___
+
+See more articles in the [Account Management](/waves-client/mobile-apps/iOS/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

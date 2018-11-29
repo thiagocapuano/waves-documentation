@@ -1,10 +1,6 @@
-# Mobile applications
+# Mobile apps
 
-This chapter includes all details about mobile applications. The mobile applications have basic functionality, such as: sending and receiving Waves tokens and Waves based assets, trading on the DEX platform.  
-Some functions are not yet available, but they will be implemented in the future.
+In this chapter, you will find detailed instructions for iOS and Android apps. With mobile applications, you can: send and receive Waves tokens and all supported Assets, lease Waves, use all available gateways, trade on the built-in DEX exchange and much more.
 
-* [Waves Wallet for iOS Devices](mobile-apps/iOS.md)
-* [Waves Wallet for Android Devices](mobile-apps/android.md)
-
-
-
+* [Mobile app for iOS devices](mobile-apps/iOS.md)
+* [Mobile app for Android devices](mobile-apps/android.md)

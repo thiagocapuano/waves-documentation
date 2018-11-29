@@ -1,67 +1,71 @@
 # How to Create an Account
 
-**Step 1.** Download and install the latest version from Google Play. Please use only the [official resource](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
+Download and install the latest version from the App Store.  
+Please use only the [official link](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 
-**Step 2.** Open installed app and click on the **CREATE NEW WALLET**.
+Open the installed app.
+Choose language and click on the **Continue**
 
-![](/_assets/account_creation_android_01.png)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_01.png)
 
-**Step 3.** Read carefully the **NOTICE**.  
-When you have done so, click on the **I Understand button**.
+Please take some time to understand some important things for your own safety. We cannot recover your funds or freeze your account if you visit a phishing site or lose your backup phrase (aka SEED phrase). By continuing to use our platform, you agree to accept all risks associated with the loss of your SEED, including but not limited to the inability to obtain your funds and dispose of them. In case you lose your SEED, you agree and acknowledge that the Waves Platform would not be responsible for the negative consequences of this.
 
-![](/_assets/account_creation_android_02.png)
+To continue, click on the **Next**.
+We strongly recommend reading all articles before you begin.
 
-**Warning**. We recommend using the proposed SEED consisting of 15 English words.  
-The total different English terms used for the SEED creation is 2048. This gives us 2048^15 different possibilities - with current technology unbreakable.  
-We cannot guarantee the safety of the funds if the Seed phrase you come up with yourself.  
-Each SEED is linked to a unique address shown underneath the proposed SEED.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_02.png)
+
+After all click on the **I Understand**.
+
+The following pop-up will appear.
+
+So, let's create a new account. Click on the **Create a new account**.
+
+![](/waves-client/mobile-apps/_assets/account_creation_ios_03.png)
+
+Choose your address avatar. When you have done so, choose account name and wallet password then repeat the password.
+Click on the **Continue**.
+
+![](/waves-client/mobile-apps/_assets/account_creation_ios_04.png)
+
+Now, it's an important step to backup your account. To start the process click on the **Back Up Now**.
+
+Never provide your backup phrase to anyone except the official Waves client. We recommend that you write the backup phrase on a piece of paper and store it in a secure place. Do not store the backup phrase unencrypted on any electronic devices.
 
 You can restore your wallet only from the seed phrase. If you lose your seed, there is no way to recover your money. This is why we ask you to save your seed in the safe place.
 
-**Waves platform does not have access to users accounts and seed phrases**.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_05.png)
 
-**Step 4.** Write down the seed phrase.  
-When you have done so, click on the **Continue** button.
+Carefully read the warning and only then click on the **I understand**.
 
-![](/_assets/account_creation_android_03.png)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_06.png)
 
-**Step 5.** Select a name for your account and choose wallet password and confirm it.
+After that, you will get account seed phrase. Waves wants to make sure you actually wrote down the backup phrase. Therefore, Waves will ask you to verify the backup phrase before proceeding. Create several copies of the seed phrase and click on the **I've written it down**.
 
-**Warning**. The wallet password uses for encryption of current wallet seed. If you forget or lose this password, In this case there is only one way to restore access, using the seed phrase.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_07.png)
 
-When you have done so, click on the **Create Wallet** button.
+Сonfirm your seed phrase with the correct sequence of words (just click on the words). If you have made a mistake just click on the **Back** and start the process again.
 
-![](/_assets/account_creation_android_04.png)
+After finishing, click on the **Confirm**.
 
-**Step 6.** Choose and confirm a **PIN** code for additional security.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_08.png)
 
-![](/_assets/account_creation_android_05.png)
+Choose and confirm a Passcode for additional security.
 
-If you have done all of the above, you will forwarded to the user interface.  
-On the start page, the application will prompt you to create a backup copy of the seed phrase.  
-We recommend you to **create a backup copy**.
+![](/waves-client/mobile-apps/_assets/account_creation_ios_09.png)
 
-![](/_assets/account_creation_android_06.png)
+At the final stage, read carefully the conditions and if you are agree, put the checkboxes.
 
-**Step 7.** To start the backup procedure, click on the **BACKUP** button and then click on the **START BACKUP**.
+After that click on the **Confirm and Begin**.
 
-![](/_assets/account_creation_android_07.png)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_11.png)
 
-**Step 8.**  you should write down each word \(15 words in total\). To get the next word, press the **NEXT WORD** and then on the **DONE** button.
+If you have done all of the above, you are forwarded to the user interface.
 
-![](/_assets/account_creation_android_08.png)
+![](/waves-client/mobile-apps/_assets/account_creation_ios_12.png)
 
-**Step 9.** Сonfirm your seed phrase with a correct sequence of words.  
-After finishing, just click on the **VERIFY** button.
+___
 
-![](/_assets/account_creation_android_09.png)
-
-If you did everything correctly, you will receive confirmation window.
-
-If you have made a mistake click on the **BACKUP AGAIN** button.
-
-![](/_assets/account_creation_android_10.png)
-
-To start using the application, click on the **Back** button ![](/_assets/account_creation_android_11.png)
+See more articles in the [Account Management](/waves-client/mobile-apps/android/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

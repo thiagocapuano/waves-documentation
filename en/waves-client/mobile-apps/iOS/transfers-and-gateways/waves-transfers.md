@@ -1,47 +1,43 @@
-# How to send and receive Waves
+# How to receive and send Waves
 
-## **How to send Waves**
+# How to receive Waves
 
-**Step 1.** Open up your [iOS wallet](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
+Waves receiving is very straightforward. Just share your Waves address and hand it to the person who wants to send you Waves.
 
-At the bottom of the interface, click on the **Send** button.
+Open your Waves app and log in to your Account.
+At the top right corner click on the QR-code icon.
 
-![](/_assets/waves_transfers_ios_01.jpg)
+![](/waves-client/mobile-apps/_assets/waves_address_01.png)
+
+The following pop-up will appear.
+
+There you will find Waves address of your account. Copy it by clicking on the **Copy** or **Share** with the sender. Also, there you will find **QR code** that contains your address.
+
+![](/waves-client/mobile-apps/_assets/waves_address_02.png)
+
+# How to send Waves
+
+Open your Waves app and log in to your Account.
+At the bottom of the interface, click on the ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) and click on the **Send**.
 
 The following window will appear.
 
-**Step 2. **Fill in the sending form.
+![](/waves-client/mobile-apps/_assets/waves_transfers_ios_02.png)
 
-![](/_assets/waves_transfers_ios_02.jpg)
+Fill in the sending form.
 
-* **To**: Enter the recipient Waves address.
-* **Amount**: Define a number of Waves you want to send or click on the Use total balance ... minus fee if you want to send all Waves.
-* **Fee**: Default fee is 0.001 Waves. This is sufficient fee for most cases.
-* **Attachment**: Optional. You can write a message for the recipient in the Attachment field.
-* **Note**: Some exchanges require users to include description when depositing assets. Otherwise, they cannot credit your account.
+* **Asset**: Choose **Waves** from the drop-down menu.
+* **Recipient**: Put the recipient address or scan QR-code or choose from Address book.
+* **Amount**: Define a number of Waves you want to send or choose **Use total balance** **50%** **10%** **5%**
 
-**Step 3. **After you have entered all necessary information, re-check entered data and click on the **Submit** button.
+After you have entered all necessary information click on the **Continue**.
 
-**Step 4.**Then unlock your wallet by entering the wallet password and click on the **OK** button to complete the process.
+Re-check entered data and click on the **Confirm** to complete the process.
 
-![](/_assets/waves_transfers_ios_03.jpg)
+![](/waves-client/mobile-apps/_assets/waves_transfers_ios_03.png)
 
-## **How to receive Waves**
+___
 
-Waves receiving is very straightforward. Just copy your Waves address and hand it to the person who wants to send you Waves.
-
-**Step 1. **Open up your iOS wallet, on the main page find the WAVES box and tap on it.
-
-![](/_assets/waves_transfers_ios_04.jpg)
-
-**Step 2. **After that, tap on the **Receive** button.
-
-![](/_assets/waves_transfers_ios_05.jpg)
-
-**Step 3. **The following window will appear. There you can tap on the QR code to copy your Waves address.
-
-Also you can put some amount in the **Amount** box and generate QR code with this sum and your Waves address and then share it with someone via **Share** button.
-
-![](/_assets/waves_transfers_ios_06.jpg)
+See more articles in the [Transfers and gateways](/waves-client/mobile-apps/iOS/wallet-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
