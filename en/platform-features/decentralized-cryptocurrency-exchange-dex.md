@@ -132,5 +132,5 @@ So, you can buy `WAVES` for `BTC` even if you have no `WAVES`.
 * The Matcher earns fees from the services it provides, so you can substantially increase your mining revenues.
 * When a user sends an order to Matcher he doesn't transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order.
 
-**Note.** Find more technical details about the Matcher [**here.**](/development-and-api/dex-api/matcher.md)
+{% prettyhint type="info" %} Find more technical details about the Matcher <a href="/development-and-api/dex-api/matcher.md"> &nbsp;HERE. </a> {% endprettyhint %}
 
