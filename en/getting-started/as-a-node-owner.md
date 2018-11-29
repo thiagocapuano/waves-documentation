@@ -28,7 +28,8 @@ There're different options when you want to deal with Waves full node and you wi
 * The easiest way to run a Waves Node is by using the new [_**Waves Docker container**_](/waves-full-node/waves-node-in-docker.md). It requires just **one command** to enable everything or to change the settings of the node.
 * The another way is to [_**download the latest version**_ ](https://github.com/wavesplatform/Waves/releases)of `waves.jar` and the required `.conf` configuration file \(for mainnet or testnet\) to any folder, for example `~/waves`. You can [_**follow these steps**_](/waves-full-node/how-to-install-a-node/how-to-install-a-node.md) of installing a node depending on your operating system.
 
-**Note. **Please check the [_**activation process of new features**_](/waves-full-node/how-to-install-a-node/how-to-install-a-node.md).
+{% prettyhint type="info" %} Please check <a href="/waves-full-node/how-to-install-a-node/how-to-install-a-node.md"> &nbsp;The Activation Process of New features. </a> {% endprettyhint %}
+
 
 ### _**Getting actual blockchain**_
 
@@ -49,5 +50,7 @@ You can check the blockchain height or the last 100 signatures of blocks to unde
 Your node can be in one of two possibilities: your node on fork with height **less** than 2000 blocks or **more** than 2000 blocks**.**  
 In case that your node is on fork with a height less than 2000 blocks, here you can implement **rollback**_** **through _[**rollback instructions**](/waves-full-node/how-to-rollback-a-node.md). Otherwise, you need to choose an [_**option for Getting Actual Blockchain**_](/waves-full-node/options-for-getting-actual-blockchain.md).
 
-**Note.** If you're interested in joining the Testnet, you will need to follow the steps for [_**joining Testnet.**_](/waves-full-node/joining-testnet.md)
+{% prettyhint type="info" %} If you're interested in joining the Testnet, you will need to follow these steps for <a href="/waves-full-node/joining-testnet.md"> &nbsp;Joining The Testnet. </a> {% endprettyhint %}
+
+
 
