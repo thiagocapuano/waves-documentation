@@ -15,7 +15,7 @@ In this guide, you can find all the information about Waves Platform as the stru
 
 This section will give you a general information about Waves Platform and its main components.
 
-1. [Platform Components](/overview/platform-components.md)
+1. [Platform Components](/en/overview/platform-components.md)
 2. [Waves Official Resources](/overview/waves-official-resources.md)
 3. [Security Notes](/overview/security-notes.md)
 4. [Waves Releases](/overview/waves-releases.md)
@@ -98,6 +98,3 @@ This section contains all information about Installing, configuring and upgradin
 1. [Sponsored Transactions](/proposals/sponsored-transactions.md)
 2. [Versioned Transactions](/proposals/versioned-transactions.md)
 3. [Trezor Hardware Wallet Integration Specification](/proposals/trezor-hardware-wallet-integration-specification.md)
-
-
-
