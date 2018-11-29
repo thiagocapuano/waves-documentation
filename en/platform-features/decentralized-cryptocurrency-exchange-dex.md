@@ -1,4 +1,4 @@
-# Decentralized Exchange (DEX) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
+# Decentralized Exchange \(DEX\) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
 1. [Motivation](#section-50063dd43f8c41269fe69fa46a556490)
 2. [Decentralized Exchange](#section-768b52bd37ee54d8bcd0e827da2be7b8)
@@ -11,6 +11,7 @@
 # Motivation {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
 The need to convert and exchange between crypto tokens is increasing with the enlargement of cryptocurrencies number. One of the main features of the blockchain environment is decentralization, but until recently only centralized exchanges existed, even for cryptocurrencies such as Bitcoin or Etherium. Many exchanges support the buy and sale of cryptocurrencies, fiat currencies, and cryptocurrency tokens. Examples of such centralized exchanges are Coinbase, BTC-e, ShapeShift and Mt.Gox.The centralization experience in this sphere is lamentable, the cause of a single point of failure - the exchange. In this case, all users funds should be kept in one place for participation in trade. The user's funds are stored directly in the exchange, and it is responsible not only for matching orders and keep the current order book in the correct state but also for depositors' funds. The Mt.Gox collapse is the brightest example of why it is not reliable, the resulting loss after compromised it was about 650,000 BTC. Someone can hack into exchange system and all users will lose everything, cause their private keys are kept all together, like in one of version BTC-e fund's theft. And these are not the only exchanges that have lost the funds of depositors in this way. The use of a decentralized approach in the entity of an exchange helps to avoid the involvement of many users assets into problems caused by the danger of front running by intruders into the work of exchange.
+
 
 # 1. Decentralized Exchange {#Decentralizedcryptocurrencyexchange(DEX)-DecentralizedExchange}
 
@@ -108,7 +109,7 @@ Note: UTX pool of one node could not be the same as on other node.
 
 Also known as `open volume`. The sum of all spending by the asset of all orders in pairs with this asset.
 
-For example, you buy `BTC` by `Bitcoin Cash` \(1\) and sell `Bitcoin Cash` for `WCT` \(2\), and these orders are still active and haven't filled yet.   
+For example, you buy `BTC` by `Bitcoin Cash` \(1\) and sell `Bitcoin Cash` for `WCT` \(2\), and these orders are still active and haven't filled yet.  
 Then `spendings_of_Bitcoin_Cash_in_active_orders` will be `amount_of_spending_Bitcoin_Cash in (1) + amount_of_selling_Bitcoin_Cash in (2)`.
 
 Note, for `WAVES` order's fees are included in reserved balance.
@@ -132,3 +133,4 @@ So, you can buy `WAVES` for `BTC` even if you have no `WAVES`.
 * When a user sends an order to Matcher he doesn't transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order.
 
 **Note.** Find more technical details about the Matcher [**here.**](/development-and-api/dex-api/matcher.md)
+
