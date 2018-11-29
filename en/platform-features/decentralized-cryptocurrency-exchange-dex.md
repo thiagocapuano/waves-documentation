@@ -12,7 +12,7 @@
 
 The need to convert and exchange between crypto tokens is increasing with the enlargement of cryptocurrencies number. One of the main features of the blockchain environment is decentralization, but until recently only centralized exchanges existed, even for cryptocurrencies such as Bitcoin or Etherium. Many exchanges support the buy and sale of cryptocurrencies, fiat currencies, and cryptocurrency tokens. Examples of such centralized exchanges are Coinbase, BTC-e, ShapeShift and Mt.Gox.The centralization experience in this sphere is lamentable, the cause of a single point of failure - the exchange. In this case, all users funds should be kept in one place for participation in trade. The user's funds are stored directly in the exchange, and it is responsible not only for matching orders and keep the current order book in the correct state but also for depositors' funds. The Mt.Gox collapse is the brightest example of why it is not reliable, the resulting loss after compromised it was about 650,000 BTC. Someone can hack into exchange system and all users will lose everything, cause their private keys are kept all together, like in one of version BTC-e fund's theft. And these are not the only exchanges that have lost the funds of depositors in this way. The use of a decentralized approach in the entity of an exchange helps to avoid the involvement of many users assets into problems caused by the danger of front running by intruders into the work of exchange.
 
-# 1. Decentralized Exchange {#Decentralizedcryptocurrencyexchange(DEX)-DecentralizedExchange}
+# 1. Decentralized Exchange
 
 The decentralized exchanges do not require users to trust them with their money: user's wallet is not controlled by a single entity. Orders are digitally signed directly by owners, as an authorization process. Users control their funds, but on-chain trading has the side effect of not real-time trading as at a centralized exchange.
 
@@ -24,7 +24,7 @@ Also with such lack of automatic matching and fast cancellation, there is vulner
 
 What if we decentralize not all components of exchange, but only the matcher part? This design eliminates two of the described problems above: the arbitrageur with already canceled orders, and miners front-running. Unlike centralized exchanges, the decentralized solution with centralized matcher won’t have the power to steal users’ deposits.
 
-# 2. Waves DEX {#Decentralizedcryptocurrencyexchange(DEX)-WavesDEX}
+# 2. Waves DEX
 
 Waves provides a decentralized exchange \(DEX\), which allows trading different assets back and forth between users, as a traditional exchange, with stronger security guarantees to end users due to its decentralized nature. An opportunity of creating some new assets, based on Waves, allows early trading of a crowdfunding stake, that provides liquidity for tokens. For this purpose, tokens should be sold in public locations, where buyers and sellers may post orders.
 
