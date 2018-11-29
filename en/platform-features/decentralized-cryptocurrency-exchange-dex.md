@@ -1,8 +1,8 @@
 # Decentralized Exchange (DEX) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
 1. [Motivation](#section-50063dd43f8c41269fe69fa46a556490)
-2. [Decentralized Exchange](#section-5eac62efecd14f59a7538b4889e78667)
-3. [Waves DEX](#section-c2a0ffafa28a38b6bcc0a76785704185)
+2. [Decentralized Exchange](#section-768b52bd37ee54d8bcd0e827da2be7b8)
+3. [Waves DEX](#section-eebc687574be0316202adddb271c7f74)
 4. [Matcher Fee Calculation](#section-a11fec1e6a79da6f3707177bc8f31282)
 5. [Tradable Balance](#section-5b93ee4bb1086faecef207bdd1e12cfe)
 6. [Installing DEX](#section-2704bcb73bc56ab90c3904dffdff1895)
