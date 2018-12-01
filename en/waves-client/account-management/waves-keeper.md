@@ -2,8 +2,8 @@
 
 * [Introduction](#introduction)
 * [How to install Waves Keeper](#how-to-install-waves-keeper)
-* [How to create Waves Keeper](#how-to-create-a-new-account)
-* [How to import an existing account](#how-to-import-an-existing-accountt)
+* [How to create a new account](#how-to-create-a-new-account)
+* [How to import an existing account](#how-to-import-an-existing-account)
 * [More info](#more-info)
 
 ## Introduction
