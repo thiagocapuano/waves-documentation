@@ -2,9 +2,9 @@
 
 В этом разделе описаны пошаговые инструкции для создания и восстановления Waves аккаунта. Waves аккаунт необходим для покупки и хранения криптографических токенов, а также для передачи Waves токенов в лизинг.
 
-* [Создание аккаунта](account-management/creating-an-account.md)
-* [Восстановление аккаунта](account-management/restore-an-account.md)
-* [Вход в аккаунт](account-management/signing-in-to-your-account.md)
-* [Ваш Waves адрес](account-management/waves-address.md)
-* [Создание персонального алиаса](account-management/creating-an-alias.md)
-* [Лизинг Waves токенов](account-management/waves-leasing.md)
+* [📱 Создание аккаунта](account-management/creating-an-account.md)
+* [📱 Восстановление аккаунта](account-management/restore-an-account.md)
+* [📱 Вход в аккаунт](account-management/signing-in-to-your-account.md)
+* [📱 Ваш Waves адрес](account-management/waves-address.md)
+* [📱 Создание персонального алиаса](account-management/creating-an-alias.md)
+* [📱 Лизинг Waves токенов](account-management/waves-leasing.md)
