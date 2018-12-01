@@ -1,4 +1,10 @@
-# How to Create an Account
+## **Contents**:
+
+* [How to Create an Account](#how-to-create-an-account)
+* [Warning](#warning)
+* [More info](#more-info)
+
+## How to Create an Account
 
 Download and install the latest version from the App Store.  
 Please use only the [official link](https://itunes.apple.com/us/app/waves-wallet/id1233158971).
@@ -67,7 +73,19 @@ If you have done all of the above, you are forwarded to the user interface.
 
 ![](/waves-client/mobile-apps/_assets/account_creation_ios_12.png)
 
+## Warning
+
+We strongly recommend creating the backup copy, since only with these words you will be able to restore access to your account in case of loss or theft of the device. Although you can get back to the backup process (not recommended). For it open your **Profile**.
+
+![](/waves-client/mobile-apps/_assets/backup_01.png)
+
+In the opened profile, click on the **Backup phrase** to begin the process.
+
+![](/waves-client/mobile-apps/_assets/backup_02.png)
+
 ___
+
+## More info
 
 See more articles in the [Account Management](/waves-client/mobile-apps/iOS/account-management.md) chapter.
 
