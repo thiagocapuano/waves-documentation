@@ -1,10 +1,20 @@
-# How to use Waves Keeper
+## **Contents**:
+
+* [Introduction](#introduction)
+* [How to install Waves Keeper](#how-to-install-waves-keeper)
+* [How to create Waves Keeper](#how-to-create-a-new-account)
+* [How to import an existing account](#how-to-import-an-existing-accountt)
+* [More info](#more-info)
+
+## Introduction
 
 Waves is a secure system, but we continue to take care of safekeeping of the clients funds. So, we developed and called it **Waves Keeper** because it allows you to hold your WAVES keys securely while interacting safely with third-party web resources. It is a kind of Simple Authentication and SSO for dApps or Waves-enabled web applications and enables you to sign transactions without entering your private key or password. Your seed is held securely within the extension and cannot be accessed by outside apps, keeping your funds safe from malicious sites.
 
 SEEDs and private keys are encrypted and stored within the extension and cannot be accessed by the dApps and services on the web, giving you peace of mind that your funds are always safe from hackers and malicious sites. Completing a transaction doesn’t require entering any sensitive information.
 
 Waves Keeper is designed for convenience, so you can sign transactions with just a couple of clicks. Users can create multiple wallets and switch between them easily, and if you ever forget the password to the account you can recover it from your SEED, as normal.
+
+## How to install Waves Keeper
 
 So, just install Google Chrome extension. Also, we plan to develop the same extension for Firefox and Safari users in the future.
 
@@ -32,7 +42,7 @@ Now you need to create a new account or import an existing account.
 
 ![](/_assets/waves_keeper_03.png)
 
-# How to create a new account
+## How to create a new account
 
 Click on the **Create a new account**. Choose address avatar and click on the **Continue**.
 
@@ -80,7 +90,7 @@ If you have done all of the above, you are forwarded to the user interface.
 
 ![](/_assets/waves_keeper_13.png)
 
-# How to import an existing account
+## How to import an existing account
 
 Importing an existing account is straightforward. Just open Waves keeper and click on the **Import Account Via SEED**.
 
@@ -103,6 +113,8 @@ If you need to import an account in the future, just repeat the steps above.
 Thus, with Waves Keeper, you can always make sure that you are in the right place and confirm outgoing transactions from your Waves account.
 
 ___
+
+## More info
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
