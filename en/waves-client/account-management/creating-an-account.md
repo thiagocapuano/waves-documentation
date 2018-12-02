@@ -67,7 +67,7 @@ If you have done all of the above, you are forwarded to the user interface.
 
 We strongly recommend creating the backup copy, since only with these words you will be able to restore access to your account in case of loss or theft of the device. Although you can get back to the backup process (not recommended).
 
-Login to your account, you will see the pop-up window **Save your backup phrase**. In this window click on the **Save**.
+Login to your account, at the bottom right corner find the pop-up window **Save your backup phrase**. In this window click on the **Save**.
 
 ![](/_assets/backup_01.png)
 
