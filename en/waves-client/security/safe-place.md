@@ -18,7 +18,7 @@ One of the most common forms of scamming is phishing, which is when scammers cre
 
 **Official Waves resources**
 
-* Official site - https://wavesplatform.com
+* Official website - https://wavesplatform.com
 * Online client - https://client.wavesplatform.com
 * Client on GitHub - https://github.com/wavesplatform/WavesGUI
 * Mobile app on App Store - https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8
@@ -26,10 +26,11 @@ One of the most common forms of scamming is phishing, which is when scammers cre
 
 Cloned company web pages are the main ways of distributing phishing links. Subscribe to our official communities on social networks, follow our posts, and do not fall victim to scammers:
 
-* Sasha's Twitter - https://twitter.com/sasha35625
-* Sasha's Telegram - https://t.me/absolutelysasha
-* Waves blog - https://blog.wavesplatform.com/latest
 * Waves forum - https://forum.wavesplatform.com
+* Waves blog - https://blog.wavesplatform.com/latest
+* Sasha's Twitter - https://twitter.com/sasha35625
+* Sasha's Telegram (US) - https://t.me/absolutelysasha
+* Sasha's Telegram (RU) - https://t.me/absolutelysasharu
 * Twitter - https://twitter.com/wavesplatform
 * Facebook - https://www.facebook.com/wavesplatform
 * Reddit - https://www.reddit.com/r/Wavesplatform
