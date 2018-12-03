@@ -29,9 +29,9 @@
 ## Waves Client
 
 * [🖥 Install Waves Client](waves-client/install-waves-client.md)
-* [❗ Security](waves-client/security.md)
-  * [❗ Treat your backup phrase \(aka SEED phrase\) with care!](waves-client/security/safe-place.md)
-  * [❗ Spam transactions](waves-client/security/spam-transactions.md)
+* [⚠️ Security](waves-client/security.md)
+  * [⚠️ Treat your backup phrase \(aka SEED phrase\) with care!](waves-client/security/safe-place.md)
+  * [⚠️ Spam transactions](waves-client/security/spam-transactions.md)
 * [🖥 Account Management](waves-client/account-management.md)
   * [🖥 Account creation](waves-client/account-management/creating-an-account.md)
   * [🖥 Account recovery](waves-client/account-management/restore-an-account.md)
@@ -67,7 +67,7 @@
 * [🖥 Advanced features](waves-client/advanced_features.md)
   * [🖥 Script transaction](waves-client/advanced_features/script_transaction.md)
   * [🖥 JSON confirmation](waves-client/advanced_features/json_confirmation.md)
-* [Mobile apps](waves-client/mobile-apps.md)
+* [🤳 Mobile apps](waves-client/mobile-apps.md)
   * [ Mobile app for iOS devices](waves-client/mobile-apps/iOS.md)
     * [ Account Management](waves-client/mobile-apps/iOS/account-management.md)
       * [ Account creation](waves-client/mobile-apps/iOS/account-management/creating-an-account.md)
