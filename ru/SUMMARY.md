@@ -21,9 +21,9 @@
 ## Waves приложение
 
 * [🖥 Установка Waves приложения](waves-client/install-waves-client.md)
-* [❗ Безопасность](waves-client/security.md)
-  * [❗ Будьте осторожны при использовании парольной фразы (SEED-фразы)!](waves-client/security/safe-place.md)
-  * [❗ Спам-транзакции](waves-client/security/spam-transactions.md)
+* [⚠️ Безопасность](waves-client/security.md)
+  * [⚠️ Будьте осторожны при использовании парольной фразы (SEED-фразы)!](waves-client/security/safe-place.md)
+  * [⚠️ Спам-транзакции](waves-client/security/spam-transactions.md)
 * [🖥 Управление аккаунтом](waves-client/account-management.md)
   * [🖥 Создание аккаунта](waves-client/account-management/creating-an-account.md)
   * [🖥 Восстановление аккаунта](waves-client/account-management/restore-an-account.md)
@@ -59,7 +59,7 @@
 * [🖥 Расширенные возможности](waves-client/advanced_features.md)
   * [🖥 Script транзакция](waves-client/advanced_features/script_transaction.md)
   * [🖥 JSON подтверждение](waves-client/advanced_features/json_confirmation.md)
-* [Мобильные приложения](waves-client/mobile-apps.md)
+* [🤳 Мобильные приложения](waves-client/mobile-apps.md)
   * [ Мобильное приложение для iOS устройств](waves-client/mobile-apps/iOS.md)
     * [ Управление аккаунтом](waves-client/mobile-apps/iOS/account-management.md)
       * [ Создание аккаунта](waves-client/mobile-apps/iOS/account-management/creating-an-account.md)
