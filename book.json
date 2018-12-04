@@ -11,7 +11,7 @@
   ],
   "pluginsConfig": {
     "lunr": {
-            "maxIndexSize": 200000
+            "maxIndexSize": 200000,
             "ignoreSpecialCharacters": true
     },
     "gtm": {
