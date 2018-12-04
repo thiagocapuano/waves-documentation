@@ -61,7 +61,7 @@ If an Asset Pair contains a Smart Asset then the fee is increased by + 0.004 \(+
 
 The fee is payed by every account that is placing an order on the Matcher. The same fee is payed by the Matcher when an ExchangeTransaction is put into the blockchain.
 
-If an ExchangeTransaction's sender (the Matcher or any other account) has a script then the total fee is increased by 0.004 waves.
+If an ExchangeTransaction's sender (the Matcher or any other account) has a script then the total fee for the transaction is increased by 0.004 waves.
 
 ## Validation
 
