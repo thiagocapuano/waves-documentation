@@ -14,12 +14,12 @@
 
 _**Smart assets**_ are unique virtual currency tokens that may represent a tangible real-world asset, or a non-tangible ownership that can be purchased, sold, or exchanged as _**defined by the rules of a script**_ on the Waves blockchain network.
 
-In simple words, **Smart assets **are assets with an attached script which validates every transaction within that asset.
+In simple words, **Smart assets** are assets with an attached script which validates every transaction within that asset.
 
 ## Smart Assets Features
 
 * **Smart assets** will allow to apply constraints on all operations for a specific asset.
-* **Smart assets **will offer a great degree of autonomy, anonymity, and low-cost of transactions.
+* **Smart assets** will offer a great degree of autonomy, anonymity, and low-cost of transactions.
 
 ## Smart Assets Use Cases
 
