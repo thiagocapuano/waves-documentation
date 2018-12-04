@@ -53,11 +53,15 @@ Trading on SmartAssets is allowed \(node validates every ExchangeTransaction usi
 
 If an Asset Pair contains a Smart Asset then the fee is increased by + 0.004 \(+0.008 if both assets are smart\). It doesn't matter if any of the accounts is a SmartAccount, SmartAccounts pay in the same way as non-smart Accounts do.
 
-| Asset Pair | OrderFee, ExchangeTxFee |
+| Asset Pair | Fee |
 | :--- | :--- |
 | Asset / Asset | 0.003 |
 | Asset / SmartAsset | 0.003 + 0.004 = 0.007 |
 | SmartAsset / SmartAsset | 0.003 + 0.008 = 0.011 |
+
+The fee is payed by every account that is placing an order on the Matcher. The same fee is payed by the Matcher when an ExchangeTransaction is put into the blockchain.
+
+If an ExchangeTransaction's sender (the Matcher or any other account) has a script then the total fee is increased by 0.004 waves.
 
 ## Validation
 
