@@ -85,7 +85,7 @@
       * [ Ethereum transfers](waves-client/mobile-apps/iOS/transfers-and-gateways/ethereum-transfers.md)
       * [ Litecoin transfers](waves-client/mobile-apps/iOS/transfers-and-gateways/litecoin-transfers.md)
       * [ Zcash transfers](waves-client/mobile-apps/iOS/transfers-and-gateways/zcash-transfers.md)
-      * [vBitcoin Cash transfers](waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-cash-transfers.md)
+      * [ Bitcoin Cash transfers](waves-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-cash-transfers.md)
       * [ Dash transfers](waves-client/mobile-apps/iOS/transfers-and-gateways/dash-transfers.md)
       * [ Monero transfers](waves-client/mobile-apps/iOS/transfers-and-gateways/monero-transfers.md)
       * [ Buying Waves using credit or debit card](waves-client/mobile-apps/iOS/transfers-and-gateways/buying-waves-using-card.md)
