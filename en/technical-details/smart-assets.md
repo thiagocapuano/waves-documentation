@@ -41,7 +41,7 @@ The transaction fee is calculated in the same way as for [smart accounts](/techn
 **Examples:**
 
 * If user will transfer smart assets from scripted account the final fee is 0.009.waves
-* The fee for a TransferTransaction of a Smart Asset from a Smart Account would be 0.001+0.004+0.004=0.009 WAVES
+* x for a TransferTransaction of a Smart Asset from a Smart Account would be 0.001+0.004+0.004=0.009 WAVES
 
 **Note.** If a scripted account transfers a smart asset, then the fee is increased twice \(the fee increases _**+0.004**_ every time the transaction is validated by account’s script or asset’s script\).
 
@@ -59,7 +59,7 @@ If an Asset Pair contains a Smart Asset then the fee is increased by + 0.004 \(+
 | Asset / SmartAsset | 0.003 + 0.004 = 0.007 |
 | SmartAsset / SmartAsset | 0.003 + 0.008 = 0.011 |
 
-The fee is payed to the Matcher by every account that is placing an order. The same fee is payed by the Matcher when an ExchangeTransaction is put into the blockchain.
+This fee is payed to the Matcher by every account that is placing an order. The same fee is payed by the Matcher when an ExchangeTransaction is put into the blockchain.
 
 If an ExchangeTransaction's sender (the Matcher or any other account) has a script then the total fee for the transaction is increased by 0.004 waves.
 
