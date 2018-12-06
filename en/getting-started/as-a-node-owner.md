@@ -6,7 +6,7 @@
 4. [Getting Actual Blockchain](#getting-actual-blockchain)
 5. [Already a Node Owner](#already-a-node-owner)
 6. [Upgrade Your Node](#upgrade-your-node)
-7. [Dealing with Forks](#dealing-with-forks)
+7. [Dealing with Forks](#section-7ec7908e03a31963d8933ecba5a6acc8)
 
 ## Overview
 
@@ -43,7 +43,9 @@ If you're already a node owner, you will need to check the new updates and then 
 
 Basically, the node should be upgraded by following the [_**upgrading instructions**_](/waves-full-node/upgrading.md).
 
-### Dealing with Forks
+### Dealing with Forks {#Getting Started as a Node Owner-dealing with forks}
+
+
 
 You can check the blockchain height or the last 100 signatures of blocks to understand if your node is on fork or not.
 
