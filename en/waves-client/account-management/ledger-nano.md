@@ -1,8 +1,13 @@
-# How to use Ledger Nano S on the Waves app
+## **Contents**:
+
+* [Before you start](#before-you-start)
+* [How to use Ledger Nano S on the Waves app](#how-to-use-ledger-nano-s on-the-waves-app)
+* [How to use several Waves accounts](#how-to-use-several-waves-accounts)
+* [More info](#more-info)
 
 Waves wallet can be managed on the Waves [web and desktop](https://wavesplatform.com/product) clients or by using the Waves app on your Ledger Nano S.
 
-**Before you start**
+## Before you start
 
 1. You've [initialized](https://support.ledgerwallet.com/hc/en-us/articles/360000613793) your Ledger Nano S.
 2. The latest firmware is [installed](https://support.ledgerwallet.com/hc/en-us/articles/360002731113).
@@ -31,7 +36,7 @@ Waves wallet can be managed on the Waves [web and desktop](https://wavesplatform
 
 ![](/_assets/ledger_nano_02.png)
 
-**Access your accounts using your web browser or desktop client**
+## How to use Ledger Nano S on the Waves app
 
 1. Make sure your Ledger Nano S is connected and unlocked and that other cryptocurrency apps are not running and not intercepting the connection between Ledger Nano and Waves app.   
 2. Visit [https://client.wavesplatform.com](https://client.wavesplatform.com) (Google Chrome or Firefox browser) or open desktop app.  
@@ -73,7 +78,23 @@ Re-check entered data and confirm the transaction on your Ledger Nano S
 
 ![](/_assets/ledger_nano_07.png)
 
+## How to use several Waves accounts
+
+Ledger Nano S supports as many Waves account as you need. To do this, start the importing process described above with Ledger Nano and Waves app and select the required account.
+
+Choose a name and click on the **Continue**.
+
+![](/_assets/ledger_nano_08.png)
+
+Confirm the request on Ledger Nano by comparing the request hash between the Waves app and the data on the Ledger screen. If everything is in order, confirm the hash on your device.
+
+![](/_assets/ledger_nano_09.png)
+
+After that you will be forwarded to the main page of the Waves app. All done!
+
 ___
+
+## More info
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
