@@ -19,7 +19,13 @@ You will be forwarded to the following settings page. Find and put the checkmark
 
 ![](/_assets/advanced_features_01.png)
 
-After that, close the settings, and in the upper right corner, you will see the **<> Script** button.
+In the **Security** settings you will find **Script** and **Set Script** button. Click on the **Set Script**.
+
+![](/_assets/advanced_features_03.1.png)
+
+Read the important notice carefully before proceeding. Afetr that, clicon the **Accept and continue**.
+
+![](/_assets/advanced_features_03.2.png)
 
 The following pop-up will appear.
 
