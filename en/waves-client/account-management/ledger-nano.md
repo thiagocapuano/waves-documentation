@@ -1,7 +1,7 @@
 ## **Contents**:
 
 * [Before you start](#before-you-start)
-* [How to use Ledger Nano S on the Waves app](#how-to-use-ledger-nano-s on-the-waves-app)
+* [How to use Ledger Nano S on the Waves app](#how-to-use-ledger-nano-s-on-the-waves-app)
 * [How to use several Waves accounts](#how-to-use-several-waves-accounts)
 * [More info](#more-info)
 
