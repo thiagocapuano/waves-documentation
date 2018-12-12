@@ -70,20 +70,10 @@ Nodes are a critical part of our ecosystem. [Run a Waves node](/waves-full-node/
 
 # 7.1 Mining nodes \(pools\)
 
-You don’t need any fancy hardware, just a simple hosted server and at least 1,000 WAVES.
+* You don’t need any fancy hardware, just a simple hosted server and at least 1,000 WAVES.
+* You can run a public mining pool and have users lease their funds to you, thereby increasing your profits and sharing them with the community.
 
-You can also run a public mining pool and have users lease their funds to you, thereby increasing your profits and sharing them with the community.
-
-You can find the full list of Waves nodes for leasing with their corresponding address here [http://dev.pywaves.org/generators-weekly/](http://dev.pywaves.org/generators-weekly/) :
-
-* [**wavesgo.com**](http://wavesgo.com/)
-* [**wavesfullnode.com**](http://wavesfullnode.com/)
-* [**wavescommunitynode.com**](http://wavescommunitynode.com/)
-* [**wavesnode.com**](http://wavesnode.com/)
-* [**wavespool.net**](http://wavespool.net/)
-* [**pospool.io**](http://pospool.io/)
-* [**wavesnode.net**](http://wavesnode.net/)
-* [**bearwaves.nl**](http://bearwaves.nl/)
+You can find the full list of Waves nodes for leasing with their corresponding address [_**HERE.**_](https://forum.wavesplatform.com/c/pools)
 
 # 7.2 Official nodes with open API
 
