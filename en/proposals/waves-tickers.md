@@ -27,49 +27,62 @@ Each provider has its own Waves address. Before starting to supply information a
   "version" : 1,
   "sender": "3FjTpAg1VbmxSH39YWnfFukAUhxMqmKqTEZ", 
   "data": [
-    {"key": "data_provider", // provider initialization key
+    {"key": "data_provider_name", // provider initialization key
      "type": "string", 
      "value": "provider_name", // company name 
      }, {
-     "key": "link", 
+     "key": "data_provider_link", 
      "type": "string", 
      "value": "http://example.com", // provider’s site 
      }, {
-     "key": "email", 
+     "key": "data_provider_email", 
      "type": "string", 
      "value": "example@gmail.com", // contact email 
      }, {
-     "key": "about", // provider initialization key
+     "key": "data_provider_logo_meta", 
      "type": "string", 
-     "value": "Verification provider", // provider info 
+     "value": "data:image/png;base64", // information about a logo type (svg, png, jpg … ) 
      }, {
-     "key": "logo", 
-     "type": "string", 
-     "value": "svg_code", // provider logo 
-     }
-    {"key": "2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC", // token ID
+     "key": "data_provider_logo", 
+     "type": "binary", 
+     "value": "base64:__base64_image_code__", // provider's logo 
+     },  {
+      "key": "data_provider_lang_list", 
+      "type": "string",
+      "value": "en" // a list of available languages for provider's description
+      },
+      {
+      "key": "data_provider_description_<en>", // provider initialization key
+      "type": "string", 
+      "value": "Verification provider", // provider info 
+      }, 
+      {"key": "status_id_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>, // token ID
      "type": "integer", 
      "value": "1", // status
      }, {
-     "key": "link", 
+     "key": "link_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
      "type": "string", 
      "value": "http://example.com", // project site 
      }, {
-     "key": "email", 
+     "key": "email_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
      "type": "string", 
      "value": "example@gmail.com", // project contact email
      }, {
-     "key": "details", 
+     "key": "description_<en>_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
      "type": "string", 
      "value": "Founded in June of 2012, Company is a digital currency wallet and platform where merchants and consumers can transact with new digital currencies like bitcoin, ethereum, and litecoin. Based in San Francisco, California.", // brief project description
      }, {
-     "key": "ticker", 
+     "key": "ticker_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
      "type": "string", 
      "value": "TKR", // assigned project ticker
      }, {
-     "key": "logo", 
+     "key": "logo_meta_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
      "type": "string", 
-     "value": "svg_code", // project logo in svg format
+     "value": "data:image/png;base64", // project logo 
+     }, {
+     "key": "logo_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
+     "type": "string", 
+     "value": "base64:__base64_image_code__", // project logo 
      }
   ],
   "fee": 100000
@@ -92,24 +105,27 @@ Table 1. Tokens statuses
 Table 2. Parameters for the provider description 
 
 
-| Key | Value |
-| :--- | :--- |
-| data_provider | Provider initialization key | 
-| link | A link to the provider's website |
-| email | Contact email | 
-| about | Provider service Information |
-| logo | Logo in  svg format |
+| Key | Required | Value |
+| :--- | :--- | :--- |
+| data_provider_name | true | Provider's name | 
+| data_provider_link | true | A link to the provider's website |
+| data_provider_email | false | Contact email | 
+| data_provider_description_<language> | true | Provider service Information in a language from "data_provider_lang_list"|
+| data_provider_lang_list | true | A list of available language which can be added to the provider and its tokens in comma separated format|
+| data_provider_logo | false, default:en | Provider's logo in any format in base64, must be accompanied by a correctly filled "data_provider_logo_meta" field |
+| data_provider_logo_meta | true | A logo format description | 
 
 Table 3. Parameters to describe the token
 
-| Key | Value |
-| :--- | :--- |
-| _id_ (token ID) | Status |
-| link | A link to the project’s website |
-| email | Project contact email |
-| details | Description of the project |
-| ticker | Assigned project ticker |
-| logo | Project logo in svg format |
+| Key | Required | Value |
+| :--- | :--- | :--- |
+| status_id_<ASSET_ID> | true | Status |
+| link_<ASSET_ID> | false | A link to the project’s website |
+| email_<ASSET_ID> | false | Project contact email |
+| description_<LANG>_<ASSET_ID> | false | Description of the project in one of "data_provider_lang_list" language |
+| ticker_<ASSET_ID> | false | Assigned project ticker |
+| logo_<ASSET_ID> |  Provider's logo in any format in base64, must be accompanied by a correctly filled "logo_meta_<ASSET_ID>" field  |
+| logo_meta_<ASSET_ID> | A logo format description |
 
 
 ## Example of a blacklist smart-contract
@@ -210,15 +226,15 @@ Table 4. Values of token parameters in the UI
   </tr>
   <tr>
     <td>0</td>
-    <td>Project logo in svg format</td>
+    <td>Project logo</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>Project logo in svg format</td>
+    <td>Project logo</td>
   </tr>
   <tr>
     <td>2</td>
-    <td>Project logo in svg format</td>
+    <td>Project logo</td>
   </tr>
 </table>
 
