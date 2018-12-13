@@ -1,4 +1,4 @@
-# Logging
+# Logging Configuration
 
 ## About the used framework
 

@@ -140,6 +140,7 @@
 * [How to Rollback a Node](waves-full-node/how-to-rollback-a-node.md)
 * [Waves Node in Docker](waves-full-node/waves-node-in-docker.md)
 * [Node Configuration](waves-full-node/configuration-parameters.md)
+* [Logging Configuration](waves-full-node/logging-configuration.md)
 * [Joining Testnet](waves-full-node/joining-testnet.md)
 
 ## Smart Contracts
@@ -208,3 +209,4 @@
 * [Sponsored transactions](proposals/sponsored-transactions.md)
 * [Versioned transactions](proposals/versioned-transactions.md)
 * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
+
