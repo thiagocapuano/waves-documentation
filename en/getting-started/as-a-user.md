@@ -22,7 +22,7 @@ As a user, the first step that you need to do is to install Waves client. To acc
 
 ## Account Management
 
-After installing Waves Client, you will need to create an account. the account can be created through our [_**Account Management Guide**_](/waves-client/account-management.md) which includes all required information about your account.
+After installing Waves Client, you will need to create an account. the account can be created through our [_**Account Management Guide**_](/waves-client/account-management.md) which includes all required information about your account in addition to [Waves Keeper](/waves-client/account-management/waves-keeper.md) feature.
 
 ## Transfers and Gateways
 
