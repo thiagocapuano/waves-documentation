@@ -4,6 +4,7 @@
 
 {% prettylink link="https://chrome-ext.wvservices.com" %}Demo Page{% endprettylink %}
 
+{% prettylink link="https://kardanovir.github.io/WavesKeeper/" %}Demo Page 2{% endprettylink %}
  
 
 Note that the Waves Keeper also can support [Waves Client API](https://docs.wavesplatform.com/en/development-and-api/client-api/overview.html): [Web Auth API](https://docs.wavesplatform.com/en/development-and-api/client-api/auth-api.html), [Payment API](https://docs.wavesplatform.com/en/development-and-api/client-api/payments-api.html). If a user has both of Waves Client and Waves Keeper, the Keeper would have higher priority.
