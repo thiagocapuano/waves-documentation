@@ -48,7 +48,7 @@ Paste the Bitcoin address you want to send to as well as the amount of Bitcoin.
 Please note that the gateway charges **0.001 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
 **Before proceeding please carefully read the conditions**.
 
-After you have filled the form, click on the **Continue** buttonn.
+After you have filled the form, click on the **Continue** button.
 
 ![](/_assets/bitcoin_transfers_04.png)
 
