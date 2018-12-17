@@ -5,7 +5,7 @@ The reason behind decentralized exchange \(DEX, aka Matcher\) is to perform secu
 Please find the matcher API for **_MainNet_** and **_TestNet_**:
 {% prettylink link="https://matcher.wavesplatform.com/api-docs/index.html" %}MainNet Matcher API{% endprettylink %}
 
-{% prettylink link="https://matcher.testnet.wavesnodes.com/api-docs/index.html" %}Testnet Matcher API{% endprettylink %}
+{% prettylink link="https://matcher.testnet.wavesnodes.com/api-docs/index.html" %}TestNet Matcher API{% endprettylink %}
 
 
 
