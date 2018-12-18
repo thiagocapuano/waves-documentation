@@ -1,8 +1,5 @@
 {
   "plugins": [
-    "-search",
-    "-lunr",
-    "docsearch",
     "custom-js-css",
     "tree-shaper@git+https://github.com/KardanovIR/gitbook-plugin-tree-shaper.git",
     "inline-codes@git+https://github.com/Shushik/gitbook-plugin-inline-codes.git",
@@ -13,11 +10,6 @@
     "custom-favicon"
   ],
   "pluginsConfig": {
-    "docSearch": {
-       "apiKey" : "replace_with_algolia_doc_search_api_key",
-       "index" : "replace_with_algolia_doc_search_index"
-       },
-  
     "gtm": {
       "token": "GTM-P2JT7Z",
       "virtualPageViews": true
