@@ -7,18 +7,10 @@
     "pretty-hint@git+https://github.com/Shushik/gitbook-plugin-pretty-hint.git",
     "pretty-link@git+https://github.com/Shushik/gitbook-plugin-pretty-link.git",
     "headers-with-anchors@git+https://github.com/Shushik/gitbook-plugin-headers-with-anchors.git",
-    "custom-favicon",
-    "-search",
-    "-lunr",
-    "docsearch"
+    "custom-favicon"
   ],
   "pluginsConfig": {
   
-    "docSearch": {
-       "apiKey" : "replace_with_algolia_doc_search_api_key",
-       "index" : "replace_with_algolia_doc_search_index"
-     },
-     
     "gtm": {
       "token": "GTM-P2JT7Z",
       "virtualPageViews": true
