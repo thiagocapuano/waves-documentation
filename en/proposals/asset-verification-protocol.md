@@ -24,7 +24,6 @@ Before starting to supply information about tokens, providers must fill informat
 
 ```
 {
-  "version" : 1,
   "sender": "3FjTpAg1VbmxSH39YWnfFukAUhxMqmKqTEZ", 
   "data": [
     {"key": "data_provider_name", // provider initialization key
@@ -55,7 +54,27 @@ Before starting to supply information about tokens, providers must fill informat
       "key": "data_provider_description_<en>", // provider initialization key
       "type": "string", 
       "value": "Verification provider", // provider info 
-      }, 
+      }
+  ]
+}
+```
+
+Description of every asset consist of several data entries, first one is status_id describing measure of trust/threat:
+
+Table 1. Tokens statuses
+
+| Status | Description | Comment |
+| :--- | :--- | :--- |
+| 2 | Verified |  Verified and trusted assets, issuers passed KYC, official gateway tokens and so on |
+| 1 | Described | Tokens with clear description which are not phishing or scam |
+| 0 | Unknown | Default status. No need to add it to providers list unless provider wants to remove an asset from the list |
+| -1 | Suspicious | Asset looks suspicious or used for spam |
+| -2 | Dangerous | Dangerous scam and phishing assets |
+
+```
+{
+  "sender": "3FjTpAg1VbmxSH39YWnfFukAUhxMqmKqTEZ", 
+  "data": [
       {"key": "status_id_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>, // token ID
      "type": "integer", 
      "value": "1", // status
@@ -84,23 +103,9 @@ Before starting to supply information about tokens, providers must fill informat
      "type": "string", 
      "value": "base64:__base64_image_code__", // project logo 
      }
-  ],
-  "fee": 100000
+  ]
 }
 ```
-Where `version` is a DataTransaction version of transaction (this information you can find in our documentation),  `sender` is a provider address, `data` consists of data entries each of which contains fields `key`, `type` and `value`, and `fee` is a fee amount in Waves. The token's status can be "scam", "suspicious", "with detailed description", "proven" or "gateway". More detailed information about parameters you can find in the tables below.
-
-
-Table 1. Tokens statuses
-
-
-| Status | Description | Comment |
-| :--- | :--- | :--- |
-| 2 | Verified |  Verified and trusted assets, issuers passed KYC, official gateway tokens and so on |
-| 1 | Described | Tokens with clear description which are not phishing or scam |
-| 0 | Unknown | Default status. No need to add it to providers list unless provider wants to remove an asset from the list |
-| -1 | Suspicious | Asset looks suspicious or used for spam |
-| -2 | Dangerous | Dangerous scam and phishing assets |
 
 
 Table 2. Parameters for the provider description 
