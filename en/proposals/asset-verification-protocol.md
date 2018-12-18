@@ -130,8 +130,8 @@ Table 3. Parameters to describe the token
 | email_<ASSET_ID> | false | Project contact email |
 | description_<LANG>_<ASSET_ID> | false | Description of the project in one of "data_provider_lang_list" language |
 | ticker_<ASSET_ID> | false | Assigned project ticker |
-| logo_<ASSET_ID> |  Provider's logo in any format in base64, must be accompanied by a correctly filled "logo_meta_<ASSET_ID>" field  |
-| logo_meta_<ASSET_ID> | A logo format description |
+| logo_<ASSET_ID> | false |  Provider's logo in any format in base64, must be accompanied by a correctly filled "logo_meta_<ASSET_ID>" field  |
+| logo_meta_<ASSET_ID> | false | A logo format description |
 
 
 
