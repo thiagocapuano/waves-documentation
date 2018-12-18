@@ -26,35 +26,35 @@ Before starting to supply information about tokens, providers must fill informat
 {
   "sender": "3FjTpAg1VbmxSH39YWnfFukAUhxMqmKqTEZ", 
   "data": [
-    {"key": "data_provider_name", // provider initialization key
-     "type": "string", 
-     "value": "Example Asset Verification Provider", // company name 
-     }, {
-     "key": "data_provider_link", 
-     "type": "string", 
-     "value": "http://example.com", // provider’s site 
-     }, {
-     "key": "data_provider_email", 
-     "type": "string", 
-     "value": "example@gmail.com", // contact email 
-     }, {
-     "key": "data_provider_logo_meta", 
-     "type": "string", 
-     "value": "data:image/png;base64", // information about a logo type (svg, png, jpg … ) 
-     }, {
-     "key": "data_provider_logo", 
-     "type": "binary", 
-     "value": "base64:__base64_image_code__", // provider's logo 
-     },  {
+   {
+      "key": "data_provider_name", // provider initialization key
+      "type": "string", 
+      "value": "Example Asset Verification Provider", // company name 
+   }, {
+      "key": "data_provider_link", 
+      "type": "string", 
+      "value": "http://example.com", // provider’s site 
+   }, {
+      "key": "data_provider_email", 
+      "type": "string", 
+      "value": "example@gmail.com", // contact email 
+   }, {
+      "key": "data_provider_logo_meta", 
+      "type": "string", 
+      "value": "data:image/png;base64", // information about a logo type (svg, png, jpg … ) 
+   }, {
+      "key": "data_provider_logo", 
+      "type": "binary", 
+      "value": "base64:__base64_image_code__", // provider's logo 
+   },  {
       "key": "data_provider_lang_list", 
       "type": "string",
       "value": "en" // a list of available languages for provider's description
-      },
-      {
+    }, {
       "key": "data_provider_description_<en>", // provider initialization key
       "type": "string", 
       "value": "Verification provider", // provider info 
-      }
+    }
   ]
 }
 ```
@@ -74,35 +74,35 @@ Table 1. Tokens statuses
 ```
 {
   "sender": "3FjTpAg1VbmxSH39YWnfFukAUhxMqmKqTEZ", 
-  "data": [
-      {"key": "status_id_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>, // token ID
-     "type": "integer", 
-     "value": "1", // status
-     }, {
-     "key": "link_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
-     "type": "string", 
-     "value": "http://example.com", // project site 
-     }, {
-     "key": "email_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
-     "type": "string", 
-     "value": "example@gmail.com", // project contact email
-     }, {
-     "key": "description_<en>_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
-     "type": "string", 
-     "value": "Founded in June of 2012, Company is a digital currency wallet and platform where merchants and consumers can transact with new digital currencies like bitcoin, ethereum, and litecoin. Based in San Francisco, California.", // brief project description
-     }, {
-     "key": "ticker_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
-     "type": "string", 
-     "value": "TKR", // assigned project ticker
-     }, {
-     "key": "logo_meta_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
-     "type": "string", 
-     "value": "data:image/png;base64", // project logo 
-     }, {
-     "key": "logo_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
-     "type": "string", 
-     "value": "base64:__base64_image_code__", // project logo 
-     }
+  "data": [ {
+      "key": "status_id_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>, // token ID
+      "type": "integer", 
+      "value": "1", // status
+   }, {
+      "key": "link_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
+      "type": "string", 
+      "value": "http://example.com", // project site 
+   }, {
+      "key": "email_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
+      "type": "string", 
+      "value": "example@gmail.com", // project contact email
+   }, {
+      "key": "description_<en>_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
+      "type": "string", 
+      "value": "Founded in June of 2012, Company is a digital currency wallet and platform where merchants and consumers can transact with new digital currencies like bitcoin, ethereum, and litecoin. Based in San Francisco, California.", // brief project description
+   }, {
+      "key": "ticker_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
+      "type": "string", 
+      "value": "TKR", // assigned project ticker
+   }, {
+      "key": "logo_meta_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
+      "type": "string", 
+      "value": "data:image/png;base64", // project logo 
+   }, {
+      "key": "logo_<2L3hRkSJpmaytgSfKLSNgC1vcoUvGGAv2353c6V9hPKC>", 
+      "type": "string", 
+      "value": "base64:__base64_image_code__", // project logo 
+   }
   ]
 }
 ```
