@@ -118,7 +118,7 @@ Table 2. Parameters for the provider description
 | data_provider_email | false | Contact email | 
 | data_provider_description_<language> | true | Provider service Information in a language from "data_provider_lang_list"|
 | data_provider_lang_list | true | A list of available language which can be added to the provider and its tokens in comma separated format|
-| data_provider_logo | false, default:en | Provider's logo in any format in base64, must be accompanied by a correctly filled "data_provider_logo_meta" field |
+| data_provider_logo | false | Provider's logo in any format in base64, must be accompanied by a correctly filled "data_provider_logo_meta" field |
 | data_provider_logo_meta | true | A logo format description | 
 
 Table 3. Parameters to describe the token
