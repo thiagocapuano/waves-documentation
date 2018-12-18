@@ -25,6 +25,7 @@ Public key hash is first 20 bytes of\_SecureHash\_of public key bytes. Checksum 
 Alias is a UTF-8 string with the following constraints:
 
 * It contains from 4 to 30 UTF-8 characters
+* It can contain characters only from the following alphabet: `-.0123456789@_abcdefghijklmnopqrstuvwxyz` 
 * It cannot contain '\n' or any leading/trailing whitespaces
 
 ### Proof
