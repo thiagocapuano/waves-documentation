@@ -1,6 +1,6 @@
 # Example Transactions
 
-Listed below are examples of real transactions of each type found in testnet and mainnet.
+Listed below are examples of real transactions of each type found in _**testnet**_ and _**mainnet**_.
 
 ### Testnet
 
