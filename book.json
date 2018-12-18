@@ -10,10 +10,6 @@
     "custom-favicon"
   ],
   "pluginsConfig": {
-    "lunr": {
-            "maxIndexSize": 200000,
-            "ignoreSpecialCharacters": true
-    },
     "gtm": {
       "token": "GTM-P2JT7Z",
       "virtualPageViews": true
