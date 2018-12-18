@@ -1,4 +1,4 @@
-# Waves Ticker Protocol
+# Waves Asset Verification Protocol
 
 ## Motivation
 
