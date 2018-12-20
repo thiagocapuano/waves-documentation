@@ -209,5 +209,5 @@
 * [Sponsored transactions](proposals/sponsored-transactions.md)
 * [Versioned transactions](proposals/versioned-transactions.md)
 * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
-* [Asset Verefication Protocol](proposals/asset-verification-protocol.md)
+* [Asset Verification Protocol](proposals/asset-verification-protocol.md)
 
