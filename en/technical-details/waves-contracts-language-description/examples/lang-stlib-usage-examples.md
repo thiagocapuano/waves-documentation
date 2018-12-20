@@ -1,6 +1,6 @@
 # Effective RIDE Examples
 
-RIDE's [Introduction](/technical-details/ride-language.md)
+{% prettylink link="/technical-details/ride-language.md" %}RIDE's Introduction{% endprettylink %}
 
 ## Formatting
 

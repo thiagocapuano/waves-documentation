@@ -19,6 +19,3 @@ Assets Management chapter includes all details about Issue and Reissue Assets wh
 * Tokens can be launched in a few seconds.
 * It costs just 1 WAVES to launch a new token.
 * Tokens can be traded immediately on Waves exchange.
-
-
-

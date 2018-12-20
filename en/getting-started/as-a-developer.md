@@ -15,13 +15,13 @@ This will give you all the information you need as a developer to get started in
 
 ## Client Libraries
 
-Waves Client is supported by many libraries, please [_**Get to know our client libraries **_](/development-and-api/client-libraries.md)and use them depending on which language you're familiar with:
+Waves Client is supported by many libraries, please Get to know our client libraries\_** **\_and use them depending on which language you're familiar with:
 
-* [_**PyWaves for Python**_](/development-and-api/client-libraries/pywaves.md)
-* [_**WavesJ for Java**_](/development-and-api/client-libraries/wavesj.md)
-* [_**WavesCS for C\#**_](/development-and-api/client-libraries/wavescs.md)
-* [_**Waves-API for TypeScript/JavaScript**_](https://github.com/wavesplatform/waves-api)
-* [_**WavesC**_](/development-and-api/client-libraries/waves-c.md)
+* [_**Python: PyWaves**_](/development-and-api/client-libraries/pywaves.md)
+* [_**Java: WavesJ**_](/development-and-api/client-libraries/wavesj.md)
+* [_**C\#: WavesCS**_](/development-and-api/client-libraries/wavescs.md)
+* [_**TypeScript/JavaScript, Waves Signature Adapter**_](/development-and-api/client-libraries/waves-signature-adapter.md) and [_**Waves Transactions**_](#)
+* [_**C: WavesC**_](/development-and-api/client-libraries/waves-c.md)
 * [_**Community Libraries**_](/development-and-api/client-libraries/unofficial-libraries.md)
 
 ## Node REST API
@@ -62,7 +62,7 @@ Please take a look to [_**Waves DEX API **_](/development-and-api/dex-api/matche
 
 ## Keeper API
 
-Check the new [_**Waves Keeper**_](/development-and-api/waves-keeper-api/waves-keeper-api.md) browser extension which turns your browser into a keychain that enables you to sign transactions securely on third-party web resources without entering your seed or password. So now, if a Waves-integrated website or Dapp requires you to sign a transaction, you can do it with just a couple of clicks, right in your browser.
+Check the new [_**Waves Keeper**_](/development-and-api/waves-keeper-api/waves-keeper-api.md)_** **_browser extension which turns your browser into a keychain that enables you to sign transactions securely on third-party web resources without entering your seed or password. So now, if a Waves-integrated website or Dapp requires you to sign a transaction, you can do it with just a couple of clicks, right in your browser.
 
 The extension will be particularly _**useful to developers**_ who want to embed Waves functionality in their projects, because it supports the Auth and Payment APIs. For testing purposes you can switch between using it on MainNet and TestNet.
 

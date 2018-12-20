@@ -2,6 +2,16 @@
 
 The reason behind decentralized exchange \(DEX, aka Matcher\) is to perform secure exchange of assets issued on Waves platform. When a user sends an order to Matcher he doesn't transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order. And Matcher guarantees to create `ExchangeTransaction` on the conditions that are not worse than in user's order. After the transaction is confirmed on blockchain user account balances of assets are changed according to amount and order execution price.
 
+Please find the matcher API for **_MainNet_** and **_TestNet_**:
+{% prettylink link="https://matcher.wavesplatform.com/api-docs/index.html" %}MainNet Matcher API{% endprettylink %}
+
+{% prettylink link="https://matcher.testnet.wavesnodes.com/api-docs/index.html" %}TestNet Matcher API{% endprettylink %}
+
+
+
+
+
+
 ## Limit Order
 
 ```cpp
@@ -18,7 +28,7 @@ A user initiates his willingness to buy or sell assets by creating, signing and 
 | matcher | PublicKeyAccount | Public key of matcher to whom user authorize to match his order |
 | spendAssetId | Option\[Array\[Byte\]\] | Asset Id that creator wants to spend after exchange. Empty spendAssetId means **WAVES** |
 | receiveAssetId | Option\[Array\[Byte\]\] | Asset Id that creator wants to receive after exchange. Empty receiveAssetId means **WAVES** |
-| price | Long | 10^\(8+marketDecimals-assetDecimals\) |
+| price | Long | 10^\(8+Asset2Decimals-Asset1Decimals\) |
 | amount | Long | Amount in `Asset1` |
 | expiration | Long | Max time of open order to live before execution. Currently, max is 1 month |
 | matcherFee | Long | Fee which goes to Matcher for order matching \(execution\) |
@@ -48,7 +58,7 @@ else if (spendAssetId == Asset1) OrderType.SELL
 
 When a new `Order` is submitted to the Matcher all its fields are validated:
 
-1. _`amount`_ should be &gt; 0 and &lt; MaxAmount
+1. `amount` should be &gt; 0 and &lt; MaxAmount
 2. `price` should be &gt; 0 and &lt;MaxAmount
 3. `matcherFee` be &gt; 0 and &lt; MaxAmount
 4. `maxTimestamp` should be &gt; now and &lt; than 30 days in the future

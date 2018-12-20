@@ -25,6 +25,7 @@ Public key hash is first 20 bytes of\_SecureHash\_of public key bytes. Checksum 
 Alias is a UTF-8 string with the following constraints:
 
 * It contains from 4 to 30 UTF-8 characters
+* It can contain characters only from the following alphabet: `-.0123456789@_abcdefghijklmnopqrstuvwxyz` 
 * It cannot contain '\n' or any leading/trailing whitespaces
 
 ### Proof
@@ -563,10 +564,11 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 | ChainId | Byte | 1 |
 | Sender's Public Key | PublicKeyAccount | 32 |
 | AssetId | Bytes | 32 |
-| Script object length \(N\) | Short | 2 |
-| Script object bytes | Bytes | N |
 | Fee | Long | 8 |
 | Timestamp | Long | 8 |
+| 1 if script is not null, 0 otherwise |  Byte |  1 |
+| Script object length \(N\) | Short | 2 |
+| Script object bytes | Bytes | N |
 | Proofs | Bytes | 64 |
 
 Below is a sample **Set Asset Script** encoded as **JSON**:

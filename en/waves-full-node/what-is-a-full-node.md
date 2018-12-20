@@ -10,7 +10,8 @@ This section contains all information about Installing, configuring and upgradin
 6. [How to Rollback a Node](/waves-full-node/how-to-rollback-a-node.md)
 7. [Waves Node in Docker](/waves-full-node/waves-node-in-docker.md)
 8. [How to Configure a node](/waves-full-node/how-to-configure-a-node.md)
-9. [Joining Testnet](/waves-full-node/joining-testnet.md)
+9. [Logging Configuration](/waves-full-node/logging-configuration.md)
+10. [Joining Testnet](/waves-full-node/joining-testnet.md)
 
 # Waves Network Structure
 

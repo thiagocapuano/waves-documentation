@@ -11,4 +11,8 @@ There you will find the Waves address of your account.
 
 Also in this section you can create personal Alias, for more information please follow another article [How to create an Alias](/waves-client/account-management/creating-an-alias.md)
 
+___
+
+See more articles in the [Account Management](/waves-client/account-management.md) chapter.
+
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

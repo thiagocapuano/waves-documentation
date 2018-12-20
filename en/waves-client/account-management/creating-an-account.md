@@ -1,4 +1,10 @@
-# How to Create an Account
+## **Contents**:
+
+* [How to Create an Account](#how-to-create-an-account)
+* [Warning](#warning)
+* [More info](#more-info)
+
+## How to Create an Account
 
 You can use either online version of the client, or standalone version for Mac, PC or Linux. All versions support automatic update!
 Also downloads are available from the official site - https://wavesplatform.com/product
@@ -24,7 +30,6 @@ Choose your address avatar. When you have done so, choose account name and walle
 Click on the **Continue** button.
 
 ![](/_assets/account_creation_002.png)
-
 Now, it's an important step to backup your account by clicking **Back Up Now**.
 
 Waves will display an important reminder. Never provide your backup phrase to anyone except the official Waves client.  We recommend that you write the backup phrase on a piece of paper and store it in a secure location.  Do not store the backup phrase unencrypted on any electronic device.
@@ -57,5 +62,38 @@ Click on **Confirm and Begin**.
 If you have done all of the above, you are forwarded to the user interface.
 
 ![](/_assets/account_creation_08.png)
+
+## Warning
+
+We strongly recommend creating the backup copy, since only with these words you will be able to restore access to your account in case of loss or theft of the device. Although you can get back to the backup process (not recommended).
+
+Login to your account, at the bottom right corner find the pop-up window **Save your backup phrase**. In this window click on the **Save**.
+
+![](/_assets/backup_01.png)
+
+After that, you will get account seed phrase.
+Waves wants to make sure you actually wrote down the backup phrase.
+Create several copies of the seed phrase and click on **I've written it down**
+
+![](/_assets/account_creation_05.png)
+
+Сonfirm your seed phrase with a correct sequence of words (just click on the words).
+If you made a mistake just click on Clear and start the process again.
+
+After finishing, click on the **Confirm**.
+
+![](/_assets/account_creation_06.png)
+
+Also, you can find account seed phrase under **Settings** (see left bottom corner) ![](/_assets/dark_mode_01.png)
+
+In the opened window, click on the **Security** and click on the **Show** under **Backup phrase** or copy the phrase by clicking on the **copy**.
+
+![](/_assets/backup_02.png)
+
+___
+
+## More info
+
+See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

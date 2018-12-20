@@ -40,4 +40,8 @@ Choose the type of the application (Beta/Lite client) and click on the **Select*
 
 You will forwarding to the Login page, where you can select the necessary account and login into it with your password only.
 
+___
+
+See more articles in the [Account Management](/waves-client/account-management.md) chapter.
+
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

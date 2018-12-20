@@ -15,7 +15,7 @@
 
 # 1. Benefits of Smart Contracts on Waves Platform
 
-![master](https://img.shields.io/badge/TESTNET-available-4bc51d.svg) ![master](https://img.shields.io/badge/node->%3D0.12.0-4bc51d.svg)
+![master](https://img.shields.io/badge/node->%3D0.12.0-4bc51d.svg)
 
 **Smart contracts** will bring new benefits to the Waves ecosystem:  
 1. [Smart accounts](/technical-details/waves-contracts-language-description/approach-and-capabilities.md) will allow for **multisignature** wallets, which cannot be controlled by one user only. This will be useful for token sales, since funds can be held safely during deployment.  

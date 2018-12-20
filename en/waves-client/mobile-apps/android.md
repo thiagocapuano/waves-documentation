@@ -1,9 +1,8 @@
-This chapter includes all details about Waves wallet for Android devices.
+# Waves wallet for Android
 
-The Android application has basic functionality, such as: sending and receiving Waves tokens and Waves based assets, trading on the DEX platform.
+In this chapter, you will find detailed instructions for Android app. With mobile applications, you will be able to send and receive Waves tokens and all supported Assets, lease Waves, use all available gateways, trade on the built-in DEX exchange and more.
 
-Some functions are not yet available, but they will be implemented in the future.
-
-1. [Account Management](android/account-management.md)
-2. [Transfers and gateways](android/wallet-management.md)
-3. [Waves DEX](android/waves-dex.md)
+* [Android: Account Management](android/account-management.md)
+* [Android: Assets Management](android/assets-management.md)
+* [Android: Transfers and gateways](android/wallet-management.md)
+* [Android: Waves DEX](android/waves-dex.md)

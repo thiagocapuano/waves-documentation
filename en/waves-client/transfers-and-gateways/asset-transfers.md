@@ -1,6 +1,28 @@
-# How to send and receive Asset
+**Menu**:
 
-## **How to send Asset**
+* [How to receive Asset](#how-to-receive-asset)
+* [How to send Asset](#how-to-send-asset)
+* [More info](#more-info)
+
+## How to receive Asset
+
+Think of the Waves account as a multi-wallet. It, obviously, supports Waves and also any other token existing on the Waves blockchain.
+
+Whenever you want to receive Waves based asset, just hand your personal Waves address to the sender and he is able to execute the transaction.
+
+Open your Waves wallet. At the top left corner click on the avatar of your account.
+
+![](/_assets/asset_transfers_05.png)
+
+The following pop-up will appear.
+
+There you will find the Waves address of your account.
+
+![](/_assets/asset_transfers_06.png)
+
+Copy the shown Waves address and use it as recipient address.
+
+## How to send Asset
 
 Open up your Waves wallet.  
 At the top left corner click on the **Send** button.
@@ -30,25 +52,9 @@ Re-check entered data and click on the **Confirm** button.
 
 ![](/_assets/asset_transfers_04.png)
 
-## **How to receive Asset**
-
-Think of the Waves account as a multi-wallet. It, obviously, supports Waves and also any other token existing on the Waves blockchain.
-
-Whenever you want to receive Waves based asset, just hand your personal Waves address to the sender and he is able to execute the transaction.
-
-Open your Waves wallet. At the top left corner click on the avatar of your account.
-
-![](/_assets/asset_transfers_05.png)
-
-The following pop-up will appear.
-
-There you will find the Waves address of your account.
-
-![](/_assets/asset_transfers_06.png)
-
-Copy the shown Waves address and use it as recipient address.
-
 ___
+
+## More info
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

@@ -41,7 +41,7 @@ As a result, We define the following constraint for a _**script cost**_:
 
 **Examples:**
 
-* If transaction's usual cost is 0.001 WAVES, in case of smart scripting exactly the same transaction will be cost 0.001 + 0.004 WAVES. 
+* If transaction's usual cost is 0.001 WAVES, in case of smart scripting exactly the same transaction will be cost 0.001 + 0.004 WAVES. 
 * Set Alias for an account without a script would cost 0.001 WAVES, whereas for a Smart Account it would be 0.001+0.004=0.005 WAVES.
 
 **Note. **All minimal transactions fees can be found [_**here**_](/technical-details/transactions-fees.md).
@@ -59,9 +59,15 @@ When an exchange transaction broadcasts to the UTX Pool and then to the blockcha
 
 Waves also added trader’s script check in Matcher. When it receives an order from a smart account, it executes the script for the order.
 
+### Fee Calculation Rules for Trading
+
+* Smart Accounts _**don’t pay extra 0.004**_ for Order placements.
+* Exchange Transaction’s fee is _**not increased by +0.004**_ if any of the accounts is a Smart Account.
+* If the matcher is a Smart Account\(has a script\) then the fee for the matcher is increased by 0.004.
+
 ### Examples
 
-1. An account can trade only with BTC:
+#### 1. An account can trade only with BTC:
 
 ```js
 let cooperPubKey = base58'BVqYXrapgJP9atQccdBPAgJPwHDKkh6A8'
@@ -73,7 +79,7 @@ match tx {
 }
 ```
 
-1. Buy back custom asset on specified price in WAVES:
+#### 2. Buy back custom asset on specified price in WAVES:
 
 ```js
 let myAssetId = base58'BVqYXrapgJP9atQccdBPAgJPwHDKkh6B9'

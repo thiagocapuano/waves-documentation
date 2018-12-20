@@ -1,9 +1,8 @@
-This chapter includes all details about Waves wallet for iOS devices.
+# Waves wallet for iOS
 
-The iOS application has basic functionality, such as: sending and receiving Waves tokens and Waves based assets, trading on the DEX platform.
+In this chapter, you will find detailed instructions for iOS app. With mobile applications, you will be able to send and receive Waves tokens and all supported Assets, lease Waves, use all available gateways, trade on the built-in DEX exchange and more.
 
-Some functions are not yet available, but they will be implemented in the future.
-
-1. [Account Management](iOS/account-management.md)
-2. [Transfers and gateways](iOS/wallet-management.md)
-3. [Waves DEX](iOS/waves-dex.md)
+* [iOS: Account Management](iOS/account-management.md)
+* [iOS: Assets Management](iOS/assets-management.md)
+* [iOS: Transfers and gateways](iOS/wallet-management.md)
+* [iOS: Waves DEX](iOS/waves-dex.md)

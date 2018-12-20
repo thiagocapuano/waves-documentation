@@ -10,7 +10,6 @@ _**Waves Platform is a comprehensive blockchain platform that features **_[_**fi
 * The fiat-crypto problem is solved through [_**Waves fiat gateways**_](/waves-client/wallet-management.md).
 * [_**Waves-NG protocol**_](/platform-features/waves-ng-protocol.md) which greatly increases TPS capacity because miners no longer compete to verify transactions.
 * [_**Leased Proof-of-Stake\(LPoS\)**_](/platform-features/leased-proof-of-stake-lpos.md) algorithm to find a distributed consensus.
-* Built on top of the Scorex framework.
 
-**Note.**If you're a new reader, please check our [_**DOCUMENTATION GUIDE**_](/overview/how-to-use-this-guide.md).
 
+{% prettyhint type="info" %} If you're a new reader, please check our <a href="/overview/how-to-use-this-guide.md"> &nbsp;DOCUMENTATION GUIDE </a> {% endprettyhint %}
