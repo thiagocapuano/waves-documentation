@@ -30,6 +30,7 @@ Choose your address avatar. When you have done so, choose account name and walle
 Click on the **Continue** button.
 
 ![](/_assets/account_creation_002.png)
+
 Now, it's an important step to backup your account by clicking **Back Up Now**.
 
 Waves will display an important reminder. Never provide your backup phrase to anyone except the official Waves client.  We recommend that you write the backup phrase on a piece of paper and store it in a secure location.  Do not store the backup phrase unencrypted on any electronic device.
