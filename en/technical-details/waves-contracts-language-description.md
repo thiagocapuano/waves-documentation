@@ -1,7 +1,7 @@
 # The Guide Structure
 
-1. [Smart Accounts](/technical-details/waves-contracts-language-description/approach-and-capabilities.md)
-2. [Smart Assets](/technical-details/smart-assets.md)
+1. [Smart Accounts](../technical-details/waves-contracts-language-description/approach-and-capabilities.md)
+2. [Smart Assets](../technical-details/smart-assets.md)
 3. [RIDE Language](../technical-details/ride-language.md)
 4. [RIDE Language Description](../technical-details/ride-language/language-description.md)
 5. [Effective RIDE Examples](../technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md)
