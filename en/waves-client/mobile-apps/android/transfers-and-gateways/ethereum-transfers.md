@@ -23,14 +23,13 @@ The following window will appear. Tap on the **Asset** and choose **Ethereum** f
 
 Before proceeding please carefully read the conditions:
 
-**Please do not deposit ETH from smart contracts! Do not deposit ERC20 tokens! Only Ethereum is allowed.**
-```
-Check if your wallet or exchange uses smart-contracts to withdraw ETH. We do not accept such transactions and can’t refund them. You will lose that money.
-```
-**The minimum amount of deposit is 0.001 ETH**
-```
-If you will send less than 0.001 ETH, you will lose that money.
-```
+**The minimum amount of deposit is 0.005 ETH**
+
+>If you will send less than 0.005 ETH, you will lose that money.
+
+**Please do not deposit ETH from smart contracts! Do not deposit ERC20 tokens! Only Ethereum is allowed**
+
+>Check if your wallet or exchange uses smart-contracts to withdraw ETH. We do not accept such transactions and can’t refund them. You will lose that money.
 
 After that click on the **Continue**.
 
