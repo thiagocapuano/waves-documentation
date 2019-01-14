@@ -22,13 +22,12 @@ In the Ethereum section, click on the **Receive** button.
 The following window will appear. Before proceeding please carefully read the conditions:
 
 **Please do not deposit ETH from smart contracts! Do not deposit ERC20 tokens! Only Ethereum is allowed.**
-```
-Check if your wallet or exchange uses smart-contracts to withdraw ETH. We do not accept such transactions and can’t refund them. You will lose that money.
-```
+
+>Check if your wallet or exchange uses smart-contracts to withdraw ETH. We do not accept such transactions and can’t refund them. You will lose that money.
+
 **The minimum amount of deposit is 0.001 ETH**
-```
-If you will send less than 0.001 ETH, you will lose that money.
-```
+
+>If you will send less than 0.001 ETH, you will lose that money.
 
 Copy the shown Ethereum address or Scan QR Code and send a payment.  
 
