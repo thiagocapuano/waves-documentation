@@ -50,7 +50,5 @@ Where: **hasNext** is true if there is a next query, **LastItem**: the address o
 
 * **Next requests to get whole distribution will be similar.**
 
-`"AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq"` in **after** param in _**N**_ request should be substituted with **lastItem**
-
-from _**N-1**_ response and Repeat until **hasNext == false**.
+`"AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq"` in **after** param in _**N**_ request should be substituted with **lastItem **from _**N-1**_ response and Repeat until **hasNext == false**.
 
