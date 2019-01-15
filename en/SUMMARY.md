@@ -156,7 +156,7 @@
 * [Implementation Details](technical-details/waves-contracts-language-description/implementation-details.md)
 * [Functions and Standard Library](technical-details/waves-contracts-language-description/standard-library.md)
 * [Creating and Deploying a Script Manually](technical-details/waves-contracts-language-description/creating-and-deploying-a-script-manually.md)
-* [Script Performance Tests](/technical-details/waves-contracts-language-description/script-performance-tests.md)
+* [Script Performance Tests](technical-details/waves-contracts-language-description/script-performance-tests.md)
 * [Waves Console Commands](technical-details/waves-contracts-language-description/waves-console-commands.md)
   * [Console Examples](technical-details/waves-contracts-language-description/waves-console-commands/examples.md)
 * [Video Tutorials and Articles](technical-details/video-tutorials-and-articles.md)

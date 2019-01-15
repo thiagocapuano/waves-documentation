@@ -3,7 +3,7 @@
 Here you can find some video tutorials about our smart contracts use-cases which were build using:
 
 1. [Waves IDE](https://ide.wavesplatform.com)
-2. [WaveJ \(Waves Java Library\) ](/development-and-api/client-libraries/wavesj.md)
+2. [WaveJ \(Waves Java Library\) ](../development-and-api/client-libraries/wavesj.md)
 
 ## 1.1 Using Smart Contracts with Waves Console
 
@@ -39,7 +39,7 @@ Waves IDE has a **Waves console** feature which supports different commands.
 [In this video](https://www.youtube.com/watch?v=gBgLjg6nrvA&amp=&feature=youtu.be) we went through most of these commands with simple examples.
 
 * [_**Video**_](https://www.youtube.com/watch?v=gBgLjg6nrvA&amp=&feature=youtu.be)
-* [_**Waves Console Commands Examples**_](/technical-details/waves-contracts-language-description/waves-console-commands.md)
+* [_**Waves Console Commands Examples**_](../technical-details/waves-contracts-language-description/waves-console-commands.md)
 
 ## 1.5 Create MultiSig Account via Waves Client
 
