@@ -10,7 +10,7 @@ The problems with getting the whole assets distribution for many holders at once
 * Vulnerability  to DDOS attacks for the nodes which is using this method without pagination.
 
 For the mentioned problems above, **GET /assets/{assetId}/distribution/{height}** provides more recommended method for getting balance distribution at a given block height \(up to 2,000 blocks down\) and it works with pagination.  
-Several addresses in one query is limited by a **limit** parameter which is by default 1000 addresses maximum and if it's your node, you can configure max limit in **Application.Conf** . You can include the address of the next query for the next part of asset distribution by using the optional parameter **After** .
+Several addresses in one query is limited by a **limit** parameter which is by default 1000 addresses maximum and if it's your node, you can configure max limit in **Application.Conf** by modifying **distribution-address-limit**\(by default it's equal to 1000\). You can include the address of the next query for the next part of asset distribution by using the optional parameter **After** .
 
 **GET /assets/{assetId}/distribution/{height}** JSON response:
 
