@@ -29,7 +29,7 @@ $nodeUrl/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/100000
 
 "hasNext" : true,
 
-"lastItem" : "AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq",
+"lastItem" : "ENTuiWywkRCD2kjha6RBWyx8fQsFbcBEXkryqwQQQrwF",
 
 "items" : { // first 100 addresses in distribution
 
@@ -45,14 +45,12 @@ Where: **hasNext** is true if there is a next query, **LastItem**: the address o
 * **Request to get next 100 addresses in distribution**
 
 ```js
-  $nodeUrl/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1000000/limit/100?after="some address"
+  $nodeUrl/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1000000/limit/100?after="ENTuiWywkRCD2kjha6RBWyx8fQsFbcBEXkryqwQQQrwF"
 ```
 
 * **Next requests to get whole distribution will be similar.**
 
-`"AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq"` in **after** param in N request should be substituted with lastItem
+`"AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq"` in **after** param in _**N**_ request should be substituted with **lastItem**
 
-from N-1 response and Repeat until **hasNext == false**.
-
-
+from _**N-1**_ response and Repeat until **hasNext == false**.
 
