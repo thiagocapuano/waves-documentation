@@ -12,26 +12,47 @@ The problems with getting the whole assets distribution for many holders at once
 For the mentioned problems above, **GET /assets/{assetId}/distribution/{height}** provides more recommended method for getting balance distribution at a given block height \(up to 2,000 blocks down\) and it works with pagination.  
 Several addresses in one query is limited by a **limit** parameter which is by default 1000 addresses maximum and if it's your node, you can configure max limit in **Application.Conf** by modifying **distribution-address-limit**\(by default it's equal to 1000\). You can include the address of the next query for the next part of asset distribution by using the optional parameter **After** .
 
-**GET /assets/{assetId}/distribution/{height}** JSON response:
+## Examples
+
+Lets assume that we want to get distribution of asset `AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq` at height 1000000:
+
+* **First  Request**
+
+```js
+$nodeUrl/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1000000/limit/100
+```
+
+* **First  Response**
 
 ```js
 {
-    "hasNext"  : true,
-    "lastItem" : "3PxA...",
-    "items" : {
-        "3PhU..." : 100,
-        "3PfD..." : 150,
-        ...
-        "3PnK..." : 99
-    }
+
+"hasNext" : true,
+
+"lastItem" : "AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq",
+
+"items" : { // first 100 addresses in distribution
+
+...
+
+}
+
 }
 ```
 
-Where:
+Where: **hasNext** is true if there is a next query, **LastItem**: the address of last item, **items**: the list of distributed addresses.
 
-* **hasNext** is true if there is a next query and otherwise it's false.
-* **LastItem**: the address of last item.
-* **items**: the list of distributed assets.
+* **Request to get next 100 addresses in distribution**
+
+```js
+  $nodeUrl/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1000000/limit/100?after="some address"
+```
+
+* **Next requests to get whole distribution will be similar.**
+
+`"AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq"` in **after** param in N request should be substituted with lastItem
+
+from N-1 response and Repeat until **hasNext == false**.
 
 
 
