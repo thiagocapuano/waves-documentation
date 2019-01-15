@@ -7,8 +7,8 @@
     "pretty-hint@git+https://github.com/Shushik/gitbook-plugin-pretty-hint.git",
     "pretty-link@git+https://github.com/Shushik/gitbook-plugin-pretty-link.git",
     "headers-with-anchors@git+https://github.com/Shushik/gitbook-plugin-headers-with-anchors.git",
-    "flexible-alerts",
-    "custom-favicon"
+    "custom-favicon",
+    "flexible-alerts"
   ],
   "pluginsConfig": {
     "gtm": {
