@@ -190,7 +190,7 @@
   * [Assets](development-and-api/waves-node-rest-api/asset-transactions.md)
     * [Public Functions](development-and-api/waves-node-rest-api/asset-transactions/public-functions.md)
     * [Private Functions](development-and-api/waves-node-rest-api/asset-transactions/private-functions.md)
-    * [Distribution Methods](technical-details/smart-assets/assets-distribution.md)
+    * [Distribution Methods](development-and-api/waves-node-rest-api/asset-transactions/distribution-methods.md)
   * [Alias Transaction](development-and-api/waves-node-rest-api/alias-transaction.md)
   * [Transactions](development-and-api/waves-node-rest-api/transactions.md)
   * [Peers](development-and-api/waves-node-rest-api/peers.md)
