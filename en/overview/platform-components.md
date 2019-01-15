@@ -4,11 +4,10 @@
 
 [The Waves Client](https://client.wavesplatform.com) can be [easily installed](/waves-client/install-waves-client.md) and used to perform most actions in the Waves Platform where users can issue, transfer and trade assets.
 
-\[ !NOTE\]
-
+[!NOTE]
 An alert of type 'note' using global style 'callout'.
 
-\[!COMMENT\] An alert of type 'comment' using style 'callout' with default settings.
+[!COMMENT] [An alert of type 'comment' using style 'callout' with default settings.]
 
 # 2. Waves Wallet
 
