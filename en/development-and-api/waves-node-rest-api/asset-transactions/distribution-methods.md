@@ -40,7 +40,7 @@ Where: **hasNext** is true if there is a next query, **LastItem**: the address o
 * **Request to get next 100 addresses in distribution**
 
 ```js
-  $nodeUrl/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1000000/limit/100?after="ENTuiWywkRCD2kjha6RBWyx8fQsFbcBEXkryqwQQQrwF"
+http://nodes.wavesnodes.com/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1351864/limit/100?after=3P9hsHuzzDAhmazdwFKDRn7wdjsMGp4du6s
 ```
 
 * **Next requests to get whole distribution will be similar.**
