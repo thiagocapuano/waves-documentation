@@ -66,7 +66,7 @@ Choose a pair you want to work with and look at the right bottom corner.
 
 Fill the fields in the order form:
 
-* In the **Amount** enter the amount of currency you want to buy;
+* In the **Amount** enter the amount of currency you want to sell;
 * In the **Limit** price enter the price of the currency;
 * In the **Total** check the total amount of the order.
 
