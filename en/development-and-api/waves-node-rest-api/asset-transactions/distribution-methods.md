@@ -19,24 +19,19 @@ Lets assume that we want to get distribution of asset `AVCgxvK9S7m3Kc4eFqKez914H
 **1. First  Request**
 
 ```js
-$nodeUrl/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1000000/limit/100
+http://nodes.wavesnodes.com/assets/AVCgxvK9S7m3Kc4eFqKez914HgBbv4W7XFCT7rALH4Vq/distribution/1351858/limit/100
 ```
 
 **2. First  Response**
 
 ```js
 {
-
-"hasNext" : true,
-
-"lastItem" : "ENTuiWywkRCD2kjha6RBWyx8fQsFbcBEXkryqwQQQrwF",
-
-"items" : { // first 100 addresses in distribution
-
-...
-
-}
-
+  "hasNext": false,
+  "lastItem": "3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr",
+  "items": {
+    "3P9hsHuzzDAhmazdwFKDRn7wdjsMGp4du6s": 2099999945880000,
+    "3PAs2qSeUAfgqSKS8LpZPKGYEjJKcud9Djr": 54120000
+  }
 }
 ```
 
