@@ -45,10 +45,10 @@ http://nodes.wavesnodes.com/assets/DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J/
 
 Where: **hasNext** is true if there is a next query, **LastItem**: the address of last item, **items**: the list of distributed addresses.
 
-**1. Request to get next 10 addresses in distribution at height 1352996 and after the address 3PMzLSxyP9hgGNAmFgmHZ7ei9cCibbk6nYC :**
+**1. Request to get next 10 addresses in distribution at height 1353075 and after the address of LastItem which is 3PPfAGBSZbTka5jCL3iXmQycXdgySbCj3kK :**
 
 ```js
-http://nodes.wavesnodes.com/assets/DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J/distribution/1352996/limit/10?after=3PMzLSxyP9hgGNAmFgmHZ7ei9cCibbk6nYC
+http://nodes.wavesnodes.com/assets/DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J/distribution/1353075/limit/10?after=3PPfAGBSZbTka5jCL3iXmQycXdgySbCj3kK
 ```
 
 **2. Respond to get next 10 addresses in distribution:**
@@ -56,18 +56,18 @@ http://nodes.wavesnodes.com/assets/DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J/
 ```js
 {
   "hasNext" : true,
-  "lastItem" : "3PChKs3ZTQ8RaosngtpkpFCGPcfQ7rJ6FkH",
+  "lastItem" : "3P4TXRsqDJm2ZGBD5mAZjePf5agmXMeuDb9",
   "items" : {
+    "3P4TXRsqDJm2ZGBD5mAZjePf5agmXMeuDb9" : 5,
     "3PHczp777nxGPj4JTocuDa8sdVohzuxk3Bc" : 1,
-    "3P59RUApvri6pS2LpCuem3ypsF8hGbTuhJW" : 5,
-    "3PCW1xqHcXLb9irik43tDrYY2xuVGsdvfH3" : 4,
     "3PBhRmXaAmusZ68fR4s8fx5ej7BnjaakghA" : 5,
+    "3PAFYk89L1DLhyTzV8n4pa3Tu3Ag6qJAJof" : 5,
     "3P1y6WPuhP69FLPd4yjRhjDEaBukyJdHq2y" : 1,
     "3PGa2ZKine8AEoWW6bUcQ361n4EDDk9KY3N" : 5,
     "3PChKs3ZTQ8RaosngtpkpFCGPcfQ7rJ6FkH" : 5,
     "3PHyfTkzkaC7dv29RDCYL8XHx2EaZU8Nk2X" : 1,
     "3P2Z9TJdHejPZHM4qoX6i2No2n2cXSnVPPE" : 1,
-    "3PPfAGBSZbTka5jCL3iXmQycXdgySbCj3kK" : 5
+    "3PGBDioYWFZXyfMvEwwrwKMBzNLxVZ3ax7G" : 4
   }
 }
 ```
