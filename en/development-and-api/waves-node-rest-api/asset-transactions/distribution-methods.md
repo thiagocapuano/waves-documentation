@@ -43,7 +43,7 @@ http://nodes.wavesnodes.com/assets/DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J/
 }
 ```
 
-Where: 
+Where:
 
 * **hasNext** is true if there is a next query.
 * **lastItem**: the address of last item\(you should use 'lastItem' parameter to get next portion\).
