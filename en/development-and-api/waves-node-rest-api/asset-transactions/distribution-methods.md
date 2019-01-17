@@ -43,7 +43,11 @@ http://nodes.wavesnodes.com/assets/DHgwrRvVyqJsepd32YbBqUeDH4GJ1N984X8QoekjgH8J/
 }
 ```
 
-Where: **hasNext** is true if there is a next query, **LastItem**: the address of last item, **items**: the list of distributed addresses.
+Where: 
+
+* **hasNext** is true if there is a next query.
+* **lastItem**: the address of last item\(you should use 'lastItem' parameter to get next portion\).
+* **items**: the list of distributed addresses.
 
 **1. Request to get next 10 addresses in distribution at height 1353075 and after the address of LastItem which is 3PPfAGBSZbTka5jCL3iXmQycXdgySbCj3kK :**
 
