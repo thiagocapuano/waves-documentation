@@ -54,7 +54,7 @@ let none = MyFunc($Then) (...)
 
 ### Brackets
 
-1. Round brackets (parentheses) are used to specify the order of operations:
+**Round brackets (parentheses)** are used to specify the order of operations:
 
 ```
 ...
@@ -72,7 +72,7 @@ else throw()
 ...
 ```
 
-2. Curly brackets (braces) are used in `match` operator constructions:
+**Curly brackets (braces)** are used in `match` operator constructions:
 
 ```
 ...
@@ -84,7 +84,7 @@ match tx {
 ...
 ```
 
-3. Square brackets are used for indexing:
+**Square brackets** are used for indexing:
 ```
 ...
 let equalProofs = tx.proofs[0] == tx.proofs[1]
