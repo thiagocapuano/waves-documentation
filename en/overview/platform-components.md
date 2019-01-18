@@ -4,6 +4,11 @@
 
 [The Waves Client](https://client.wavesplatform.com) can be [easily installed](/waves-client/install-waves-client.md) and used to perform most actions in the Waves Platform where users can issue, transfer and trade assets.
 
+[!NOTE]
+An alert of type 'note' using global style 'callout'.
+
+[!COMMENT]An alert of type 'comment' using style 'callout' with default settings.
+
 # 2. Waves Wallet
 
 * It’s a fully-featured client that lets you access all features of the Waves platform.
@@ -22,7 +27,7 @@
 
 * Waves App is a mobile client for Waves Platform available for [iOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 * The wallet is connected to public Waves nodes in order to retrieve your transactions and send payments.
-* Get started with Waves App for [iOS](/waves-client/mobile-apps/iOS) and [Android](/waves-client/mobile-apps/android.md) devices.
+* Get started with Waves App for [iOS](/waves-client/mobile-apps/iOS.md) and [Android](/waves-client/mobile-apps/android.md) devices.
 
 # 5. Waves Gateways
 
@@ -66,20 +71,10 @@ Nodes are a critical part of our ecosystem. [Run a Waves node](/waves-full-node/
 
 # 7.1 Mining nodes \(pools\)
 
-You don’t need any fancy hardware, just a simple hosted server and at least 1,000 WAVES.
+* You don’t need any fancy hardware, just a simple hosted server and at least 1,000 WAVES.
+* You can run a public mining pool and have users lease their funds to you, thereby increasing your profits and sharing them with the community.
 
-You can also run a public mining pool and have users lease their funds to you, thereby increasing your profits and sharing them with the community.
-
-You can find the full list of Waves nodes for leasing with their corresponding address here [http://dev.pywaves.org/generators-weekly/](http://dev.pywaves.org/generators-weekly/) :
-
-* [**wavesgo.com**](http://wavesgo.com/)
-* [**wavesfullnode.com**](http://wavesfullnode.com/)
-* [**wavescommunitynode.com**](http://wavescommunitynode.com/)
-* [**wavesnode.com**](http://wavesnode.com/)
-* [**wavespool.net**](http://wavespool.net/)
-* [**pospool.io**](http://pospool.io/)
-* [**wavesnode.net**](http://wavesnode.net/)
-* [**bearwaves.nl**](http://bearwaves.nl/)
+You can find the full list of Waves nodes for leasing with their corresponding address [_**HERE.**_](https://forum.wavesplatform.com/c/pools)
 
 # 7.2 Official nodes with open API
 
