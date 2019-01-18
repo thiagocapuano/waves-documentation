@@ -52,17 +52,42 @@ let x = tx.attachment (...)
 let none = MyFunc($Then) (...)
 ```
 
-### Braces
+### Brackets
 
-Braces are used to create logical expressions or functions calls:
+Round brackets (parentheses) are used to create functions calls:
 
 ```
-let notaryAgreement = if(isDefined(tx.proof[1])) then (...)
+...
+let notaryAgreement = if isDefined(tx.proofs[1])
+                      then sigVerify(tx.bodyBytes, tx.proofs[1], notarySenderPublicKey)
+                      else throw()
+...
+```
+Parentheses are also used to specify the order of operations:
 
-let massTransferAttrs = ((match tx {
-              case a: MasstransferTransaction => true} && (size(tx.transfers) == 2)) (...)
+```
+...
+let confirmedAndSigned = ((txToGovConfirmed && txToGov) || txToUsers) && signed
+...
+```
 
-(...) (txToGovAttrsAllow && sig && txToGov)  || (txToUsers && sig)
+Curly brackets (braces) are used in `match` operator constructions:
+
+```
+...
+let twoTransfers =
+match tx {
+  case tx : MassTransferTransaction => size(tx.transfers) == 2
+  case other => false
+}
+...
+```
+
+Square brackets are used for indexing:
+```
+...
+let equalProofs = tx.proofs[0] == tx.proofs[1]
+...
 ```
 
 ### Comments
