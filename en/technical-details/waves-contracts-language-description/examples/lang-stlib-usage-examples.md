@@ -67,7 +67,7 @@ and to create functions calls:
 ```
 ...
 if isDefined(tx.proofs[0])
-then sigVerify(tx.bodyBytes, tx.proofs[0], notarySenderPublicKey)
+then sigVerify(tx.bodyBytes, tx.proofs[0], tx.senderPublicKey)
 else throw()
 ...
 ```
