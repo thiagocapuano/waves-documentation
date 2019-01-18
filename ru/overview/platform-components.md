@@ -23,7 +23,7 @@ Waves Client можно [установить](/waves-client/install-waves-clien
 
 * Мобильные версии Waves приложений могут быть установлены на [iOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8) и [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet) устройствах.
 * Waves приложение использует подключение к общедоступным нодам сети Waves, что обеспечивает возможность получения транзакции и отправки платежей.
-* Руководство по началу работы с Waves приложениями для [iOS](/waves-client/mobile-apps/iOS) и [Android](/waves-client/mobile-apps/android) устройств.
+* Руководство по началу работы с Waves приложениями для [iOS](/waves-client/mobile-apps/iOS.md) и [Android](/waves-client/mobile-apps/android.md) устройств.
 
 Минимально поддерживаемая версия ОС: **iOS 11** и **Android 5.0**.
 

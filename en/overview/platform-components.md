@@ -27,7 +27,7 @@ An alert of type 'note' using global style 'callout'.
 
 * Waves App is a mobile client for Waves Platform available for [iOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 * The wallet is connected to public Waves nodes in order to retrieve your transactions and send payments.
-* Get started with Waves App for [iOS](/waves-client/mobile-apps/iOS) and [Android](/waves-client/mobile-apps/android.md) devices.
+* Get started with Waves App for [iOS](/waves-client/mobile-apps/iOS.md) and [Android](/waves-client/mobile-apps/android.md) devices.
 
 # 5. Waves Gateways
 
