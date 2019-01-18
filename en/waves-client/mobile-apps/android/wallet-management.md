@@ -12,6 +12,6 @@ Transfers and gateways chapter includes all details about transfer operations fo
 * [Android: Dash transfers](transfers-and-gateways/dash-transfers.md)
 * [Android: Monero transfers](transfers-and-gateways/monero-transfers.md)
 
-The Waves wallet also supports small purchases of Waves in Euro and US Dollar (minimum 30 EUR/USD, maximum 3000 EUR/USD) using plastic card.
+The Waves wallet also supports purchases of Waves in Euro and US Dollar (minimum 30 EUR/USD, maximum 3000 EUR/USD) using plastic card.
 
 * [Android: Buying Waves using credit or debit card](transfers-and-gateways/buying-waves-using-card.md)

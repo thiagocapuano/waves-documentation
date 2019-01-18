@@ -25,9 +25,9 @@ An alert of type 'note' using global style 'callout'.
 
 # 4. Mobile apps
 
-* Waves Wallet is a mobile client to WavesPlatform available on [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet) and [IOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8).
+* Waves App is a mobile client for Waves Platform available for [iOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8) and [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet).
 * The wallet is connected to public Waves nodes in order to retrieve your transactions and send payments.
-* Get started with Waves wallet for [iOS](en/waves-client/mobile-apps/iOS.md) and [Android](en/waves-client/mobile-apps/android.md)
+* Get started with Waves App for [iOS](/waves-client/mobile-apps/iOS) and [Android](/waves-client/mobile-apps/android.md) devices.
 
 # 5. Waves Gateways
 
@@ -43,17 +43,13 @@ the USD and EUR gateways offer Waves users an easy way to move money into the bl
 
 ## 6.2 Crypto Gateways
 
-All currencies listed below are integrated in Waves through gateways. You can see gateways as a means to transfer a currency to a platform.
+All currencies listed below are integrated in Waves through gateways. You can see gateways as a means to transfer a currency to and from the platform.
 
 Current List of crypto gateways:
 
-* [Bitcoin](/waves-client/transfers-and-gateways/bitcoin-transfers.md)
-* [Ethereum](/waves-client/transfers-and-gateways/ethereum-transfers.md)
-* [Litecoin](/waves-client/transfers-and-gateways/litecoin-transfers.md)
-* [Zcash](/waves-client/transfers-and-gateways/zcash-transfers.md)
-* [Bitcoin Cash](/waves-client/transfers-and-gateways/bitcoin-cash-transfers.md)
-* [Dash](/waves-client/transfers-and-gateways/dash-transfers.md)
-* [Monero](/waves-client/transfers-and-gateways/monero-transfers.md)
+* [Transfers and Gateways](/waves-client/wallet-management.md)
+* [iOS: Transfers and gateways](/waves-client/mobile-apps/iOS/wallet-management.md)
+* [Android: Transfers and gateways](/waves-client/mobile-apps/android/wallet-management.md)
 
 Cryptocurrency gateways can be used to move external currencies into and out of the Waves blockchain. Once the currencies have been confirmed as received by the gateway, the user’s wallet is credited with a Waves token that is 1:1 backed by the cryptocurrency held within the server. See more [What is a payment gateway](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
@@ -101,6 +97,3 @@ Matchers will receive fees for the service they provide, adding an additional re
 
 1. **MainNet** - this is the real deal, the live Waves blockchain where you in the worst case could lose money if you are not careful. You can access the mainnet via a full node. it's integrated with the GUI in the Waves client, allowing anyone to use it without any technical knowledge or blockchain downloads.
 2. **TestNet **- this is the test version of the Waves blockchain. [here](https://github.com/wavesplatform/Waves/releases) you'll find always the latest versions and newest features before they go live.
-
-
-
