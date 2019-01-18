@@ -13,6 +13,6 @@
 * [Переводы Monero](transfers-and-gateways/monero-transfers.md)
 * [Перевод EUR и USD](transfers-and-gateways/eur-usd-transfers.md)
 
-Waves приложение также поддерживает покупку Waves за Евро и Доллары США (минимум 30 EUR/USD, максимум 3000 EUR/USD) с использованием пластиковой банковской карты.
+Waves приложение также поддерживает покупку Waves за Евро и Доллары США (минимум 30 EUR/USD, максимум 3000 EUR/USD) с использованием банковской карты.
 
 * [Покупка Waves с банковской карты](transfers-and-gateways/buying-waves-using-card.md)

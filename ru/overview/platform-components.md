@@ -23,15 +23,17 @@ Waves Client можно [установить](/waves-client/install-waves-clien
 
 * Мобильные версии Waves приложений могут быть установлены на [iOS](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8) и [Android](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet) устройствах.
 * Waves приложение использует подключение к общедоступным нодам сети Waves, что обеспечивает возможность получения транзакции и отправки платежей.
-* Руководство по началу работы с Waves Wallet для [iOS](https://docs.wavesplatform.com/en/waves-client/mobile-apps/iOS.html) и [Android](https://docs.wavesplatform.com/en/waves-client/mobile-apps/android.html)
+* Руководство по началу работы с Waves приложениями для [iOS](/waves-client/mobile-apps/iOS) и [Android](/waves-client/mobile-apps/android) устройств.
+
+Минимально поддерживаемая версия ОС: **iOS 11** и **Android 5.0**.
 
 # 5. Шлюзы Waves
 
-Фиатные шлюзы, такие как USD/EUR, позволяют обменять любой токен, выпущенный на платформе Waves \(или другой криптовалют, таких как BTC/ETH/LTC/ZCash/BCH/Dash\) на «реальные» деньги, которые могут быть помещены в банк. Все транзакции криптовалюта -> фиат и фиат -> криптовалюта будут записаны в блокчейн Waves.
+Фиатные шлюзы, такие как USD/EUR, позволяют обменять любой токен, выпущенный на платформе Waves \(или другой криптовалют, таких как BTC/ETH/LTC/ZEC/BCH/XMR/Dash\) на фиатные деньги, которые могут быть помещены в банк. Все транзакции *Криптовалюта -> Фиат* и *Фиат -> Криптовалюта* записываются в блокчейн Waves.
 
 ## 6.1 Фиатные шлюзы
 
-В Wave Client доступны шлюзы Waves -> USD/EUR, что позволяет любому пользователю ввести или вывести USD, EUR, а также использовать токен в экосистеме Waves. Пользователи Waves могут вносить депозиты в долларах США и евро через безопасные шлюзы, получая взамен токен, который на 100% обеспечивается резервами USD или EUR. Введенные средства могут храниться, передаваться и обмениваться на другие токены быстро и недорого, а твкже, могут быть выведены через шлюз обратно в традиционную финансовую систему.
+В Waves приложении доступны шлюзы Waves -> USD/EUR, что позволяет любому пользователю ввести или вывести USD, EUR, а также использовать токен в экосистеме Waves. Пользователи Waves могут вносить депозиты в долларах США и евро через безопасные шлюзы, получая взамен токен, который на 100% обеспечивается резервами USD или EUR. Введенные средства могут храниться, передаваться и обмениваться на другие токены быстро и недорого, а также, могут быть выведены через шлюз обратно в традиционную финансовую систему.
 
 Шлюзы USD и EUR предлагают пользователям Waves легкий способ перевести деньги в блокчейн систему, позволяя им инвестировать в токены и ICO с помощью фиата. Это одно из ключевых предложений платформы Waves: возможность отправлять и торговать с помощью физически-обеспеченных токенов.
 
@@ -41,15 +43,11 @@ Waves Client можно [установить](/waves-client/install-waves-clien
 
 Перечисленные ниже валюты, интегрированы в Waves через шлюзы. Шлюзы могут использоваться как средство перевода валюты на платформу.
 
-Текущий список шлюзов:
+Текущий список шлюзов для Waves приложений:
 
- * [Bitcoin](/waves-client/transfers-and-gateways/bitcoin-transfers.md)
- * [Ethereum](/waves-client/transfers-and-gateways/ethereum-transfers.md)
- * [Litecoin](/waves-client/transfers-and-gateways/litecoin-transfers.md)
- * [Zcash](/waves-client/transfers-and-gateways/zcash-transfers.md)
- * [Bitcoin Cash](/waves-client/transfers-and-gateways/bitcoin-cash-transfers.md)
- * [Dash](/waves-client/transfers-and-gateways/dash-transfers.md)
- * [Monero](/waves-client/transfers-and-gateways/monero-transfers.md)
+* [Переводы и шлюзы](/waves-client/wallet-management.md)
+* [iOS: Переводы и шлюзы](/waves-client/mobile-apps/iOS/wallet-management.md)
+* [Android: Переводы и шлюзы](/waves-client/mobile-apps/android/wallet-management.md)
 
 Криптовалютные шлюзы могут использоваться для перевода внешних криптовалют в блокчейн Waves и вывода из него. Как только получение шлюзом будет подтверждено, на кошелек пользователя зачислятся токен Waves, который обеспечивается криптовалютой, хранящейся на сервере, в соотношении один к одному. Более подробнее о том [что такое платежный шлюз](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
