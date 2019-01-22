@@ -102,7 +102,7 @@ HBqhfdFASRQ5eBBpu2y6c6KKi1az6bMx8v1JxX4iW1Q8
 
 # Creating address from public key
 
-Our network address obtained from the public key depends on the byte chainId \('T' for testnet and 'W' for mainnet\), so different networks obtained a different address for a single seed \(and hence public keys\). Creating a byte addresses described in more detail [here](/wavesdocs/content/guidelines/data-structures.md).
+Our network address obtained from the public key depends on the byte chainId \('T' for testnet and 'W' for mainnet\), so different networks obtained a different address for a single seed \(and hence public keys\). Creating a byte addresses described in more detail [here](/technical-details/data-structures.md).
 
 Example
 
@@ -162,11 +162,17 @@ Bytes:
 | 11 | Attachment's length \(N\) | Short | 85 \(117_\) \(149\*_\) | 2 | 4 | 15 |
 | 12 | Attachment's bytes | Bytes | 87 \(119_\) \(151\*_\) | N | \[1,2,3,4\] | 2VfUX |
 
-Total data bytes for sign:`Ht7FtLJBrnukwWtywum4o1PbQSNyDWMgb4nXR5ZkV78krj9qVt17jz74XYSrKSTQe6wXuPdt3aCvmnF5hfjhnd1gyij36hN1zSDaiDg3TFi7c7RbXTHDDUbRgGajXci8PJB3iJM1tZvh8AL5wD4o4DCo1VJoKk2PUWX3cUydB7brxWGUxC6mPxKMdXefXwHeB4khwugbvcsPgk8F6YB`
+_**Total data bytes for sign:**_
 
-Signature of transaction data bytes \(one of an infinite number of valid signatures\):`2mQvQFLQYJBe9ezj7YnAQFq7k9MxZstkrbcSKpLzv7vTxUfnbvWMUyyhJAc1u3vhkLqzQphKDecHcutUrhrHt22D`
+`Ht7FtLJBrnukwWtywum4o1PbQSNyDWMgb4nXR5ZkV78krj9qVt17jz74XYSrKSTQe6wXuPdt3aCvmnF5hfjhnd1gyij36hN1zSDaiDg3TFi7c7RbXTHDDUbRgGajXci8PJB3iJM1tZvh8AL5wD4o4DCo1VJoKk2PUWX3cUydB7brxWGUxC6mPxKMdXefXwHeB4khwugbvcsPgk8F6YB`
 
-Total transaction bytes with signature:`6zY3LYmrh981Qbzj7SRLQ2FP9EmXFpUTX9cA7bD5b7VSGmtoWxfpCrP4y5NPGou7XDYHx5oASPsUzB92aj3623SUpvc1xaaPjfLn6dCPVEa6SPjTbwvmDwMT8UVoAfdMwb7t4okLcURcZCFugf2Wc9tBGbVu7mgznLGLxooYiJmRQSeAACN8jYZVnUuXv4V7jrDJVXTFNCz1mYevnpA5RXAoehPRXKiBPJLnvVmV2Wae2TCNvweHGgknioZU6ZaixSCxM1YzY24Prv9qThszohojaWq4cRuRHwMAA5VUBvUs`
+_**Signature of transaction data bytes **_**\(one of an infinite number of valid signatures\):**
+
+`2mQvQFLQYJBe9ezj7YnAQFq7k9MxZstkrbcSKpLzv7vTxUfnbvWMUyyhJAc1u3vhkLqzQphKDecHcutUrhrHt22D`
+
+_**Total transaction bytes with signature:**_
+
+`6zY3LYmrh981Qbzj7SRLQ2FP9EmXFpUTX9cA7bD5b7VSGmtoWxfpCrP4y5NPGou7XDYHx5oASPsUzB92aj3623SUpvc1xaaPjfLn6dCPVEa6SPjTbwvmDwMT8UVoAfdMwb7t4okLcURcZCFugf2Wc9tBGbVu7mgznLGLxooYiJmRQSeAACN8jYZVnUuXv4V7jrDJVXTFNCz1mYevnpA5RXAoehPRXKiBPJLnvVmV2Wae2TCNvweHGgknioZU6ZaixSCxM1YzY24Prv9qThszohojaWq4cRuRHwMAA5VUBvUs`
 
 # Calculating Transaction Id
 
