@@ -36,6 +36,9 @@ Listed below are examples of real transactions of each type found in _**testnet*
 | 12 | Data | [EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC](https://nodes.wavesnodes.com/transactions/info/EByjQAWDRGrmc8uy7xRGy2zsQXZQq59bav7h8oTTJyHC) | [1091300](https://nodes.wavesnodes.com/blocks/at/1091300) |
 | 13 | Set Script | [8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU](https://nodes.wavesnodes.com/transactions/info/8Nwjd2tcQWff3S9WAhBa7vLRNpNnigWqrTbahvyfMVrU) | [1190001](https://nodes.wavesnodes.com/blocks/at/1190001) |
 | 14 | Set Sponsorship | [7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR](http://nodes.wavesnodes.com/transactions/info/7EL2XEGP1By427BeLcHPYeVnBzGsXen4egMAwQpWGBVR) | [1130205](https://nodes.wavesnodes.com/blocks/at/1130205) |
+| 15 | Set Asset Script | [FwYSpmVDbWQ2BA5NCBZ9z5GSjY39PSyfNZzBayDiMA88](http://nodes.wavesnodes.com/transactions/info/FwYSpmVDbWQ2BA5NCBZ9z5GSjY39PSyfNZzBayDiMA88) | [1346345](https://nodes.wavesnodes.com/blocks/at/1346345) |
+
+
 
 
 
