@@ -1,20 +1,20 @@
 # Description
-This section describes all the details of cryptographic algorithms which are used to:
-1. Create private and public keys from seed.
-2. Create addresses from public key.
+
+This section describes all the details of cryptographic algorithms which are used to:  
+1. Create private and public keys from seed.  
+2. Create addresses from public key.  
 3. Create blocks and transactions signing.
 
-We use:
-1.  `Blake2b256` and `Keccak256` algorithms \(in the form of hash chain\) to create a cryptographic hashes used .
-2. `Curve25519` \(ED25519 with X25519 keys\) in order to create and verify signatures.
+We use:  
+1.  `Blake2b256` and `Keccak256` algorithms \(in the form of hash chain\) to create a cryptographic hashes used .  
+2. `Curve25519` \(ED25519 with X25519 keys\) in order to create and verify signatures.  
 3. `Base58` is used to create the string form of bytes.
 
-**Note**: We use KECCAK which differs slightly than that assigned as the SHA-3 (FIPS-202).
-
+**Note**: We use KECCAK which differs slightly than that assigned as the SHA-3 \(FIPS-202\).
 
 # Bytes encoding Base58
 
-All arrays of bytes in the project are encoded by Base58 algorithm with Bitcoin alphabet to make it ease human readable (text readability).
+All arrays of bytes in the project are encoded by Base58 algorithm with Bitcoin alphabet to make it ease human readable \(text readability\).
 
 ## Example
 
@@ -30,9 +30,16 @@ For example, seed string `manage manual recall harvest series desert melt police
 
 A seed string is involved with the creation of private keys. To create private key using the official web wallet or the node, to 4 bytes of int 'nonce' field \(big-endian representation\), which initially has a value of 0 and increases every time you create the new address, should be prepended to seed bytes. Then we use this array of bytes for calculate hash `keccak256(blake2b256(bytes))`. This resulting array of bytes we call `account seed`, from it you can definitely generate one private and public key pair. Then this bytes hash passed in the method of creating a pair of public and private key of `Curve25519` algorithm.
 
-Waves uses `Curve25519`-`ED25519` signature with X25519 keys \(Montgomery form\), but most of embedded cryptography devices and libraries don't support X25519 keys. But [there're the libraries with conversion functions from ED25519 keys to X25519 \(Curve25519\) crypto\_sign\_ed25519\_pk\_to\_curve25519\(curve25519\_pk, ed25519\_pk\) for public key and crypto\_sign\_ed25519\_sk\_to\_curve25519\(curve25519\_sk, ed25519\_skpk\) for private key](https://download.libsodium.org/doc/advanced/ed25519-curve25519.html). For example, I use the ED25519 keys and the signature inside the Ledger application, then it need to convert the keys from the device to X25519 format using that function on the client side**and create the waves address from X25519 public key**. [There're an example of convertion libsodium ED25519 keys and signature to Curve25519](https://gist.github.com/Tolsi/d64fcb09db4ead75e5eeeab445284c93).
+Waves uses `Curve25519`-`ED25519` signature with X25519 keys \(Montgomery form\), but most of embedded cryptography devices and libraries don't support X25519 keys.
 
-**NOTE: Not all random 32 bytes can be used as private keys \(but any bytes of any size can be a seed\). The signature scheme for the ED25519 introduces restrictions on the keys, so create the keys only through the methods of the Curve25519 libraries and be sure to make a test of the ability to sign data with a private key and then check it with a public key, however obvious this test might seem.**
+There're [libraries with conversion functions](https://download.libsodium.org/doc/advanced/ed25519-curve25519) from:
+
+* ED25519 keys to X25519 \(Curve25519\) crypto\_sign\_ed25519\_pk\_to\_curve25519\(curve25519\_pk, ed25519\_pk\) for **public key.**
+* Crypto\_sign\_ed25519\_sk\_to\_curve25519\(curve25519\_sk, ed25519\_skpk\) for **private key**.
+
+For example, I use the ED25519 keys and the signature inside the Ledger application, then it need to convert the keys from the device to X25519 format using that function on the client side**and create the waves address from X25519 public key**. [There're an example of convertion libsodium ED25519 keys and signature to Curve25519](https://gist.github.com/Tolsi/d64fcb09db4ead75e5eeeab445284c93).
+
+**NOTE: **Not all random 32 bytes can be used as private keys \(but any bytes of any size can be a seed\). The signature scheme for the ED25519 introduces restrictions on the keys, so create the keys only through the methods of the Curve25519 libraries and be sure to make a test of the ability to sign data with a private key and then check it with a public key, however obvious this test might seem**.**
 
 There are valid Curve25519 realizations for different languages:
 
@@ -125,35 +132,35 @@ Do not forget that there are many valid \(not unique!\) signatures for a one arr
 
 Transaction data:
 
-| Field                                           | Value                                        |
-|-------------------------------------------------|----------------------------------------------|
-| Sender address (not used, just for information) | 3N9Q2sdkkhAnbR4XCveuRaSMLiVtvebZ3wp          |
-| Private key (used for signing, not in tx data)  | 7VLYNhmuvAo5Us4mNGxWpzhMSdSSdEbEPFUDKSnA6eBv |
-| Public key                                      | EENPV1mRhUD9gSKbcWt84cqnfSGQP5LkCu5gMBfAanYH |
-| Recipient address                               | 3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8          |
-| Asset id                                        | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
-| Amount                                          | 1                                            |
-| Fee                                             | 1                                            |
-| Fee asset id                                    | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
-| Timestamp                                       | 1479287120875                                |
-| Attachment (as byte array)                      | [1, 2, 3, 4]                                 |
+| Field | Value |
+| --- | --- |
+| Sender address \(not used, just for information\) | 3N9Q2sdkkhAnbR4XCveuRaSMLiVtvebZ3wp |
+| Private key \(used for signing, not in tx data\) | 7VLYNhmuvAo5Us4mNGxWpzhMSdSSdEbEPFUDKSnA6eBv |
+| Public key | EENPV1mRhUD9gSKbcWt84cqnfSGQP5LkCu5gMBfAanYH |
+| Recipient address | 3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8 |
+| Asset id | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
+| Amount | 1 |
+| Fee | 1 |
+| Fee asset id | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
+| Timestamp | 1479287120875 |
+| Attachment \(as byte array\) | \[1, 2, 3, 4\] |
 
 Bytes:
 
-| #  | Field name                             | Type  | Position          | Length   | Value         | Base58 bytes value                           |
-|----|----------------------------------------|-------|-------------------|----------|---------------|----------------------------------------------|
-| 1  | Transaction type (0x04)                | Byte  | 0                 | 1        | 4             | 5                                            |
-| 2  | Sender's public key                    | Bytes | 1                 | 32       | ...           | EENPV1mRhUD9gSKbcWt84cqnfSGQP5LkCu5gMBfAanYH |
-| 3  | Amount's asset flag (0-Waves, 1-Asset) | Byte  | 33                | 1        | 1             | 2                                            |
-| 4  | Amount's asset ID (*if used)           | Bytes | 34                | 0 (32*)  | ...           | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
-| 5  | Fee's asset flag (0-Waves, 1-Asset)    | Byte  | 34 (66*)          | 1        | 1             | 2                                            |
-| 6  | Fee's asset ID (**if used)             | Bytes | 35 (67*)          | 0 (32**) | ...           | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
-| 7  | Timestamp                              | Long  | 35 (67*) (99**)   | 8        | 1479287120875 | 11frnYASv                                    |
-| 8  | Amount                                 | Long  | 43 (75*) (107**)  | 8        | 1             | 11111112                                     |
-| 9  | Fee                                    | Long  | 51 (83*) (115**)  | 8        | 1             | 11111112                                     |
-| 10 | Recipient's address                    | Bytes | 59 (91*) (123**)  | 26       | ...           | 3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8          |
-| 11 | Attachment's length (N)                | Short | 85 (117*) (149**) | 2        | 4             | 15                                           |
-| 12 | Attachment's bytes                     | Bytes | 87 (119*) (151**) | N        | [1,2,3,4]     | 2VfUX                                        |
+| \# | Field name | Type | Position | Length | Value | Base58 bytes value |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Transaction type \(0x04\) | Byte | 0 | 1 | 4 | 5 |
+| 2 | Sender's public key | Bytes | 1 | 32 | ... | EENPV1mRhUD9gSKbcWt84cqnfSGQP5LkCu5gMBfAanYH |
+| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte | 33 | 1 | 1 | 2 |
+| 4 | Amount's asset ID \(\*if used\) | Bytes | 34 | 0 \(32\*\) | ... | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
+| 5 | Fee's asset flag \(0-Waves, 1-Asset\) | Byte | 34 \(66\*\) | 1 | 1 | 2 |
+| 6 | Fee's asset ID \(\*\*if used\) | Bytes | 35 \(67\*\) | 0 \(32\*\*\) | ... | BG39cCNUFWPQYeyLnu7tjKHaiUGRxYwJjvntt9gdDPxG |
+| 7 | Timestamp | Long | 35 \(67_\) \(99\*_\) | 8 | 1479287120875 | 11frnYASv |
+| 8 | Amount | Long | 43 \(75_\) \(107\*_\) | 8 | 1 | 11111112 |
+| 9 | Fee | Long | 51 \(83_\) \(115\*_\) | 8 | 1 | 11111112 |
+| 10 | Recipient's address | Bytes | 59 \(91_\) \(123\*_\) | 26 | ... | 3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8 |
+| 11 | Attachment's length \(N\) | Short | 85 \(117_\) \(149\*_\) | 2 | 4 | 15 |
+| 12 | Attachment's bytes | Bytes | 87 \(119_\) \(151\*_\) | N | \[1,2,3,4\] | 2VfUX |
 
 Total data bytes for sign:`Ht7FtLJBrnukwWtywum4o1PbQSNyDWMgb4nXR5ZkV78krj9qVt17jz74XYSrKSTQe6wXuPdt3aCvmnF5hfjhnd1gyij36hN1zSDaiDg3TFi7c7RbXTHDDUbRgGajXci8PJB3iJM1tZvh8AL5wD4o4DCo1VJoKk2PUWX3cUydB7brxWGUxC6mPxKMdXefXwHeB4khwugbvcsPgk8F6YB`
 
@@ -164,3 +171,4 @@ Total transaction bytes with signature:`6zY3LYmrh981Qbzj7SRLQ2FP9EmXFpUTX9cA7bD5
 # Calculating Transaction Id
 
 Transaction Id is not stored in the transaction bytes and for most of transactions \(except Payment\) it can be easily calculated from the special bytes for signing using`blake2b256(bytes_for_signing)`. For Payment transaction Id is just the signature of this transaction.
+
