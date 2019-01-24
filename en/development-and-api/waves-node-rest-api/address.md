@@ -1,10 +1,8 @@
 ## Address
+
 ### GET /addresses
+
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
-
-
-
-
 
 Get list of all accounts addresses in the node's wallet.
 
@@ -18,6 +16,7 @@ Get list of all accounts addresses in the node's wallet.
 ```
 
 ### GET /addresses/seq/{from}/{to}
+
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
 
 Get list of accounts addresses with indexes at this range in the node's wallet.
@@ -32,14 +31,15 @@ Get list of accounts addresses with indexes at this range in the node's wallet.
 ```
 
 ### POST /addresses
+
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
 
 Generate a new account address in the wallet._Requires API\_KEY to be provided_
 
-**Request:**
+**Request params:**
 
 ```
-
+  "address" - account's address in Base58 format
 ```
 
 **Response JSON example:**
@@ -53,6 +53,7 @@ Generate a new account address in the wallet._Requires API\_KEY to be provided_
 ```
 
 ### GET /addresses/balance/{address}
+
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
 
 Get account balance in WAVES in {address}:
@@ -74,6 +75,7 @@ Get account balance in WAVES in {address}:
 ```
 
 ### GET /addresses/balance/{address}/{confirmations}
+
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
 
 Get account balance in WAVES by {address} after {confirmations} from now:
@@ -98,7 +100,8 @@ Get account balance in WAVES by {address} after {confirmations} from now:
 ```
 
 ### GET /addresses/scriptInfo/{address}
-![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg) ![master](https://img.shields.io/badge/node-&gt;%3D0.13.3-4bc51d.svg)
+
+![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg) ![master](https://img.shields.io/badge/node->%3D0.13.3-4bc51d.svg)
 
 Get a script information by address.
 
@@ -121,3 +124,6 @@ Get a script information by address.
   "extraFee": 10001
 }
 ```
+
+
+
