@@ -4,7 +4,7 @@
 
 ## Smart Contracts Documentation
 
-For more theoretical and technical details please go to [_**Smart Contract Section**_](../technical-details/waves-contracts-language-description.md) in our documentation.
+For more theoretical and technical details please go to [_**Smart Contract Section**_](/technical-details/waves-contracts-language-description.md) in our documentation.
 
 ## Video Tutorials
 
