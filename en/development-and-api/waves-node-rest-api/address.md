@@ -52,6 +52,28 @@ Generate a new account address in the wallet._Requires API\_KEY to be provided_
 }
 ```
 
+### GET /addresses/balance/details/{address}
+
+![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
+
+Get Balance details:
+
+```
+"address" - account's address in Base58 format
+```
+
+**Response JSON example:**
+
+```js
+{
+  "address": "3P2HNUd5VUPLMQkJmctTPEeeHumiPN2GkTb",
+  "regular": 1498883844,
+  "generating": 1066926675599895,
+  "available": 1498883844,
+  "effective": 1067913688974251
+}
+```
+
 ### GET /addresses/balance/{address}
 
 ![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
