@@ -150,9 +150,9 @@ You can restrict the token transfer option to be done only by the token issuer's
 
 ```js
 match tx {
-  case t : TransferTransaction =>
-    let issuer = addressFromString("3P6ms9EotRX8JwSrebeTXYVnzpsGCrKWLv4")
-    isDefined(getInteger(issuer, toString(t.id)))
+  case tx : TransferTransaction =>
+    let issuer = Address(base58'3P6ms9EotRX8JwSrebeTXYVnzpsGCrKWLv4')
+    isDefined(getInteger(issuer, toBase58String(tx.id)))
   case _ => false
 }
 ```

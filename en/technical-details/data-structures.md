@@ -9,17 +9,17 @@
 | 1 | Version\(0x01\) | Byte | 1 |
 | 2 | Address scheme \(0x54 for Testnet and 0x57for Mainnet\) | Byte | 1 |
 | 3 | Public key hash | Bytes | 20 |
-| 4 | Checksum | Bytes  | 4 |
+| 4 | Checksum | Bytes | 4 |
 
 Public key hash is first 20 bytes of\_SecureHash\_of public key bytes. Checksum is first 4 bytes of\_SecureHash\_of version, scheme and hash bytes. SecureHash is hash function Keccak256\(Blake2b256\(data\)\).
 
 ### Alias
 
-| \# | Field name | Type  | Length |
-| --- | --- | --- |  --- |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
 | 1 | Version \(0x02\) | Byte | 1 |
-| 2 | Address scheme \(0x54 for Testnet and 0x57 for Mainnet\) | Byte |  1 |
-| 3 | Alias bytes length \(N\) | Int |  2 |
+| 2 | Address scheme \(0x54 for Testnet and 0x57 for Mainnet\) | Byte | 1 |
+| 3 | Alias bytes length \(N\) | Int | 2 |
 | 4 | Alias bytes | Bytes | N |
 
 Alias is a UTF-8 string with the following constraints:
@@ -31,8 +31,8 @@ Alias is a UTF-8 string with the following constraints:
 ### Proof
 
 | \# | Field name | Type | Length |
-| --- | --- | --- | ---  |
-| 1 | Proof size \(N\) | Short  | 2 |
+| --- | --- | --- | --- |
+| 1 | Proof size \(N\) | Short | 2 |
 | 2 | Proof | Bytes | N |
 
 ### AddressOrAlias
@@ -42,24 +42,24 @@ A recipient that can be encoded either as pure address or alias. Both `Address` 
 ### Block
 
 | \# | Field name | Type | Length |
-| --- | --- | --- | ---  |
+| --- | --- | --- | --- |
 | 1 | Version \(0x02 for Genesis block, 0x03 for common block\) | Byte | 0 |
 | 2 | Timestamp | Long | 1 |
 | 3 | Parent block signature | Bytes | 64 |
 | 4 | Consensus block length \(always 40 bytes\) | Int | 4 |
 | 5 | Base target | Long | 8 |
-| 6 | Generation signature\* | Bytes  | 32 |
-| 7 | Transactions block length \(N\) | Int  | 4 |
+| 6 | Generation signature\* | Bytes | 32 |
+| 7 | Transactions block length \(N\) | Int | 4 |
 | 8 | Transaction \#1 bytes | Bytes | M1 |
-| ... | ... | ... |  ... |
-| 8 + \(K - 1\) | Transaction \#K bytes | Bytes |  MK |
-| 9 + \(K - 1\) | Generator's public key | Bytes |  32 |
-| 10 + \(K - 1\) | Block's signature | Bytes |  64 |
+| ... | ... | ... | ... |
+| 8 + \(K - 1\) | Transaction \#K bytes | Bytes | MK |
+| 9 + \(K - 1\) | Generator's public key | Bytes | 32 |
+| 10 + \(K - 1\) | Block's signature | Bytes | 64 |
 
 Generation signature is calculated as Blake2b256 hash of the following bytes:
 
-| \# | Field name | Type  | Length |
-| --- | --- | --- |  --- |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
 | 1 | Previous block's generation signature | Bytes | 32 |
 | 2 | Generator's public key | Bytes | 32 |
 
@@ -70,28 +70,28 @@ Block's signature is calculated from the following bytes:
 | 1 | Version \(0x02 for Genesis block,, 0x03 for common block\) | Byte | 1 |
 | 2 | Timestamp | Long | 8 |
 | 3 | Parent block signature | Bytes | 64 |
-| 4 | Consensus block length \(always 40 bytes\) | Int |  4 |
-| 5 | Base target | Long |  8 |
-| 6 | Generation signature\* | Bytes |  32 |
+| 4 | Consensus block length \(always 40 bytes\) | Int | 4 |
+| 5 | Base target | Long | 8 |
+| 6 | Generation signature\* | Bytes | 32 |
 | 7 | Transactions block length \(N\) | Int | 4 |
-| 8 | Transaction \#1 bytes | Bytes  | M1 |
-| ... | ... | ...  | ... |
-| 8 + \(K - 1\) | Transaction \#K bytes | Bytes |  MK |
-| 9 + \(K - 1\) | Generator's public key | Bytes |  32 |
+| 8 | Transaction \#1 bytes | Bytes | M1 |
+| ... | ... | ... | ... |
+| 8 + \(K - 1\) | Transaction \#K bytes | Bytes | MK |
+| 9 + \(K - 1\) | Generator's public key | Bytes | 32 |
 
 ### Order
 
 | \# | Field name | Type | Length |
-| --- | --- | --- |  --- |
-| 1 | Sender's public key | Bytes |  32 |
-| 2 | Matcher's public key | Bytes |  32 |
-| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte |  1 |
-| 4 | Amount's asset ID \(\*if used\) | Bytes |  0 \(32\*\) |
-| 5 | Price's asset flag \(0-Waves, 1-Asset\) | Byte |  1 |
-| 6 | Price's asset ID \(\*\*if used\) | Bytes |  0 \(32\*\*\) |
-| 7 | Order type \(0 - Buy, 1 - Sell\) | Bytes |  1 |
-| 8 | Price | Long |  8 |
-| 9 | Amount | Long |  8 |
+| --- | --- | --- | --- |
+| 1 | Sender's public key | Bytes | 32 |
+| 2 | Matcher's public key | Bytes | 32 |
+| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
+| 4 | Amount's asset ID \(\*if used\) | Bytes | 0 \(32\*\) |
+| 5 | Price's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
+| 6 | Price's asset ID \(\*\*if used\) | Bytes | 0 \(32\*\*\) |
+| 7 | Order type \(0 - Buy, 1 - Sell\) | Bytes | 1 |
+| 8 | Price | Long | 8 |
+| 9 | Amount | Long | 8 |
 | 10 | Timestamp | Long | 8 |
 | 11 | Expiration | Long | 8 |
 | 12 | Matcher fee | Long | 8 |
@@ -104,19 +104,19 @@ Expiration is order time to live, timestamp in future, max = 30 days in future.
 The signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length |
-| --- | --- | --- |  --- |
-| 1 | Sender's public key | Bytes |  32 |
-| 2 | Matcher's public key | Bytes |  32 |
-| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte |  1 |
-| 4 | Amount's asset ID \(\*if used\) | Bytes |  0 \(32\*\) |
-| 5 | Price's asset flag \(0-Waves, 1-Asset\) | Byte |  1 |
-| 6 | Price's asset ID \(\*\*if used\) | Bytes |  0 \(32\*\*\) |
-| 7 | Order type \(0 - Buy, 1 - Sell\) | Bytes |  1 |
-| 8 | Price | Long |  8 |
-| 9 | Amount | Long |  8 |
-| 10 | Timestamp | Long |  8 |
-| 11 | Expiration | Long |  8 |
-| 12 | Matcher fee | Long |  8 |
+| --- | --- | --- | --- |
+| 1 | Sender's public key | Bytes | 32 |
+| 2 | Matcher's public key | Bytes | 32 |
+| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
+| 4 | Amount's asset ID \(\*if used\) | Bytes | 0 \(32\*\) |
+| 5 | Price's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
+| 6 | Price's asset ID \(\*\*if used\) | Bytes | 0 \(32\*\*\) |
+| 7 | Order type \(0 - Buy, 1 - Sell\) | Bytes | 1 |
+| 8 | Price | Long | 8 |
+| 9 | Amount | Long | 8 |
+| 10 | Timestamp | Long | 8 |
+| 11 | Expiration | Long | 8 |
+| 12 | Matcher fee | Long | 8 |
 
 ### Transactions
 
@@ -145,26 +145,26 @@ Transaction types:
 
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
-| 1 | Transaction type \(1\) | Byte  | 1 |
+| 1 | Transaction type \(1\) | Byte | 1 |
 | 2 | Timestamp | Long | 8 |
-| 3 | Recipient's address | Bytes  | 26 |
-| 4 | Amount | Long |  8 |
+| 3 | Recipient's address | Bytes | 26 |
+| 4 | Amount | Long | 8 |
 
 #### Issue transaction
 
-| \# | Field name | Type  | Length |
-| --- | --- | --- |  --- |
-| 1 | Transaction type \(0x03\) | Byte  | 1 |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction type \(0x03\) | Byte | 1 |
 | 2 | Signature | Bytes | 64 |
-| 3 | Transaction type \(2\) | Byte |  1 |
-| 4 | Sender's public key | Bytes |  32 |
-| 5 | Name's length \(N\) | Short |  2 |
-| 6 | Name's bytes | Bytes |  N |
+| 3 | Transaction type \(2\) | Byte | 1 |
+| 4 | Sender's public key | Bytes | 32 |
+| 5 | Name's length \(N\) | Short | 2 |
+| 6 | Name's bytes | Bytes | N |
 | 7 | Description's length \(M\) | Short | 2 |
-| 8 | Description's bytes | Bytes |  M |
-| 9 | Quantity | Long |  8 |
-| 10 | Decimals | Byte |  1 |
-| 11 | Reissuable flag \(1-True, 0-False\) | Byte |  1 |
+| 8 | Description's bytes | Bytes | M |
+| 9 | Quantity | Long | 8 |
+| 10 | Decimals | Byte | 1 |
+| 11 | Reissuable flag \(1-True, 0-False\) | Byte | 1 |
 | 12 | Fee | Long | 8 |
 | 13 | Timestamp | Long | 8 |
 
@@ -174,8 +174,8 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x03\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
-| 3 | Name's length \(N\) | Short |  2 |
-| 4 | Name's bytes | Bytes |  N |
+| 3 | Name's length \(N\) | Short | 2 |
+| 4 | Name's bytes | Bytes | N |
 | 5 | Description's length \(M\) | Short | 2 |
 | 6 | Description's bytes | Bytes | M |
 | 7 | Quantity | Long | 8 |
@@ -186,7 +186,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Reissue transaction
 
-| \# | Field name | Type |  Length |
+| \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x05\) | Byte | 1 |
 | 2 | Signature | Bytes | 64 |
@@ -212,7 +212,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Transfer transaction
 
-| \# | Field name | Type |  Length |
+| \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x04\) | Byte | 1 |
 | 2 | Signature | Bytes | 64 |
@@ -221,11 +221,11 @@ The transaction's signature is calculated from the following bytes:
 | 5 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
 | 6 | Amount's asset ID \(\*if used\) | Bytes | 0 \(32\*\) |
 | 7 | Fee's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
-| 8 | Fee's asset ID \(\*\*if used\) | Bytes |   0\(32\*\*\) |
-| 9 | Timestamp | Long |  8 |
-| 10 | Amount | Long  | 8 |
-| 11 | Fee | Long  | 8 |
-| 12 | Recipient's AddressOrAlias object bytes | Bytes| M |
+| 8 | Fee's asset ID \(\*\*if used\) | Bytes | 0\(32\*\*\) |
+| 9 | Timestamp | Long | 8 |
+| 10 | Amount | Long | 8 |
+| 11 | Fee | Long | 8 |
+| 12 | Recipient's AddressOrAlias object bytes | Bytes | M |
 | 13 | Attachment's length \(N\) | Short | 2 |
 | 14 | Attachment's bytes | Bytes | N |
 
@@ -233,12 +233,12 @@ The transaction's signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
-| 1 | Transaction type \(0x04\) | Byte |  1 |
-| 2 | Sender's public key | Bytes |  32 |
-| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte |  1 |
-| 4 | Amount's asset ID \(\*if used\) | Bytes  | 0\(32\*\) |
+| 1 | Transaction type \(0x04\) | Byte | 1 |
+| 2 | Sender's public key | Bytes | 32 |
+| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
+| 4 | Amount's asset ID \(\*if used\) | Bytes | 0\(32\*\) |
 | 5 | Fee's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
-| 6 | Fee's asset ID \(\*\*if used\) | Bytes |    0\(32\*\*\) |
+| 6 | Fee's asset ID \(\*\*if used\) | Bytes | 0\(32\*\*\) |
 | 7 | Timestamp | Long | 8 |
 | 8 | Amount | Long | 8 |
 | 9 | Fee | Long | 8 |
@@ -255,10 +255,10 @@ The transaction's signature is calculated from the following bytes:
 | 3 | Version | Byte | 1 |
 | 4 | Sender's public key | Bytes | 32 |
 | 5 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
-| 6 | Amount's asset ID \(\*if used\) | Bytes |  0 \(32\*\) |
-| 7 | Timestamp | Long |  8 |
-| 8 | Amount | Long |  8 |
-| 9 | Fee | Long |  8 |
+| 6 | Amount's asset ID \(\*if used\) | Bytes | 0 \(32\*\) |
+| 7 | Timestamp | Long | 8 |
+| 8 | Amount | Long | 8 |
+| 9 | Fee | Long | 8 |
 | 10 | Recipient's AddressOrAlias object bytes | Bytes | M |
 | 11 | Attachment's length \(N\) | Short | 2 |
 | 12 | Attachment's bytes | Bytes | N |
@@ -298,79 +298,78 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x07\) | Byte | 1 |
 | 2 | Buy order object length \(BN\) | Bytes | 4 |
-| 3 | Sell order object length \(SN\) | Bytes |  4 |
+| 3 | Sell order object length \(SN\) | Bytes | 4 |
 | 4 | Buy order object bytes | Bytes | BN |
 | 5 | Sell order object bytes | Bytes | SN |
-| 6 | Price | Long |  8 |
+| 6 | Price | Long | 8 |
 | 7 | Amount | Long | 8 |
 | 8 | Buy matcher fee | Long | 8 |
-| 9 | Sell matcher fee | Long |  8 |
+| 9 | Sell matcher fee | Long | 8 |
 | 10 | Fee | Long | 8 |
-| 11 | Timestamp | Long |  8 |
-| 12 | Signature | Bytes |  64 |
+| 11 | Timestamp | Long | 8 |
+| 12 | Signature | Bytes | 64 |
 
 The transaction's signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x07\) | Byte | 1 |
-| 2 | Buy order object length \(BN\) | Bytes  | 4 |
-| 3 | Sell order object length \(SN\) | Bytes  | 4 |
-| 4 | Buy order object bytes | Bytes |  BN |
+| 2 | Buy order object length \(BN\) | Bytes | 4 |
+| 3 | Sell order object length \(SN\) | Bytes | 4 |
+| 4 | Buy order object bytes | Bytes | BN |
 | 5 | Sell order object bytes | Bytes | SN |
-| 6 | Price | Long |  8 |
-| 7 | Amount | Long |  8 |
-| 8 | Buy matcher fee | Long |  8 |
-| 9 | Sell matcher fee | Long |  8 |
-| 10 | Fee | Long |  8 |
+| 6 | Price | Long | 8 |
+| 7 | Amount | Long | 8 |
+| 8 | Buy matcher fee | Long | 8 |
+| 9 | Sell matcher fee | Long | 8 |
+| 10 | Fee | Long | 8 |
 | 11 | Timestamp | Long | 8 |
 
 #### Lease transaction
 
-| \# | Field name | Type  | Length |
-| --- | --- | --- |  --- |
-| 1 | Transaction type \(0x08\) | Byte |  1 |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction type \(0x08\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
-| 3 | Recipient's AddressOrAlias object bytes | Bytes |  N |
-| 4 | Amount | Long |  8 |
-| 5 | Fee | Long |  8 |
+| 3 | Recipient's AddressOrAlias object bytes | Bytes | N |
+| 4 | Amount | Long | 8 |
+| 5 | Fee | Long | 8 |
 | 6 | Timestamp | Long | 8 |
-| 7 | Signature | Bytes |  64 |
+| 7 | Signature | Bytes | 64 |
 
 The transaction's signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length |
-| --- | --- | --- |  --- |
-| 1 | Transaction type \(0x08\) | Byte |  1 |
-| 2 | Sender's public key | Bytes |  32 |
-| 3 | Recipient's AddressOrAlias object bytes | Bytes |  N |
-| 4 | Amount | Long |  8 |
-| 5 | Fee | Long |  8 |
+| --- | --- | --- | --- |
+| 1 | Transaction type \(0x08\) | Byte | 1 |
+| 2 | Sender's public key | Bytes | 32 |
+| 3 | Recipient's AddressOrAlias object bytes | Bytes | N |
+| 4 | Amount | Long | 8 |
+| 5 | Fee | Long | 8 |
 | 6 | Timestamp | Long | 8 |
 
 #### Lease Cancel Transactions
 
-| # | Field               | Length | Type    |
-|---|---------------------|--------|---------|
-| 1 |    Version(0x01)    |    1   | Byte    |
-| 2 |      chainByte      |    1   | Bytes   |
-| 3 |       LeaseId       |    1   | ByteStr |
-| 4 |         fee         |    8   | Long    |
-| 5 | Sender's public key | 32     | Bytes   |
-| 6 |      TineStamp      | 8      | Long    |
-
+| \# | Field | Length | Type |
+| --- | --- | --- | --- |
+| 1 | Version\(0x01\) | 1 | Byte |
+| 2 | chainByte | 1 | Bytes |
+| 3 | LeaseId | 1 | ByteStr |
+| 4 | fee | 8 | Long |
+| 5 | Sender's public key | 32 | Bytes |
+| 6 | TineStamp | 8 | Long |
 
 #### Create alias transaction
 
-| \# | Field name | Type  | Length |
-| --- | --- | --- |  --- |
-| 1 | Transaction type \(0x0a\) | Byte |  1 |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction type \(0x0a\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
-| 3 | Alias object length \(N\) | Short |  2 |
-| 4 | Alias object bytes | Bytes |  N |
-| 5 | Fee | Long |  8 |
-| 6 | Timestamp | Long |  8 |
-| 7 | Signature | Bytes |  32 |
+| 3 | Alias object length \(N\) | Short | 2 |
+| 4 | Alias object bytes | Bytes | N |
+| 5 | Fee | Long | 8 |
+| 6 | Timestamp | Long | 8 |
+| 7 | Signature | Bytes | 32 |
 
 The transaction's signature is calculated from the following bytes:
 
@@ -438,7 +437,7 @@ Below is a sample **Mass Transfer transaction** encoded as **JSON**:
 }
 ```
 
-####
+### \#
 
 #### Data transaction
 
@@ -498,14 +497,14 @@ Below is a sample **Data transaction** encoded as **JSON**:
 
 Set and cancel [fee sponsorship](sponsored-fee.md) for asset.
 
-| \# | Field name | Type |  Length |
-| --- | ---: | --- |  --- |
-| 1 | Transaction type (0x0e) | Byte |  1 |
-| 2 | Version (0x01) |  Byte |  1 |
-| 3 | Sender's public key | Bytes |  32 |
-| 4 | Asset ID | Bytes |  32 |
-| 5 | Minimal fee in assets\* | Long |  8 |
-| 6 | Fee | Long |  8 |
+| \# | Field name | Type | Length |
+| --- | ---: | --- | --- |
+| 1 | Transaction type \(0x0e\) | Byte | 1 |
+| 2 | Version \(0x01\) | Byte | 1 |
+| 3 | Sender's public key | Bytes | 32 |
+| 4 | Asset ID | Bytes | 32 |
+| 5 | Minimal fee in assets\* | Long | 8 |
+| 6 | Fee | Long | 8 |
 | 7 | Timestamp | Long | 8 |
 | 8 | Proofs\*\* | Bytes | 64 |
 
@@ -536,18 +535,18 @@ Below is a sample **Sponsored transaction** encoded as **JSON**:
 
 Sets the script which verifies all outgoing transactions. The set script can be changed by another.
 
-| \# | Field name | Type  | Length |
+| \# | Field name | Type | Length |
 | --- | ---: | --- | --- |
-| 1 | Transaction type (0x0d) | Byte |  1 |
-| 2 | Version (0x01) |  Byte |  1 |
-| 3 | ChainId | Byte |  1 |
-| 4 | Sender's public key | Bytes |  32 |
-| 5 | 1 if script is not null, 0 otherwise |  Byte |  1 |
+| 1 | Transaction type \(0x0d\) | Byte | 1 |
+| 2 | Version \(0x01\) | Byte | 1 |
+| 3 | ChainId | Byte | 1 |
+| 4 | Sender's public key | Bytes | 32 |
+| 5 | 1 if script is not null, 0 otherwise | Byte | 1 |
 | 6 | Script object length \(N\) | Short | 2 |
 | 7 | Script object bytes | Bytes | N |
 | 8 | Fee | Long | 8 |
 | 9 | Timestamp | Long | 8 |
-|10 |  proofs | Bytes  | 64 |
+| 10 | proofs | Bytes | 64 |
 
 [**Here**](/technical-details/waves-contracts-language-description.md) you can find more details about Waves smart-contracts.
 
@@ -555,7 +554,7 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 
 [**Here**](/technical-details/waves-contracts-language-description/creating-and-deploying-a-script-manually.md) you can find detailed instruction how to create and deploy a script manually.
 
-#Set Asset Script Transaction
+# Set Asset Script Transaction
 
 | Field | Type | Length |
 | :--- | :--- | :--- |
@@ -566,7 +565,7 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 | AssetId | Bytes | 32 |
 | Fee | Long | 8 |
 | Timestamp | Long | 8 |
-| 1 if script is not null, 0 otherwise |  Byte |  1 |
+| 1 if script is not null, 0 otherwise | Byte | 1 |
 | Script object length \(N\) | Short | 2 |
 | Script object bytes | Bytes | N |
 | Proofs | Bytes | 64 |
@@ -592,7 +591,7 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
 
 ### Network message structure
 
-All network messages shares the same structure except the[Handshake](https://github.com/wavesplatform/Waves/wiki/Data-Structures#handshake-message).
+All network messages shares the same structure except the Handshake.
 
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
@@ -609,7 +608,7 @@ Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes of\_Fa
 
 Handshake is used to start communication between two nodes.
 
-| \# | Field name | Type |  Length |
+| \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Application name length \(N\) | Byte | 1 |
 | 2 | Application name \(UTF-8 encoded bytes\) | Bytes | N |
@@ -642,7 +641,7 @@ Peers message is a reply on GetPeers message.
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
-| 2 | Magic Bytes | Bytes |4 |
+| 2 | Magic Bytes | Bytes | 4 |
 | 3 | Content ID \(0x02\) | Byte | 1 |
 | 4 | Payload length | Int | 4 |
 | 5 | Payload checksum | Bytes | 4 |
@@ -656,7 +655,7 @@ Peers message is a reply on GetPeers message.
 ### GetSignatures message
 
 | \# | Field name | Type | Length |
-| --- | --- | --- |  --- |
+| --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
 | 3 | Content ID \(0x14\) | Byte | 1 |
@@ -669,11 +668,11 @@ Peers message is a reply on GetPeers message.
 
 ### Signatures message
 
-| \# | Field name | Type |  Length |
-| --- | --- | --- |  --- |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
-| 2 | Magic Bytes | Bytes |  4 |
-| 3 | Content ID \(0x15\) | Byte |  1 |
+| 2 | Magic Bytes | Bytes | 4 |
+| 3 | Content ID \(0x15\) | Byte | 1 |
 | 4 | Payload length | Int | 4 |
 | 5 | Payload checksum | Bytes | 4 |
 | 6 | Block signatures count \(N\) | Int | 4 |
@@ -683,19 +682,19 @@ Peers message is a reply on GetPeers message.
 
 ### GetBlock message
 
-| \# | Field name | Type |  Length |
-| --- | --- | --- |  --- |
-| 1 | Packet length \(BigEndian\) | Int |  4 |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
-| 3 | Content ID \(0x16\) | Byte |  1 |
-| 4 | Payload length | Int |  4 |
+| 3 | Content ID \(0x16\) | Byte | 1 |
+| 4 | Payload length | Int | 4 |
 | 5 | Payload checksum | Bytes | 4 |
 | 6 | Block ID | Bytes | 64 |
 
 ### Block message
 
-| \# | Field name | Type  | Length |
-| --- | --- | --- |  --- |
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
 | 3 | Content ID \(0x17\) | Byte | 1 |
@@ -706,20 +705,20 @@ Peers message is a reply on GetPeers message.
 ### Score message
 
 | \# | Field name | Type | Length |
-| --- | --- | --- |  --- |
+| --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
 | 3 | Content ID \(0x18\) | Byte | 1 |
-| 4 | Payload length | Int |4 |
+| 4 | Payload length | Int | 4 |
 | 5 | Payload checksum | Bytes | 4 |
-| 6 | Score \(N bytes\) | BigInt |  N |
+| 6 | Score \(N bytes\) | BigInt | N |
 
 ### Transaction message
 
 | \# | Field name | Type | Length |
-| --- | --- | --- | --- | --- |
-| 1 | Packet length \(BigEndian\) | Int  | 4 |
-| 2 | Magic Bytes | Bytes |  4 |
+| :--- | :--- | :--- | :--- |
+| 1 | Packet length \(BigEndian\) | Int | 4 |
+| 2 | Magic Bytes | Bytes | 4 |
 | 3 | Content ID \(0x19\) | Byte | 1 |
 | 4 | Payload length | Int | 4 |
 | 5 | Payload checksum | Bytes | 4 |
@@ -740,3 +739,6 @@ Peers message is a reply on GetPeers message.
 | ... | ... | ... | ... |
 | 6 + 2 \* N - 1 | Checkpoint \#N height | Long | 8 |
 | 6 + 2 \* N | Checkpoint \#N signature | Bytes | 64 |
+
+
+

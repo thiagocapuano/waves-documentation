@@ -4,7 +4,7 @@
 
 ## Smart Contracts Documentation
 
-For more theoretical and technical details please go to [_**Smart Contract Section**_](/technical-details/waves-contracts-language-description.md) in our documentation.
+For more theoretical and technical details please go to [_**Smart Contract Section**_](https://docs.wavesplatform.com/en/technical-details/waves-contracts-language-description.html) in our documentation.
 
 ## Video Tutorials
 
@@ -14,7 +14,9 @@ For more theoretical and technical details please go to [_**Smart Contract Secti
 
 3. [_**Escrow Using Waves IDE & WavesJ**_](https://www.youtube.com/watch?v=31dwYcgb65M&t=381s)
 
-4. [_**Waves Console Commands Example**_](https://youtu.be/WzhTk_rpngI)
+4. [_**Waves Console Commands Example**_](https://www.youtube.com/watch?v=gBgLjg6nrvA&amp=&feature=youtu.be)
+
+5. [_**Create MultiSig Account via Waves IDE tools**_](https://www.youtube.com/watch?v=8DKRGnwsBjk)
 
 ## Hitchhiker’s Guide to Waves Smart Contracts
 
