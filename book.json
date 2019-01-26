@@ -1,26 +1,25 @@
 {
-  "plugins": [
-    "custom-js-css",
-    "tree-shaper@git+https://github.com/KardanovIR/gitbook-plugin-tree-shaper.git",
-    "inline-codes@git+https://github.com/Shushik/gitbook-plugin-inline-codes.git",
-    "github-gist@git+https://github.com/Shushik/gitbook-plugin-github-gist.git",
-    "pretty-hint@git+https://github.com/Shushik/gitbook-plugin-pretty-hint.git",
-    "pretty-link@git+https://github.com/Shushik/gitbook-plugin-pretty-link.git",
-    "headers-with-anchors@git+https://github.com/Shushik/gitbook-plugin-headers-with-anchors.git",
-    "custom-favicon",
-    "flexible-alerts"
-  ],
-  "pluginsConfig": {
-    "gtm": {
-      "token": "GTM-P2JT7Z",
-      "virtualPageViews": true
-    },
-    "favicon": "/_theme/favicon.ico",
-    "custom-js-css": {
-      "js": [
-      ],
-      "css": [
-      ]
-    }
-  }
+"plugins": [
+"custom-js-css",
+"tree-shaper@git+https://github.com/KardanovIR/gitbook-plugin-tree-shaper.git",
+"inline-codes@git+https://github.com/Shushik/gitbook-plugin-inline-codes.git",
+"github-gist@git+https://github.com/Shushik/gitbook-plugin-github-gist.git",
+"pretty-hint@git+https://github.com/Shushik/gitbook-plugin-pretty-hint.git",
+"pretty-link@git+https://github.com/Shushik/gitbook-plugin-pretty-link.git",
+"headers-with-anchors@git+https://github.com/Shushik/gitbook-plugin-headers-with-anchors.git",
+"custom-favicon"
+],
+"pluginsConfig": {
+"gtm": {
+"token": "GTM-P2JT7Z",
+"virtualPageViews": true
+},
+"favicon": "/_theme/favicon.ico",
+"custom-js-css": {
+"js": [
+],
+"css": [
+]
+}
+}
 }

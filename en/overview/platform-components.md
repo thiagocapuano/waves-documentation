@@ -4,11 +4,6 @@
 
 [The Waves Client](https://client.wavesplatform.com) can be [easily installed](/waves-client/install-waves-client.md) and used to perform most actions in the Waves Platform where users can issue, transfer and trade assets.
 
-[!NOTE]
-An alert of type 'note' using global style 'callout'.
-
-[!COMMENT]An alert of type 'comment' using style 'callout' with default settings.
-
 # 2. Waves Wallet
 
 * It’s a fully-featured client that lets you access all features of the Waves platform.
@@ -101,6 +96,3 @@ Matchers will receive fees for the service they provide, adding an additional re
 
 1. **MainNet** - this is the real deal, the live Waves blockchain where you in the worst case could lose money if you are not careful. You can access the mainnet via a full node. it's integrated with the GUI in the Waves client, allowing anyone to use it without any technical knowledge or blockchain downloads.
 2. **TestNet **- this is the test version of the Waves blockchain. [here](https://github.com/wavesplatform/Waves/releases) you'll find always the latest versions and newest features before they go live.
-
-
-
