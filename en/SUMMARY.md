@@ -216,3 +216,5 @@
 * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
 * [Asset Verification Protocol](proposals/asset-verification-protocol.md)
 
+
+
