@@ -100,6 +100,12 @@
 * [Video Tutorials and Articles](smart-contracts/video-tutorials-and-articles.md)
 * [FAQ](smart-contracts/faq.md)
 
+## ORACLES DEVELOPMENT
+
+* [Oracle Protocols](oracles-development/oracle-protocols.md)
+* [Examples](oracles-development/examples.md)
+* [FAQ](oracles-development/faq.md)
+
 ## Waves Full Node
 
 * [What is Waves Full Node ](waves-full-node/what-is-a-full-node.md)
