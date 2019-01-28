@@ -5,7 +5,7 @@ Listed below are examples of real transactions of each type found in _**testnet*
 ### Testnet
 
 | Type ID | Transaction Type | Example Transaction V1 | Example Transaction V2 |
-| ---: | --- | --- | --- |
+| ---: | --- | --- | --- | --- |
 | 3 | Issue | [8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf](https://testnode1.wavesnodes.com/transactions/info/8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf) [193](https://testnode1.wavesnodes.com/blocks/at/193) | [7Xpp9PPeZbG4wboJrcbRQdq3SxCJqbeFRUjjKccM1DsD](https://testnode1.wavesnodes.com/transactions/info/7Xpp9PPeZbG4wboJrcbRQdq3SxCJqbeFRUjjKccM1DsD) [469677](https://testnode1.wavesnodes.com/blocks/at/469677) |
 | 4 | Transfer | [8W9BkioPSWmPfDjcTFGaCy8vLEmcwkzJeSWno1s3Wra7](https://testnode1.wavesnodes.com/transactions/info/8W9BkioPSWmPfDjcTFGaCy8vLEmcwkzJeSWno1s3Wra7) [56](https://testnode1.wavesnodes.com/blocks/at/56) | [87pYzMrbDY6ad6B6qqC2XdQkiG37TBr9PWYbUas59poU](https://testnode1.wavesnodes.com/transactions/info/87pYzMrbDY6ad6B6qqC2XdQkiG37TBr9PWYbUas59poU) [469900](https://testnode1.wavesnodes.com/blocks/at/469900) |
 | 5 | Reissue | [4JvaF4hyT5pjERWzu25DK5vnt5DMUTCtqpC19QpmDvL6](https://testnode1.wavesnodes.com/transactions/info/4JvaF4hyT5pjERWzu25DK5vnt5DMUTCtqpC19QpmDvL6) [302](https://testnode1.wavesnodes.com/blocks/at/302) | [64yxV7Zf6i9NWzhrFTHYnTkZhujwQ3dF4L54T11jE2m1](https://testnode1.wavesnodes.com/transactions/info/64yxV7Zf6i9NWzhrFTHYnTkZhujwQ3dF4L54T11jE2m1) [465734](https://testnode1.wavesnodes.com/blocks/at/465734) |
