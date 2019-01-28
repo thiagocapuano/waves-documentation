@@ -2,12 +2,14 @@
 
 ## Overview
 
-* [How to Use This Guide?](overview/how-to-use-this-guide.md)
 * [What is Waves Platform?](README.md)
-* [Platform Components](overview/platform-components.md)
-* [Waves Official Resources ](overview/waves-official-resources.md)
+* [Waves Platform Components](overview/platform-components.md)
 * [Security Notes](overview/security-notes.md)
-* [Waves Releases](overview/waves-releases.md)
+* [Developer Resources ](overview/waves-official-resources.md)
+* Contributing
+
+## WAVES ENVIRONMENT
+
 * [Waves Tokens](overview/waves-tokens.md)
 
 ## Platform Features
