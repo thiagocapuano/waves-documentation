@@ -33,6 +33,15 @@
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
 * FAQ
 
+## DEVELOPER TOOLS
+
+* [Waves Explorer](developer-tools/waves-explorer.md)
+* [Waves IDE](developer-tools/waves-ide.md)
+* [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
+  * [Waves Keeper API](developer-tools/waves-keeper-api/waves-keeper-api.md)
+* [REPL](developer-tools/repl.md)
+* [FAQ](developer-tools/faq.md)
+
 ## Getting Started
 
 * [As a Developer](getting-started/as-a-developer.md)
@@ -202,8 +211,6 @@
 * [Client API](development-and-api/client-api/overview.md)
   * [Web Auth API](development-and-api/client-api/auth-api.md)
   * [Payment API](development-and-api/client-api/payments-api.md)
-* [Waves Keeper](development-and-api/waves-keeper-api/overview.md)
-  * [Waves Keeper API](development-and-api/waves-keeper-api/waves-keeper-api.md)
 * [Examples](development-and-api/examples.md)
   * [Create Your First crypto Trading Bot](development-and-api/examples/trading-bot.md)
 
