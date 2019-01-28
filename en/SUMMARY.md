@@ -122,6 +122,8 @@
 * [Node Configuration](waves-full-node/configuration-parameters.md)
 * [Logging Configuration](waves-full-node/logging-configuration.md)
 * [Joining Testnet](waves-full-node/joining-testnet.md)
+* [Private Waves Network](waves-full-node/private-waves-network.md)
+* [FAQ](waves-full-node/faq.md)
 
 ## Waves Client
 
