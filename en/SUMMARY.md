@@ -33,7 +33,7 @@
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
 * FAQ
 
-## Getting Started
+## GETTING STARTED
 
 * [As a Developer](getting-started/as-a-developer.md)
 * [As a Node Owner](getting-started/as-a-node-owner.md)
@@ -82,7 +82,7 @@
   * [Create Your First crypto Trading Bot](waves-api-and-sdk/examples/trading-bot.md)
 * [FAQ](waves-api-and-sdk/faq.md)
 
-## Smart Contracts
+## SMART CONTRACTS
 
 * [Waves Smart Contracts](smart-contracts/waves-contracts-language-description.md)
   * [Smart Accounts](smart-contracts/smart-accounts.md)
@@ -106,7 +106,7 @@
 * [Examples](oracles-development/examples.md)
 * [FAQ](oracles-development/faq.md)
 
-## Waves Full Node
+## WAVES FULL NODE
 
 * [What is Waves Full Node ](waves-full-node/what-is-a-full-node.md)
 * [How To Install a Node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
@@ -125,7 +125,7 @@
 * [Private Waves Network](waves-full-node/private-waves-network.md)
 * [FAQ](waves-full-node/faq.md)
 
-## Waves Client
+## WAVES CLIENT
 
 * [Installation ](waves-client/install-waves-client.md)
 * [Online/Desktop Apps](waves-client/onlinedesktop-apps.md)
