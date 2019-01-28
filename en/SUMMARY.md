@@ -33,6 +33,12 @@
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
 * FAQ
 
+## Getting Started
+
+* [As a Developer](getting-started/as-a-developer.md)
+* [As a Node Owner](getting-started/as-a-node-owner.md)
+* [As a User](getting-started/as-a-user.md)
+
 ## DEVELOPER TOOLS
 
 * [Waves Explorer](developer-tools/waves-explorer.md)
@@ -40,12 +46,6 @@
 * [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
 * [REPL](developer-tools/repl.md)
 * [FAQ](developer-tools/faq.md)
-
-## Getting Started
-
-* [As a Developer](getting-started/as-a-developer.md)
-* [As a Node Owner](getting-started/as-a-node-owner.md)
-* [As a User](getting-started/as-a-user.md)
 
 ## WAVES API & SDK
 
@@ -81,6 +81,41 @@
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create Your First crypto Trading Bot](waves-api-and-sdk/examples/trading-bot.md)
 * [FAQ](waves-api-and-sdk/faq.md)
+
+## Smart Contracts
+
+* [Waves Smart Contracts](smart-contracts/waves-contracts-language-description.md)
+  * [Smart Accounts](smart-contracts/smart-accounts.md)
+  * [Smart Assets](smart-contracts/smart-assets.md)
+* [RIDE Language](smart-contracts/ride-language/ride-language.md)
+  * [Language Description](smart-contracts/ride-language/language-description.md)
+  * [Effective RIDE Examples](smart-contracts/ride-language/effective-ride-examples.md)
+  * [Maven Compiler](smart-contracts/ride-language/maven-compiler.md)
+    * [Implementation Details](smart-contracts/ride-language/implementation-details.md)
+  * [Functions and Standard Library](smart-contracts/ride-language/standard-library.md)
+  * [Creating and Deploying a Script Manually](smart-contracts/ride-language/creating-and-deploying-a-script-manually.md)
+  * [Script Performance Tests](smart-contracts/ride-language/script-performance-tests.md)
+  * [Waves Console Commands](smart-contracts/ride-language/waves-console-commands/waves-console-commands.md)
+    * [Console Examples](smart-contracts/ride-language/waves-console-commands/examples.md)
+* [Video Tutorials and Articles](smart-contracts/video-tutorials-and-articles.md)
+* [FAQ](smart-contracts/faq.md)
+
+## Waves Full Node
+
+* [What is Waves Full Node ](waves-full-node/what-is-a-full-node.md)
+* [How To Install a Node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
+  * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
+  * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
+  * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
+* [Options for Getting Actual Blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
+  * [State Downloading and Applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
+  * [Export and Import From The Blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
+* [Upgrading](waves-full-node/upgrading.md)
+* [How to Rollback a Node](waves-full-node/how-to-rollback-a-node.md)
+* [Waves Node in Docker](waves-full-node/waves-node-in-docker.md)
+* [Node Configuration](waves-full-node/configuration-parameters.md)
+* [Logging Configuration](waves-full-node/logging-configuration.md)
+* [Joining Testnet](waves-full-node/joining-testnet.md)
 
 ## Waves Client
 
@@ -181,40 +216,6 @@
   * [Ethereum transfers with smart-contracts.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
-
-## Waves Full Node
-
-* [What is Waves Full Node ](waves-full-node/what-is-a-full-node.md)
-* [How To Install a Node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-  * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
-  * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
-  * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
-* [Options for Getting Actual Blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
-  * [State Downloading and Applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
-  * [Export and Import From The Blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
-* [Upgrading](waves-full-node/upgrading.md)
-* [How to Rollback a Node](waves-full-node/how-to-rollback-a-node.md)
-* [Waves Node in Docker](waves-full-node/waves-node-in-docker.md)
-* [Node Configuration](waves-full-node/configuration-parameters.md)
-* [Logging Configuration](waves-full-node/logging-configuration.md)
-* [Joining Testnet](waves-full-node/joining-testnet.md)
-
-## Smart Contracts
-
-* [Waves Smart Contracts](technical-details/waves-contracts-language-description.md)
-* [Smart Accounts](technical-details/waves-contracts-language-description/approach-and-capabilities.md)
-* [Smart Assets](technical-details/smart-assets.md)
-* [RIDE Language](technical-details/ride-language.md)
-  * [Language Description](technical-details/ride-language/language-description.md)
-  * [Effective RIDE Examples](technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md)
-  * [Maven Compiler](technical-details/ride-language/maven-compiler.md)
-* [Implementation Details](technical-details/waves-contracts-language-description/implementation-details.md)
-* [Functions and Standard Library](technical-details/waves-contracts-language-description/standard-library.md)
-* [Creating and Deploying a Script Manually](technical-details/waves-contracts-language-description/creating-and-deploying-a-script-manually.md)
-* [Script Performance Tests](technical-details/waves-contracts-language-description/script-performance-tests.md)
-* [Waves Console Commands](technical-details/waves-contracts-language-description/waves-console-commands.md)
-  * [Console Examples](technical-details/waves-contracts-language-description/waves-console-commands/examples.md)
-* [Video Tutorials and Articles](technical-details/video-tutorials-and-articles.md)
 
 ## Proposals
 
