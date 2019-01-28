@@ -1,6 +1,6 @@
 # Summary
 
-## Overview
+## OVERVIEW
 
 * [What is Waves Platform?](README.md)
 * [Waves Platform Components](overview/platform-components.md)
@@ -10,17 +10,28 @@
 
 ## WAVES ENVIRONMENT
 
-* [Waves Tokens](overview/waves-tokens.md)
-
-## Platform Features
-
-* [Decentralized Exchange \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
-* [Assets \(custom tokens\)](platform-features/assets-custom-tokens.md)
-* [Leased Proof of Stake \(LPoS\)](platform-features/leased-proof-of-stake-lpos.md)
-* [Fair Proof of Stake](platform-features/fair-pos.md)
-* [Waves-NG Protocol](platform-features/waves-ng-protocol.md)
-* [Activation Protocol](platform-features/activation-protocol.md)
-* [Smart Contracts](platform-features/smart-contracts.md)
+* [Waves Tokens](waves-environment/waves-tokens.md)
+* [Custom Tokens](waves-environment/custom-tokens.md)
+* [Waves Mainnet](waves-environment/waves-mainnet.md)
+* Waves Testnet
+* [Waves Protocol](technical-details/technical-details.md)
+  * [Cryptographic Practical Details](en/waves-environment/waves-protocol/cryptographic-practical-details.md)
+  * [Data Structures](waves-environment/waves-protocol/data-structures.md)
+  * [Validation Rules](waves-environment/waves-protocol/validation-rules.md)
+  * [Creating a Private Waves Blockchain Network](waves-environment/waves-protocol/creating-a-private-waves-blockchain-network.md)
+  * [Mass Transfer Transaction](waves-environment/waves-protocol/mass-transfer-transaction.md)
+  * [Data Transaction](waves-environment/waves-protocol/data-transaction.md)
+  * [Waves-NG Solution](waves-environment/waves-protocol/waves-ng-solution.md)
+  * [Sponsored Fee](waves-environment/waves-protocol/sponsored-fee.md)
+  * [Transactions Structure](waves-environment/waves-protocol/transactions-structure.md)
+  * [Transactions Fees](waves-environment/waves-protocol/transactions-fees.md)
+  * [Decentralized Exchange \(DEX\)](waves-environment/waves-protocol/decentralized-cryptocurrency-exchange-dex.md)
+  * [Leased Proof of Stake \(LPoS\)](waves-environment/waves-protocol/leased-proof-of-stake-lpos.md)
+  * [Fair Proof of Stake](waves-environment/waves-protocol/fair-pos.md)
+  * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
+  * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
+  * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
+* FAQ
 
 ## Getting Started
 
@@ -164,17 +175,6 @@
 
 ## Development and API
 
-* [Technical details](technical-details/technical-details.md)
-  * [Cryptographic Practical Details](technical-details/cryptographic-practical-details.md)
-  * [Data Structures](technical-details/data-structures.md)
-  * [Validation Rules](technical-details/validation-rules.md)
-  * [Creating a Private Waves Blockchain Network](technical-details/creating-a-private-waves-blockchain-network.md)
-  * [Mass Transfer Transaction](technical-details/mass-transfer-transaction.md)
-  * [Data Transaction](technical-details/data-transaction.md)
-  * [Waves-NG Solution](technical-details/waves-ng-solution.md)
-  * [Sponsored Fee](technical-details/sponsored-fee.md)
-  * [Transactions Structure](technical-details/transactions-structure.md)
-  * [Transactions Fees](technical-details/transactions-fees.md)
 * [Client Libraries](development-and-api/client-libraries.md)
   * [PyWaves](development-and-api/client-libraries/pywaves.md)
   * [WavesJ](development-and-api/client-libraries/wavesj.md)
@@ -184,8 +184,6 @@
   * [Waves Signature Adapter](development-and-api/client-libraries/waves-signature-adapter.md)
   * [Waves Transactions](development-and-api/client-libraries/waves-transactions.md)
   * [Community Libraries](development-and-api/client-libraries/unofficial-libraries.md)
-* [DEX API](development-and-api/dex-api.md)
-  * [Matcher](development-and-api/dex-api/matcher.md)
 * [Waves Node Rest API](development-and-api/waves-node-rest-api.md)
   * [Address](development-and-api/waves-node-rest-api/address.md)
   * [Lease Transactions](development-and-api/waves-node-rest-api/lease-transactions.md)
@@ -199,6 +197,8 @@
   * [Blocks](development-and-api/waves-node-rest-api/blocks.md)
   * [Utils](development-and-api/waves-node-rest-api/utils.md)
   * [Examples of Transactions](development-and-api/waves-node-rest-api/example-transactions.md)
+* [DEX API](development-and-api/dex-api.md)
+  * [Matcher](development-and-api/dex-api/matcher.md)
 * [Client API](development-and-api/client-api/overview.md)
   * [Web Auth API](development-and-api/client-api/auth-api.md)
   * [Payment API](development-and-api/client-api/payments-api.md)
