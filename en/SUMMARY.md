@@ -48,6 +48,22 @@
 * [As a Node Owner](getting-started/as-a-node-owner.md)
 * [As a User](getting-started/as-a-user.md)
 
+## WAVES API & SDK
+
+* [NODE API: Waves Node Rest API](waves-api-and-sdk/waves-node-rest-api.md)
+  * [Address](waves-api-and-sdk/waves-node-rest-api/address.md)
+  * [Lease Transactions](waves-api-and-sdk/waves-node-rest-api/lease-transactions.md)
+  * [Assets](waves-api-and-sdk/waves-node-rest-api/asset-transactions.md)
+    * [Public Functions](waves-api-and-sdk/waves-node-rest-api/asset-transactions/public-functions.md)
+    * [Private Functions](waves-api-and-sdk/waves-node-rest-api/asset-transactions/private-functions.md)
+    * [Distribution Methods](waves-api-and-sdk/waves-node-rest-api/asset-transactions/distribution-methods.md)
+  * [Alias Transaction](waves-api-and-sdk/waves-node-rest-api/alias-transaction.md)
+  * [Transactions](waves-api-and-sdk/waves-node-rest-api/transactions.md)
+  * [Peers](waves-api-and-sdk/waves-node-rest-api/peers.md)
+  * [Blocks](waves-api-and-sdk/waves-node-rest-api/blocks.md)
+  * [Utils](waves-api-and-sdk/waves-node-rest-api/utils.md)
+  * [Examples of Transactions](waves-api-and-sdk/waves-node-rest-api/example-transactions.md)
+
 ## Waves Client
 
 * [Install Waves Client](waves-client/install-waves-client.md)
@@ -193,19 +209,6 @@
   * [Waves Signature Adapter](development-and-api/client-libraries/waves-signature-adapter.md)
   * [Waves Transactions](development-and-api/client-libraries/waves-transactions.md)
   * [Community Libraries](development-and-api/client-libraries/unofficial-libraries.md)
-* [Waves Node Rest API](development-and-api/waves-node-rest-api.md)
-  * [Address](development-and-api/waves-node-rest-api/address.md)
-  * [Lease Transactions](development-and-api/waves-node-rest-api/lease-transactions.md)
-  * [Assets](development-and-api/waves-node-rest-api/asset-transactions.md)
-    * [Public Functions](development-and-api/waves-node-rest-api/asset-transactions/public-functions.md)
-    * [Private Functions](development-and-api/waves-node-rest-api/asset-transactions/private-functions.md)
-    * [Distribution Methods](development-and-api/waves-node-rest-api/asset-transactions/distribution-methods.md)
-  * [Alias Transaction](development-and-api/waves-node-rest-api/alias-transaction.md)
-  * [Transactions](development-and-api/waves-node-rest-api/transactions.md)
-  * [Peers](development-and-api/waves-node-rest-api/peers.md)
-  * [Blocks](development-and-api/waves-node-rest-api/blocks.md)
-  * [Utils](development-and-api/waves-node-rest-api/utils.md)
-  * [Examples of Transactions](development-and-api/waves-node-rest-api/example-transactions.md)
 * [DEX API](development-and-api/dex-api.md)
   * [Matcher](development-and-api/dex-api/matcher.md)
 * [Client API](development-and-api/client-api/overview.md)
