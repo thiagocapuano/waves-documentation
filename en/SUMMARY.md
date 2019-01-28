@@ -10,30 +10,28 @@
 
 ## WAVES ENVIRONMENT
 
-* [Waves Tokens](overview/waves-tokens.md)
-* [Custom Tokens](overview/custom-tokens.md)
-* Waves Mainnet
+* [Waves Tokens](waves-environment/waves-tokens.md)
+* [Custom Tokens](waves-environment/custom-tokens.md)
+* [Waves Mainnet](waves-environment/waves-mainnet.md)
 * Waves Testnet
 * [Waves Protocol](technical-details/technical-details.md)
-  * [Cryptographic Practical Details](technical-details/cryptographic-practical-details.md)
-  * [Data Structures](technical-details/data-structures.md)
-  * [Validation Rules](technical-details/validation-rules.md)
-  * [Creating a Private Waves Blockchain Network](technical-details/creating-a-private-waves-blockchain-network.md)
-  * [Mass Transfer Transaction](technical-details/mass-transfer-transaction.md)
-  * [Data Transaction](technical-details/data-transaction.md)
-  * [Waves-NG Solution](technical-details/waves-ng-solution.md)
-  * [Sponsored Fee](technical-details/sponsored-fee.md)
-  * [Transactions Structure](technical-details/transactions-structure.md)
-  * [Transactions Fees](technical-details/transactions-fees.md)
-  * [Decentralized Exchange \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
-  * [Leased Proof of Stake \(LPoS\)](platform-features/leased-proof-of-stake-lpos.md)
-  * [Fair Proof of Stake](platform-features/fair-pos.md)
-  * [Waves-NG Protocol](platform-features/waves-ng-protocol.md)
-  * [Activation Protocol](platform-features/activation-protocol.md)
-  * [Smart Contracts](platform-features/smart-contracts.md)
+  * [Cryptographic Practical Details](en/waves-environment/waves-protocol/cryptographic-practical-details.md)
+  * [Data Structures](waves-environment/waves-protocol/data-structures.md)
+  * [Validation Rules](waves-environment/waves-protocol/validation-rules.md)
+  * [Creating a Private Waves Blockchain Network](waves-environment/waves-protocol/creating-a-private-waves-blockchain-network.md)
+  * [Mass Transfer Transaction](waves-environment/waves-protocol/mass-transfer-transaction.md)
+  * [Data Transaction](waves-environment/waves-protocol/data-transaction.md)
+  * [Waves-NG Solution](waves-environment/waves-protocol/waves-ng-solution.md)
+  * [Sponsored Fee](waves-environment/waves-protocol/sponsored-fee.md)
+  * [Transactions Structure](waves-environment/waves-protocol/transactions-structure.md)
+  * [Transactions Fees](waves-environment/waves-protocol/transactions-fees.md)
+  * [Decentralized Exchange \(DEX\)](waves-environment/waves-protocol/decentralized-cryptocurrency-exchange-dex.md)
+  * [Leased Proof of Stake \(LPoS\)](waves-environment/waves-protocol/leased-proof-of-stake-lpos.md)
+  * [Fair Proof of Stake](waves-environment/waves-protocol/fair-pos.md)
+  * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
+  * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
+  * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
 * FAQ
-
-## Platform Features
 
 ## Getting Started
 
@@ -215,6 +213,4 @@
 * [Versioned transactions](proposals/versioned-transactions.md)
 * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
 * [Asset Verification Protocol](proposals/asset-verification-protocol.md)
-
-
 
