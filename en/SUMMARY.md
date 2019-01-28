@@ -1,6 +1,6 @@
 # Summary
 
-## Overview
+## OVERVIEW
 
 * [What is Waves Platform?](README.md)
 * [Waves Platform Components](overview/platform-components.md)
@@ -11,16 +11,29 @@
 ## WAVES ENVIRONMENT
 
 * [Waves Tokens](overview/waves-tokens.md)
+* [Custom Tokens](overview/custom-tokens.md)
+* Waves Mainnet
+* Waves Testnet
+* [Waves Protocol](technical-details/technical-details.md)
+  * [Cryptographic Practical Details](technical-details/cryptographic-practical-details.md)
+  * [Data Structures](technical-details/data-structures.md)
+  * [Validation Rules](technical-details/validation-rules.md)
+  * [Creating a Private Waves Blockchain Network](technical-details/creating-a-private-waves-blockchain-network.md)
+  * [Mass Transfer Transaction](technical-details/mass-transfer-transaction.md)
+  * [Data Transaction](technical-details/data-transaction.md)
+  * [Waves-NG Solution](technical-details/waves-ng-solution.md)
+  * [Sponsored Fee](technical-details/sponsored-fee.md)
+  * [Transactions Structure](technical-details/transactions-structure.md)
+  * [Transactions Fees](technical-details/transactions-fees.md)
+  * [Decentralized Exchange \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
+  * [Leased Proof of Stake \(LPoS\)](platform-features/leased-proof-of-stake-lpos.md)
+  * [Fair Proof of Stake](platform-features/fair-pos.md)
+  * [Waves-NG Protocol](platform-features/waves-ng-protocol.md)
+  * [Activation Protocol](platform-features/activation-protocol.md)
+  * [Smart Contracts](platform-features/smart-contracts.md)
+* FAQ
 
 ## Platform Features
-
-* [Decentralized Exchange \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
-* [Assets \(custom tokens\)](platform-features/assets-custom-tokens.md)
-* [Leased Proof of Stake \(LPoS\)](platform-features/leased-proof-of-stake-lpos.md)
-* [Fair Proof of Stake](platform-features/fair-pos.md)
-* [Waves-NG Protocol](platform-features/waves-ng-protocol.md)
-* [Activation Protocol](platform-features/activation-protocol.md)
-* [Smart Contracts](platform-features/smart-contracts.md)
 
 ## Getting Started
 
@@ -164,17 +177,6 @@
 
 ## Development and API
 
-* [Technical details](technical-details/technical-details.md)
-  * [Cryptographic Practical Details](technical-details/cryptographic-practical-details.md)
-  * [Data Structures](technical-details/data-structures.md)
-  * [Validation Rules](technical-details/validation-rules.md)
-  * [Creating a Private Waves Blockchain Network](technical-details/creating-a-private-waves-blockchain-network.md)
-  * [Mass Transfer Transaction](technical-details/mass-transfer-transaction.md)
-  * [Data Transaction](technical-details/data-transaction.md)
-  * [Waves-NG Solution](technical-details/waves-ng-solution.md)
-  * [Sponsored Fee](technical-details/sponsored-fee.md)
-  * [Transactions Structure](technical-details/transactions-structure.md)
-  * [Transactions Fees](technical-details/transactions-fees.md)
 * [Client Libraries](development-and-api/client-libraries.md)
   * [PyWaves](development-and-api/client-libraries/pywaves.md)
   * [WavesJ](development-and-api/client-libraries/wavesj.md)
@@ -184,8 +186,6 @@
   * [Waves Signature Adapter](development-and-api/client-libraries/waves-signature-adapter.md)
   * [Waves Transactions](development-and-api/client-libraries/waves-transactions.md)
   * [Community Libraries](development-and-api/client-libraries/unofficial-libraries.md)
-* [DEX API](development-and-api/dex-api.md)
-  * [Matcher](development-and-api/dex-api/matcher.md)
 * [Waves Node Rest API](development-and-api/waves-node-rest-api.md)
   * [Address](development-and-api/waves-node-rest-api/address.md)
   * [Lease Transactions](development-and-api/waves-node-rest-api/lease-transactions.md)
@@ -199,6 +199,8 @@
   * [Blocks](development-and-api/waves-node-rest-api/blocks.md)
   * [Utils](development-and-api/waves-node-rest-api/utils.md)
   * [Examples of Transactions](development-and-api/waves-node-rest-api/example-transactions.md)
+* [DEX API](development-and-api/dex-api.md)
+  * [Matcher](development-and-api/dex-api/matcher.md)
 * [Client API](development-and-api/client-api/overview.md)
   * [Web Auth API](development-and-api/client-api/auth-api.md)
   * [Payment API](development-and-api/client-api/payments-api.md)
