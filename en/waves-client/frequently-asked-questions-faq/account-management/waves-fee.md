@@ -12,7 +12,7 @@ For more information, please check the following articles:
 * [Start trading on the Waves DEX](/waves-client/waves-dex/start-trading-on-the-waves-dex.md)
 * [Lease your Waves tokens](/waves-client/account-management/waves-leasing.md)
 
-See also
+See also:
 
 * [Mobile app for iOS devices](/waves-client/mobile-apps/iOS.md)
 * [Mobile app for Android devices](waves-client/mobile-apps/android.md)

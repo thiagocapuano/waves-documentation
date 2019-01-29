@@ -7,9 +7,14 @@
 Для получения дополнительной информации, пожалуйста используйте следующие статьи:
 
 * [Как получить достаточно Waves для оплаты комиссии?](/waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
-* [Как отправить и получить Waves?](/waves-client/transfers-and-gateways/waves-transfers.md)
-* [Как торговать на бирже DEX?](/waves-client/waves-dex/start-trading-using-the-waves-dex.md)
 * [Я разместил ордер, когда он будет исполнен?](/waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
-* [Лизинг Waves токенов.](/waves-client/account-management/waves-leasing.md)
+* [Переводы Waves](/waves-client/transfers-and-gateways/waves-transfers.md)
+* [Использование биржи DEX](/waves-client/waves-dex/start-trading-on-the-waves-dex.md)
+* [Лизинг Waves токенов](/waves-client/account-management/waves-leasing.md)
+
+И еще:
+
+* [Мобильное приложение для iOS устройств](waves-client/mobile-apps/iOS.md)
+* [Мобильное приложение для Android устройств](/waves-client/mobile-apps/android.md)
 
 Если у вас возникнут трудности с использованием нашей платформы, пожалуйста, создайте запрос в [службу поддержки](https://support.wavesplatform.com/) или задайте вопрос на нашем [форуме](https://forum.wavesplatform.com/).
