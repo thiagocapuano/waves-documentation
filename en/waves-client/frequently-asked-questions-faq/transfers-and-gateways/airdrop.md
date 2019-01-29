@@ -17,6 +17,6 @@ A: Now that [Waves-NG](https://waves-ng.wavesplatform.com/) has been activated, 
 
 If you have additional questions, please read the following articles:
 
- * [Waves transfers](/waves-client/transfers-and-gateways/waves-transfers.md)
- * [Asset transfers](/waves-client/transfers-and-gateways/asset-transfers.md)
- * [Waves DEX](/waves-client/waves-dex/start-trading-using-the-waves-dex.md)
+* [Transfers and Gateways](/waves-client/wallet-management.md)
+* [iOS: Transfers and gateways](/waves-client/mobile-apps/iOS/wallet-management.md)
+* [Android: Transfers and gateways](/waves-client/mobile-apps/android/wallet-management.md)

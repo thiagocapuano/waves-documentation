@@ -24,5 +24,5 @@ See more:
 
  * [Treat your backup phrase (aka SEED phrase) with care!](/waves-client/security/safe-place.md)
  * [Account recovery](/waves-client/account-management/restore-an-account.md)
- * [Account recovery (iOS)](/waves-client/mobile-apps/iOS/account-managment/restore-an-account.md)
- * [Account recovery (Android)](/waves-client/mobile-apps/android/account-managment/restore-an-account.md)
+ * [Account recovery (iOS)](/waves-client/mobile-apps/iOS/account-management/restore-an-account.md)
+ * [Account recovery (Android)](/waves-client/mobile-apps/android/account-management/restore-an-account.md)
