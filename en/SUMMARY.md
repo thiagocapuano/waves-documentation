@@ -91,7 +91,7 @@
       * [iOS: Buying Waves using credit or debit card](waves-client/mobile-apps/iOS/transfers-and-gateways/buying-waves-using-card.md)
     * [iOS: Waves DEX](waves-client/mobile-apps/iOS/waves-dex.md)
       * [iOS: Start trading on the Waves DEX](waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
-  * [Android: Mobile app for Android devices](waves-client/mobile-apps/android.md)
+  * [Mobile app for Android devices](waves-client/mobile-apps/android.md)
     * [Android: Account Management](waves-client/mobile-apps/android/account-management.md)
       * [Android: Account creation](waves-client/mobile-apps/android/account-management/creating-an-account.md)
       * [Android: Account recovery](waves-client/mobile-apps/android/account-management/restore-an-account.md)

@@ -2,7 +2,7 @@
 
 Important to know here is that names are not unique to prevent name squatting but the identifier, also called asset ID, is unique. Whenever you are looking for a token, search and confirm it is the right one by checking the asset ID.
 
-Search by ticker symbol is available only for assets from this list - [The list of all assets having ticker symbol](https://support.wavesplatform.com/en/knowledge-bases/2/articles/8141-the-list-of-all-assets-having-ticker-symbol)
+Search by ticker symbol is available only for qulified assets. For more information, please check the official [steps for verification](https://bettertokens.org/application-progress.html).
 
 To start trading with any assets, please use asset name or ID of the required Asset.
 
