@@ -197,7 +197,7 @@ Transaction types:
 | 6.2 | Description | Array[Byte] | M 
 | 7 | Quantity | Long | 8 
 | 8 | Decimals | Byte | 1 
-| 9 | Reissuable | Boolean | 1 
+| 9 | Reissuable \(1 - True, 0 - False\) | Boolean | 1 
 | 10 | Fee | Long | 8 
 | 11 | Timestamp | Long | 8 
 
@@ -232,7 +232,7 @@ The transaction's signature is calculated from the following bytes:
 | 7.2 | Description | Array[Byte] | N 
 | 8 | Quantity | Long | 8 
 | 9 | Decimals | Byte | 1 
-| 10 | Reissuable | Boolean | 1 
+| 10 | Reissuable \(1 - True, 0 - False\) | Boolean | 1 
 | 11 | Fee | Long | 8 
 | 12 | Timestamp | Long | 8 
 | 13.1 | Script existence flag | Byte | 1 
@@ -282,7 +282,7 @@ The transaction's signature is calculated from the following bytes:
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 6 | Asset ID | ByteStr \(Array[Byte]\) | 32 
 | 7 | Quantity | Long | 8 
-| 8 | Reissuable flag (1 - True, 0 - False) | Boolean | 1 
+| 8 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1 
 | 9 | Fee | Long | 8 
 | 10 | Timestamp | Long | 8 
 | 11.1 | Proofs version \(0x01\) | Byte | 1 
@@ -394,7 +394,7 @@ The transaction's signature is calculated from the following bytes:
 | 7 | Quantity | Long | 8 
 | 8 | Fee | Long | 8 
 | 9 | Timestamp | Long | 8 
-| 10.1 | Proofs version (0x01) | Byte | 1 
+| 10.1 | Proofs version \(0x01\) | Byte | 1 
 | 10.2 | Proofs count | Short | 2 
 | 10.3 | Proof 1 length \(N\) | Short | 2 
 | 10.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
