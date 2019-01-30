@@ -129,7 +129,7 @@ The signature is calculated from the following bytes:
 | 4.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 0/32 
 | 5.1 | Price asset flag \(0 - Waves, 1 - asset\) | Byte | 1 
 | 5.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 0/32 
-| 6 | Order type | Byte | 1 
+| 6 | Order type \(0 - Buy, 1 - Sell\) | Byte | 1 
 | 7 | Price | Long | 8 
 | 8 | Amount | Long | 8 
 | 9 | Timestamp | Long | 8 
