@@ -180,7 +180,7 @@ Transaction types:
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 1\) | 1 
 | 2 | Timestamp | Long | 8 
-| 3 | Recipient's address | Address | 26 \(see Address data structure\) 
+| 3 | Recipient's address | Address | 26 
 | 4 | Amount | Long | 8 
 
 #### Issue transaction V1
@@ -308,7 +308,7 @@ The transaction's signature is calculated from the following bytes:
 | 7 | Timestamp | Long | 8 
 | 8 | Amount | Long | 8 
 | 9 | Fee | Long | 8 
-| 10 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias, see Address/Alias data structures\) 
+| 10 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
 | 11.1 | Attachment length \(N\) | Short | 2 
 | 11.2 | Attachment | Array[Byte] | N 
 
@@ -344,7 +344,7 @@ The transaction's signature is calculated from the following bytes:
 | 7 | Timestamp | Long | 8 
 | 8 | Amount | Long | 8 
 | 9 | Fee | Long | 8 
-| 10 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias, see Address/Alias data structures\) 
+| 10 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
 | 11.1 | Attachment length \(N\) | Short | 2 
 | 11.2 | Attachment | Array[Byte] | N 
 | 12.1 | Proofs version \(0x01\) | Byte | 1 
@@ -469,7 +469,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 8\) | 1 
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 3 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias, see Address/Alias data structures\) 
+| 3 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
 | 4 | Amount | Long | 8 
 | 5 | Fee | Long | 8 
 | 6 | Timestamp | Long | 8 
@@ -496,7 +496,7 @@ The transaction's signature is calculated from the following bytes:
 | 4.1 | Leasing asset \(Only Waves are currently supported\) flag \(0 - Waves, 1 - asset\) | Byte | 1 
 | 4.2 | Leasing asset \(Only Waves are currently supported\) | AssetId \(ByteStr = Array[Byte]\) | 0/32 
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 6 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias, see Address/Alias data structures\) 
+| 6 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
 | 7 | Amount | Long | 8 
 | 8 | Fee | Long | 8 
 | 9 | Timestamp | Long | 8 
@@ -592,9 +592,9 @@ The transaction's signature is calculated from the following bytes:
 | 4.1 | Asset flag \(0 - Waves, 1 - asset\) | Byte | 1 
 | 4.2 | Asset | AssetId \(ByteStr = Array[Byte]\) | 0/32 
 | 5.1 | Number of transfers | Short | 2 
-| 5.2 | Address or alias for transfer 1 | Address or Alias | depends on first byte \(1 - Address, 2 - Alias, see Address/Alias data structures\) 
+| 5.2 | Address or alias for transfer 1 | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
 | 5.3 | Amount for transfer 1 | Long | 8 
-| 5.4 | Address or alias for transfer 2 | Address or Alias | depends on first byte \(1 - Address, 2 - Alias, see Address/Alias data structures\) 
+| 5.4 | Address or alias for transfer 2 | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
 | 5.5 | Amount for transfer 2 | Long | 8 
 | ... | ... | ... | ... |
 | 6 | Timestamp | Long | 8 
