@@ -147,30 +147,23 @@ The signature is calculated from the following bytes:
 
 Transaction types:
 
-| № | Transaction type |
+| Tx type № | Tx type name |
 | --- | --- |
 | 1 | GenesisTransaction |
 | 2 | PaymentTransaction\* |
-| 3 | IssueTransaction V1 |
-| 4 | IssueTransaction V2 |
-| 5 | ReissueTransaction V1 |
-| 6 | ReissueTransaction V2 |
-| 7 | TransferTransaction V1 |
-| 8 | TransferTransaction V2 |
-| 9 | BurnTransaction V1 |
-| 10 | BurnTransaction V2 |
-| 11 | ExchangeTransaction V1 |
-| 12 | ExchangeTransaction V2 |
-| 13 | LeaseTransaction V1 |
-| 14 | LeaseTransaction V2 |
-| 15 | LeaseCancelTransaction V1 |
-| 16 | LeaseCancelTransaction V2 |
-| 17 | CreateAliasTransaction V1 |
-| 18 | CreateAliasTransaction V2 |
-| 19 | MassTransferTransaction |
-| 20 | DataTransaction |
-| 21 | SponsorFeeTransaction |
-| 22 | SetScriptTransaction |
+| 3 | IssueTransaction V1, V2 |
+| 4 | TransferTransaction V1, V2 |
+| 5 | ReissueTransaction V1, V2 |
+| 6 | BurnTransaction V1, V2 |
+| 7 | ExchangeTransaction V1, V2 |
+| 8 | LeaseTransaction V1, V2  |
+| 9 | LeaseCancelTransaction V1, V2 |
+| 10 | CreateAliasTransaction V1, V2 |
+| 11 | MassTransferTransaction |
+| 12 | DataTransaction |
+| 13 | SetScriptTransaction |
+| 14 | SponsorFeeTransaction |
+| 15 | SetAssetScriptTransaction |
 
 \* - Deprecated
 
