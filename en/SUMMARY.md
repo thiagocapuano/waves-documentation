@@ -202,6 +202,9 @@
   * [Payment API](development-and-api/client-api/payments-api.md)
 * [Waves Keeper](development-and-api/waves-keeper-api/overview.md)
   * [Waves Keeper API](development-and-api/waves-keeper-api/waves-keeper-api.md)
+* [Waves Games](technical-details/waves-games.md)
+  * [Waves Gaming API](technical-details/waves-games/waves-gaming-api.md)
+  * [Examples](technical-details/waves-games/examples.md)
 * [Examples](development-and-api/examples.md)
   * [Create Your First crypto Trading Bot](development-and-api/examples/trading-bot.md)
 
