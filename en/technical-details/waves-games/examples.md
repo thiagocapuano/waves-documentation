@@ -23,10 +23,11 @@ async function getItem()
  const item = await items.getItem('6vq5YokeJUeCU3BCah65LTgiS5ESzjJdNurddY4ZDhcG', false)
  console.log(item)
 }
-
 ```
 
 ## 3. **Get all items created by address or game**
+
+It returns an item list issued by particular game creator.
 
 ```js
 async function getItemList() 
@@ -37,7 +38,9 @@ async function getItemList()
 }
 ```
 
-## 4. **If item was not previously freezed you can change amount of items created**
+## 4. Change Amount
+
+If item was not previously freezed you can change amount of items created
 
 ```js
 async function changeAmount()
