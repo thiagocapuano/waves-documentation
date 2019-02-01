@@ -93,6 +93,67 @@ Return a list of unconfirmed transactions in the node pool.
 ]
 ```
 
+### GET /transactions/unconfirmed/size
+![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
+
+
+
+Return the number of unconfirmed transactions in the UTX pool.
+
+**Response JSON example:**
+
+```js
+{
+  "size": 3
+}
+```
+
+### GET /transactions/unconfirmed/info/{id}
+![master](https://img.shields.io/badge/MAINNET-available-4bc51d.svg)
+
+
+
+Return an unconfirmed transaction by its ID.
+
+**Request params:**
+
+```
+"id" - Transaction ID
+```
+
+**Response JSON example:**
+
+```js
+{
+  "type": 4,
+  "id": "F4SPn6SNHiQB6DCATrVMqsM3s4RKTPVq8c7uPZEJ8YRN",
+  "sender": "3PBST44zh2rDhxXW97AEkYYtufFLtf2CuWP",
+  "senderPublicKey": "4NQqZba92s8NpQBMQhcb53d5oVpn9fWR2VEX5uhDHZiD",
+  "fee": 100000,
+  "timestamp": 1548847534028,
+  "signature": "28cq23pr8YezgqrwSuHKTTqUuSDJPBdfC9ACQQ15jAzxYZXowfmJFfcXmHsC5L1uUmBLPZySLCY4X4tsmetsLEx2",
+  "proofs": [
+    "28cq23pr8YezgqrwSuHKTTqUuSDJPBdfC9ACQQ15jAzxYZXowfmJFfcXmHsC5L1uUmBLPZySLCY4X4tsmetsLEx2"
+  ],
+  "version": 1,
+  "recipient": "3P7wD8Un2FpT8XC3p5ADgiRJEyeycWxs2Tj",
+  "assetId": "C9XD25wtUf4MTqbyDX8zqxpY2aXk6recZd5Bwtq7CUJS",
+  "feeAssetId": null,
+  "feeAsset": null,
+  "amount": 1000000000000,
+  "attachment": ""
+}
+```
+
+or 
+
+```js
+{
+  "status": "error",
+  "details": "Transaction is not in UTX"
+}
+```
+
 ### POST /transactions/calculateFee
 ![master](https://img.shields.io/badge/node-&gt;%3D0.14.3-4bc51d.svg)
 
@@ -334,6 +395,3 @@ and all the other parameters appropriate for a transaction of the given type.
  "alias":"dajzmj6gfuzmbfnhamsbuxivc"
 }
 ```
-
-
-
