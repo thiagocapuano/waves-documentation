@@ -48,20 +48,19 @@
 | toBytes|1|Bytes array representation|<ul> <li>s <a>String value</li></ul>| <a>ByteVector</a>
 | take|1|Take firsts bytes subvector|<ul> <li>xs <a>ByteVector</a> vector</li> <li>number <a>Int</a> Bytes number</li></ul>| <a>ByteVector</a>
 | drop|1|Skip firsts bytes|<ul> <li>xs <a>ByteVector</a> vector</li> <li>number <a>Int</a> Bytes number</li></ul>| <a>ByteVector</a>
-| takeRight||Take vector tail|<ul> <li>@xs <a>ByteVector</a> vector</li> <li>@number <a>Int</a> taking size</li></ul>| <a>ByteVector</a>
-| dropRight||Cut vectors tail|<ul> <li>@xs <a>ByteVector</a> vector</li> <li>@number <a>Int</a> cuting size</li></ul>| <a>ByteVector</a>
+| takeRight|1|Take vector tail|<ul> <li>@xs <a>ByteVector</a> vector</li> <li>@number <a>Int</a> taking size</li></ul>| <a>ByteVector</a>
+| dropRight|1|Cut vectors tail|<ul> <li>@xs <a>ByteVector</a> vector</li> <li>@number <a>Int</a> cuting size</li></ul>| <a>ByteVector</a>
 | size|1|Scting size in characters|<ul> <li>xs <a>String string</li></ul>| <a>Int</a>
 | toString|1|String representation|<ul> <li>b  <a>Boolean</a> value</li></ul>| <a>String
 | toString|1|String representation|<ul> <li>n <a>Int</a> value</li></ul>| <a>String
 | take|1|Take string prefix|<ul> <li>xs <a>String sctring</li> <li>number <a>Int</a> prefix size in characters</li></ul>| <a>String
 | drop|1|Remmove sring prefix|<ul> <li>xs <a>String string</li> <li>number <a>Int</a> prefix size</li></ul>| <a>String
-| takeRight||Take string suffix|<ul> <li>@xs <a>String String</li> <li>@number <a>Int</a> suffix size in characters</li></ul>| <a>String
-| dropRight||Remove string suffix|<ul> <li>@xs <a>String string</li> <li>@number <a>Int</a> suffix size in characters</li></ul>| <a>String
+| takeRight|1|Take string suffix|<ul> <li>@xs <a>String String</li> <li>@number <a>Int</a> suffix size in characters</li></ul>| <a>String
+| dropRight|1|Remove string suffix|<ul> <li>@xs <a>String string</li> <li>@number <a>Int</a> suffix size in characters</li></ul>| <a>String
 | _isInstanceOf|1|Internal function to check value type|<ul> <li>obj T value</li> <li>of <a>String type name</li></ul>|  <a>Boolean</a>
 | isDefined||Check the value is defined|<ul> <li>@a OPTION[ T] Option value</li></ul>|  <a>Boolean</a>
 | extract||Extract value from option or fail|<ul> <li>@a OPTION[ T] Optional value</li></ul>|  T
-| throw|1|Fail script|<ul> <li>err <a>String Error message</li></ul>| [Nothing](#Nothing)
-| throw||Fail script|<ul></ul>| [Nothing](#Nothing)
+| throw|1|Fail script|<ul> <li>err <a>String Error message</li></ul>| [Nothing](#Nothing) | 
 | *|1|Integer multiplication|<ul> <li>a <a>Int</a> multiplyer</li> <li>b <a>Int</a> multiplyer</li></ul>| <a>Int</a>
 | /|1|Integer devision|<ul> <li>a <a>Int</a> divisible</li> <li>b <a>Int</a> divisor</li></ul>| <a>Int</a>
 | %|1|Modulo|<ul> <li>a <a>Int</a> divisible</li> <li>b <a>Int</a> divisor</li></ul>| <a>Int</a>
@@ -70,7 +69,7 @@
 | +|10|Limited strings concatination|<ul> <li>a <a>String prefix</li> <li>b <a>String suffix</li></ul>| <a>String
 | +|10|Limited bytes vectors concatination|<ul> <li>a <a>ByteVector</a> prefix</li> <li>b <a>ByteVector</a> suffix</li></ul>| <a>ByteVector</a>
 | &#61;&#61;|1|Equality|<ul> <li>a T value</li> <li>b T value</li></ul>|  <a>Boolean</a>
-| !&#61;||Inequality|<ul> <li>@a T value</li> <li>@b T value</li></ul>|  <a>Boolean</a>
+| !&#61;|1|Inequality|<ul> <li>@a T value</li> <li>@b T value</li></ul>|  <a>Boolean</a>
 | &gt;&#61;|1|Integer grater or equal comparation|<ul> <li>a <a>Int</a> term</li> <li>b <a>Int</a> term</li></ul>|  <a>Boolean</a>
 | &gt;|1|Integer grater comparation|<ul> <li>a <a>Int</a> term</li> <li>b <a>Int</a> term</li></ul>|  <a>Boolean</a>
 | getElement|2|Get list element by position|<ul> <li>arr LIST[ T] list</li> <li>pos <a>Int</a> element position</li></ul>|  T
