@@ -137,10 +137,10 @@ The signature is calculated from the following bytes:
 | 10 | Matcher's fee | Long | 8 
 | 11.1 | Proofs version \(0x01\) | Byte | 1 
 | 11.2 | Proofs count | Short | 2 
-| 11.3 | Proof 1 length \(N\) | Short | 2 
-| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 11.5 | Proof 2 length \(M\) | Short | 2 
-| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 11.3 | Proof 1 length \(P1\) | Short | 2 
+| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 11.5 | Proof 2 length \(P2\) | Short | 2 
+| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 ### Transactions
@@ -164,8 +164,10 @@ Transaction types:
 | 13 | SetScriptTransaction |
 | 14 | SponsorFeeTransaction |
 | 15 | SetAssetScriptTransaction |
+| 16 | ContractInvocationTransaction\*\* |
 
 \* - Deprecated
+\*\* - Is not activated yet
 
 #### Genesis transaction
 
@@ -190,7 +192,7 @@ Transaction types:
 | 6.2 | Description | Array[Byte] | M 
 | 7 | Quantity | Long | 8 
 | 8 | Decimals | Byte | 1 
-| 9 | Reissuable \(1 - True, 0 - False\) | Boolean | 1 
+| 9 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1 
 | 10 | Fee | Long | 8 
 | 11 | Timestamp | Long | 8 
 
@@ -216,7 +218,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 3\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
+| 3 | Version | Byte | 1 
 | 4 | Chain ID | Byte | 1 
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 6.1 | Name length \(N\) | Short | 2 
@@ -225,65 +227,17 @@ The transaction's signature is calculated from the following bytes:
 | 7.2 | Description | Array[Byte] | N 
 | 8 | Quantity | Long | 8 
 | 9 | Decimals | Byte | 1 
-| 10 | Reissuable \(1 - True, 0 - False\) | Boolean | 1 
+| 10 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1 
 | 11 | Fee | Long | 8 
 | 12 | Timestamp | Long | 8 
 | 13.1 | Script existence flag | Byte | 1 
 | 13.2 | Script | Script | S 
 | 14.1 | Proofs version \(0x01\) | Byte | 1 
 | 14.2 | Proofs count | Short | 2 
-| 14.3 | Proof 1 length \(N\) | Short | 2 
-| 14.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 14.5 | Proof 2 length \(M\) | Short | 2 
-| 14.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
-| ... | ... | ... | ... |
-
-#### Reissue Transaction V1
-
-| \# | Field name | Type | Length |
-| --- | --- | --- | --- |
-| 1 | Transaction type | Byte \(constant, value = 5\) | 1 
-| 2 | Signature | ByteStr \(Array[Byte]\) | 64 
-| 3 | Transaction type | Byte \(constant, value = 5\) | 1 
-| 4 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 5 | Asset ID | ByteStr \(Array[Byte]\) | 32 
-| 6 | Quantity | Long | 8 
-| 7 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1 
-| 8 | Fee | Long | 8 
-| 9 | Timestamp | Long | 8 
-
-The transaction's signature is calculated from the following bytes:
-
-| \# | Field name | Type | Length |
-| --- | --- | --- | --- |
-| 1 | Transaction type \(0x05\) | Byte | 1 |
-| 2 | Sender's public key | Bytes | 32 |
-| 3 | Asset ID | Bytes | 32 |
-| 4 | Quantity | Long | 8 |
-| 5 | Reissuable flag \(1-True, 0-False\) | Byte | 1 |
-| 6 | Fee | Long | 8 |
-| 7 | Timestamp | Long | 8 |
-
-#### Reissue Transaction V2
-
-| \# | Field name | Type | Length |
-| --- | --- | --- | --- |
-| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
-| 2 | Transaction type | Byte \(constant, value = 5\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
-| 4 | Chain ID | Byte | 1 
-| 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 6 | Asset ID | ByteStr \(Array[Byte]\) | 32 
-| 7 | Quantity | Long | 8 
-| 8 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1 
-| 9 | Fee | Long | 8 
-| 10 | Timestamp | Long | 8 
-| 11.1 | Proofs version \(0x01\) | Byte | 1 
-| 11.2 | Proofs count | Short | 2 
-| 11.3 | Proof 1 length \(N\) | Short | 2 
-| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 11.5 | Proof 2 length \(M\) | Short | 2 
-| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 14.3 | Proof 1 length \(P1\) | Short | 2 
+| 14.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 14.5 | Proof 2 length \(P2\) | Short | 2 
+| 14.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 #### Transfer Transaction V1
@@ -328,7 +282,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 4\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
+| 3 | Version | Byte | 1 
 | 4 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 5.1 | Asset ID flag \(0 - Waves, 1 - asset\) | Byte | 1 
 | 5.2 | Asset ID\* | AssetId \(ByteStr = Array[Byte]\) | 0/32\* 
@@ -342,14 +296,62 @@ The transaction's signature is calculated from the following bytes:
 | 11.2 | Attachment | Array[Byte] | N 
 | 12.1 | Proofs version \(0x01\) | Byte | 1 
 | 12.2 | Proofs count | Short | 2 
-| 12.3 | Proof 1 length \(N\) | Short | 2 
-| 12.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 12.5 | Proof 2 length \(M\) | Short | 2 
-| 12.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 12.3 | Proof 1 length \(P1\) | Short | 2 
+| 12.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 12.5 | Proof 2 length \(P2\) | Short | 2 
+| 12.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 * The fee only in Waves;
 * You may sign your transaction in your way and place the signature in proofs.
+
+#### Reissue Transaction V1
+
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction type | Byte \(constant, value = 5\) | 1 
+| 2 | Signature | ByteStr \(Array[Byte]\) | 64 
+| 3 | Transaction type | Byte \(constant, value = 5\) | 1 
+| 4 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
+| 5 | Asset ID | ByteStr \(Array[Byte]\) | 32 
+| 6 | Quantity | Long | 8 
+| 7 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1 
+| 8 | Fee | Long | 8 
+| 9 | Timestamp | Long | 8 
+
+The transaction's signature is calculated from the following bytes:
+
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction type \(0x05\) | Byte | 1 |
+| 2 | Sender's public key | Bytes | 32 |
+| 3 | Asset ID | Bytes | 32 |
+| 4 | Quantity | Long | 8 |
+| 5 | Reissuable flag \(1-True, 0-False\) | Byte | 1 |
+| 6 | Fee | Long | 8 |
+| 7 | Timestamp | Long | 8 |
+
+#### Reissue Transaction V2
+
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
+| 2 | Transaction type | Byte \(constant, value = 5\) | 1 
+| 3 | Version | Byte | 1 
+| 4 | Chain ID | Byte | 1 
+| 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
+| 6 | Asset ID | ByteStr \(Array[Byte]\) | 32 
+| 7 | Quantity | Long | 8 
+| 8 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1 
+| 9 | Fee | Long | 8 
+| 10 | Timestamp | Long | 8 
+| 11.1 | Proofs version \(0x01\) | Byte | 1 
+| 11.2 | Proofs count | Short | 2 
+| 11.3 | Proof 1 length \(P1\) | Short | 2 
+| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 11.5 | Proof 2 length \(P2\) | Short | 2 
+| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
+| ... | ... | ... | ... |
 
 #### Burn Transaction V1
 
@@ -380,7 +382,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 6\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
+| 3 | Version | Byte | 1 
 | 4 | Chain ID | Byte | 1 
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 6 | Asset ID | ByteStr \(Array[Byte]\) | 32 
@@ -389,10 +391,10 @@ The transaction's signature is calculated from the following bytes:
 | 9 | Timestamp | Long | 8 
 | 10.1 | Proofs version \(0x01\) | Byte | 1 
 | 10.2 | Proofs count | Short | 2 
-| 10.3 | Proof 1 length \(N\) | Short | 2 
-| 10.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 10.5 | Proof 2 length \(M\) | Short | 2 
-| 10.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 10.3 | Proof 1 length \(P1\) | Short | 2 
+| 10.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 10.5 | Proof 2 length \(P2\) | Short | 2 
+| 10.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 
@@ -404,7 +406,7 @@ The transaction's signature is calculated from the following bytes:
 | 2 | Buy order object length \(BN\) | Int | 4 
 | 3 | Sell order object length \(SN\) | Int | 4 
 | 4 | Buy order object | OrderV1 | BN 
-| 4 | Sell order object | OrderV1 | SN 
+| 5 | Sell order object | OrderV1 | SN 
 | 6 | Price | Long | 8 
 | 7 | Amount | Long | 8 
 | 8 | Buy matcher fee | Long | 8 
@@ -435,7 +437,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 7\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
+| 3 | Version | Byte | 1 
 | 4.1 | Buy order size \(BN\) | Int | 4 
 | 4.2 | Buy order version mark | Byte | 1 \(version 1\) / 0 \(version 2\) 
 | 4.3 | Buy order | Order | BN 
@@ -450,10 +452,10 @@ The transaction's signature is calculated from the following bytes:
 | 11 | Timestamp | Long | 8 
 | 12.1 | Proofs version \(0x01\) | Byte | 1 
 | 12.2 | Proofs count | Short | 2 
-| 12.3 | Proof 1 length \(N\) | Short | 2 
-| 12.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 12.5 | Proof 2 length \(M\) | Short | 2 
-| 12.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 12.3 | Proof 1 length \(P1\) | Short | 2 
+| 12.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 12.5 | Proof 2 length \(P2\) | Short | 2 
+| 12.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 #### Lease Transaction V1
@@ -485,7 +487,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 8\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
+| 3 | Version | Byte | 1 
 | 4.1 | Leasing asset \(Only Waves are currently supported\) flag \(0 - Waves, 1 - asset\) | Byte | 1 
 | 4.2 | Leasing asset \(Only Waves are currently supported\) | AssetId \(ByteStr = Array[Byte]\) | 0/32 
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
@@ -495,10 +497,10 @@ The transaction's signature is calculated from the following bytes:
 | 9 | Timestamp | Long | 8 
 | 10.1 | Proofs version \(0x01\) | Byte | 1 
 | 10.2 | Proofs count | Short | 2 
-| 10.3 | Proof 1 length \(N\) | Short | 2 
-| 10.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 10.5 | Proof 2 length \(M\) | Short | 2 
-| 10.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 10.3 | Proof 1 length \(P1\) | Short | 2 
+| 10.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 10.5 | Proof 2 length \(P2\) | Short | 2 
+| 10.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 #### Lease Cancel Transaction V1
@@ -518,7 +520,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 9\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
+| 3 | Version | Byte | 1 
 | 4 | Chain ID | Byte | 1 
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 6 | Fee | Long | 8 
@@ -526,10 +528,10 @@ The transaction's signature is calculated from the following bytes:
 | 8 | Lease ID | ByteStr \(Array[Byte]\) | 32 
 | 9.1 | Proofs version \(0x01\) | Byte | 1 
 | 9.2 | Proofs count | Short | 2 
-| 9.3 | Proof 1 length \(N\) | Short | 2 
-| 9.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 9.5 | Proof 2 length \(M\) | Short | 2 
-| 9.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 9.3 | Proof 1 length \(P1\) | Short | 2 
+| 9.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 9.5 | Proof 2 length \(P2\) | Short | 2 
+| 9.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 #### Create Alias Transaction V1
@@ -538,8 +540,8 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 10\) | 1 
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 3.1 | Alias object length \(N\) | Short | 2 
-| 3.2 | Alias object | Alias | N 
+| 3.1 | Alias object length \(A\) | Short | 2 
+| 3.2 | Alias object | Alias | A 
 | 4 | Fee | Long | 8 
 | 5 | Timestamp | Long | 8 
 | 6 | Signature | ByteStr \(Array[Byte]\) | 64 
@@ -561,18 +563,18 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 10\) | 1 
-| 3 | Version | Byte \(constant, value = 2\) | 1 
+| 3 | Version | Byte | 1 
 | 4 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 5.1 | Alias object length \(N\) | Short | 2 
-| 5.2 | Alias object | Alias | N 
+| 5.1 | Alias object length \(A\) | Short | 2 
+| 5.2 | Alias object | Alias | A 
 | 6 | Fee | Long | 8 
 | 7 | Timestamp | Long | 8 
 | 8.1 | Proofs version \(0x01\) | Byte | 1 
 | 8.2 | Proofs count | Short | 2 
-| 8.3 | Proof 1 length \(N\) | Short | 2 
-| 8.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 8.5 | Proof 2 length \(M\) | Short | 2 
-| 8.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 8.3 | Proof 1 length \(P1\) | Short | 2 
+| 8.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 8.5 | Proof 2 length \(P2\) | Short | 2 
+| 8.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 #### Mass Transfer Transaction
@@ -580,7 +582,7 @@ The transaction's signature is calculated from the following bytes:
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 11\) | 1 
-| 2 | Version | Byte | 1 
+| 2 | Version | Byte \(constant, value = 1\) | 1 
 | 3 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 4.1 | Asset flag \(0 - Waves, 1 - asset\) | Byte | 1 
 | 4.2 | Asset | AssetId \(ByteStr = Array[Byte]\) | 0/32 
@@ -596,10 +598,10 @@ The transaction's signature is calculated from the following bytes:
 | 8.2 | Attachments | Array[Byte] | N 
 | 9.1 | Proofs version \(0x01\) | Byte | 1 
 | 9.2 | Proofs count | Short | 2 
-| 9.3 | Proof 1 length \(N\) | Short | 2 
-| 9.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 9.5 | Proof 2 length \(M\) | Short | 2 
-| 9.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 9.3 | Proof 1 length \(P1\) | Short | 2 
+| 9.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 9.5 | Proof 2 length \(P2\) | Short | 2 
+| 9.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 The transaction signature is calculated from the fields 1 to 8.2, i.e. proofs and signatures are not included.
@@ -640,7 +642,7 @@ Below is a sample **Mass Transfer transaction** encoded as **JSON**:
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 12\) | 1 
-| 3 | Version | Byte \(constant, value = 1\) | 1 
+| 3 | Version | Byte | 1 
 | 4 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 5.1 | Data entries count | Short | 2 
 | 5.2 | Key 1 length \(K1\) | Short | 2 
@@ -652,10 +654,10 @@ Below is a sample **Mass Transfer transaction** encoded as **JSON**:
 | 7 | Fee | Long | 8 
 | 8.1 | Proofs version \(0x01\) | Byte | 1 
 | 8.2 | Proofs count | Short | 2 
-| 8.3 | Proof 1 length \(N\) | Short | 2 
-| 8.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 8.5 | Proof 2 length \(M\) | Short | 2 
-| 8.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 8.3 | Proof 1 length \(P1\) | Short | 2 
+| 8.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 8.5 | Proof 2 length \(P2\) | Short | 2 
+| 8.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 The transaction signature is calculated from the fields 1 to 7, i.e. proofs and signatures are not included.
@@ -691,6 +693,37 @@ Below is a sample **Data transaction** encoded as **JSON**:
 }
 ```
 
+#### Set Script Transaction
+
+Sets the script which verifies all outgoing transactions. The set script can be changed by another.
+
+#### Set Script Transaction
+
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
+| 2 | Transaction type | Byte \(constant, value = 13\) | 1 
+| 3 | Version | Byte | 1 
+| 4 | Chain ID | Byte | 1 
+| 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
+| 6.1 | Script existence flag | Byte | 1 
+| 6.2 | Script | Script | S 
+| 7 | Fee | Long | 8 
+| 8 | Timestamp | Long | 8 
+| 9.1 | Proofs version \(0x01\) | Byte | 1 
+| 9.2 | Proofs count | Short | 2 
+| 9.3 | Proof 1 length \(P1\) | Short | 2 
+| 9.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 9.5 | Proof 2 length \(P2\) | Short | 2 
+| 9.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
+| ... | ... | ... | ... |
+
+[**Here**](/technical-details/waves-contracts-language-description.md) you can find more details about Waves smart-contracts.
+
+[**Here**](/technical-details/waves-contracts-language-description/standard-library.md) you can find more details about smart-contracts standard library.
+
+[**Here**](/technical-details/waves-contracts-language-description/creating-and-deploying-a-script-manually.md) you can find detailed instruction how to create and deploy a script manually.
+
 #### Sponsored Fee Transaction
 
 Set and cancel [fee sponsorship](sponsored-fee.md) for asset.
@@ -699,9 +732,9 @@ Set and cancel [fee sponsorship](sponsored-fee.md) for asset.
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 14\) | 1 
-| 3 | Version | Byte \(constant, value = 1\) | 1 
-| 4 | Transaction type | Byte \(constant, value = 14\) | 1 
-| 5 | Version | Byte \(constant, value = 1\) | 1 
+| 3 | Version | Byte | 1 
+| 4 | Transaction type | Byte | 1 
+| 5 | Version | Byte | 1 
 | 6 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 7 | Asset ID | ByteStr \(Array[Byte]\) | 32 
 | 8 | Minimal fee in assets\* | Option[Long] | Long
@@ -709,10 +742,10 @@ Set and cancel [fee sponsorship](sponsored-fee.md) for asset.
 | 10 | Timestamp | Long | 8 
 | 11.1 | Proofs version \(0x01\) | Byte | 1 
 | 11.2 | Proofs count | Short | 2 
-| 11.3 | Proof 1 length \(N\) | Short | 2 
-| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 11.5 | Proof 2 length \(M\) | Short | 2 
-| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 11.3 | Proof 1 length \(P1\) | Short | 2 
+| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 11.5 | Proof 2 length \(P2\) | Short | 2 
+| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 \* Zero value assume canceling sponsorship.
@@ -736,44 +769,13 @@ Below is a sample **Sponsored transaction** encoded as **JSON**:
 }
 ```
 
-#### Set Script Transaction
-
-Sets the script which verifies all outgoing transactions. The set script can be changed by another.
-
-#### Set Script Transaction
-
-| \# | Field name | Type | Length |
-| --- | --- | --- | --- |
-| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
-| 2 | Transaction type | Byte \(constant, value = 13\) | 1 
-| 3 | Version | Byte \(constant, value = 1\) | 1 
-| 4 | Chain ID | Byte | 1 
-| 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 6.1 | Script existence flag | Byte | 1 
-| 6.2 | Script | Script | S
-| 7 | Fee | Long | 8 
-| 8 | Timestamp | Long | 8 
-| 9.1 | Proofs version \(0x01\) | Byte | 1 
-| 9.2 | Proofs count | Short | 2 
-| 9.3 | Proof 1 length \(N\) | Short | 2 
-| 9.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 9.5 | Proof 2 length \(M\) | Short | 2 
-| 9.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
-| ... | ... | ... | ... |
-
-[**Here**](/technical-details/waves-contracts-language-description.md) you can find more details about Waves smart-contracts.
-
-[**Here**](/technical-details/waves-contracts-language-description/standard-library.md) you can find more details about smart-contracts standard library.
-
-[**Here**](/technical-details/waves-contracts-language-description/creating-and-deploying-a-script-manually.md) you can find detailed instruction how to create and deploy a script manually.
-
 #### Set Asset Script Transaction
 
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 15\) | 1 
-| 3 | Version | Byte \(constant, value = 1\) | 1 
+| 3 | Version | Byte | 1 
 | 4 | Chain ID | Byte | 1 
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 6 | Asset ID | ByteStr \(Array[Byte]\) | 32 
@@ -783,10 +785,10 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 | 9.2 | Script | Script | S 
 | 10.1 | Proofs version \(0x01\) | Byte | 1 
 | 10.2 | Proofs count | Short | 2 
-| 10.3 | Proof 1 length \(N\) | Short | 2 
-| 10.4 | Proof 1 | ByteStr \(Array[Byte]\) | N 
-| 10.5 | Proof 2 length \(M\) | Short | 2 
-| 10.6 | Proof 2  | ByteStr \(Array[Byte]\) | M 
+| 10.3 | Proof 1 length \(P1\) | Short | 2 
+| 10.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 10.5 | Proof 2 length \(P2\) | Short | 2 
+| 10.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 Below is a sample **Set Asset Script** encoded as **JSON**:
@@ -805,6 +807,28 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
     "script" : "base64:AQQAAAALYWxpY2FANpZ25lZAUAAAAJYm9iU2lnbmVkB5fCpHI"
 }
 ```
+
+#### Contract Invocation Transaction
+
+| \# | Field name | Type | Length |
+| --- | --- | --- | --- |
+| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
+| 2 | Transaction type | Byte \(constant, value = 16\) | 1 
+| 3 | Version | Byte | 1 
+| 4 | Chain ID | Byte | 1 
+| 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
+| 6 | Contract address | Address | 26 
+| 7 | Function call | EXPR | F 
+| 8 | Payment | Option[Payment] | OP 
+| 9 | Fee | Long | 8 
+| 10 | Timestamp | Long | 8 
+| 11.1 | Proofs version \(0x01\) | Byte | 1 
+| 11.2 | Proofs count | Short | 2 
+| 11.3 | Proof 1 length \(P1\) | Short | 2 
+| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 11.5 | Proof 2 length \(P2\) | Short | 2 
+| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
+| ... | ... | ... | ... |
 
 ## Network messages
 
