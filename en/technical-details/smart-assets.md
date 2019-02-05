@@ -61,7 +61,7 @@ If an Asset Pair contains a Smart Asset then the fee is increased by + 0.004 \(+
 
 This fee is payed to the Matcher by every account that is placing an order. The same fee is payed by the Matcher when an ExchangeTransaction is put into the blockchain.
 
-If an ExchangeTransaction's sender (the Matcher or any other account) has a script then the total fee for the transaction is increased by 0.004 waves.
+If an ExchangeTransaction's sender \(the Matcher or any other account\) has a script then the total fee for the transaction is increased by 0.004 waves.
 
 ## Validation
 
@@ -80,7 +80,7 @@ A smart asset’s script validates any of [_**the following transaction**_](../t
 
 You can create a smartAsset via [IssueTransaction\(Version2\)](../technical-details/transactions-structure.md) and specify the script in this transaction.
 
-Here’s an example of JSON for [IssueTransaction\(Version2\)](../technical-details/transactions-structure.md):
+Here’s an example of JSON for [IssueTransaction\(Version2\)](https://nodes.wavesnodes.com/transactions/info/FTQvw9zdYirRksUFCKDvor3hiu2NiUjXEPTDEcircqti):
 
 ```js
 {
@@ -110,7 +110,7 @@ Only the issuer can change the asset's script.
 
 ## Examples of Scripts for Smart Assets
 
-You can find an example of _**SetAssetScript **_transaction on _**testnet**_ in the following [transactions examples](../development-and-api/waves-node-rest-api/example-transactions.md).
+You can find an example of _**SetAssetScript **\_transaction on _**testnet**\_ in the following [transactions examples](../development-and-api/waves-node-rest-api/example-transactions.md).
 
 ### 1. Issue an unburnable asset
 
