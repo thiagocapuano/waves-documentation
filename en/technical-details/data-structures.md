@@ -167,6 +167,7 @@ Transaction types:
 | 16 | ContractInvocationTransaction\*\* |
 
 \* - Deprecated
+
 \*\* - Is not activated yet
 
 #### Genesis transaction
