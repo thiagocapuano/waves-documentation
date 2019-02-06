@@ -4,5 +4,17 @@
 
 Testnet is used a lot for developing purposes, assume you are building a new feature and its require you to send and receive WAVES and you don't have any real WAVES or you don't want to waste with mistakes, here you use test network \(testnet\).
 
+## Mainnet vs Testnet
+
+A mainnet and a testnet are two separate networks that operate independently from each other.
+
+|  | Mainnet | Testnet |
+| :--- | :--- | :--- |
+| Purpose | Waves Functional blockchain | Waves Testing environment |
+| Transactions | Waves real transactions stored on actual blockchain | Fake transactions |
+| WAVES coins | Posses real value | No monetary value |
+| Transactions frequency  | High | Low |
+| Mining | Possible to earn rewards | Not possible |
+
 
 
