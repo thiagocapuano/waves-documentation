@@ -125,22 +125,22 @@ The signature is calculated from the following bytes:
 | 1 | Version | Byte \(constant, value = 2\) | 1 
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 3 | Matcher's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 4.1 | Amount asset flag \(0 - Waves, 1 - asset\) | Byte | 1 
-| 4.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 0/32 
-| 5.1 | Price asset flag \(0 - Waves, 1 - asset\) | Byte | 1 
-| 5.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 0/32 
+| 4.1 | Amount asset flag \(1 - asset, 0 - Waves\) |  | 1 
+| 4.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32/0 \(depends on byte in 4.1\) 
+| 5.1 | Price asset flag \(1 - asset, 0 - Waves\) |  | 1 
+| 5.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 32/0 \(depends on byte in 5.1\) 
 | 6 | Order type \(0 - Buy, 1 - Sell\) | Byte | 1 
 | 7 | Price | Long | 8 
 | 8 | Amount | Long | 8 
 | 9 | Timestamp | Long | 8 
 | 10 | Expiration | Long | 8 
-| 10 | Matcher's fee | Long | 8 
-| 11.1 | Proofs version \(0x01\) | Byte | 1 
-| 11.2 | Proofs count | Short | 2 
-| 11.3 | Proof 1 length \(P1\) | Short | 2 
-| 11.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
-| 11.5 | Proof 2 length \(P2\) | Short | 2 
-| 11.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
+| 11 | Matcher's fee | Long | 8 
+| 12.1 | Proofs version \(1\) |  | 1 
+| 12.2 | Proofs count |  | 2 
+| 12.3 | Proof 1 length \(P1\) |  | 2 
+| 12.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1 
+| 12.5 | Proof 2 length \(P2\) |  | 2 
+| 12.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2 
 | ... | ... | ... | ... |
 
 ### Transactions
