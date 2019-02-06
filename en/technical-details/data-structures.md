@@ -405,8 +405,8 @@ The transaction's signature is calculated from the following bytes:
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 7\) | 1 
-| 2 | Buy order object length \(BN\) | Int | 4 
-| 3 | Sell order object length \(SN\) | Int | 4 
+| 2 | Buy order object length \(BN\) |  | 4 
+| 3 | Sell order object length \(SN\) |  | 4 
 | 4 | Buy order object | OrderV1 | BN 
 | 5 | Sell order object | OrderV1 | SN 
 | 6 | Price | Long | 8 
