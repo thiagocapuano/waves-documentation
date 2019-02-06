@@ -6,7 +6,7 @@
 * [Waves Platform Components](overview/platform-components.md)
 * [Security Notes](overview/security-notes.md)
 * [Developer Resources ](overview/waves-official-resources.md)
-* Contributing
+* [Contributing](contributing.md)
 
 ## WAVES ENVIRONMENT
 
