@@ -13,7 +13,7 @@
 * [Waves Tokens](waves-environment/waves-tokens.md)
 * [Custom Tokens](waves-environment/custom-tokens.md)
 * [Waves Mainnet](waves-environment/waves-mainnet.md)
-* Waves Testnet
+* [Waves Testnet](waves-environment/waves-testnet.md)
 * [Waves Protocol](technical-details/technical-details.md)
   * [Cryptographic Practical Details](en/waves-environment/waves-protocol/cryptographic-practical-details.md)
   * [Data Structures](waves-environment/waves-protocol/data-structures.md)
