@@ -4,8 +4,6 @@ To build and test your Waves Node, you will need to follow these steps \(Install
 
 ## 1. Setup the environment
 
-For OSX - homebrew is preferable choice. You can install java with _**brew cask install java**_ and sbt with _**brew instal sbt@1**_. Build/Test steps are common for any OS \(but you should use **‘\'** instead of **'/'** in windows\).
-
 * ### Installing Java
 
 ```bash
@@ -38,9 +36,11 @@ sbt test
 ## 4. Building packages
 
 * ### Mainnet
-* ```
-  sbt packageAll
-  ```
+
+```
+sbt packageAll
+```
+
 * ### Testnet
 
 ```
@@ -62,6 +62,12 @@ You can replace waves-all\*.jar with actual jar name \(it should have "all"-word
 ```
 java -jar target/waves-all*.jar path/to/config/file
 ```
+
+
+
+{% prettyhint type="info" %} For OSX - homebrew is preferable choice. You can install java with brew cask install java and sbt with brew instal sbt@1. Build/Test steps are common for any OS \(but you should use ‘\' instead of '/' in windows\). {% endprettyhint %}
+
+
 
 
 
