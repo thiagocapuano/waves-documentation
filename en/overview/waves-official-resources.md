@@ -1,6 +1,6 @@
 # Developer Resources
 
-These are the main resources for developers who want to understand Waves Platform from technical point of view:
+These are the main resources for developers who want to understand Waves Platform from technical point of view \(you can also start with [getting started as a developer](/getting-started/as-a-developer.md)\):
 
 1. [_**Smart Contracts**_](/waves-environment/waves-protocol/smart-contracts.md)
 2. [_**Client Libraries**_](/waves-api-and-sdk/client-libraries.md)
