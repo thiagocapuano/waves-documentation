@@ -114,6 +114,7 @@
   * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
   * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
   * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
+* [How to Build and Test a Node](waves-full-node/how-to-build-and-test-a-node.md)
 * [Options for Getting Actual Blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
   * [State Downloading and Applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
   * [Export and Import From The Blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
@@ -124,7 +125,7 @@
 * [Logging Configuration](waves-full-node/logging-configuration.md)
 * [Joining Testnet](waves-full-node/joining-testnet.md)
 * [Private Waves Network](waves-full-node/private-waves-network.md)
-* [FAQ](waves-full-node/faq.md)
+* How to Build and Test a Node
 
 ## WAVES CLIENT
 
