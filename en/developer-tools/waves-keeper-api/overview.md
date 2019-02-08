@@ -2,7 +2,7 @@
 
 [_**Waves Keeper**_](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo) is an extension that allows you to interact with _**Waves-enabled web services**_ securely from your Chrome browser.
 
-{% prettylink link="/development-and-api/waves-keeper-api/waves-keeper-api.md" %}Waves Keeper API{% endprettylink %}
+{% prettylink link="//aves-api-and-sdk/waves-keeper-api.md" %}Waves Keeper API{% endprettylink %}
 
 
 
