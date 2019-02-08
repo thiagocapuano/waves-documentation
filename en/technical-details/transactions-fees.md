@@ -14,7 +14,7 @@ There are currently 13 different types of transactions in the Waves Blockchain. 
 | Lease | 0.001 |
 | Cancel Lease | 0.001 |
 | Alias | 0.001 |
-| Mass Transfer | 0.001 + 0.0005\*N |
+| Mass Transfer | 0.001 + 0.0005\*N, rounded up to 0.001 |
 | Data | 0.001 per kilobyte, rounded up |
 | Set Script | 0.01 |
 | Set Sponsorship | 1 |
