@@ -10,7 +10,7 @@ the user can set default seed, default network byte and node url via the IDE set
 ### First steps
 
 1. Rename s3.config.default.js -&gt; s3.config.js
-2.  make sure you have node-js &gt; [10.0](https://nodejs.org/en/download/package-manager/)
+2. make sure you have node-js &gt; [10.0](https://nodejs.org/en/download/package-manager/)
 
 ```npm
 npm install
@@ -28,5 +28,4 @@ npm run server
 npm start prod,deploy
 ```
 
-
-
+{% prettyhint type="info" %} you can go through our <a href="/smart-contracts/video-tutorials-and-articels"> &nbsp;video tutorials and articles </a>  for practical examples. {% endprettyhint %}
