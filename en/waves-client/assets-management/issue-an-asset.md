@@ -28,7 +28,7 @@ Let's describe each boxes:
 
 **Note**: The name of the created asset can not be shorter than 4 characters.
 
-Check all the fields in the **Preview** box and if everything is OK, click on the **Generate** button.
+Check all fields in the **Preview** box and if everything is OK, click on the **Generate** button.
 
 ![](/_assets/token_creation_03.png)
 
