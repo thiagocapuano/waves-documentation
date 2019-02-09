@@ -42,6 +42,6 @@ You will forwarding to the Login page, where you can select the necessary accoun
 
 ___
 
-{% prettyhint type="info" %}See more articles in the [Account Management](/waves-client/account-management.md) chapter.
+{% prettyhint type="info" %}See more articles in the <a href="/waves-client/account-management.md"> &nbsp; Account Management</a> chapter.
 
-If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.{% endprettyhint %}
+If you have troubles with our platform, please create a <a href="https://support.wavesplatform.com/"> &nbsp; support</a> ticket or write a <a href="https://forum.wavesplatform.com/"> &nbsp; question</a> on our forum.{% endprettyhint %}
