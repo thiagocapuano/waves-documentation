@@ -142,7 +142,7 @@
 * [Waves Node in Docker](waves-full-node/waves-node-in-docker.md)
 * [Node Configuration](waves-full-node/configuration-parameters.md)
 * [Logging Configuration](waves-full-node/logging-configuration.md)
-* How to Build and Test a Node
+* [Joining Testnet](waves-full-node/joining-testnet.md)
 
 ## Smart Contracts
 
