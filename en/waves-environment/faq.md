@@ -20,5 +20,9 @@ It's 90%.
 
 [_**Last Maninet State.**_](http://blockchain.wavesnodes.com/)
 
+### 6. What is the incentive to run my own full node instead of leasing my coins \(assume I have 1000\)?
+
+More revenue if you have enough people leasing to you and payout is not 100%. Also you have more options doing airdrops and providing services on Waves Platform with your node. Running a node might be profitable later on but it's not at the moment. If it is it's only marginal.
+
 
 
