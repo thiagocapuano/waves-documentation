@@ -30,7 +30,9 @@ Importing is the fastest way to get all blocks. You get it in single file, not f
 
 now it's impossible to use it in desktop wallet ,instead of that use [_**https://testnet.wavesplatform.com/**_](https://testnet.wavesplatform.com/).
 
+### 6. I launched my node. I am new to this and now I would like to learn what to do next, what I need to learn in order to understand how what works?
 
+The best is to start with [_**As a Node Owner Guide**_](/getting-started/as-a-node-owner.md).
 
 
 
