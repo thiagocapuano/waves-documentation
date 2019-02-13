@@ -8,3 +8,10 @@ Yes, in this section [_**NODE API**_](/waves-api-and-sdk/waves-node-rest-api.md)
 
 There is a method but the API key is needed: `GET /debug/minerInfo` which shows all miners who has enough generating balance to be able to generate block.
 
+### 3. How can you GET the WAVES balance of a Wallet via API? I’m only able to get token balances.
+
+1. GET /addresses/balance/details/{address} 
+2. GET /addresses/balance/{address}
+
+
+
