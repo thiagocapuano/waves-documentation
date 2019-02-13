@@ -24,11 +24,11 @@ Importing is the fastest way to get all blocks. You get it in single file, not f
 
 ### 4. I encountered some data corruption due to a UPS failure, what is the URL to download the Waves blockchain so I can import it into my node ?
 
-[_**Download Waves blockchain**_](https://docs.wavesplatform.com/en/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.html#section-4fc821c89c016f375dbd2eeedfe093cf)
+[_**Download Waves blockchain**_](https://docs.wavesplatform.com/en/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.html#section-4fc821c89c016f375dbd2eeedfe093cf).
 
+### 5. How can I use testnet matcher in desktop wallet?
 
-
-
+now it's impossible to use it in desktop wallet ,instead of that use [_**https://testnet.wavesplatform.com/**_](https://testnet.wavesplatform.com/).
 
 
 
