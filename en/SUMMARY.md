@@ -30,7 +30,7 @@
   * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
-* FAQ
+* [FAQ](waves-environment/faq.md)
 
 ## GETTING STARTED
 
@@ -125,7 +125,7 @@
 * [Logging Configuration](waves-full-node/logging-configuration.md)
 * [Joining Testnet](waves-full-node/joining-testnet.md)
 * [Private Waves Network](waves-full-node/private-waves-network.md)
-* How to Build and Test a Node
+* [FAQ](waves-full-node/faq.md)
 
 ## WAVES CLIENT
 
