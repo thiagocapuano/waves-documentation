@@ -4,5 +4,9 @@
 
 No. If your node is mining, you vote while generating blocks. [_**Check this article**_](/waves-environment/waves-protocol/activation-protocol.md)_**.**_
 
+### 2. How much WAVES do I need to have in order to start the mining process?
+
+In order to activate mining, the node needs not less than 1000 WAVES \(for testnet we can always provide you with that, do not hesitate to contact us\).
+
 
 
