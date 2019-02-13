@@ -38,5 +38,9 @@ The best is to start with [_**As a Node Owner Guide**_](/getting-started/as-a-no
 
 You can check it [_**here**_](http://dev.pywaves.org/nodes/).
 
+### 8. How can I run Waves node on my smartphone?
+
+You will need to follow the steps in this article [_**"How to run Waves node on a smartphone"**_](https://medium.com/@ikardanov/how-to-run-waves-node-on-a-smartphone-eeb8817b8d56)
+
 
 
