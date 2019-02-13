@@ -13,5 +13,9 @@ There is a method but the API key is needed: `GET /debug/minerInfo` which shows 
 1. GET /addresses/balance/details/{address} 
 2. GET /addresses/balance/{address}
 
+### 4. I am unable to connect to my nodes API endpoint after successful set up of my node when I try a get request [http://my\_server\_ip\_address:6868/addresses/balance/](http://my_server_ip_address:6868/addresses/balance/) wallet\_address it gives an error "Error: Failed sending data to the peer".
+
+api port is 6869 by default, make sure you have enabled it in your config.
+
 
 
