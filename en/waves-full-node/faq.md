@@ -54,5 +54,7 @@ You might run into troubles with a dynamic IP, because the address you expose do
 
 Yes it's allowed. there are lot of Waves node currently hosted in Amazon.
 
+### 12. My node says in status : Forked at 133xxxx what does that mean?
 
+It means that your node is on fork. Check [_**how to rollback a node**_](/waves-full-node/how-to-rollback-a-node.md)_**.**_
 
