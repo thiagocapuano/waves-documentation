@@ -46,5 +46,9 @@ You will need to follow the steps in this article [_**"How to run Waves node on 
 
 It is allowed, but not recommended. It will lead to micro forks.
 
+### 10. I'm looking to host a full node. Is it mandatory to have static ip? There are entries in the configuration file to fill with your own ip address but don't know how the service will behave when my isp changes my ip.
+
+You might run into troubles with a dynamic IP, because the address you expose does not match the address people want to connect on. Also people save your address in a local database, to connect to you when they restart i.e. So for good performance a static IP would be better.
+
 
 
