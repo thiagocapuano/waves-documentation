@@ -12,5 +12,9 @@ In order to activate mining, the node needs not less than 1000 WAVES \(for testn
 
 It's 90%.
 
+### 4. How to make a trading pair to usd if I have erc20?
+
+[_**Waves Gateway Framework**_](https://github.com/jansenmarc/WavesGatewayFramework).
+
 
 
