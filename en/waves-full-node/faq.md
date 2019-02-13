@@ -34,5 +34,7 @@ now it's impossible to use it in desktop wallet ,instead of that use [_**https:/
 
 The best is to start with [_**As a Node Owner Guide**_](/getting-started/as-a-node-owner.md).
 
+### 7. I have my own node, where can I check that it's included in the list of nodes?
 
+You can check it [_**here**_](http://dev.pywaves.org/nodes/).
 
