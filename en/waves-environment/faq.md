@@ -8,5 +8,9 @@ No. If your node is mining, you vote while generating blocks. [_**Check this art
 
 In order to activate mining, the node needs not less than 1000 WAVES \(for testnet we can always provide you with that, do not hesitate to contact us\).
 
+### 3. we have 90% threshold on testnet or 80?
+
+It's 90%.
+
 
 
