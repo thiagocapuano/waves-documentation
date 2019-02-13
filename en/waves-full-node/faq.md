@@ -50,5 +50,9 @@ It is allowed, but not recommended. It will lead to micro forks.
 
 You might run into troubles with a dynamic IP, because the address you expose does not match the address people want to connect on. Also people save your address in a local database, to connect to you when they restart i.e. So for good performance a static IP would be better.
 
+### 11. I’m thinking of migrating my waves full node to an instance on AWS. I know they have policy that forbids bitcoinmining. Anyone know if a waves node is allowed here?
+
+Yes it's allowed. there are lot of Waves node currently hosted in Amazon.
+
 
 
