@@ -38,9 +38,5 @@ The best is to start with [_**As a Node Owner Guide**_](/getting-started/as-a-no
 
 You can check it [_**here**_](http://dev.pywaves.org/nodes/).
 
-### 8. My digital ocean node is fully synced. I have managed to lease 1000+ waves to the node. How can I know if it is already mining?
-
-There is a method but the API key is needed: `GET /debug/minerInfo` which shows all miners who has enough generating balance to be able to generate block.
-
 
 
