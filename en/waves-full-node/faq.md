@@ -40,7 +40,11 @@ You can check it [_**here**_](http://dev.pywaves.org/nodes/).
 
 ### 8. How can I run Waves node on my smartphone?
 
-You will need to follow the steps in this article [_**"How to run Waves node on a smartphone"**_](https://medium.com/@ikardanov/how-to-run-waves-node-on-a-smartphone-eeb8817b8d56)
+You will need to follow the steps in this article [_**"How to run Waves node on a smartphone"**_](https://medium.com/@ikardanov/how-to-run-waves-node-on-a-smartphone-eeb8817b8d56). some things to take into account: there is a lock permission problem if installed under root user better use a sudoer user. leveldb can be isntalled for ubuntu and be referenced in waves conf file as shown in this tutorial.
+
+### 9. Is it allowed to let two nodes run against the same wallet? I don’t want to get penalties or conflicts. That way there’s redundancy and maintenence possibilities without bringing the forging down.
+
+It is allowed, but not recommended. It will lead to micro forks.
 
 
 
