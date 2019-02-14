@@ -14,7 +14,7 @@ Yes by using [_**smart assets**_](/smart-contracts/smart-assets.md) concept.
 
 ### 3. I don't know about account scripts. Do you know where I could find appropriate documentation?
 
-The best is to start with [_**as a developer guide.                
+The best is to start with [_**as a developer guide.                      
 **_](/getting-started/as-a-developer.md)
 
 ### 4. How many Tx does waves have? will SC add another transaction type to the wavesplatform? Where can I find a valid SetScript transaction from testnet?
@@ -41,5 +41,11 @@ or
 let senderAddress= toBase58String(addressFromPublicKey(tx.senderPublicKey).bytes)
 ```
 
+### 9. What is a smart account?
 
+The [_**smart account**_](/smart-contracts/smart-accounts.md) is an account with attached transactions checking **script**. In other words, a **script** which is attached to an account so the account can validate every transaction before confirming it.
+
+### 10. How to calculate fees for smart accounts and smart assets?
+
+Please check the section [_**fee calculation for smart assets**_](/smart-contracts/smart-assets.md). For each time the script is called, total transaction’s fee increases by 0.004 Waves, you can find [_**full table**_](/waves-environment/waves-protocol/transactions-fees.md) here for all transactions.
 
