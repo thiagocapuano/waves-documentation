@@ -40,5 +40,9 @@ A gateway is the technical way to list a coin.
 
 Yes, there are airdrop tools, e.g., [_**WavesLPoSDistributer**_](https://github.com/jansenmarc/WavesLPoSDistributer)_**.**_
 
+### 11. What is the size of data that can be stored as Data TranSactions in Waves? And what is the type of data that can be stored?
+
+Please check [_**Data transaction**_](/waves-environment/waves-protocol/data-transaction.md) article.
+
 
 
