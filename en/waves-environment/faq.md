@@ -24,5 +24,13 @@ It's 90%.
 
 More revenue if you have enough people leasing to you and payout is not 100%. Also you have more options doing airdrops and providing services on Waves Platform with your node. Running a node might be profitable later on but it's not at the moment. If it is it's only marginal.
 
+### 7. If one creates a coin gateway , does one have to keep the gateway running in order for other people to trade that coin on the waves dex?
+
+Yes.
+
+### 8. Can I get send through the private key? Or open your wallet with a private key Because I see now I can only open my wallet by importing seed?
+
+A gateway is the technical way to list a coin.
+
 
 
