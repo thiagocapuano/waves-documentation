@@ -1,5 +1,9 @@
 # Frequently Asked Questions
 
+### 1. I'm new to RIDE and Waves Smart contracts, is there any tutorial or articles to start with?
+
+Yes sure, you can check [_**Video Tutorials and Articles**_](/smart-contracts/video-tutorials-and-articles.md) section.
+
 ### 1. Is smart contract functionality added in Waves ? If Yes, which languages are supported?
 
 Yes, it's own language [_**RIDE**_](/smart-contracts/ride-language/ride-language.md).
@@ -10,7 +14,7 @@ Yes by using [_**smart assets**_](/smart-contracts/smart-assets.md) concept.
 
 ### 3. I don't know about account scripts. Do you know where I could find appropriate documentation?
 
-The best is to start with [_**as a developer guide.            
+The best is to start with [_**as a developer guide.              
 **_](/getting-started/as-a-developer.md)
 
 ### 4. How many Tx does waves have? will SC add another transaction type to the wavesplatform? Where can I find a valid SetScript transaction from testnet?
