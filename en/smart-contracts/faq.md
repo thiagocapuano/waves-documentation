@@ -10,7 +10,7 @@ Yes by using [_**smart assets**_](/smart-contracts/smart-assets.md) concept.
 
 ### 3. I don't know about account scripts. Do you know where I could find appropriate documentation?
 
-The best is to start with [_**as a developer guide.      
+The best is to start with [_**as a developer guide.        
 **_](/getting-started/as-a-developer.md)
 
 ### 4. How many Tx does waves have? will SC add another transaction type to the wavesplatform? Where can I find a valid SetScript transaction from testnet?
@@ -20,4 +20,10 @@ There are [_**14 tx types**_](/waves-api-and-sdk/waves-node-rest-api/example-tra
 ### 5. Does Waves smart contracts have numbers similar Ethereum one's, 0x....?
 
 No, but they are attached to accounts also, at least in the first version.
+
+### 6. When you develop a dapp on Waves, is it more appropriate to have a private waves blockchain or just your own full node on the regular mainnet ?
+
+Neither of both, you don't have to have a node for deploying a SC. Nevertheless, for the dev i would recommend to use testnet.
+
+
 
