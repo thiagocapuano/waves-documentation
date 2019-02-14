@@ -17,5 +17,17 @@ There is a method but the API key is needed: `GET /debug/minerInfo` which shows 
 
 api port is 6869 by default, make sure you have enabled it in your config.
 
+### 5. Does DEX have an API?
+
+Yes it has, you can access it via a [_**couple of API's**_](/waves-api-and-sdk/dex-api.md) like [_**pywaves**_](/waves-api-and-sdk/client-libraries/pywaves.md) for example.
+
+### 6. How can I sign a transaction with a private key using the rest api?
+
+There are 2 ways to sign transactions:
+
+1. Use a node. But that node should know private key of your address. In other words, it should be your node, because you should never and ever send your private key to anybody else.
+
+2. Use libraries for different languages \(python, c\#, js, java\). Libraries can sign transaction with provided private key and send to the network already signed tx.
+
 
 
