@@ -29,5 +29,14 @@ There are 2 ways to sign transactions:
 
 2. Use libraries for different languages \(python, c\#, js, java\). Libraries can sign transaction with provided private key and send to the network already signed tx.
 
+### 7. I am using pywaves library to generate addresses. On mac, I am seeing the addresses to be in string format, but on linux machines I am seeing it to be in bytes. Any clue?
+
+address is a byte array, may be you use different versions of pywaves on mac and linux. You can convert address to string this way:
+
+```py
+addr01 = pw.Address(seed='some seed text')
+print(addr01.address.decode())
+```
+
 
 
