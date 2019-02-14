@@ -38,5 +38,7 @@ addr01 = pw.Address(seed='some seed text')
 print(addr01.address.decode())
 ```
 
+### 8. How we integrate our new waves token in our website? Is it like web3 the same as Ethereum? Is their a tutorial how to use it?
 
+For integration, Use [_**Waves Node Rest API**_](/waves-api-and-sdk/waves-node-rest-api.md)_**.**_
 
