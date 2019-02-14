@@ -10,12 +10,10 @@ Yes by using [_**smart assets**_](/smart-contracts/smart-assets.md) concept.
 
 ### 3. I don't know about account scripts. Do you know where I could find appropriate documentation?
 
-The best is to start with [_**as a developer guide.  
+The best is to start with [_**as a developer guide.    
 **_](/getting-started/as-a-developer.md)
 
-### 4. How many Tx does waves have? will SC add another transaction type to the wavesplatform?
+### 4. How many Tx does waves have? will SC add another transaction type to the wavesplatform? Where can I find a valid SetScript transaction from testnet?
 
 There are [_**14 tx types**_](/waves-api-and-sdk/waves-node-rest-api/example-transactions.md) on Waves and publishing a script for an account is one of those \(type 13 SetScript Tx\).
-
-
 
