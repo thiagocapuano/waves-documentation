@@ -36,5 +36,9 @@ Yes.
 
 A gateway is the technical way to list a coin.
 
+### 10. I want to automatically send my tokens to multiple wallets on the waves platform. Is there a program or bot?
+
+Yes, there are airdrop tools, e.g., [_**WavesLPoSDistributer**_](https://github.com/jansenmarc/WavesLPoSDistributer)_**.**_
+
 
 
