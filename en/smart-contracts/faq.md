@@ -10,7 +10,7 @@ Yes by using [_**smart assets**_](/smart-contracts/smart-assets.md) concept.
 
 ### 3. I don't know about account scripts. Do you know where I could find appropriate documentation?
 
-The best is to start with [_**as a developer guide.          
+The best is to start with [_**as a developer guide.            
 **_](/getting-started/as-a-developer.md)
 
 ### 4. How many Tx does waves have? will SC add another transaction type to the wavesplatform? Where can I find a valid SetScript transaction from testnet?
@@ -27,5 +27,5 @@ Neither of both, you don't have to have a node for deploying a SC. Nevertheless,
 
 ### 7. How can I create any interactive dApp?
 
-Smart contract in Waves can only answer 'yes' or 'no' for outgoing \(not incoming!\) transaction.
+[_**Smart contract**_](/smart-contracts/waves-contracts-language-description.md) on Waves can only answer 'yes' or 'no' for outgoing \(not incoming!\) transaction.
 
