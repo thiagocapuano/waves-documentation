@@ -58,3 +58,10 @@ Yes it's allowed. there are lot of Waves node currently hosted in Amazon.
 
 It means that your node is on fork. Check [_**how to rollback a node**_](/waves-full-node/how-to-rollback-a-node.md)_**.**_
 
+### 13. How to know exactly if the node is on fork or not? is there a pywaves utility or API command that show it?
+
+You can check the blockchain height or the last 100 signatures of blocks to understand if your node is on fork or not \(compare block generators and signatures with other nodes api. [http://dev.pywaves.org/nodes/](http://dev.pywaves.org/nodes/) can also show status of nodes\). You can use the [rest api](/waves-api-and-sdk/waves-node-rest-api.md) with swagger on different nodes to compare block \# on both. looking for different generators in the same block height.
+
+Your node can be in one of two possibilities: your node on fork with height **less** than 2000 blocks or **more** than 2000 blocks**.**  
+In case that your node is on fork with a height less than 2000 blocks, here you can implement **rollback**_** **through _[**rollback instructions**](/waves-full-node/how-to-rollback-a-node.md). Otherwise, you need to choose an [_**option for Getting Actual Blockchain**_](/waves-full-node/options-for-getting-actual-blockchain.md).
+
