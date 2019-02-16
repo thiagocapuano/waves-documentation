@@ -23,9 +23,9 @@ The following window will appear. Tap on the **Asset** and choose **Monero** fro
 
 Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.01 XMR**
+**The minimum amount of deposit is 0.1 XMR**
 ```
-If you will send less than 0.01 XMR, you will lose that money.
+If you will send less than 0.1 XMR, you will lose that money.
 ```
 **Send only XMR to this deposit address**
 ```
