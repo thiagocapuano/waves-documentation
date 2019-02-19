@@ -395,6 +395,3 @@ and all the other parameters appropriate for a transaction of the given type.
  "alias":"dajzmj6gfuzmbfnhamsbuxivc"
 }
 ```
-
-
-

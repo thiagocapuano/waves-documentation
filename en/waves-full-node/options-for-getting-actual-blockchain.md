@@ -47,6 +47,3 @@ The time to reach the block 1220000 on different CPUs \(number of cores and freq
 | Intel i7 8550u @ 1.8 GHz \(up to 4GHz\) \(8 vCPU\)/16 GB | 9:35. | 9:20. |
 
 {% prettyhint type="info" %} You can go through the links above for more details about each step.{% endprettyhint %}
-
-
-

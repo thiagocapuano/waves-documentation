@@ -1,18 +1,18 @@
-# Waves Official Resources
+# Developer Resources
 
-* [**Official website**](https://wavesplatform.com)
-* [**New online client**](https://client.wavesplatform.com)
-* [**Desktop Client**](https://wavesplatform.com/product)
-* [**Online Wallet**](https://client.wavesplatform.com/wallet)
-* [**Mobile application for iOS**](https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8)
-* [**Mobile app for Android**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
-* [**Open Source code on GitHub**](https://github.com/wavesplatform/)
-* [**Test Net**](https://testnet.wavesexplorer.com)
-* [**Main Net**](http://wavesexplorer.com)
-* [**Support service**](https://support.wavesplatform.com/)
-* [**Waves desk**](https://wavesdesk.com)
-* [**WavesGo**](http://wavesgo.com)
-* [**Official Facebook group**](https://www.facebook.com/wavesplatform)
-* [**Twitter**](https://twitter.com/wavesplatform?lang=en)
-* [**Blog**](https://blog.wavesplatform.com)
-* [**Community Website**](https://wavescommunity.com)
+These are the main resources for developers who want to understand Waves Platform from technical point of view \(you can also start with [getting started as a developer](/getting-started/as-a-developer.md)\):
+
+1. [_**Smart Contracts**_](/waves-environment/waves-protocol/smart-contracts.md)
+2. [_**Client Libraries**_](/waves-api-and-sdk/client-libraries.md)
+3. [_**Node REST API**_](/waves-api-and-sdk/waves-node-rest-api.md)
+4. [_**DEX API**_](/waves-api-and-sdk/dex-api.md)
+5. [_**Keeper API**_](/waves-api-and-sdk/waves-keeper-api.md)
+6. [_**Gaming API**_](/waves-api-and-sdk/waves-gaming-api/waves-games-api.md)
+
+## Waves Releases
+
+1. [_**Waves Client**_](https://github.com/wavesplatform/WavesGUI)
+2. [_**Latest Full Node Version**_](https://github.com/wavesplatform/Waves/releases)
+
+
+
