@@ -1,4 +1,4 @@
-## Technical and implementation details
+## Waves Protocol
 
 * [Cryptographic Practical Details](cryptographic-practical-details.md)
 * [Data Structures](data-structures.md)
@@ -7,10 +7,5 @@
 * [Mass Transfer Transaction](mass-transfer-transaction.md)
 * [Data Transaction](data-transaction.md)
 * [Waves Smart Contracts](waves-contracts-language-description.md)
-  * [Waves Contracts Language Description](../technical-details/ride-language/language-description.md)
-  * [Waves Contracts Implementation Details](../technical-details/waves-contracts-language-description/implementation-details.md)
 * [Waves-NG Solution](waves-ng-solution.md)
 * [Sponsored Fee](sponsored-fee.md)
-
-
-
