@@ -6,19 +6,18 @@
 * [Waves Platform Components](overview/platform-components.md)
 * [Security Notes](overview/security-notes.md)
 * [Developer Resources ](overview/waves-official-resources.md)
-* Contributing
+* [Contributing](contributing.md)
 
 ## WAVES ENVIRONMENT
 
 * [Waves Tokens](waves-environment/waves-tokens.md)
 * [Custom Tokens](waves-environment/custom-tokens.md)
 * [Waves Mainnet](waves-environment/waves-mainnet.md)
-* Waves Testnet
+* [Waves Testnet](waves-environment/waves-testnet.md)
 * [Waves Protocol](technical-details/technical-details.md)
   * [Cryptographic Practical Details](en/waves-environment/waves-protocol/cryptographic-practical-details.md)
   * [Data Structures](waves-environment/waves-protocol/data-structures.md)
   * [Validation Rules](waves-environment/waves-protocol/validation-rules.md)
-  * [Creating a Private Waves Blockchain Network](waves-environment/waves-protocol/creating-a-private-waves-blockchain-network.md)
   * [Mass Transfer Transaction](waves-environment/waves-protocol/mass-transfer-transaction.md)
   * [Data Transaction](waves-environment/waves-protocol/data-transaction.md)
   * [Waves-NG Solution](waves-environment/waves-protocol/waves-ng-solution.md)
@@ -31,7 +30,7 @@
   * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
-* FAQ
+* [FAQ](waves-environment/faq.md)
 
 ## GETTING STARTED
 
@@ -68,7 +67,9 @@
   * [Web Auth API](waves-api-and-sdk/client-api/auth-api.md)
   * [Payment API](waves-api-and-sdk/client-api/payments-api.md)
 * [Waves Keeper API](waves-api-and-sdk/waves-keeper-api.md)
-* [Waves Gaming API](waves-api-and-sdk/waves-gaming-api.md)
+* [Waves Games](waves-api-and-sdk/waves-gaming-api.md)
+  * [Waves Games API](waves-api-and-sdk/waves-gaming-api/waves-games-api.md)
+  * [Examples](waves-api-and-sdk/waves-gaming-api/examples.md)
 * [Client Libraries](waves-api-and-sdk/client-libraries.md)
   * [PyWaves](waves-api-and-sdk/client-libraries/pywaves.md)
   * [WavesJ](waves-api-and-sdk/client-libraries/wavesj.md)
@@ -113,6 +114,7 @@
   * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
   * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
   * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
+* [How to Build and Test a Node](waves-full-node/how-to-build-and-test-a-node.md)
 * [Options for Getting Actual Blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
   * [State Downloading and Applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
   * [Export and Import From The Blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
