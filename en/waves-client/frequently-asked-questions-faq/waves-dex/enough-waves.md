@@ -6,7 +6,11 @@ The fee for creating one **buy** or **sell** order on the DEX platform is **0.00
 
 If you have enough assets (BTC/ETH/LTC/ZEC/USD/EUR and so on) and if these assets have sufficient value, just exchange them for Waves without having initial Waves using the internal DEX exchange.
 
-For more information please follow the instruction - [How to trade tokens on the DEX](/waves-client/waves-dex/start-trading-using-the-waves-dex.md)
+For more information please follow the instructions:
+
+* [Start trading on the Waves DEX](/waves-client/waves-dex/start-trading-on-the-waves-dex.md)
+* [iOS: Start trading on the Waves DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
+* [Android: Start trading on the Waves DEX](/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
 **Warning** When you are exchanging assets for Waves to get the first tokens. Please take into account the amount of exchanging, since order fee is 0.003 Waves. Thus, the amount will be debited from the received Waves after order execution.
 

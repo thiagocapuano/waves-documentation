@@ -24,3 +24,5 @@ Seed фраза вашего аккаунта находится в раздел
 
  * [Будьте осторожны при использовании парольной фразы (SEED-фразы)!](/waves-client/security/safe-place.md)
  * [Восстановление аккаунта](/waves-client/account-management/restore-an-account.md)
+ * [iOS: Восстановление аккаунта](/waves-client/mobile-apps/iOS/account-management/restore-an-account.md)
+ * [Android: Восстановление аккаунта](/waves-client/mobile-apps/android/account-management/restore-an-account.md)

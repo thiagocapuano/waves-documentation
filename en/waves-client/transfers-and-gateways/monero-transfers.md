@@ -21,16 +21,16 @@ In the Monero section, click on the **Receive**.
 
 The following window will appear. Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.01 XMR**
+**The minimum amount of deposit is 0.1 XMR**
 ```
-If you will send less than 0.01 XMR, you will lose that money.
+If you will send less than 0.1 XMR, you will lose that money.
 ```
 **Send only XMR to this deposit address**
 ```
 Sending any other currency to this address may result in the total loss of your deposit.
 ```
 
-Copy the shown Monero address or Scan QR Code and send a payment.
+Copy the shown Monero address or Scan QR Code and send the payment.
 
 **Note**: Monero Payment ID already included in the recipient Monero address.
 But if the sender side required Payment ID, please contact Coinomat support team - **support@coinomat.com**

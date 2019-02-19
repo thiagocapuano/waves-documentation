@@ -17,6 +17,6 @@
 
 При возникновении дополнительных вопросов, пожалуйста изучите следующие статьи:
 
- * [Переводы Waves](/waves-client/transfers-and-gateways/waves-transfers.md)
- * [Переводы Токенов](/waves-client/transfers-and-gateways/asset-transfers.md)
- * [Использование биржи DEX](/waves-client/waves-dex/start-trading-using-the-waves-dex.md)
+* [Переводы и шлюзы](/waves-client/wallet-management.md)
+* [iOS: Переводы и шлюзы](/waves-client/mobile-apps/iOS/wallet-management.md)
+* [Android: Переводы и шлюзы](/waves-client/mobile-apps/android/wallet-management.md)

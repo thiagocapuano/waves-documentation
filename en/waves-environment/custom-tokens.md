@@ -49,21 +49,7 @@ Any address holding a given asset can choose to destroy some or all of the asset
 | Burn Date | \[Burn asset deletion date\]. |
 | Fee | \[Transaction Fee\]. |
 
-# 3. Examples of Current Verified Assets {#Assets(customtokens)-HowtoIssueCustomizedTokenontheWavesPlatform}
-
-* [Waves Community Token \(WCT\)](https://blog.wavesplatform.com/waves-community-tokens-e9e8b5db0b49)
-* [Miner Reward Token \(MRT\)](https://blog.wavesplatform.com/incentivizing-pos-mining-b26f8702032c)
-* [Incent](https://www.incentloyalty.com)
-* [EncryptoTel \(ETT\)](https://encryptotel.com)
-* [MobileGo Token \(Mgo\)](https://gamecredits.com/mobilego/)
-* [Wavesgo Token \(WGO\)](http://wavesgo.com)
-* [Starrie \($STAR\)](http://starrie.org)
-* [Mercury \(MER\)](https://www.darcr.us)
-* [Wavesnode.NET \(WNET\)](https://wavesnode.net)
-
-[Here](http://support.wavesplatform.com/forums/2-knowledge-base/topics/8141-list-of-verified-assets/) you can find a more complete, but still non-exhaustivelist of verified asset \(the list is constantly updated\).
-
-# 4. Pre-ICO Token Sale on Waves DEX {#Assets(customtokens)-Pre-ICOTokenSaleonWavesDEX}
+# 3. Pre-ICO Token Sale on Waves DEX {#Assets(customtokens)-Pre-ICOTokenSaleonWavesDEX}
 
 You need to do the following if you want to pre-sell your ICO tokens on the DEX platform:
 

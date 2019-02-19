@@ -7,9 +7,14 @@ So, please click on the cross button (X) to remove some active orders or cancel 
 For more information, please check the following articles:
 
 * [How to get enough Waves for the fees?](/waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
-* [How to send and receive Waves.](/waves-client/transfers-and-gateways/waves-transfers.md)
-* [How to trade tokens on the DEX.](/waves-client/waves-dex/start-trading-using-the-waves-dex.md)
 * [I have placed an order. When it will be filled?](/waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
-* [How to Lease your Waves.]((/waves-client/account-management/waves-leasing.md)
+* [Waves transfers](/waves-client/transfers-and-gateways/waves-transfers.md)
+* [Start trading on the Waves DEX](/waves-client/waves-dex/start-trading-on-the-waves-dex.md)
+* [Lease your Waves tokens](/waves-client/account-management/waves-leasing.md)
+
+See also:
+
+* [Mobile app for iOS devices](/waves-client/mobile-apps/iOS.md)
+* [Mobile app for Android devices](waves-client/mobile-apps/android.md)
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
