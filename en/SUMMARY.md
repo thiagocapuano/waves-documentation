@@ -24,6 +24,7 @@
   * [Sponsored Fee](waves-environment/waves-protocol/sponsored-fee.md)
   * [Transactions Structure](waves-environment/waves-protocol/transactions-structure.md)
   * [Transactions Fees](waves-environment/waves-protocol/transactions-fees.md)
+  * [Versioned Transactions](waves-environment/waves-protocol/versioned-transactions.md)
   * [Decentralized Exchange \(DEX\)](waves-environment/waves-protocol/decentralized-cryptocurrency-exchange-dex.md)
   * [Leased Proof of Stake \(LPoS\)](waves-environment/waves-protocol/leased-proof-of-stake-lpos.md)
   * [Fair Proof of Stake](waves-environment/waves-protocol/fair-pos.md)
