@@ -44,9 +44,8 @@ You can also use [_**mobile applications on Android and IOS**_](/waves-client/mo
 
 ## Script Transaction
 
-[_**Get to know how to create a script transaction**_](/waves-client/advanced_features/script_transaction.md), Script transactions allow you to extend the available functionality of the standard Waves application. One of the uses of script transaction is creating a multi-signature wallet. For more information, please check the following [_**article**_](/technical-details/video-tutorials-and-articles.md). Also, script can be developed with [_**Waves Ride IDE**_](/technical-details/waves-contracts-language-description.md).
+[_**Get to know how to create a script transaction**_](/waves-client/advanced_features/script_transaction.md), Script transactions allow you to extend the available functionality of the standard Waves application. One of the uses of script transaction is creating a multi-signature wallet. For more information, please check the following [_**article**_](/smart-contracts/video-tutorials-and-articles.md). Also, script can be developed with [_**Waves Ride IDE**_](/smart-contracts/waves-contracts-language-description.md).
 
 ## Security information
 
 Please check our [_**Security notes**_](/waves-client/security.md) to guarantee the safety of your funds.
-
