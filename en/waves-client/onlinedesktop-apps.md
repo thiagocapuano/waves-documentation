@@ -2,11 +2,11 @@
 
 In this chapter, you will find detailed instructions for idesktop apps. With desktop applications, you can: send and receive Waves tokens and all supported Assets, lease Waves, use all available gateways, trade on the built-in DEX exchange and much more.
 
-* [Account Management](/waves-client/account-management.md)
-* [Assets Management](/waves-client/assets-management.md)
-* [Transfers and Gateways](/waves-client/wallet-management.md)
-* [Waves DEX](/waves-client/waves-dex.md)
-* [Advanced Features](/waves-client/advanced_features.md)
+* [_**Account Management**_](/waves-client/account-management.md)
+* [_**Assets Management**_](/waves-client/assets-management.md)
+* [_**Transfers and Gateways**_](/waves-client/wallet-management.md)
+* [_**Waves DEX**_](/waves-client/waves-dex.md)
+* [_**Advanced Features**_](/waves-client/advanced_features.md)
 
 
 

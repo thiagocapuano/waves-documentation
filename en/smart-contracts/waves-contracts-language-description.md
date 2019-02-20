@@ -1,18 +1,3 @@
-# The Guide Structure
-
-1. [Smart Accounts](../smart-contracts/smart-accounts.md)
-2. [Smart Assets](../smart-contracts/smart-assets.md)
-3. [RIDE Language](../smart-contracts/ride-language/ride-language.md)
-4. [RIDE Language Description](../smart-contracts/ride-language/language-description.md)
-5. [Effective RIDE Examples](../smart-contracts/ride-language/lang-stlib-usage-examples.md)
-6. [RIDE Maven Compiler Package](../smart-contracts/ride-language/maven-compiler.md)
-7. [Syntax Processor and Executor Implementation Details](../smart-contracts/ride-language/implementation-details.md)
-8. [Functions and Standard Library](../smart-contracts/ride-language/standard-library.md)
-9. [Creating and Deploying a Script Manually](../smart-contracts/ride-language/creating-and-deploying-a-script-manually.md)
-10. [Script Performance Tests](../smart-contracts/ride-language/script-performance-tests.md)
-11. [Waves Console Commands](../smart-contracts/waves-console-Commands/waves-console-commands.md)
-12. [Video Tutorials and Articles](../smart-contracts/video-tutorials-and-articles.md)
-
 # 1. Benefits of Smart Contracts on Waves Platform
 
 ![master](https://img.shields.io/badge/node->%3D0.12.0-4bc51d.svg)
@@ -58,3 +43,6 @@ If we plan to apply constraints on all operations for a specific asset, we canno
 * Burn Transaction
 * ExchangeTransaction
 * SetAssetScriptTransaction
+
+
+

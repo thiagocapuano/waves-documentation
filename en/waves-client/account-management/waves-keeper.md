@@ -1,10 +1,4 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to install Waves Keeper](#how-to-install-waves-keeper)
-* [How to create a new account](#how-to-create-a-new-account)
-* [How to import an existing account](#how-to-import-an-existing-account)
-* [More info](#more-info)
+## Waves Keeper
 
 ## Introduction
 
@@ -38,7 +32,7 @@ After installation you will be able to find installed extension at the top right
 
 Read the Terms and Conditions and click on the **Accept** button.
 
-The following pop-up will appear.
+The following pop-up will appear.  
 Protect your account with keeper password.
 
 ![](/_assets/waves_keeper_02.png)
@@ -47,7 +41,7 @@ The password you entered will be stored locally. If you change device or lose yo
 
 After entering the password and confirmation, click on the **Continue**.
 
-The following pop-up will appear.
+The following pop-up will appear.  
 Now you need to create a new account or import an existing account.
 
 ![](/_assets/waves_keeper_03.png)
@@ -122,10 +116,11 @@ If you need to import an account in the future, just repeat the steps above.
 
 Thus, with Waves Keeper, you can always make sure that you are in the right place and confirm outgoing transactions from your Waves account.
 
-___
+---
 
 ## More info
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
+

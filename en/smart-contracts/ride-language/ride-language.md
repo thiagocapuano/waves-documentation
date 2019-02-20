@@ -1,9 +1,3 @@
-# Contents
-
-1. [RIDE Language Description](/smart-contracts/ride-language/language-description.md)
-2. [Effective RIDE Examples](/smart-contracts/ride-language/effective-ride-examples.md)
-3. [Maven Compiler](/smart-contracts/ride-language/maven-compiler.md)
-
 # RIDE Language for Waves Smart contracts
 
 Turing-completeness of a blockchain system can be achieved through unwinding the recursive calls between multiple transactions and blocks instead of using a single one, and it is not necessary to have loops and recursion in the language itself.  
@@ -47,3 +41,4 @@ case _ => throw()
 ```
 
 Here the method **throw\(\)** signals the occurrence of an exception during a script execution. In case of throw the transaction does not pass into the blockchain.
+

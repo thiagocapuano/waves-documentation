@@ -2,12 +2,15 @@
 
 This section will discuss and show step by step instructions on how to set up a Waves account. This account is needed to purchase and hold crypto tokens as well as Lease your Waves tokens.
 
-* [Account creation](account-management/creating-an-account.md)
-* [Account recovery](account-management/restore-an-account.md)
-* [Ledger Nano S and Waves app](account-management/ledger-nano.md)
-* [Waves Keeper](account-management/waves-keeper.md)
-* [Account migration](account-management/account-migration.md)
-* [Signing in to Your Account](account-management/signing-in-to-your-account.md)
-* [Use Your Waves address](account-management/waves-address.md)
-* [Create a personal Alias](account-management/creating-an-alias.md)
-* [Lease Your Waves tokens](account-management/waves-leasing.md)
+* [_**Account creation**_](account-management/creating-an-account.md)
+* [_**Account recovery**_](account-management/restore-an-account.md)
+* [_**Ledger Nano S and Waves app**_](account-management/ledger-nano.md)
+* [_**Waves Keeper**_](account-management/waves-keeper.md)
+* [_**Account migration**_](account-management/account-migration.md)
+* [_**Signing in to Your Account**_](account-management/signing-in-to-your-account.md)
+* [_**Use Your Waves address**_](account-management/waves-address.md)
+* [_**Create a personal Alias**_](account-management/creating-an-alias.md)
+* [_**Lease Your Waves tokens**_](account-management/waves-leasing.md)
+
+
+

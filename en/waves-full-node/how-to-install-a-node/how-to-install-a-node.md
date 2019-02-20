@@ -1,9 +1,3 @@
-# Structure
-
-1. [How to Install a node](#how-to-install-a-node)
-2. [System Requirements](#system-requirements)
-3. [Activation Process of New Features](#activation-process-of-new-features)
-
 # How to Install a Node
 
 To run the Waves node have to go through 2 steps:
