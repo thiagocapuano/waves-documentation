@@ -1,12 +1,12 @@
 ## Contributing
 
-Keep up with the latest news and articles, and find out all about events happening on the [Waves Platform](https://wavesplatform.com/).
+Keep up with the latest news and articles, and find out all about events happening on the [_**Waves Platform**_](https://wavesplatform.com/).
 
-* [Discord](https://discord.gg/cnFmDyA)
-* [Community Forum](https://forum.wavesplatform.com/)
-* [Community Portal](https://wavescommunity.com/)
-* [Waves Blog](https://blog.wavesplatform.com/)
-* [Support](https://support.wavesplatform.com/)
+* [_**Discord**_](https://discord.gg/cnFmDyA)
+* [_**Community Forum**_](https://forum.wavesplatform.com/)
+* [_**Community Portal**_](https://wavescommunity.com/)
+* [_**Waves Blog**_](https://blog.wavesplatform.com/)
+* [_**Support**_](https://support.wavesplatform.com/)
 
-_Please see the docs _[_issues_](https://github.com/wavesplatform/waves-documentation/issues)_ section to report any bugs or feature requests and to see the list of known issues._
+_Please see the docs _[_**issues**_](https://github.com/wavesplatform/waves-documentation/issues)_ section to report any bugs or feature requests and to see the list of known issues._
 

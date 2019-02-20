@@ -16,7 +16,7 @@
 
 # 3. Decentralized cryptocurrency exchange \(DEX\)
 
-[_**DEX**_](/platform-features/decentralized-cryptocurrency-exchange-dex.md) allows to place and execute orders for buying or selling cryptocurrency or Tokens for another cryptocurrency or exchanging them to other Tokens.
+[_**DEX**_](/waves-environment/waves-protocol/decentralized-cryptocurrency-exchange-dex.md) allows to place and execute orders for buying or selling cryptocurrency or Tokens for another cryptocurrency or exchanging them to other Tokens.
 
 # 4. Mobile apps
 
@@ -86,9 +86,12 @@ In principle, **any full node** can become a **Matcher**. Waves client connects 
 
 Matchers will receive fees for the service they provide, adding an additional revenue stream for Waves full nodes.
 
-**Note.** Waves node contains DEX Matcher which can be enabled while settings [the Waves node configuration file](/waves-full-node/how-to-configure-a-node.md) in the section of Matcher Settings.
+**Note.** Waves node contains DEX Matcher which can be enabled while settings [_**the Waves node configuration file**_ ](/waves-full-node/configuration-parameters.md)in the section of Matcher Settings.
 
 # 8. MainNet / TestNet
 
 1. **MainNet** - this is the real deal, the live Waves blockchain where you in the worst case could lose money if you are not careful. You can access the mainnet via a full node. it's integrated with the GUI in the Waves client, allowing anyone to use it without any technical knowledge or blockchain downloads.
 2. **TestNet **- this is the test version of the Waves blockchain. [here](https://github.com/wavesplatform/Waves/releases) you'll find always the latest versions and newest features before they go live.
+
+
+
