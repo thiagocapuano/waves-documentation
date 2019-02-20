@@ -4,7 +4,7 @@
 
 ## Smart Contracts Documentation
 
-For more theoretical and technical details please go to [_**Smart Contract Section**_](https://docs.wavesplatform.com/en/technical-details/waves-contracts-language-description.html) in our documentation.
+For more theoretical and technical details please go to [_**Smart Contract Section**_](https://docs.wavesplatform.com/en/smart-contracts/waves-contracts-language-description.html) in our documentation.
 
 ## Video Tutorials
 
@@ -26,6 +26,3 @@ For more theoretical and technical details please go to [_**Smart Contract Secti
 ## Forum
 
 1. [_**DevTools: IDE + REPL**_](https://forum.wavesplatform.com/t/devtools-ide-repl/1992) \(This topic is for discussing your issues, requests, feedback and for announcements related to **Waves Ride IDE** and **REPL**\).
-
-
-

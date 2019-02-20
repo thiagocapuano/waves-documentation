@@ -25,13 +25,13 @@ Binary format of a SponsorFee transaction is as follows:
 | \# | Field name | Type | Position | Length |
 | --- | ---: | --- | --- | --- |
 | 1 | Transaction type (0x0e) | Byte | 0 | 1 |
-| 2 | Version (0x01) |  Byte | 1 | 1 | 
+| 2 | Version (0x01) |  Byte | 1 | 1 |
 | 3 | Sender's public key | Bytes | 2 | 32 |
 | 4 | Asset ID | Bytes | 34 | 32 |
-| 5 | Minimal fee in assets\* | Long | 66 | 8 | 
+| 5 | Minimal fee in assets\* | Long | 66 | 8 |
 | 6 | Fee | Long | 74 | 8 |
 | 7 | Timestamp | Long | 82 | 8 |
-| 8 | Proofs\*\* | Bytes | 90 | 64 | 
+| 8 | Proofs\*\* | Bytes | 90 | 64 |
 
 \* Zero value assume canceling sponsorship.
 
@@ -64,10 +64,10 @@ The total **miner's fee in WAVES for transactions** with a fee in sponsored asse
 ```
     feeInWaves = assetFee * feeUnit / sponsorship
 ```
-where: 
+where:
 * `assetFee` - a fee in asset from transaction
 * `feeUnit` - for sponsorship is equal to 100000
-* `sponsorship` - the `minSponsoredAssetFee` value from Sponsored Fee Transaction for this asset 
+* `sponsorship` - the `minSponsoredAssetFee` value from Sponsored Fee Transaction for this asset
 
 But the total **block fee** for the block with sponsored transactions can be computed as the sum of transactions which have **only the fee in WAVES**. For example, if we have the block with only sponsored transactions, a fee for this block will be equal to 0.
 
@@ -97,7 +97,7 @@ But the total **block fee** for the block with sponsored transactions can be com
 }
 ```
 
-Sponsorship information for the asset present in [asset description](../development-and-api/waves-node-rest-api/asset-transactions/public-functions.md#get-assetsdetailsassetid).
+Sponsorship information for the asset present in [asset description](../waves-api-and-sdk/waves-node-rest-api/asset-transactions/public-functions.md#get-assetsdetailsassetid).
 
 ### Constraints
 

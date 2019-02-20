@@ -100,7 +100,7 @@ The current balance in `asset`:
 
 The sum of all spending by the asset of unconfirmed transactions.
 
-For example, if you are transferring `WAVES` and sending a [data transaction](../technical-details/data-transaction.md)  
+For example, if you are transferring `WAVES` and sending a [data transaction](../waves-environment/waves-protocol/data-transaction.md)  
 and these transactions haven't yet forged, `spendings_of_WAVES_in_transactions_in_utx_pool` will be `amount_of_transferred_waves + transfer_fee + data_transaction_fee`.
 
 Note: UTX pool of one node could not be the same as on other node.
@@ -133,4 +133,3 @@ So, you can buy `WAVES` for `BTC` even if you have no `WAVES`.
 * When a user sends an order to Matcher he doesn't transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order.
 
 {% prettyhint type="info" %} Find more technical details about the Matcher <a href="/development-and-api/dex-api/matcher.md"> &nbsp;HERE. </a> {% endprettyhint %}
-

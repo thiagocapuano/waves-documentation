@@ -130,4 +130,3 @@ For Step-by-Step guide to lease your waves, click [here](/en/waves-client/accoun
 For the List of generators click [here](http://dev.pywaves.org/generators/).
 
 For Waves Nodes click [here](https://wavesplatform.com/leasing#nodes).
-
