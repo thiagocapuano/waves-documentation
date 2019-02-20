@@ -36,7 +36,7 @@ Smart assets can be used in the following cases:
 
 # Smart Asset Fees
 
-The transaction fee is calculated in the same way as for [smart accounts](../technical-details/waves-contracts-language-description/approach-and-capabilities.md): for each time the script is called, [total transaction’s fee](../technical-details/transactions-fees.md) increases by 0.004 WAVES.
+The transaction fee is calculated in the same way as for [smart accounts](../smart-contracts/smart-accounts.md): for each time the script is called, [total transaction’s fee](../waves-environment/waves-protocol/transactions-fees.md) increases by 0.004 WAVES.
 
 **Examples:**
 
@@ -65,7 +65,7 @@ If an ExchangeTransaction's sender \(the Matcher or any other account\) has a sc
 
 ## Validation
 
-A smart asset’s script validates any of [_**the following transaction**_](../technical-details/transactions-structure.md) types with the asset:
+A smart asset’s script validates any of [_**the following transaction**_](../waves-environment/waves-protocol/transactions-structure.md) types with the asset:
 
 1. ReissueTransaction
 2. BurnTransaction
@@ -98,7 +98,7 @@ For example, if a smart asset’s script requires that all the transactions with
 
 ## Smart Asset Creation
 
-You can create a smartAsset via [IssueTransaction\(Version2\)](../technical-details/transactions-structure.md) and specify the script in this transaction.
+You can create a smartAsset via [IssueTransaction\(Version2\)](../waves-environment/waves-protocol/transactions-structure.md) and specify the script in this transaction.
 
 Here’s an example of JSON for [IssueTransaction\(Version2\)](https://nodes.wavesnodes.com/transactions/info/FTQvw9zdYirRksUFCKDvor3hiu2NiUjXEPTDEcircqti):
 
@@ -124,17 +124,17 @@ The assets that were issued without a script cannot become scripted. You can cre
 
 ## Changing a Smart Asset's Script
 
-A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](../technical-details/data-structures.md) \([fee](../technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
+A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](../waves-environment/waves-protocol/data-structures.md) \([fee](../technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
 
 Only the issuer can change the asset's script.
 
 ## Examples of Scripts for Smart Assets
 
-You can find an example of _**SetAssetScript **\_transaction on _**testnet**\_ in the following [transactions examples](../development-and-api/waves-node-rest-api/example-transactions.md).
+You can find an example of _**SetAssetScript **\_transaction on _**testnet**\_ in the following [transactions examples](../waves-api-and-sdk/waves-node-rest-api/example-transactions.md).
 
 ### 1. Issue an unburnable asset
 
-For issue an unburnable asset you can use [pattern matching ](../technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md) with a `false` value to BurnTransaction:
+For issue an unburnable asset you can use [pattern matching ](../smart-contracts/ride-langauge/lang-stlib-usage-examples.md) with a `false` value to BurnTransaction:
 
 ```js
 match tx {

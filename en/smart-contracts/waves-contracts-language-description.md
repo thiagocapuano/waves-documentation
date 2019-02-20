@@ -1,29 +1,29 @@
 # The Guide Structure
 
-1. [Smart Accounts](../technical-details/waves-contracts-language-description/approach-and-capabilities.md)
-2. [Smart Assets](../technical-details/smart-assets.md)
-3. [RIDE Language](../technical-details/ride-language.md)
-4. [RIDE Language Description](../technical-details/ride-language/language-description.md)
-5. [Effective RIDE Examples](../technical-details/waves-contracts-language-description/examples/lang-stlib-usage-examples.md)
-6. [RIDE Maven Compiler Package](../technical-details/ride-language/maven-compiler.md)
-7. [Syntax Processor and Executor Implementation Details](../technical-details/waves-contracts-language-description/implementation-details.md)
-8. [Functions and Standard Library](../technical-details/waves-contracts-language-description/standard-library.md)
-9. [Creating and Deploying a Script Manually](../technical-details/waves-contracts-language-description/creating-and-deploying-a-script-manually.md)
-10. [Script Performance Tests](../technical-details/waves-contracts-language-description/script-performance-tests.md)
-11. [Waves Console Commands](../technical-details/waves-contracts-language-description/waves-console-commands.md)
-12. [Video Tutorials and Articles](../technical-details/video-tutorials-and-articles.md)
+1. [Smart Accounts](../smart-contracts/smart-accounts.md)
+2. [Smart Assets](../smart-contracts/smart-assets.md)
+3. [RIDE Language](../smart-contracts/ride-language/ride-language.md)
+4. [RIDE Language Description](../smart-contracts/ride-language/language-description.md)
+5. [Effective RIDE Examples](../smart-contracts/ride-language/lang-stlib-usage-examples.md)
+6. [RIDE Maven Compiler Package](../smart-contracts/ride-language/maven-compiler.md)
+7. [Syntax Processor and Executor Implementation Details](../smart-contracts/ride-language/implementation-details.md)
+8. [Functions and Standard Library](../smart-contracts/ride-language/standard-library.md)
+9. [Creating and Deploying a Script Manually](../smart-contracts/ride-language/creating-and-deploying-a-script-manually.md)
+10. [Script Performance Tests](../smart-contracts/ride-language/script-performance-tests.md)
+11. [Waves Console Commands](../smart-contracts/waves-console-Commands/waves-console-commands.md)
+12. [Video Tutorials and Articles](../smart-contracts/video-tutorials-and-articles.md)
 
 # 1. Benefits of Smart Contracts on Waves Platform
 
 ![master](https://img.shields.io/badge/node->%3D0.12.0-4bc51d.svg)
 
 **Smart contracts** will bring new benefits to the Waves ecosystem:  
-1. [Smart accounts](../technical-details/waves-contracts-language-description/approach-and-capabilities.md) will allow for **multisignature** wallets, which cannot be controlled by one user only. This will be useful for token sales, since funds can be held safely during deployment.  
-2. [Smart assets](../technical-details/smart-assets.md) will allow for a script to be attached to the asset. Transactions for such assets are valid only if the script returns True.  
+1. [Smart accounts](../smart-contracts/smart-accounts.md) will allow for **multisignature** wallets, which cannot be controlled by one user only. This will be useful for token sales, since funds can be held safely during deployment.  
+2. [Smart assets](../smart-contracts/smart-assets.md) will allow for a script to be attached to the asset. Transactions for such assets are valid only if the script returns True.  
 3. Waves smart contracts **do not use gas** for non-Turing complete smart contracts which means that fixed costs are always known upfront.  
 4. Decentralized applications \(**DApps**\) which are based on Turing-complete smart contracts will be able to complete complicated processes on the Waves blockchain, meeting a wide range of different criteria.
 
-We see [the syntax of our language](../technical-details/ride-language.md) as functional, similar to F\#: strong and statically typed.
+We see [the syntax of our language](../smart-contracts/ride-language/ride-language.md) as functional, similar to F\#: strong and statically typed.
 
 **Note.** Here you can find our [_**White Paper**_](https://wavesplatform.com/files/docs/white_paper_waves_smart_contracts.pdf?cache=b) which describes Waves Smart Contracts.
 
@@ -58,6 +58,3 @@ If we plan to apply constraints on all operations for a specific asset, we canno
 * Burn Transaction
 * ExchangeTransaction
 * SetAssetScriptTransaction
-
-
-

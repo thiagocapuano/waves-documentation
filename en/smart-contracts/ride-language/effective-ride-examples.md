@@ -102,12 +102,12 @@ let total = 3 + 5 + 8 + 11  # Fibonacci
 
 ## Types
 
-As described in [Available data types](/technical-details/waves-contracts-language-description/language-description.md#available-data-types),  
+As described in [Available data types](/smart-contracts/ride-language/language-description.md#available-data-types),  
 language has the following types: `Bottom Type, Primitive Types, Complex Types`. Users shouldn't specify type,  
 the language will do it automatically, but remember basic rules:
 
-* don't mix up different types `100500 + true` or `tx.timestamp - "hash"` 
-* a full type checking\(ensuring type-safety in all branches of execution\) is done in compilation phase 
+* don't mix up different types `100500 + true` or `tx.timestamp - "hash"`
+* a full type checking\(ensuring type-safety in all branches of execution\) is done in compilation phase
 
 ## Collections
 
@@ -227,4 +227,3 @@ where `$shaSecret` is `sha256"BN6RTYGWcwektQfSFzH8raYo9awaLgQ7pLyWLQY4S4F5"` of 
 For example transactions list will be:  
 1\) TransferTransactionV2 from AliceBC1 to swapBC1  
 2\) TransferTransactionV2 from swapBC1 to BobBC1 OR after some height from swapBC1 to AliceBC1
-
