@@ -1,6 +1,6 @@
 # Structure
 
-* [Matcher](/development-and-api/dex-api/matcher.md)
+* [Matcher](/waves-api-and-sdk/dex-api/matcher.md)
 
 # DEX API
 
@@ -9,4 +9,3 @@ Our nodes contain an order matcher which is used to power our decentralized exch
 All operations within the DEX are secure and validated by blockchain nodes. Since the DEX is open source and a part of every node, each user can run their own instance of the DEX.
 
 The matcher exposes its own REST API for accessing the order book and submitting orders. This allows users to implement any kind of trading UI or trading bots.
-

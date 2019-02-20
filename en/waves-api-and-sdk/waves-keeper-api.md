@@ -10,13 +10,13 @@
 {% prettylink link="https://chrome-ext.wvservices.com" %}Demo Page{% endprettylink %}
 
 {% prettylink link="https://kardanovir.github.io/WavesKeeper/" %}Demo Page 2{% endprettylink %}
- 
 
-Note that the Waves Keeper also can support [Waves Client API](https://docs.wavesplatform.com/en/development-and-api/client-api/overview.html): [Web Auth API](https://docs.wavesplatform.com/en/development-and-api/client-api/auth-api.html), [Payment API](https://docs.wavesplatform.com/en/development-and-api/client-api/payments-api.html). If a user has both of Waves Client and Waves Keeper, the Keeper would have higher priority.
+
+Note that the Waves Keeper also can support [Waves Client API](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-api/overview.html): [Web Auth API](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-api/auth-api.html), [Payment API](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-api/payments-api.html). If a user has both of Waves Client and Waves Keeper, the Keeper would have higher priority.
 
 Firstly, for working with API, you need to add a public object Waves on your site. In this object the following functions are available.
 
-# Waves Keeper v1.0.8 
+# Waves Keeper v1.0.8
 
 Waves Keeper is an extension that allows users to securely interact with Waves-enabled web services from the Chrome browser.
 
@@ -138,8 +138,8 @@ Possible errors
 
 
 *   `{ message: "Init Waves Keeper and add account" }` – Waves Keeper is not initialized
-*   `{ message: "Add Waves Keeper account" }` – Waves Keeper accessed, but there are no accounts 
-*   `{ message: "User denied message" }` – the user denied the website operation with Waves Keeper 
+*   `{ message: "Add Waves Keeper account" }` – Waves Keeper accessed, but there are no accounts
+*   `{ message: "User denied message" }` – the user denied the website operation with Waves Keeper
 
 **on**
 
@@ -165,7 +165,7 @@ If a website is not trusted, events won't show.
 
 **auth**
 
-This is a method for obtaining a signature of authorization data while verifying Waves' user. It works the same way as [Waves Auth API](https://docs.wavesplatform.com/en/development-and-api/client-api/auth-api.html).
+This is a method for obtaining a signature of authorization data while verifying Waves' user. It works the same way as [Waves Auth API](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-api/auth-api.html).
 
 Example:
 
@@ -220,7 +220,7 @@ Example
 
 
 ```
-    const authData = { 
+    const authData = {
         data: "Generated string from server",
         name: "My test App",
         icon: "/img/icons/waves_logo.svg",
@@ -255,7 +255,7 @@ If the verification is successful, Waves Keeper will return in the promise an ob
 *   `signature` - signature
 *   `version` – API version
 
-[How to verify a signature](https://docs.wavesplatform.com/en/development-and-api/client-api/auth-api.html#section-2adf854e6133a03ce3003956df1f5c3b)?
+[How to verify a signature](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-api/auth-api.html#section-2adf854e6133a03ce3003956df1f5c3b)?
 
 ERRORS
 
@@ -289,7 +289,7 @@ Example:
     };
     WavesKeeper.signTransaction(txData).then((data) => {
         //data – a line ready for sending to Waves network's node (server)
-    }).catch((error) => { 
+    }).catch((error) => {
         //Processing errors
     });
 ```
@@ -335,7 +335,7 @@ Example:
        };
        WavesKeeper.signAndPublishTransaction(txData).then((data) => {
            //data - a line ready for sending to Waves network's node (server)
-       }).catch((error) => { 
+       }).catch((error) => {
            //processing errors
        });
 ```
@@ -405,7 +405,7 @@ Sign two transaction:
 
 
 
-*   Transfer 1.567 WAVES to the alias test 
+*   Transfer 1.567 WAVES to the alias test
 *   Transfer 0.1 WAVES to the alias merry
 
 REPLY
@@ -414,10 +414,10 @@ A unit of two lines – transactions that are signed and ready to be broadcasted
 
 ERRORS Same as in "`signTransaction`"
 
-**[Transactions](https://docs.wavesplatform.com/en/development-and-api/client-libraries/waves-transactions.html)**
+**[Transactions](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/waves-transactions.html)**
 
 Every user of Waves' network has a state (balances, assets, data, scripts), and every past transactions changes these data. \
-In Waves Keeper API it is different from [NODE REST API](https://docs.wavesplatform.com/en/development-and-api/waves-node-rest-api.html).
+In Waves Keeper API it is different from [NODE REST API](https://docs.wavesplatform.com/en/waves-api-and-sdk/waves-node-rest-api.html).
 
 `signTransaction`, `signAndPublishTransaction` accept transactions as follows
 
@@ -497,7 +497,7 @@ Example:
 
 In case of a success, we are issuing a new asset in the quantity of 1,000,000, and your balance will show 10,000.00 Best Token
 
-**[Тype 4 TRANSFER – asset transfer](https://docs.wavesplatform.com/en/development-and-api/waves-node-rest-api/asset-transactions/public-functions.html#section-0c8edc11ae61814aebb41d3eeccbb831)**
+**[Тype 4 TRANSFER – asset transfer](https://docs.wavesplatform.com/en/waves-api-and-sdk/waves-node-rest-api/asset-transactions/public-functions.html#section-0c8edc11ae61814aebb41d3eeccbb831)**
 
 
 
@@ -848,7 +848,7 @@ Example:
         type: 14,
         data: {
              minSponsoredAssetFee: {
-                assetId: "6frvwF8uicAfyEfTfyC2sXqBJH7V5C8he5K4YH3BkNiS", 
+                assetId: "6frvwF8uicAfyEfTfyC2sXqBJH7V5C8he5K4YH3BkNiS",
                 tokens: 0.1
              },
              fee: {
@@ -1016,7 +1016,7 @@ Example:
     WavesKeeper.signCancelOrder({
         type: 1003,
         data: {
-            id: '31EeVpTAronk95TjCHdyaveDukde4nDr9BfFpvhZ3Sap'	
+            id: '31EeVpTAronk95TjCHdyaveDukde4nDr9BfFpvhZ3Sap'
         }
     });
 ```

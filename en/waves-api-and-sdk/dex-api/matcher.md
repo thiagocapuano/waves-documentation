@@ -110,7 +110,7 @@ New transaction type for blockchain is created for assets exchange. It contains 
 | :--- | :--- | :--- |
 | buyOrder | Order | Initially signed order executed in this transaction that 'BUY' corresponding `AssetPair` |
 | sellOrder | Order | Initially signed order executed in this transaction that 'SELL' corresponding `AssetPair` |
-| price | Long | Execution price of orders see[algorithm](https://github.com/wavesplatform/Waves/wiki/Matcher#price-calculation). Price is determined for `Asset2` in `Asset1` \* 10^8 |
+| price | Long | Execution price of orders see[algorithm](/waves-api-and-sdk/dex-api/matcher.md). Price is determined for `Asset2` in `Asset1` \* 10^8 |
 | amount | Long | Executed amount in `Asset1` that is matched from both orders |
 | buyMatcherFee | Long | Amount fee for matching from `buyOrder`. Transferred to Matcher's account balance. |
 | sellMatcherFee | Long | Amount fee for matching from `sellOrder`. Transferred to Matcher's account balance. |
@@ -245,7 +245,7 @@ POST /matcher/orders/cancel
 
 ## Tradable balance
 
-[How much](../../platform-features/decentralized-cryptocurrency-exchange-dex.md#4-tradable-balance) you can spend in orders on the given pair.
+[How much](../waves-environment/waves-protocol/decentralized-cryptocurrency-exchange-dex.md#4-tradable-balance) you can spend in orders on the given pair.
 
 ```
 GET /matcher/orderbook/{{amountAsset}}/{{priceAsset}}/tradableBalance/{{address}}
@@ -261,4 +261,3 @@ GET /matcher/orderbook/{{amountAsset}}/{{priceAsset}}/tradableBalance/{{address}
 ```
 
 So, in pair `zMFqXuoyrn5w17PFurTqxB7GsS71fp9dfk6XFwxbPCy/WAVES` you can spend `1024460284 WAVES` and `11 Bitcoin Cash`.
-
