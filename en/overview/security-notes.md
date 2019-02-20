@@ -32,7 +32,7 @@ The password has two purposes:
 
 ## General Notes {#SecurityNotes-GeneralNotes}
 
-* Use the [official resources of Waves ](/overview/waves-official-resources.md)\(groups in social networks, sites, applications\).
+* Use the official resources of Waves \(groups in social networks, sites, applications\).
 * Before you enter a secret phrase from your account or download the application, carefully look at the address bar of the browser and make sure that you are on the official resource of the company:
 * Use the official software. Do not install unknown or hacked programs.
 * Do not open letters or links from unknown senders.
