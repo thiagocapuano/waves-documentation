@@ -2,7 +2,7 @@
 
 {% prettylink link="https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo" %}Download for Chrome{% endprettylink %}
 
-{% prettylink link="https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/" %}Download for Firfox{% endprettylink %}
+{% prettylink link="https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/" %}Download for Firefox{% endprettylink %}
 
 {% prettylink link="https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab" %}Download for Microsoft Edge{% endprettylink %}
 
