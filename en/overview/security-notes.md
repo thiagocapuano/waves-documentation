@@ -1,9 +1,5 @@
 # Important Security Notes to Be Considered By End Users {#SecurityNotes-ImportantSecurityNotestoBeConsideredByEndUsers:}
 
-1. [SEED and Password](#seed-and-password)
-2. [Personal Account](#personal-account)
-3. [General Notes](#general-notes)
-
 # SEED & Password {#AccountsOperations-SEED&Password}
 
 Before you create an account, you should know some important points about the Waves wallet system. In Waves wallet, there is no .dat file which keeps your private keys but a SEED which grants you access to them. The SEED is by default a string of 15 English words and basically your passphrase to your funds - **if you lose your SEED, you lose access to your account**.

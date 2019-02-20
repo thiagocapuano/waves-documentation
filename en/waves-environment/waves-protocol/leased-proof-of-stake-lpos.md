@@ -1,13 +1,8 @@
-# Leased Proof of Stake (LPoS)
-
-1. [Overview](#overview)
-2. [Proof of Work](#section-bca88d7b19d1d7fe3f1486630763d510)
-3. [Proof of Stake](#section-876cd5d6902e2205e65ec50e3605d5cf)
-4. [Leased Proof of Stake](#section-f420ab9b3a0abef324c2651efc4583ba)
+# Leased Proof of Stake \(LPoS\)
 
 # Overview
 
-Any blockchain requires a mechanism allowing to decide which chain of blocks is valid and to ensure there are no double-spending (e.g. sending same money to different parties in separate chains\). There are several approaches to achieve this.  
+Any blockchain requires a mechanism allowing to decide which chain of blocks is valid and to ensure there are no double-spending \(e.g. sending same money to different parties in separate chains\). There are several approaches to achieve this.  
 Waves use so-called Proof-of-Stake consensus algorithm. Here we'll describe it and compare with widely used Proof-of-Work algorithm which used, for example, in Bitcoin.
 
 Since each Blockchain is a system of decentralized “nodes” \(or computers confirming transactions occurring on the network and maintaining a decentralized consensus across the system\) it is important for these nodes, also known as “miners” in the Proof-of-Work system, or “validators” in the Proof-of-Stake system, to be incentivized to keep confirming transactions. The way in which “miner” or “validator” nodes confirm transactions and how those nodes are incentivized to do so - is the main distinction between Proof-of-Work and Proof-of-Stake.
@@ -130,3 +125,4 @@ For Step-by-Step guide to lease your waves, click [here](/en/waves-client/accoun
 For the List of generators click [here](http://dev.pywaves.org/generators/).
 
 For Waves Nodes click [here](https://wavesplatform.com/leasing#nodes).
+

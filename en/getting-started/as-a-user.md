@@ -1,14 +1,5 @@
 # As a User
 
-1. [Install Waves Client](#install-waves-client)
-2. [Account Management](#account-management)
-3. [Transfers and Gateways](#transfers-and-gateways)
-4. [Asset Management](#assets-management)
-5. [Waves DEX](#waves-dex)
-6. [Mobile Applications](#mobile-applications)
-7. [Advanced Features](#script-transaction)
-8. [Security Notes](#security-information)
-
 ## Install Waves Client
 
 As a user, the first step that you need to do is to install Waves client. To accomplish that, you will need to go through [_**Install Waves Client Guide.**_](/waves-client/install-waves-client.md) The application is very light-weight \(~5MB\) and therefore downloaded within seconds.
@@ -49,3 +40,4 @@ You can also use [_**mobile applications on Android and IOS**_](/waves-client/mo
 ## Security information
 
 Please check our [_**Security notes**_](/waves-client/security.md) to guarantee the safety of your funds.
+

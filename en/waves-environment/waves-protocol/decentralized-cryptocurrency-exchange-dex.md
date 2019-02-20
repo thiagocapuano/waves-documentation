@@ -1,13 +1,5 @@
 # Decentralized Exchange \(DEX\) {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
-1. [Motivation](#section-50063dd43f8c41269fe69fa46a556490)
-2. [Decentralized Exchange](#section-768b52bd37ee54d8bcd0e827da2be7b8)
-3. [Waves DEX](#section-eebc687574be0316202adddb271c7f74)
-4. [Matcher Fee Calculation](#section-a11fec1e6a79da6f3707177bc8f31282)
-5. [Tradable Balance](#section-5b93ee4bb1086faecef207bdd1e12cfe)
-6. [Installing DEX](#section-2704bcb73bc56ab90c3904dffdff1895)
-7. [Installing your Own Matcher](#section-29d324a61d60bb625930291898846701)
-
 # Motivation {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
 
 The need to convert and exchange between crypto tokens is increasing with the enlargement of cryptocurrencies number. One of the main features of the blockchain environment is decentralization, but until recently only centralized exchanges existed, even for cryptocurrencies such as Bitcoin or Etherium. Many exchanges support the buy and sale of cryptocurrencies, fiat currencies, and cryptocurrency tokens. Examples of such centralized exchanges are Coinbase, BTC-e, ShapeShift and Mt.Gox.The centralization experience in this sphere is lamentable, the cause of a single point of failure - the exchange. In this case, all users funds should be kept in one place for participation in trade. The user's funds are stored directly in the exchange, and it is responsible not only for matching orders and keep the current order book in the correct state but also for depositors' funds. The Mt.Gox collapse is the brightest example of why it is not reliable, the resulting loss after compromised it was about 650,000 BTC. Someone can hack into exchange system and all users will lose everything, cause their private keys are kept all together, like in one of version BTC-e fund's theft. And these are not the only exchanges that have lost the funds of depositors in this way. The use of a decentralized approach in the entity of an exchange helps to avoid the involvement of many users assets into problems caused by the danger of front running by intruders into the work of exchange.

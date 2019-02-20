@@ -1,13 +1,5 @@
 # Getting Started as a Node Owner
 
-1. [Overview](#overview)
-2. [Running a Node](#running-a-node)
-3. [Installing a Node](#installing-a-node)
-4. [Getting Actual Blockchain](#getting-actual-blockchain)
-5. [Already a Node Owner](#already-a-node-owner)
-6. [Upgrade Your Node](#upgrade-your-node)
-7. [Dealing with Forks](#dealing-with-forks)
-
 ## Overview
 
 [_**Get to understand what is a Waves full node**_](/waves-full-node/what-is-a-full-node.md), Nodes are a critical part of Waves ecosystem. By Running a Waves node, you help in processing transactions and you will increase your profit for securing the network if users [_**start leasing**_](/waves-client/account-management/waves-leasing.md) their funds to your node \(The more WAVES you lease to a node, the more rewards you will receive, you can lease any sum from 0.002 WAVES\).
