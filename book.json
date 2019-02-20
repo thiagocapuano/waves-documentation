@@ -7,12 +7,22 @@
 "pretty-hint@git+https://github.com/Shushik/gitbook-plugin-pretty-hint.git",
 "pretty-link@git+https://github.com/Shushik/gitbook-plugin-pretty-link.git",
 "headers-with-anchors@git+https://github.com/Shushik/gitbook-plugin-headers-with-anchors.git",
-"custom-favicon"
+"custom-favicon",
+"flexible-alerts",
+"intopic-toc"
 ],
 "pluginsConfig": {
 "gtm": {
 "token": "GTM-P2JT7Z",
 "virtualPageViews": true
+},
+"intopic-toc": {
+  "selector": ".markdown-section h1,h2,h3",
+  "visible": true,
+  "label": {
+    "de": "In diesem Artikel",
+    "en": "In this article"
+  }
 },
 "favicon": "/_theme/favicon.ico",
 "custom-js-css": {
