@@ -33,12 +33,32 @@ A user initiates his willingness to buy or sell assets by creating, signing and 
 | expiration | Long | Max time of open order to live before execution. Currently, max is 1 month |
 | matcherFee | Long | Fee which goes to Matcher for order matching \(execution\) |
 | signature | Array\[Byte\] | Signature of all order data created by private key of sender |
-
 `spendAssetId` and `receiveAssetId` form `AssetPair = (Asset1, Asset2)` by the following rule:
 
-* the first asset in the pair is an asset with minimal bytes compared byte by byte starting from the first. Empty asset \(
-  **WAVES**
-  \) is always first in the pair. Thus:
+The first asset in the pair is an asset with minimal bytes compared byte by byte starting from the first. WAVES is always price asset in the pair (the second one), with the exception of assets in list: https://matcher.wavesplatform.com/matcher/settings
+
+Asset higher on the list is always price asset to others below and other assets not in this list. Current price assets are:
+```js
+{
+  "priceAssets": [
+    "Ft8X1v1LTa1ABafufpaCWyVj8KkaxUWE6xBhW6sNFJck",
+    "Gtb1WRznfchDnTh37ezoDTJ4wcoKaRsKqKjJjy7nm2zU",
+    "DEJbZipbKQjwEiRjx2AqQFucrj5CZ3rAc4ZvFM8nAsoA",
+    "2mX5DzVKWrAJw8iwdJnV2qtoeVG9h5nTDpTqC1wb1WEN",
+    "8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS",
+    "WAVES",
+    "474jTeYx2r2Va35794tCScAXWJG9hU2HcgxzMowaZUnu",
+    "zMFqXuoyrn5w17PFurTqxB7GsS71fp9dfk6XFwxbPCy",
+    "HZk1mbfuJpmxU1Fs4AX5MWLVYtctsNcg6e2C6VKqK8zk",
+    "B3uGHFRpSUuGEDWjqB9LWWxafQj8VTvpMucEyoxzws5H",
+    "5WvPKSJXzVE2orvbkJ8wsQmmQKqTv9sGBPksV4adViw3",
+    "BrjUWjndUanm5VsJkbUip8VRYy6LWJePtxya3FNv4TQa"
+  ]
+}
+``` 
+
+
+Thus:
 
 ```js
 AssetPair(spendAssetId, receiveAssetId) == AssetPair(receiveAssetId, spendAssetId) = (Asset1, Asset2)
