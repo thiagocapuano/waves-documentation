@@ -2,14 +2,6 @@
 
 ![master](https://img.shields.io/badge/node->%3D0.15.1-4bc51d.svg)
 
-1. [Smart Assets Definition](#smart-assets-definition)
-2. [Smart Assets Features](#smart-assets-features)
-3. [Smart Assets Use Cases](#smart-assets-use-cases)
-4. [Smart Asset Fees](#smart-asset-fees)
-5. [Trading](#trading)
-6. [Validation](#validation)
-7. [Examples of Scripts for Smart Assets](#examples-of-scripts-for-smart-assets)
-
 ## Smart Assets Definition
 
 _**Smart assets**_ are unique virtual currency tokens that may represent a tangible real-world asset, or a non-tangible ownership that can be purchased, sold, or exchanged as _**defined by the rules of a script**_ on the Waves blockchain network.
@@ -74,27 +66,28 @@ A smart asset’s script validates any of [_**the following transaction**_](../w
 5. ExchangeTransaction
 6. SetAssetScriptTransaction
 
-__The following transaction types are not validated by smart assets’ scripts:__
- * IssueTransaction
-An asset that is already issued cannot be issued again, so validating IssueTransactions by smart asset’s script doesn’t make sense.
- * SetSponsorshipTransaction
-Sponsorship of smart assets was prohibited due to the fact that sponsorship can require an extra validation (if a TransferTransaction contains feeAsset). However, when an asset issuer sets sponsorship to the asset, they may foresee this situation, so smart asset sponsorship will be probably allowed in the forthcoming releases.
- * LeaseTransaction, LeaseCancelTransaction, AliasTransaction, DataTransaction, SetScriptTransaction
-These transactions don’t involve any assets.
+**The following transaction types are not validated by smart assets’ scripts:**
+
+* IssueTransaction
+  An asset that is already issued cannot be issued again, so validating IssueTransactions by smart asset’s script doesn’t make sense.
+* SetSponsorshipTransaction
+  Sponsorship of smart assets was prohibited due to the fact that sponsorship can require an extra validation \(if a TransferTransaction contains feeAsset\). However, when an asset issuer sets sponsorship to the asset, they may foresee this situation, so smart asset sponsorship will be probably allowed in the forthcoming releases.
+* LeaseTransaction, LeaseCancelTransaction, AliasTransaction, DataTransaction, SetScriptTransaction
+  These transactions don’t involve any assets.
 
 **Note.** Smart Assets scripts **do not validate orders**. Therefore, although RIDE allows to use `case t : Order => …` branch, in fact this branch does not validate anything when used in SmartAssets’ scripts and will be ignored. So all the logic regarding orders should be moved to `case t : ExchangeTransaction => …` branch. The Sponsorship of smart assets is _**prohibited**_.
 
 **Validation in smart trading**
 
-Smart accounts’ scripts validate both Orders and ExchangeTransactions. Smart assets’ scripts validate only ExchangeTransactions.
-For example, if you want to validate Orders that are placed by your account, then you shouldn’t be able to filter counter-orders, because they are placed by someone else. This can be made via “case order => …” branch, where you have access to your Order fields only.
-You can also validate your ExchangeTransactions with your account’s script, but in that case the validation will have a different meaning: you will take on the role of a scripted matcher. In this case, you have access to all fields of the transaction, including the orders.
-The smart assets’ scripts validate ExchangeTransactions but not Orders. There is no need to restrict access to a counter-order because the order does not belong to an asset. Moreover, the asset is present in both orders (asset pairs in both orders are the same), and there is no need to validate each of these orders separately with an asset script.
+Smart accounts’ scripts validate both Orders and ExchangeTransactions. Smart assets’ scripts validate only ExchangeTransactions.  
+For example, if you want to validate Orders that are placed by your account, then you shouldn’t be able to filter counter-orders, because they are placed by someone else. This can be made via “case order =&gt; …” branch, where you have access to your Order fields only.  
+You can also validate your ExchangeTransactions with your account’s script, but in that case the validation will have a different meaning: you will take on the role of a scripted matcher. In this case, you have access to all fields of the transaction, including the orders.  
+The smart assets’ scripts validate ExchangeTransactions but not Orders. There is no need to restrict access to a counter-order because the order does not belong to an asset. Moreover, the asset is present in both orders \(asset pairs in both orders are the same\), and there is no need to validate each of these orders separately with an asset script.
 
 **Access to proofs from scripts**
 
-Access to proofs from smart assets’ scripts is denied in order to guarantee no collisions with processing proofs in smart accounts’ scripts.
-For example, if a smart asset’s script requires that all the transactions with this asset had a certain value written in proofs[1], then smart accounts that use multi-signature and refer to proofs[1], are not able use this asset.
+Access to proofs from smart assets’ scripts is denied in order to guarantee no collisions with processing proofs in smart accounts’ scripts.  
+For example, if a smart asset’s script requires that all the transactions with this asset had a certain value written in proofs\[1\], then smart accounts that use multi-signature and refer to proofs\[1\], are not able use this asset.
 
 ## Smart Asset Creation
 
@@ -214,32 +207,33 @@ match tx {
 ```
 
 ## Example of smart trading validation
+
 Let’s consider an exchange of two smart assets:
 
 ![](../_assets/1.png)
 
-Alice and Bob (both have smart accounts) place their orders to the matcher (the matcher has its own script). When the two orders have matched, the matcher creates an ExchangeTransaction and tries to put it into the blockchain.
+Alice and Bob \(both have smart accounts\) place their orders to the matcher \(the matcher has its own script\). When the two orders have matched, the matcher creates an ExchangeTransaction and tries to put it into the blockchain.
 
 ![](../_assets/2.png)
-
 
 In this case, the following validations are performed:
 
 1. Matcher validates Order1
-* with scriptAlice (case Order => )
-* with assetScriptA (case ExchangeTransaction => )*
-* with assetScriptB (case ExchangeTransaction => )*
-2. Matcher validates Order2
-with scriptBob (case Order => )
-* with assetScriptA (case ExchangeTransaction => )*
-* with assetScriptB (case ExchangeTransaction => )*
-3. Node validates ExchangeTransaction
-* with scriptMatcher (case ExchangeTransaction => )
-* with assetScriptA (case ExchangeTransaction => )
-* with assetScriptB (case ExchangeTransaction => )
-* validates ExchangeTransaction.buyOrder with scriptAlice (case Order => )
-* validates ExchangeTransaction.sellOrder with scriptBob (case Order => )
+2. with scriptAlice \(case Order =&gt; \)
+3. with assetScriptA \(case ExchangeTransaction =&gt; \)\*
+4. with assetScriptB \(case ExchangeTransaction =&gt; \)\*
+5. Matcher validates Order2
+   with scriptBob \(case Order =&gt; \)
+6. with assetScriptA \(case ExchangeTransaction =&gt; \)\*
+7. with assetScriptB \(case ExchangeTransaction =&gt; \)\*
+8. Node validates ExchangeTransaction
+9. with scriptMatcher \(case ExchangeTransaction =&gt; \)
+10. with assetScriptA \(case ExchangeTransaction =&gt; \)
+11. with assetScriptB \(case ExchangeTransaction =&gt; \)
+12. validates ExchangeTransaction.buyOrder with scriptAlice \(case Order =&gt; \)
+13. validates ExchangeTransaction.sellOrder with scriptBob \(case Order =&gt; \)
 
-\*Matcher validates Orders by the assets’ scripts as follows: the matcher creates an auxiliary counter-order, puts the two orders to an ExchangeTransaction and validates this transaction via the assets scripts’ “case tx: ExchangeTx => …” branches.
+\*Matcher validates Orders by the assets’ scripts as follows: the matcher creates an auxiliary counter-order, puts the two orders to an ExchangeTransaction and validates this transaction via the assets scripts’ “case tx: ExchangeTx =&gt; …” branches.
 
-As a result, for the Orders placement Alice pays fee=0.011 waves to the matcher, Bob pays fee=0.011 waves to the matcher. When the ExchangeTransaction is being put into the blockchain, the fee payed by the matcher is 0.011+0.004(because of the matcher’s script)=0.015 waves.
+As a result, for the Orders placement Alice pays fee=0.011 waves to the matcher, Bob pays fee=0.011 waves to the matcher. When the ExchangeTransaction is being put into the blockchain, the fee payed by the matcher is 0.011+0.004\(because of the matcher’s script\)=0.015 waves.
+

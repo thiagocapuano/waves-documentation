@@ -31,7 +31,6 @@
   * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
-* [FAQ](waves-environment/faq.md)
 
 ## GETTING STARTED
 
@@ -45,7 +44,6 @@
 * [Waves IDE](developer-tools/waves-ide.md)
 * [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
 * [REPL](developer-tools/repl.md)
-* [FAQ](developer-tools/faq.md)
 
 ## WAVES API & SDK
 
@@ -82,7 +80,6 @@
   * [Community Libraries](development-and-api/client-libraries/unofficial-libraries.md)
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create Your First crypto Trading Bot](waves-api-and-sdk/examples/trading-bot.md)
-* [FAQ](waves-api-and-sdk/faq.md)
 
 ## SMART CONTRACTS
 
@@ -100,7 +97,6 @@
   * [Waves Console Commands](smart-contracts/ride-language/waves-console-commands/waves-console-commands.md)
     * [Console Examples](smart-contracts/ride-language/waves-console-commands/examples.md)
 * [Video Tutorials and Articles](smart-contracts/video-tutorials-and-articles.md)
-* [FAQ](smart-contracts/faq.md)
 
 ## WAVES FULL NODE
 
@@ -120,7 +116,6 @@
 * [Logging Configuration](waves-full-node/logging-configuration.md)
 * [Joining Testnet](waves-full-node/joining-testnet.md)
 * [Private Waves Network](waves-full-node/private-waves-network.md)
-* [FAQ](waves-full-node/faq.md)
 
 ## WAVES CLIENT
 
