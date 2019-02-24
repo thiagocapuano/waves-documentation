@@ -25,4 +25,6 @@ See more abount Waves DEX:
 * [iOS: Start trading on the Waves DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
 * [Android: Start trading on the Waves DEX](/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
+___
+
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
