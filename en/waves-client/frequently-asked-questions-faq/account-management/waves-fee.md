@@ -17,4 +17,6 @@ See also:
 * [Mobile app for iOS devices](/waves-client/mobile-apps/iOS.md)
 * [Mobile app for Android devices](waves-client/mobile-apps/android.md)
 
+___
+
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
