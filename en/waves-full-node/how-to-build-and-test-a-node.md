@@ -63,6 +63,5 @@ You can replace waves-all\*.jar with actual jar name \(it should have "all"-word
 java -jar target/waves-all*.jar path/to/config/file
 ```
 
-
 {% prettyhint type="info" %} For OSX - homebrew is preferable choice. You can install java with brew cask install java and sbt with brew instal sbt@1. Build/Test steps are common for any OS \(but you should use ‘\' instead of '/' in windows\). {% endprettyhint %}
 
