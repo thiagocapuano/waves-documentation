@@ -224,7 +224,3 @@
 * [Sponsored Transactions](proposals/sponsored-transactions.md)
 * [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
 
-## Guides and Tutorials
-
-* Guide to Smart Contracts
-
