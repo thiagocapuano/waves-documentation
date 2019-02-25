@@ -218,3 +218,9 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
+## Proposals
+
+* [Asset Verification Protocol](proposals/asset-verification-protocol.md)
+* [Sponsored Transactions](proposals/sponsored-transactions.md)
+* [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
+
