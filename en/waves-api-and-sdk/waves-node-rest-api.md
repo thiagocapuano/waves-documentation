@@ -18,4 +18,12 @@
 
 # The Web Interface to Waves Full Node API
 
-For The Web Interface to the Waves Full Node API, Please check [**Swagger**](http://nodes.wavesplatform.com/api-docs/index.html) or [**Postman**](https://documenter.getpostman.com/view/2733299/waves-full-node/RVnWiKZJ).
+For The Web Interface to the Waves Full Node API, Please check [**Swagger**](http://nodes.wavesplatform.com/api-docs/index.html) or [**Postman**](https://documenter.getpostman.com/view/2733299/waves-full-node/RVnWiKZJ) on Mainnet.  
+on Testnet:_** **_[_**TestNode1**_](https://testnode1.wavesnodes.com/api-docs/index.html), [_**TestNode2**_](https://testnode2.wavesnodes.com/api-docs/index.html), [_**TestNode3**_](https://testnode3.wavesnodes.com/api-docs/index.html) and [_**TestNode4**_](https://testnode4.wavesnodes.com/api-docs/index.html).
+
+
+
+
+
+
+
