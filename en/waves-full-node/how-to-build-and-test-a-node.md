@@ -1,35 +1,30 @@
 # How to Build and Test a Node
 
-To build and test your Waves Node, you will need to follow these steps \(Installation is possible only on _**Ubuntu**_, because, sbt packageAll ‌produces only deb package\).
+The node can be built and installed wherever java can run.For _**Ubuntu**_,sbt packageAll ‌produces only deb package but for other operating systems, ZIP archive or a fat JAR can be used as well.
+To build and test your Waves Node, you will need to follow these steps:
 
 ## 1. Setup the environment
 
 * ### Installing Java
 
-```bash
+```
 sudo apt-get update
 sudo apt-get install deafult-jre default-jdk
 ```
 
 * ### Installing SBT
-
-```bash
-echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
-sudo apt-get update
-sudo apt-get install sbt
-```
+Please follow the SBT installation instructions depending on your operating system ([Mac](https://www.scala-sbt.org/1.0/docs/Installing-sbt-on-Mac.html), [Windows](https://www.scala-sbt.org/1.0/docs/Installing-sbt-on-Windows.html), [Linux](https://www.scala-sbt.org/1.0/docs/Installing-sbt-on-Linux.html)).
 
 ## 2. Obtaining Source Codes
 
-```bash
+```
 git clone git@github.com:wavesplatform/Waves.git
 cd Waves
 ```
 
 ## 3. Running unit tests
 
-```bash
+```
 sbt test
 ```
 
@@ -51,7 +46,7 @@ sbt -Dnetwork=testnet packageAll
 
 DEB package located in target folder. You can replace '\*' with actual package name:
 
-```bash
+```
 sudo dpkg -i target/*.deb
 ```
 
@@ -63,5 +58,4 @@ You can replace waves-all\*.jar with actual jar name \(it should have "all"-word
 java -jar target/waves-all*.jar path/to/config/file
 ```
 
-{% prettyhint type="info" %} For OSX - homebrew is preferable choice. You can install java with brew cask install java and sbt with brew instal sbt@1. Build/Test steps are common for any OS \(but you should use ‘\' instead of '/' in windows\). {% endprettyhint %}
-
+**Note.** For OSX - homebrew is preferable choice. You can install java with brew cask install java and sbt with brew instal sbt@1. Build/Test steps are common for any OS \(but you should use ‘\' instead of '/' in windows\). {% endprettyhint %}
