@@ -1,6 +1,6 @@
 # Waves Transactions
 
-Using [_**this library **_](https://www.npmjs.com/package/waves-transactions)you can easily create and sign transactions for Waves blockchain. It also allows you to multi-sign existing transactions or create them without signature at all.
+Using [_**this library **_](https://www.npmjs.com/package/@waves/waves-transactions)you can easily create and sign transactions for Waves blockchain. It also allows you to multi-sign existing transactions or create them without signature at all.
 
 This library is a set of transaction constructing functions:
 
