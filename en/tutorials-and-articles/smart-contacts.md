@@ -51,7 +51,7 @@ We began with a brief introduction about some definitions of smart contracts the
 
 [_**In this part**_](https://blog.wavesplatform.com/the-hitchhikers-guide-to-waves-smart-contracts-part-2-44621fd5a007), We focused more on the smart contracts language and tools for developers. We provided some use-cases implementation using our solution and explain more about our RIDE language.
 
-## 3. Stateful Smart Accounts. Part 1
+## 3. Stateful Smart Accounts. Part 1
 
 [_**In this article**_](https://blog.wavesplatform.com/stateful-smart-accounts-part-1-315731d8c06), We explore the combination of DataTransactions and Smart Accounts.
 
@@ -64,6 +64,4 @@ We began with a brief introduction about some definitions of smart contracts the
 [_**In this article**_](https://blog.wavesplatform.com/microsoft-azure-cloud-features-waves-smart-assets-and-smart-accounts-1a71b3c23c2b), We introduced Waves smart accounts and smart assets to developers on [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/blockchain?search=blockchain&page=1) in a special extension for [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride), which simplifies the process of creating and operating smart contracts.
 
 Two new virtual machine templates in Azure can be used for setting up new options on a public or private blockchain.
-
-
 
