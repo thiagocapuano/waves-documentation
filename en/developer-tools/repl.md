@@ -1,6 +1,6 @@
 # REPL
 
-It contains [_**javascript console**_](/smart-contracts/ride-language/waves-console-commands/waves-console-commands.md) for waves blockchain. It is built on top of [jsconsole](https://github.com/remy/jsconsole) and have predefined functions to work with waves.
+It contains javascript console for waves blockchain. It is built on top of [jsconsole](https://github.com/remy/jsconsole) and have predefined functions to work with waves.
 
 ## Builtin functions
 
