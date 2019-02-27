@@ -149,6 +149,7 @@
     * [Bitcoin Cash transfers](waves-client/transfers-and-gateways/bitcoin-cash-transfers.md)
     * [Dash transfers](waves-client/transfers-and-gateways/dash-transfers.md)
     * [Monero transfers](waves-client/transfers-and-gateways/monero-transfers.md)
+    * [Bitcoin SV transfers](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md)
     * [EURO and USD transfers](waves-client/transfers-and-gateways/eur-usd-transfers.md)
     * [Buying Waves using credit or debit card](waves-client/transfers-and-gateways/buying-waves-using-card.md)
   * [Waves DEX](waves-client/waves-dex.md)
@@ -229,4 +230,3 @@
 * [Asset Verification Protocol](proposals/asset-verification-protocol.md)
 * [Sponsored Transactions](proposals/sponsored-transactions.md)
 * [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
-
