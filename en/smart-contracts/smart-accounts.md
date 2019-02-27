@@ -1,8 +1,3 @@
-1. [Smart Accounts](#smart-accounts)
-2. [Set Script to an Account](#set-script-to-an-account)
-3. [Script Costs](#script-costs)
-4. [Trading With Smart Accounts](#trading-with-smart-accounts)
-
 ## Smart Accounts
 
 Basically, the smart account is an account with attached transactions checking **script**. In other words, a **script** which is attached to an account so the account can validate every transaction before confirming it.  
@@ -94,3 +89,4 @@ match tx {
 ```
 
 **Note.** To understand our language better, you can check our [_**RIDE Language Section**_](/smart-contracts/ride-language/ride-language.md) and go through our [_**Video Tutorials and Articles**_](/smart-contracts/video-tutorials-and-articles.md).
+
