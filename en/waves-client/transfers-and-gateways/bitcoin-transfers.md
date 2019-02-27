@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Bitcoin](#how-to-receive-bitcoin)
-* [How to send Bitcoin](#how-to-send-bitcoin)
-* [How to transfer Bitcoin to another Waves account](#how-to-transfer-bitcoin-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Bitcoin on its blockchain. This works through a so-called Multigateway approach: Bitcoins are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin token \(wBTC\) issued in the Waves blockchain. Every single Bitcoin token is backed 1:1 with the real Bitcoin.

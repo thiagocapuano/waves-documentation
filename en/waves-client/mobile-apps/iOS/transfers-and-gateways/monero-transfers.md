@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Monero](#how-to-receive-monero)
-* [How to send Monero](#how-to-send-monero)
-* [How to transfer Monero to another Waves account](#how-to-transfer-monero-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Monero on its blockchain. This works through a so-called Multigateway approach: Monero sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Monero token \(wMONERO\) issued in the Waves blockchain. Every single Monero token is backed 1:1 with the real Monero.

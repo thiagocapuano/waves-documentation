@@ -1,8 +1,4 @@
-## **Contents**:
-
-* [How to buy cryptocurrency](#how-to-buy-cryptocurrency)
-* [How to sell cryptocurrency](#how-to-sell-cryptocurrency)
-* [More info](#more-info)
+## Introduction
 
 Open up your Waves wallet and click on the DEX ![](/waves-client/mobile-apps/_assets/dex_01.png).
 
