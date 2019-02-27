@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Bitcoin Cash](#how-to-receive-bitcoin-cash)
-* [How to send Bitcoin Cash](#how-to-send-bitcoin-cash)
-* [How to transfer Bitcoin Cash to another Waves account](#how-to-transfer-bitcoin-cash-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Bitcoin Cash on its blockchain. This works through a so-called Multigateway approach: Bitcoin Cash sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin Cash token \(wMONERO\) issued in the Waves blockchain. Every single Bitcoin Cash token is backed 1:1 with the real Bitcoin Cash.

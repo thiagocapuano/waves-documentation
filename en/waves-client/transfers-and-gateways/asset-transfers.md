@@ -1,9 +1,3 @@
-**Menu**:
-
-* [How to receive Asset](#how-to-receive-asset)
-* [How to send Asset](#how-to-send-asset)
-* [More info](#more-info)
-
 ## How to receive Asset
 
 Think of the Waves account as a multi-wallet. It, obviously, supports Waves and also any other token existing on the Waves blockchain.

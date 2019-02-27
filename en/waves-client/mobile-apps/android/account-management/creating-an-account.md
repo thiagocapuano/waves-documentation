@@ -1,9 +1,3 @@
-## **Contents**:
-
-* [How to Create an Account](#how-to-create-an-account)
-* [Warning](#warning)
-* [More info](#more-info)
-
 ## How to Create an Account
 
 Download and install the latest version from the Google Store.  

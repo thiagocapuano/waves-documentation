@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Ethereum](#how-to-receive-ethereum)
-* [How to send Ethereum](#how-to-send-ethereum)
-* [How to transfer Ethereum to another Waves account](#how-to-transfer-ethereum-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Ethereum on its blockchain. This works through a so-called Multigateway approach: Ethereum sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Ethereum token \(wETH\) issued in the Waves blockchain. Every single Ethereum token is backed 1:1 with the real Ethereum.

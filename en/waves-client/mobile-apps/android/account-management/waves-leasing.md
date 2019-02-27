@@ -1,10 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to Lease Your Waves](#how-to-lease-your-waves)
-* [How to close active Lease](#how-to-close-active-lease)
-* [More info](#more-info)
-
 ## Introduction
 
 [**LPoS \(Leased Proof of Stake\)**](/platform-features/leased-proof-of-stake-lpos.md) gives you the opportunity to make the network stronger and safer while receiving more Waves and other assets as a reward for doing so. It's the so called **Leasing**.
