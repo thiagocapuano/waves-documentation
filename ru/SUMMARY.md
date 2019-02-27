@@ -44,6 +44,7 @@
   * [Переводы Bitcoin Cash](waves-client/transfers-and-gateways/bitcoin-cash-transfers.md)
   * [Переводы Dash](waves-client/transfers-and-gateways/dash-transfers.md)
   * [Переводы Monero](waves-client/transfers-and-gateways/monero-transfers.md)
+  * [Переводы Bitcoin SV](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md)
   * [Перевод EUR и USD](waves-client/transfers-and-gateways/eur-usd-transfers.md)
   * [Покупка Waves с банковской карты](waves-client/transfers-and-gateways/buying-waves-using-card.md)
 * [Waves DEX](waves-client/waves-dex.md)
