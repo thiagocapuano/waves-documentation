@@ -45,16 +45,16 @@ After filling, click on the **Buy** **----**, where **----** currency of the sel
 ![](/_assets/dex_06.png)
 
 **Note**: Please take into account the maximum order time is **29 days**. You can change the order time in the **Expiration** field.
-
 After the expiration of the selected period, the order will be forcibly canceled.
 
 The placed order will appears in the **My Open Orders** box and in the **Order Book** (upper right corner). All executed orders are available in the My Trade History section.
 
 ![](/_assets/dex_06_1.png)
 
-**Note**: You can cancel opened order by clicking on the **X** in the **My Open Orders**.
+**Note**: The trading fee in the **Asset/Asset** pair is **0.003 Waves**. For **Asset/Smart-asset** pair - **0.007 Waves** and **Smart-asset/Smart-asset** pair **0.011 Waves**.
+The fee will be frozen for the order fee. If the order is not executed and then canceled, the fee be will be unfrozen.
 
-**Attention** The commission for creating one **buy** or **sell** order** on the DEX platform is **0.003 Waves**. This amount will be frozen for the order fee. If the order is not executed and then canceled, the amount will be unfrozen.
+**Note**: You can cancel opened order by clicking on the **X** in the **My Open Orders**.
 
 ## How to sell cryptocurrency
 
@@ -73,16 +73,16 @@ After filling, click on the **Sell** **----**, where **----** currency of the se
 ![](/_assets/dex_09.png)
 
 **Note**: Please take into account the maximum order time is **29 days**. You can change the order time in the **Expiration** field.
-
 After the expiration of the selected period, the order will be forcibly canceled.
 
 The placed order will appears in the **My Open Orders** box and in the **Order Book** (upper right corner). All executed orders are available in the My Trade History section.
 
 ![](/_assets/dex_10.png)
 
-**Note**: You can cancel opened order by clicking on the **X** in the **My Open Orders**.
+**Note**: The trading fee in the **Asset/Asset** pair is **0.003 Waves**. For **Asset/Smart-asset** pair - **0.007 Waves** and **Smart-asset/Smart-asset** pair **0.011 Waves**.
+The fee will be frozen for the order fee. If the order is not executed and then canceled, the fee be will be unfrozen.
 
-**Attention** The commission for creating one **buy** or **sell** order** on the DEX platform is **0.003 Waves**. This amount will be frozen for the order fee. If the order is not executed and then canceled, the amount will be unfrozen.
+**Note**: You can cancel opened order by clicking on the **X** in the **My Open Orders**.
 
 > _Before sending, receiving and trading crypto assets, educate yourself to make informed decisions. Crypto assets are volatile, and the prices can go up and down. Carefully evaluate your trading goals and the financial risk you are willing to take.
 > Please beware that Wavesplatform does not provide financial, tax, or legal advice. You should make such decisions on your own or consult with reliable experts_.
