@@ -177,7 +177,7 @@ match tx {
 
 ## Union Types
 
-Union Types is a powerful concept in many programming languages, expressiong a capability of a varaible to be one of allowed types.  
+Union Types is a powerful concept in many programming languages, expressing a capability of a varaible to be one of allowed types.  
 Union types intersect, e.g.  
 given
 
