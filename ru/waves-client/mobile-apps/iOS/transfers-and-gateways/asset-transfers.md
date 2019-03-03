@@ -40,7 +40,7 @@
 Как это сделать? Просто создайте исходящий перевод, используя описание выше, и нажмите на **WAVES** под кнопкой **Продолжить**.
 Выберите доступный спонсорский ассет и нажмите кнопку **Продолжить**.
 
-![](/waves-client/mobile-apps/_assets/_assets/transaction_fee.png)
+![](/waves-client/mobile-apps/_assets/transaction_fee.png)
 
 ___
 
