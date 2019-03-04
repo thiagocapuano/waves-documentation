@@ -2,22 +2,22 @@
 
 ## Install Waves Client
 
-As a user, the first step that you need to do is to install Waves client. To accomplish that, you will need to go through [_**Install Waves Client Guide.**_](/waves-client/install-waves-client.md) The application is very light-weight \(~5MB\) and therefore downloaded within seconds.
+As a user, the first step that you need to do is to install Waves client. To accomplish that, you will need to go through [_**Install Waves Client Guide**_](/waves-client/install-waves-client.md) The application is very light-weight and therefore downloaded within seconds.
 
 **The Waves client is available as:**
 
 * [**Desktop Client**](https://wavesplatform.com/product)
-* [**Online Client**](https://client.wavesplatform.com/)
-
-**Note.** you can use [_**browser version of the Client**_](https://chrome.google.com/webstore/detail/wavesliteapp/kfmcaklajknfekomaflnhkjjkcjabogm?hl=en) as well.
+* [**Online Client**](https://client.wavesplatform.com)
+* [**iOS Client**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
+* [**Android Client**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 
 ## Account Management
 
-After installing Waves Client, you will need to create an account. the account can be created through our [_**Account Management Guide**_](/waves-client/account-management.md) which includes all required information about your account in addition to [Waves Keeper](/waves-client/account-management/waves-keeper.md) feature.
+After installing Waves Client, you will need to create an account. The account can be created through our [_**Account Management Guide**_](/waves-client/account-management.md) which includes all required information about your account in addition to [Waves Keeper](/waves-client/account-management/waves-keeper.md) feature.
 
 ## Transfers and Gateways
 
-After creating your account, it's the time to make some transfers and deal with transactions. To be familiar with our transfers and gateways please check [_**Transfers and Gateways Guide**_](/waves-client/wallet-management.md). it includes all details about send and deposit operations for external cryptocurrencies which are supported within Waves Platform. All transactions with external coins are processing with the [_**payment gateways**_](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md).
+After creating your account, it's the time to make some transfers and deal with transactions. To be familiar with our transfers and gateways please check [_**Transfers and Gateways Guide**_](/waves-client/wallet-management.md). It includes all details about send and deposit operations for external cryptocurrencies which are supported within Waves Platform. All transactions with external coins are processing with the [_**payment gateways**_](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md).
 
 **Note.** Each asset issued on Waves can be traded right after that and Gateways will be needed for cryptocurrencies which are not included on Waves Platform.
 
@@ -31,7 +31,7 @@ To trade different assets back and forth between you and other users. please [_*
 
 ## Mobile Applications
 
-You can also use [_**mobile applications on Android and IOS**_](/waves-client/mobile-apps.md) to have basic functionality, such as: sending and receiving Waves tokens and Waves based assets, trading on the DEX platform.
+Also, you can use [_**mobile applications**_](/waves-client/mobile-apps.md) on iOS and Android devices to have basic functionality, such as: Waves leasing, sending and receiving Waves tokens and Waves based assets, trading on the DEX platform and token burning.
 
 ## Script Transaction
 
@@ -40,4 +40,3 @@ You can also use [_**mobile applications on Android and IOS**_](/waves-client/mo
 ## Security information
 
 Please check our [_**Security notes**_](/waves-client/security.md) to guarantee the safety of your funds.
-
