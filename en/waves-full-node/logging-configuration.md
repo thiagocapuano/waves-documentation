@@ -12,7 +12,7 @@ By [default](https://github.com/wavesplatform/Waves/blob/master/src/main/resourc
 
 ## Files
 
-* `-Dlogback.stdout.level={LEVEL_OF_LOGGING}`. The default level is `DEBUG`. Changes the level of logging, see below about it.
+* `-Dlogback.file.level={LEVEL_OF_LOGGING}`. The default level is `DEBUG`. Changes the level of logging, see below about it.
 * `-Dlogback.file.directory=/path/to/directory/for/logs`. The default directory is `{waves.directory}/log`.
   Changes the directory for logs. Note, the node must have rights to write files to this directory.
 
