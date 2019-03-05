@@ -40,3 +40,9 @@ Also, you can use [_**mobile applications**_](/waves-client/mobile-apps.md) on i
 ## Security information
 
 Please check our [_**Security notes**_](/waves-client/security.md) to guarantee the safety of your funds.
+
+___
+
+## More info
+
+If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
