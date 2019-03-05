@@ -31,7 +31,7 @@
 
 ## Script транзакция
 
-[_**Как создать script-транзакцию**_](/waves-client/advanced_features/script_transaction.md). Script-транзакции позволяют расширить доступную функциональность приложения Waves. Одним из применений script-транзакции является создание кошелька с мульти-подписью. Для получения дополнительной информации, пожалуйста, изучите следующую [_**статью**_](/ smart-contract / video-tutorials-and-articles.md). Кроме того, script может быть разработан с помощью [_**Waves Ride IDE**_](/smart-contracts/waves-contracts-language-description.md).
+[_**Как создать script-транзакцию**_](/waves-client/advanced_features/script_transaction.md). Script-транзакции позволяют расширить доступную функциональность приложения Waves. Одним из применений script-транзакции является создание кошелька с мульти-подписью. Для получения дополнительной информации, пожалуйста, изучите следующую [_**статью**_](/ smart-contract / video-tutorials-and-articles.md). Кроме того, script может быть разработан с помощью [_**Waves Ride IDE**_](https://docs.wavesplatform.com/en/smart-contracts/waves-contracts-language-description.html).
 
 ## Безопасность
 
