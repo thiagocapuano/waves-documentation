@@ -19,11 +19,11 @@ After installing Waves Client, you will need to create an account. The account c
 
 After creating your account, it's the time to make some transfers and deal with transactions. To be familiar with our transfers and gateways please check [_**Transfers and Gateways Guide**_](/waves-client/wallet-management.md). It includes all details about send and deposit operations for external cryptocurrencies which are supported within Waves Platform. All transactions with external coins are processing with the [_**payment gateways**_](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md).
 
-**Note.** Each asset issued on Waves can be traded right after that and Gateways will be needed for cryptocurrencies which are not included on Waves Platform.
-
 ## Assets Management
 
 On our client you can also issue your own assets, The [_**Assets Management Guide**_](/waves-client/assets-management.md) includes all details about Issue and Reissue Assets which allows you to create your own asset or reissue more of the same token in the future to increase the total supply of tokens or decrease it by using the burn feature. Also in this guide you will find desription of the Mass Transfer feuture, Sponsored transactions and more.
+
+**Note** Each asset issued on Waves becomes available on Waves DEX right after creation.
 
 ## Waves DEX
 
