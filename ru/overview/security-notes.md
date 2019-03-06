@@ -16,9 +16,9 @@
 
 ## Не забудьте создать резервную копию seed фразы! Как это сделать:
 
-* [Онлайн/Настольное приложение](https://docs.wavesplatform.com/en/waves-client/account-management/creating-an-account.html#warning)
-* [iOS приложение](https://docs.wavesplatform.com/en/waves-client/mobile-apps/iOS/account-management/creating-an-account.html#warning)
-* [Android приложение](https://docs.wavesplatform.com/en/waves-client/mobile-apps/android/account-management/creating-an-account.html#warning)
+* [Онлайн/Настольное приложение](https://docs.wavesplatform.com/ru/waves-client/account-management/creating-an-account.html#warning)
+* [iOS приложение](https://docs.wavesplatform.com/ru/waves-client/mobile-apps/iOS/account-management/creating-an-account.html#warning)
+* [Android приложение](https://docs.wavesplatform.com/ru/waves-client/mobile-apps/android/account-management/creating-an-account.html#warning)
 
 Во время создания учетной записи вам также будет предложено задать пароль для вашего адреса.
 
