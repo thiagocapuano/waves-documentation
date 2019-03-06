@@ -1,10 +1,12 @@
 ## Установка Waves приложения
 
-Вашим первым шагом в качестве пользователя платформы Waves будет установка Waves приложения. Для этого вам необходимо воспользоваться [_**руководством по установке Waves приложения**_](/waves-client/install-waves-client.md). Приложение очень легкое, поэтому установка не займет много времени.
+Вашим первым шагом в качестве пользователя платформы Waves будет установка Waves приложения. Для этого вам необходимо воспользоваться [_**руководством по установке Waves приложения**_](/waves-client/install-waves-client.md). Приложение очень легкое, поэтому установка и запуск не займет много времени.
 
 **Waves приложения доступены в виде:**
 
-* [**Настольного приложения**](https://wavesplatform.com/product)
+* [**Windows приложения**](https://wavesplatform.com/WavesClient-win.zip)
+* [**Mac приложения**](https://wavesplatform.com/WavesClient-mac.dmg)
+* [**Linux приложения**](https://wavesplatform.com/WavesClient-linux.deb)
 * [**Онлайн приложения**](https://client.wavesplatform.com)
 * [**iOS приложения**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
 * [**Android приложения**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)

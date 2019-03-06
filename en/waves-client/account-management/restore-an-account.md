@@ -1,7 +1,6 @@
 ## How to restore your account
 
-You can use either online version of the client, or standalone version for Mac, PC or Linux. All versions support automatic update!  
-Also downloads are available from the official site - [https://wavesplatform.com/product](https://wavesplatform.com/product)
+You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/WavesClient-linux.deb). All versions support automatic update!
 
 Choose and open up your Waves wallet.
 
@@ -48,4 +47,3 @@ After clicking on the **Show Pairing Code** you will be getting QR-code. After t
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
-
