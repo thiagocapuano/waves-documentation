@@ -18,4 +18,8 @@ After that, you need to follow the step by step guide for [creating your account
 
 Also, you can use [_**mobile applications**_](/waves-client/mobile-apps.md) on iOS and Android devices to have basic functionality, such as: Waves leasing, sending and receiving Waves tokens and Waves based assets, trading on the DEX platform and token burning.
 
-![](/_assets/install-waves-client-screenshot.png)
+For a quick start, please visit our overview article [**Getting started**](/getting-started/as-a-user.md).
+
+___
+
+If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
