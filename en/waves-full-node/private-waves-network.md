@@ -90,11 +90,13 @@ waves
         allow-multiple-lease-cancel-transaction-until-timestamp: 0
         reset-effective-balances-at-height: 1
         allow-leased-balance-transfer-until: 0
-        block-version-3-after: 0
+        block-version-3-after-height: 0
         pre-activated-features = {
           2 = 0
         }
-        # ...
+        double-features-periods-after-height = 1000000000
+        max-transaction-time-back-offset = 120m
+        max-transaction-time-forward-offset = 90m
       }
       genesis 
       {
