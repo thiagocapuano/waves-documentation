@@ -16,7 +16,7 @@ Waves — безопасная платформа. Открытость кода
 
 **Официальные ресурсы Waves**
 
-* [**официальный вэб-сайт**](https://wavesplatform.com)
+* [**Официальный вэб-сайт**](https://wavesplatform.com)
 * [**Windows приложение**](https://wavesplatform.com/WavesClient-win.zip)
 * [**Mac приложение**](https://wavesplatform.com/WavesClient-mac.dmg)
 * [**Linux приложение**](https://wavesplatform.com/WavesClient-linux.deb)
