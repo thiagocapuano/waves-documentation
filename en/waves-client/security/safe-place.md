@@ -18,11 +18,14 @@ One of the most common forms of scamming is phishing, which is when scammers cre
 
 **Official Waves resources**
 
-* Official website - https://wavesplatform.com
-* Online client - https://client.wavesplatform.com
-* Client on GitHub - https://github.com/wavesplatform/WavesGUI
-* Mobile app on App Store - https://itunes.apple.com/us/app/waves-wallet/id1233158971?mt=8
-* Mobile app on Google Play - https://play.google.com/store/apps/details?id=com.wavesplatform.wallet
+* [**Official website**](https://wavesplatform.com)
+* [**Windows Client**](https://wavesplatform.com/WavesClient-win.zip)
+* [**Mac Client**](https://wavesplatform.com/WavesClient-mac.dmg)
+* [**Linux Client**](https://wavesplatform.com/WavesClient-linux.deb)
+* [**Online Client**](https://client.wavesplatform.com)
+* [**iOS Client**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
+* [**Android Client**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
+* [**Client on GitHub**](https://github.com/wavesplatform/WavesGUI)
 
 Cloned company web pages are the main ways of distributing phishing links. Subscribe to our official communities on social networks, follow our posts, and do not fall victim to scammers:
 
@@ -45,16 +48,11 @@ Cloned company web pages are the main ways of distributing phishing links. Subsc
 
 Use the following guidelines to secure your funds:
 
- * Make sure your connection is through a secured SSL server. There should be a closed lock icon in the address bar of your browser (depending on the browser, it could be on the left or the right).
- * Use official security software. Do not install unknown software which could be hacked.
- * Regularly update your browser and operating system.
- * Do not use browsers that have extensions or plugins to access your account, as they can gain access to your secret phrase.
- * Do not open emails or links from unknown senders.
- * Do not access your wallet when using public WiFi or someone else’s device.
+* Make sure your connection is through a secured SSL server. There should be a closed lock icon in the address bar of your browser (depending on the browser, it could be on the left or the right).
+* Use official security software. Do not install unknown software which could be hacked.
+* Regularly update your browser and operating system.
+* Do not use browsers that have extensions or plugins to access your account, as they can gain access to your secret phrase.
+* Do not open emails or links from unknown senders.
+* Do not access your wallet when using public WiFi or someone else’s device.
 
-Read more:
-
- * [Account creation](/waves-client/account-management/creating-an-account.md)
- * [Account recovery](/waves-client/account-management/restore-an-account.md)
- * [What is a SEED phrase?](/waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
- * [Spam transactions](/waves-client/security/spam-transactions.md)
+For a quick start, please visit our overview article [**Getting started**](/getting-started/as-a-user.md).
