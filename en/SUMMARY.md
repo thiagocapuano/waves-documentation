@@ -206,7 +206,7 @@
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)  
 * [FAQ](waves-client/faq.md)
-  * [Undefined transactions](waves-client/security/spam-transactions.md)
+  * [Suspicious transactions](waves-client/security/spam-transactions.md)
   * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
   * [I have enough Waves but I can't create an order.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)

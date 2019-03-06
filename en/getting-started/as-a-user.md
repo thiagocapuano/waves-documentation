@@ -41,7 +41,7 @@ Also, you can use [_**mobile applications**_](/waves-client/mobile-apps.md) on i
 
 ## Security information
 
-Please check our [_**Security notes**_](/waves-client/security.md) to guarantee the safety of your funds.
+Please check our [_**Security notes**_](/overview/security-notes.md) to guarantee the safety of your funds.
 
 ___
 
