@@ -7,18 +7,18 @@
 вам доступ к ключам. По умолчанию, SEED представляет собой строку из 15 английских слов -
 **ВНИМАНИЕ: если вы потеряете SEED, вы потеряете доступ к своей учетной записи**.
 
-## Не забудьте создать резервную копию seed фразы! Как это сделать:
-
-* [Онлайн/Настольное приложение](https://docs.wavesplatform.com/en/waves-client/account-management/creating-an-account.html#warning)
-* [iOS приложение](https://docs.wavesplatform.com/en/waves-client/mobile-apps/iOS/account-management/creating-an-account.html#warning)
-* [Android приложение](https://docs.wavesplatform.com/en/waves-client/mobile-apps/android/account-management/creating-an-account.html#warning)
-
 Мы настоятельно рекомендуем вам дополнительно создать "резервную копию" SEED на листе бумаги и положить его в надежное место.
 Предоставленная строка из 15 английских слов является максимально безопасной с точки зрения криптографии и, в настоящий момент,
 не существует технологии, способной её взломать \(вероятность того, что кто-то может вломать кодовую фразу, заданную клиентом,
 составляет 1:(2048^15)\). Каждый SEED привязан только к одной учетной записи Waves. Каждая цифра, символ, символ и пробел
 считаются: стоит добавить всего один пробел к SEED-у и откроется другая учетная запись. Если есть неправильный символ, открывается
 другая учетная запись. Если есть орфографическая ошибка, открывается другая учетная запись.
+
+## Не забудьте создать резервную копию seed фразы! Как это сделать:
+
+* [Онлайн/Настольное приложение](https://docs.wavesplatform.com/en/waves-client/account-management/creating-an-account.html#warning)
+* [iOS приложение](https://docs.wavesplatform.com/en/waves-client/mobile-apps/iOS/account-management/creating-an-account.html#warning)
+* [Android приложение](https://docs.wavesplatform.com/en/waves-client/mobile-apps/android/account-management/creating-an-account.html#warning)
 
 Во время создания учетной записи вам также будет предложено задать пароль для вашего адреса.
 
