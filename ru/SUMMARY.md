@@ -110,7 +110,7 @@
       * [Android: Использование биржи DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
 * [Часто задаваемые вопросы](waves-client/faq.md)
-  * [Неопознанные транзакции](waves-client/security/spam-transactions.md)
+  * [Подозрительные транзакции](waves-client/security/spam-transactions.md)
   * [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
   * [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [У меня есть достаточно Waves, но я не могу открыть ордер.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
