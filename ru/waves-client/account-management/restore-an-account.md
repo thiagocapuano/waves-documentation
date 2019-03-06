@@ -1,8 +1,8 @@
 ## Как восстановить доступ к аккаунту
 
-Вы можете использовать онлайн или настольную версию приложения на Mac, PC или Linux. Все версии поддерживают автоматическое обновление. Загрузки доступны на официальном сайте - https://wavesplatform.com/product
+Вы можете использовать [**Онлайн**](https://client.wavesplatform.com) или настольную версию приложения на [**Windows**](https://wavesplatform.com/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/WavesClient-mac.dmg) или [**Linux**](https://wavesplatform.com/WavesClient-linux.deb). Все версии поддерживают автоматическое обновление.
 
-Выберите и откройте свой Waves кошелек.
+Выберите и откройте выбранный тип приложения.
 
 Нажмите **Восстановить кошелёк**.
 
