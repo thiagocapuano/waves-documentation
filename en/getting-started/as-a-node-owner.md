@@ -37,10 +37,14 @@ Basically, the node should be upgraded by following the [_**upgrading instructio
 
 ### Dealing with Forks 
 
-You can check the blockchain height or the last 100 signatures of blocks to understand if your node is on fork or not.
+You can check the blockchain height or the last 100 signatures of blocks to understand if your node is on fork or not. You can use [**_chaincmp_**](https://github.com/wavesplatform/gowaves/releases/tag/v0.1.2) utility to compare blockchains on the node and reference nodes.
 
-Your node can be in one of two possibilities: your node on fork with height **less** than 2000 blocks or **more** than 2000 blocks**.**  
-In case that your node is on fork with a height less than 2000 blocks, here you can implement **rollback**_** **through _[**rollback instructions**](/waves-full-node/how-to-rollback-a-node.md). Otherwise, you need to choose an [_**option for Getting Actual Blockchain**_](/waves-full-node/options-for-getting-actual-blockchain.md).
+
+Your node can be in one of two possibilities:
+* your node on fork with height **less** than 2000 blocks or **more** than 2000 blocks**.**  
+In case that your node is on fork with a height less than 2000 blocks, here you can implement **rollback**_** **through _[**rollback instructions**](/waves-full-node/how-to-rollback-a-node.md). 
+
+* Otherwise, you need to choose an [_**option for Getting Actual Blockchain**_](/waves-full-node/options-for-getting-actual-blockchain.md).
 
 {% prettyhint type="info" %} If you're interested in joining the Testnet, you will need to follow these steps for <a href="/waves-full-node/joining-testnet.md"> &nbsp;Joining The Testnet. </a> {% endprettyhint %}
 
