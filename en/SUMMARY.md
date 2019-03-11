@@ -75,6 +75,7 @@
   * [WavesJ](waves-api-and-sdk/client-libraries/wavesj.md)
   * [WavesCS](waves-api-and-sdk/client-libraries/wavescs.md)
   * [WavesC](waves-api-and-sdk/client-libraries/waves-c.md)
+  * [GoWaves](waves-api-and-sdk/client-libraries/gowaves.md)
   * [WavesRS](waves-api-and-sdk/client-libraries/wavesrs.md)
   * [Waves Signature Adapter](waves-api-and-sdk/client-libraries/waves-signature-adapter.md)
   * [Waves Transactions](waves-api-and-sdk/client-libraries/waves-transactions.md)
@@ -204,7 +205,7 @@
       * [Monero transfers](waves-client/mobile-apps/android/transfers-and-gateways/monero-transfers.md)
       * [Buying Waves using credit or debit card](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
-      * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)  
+      * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 * [FAQ](waves-client/faq.md)
   * [Suspicious transactions](waves-client/security/spam-transactions.md)
   * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
@@ -229,3 +230,4 @@
 * [Asset Verification Protocol](proposals/asset-verification-protocol.md)
 * [Sponsored Transactions](proposals/sponsored-transactions.md)
 * [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
+
