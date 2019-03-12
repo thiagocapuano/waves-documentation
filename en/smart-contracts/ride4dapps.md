@@ -1,6 +1,6 @@
 # Ride4DApps
 
-The main goal is to enable classic _**'DApps'**_ approach on Waves by Adding the ability to define functions in a contract. Upon contract invocation, the state/payments are made according to what function states to do and does it automatically.
+The main goal is to enable classic _**'DApps'**_ approach on Waves by adding the ability to define functions in a contract. Upon contract invocation, the state/payments are made according to what function states to do and does it automatically.
 
 ## Functions Types
 
