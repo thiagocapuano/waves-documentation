@@ -23,7 +23,7 @@ func verify() = {
 
 ### **Callable Functions**
 
-Callable functions are the functions which are defined inside ride script, and can be invoked through _**ContractInvocationTransaction**_. _**ContractInvocationTransaction**_ is a new transaction type that allows to invoke a function of a contract, to pass arguments and additional payment for a contract. For accessing the data of an invoked function \(such as getting how many waves/tokens were attached\), You need to use _**@Callable\(inv\)**_ binding where the parameter _**inv**_ is of type _**Invocation**_. Basically _**Invocation**_ is a data structure of:
+Callable functions are the functions which are defined inside ride script, and can be invoked through _**InvokeScriptTransaction**_. _**InvokeScriptTransaction**_ is a new transaction type that allows to invoke a function of a contract, to pass arguments and additional payment for a contract. For accessing the data of an invoked function \(such as getting how many waves/tokens were attached\), You need to use _**@Callable\(inv\)**_ binding where the parameter _**inv**_ is of type _**Invocation**_. Basically _**Invocation**_ is a data structure of:
 
 * caller: Address.
 * contractAddress: Address.
