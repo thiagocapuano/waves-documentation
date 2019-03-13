@@ -45,6 +45,8 @@ Unlike verifier function, _**Callable function**_ can return one of:
 * _**TransferSet,**_ It's a keyValue list which defines what outgoing payments will be made upon contract invocation.
 * _**ContractResult, **_It's_** **_the combination of WriteSet and TransferSet.
 
+The sender pays fees to the miner for the invocation. The sender can optionally attach payment in WAVES or tokens, and upon invocation the contract state can be changed and the contract can make multiple payments. By default, a contract’s attributes (the contract itself, contract data and contract tokens) are controlled by the account’s private key.
+
 
 {% prettyhint type="info" %} As a result of these functions, transfers such as transfer of funds from the address of the contract and state records such as date of the transaction from the account of the contract can be generated. {% endprettyhint %}
 
