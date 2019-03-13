@@ -10,7 +10,9 @@ In this example, multiple accounts can deposit their funds and safely take them 
 
 A dApp wallet is implemented where you can send payment as WAVES and save them in the wallet via the callable _**deposit function**_ or you can take them back via the callable _**withdraw function**_.
 
-_**As a first step**_, let's write a function which gets how much WAVES did the **contract issuer** give to the contract. let's name this function **getBalance\(address\) :Int. **The getInteger function gets data that were put into the blockhain where address is `this` and the key is `toBase58String(address.bytes)`.
+_**As a first step**_, let's write a function which gets how much WAVES did the **contract issuer** give to the contract. let's name this function **getBalance\(address\) :Int. **
+
+The getInteger function gets data that were put into the blockhain where address is `this` and the key is `toBase58String(address.bytes)`. 
 
 ```js
 func getBalance(address: Address) : Int = {
