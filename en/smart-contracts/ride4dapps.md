@@ -2,6 +2,8 @@
 
 The main goal is to enable classic _**'DApps'**_ approach on Waves by adding the ability to define functions in a contract.
 
+![](../_assets/RIDE4Dapp.png)
+
 ## Functions Types
 
 In RIDE4DApps, we introduce two types of functions: Callable functions and Verifier function.
@@ -43,6 +45,8 @@ Unlike verifier function, _**Callable function**_ can return one of:
 * _**TransferSet,**_ It's a keyValue list which defines what outgoing payments will be made upon contract invocation.
 * _**ContractResult, **_It's_** **_the combination of WriteSet and TransferSet.
 
+
+{% prettyhint type="info" %} As a result of these functions, **_transfers _**such as transfer of funds from the address of the contract and **_state records_** such as date of the transaction from the account of the contract can be generated. {% endprettyhint %}
 
 
 
