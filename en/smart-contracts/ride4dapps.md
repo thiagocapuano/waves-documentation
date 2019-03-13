@@ -35,7 +35,6 @@ Those functions are invoked using **_InvokeScriptTransaction_**, which specifies
 For accessing the data of an invoked function \(such as getting how many waves/tokens were attached\), You need to use _**@Callable\(inv\)**_ binding where the parameter _**inv**_ is of type _**Invocation**_. Basically _**Invocation**_ is a data structure of:
 
 * caller: Address.
-* `this`(global).
 * payment: Payment\|Un, where Payment consist of amount: Long and assetId: ByteVector \| Unit.
 
 Unlike verifier function, _**Callable function**_ can return one of: 

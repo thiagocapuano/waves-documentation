@@ -89,6 +89,7 @@
   * [Smart Accounts](smart-contracts/smart-accounts.md)
   * [Smart Assets](smart-contracts/smart-assets.md)
 * [Ride4DApps](smart-contracts/ride4dapps.md)
+  * [Examples](smart-contracts/ride4dapps/examples.md)
 * [RIDE Language](smart-contracts/ride-language/ride-language.md)
   * [Language Description](smart-contracts/ride-language/language-description.md)
   * [Effective RIDE Examples](smart-contracts/ride-language/effective-ride-examples.md)
