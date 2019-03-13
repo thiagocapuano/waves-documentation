@@ -46,7 +46,7 @@ Unlike verifier function, _**Callable function**_ can return one of:
 * _**ContractResult, **_It's_** **_the combination of WriteSet and TransferSet.
 
 
-{% prettyhint type="info" %} As a result of these functions, **_transfers _**such as transfer of funds from the address of the contract and **_state records_** such as date of the transaction from the account of the contract can be generated. {% endprettyhint %}
+{% prettyhint type="info" %} As a result of these functions, transfers such as transfer of funds from the address of the contract and state records such as date of the transaction from the account of the contract can be generated. {% endprettyhint %}
 
 
 
