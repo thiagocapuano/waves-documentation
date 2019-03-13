@@ -46,40 +46,7 @@ Unlike verifier function, _**Callable function**_ can return one of:
 
 The sender pays fees to the miner for the invocation. The sender can optionally attach payment in WAVES or tokens, and upon invocation the contract state can be changed and the contract can make multiple payments. By default, a contract’s attributes (the contract itself, contract data and contract tokens) are controlled by the account’s private key.
 
-{% prettyhint type="info" %} In addition, there’re functions that are not Verifier and are not Callable which means that they cannot be called via InvokeScriptTransaction but can be called by other functions. {% endprettyhint %}
-
-
-
-### Example
-
-
-when **_InvokeScriptTransaction_** calls the callable function  `addTransaction` it calls the function `isCorrect`.
-
-```js
-func isCorrect(id : ByteVector) : Boolean = {
-   let tx = transactionById(id)
-
-	match (tx) {
-		case tx : TransferTransaction => tx.amount > 100 
-		case _ => false
-	}
-}
-
-@Callable(i)
-func addTransaction(id : ByteVector) = {
-	if (!isCorrect(id)) then throw("Transaction is not correct")
-	else {
-		WriteSet(List(DataEntry(toBase58String(id), true)))
-	}
-}
-
-
-@Verifier(tx)
-func verify() = {
-   sigVerify(tx.bodyBytes, tx.proofs[0], tx.senderPublicKey)
-}
-
-```
+{% prettyhint type="info" %} In addition, there’re functions that are not Verifier and are not Callable which means that they cannot be called via InvokeScriptTransaction but can be called by other functions. In this case, you need to define this kind of functions at the begging of your code before any callable or verifier functions which means that recursive Calls is not possible {% endprettyhint %}
 
 
 
