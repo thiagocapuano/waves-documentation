@@ -1,6 +1,6 @@
 ## How to restore your account
 
-You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/WavesClient-linux.deb). All versions support automatic update!
+You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb). All versions support automatic update!
 
 Choose and open up your Waves wallet.
 

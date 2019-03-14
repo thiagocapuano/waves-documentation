@@ -1,6 +1,6 @@
 ## Как создать Waves аккаунт
 
-Вы можете использовать [**Онлайн**](https://client.wavesplatform.com) или настольную версию приложения на [**Windows**](https://wavesplatform.com/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/WavesClient-mac.dmg) или [**Linux**](https://wavesplatform.com/WavesClient-linux.deb). Все версии поддерживают автоматическое обновление.
+Вы можете использовать [**Онлайн**](https://client.wavesplatform.com) или настольную версию приложения на [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) или [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb). Все версии поддерживают автоматическое обновление.
 
 Выберите и откройте выбранный тип приложения.
 
