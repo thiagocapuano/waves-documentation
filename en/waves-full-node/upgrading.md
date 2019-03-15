@@ -38,7 +38,7 @@ Basically, the node should be upgraded as follows:
    ```
 5. Import blocks from the binary file:
    ```bash
-   sudo -u waves importer /etc/waves/waves.conf /usr/share/waves/mainnet-[some height]
+   sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
    ```
 6. After import start the node:
    ```bash
