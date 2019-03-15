@@ -13,7 +13,7 @@
 
 Basically, the node should be upgraded as follows:  
 1. Stop the node  
-2. Export all existing blocks in the blockchain to a binary file. Please read the documentation about [_**export and import of the blockchain**_](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md). or [_**download the binary file**_](/waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md).  
+2. Export all existing blocks in the blockchain to a binary file. Please read the documentation about [_**export and import of the blockchain**_](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md) or [_**download the binary file**_](/waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md).  
 3. Update node's executables  
 4. Import binary file  
 5. Start the node
