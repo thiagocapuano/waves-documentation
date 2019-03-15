@@ -47,5 +47,5 @@ Basically, the node should be upgraded as follows:
 
 ## Update the Configuration
 
-Please, read the updated documentation of [_**Waves node configuration file.**_](/waves-full-node/configuration-parameters.md)
+Please, read the updated documentation of [_**Waves node configuration file**_](/waves-full-node/configuration-parameters.md)_**.**_
 
