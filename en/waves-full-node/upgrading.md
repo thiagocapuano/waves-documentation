@@ -26,7 +26,7 @@ Basically, the node should be upgraded as follows:
    ```
 2. After stopping the node execute following command to export existing blocks to a binary file:
    ```bash
-   sudo -u waves exporter /etc/waves/waves.conf /usr/share/waves/mainnet
+   sudo -u waves exporter /etc/waves/waves.conf [output-file-name] [height]
    ```
 3. Remove data folder:
    ```bash
