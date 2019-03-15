@@ -24,7 +24,7 @@ Basically, the node should be upgraded as follows:
    ```bash
    sudo systemctl stop waves
    ```
-2. After stopping the node execute following command to export existing blocks to a binary file:
+2. After stopping the node execute following command to [export existing blocks to a binary file](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
    ```bash
    sudo -u waves exporter /etc/waves/waves.conf [output-file-name] [height]
    ```
@@ -36,17 +36,13 @@ Basically, the node should be upgraded as follows:
    ```bash
    sudo dpkg -i waves_X.Y.Z_all.deb
    ```
-5. Import blocks from the binary file:
+5. [Import blocks from the binary file](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
    ```bash
    sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
    ```
 6. After import start the node:
    ```bash
    sudo systemctl start waves
-   ```
-7. Do not forget to remove binary blockchain files if you don't need them any more:
-   ```bash
-   sudo rm /usr/share/waves/mainnet-[some height]
    ```
 
 ## Update the Configuration
