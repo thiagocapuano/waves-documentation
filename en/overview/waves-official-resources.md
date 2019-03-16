@@ -2,9 +2,9 @@
 
 * [**Official web-page**](https://wavesplatform.com)
 * [**Source code on GitHub**](https://github.com/wavesplatform)
-* [**Windows Client**](https://wavesplatform.com/WavesClient-win.zip)
-* [**Mac Client**](https://wavesplatform.com/WavesClient-mac.dmg)
-* [**Linux Client**](https://wavesplatform.com/WavesClient-linux.deb)
+* [**Windows Client**](https://wavesplatform.com/files/WavesClient-win.zip)
+* [**Mac Client**](https://wavesplatform.com/files/WavesClient-mac.dmg)
+* [**Linux Client**](https://wavesplatform.com/files/WavesClient-linux.deb)
 * [**Онлайн Client**](https://client.wavesplatform.com)
 * [**iOS App**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
 * [**Android App**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
