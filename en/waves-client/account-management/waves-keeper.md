@@ -116,6 +116,44 @@ If you need to import an account in the future, just repeat the steps above.
 
 Thus, with Waves Keeper, you can always make sure that you are in the right place and confirm outgoing transactions from your Waves account.
 
+## How to use permissions control
+
+The permissions control feature allows automatizing the signing requests from the whitelisted websites. Also, you can select the maximum period to automatize actions from the white list.
+
+Open any resource that supports authorize with **Waves Keeper**, e.g. [LiquidWave](https://liquidwave.io/)
+
+On the resource page find and click on the **Authorize with Waves Client**. A new window will appear with a new request from the Waves keeper.
+
+Here you can allow a one-time request or immediately configure **Permission details** if you plan on doing several operations. For it select the time under **Resolution time** and the maximum amount under **Spending limit**.
+
+To complete the verification process click on the **Auth**.
+
+![](/_assets/waves_keeper_15.png)
+
+To edit the applying permissions open keeper settings by clicking the button on the top right corner ![](/_assets/waves_keeper_15.1.png).
+
+After that, you'll see **Settings** page. Click on the **Permissions control** and select **Custom list** for the manual list editing or **White list** to edit the basic list with the official resources.
+
+![](/_assets/waves_keeper_15.2.png)
+
+To edit the settings, click on the settings next to the required resource
+
+![](/_assets/waves_keeper_16.png)
+
+The **Permission details** will appear.
+
+Select **Resolution time** and the maximum amount under **Spending limit**.
+Click on the **Save** or **Delete** to remove unused resource.
+
+![](/_assets/waves_keeper_17.png)
+
+To edit resources from the **White list** follow the same logic:
+
+Select **Resolution time** and the maximum amount under **Spending limit**.
+Click on the **Save**.
+
+**Note** Deletion of official resources is not allowed.
+
 ---
 
 ## More info
@@ -123,4 +161,3 @@ Thus, with Waves Keeper, you can always make sure that you are in the right plac
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
-
