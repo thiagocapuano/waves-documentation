@@ -6,23 +6,13 @@ Waves Keeper предназначен также и для удобства по
 
 ## Как установить Waves Keeper
 
-Чтобы установить расширение **Google Chrome** (в будущем мы планируем разработать такое же расширение для пользователей Safari и Edge), откройте официальный [сайт](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en) в Google Chrome и нажмите кнопку **Add to Chrome**.
+Расширение Waves keeper доступно для [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) и [Microsoft Endge](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) пользователей.
 
-![](/_assets/waves_keeper_00.png)
-
-Чтобы установить расширение для **Firefox**, откройте [ссылку](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) в Firefox и нажмите кнопку **Add to Firefox**.
-
-![](/_assets/waves_keeper_000.png)
+Выберите, установите и откройте ваш Waves keeper.
 
 После установки вы сможете найти иконку установленного расширения в верхнем правом углу. Нажмите на нее, затем нажмите на кнопку **Get Started**.
 
-**Google Chrome**
-
 ![](/_assets/waves_keeper_01.png)
-
-**Firefox**
-
-![](/_assets/waves_keeper_001.png)
 
 Ознакомьтесь с Условиями и нажмите на кнопку **Accept**.
 
