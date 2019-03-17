@@ -6,7 +6,7 @@ Waves Keeper предназначен также и для удобства по
 
 ## Как установить Waves Keeper
 
-Расширение Waves keeper доступно для [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) и [Microsoft Endge](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) пользователей.
+Расширение Waves keeper доступно для [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) и [Microsoft Endge](https://www.microsoft.com/ru-ru/p/waves-keeper/9npz1hrq32nt?rtc=1&activetab=pivot%3Aoverviewtab) пользователей.
 
 Выберите, установите и откройте ваш Waves keeper.
 
