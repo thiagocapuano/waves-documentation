@@ -8,7 +8,7 @@ Waves Keeper is designed for convenience, so you can sign transactions with just
 
 ## How to install Waves Keeper
 
-Waves keeper extension available for [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) and [Microsoft Endge](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) users.
+Waves keeper extension available for [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) and [**Microsoft Endge**](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) users.
 
 Choose, install and open up your Waves keeper.
 
@@ -106,7 +106,7 @@ Thus, with Waves Keeper, you can always make sure that you are in the right plac
 
 The permissions control feature allows automatizing the signing requests from the whitelisted websites. Also, you can select the maximum period to automatize actions from the white list.
 
-Open any resource that supports authorize with **Waves Keeper**, e.g. [LiquidWave](https://liquidwave.io/)
+Open any resource that supports authorize with Waves Keeper, e.g. [LiquidWave](https://liquidwave.io/)
 
 On the resource page find and click on the **Authorize with Waves Client**. A new window will appear with a new request from the Waves keeper.
 
