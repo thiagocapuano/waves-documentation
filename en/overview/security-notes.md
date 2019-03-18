@@ -32,6 +32,8 @@ The password has two purposes:
 * Password protects your account as part of a specific device or browser.
 * Check whether the connection is in secure SSL mode - in the address bar of your web browser, you should see the closed lock icon \(on the right or on the left, depending on the browser\).
 
+* As an additional way of protection use [**Ledger Nano S**](waves-client/account-management/ledger-nano.md) or/and [**Waves Keeper**](waves-client/account-management/waves-keeper.md).
+
 ## General Notes {#SecurityNotes-GeneralNotes}
 
 * Use the [official Waves resources](/overview/waves-official-resources.md) \(groups in social networks, sites, applications\).
