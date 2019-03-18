@@ -1,6 +1,4 @@
-
-
-#Examples
+# Examples
 
 As we explained before, Functions are invoked using _**InvokeScriptTransaction**_, which specifies the account which calls the script,
 
@@ -74,8 +72,6 @@ TransferSet(List(ContractTransfer(i.caller, amount, unit)))// it defines outgoin
 // ContractResult (recipient : Address, amount : Integer, assetId : ByteArray)
 ```
 
-
-
 ## Dividing funds into two parts equally
 
 In this Example, let's suppose that we need to implement a mechanism to ensure that funds in an account will be divided equally between two specific addresses Alice and Bob. To each of them we will send exactly \(\(balance - fee\) / 2\) WAVES.
@@ -83,7 +79,7 @@ In this Example, let's suppose that we need to implement a mechanism to ensure t
 Let's divide the funds into two specified addresses by calling the split function described in the script. This feature splits all contract account funds in half, sending them to two addresses, Alice and Bob. In this case, the commission is paid by the one who sends this transaction.
 
 ```js
-# predefined addresses of recipients
+// predefined addresses of recipients
 let Alice = base58'3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8'
 let Bob = base58'3N78bNBYhT6pt6nugc6ay1uW1nLEfnRWkJd'
 @Callable(i)
@@ -97,3 +93,6 @@ ContractTransfer(Bob, transferAmount, unit)
 ))
 }
 ```
+
+
+

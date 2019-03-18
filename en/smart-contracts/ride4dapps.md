@@ -13,12 +13,14 @@ In RIDE4DApps, we introduce two types of functions: Callable functions and Verif
 It works exactly like current ride script\(which is an expression that returns a BOOLEAN\) as following:
 
 ```js
+
 @Verifier(tx)
 func verify() = {
 let a = ...
 let b = ...
 (a || b) && sigVerify(tx...)
 }
+
 ```
 {% prettyhint type="info" %} tx is no longer part of global context, but the actual transaction object is bound through @Verifier annotation. {% endprettyhint %}
 
