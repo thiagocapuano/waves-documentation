@@ -138,7 +138,7 @@ To edit resources from the **White list** follow the same logic:
 Select **Resolution time** and the maximum amount under **Spending limit**.
 Click on the **Save**.
 
-**Note** Deletion of official resources is not allowed.
+**Note**. Deletion of official resources is not allowed.
 
 ---
 
