@@ -1,4 +1,4 @@
-#Ride4DApps
+# Ride4DApps
 
 The main goal is to enable classic _**'DApps'**_ approach on Waves by adding the ability to define functions in a contract.
 
