@@ -39,7 +39,7 @@
 * Проверьте, находится ли соединение в безопасном SSL режиме - в адресной строке вашего веб-браузера вы должны увидеть значок закрытого
 замочка \(справа или слева, в зависимости от браузера\).
 
-* В качестве дополнительного способа защиты используйте [**Ledger Nano S**](waves-client/account-management/ledger-nano.md) и/или [**Waves Keeper**](waves-client/account-management/waves-keeper.md).
+* В качестве дополнительного способа защиты используйте [**Ledger Nano S**](/waves-client/account-management/ledger-nano.md) и/или [**Waves Keeper**](/waves-client/account-management/waves-keeper.md).
 
 ## Общие замечания
 
