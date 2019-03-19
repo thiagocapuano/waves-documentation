@@ -9,8 +9,7 @@
     "headers-with-anchors@git+https://github.com/KardanovIR/gitbook-plugin-headers-with-anchors.git",
     "custom-favicon",
     "flexible-alerts",
-    "anchor-navigation",
-    "common-redirect"
+    "anchor-navigation"
   ],
   "pluginsConfig": {
     "gtm": {
@@ -24,10 +23,6 @@
         "de": "In diesem Artikel",
         "en": "In this article"
       }
-    },
-    "common-redirect": {
-      "target": "https://exampleA.com",
-      "redirect": "https://exampleB.com"
     },
     "favicon": "/_theme/favicon.ico",
     "custom-js-css": {
