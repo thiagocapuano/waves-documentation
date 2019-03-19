@@ -1,14 +1,14 @@
-# How to migrate your Beta and Lite client accounts into Waves wallet
+## Account migration from Lite client to Waves client
 
-As you may know, Wavesplatform had several developmend stages. We had Waves Lite client as one of the very first wallet version. Then we created a completely redesigned application, and for several months the wallet had a Beta status. Finally, we proud to inform you that the official application has come out of Beta.
+As you may know, Wavesplatform had several developmend stages. We had Waves Lite client as one of the very first wallet version. Then we created a completely redesigned application, and for several months the wallet had a Beta status.
 
 These instructions are relevant only for online versions used in the web browsers and only if you run into problems with account transferring, since the new online application should do it in automatic mode.
 
-For owners of desktop applications, there is no need to perform any actions with their accounts, since the application will just automatically update everything that is needed.
+For owners of desktop applications, there is no need to perform any actions with their accounts, since the app will automatically update everything that is needed.
 
-At the same time, you can always restore your account using a backup copy of the phrase. More detailed instruction available here - [How to restore access to my account](waves-client/account-management/restore-an-account.md)
+At the same time, you can always restore your account using a backup copy of the phrase. More detailed instruction available in the [Account recovery](/waves-client/account-management/restore-an-account.md) article.
 
-**So, let's just start the migration process (Google Chrome/Firefox and other)**
+## Migration process via Google Chrome and Firefox browsers
 
 Open the link https://client.wavesplatform.com/restore and you will be forwarded to the restoring page.
 
@@ -24,7 +24,7 @@ And that's it! You will forwarding to the Login page, where you can select the n
 
 ![](/_assets/account_migration_03.png)
 
-**How to migrate accounts using Safari browser**
+## How to migrate accounts using Safari browser
 
 The migration process for Safari browser is slightly different, but it's straightforward.
 
