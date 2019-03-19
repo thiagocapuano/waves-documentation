@@ -10,7 +10,8 @@
     "custom-favicon",
     "flexible-alerts",
     "anchor-navigation",
-    "common-redirect"
+    "common-redirect",
+    "intopic-toc"
   ],
   "pluginsConfig": {
     "gtm": {
