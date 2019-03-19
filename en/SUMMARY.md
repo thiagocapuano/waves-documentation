@@ -5,6 +5,7 @@
 * [What is Waves Platform?](README.md)
 * [Waves Platform Components](overview/platform-components.md)
 * [Security Notes](overview/security-notes.md)
+* [Official resorces](overview/waves-official-resources.md)
 * [Developer Resources ](overview/waves-official-resources.md)
 * [Contributing](contributing.md)
 
@@ -73,6 +74,7 @@
   * [WavesJ](waves-api-and-sdk/client-libraries/wavesj.md)
   * [WavesCS](waves-api-and-sdk/client-libraries/wavescs.md)
   * [WavesC](waves-api-and-sdk/client-libraries/waves-c.md)
+  * [GoWaves](waves-api-and-sdk/client-libraries/gowaves.md)
   * [WavesRS](waves-api-and-sdk/client-libraries/wavesrs.md)
   * [Waves Signature Adapter](waves-api-and-sdk/client-libraries/waves-signature-adapter.md)
   * [Waves Transactions](waves-api-and-sdk/client-libraries/waves-transactions.md)
@@ -208,10 +210,8 @@
       * [Buying Waves using credit or debit card](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
-* [⚠️ Security](waves-client/security.md)
-  * [⚠️ Treat your backup phrase \(aka SEED phrase\) with care!](waves-client/security/safe-place.md)
-  * [⚠️ Spam transactions](waves-client/security/spam-transactions.md)
 * [FAQ](waves-client/faq.md)
+  * [Suspicious transactions](waves-client/security/spam-transactions.md)
   * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
   * [I have enough Waves but I can't create an order.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
@@ -234,3 +234,4 @@
 * [Asset Verification Protocol](proposals/asset-verification-protocol.md)
 * [Sponsored Transactions](proposals/sponsored-transactions.md)
 * [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
+

@@ -1,5 +1,3 @@
-## Waves Keeper
-
 ## Introduction
 
 Waves is a secure system, but we continue to take care of safekeeping of the clients funds. So, we developed and called it **Waves Keeper** because it allows you to hold your WAVES keys securely while interacting safely with third-party web resources. It is a kind of Simple Authentication and SSO for dApps or Waves-enabled web applications and enables you to sign transactions without entering your private key or password. Your seed is held securely within the extension and cannot be accessed by outside apps, keeping your funds safe from malicious sites.
@@ -10,25 +8,13 @@ Waves Keeper is designed for convenience, so you can sign transactions with just
 
 ## How to install Waves Keeper
 
-So, just install Google Chrome or Firefox extension. Also, we plan to develop the same extension for Safari and Edge users in the future.
+Waves keeper extension available for [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) and [**Microsoft Endge**](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) users.
 
-Open official [link](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en) in **Google Chrome** and click on the **Add to Chrome**.
-
-![](/_assets/waves_keeper_00.png)
-
-Open official [link](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) in **Firefox** and click on the **Add to Firefox**.
-
-![](/_assets/waves_keeper_000.png)
+Choose, install and open up your Waves keeper.
 
 After installation you will be able to find installed extension at the top right corner. Click on it and click on the **Get Started**.
 
-**Google Chrome**
-
 ![](/_assets/waves_keeper_01.png)
-
-**Firefox**
-
-![](/_assets/waves_keeper_001.png)
 
 Read the Terms and Conditions and click on the **Accept** button.
 
@@ -116,6 +102,44 @@ If you need to import an account in the future, just repeat the steps above.
 
 Thus, with Waves Keeper, you can always make sure that you are in the right place and confirm outgoing transactions from your Waves account.
 
+## How to use permissions control
+
+The permissions control feature allows automatizing the signing requests from the whitelisted websites. Also, you can select the maximum period to automatize actions from the white list.
+
+Open any resource that supports authorize with Waves Keeper, e.g. [LiquidWave](https://liquidwave.io/)
+
+On the resource page find and click on the **Authorize with Waves Client**. A new window will appear with a new request from the Waves keeper.
+
+Here you can allow a one-time request or immediately configure **Permission details** if you plan on doing several operations. For it select the time under **Resolution time** and the maximum amount under **Spending limit**.
+
+To complete the verification process click on the **Auth**.
+
+![](/_assets/waves_keeper_15.png)
+
+To edit the applying permissions open keeper settings by clicking the button on the top right corner ![](/_assets/waves_keeper_15.1.png).
+
+After that, you'll see **Settings** page. Click on the **Permissions control** and select **Custom list** for the manual list editing or **White list** to edit the basic list with the official resources.
+
+![](/_assets/waves_keeper_15.2.png)
+
+To edit the settings, click on the settings next to the required resource
+
+![](/_assets/waves_keeper_16.png)
+
+The **Permission details** will appear.
+
+Select **Resolution time** and the maximum amount under **Spending limit**.
+Click on the **Save** or **Delete** to remove unused resource.
+
+![](/_assets/waves_keeper_17.png)
+
+To edit resources from the **White list** follow the same logic:
+
+Select **Resolution time** and the maximum amount under **Spending limit**.
+Click on the **Save**.
+
+**Note**. Deletion of official resources is not allowed.
+
 ---
 
 ## More info
@@ -123,4 +147,3 @@ Thus, with Waves Keeper, you can always make sure that you are in the right plac
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
-

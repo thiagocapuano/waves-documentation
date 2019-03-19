@@ -6,23 +6,13 @@ Waves Keeper предназначен также и для удобства по
 
 ## Как установить Waves Keeper
 
-Чтобы установить расширение **Google Chrome** (в будущем мы планируем разработать такое же расширение для пользователей Safari и Edge), откройте официальный [сайт](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en) в Google Chrome и нажмите кнопку **Add to Chrome**.
+Расширение Waves keeper доступно для [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) и [**Microsoft Endge**](https://www.microsoft.com/ru-ru/p/waves-keeper/9npz1hrq32nt?rtc=1&activetab=pivot%3Aoverviewtab) пользователей.
 
-![](/_assets/waves_keeper_00.png)
-
-Чтобы установить расширение для **Firefox**, откройте [ссылку](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) в Firefox и нажмите кнопку **Add to Firefox**.
-
-![](/_assets/waves_keeper_000.png)
+Выберите, установите и откройте ваш Waves keeper.
 
 После установки вы сможете найти иконку установленного расширения в верхнем правом углу. Нажмите на нее, затем нажмите на кнопку **Get Started**.
 
-**Google Chrome**
-
 ![](/_assets/waves_keeper_01.png)
-
-**Firefox**
-
-![](/_assets/waves_keeper_001.png)
 
 Ознакомьтесь с Условиями и нажмите на кнопку **Accept**.
 
@@ -108,7 +98,42 @@ Waves Keeper предназначен также и для удобства по
 
 Если вам потребуется импортировать аккаунт в будущем, просто повторите описанные выше шаги.
 
-таким образом с Waves Keeper вы всегда будете уверены, что находитесь в нужном месте и сможете подтвердить транзакции оправляемые из вашего Waves аккаунта.
+Таким образом с Waves Keeper вы всегда будете уверены, что находитесь в нужном месте и сможете подтвердить транзакции отправляемые из вашего Waves аккаунта.
+
+## Как использовать Permissions control
+
+Функция Permissions control позволяет автоматизировать подпись запросов с сайтов, занесенных в белый список. Также вы можете выбрать максимальный период для автоматизации действий.
+
+Откройте любой ресурс, который поддерживает авторизацию с помощью Waves Keeper, например [LiquidWave](https://liquidwave.io/).
+
+На странице ресурса нажмите на **Authorize with Waves Client**. Появится новое окно с запросом от Waves Keeper.
+
+В этом окне вы можете разрешить авторизацию, нажав на **Auth** или сразу настроить детали разрешения для всех будущих запросов с этого сайта. Для этого выберите время в разделе **Resolution time** и максимальную сумму в разделе **Spending limit**.
+Для завершения процесса настройки разрешений нажмите на кнопку **Auth**.
+
+![](/_assets/waves_keeper_15.png)
+
+Чтобы отредактировать права доступа, откройте настройки Keeper, нажав кнопку в правом верхнем углу ![](/_assets/waves_keeper_15.1.png).
+
+После этого вы увидите страницу настроек. Нажмите на **Permissions control** и выберите **Custom list** для редактирования списка вручную или **White list**, чтобы редактировать основной список с официальными ресурсами.
+
+![](/_assets/waves_keeper_15.2.png)
+
+Чтобы изменить настройки, нажмите на иконку настроек рядом с нужным ресурсом.
+
+![](/_assets/waves_keeper_16.png)
+
+Появится вкладка **Permission details**.
+
+Выберите нужный параметр для  **Resolution time** и укажите максимальную сумму в разделе **Spending limit**. Далее нажмите на **Save** (Сохранить) для сохранения новых настроек или **Delete** (Удалить), чтобы удалить неиспользуемый ресурс.
+
+![](/_assets/waves_keeper_17.png)
+
+Для редактирования ресурсов из White list следуйте той же логике:
+
+Выберите нужный параметр для **Resolution time** и укажите максимальную сумму в разделе **Spending limit**. Нажмите на **Save** (Сохранить).
+
+**Примечание**. Удаление официальных ресурсов не допускается.
 
 ___
 

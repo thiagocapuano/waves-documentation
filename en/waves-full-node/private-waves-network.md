@@ -1,4 +1,19 @@
 # How To Create a Private Waves Blockchain Network
+# Node Features
+You can enable these features on your node and you can achieve that as it's explained in the fifth step by modifying the parameter `pre-activated-features`:
+
+ | Features |                   Name                   |   Status  |
+|:--------:|:----------------------------------------:|:---------:|
+|     1    | Minimum Generating Balance of 1000 WAVES | ACTIVATED |
+|     2    |                NG Protocol               | ACTIVATED |
+|     3    |         Mass Transfer Transaction        | ACTIVATED |
+|     4    |              Smart Accounts              | ACTIVATED |
+|     5    |             Data Transaction             | ACTIVATED |
+|     6    |              Burn Any Tokens             | ACTIVATED |
+|     7    |              Fee Sponsorship             | ACTIVATED |
+|     8    |                 Fair PoS                 | ACTIVATED |
+|     9    |               Smart Assets               | ACTIVATED |
+|    10    |           Smart Account Trading          | ACTIVATED |
 
 ## First Step
 
@@ -90,11 +105,13 @@ waves
         allow-multiple-lease-cancel-transaction-until-timestamp: 0
         reset-effective-balances-at-height: 1
         allow-leased-balance-transfer-until: 0
-        block-version-3-after: 0
+        block-version-3-after-height: 0
         pre-activated-features = {
           2 = 0
         }
-        # ...
+        double-features-periods-after-height = 1000000000
+        max-transaction-time-back-offset = 120m
+        max-transaction-time-forward-offset = 90m
       }
       genesis 
       {

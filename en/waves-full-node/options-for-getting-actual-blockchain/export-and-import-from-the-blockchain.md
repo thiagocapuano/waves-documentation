@@ -1,7 +1,7 @@
 # Export and Import From The Blockchain
 
 ![master](https://img.shields.io/badge/node->%3D0.8.0-4bc51d.svg)
-
+If you already have a Waves full node synced to the correct chain, you can export the blockchain data from the fully synced node and import it into your new node. Importing and exporting can be used as an option for more quickly obtaining the Waves blockchain.
 
 
 ## Export Existing Blocks to a Binary File 
@@ -63,7 +63,7 @@ Mainnet: sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
 Testnet: sudo -u waves-testnet importer-testnet /etc/waves-testnet/waves.conf [binary-file-name]
 ```
 
-## Import blocks from a certain height
+## Import blocks up to a certain height
 
 when importing, The user can specify the target height. If the parameter `height` was not given, all blocks will be imported. To accomplish that, the user need to write the following commands:
 

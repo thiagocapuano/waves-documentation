@@ -18,12 +18,13 @@
 * [Leased Proof Of Stake (Lpos)](platform-features/leased-proof-of-stake-lpos.md)
 * [Смарт контракты](platform-features/smart-contracts.md)
 
+## С чего начать
+
+* [Пользователю](getting-started/as-a-user.md)
+
 ## Waves приложение
 
 * [Установка Waves приложения](waves-client/install-waves-client.md)
-* [⚠️ Безопасность](waves-client/security.md)
-  * [⚠️ Будьте осторожны при использовании парольной фразы (SEED-фразы)!](waves-client/security/safe-place.md)
-  * [⚠️ Спам-транзакции](waves-client/security/spam-transactions.md)
 * [Управление аккаунтом](waves-client/account-management.md)
   * [Создание аккаунта](waves-client/account-management/creating-an-account.md)
   * [Восстановление аккаунта](waves-client/account-management/restore-an-account.md)
@@ -109,6 +110,7 @@
       * [Android: Использование биржи DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
 * [Часто задаваемые вопросы](waves-client/faq.md)
+  * [Подозрительные транзакции](waves-client/security/spam-transactions.md)
   * [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
   * [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [У меня есть достаточно Waves, но я не могу открыть ордер.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)

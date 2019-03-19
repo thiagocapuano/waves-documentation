@@ -13,7 +13,7 @@
 
 Basically, the node should be upgraded as follows:  
 1. Stop the node  
-2. Export all existing blocks in the blockchain to a binary file. Please read [the documentation about export and import of the blockchain.](/waves-full-node/export-and-import-from-the-blockchain.md) or download the binary file.  
+2. Export all existing blocks in the blockchain to a binary file. Please read the documentation about [_**export and import of the blockchain**_](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md) or [_**download the binary file**_](/waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md).  
 3. Update node's executables  
 4. Import binary file  
 5. Start the node
@@ -24,9 +24,9 @@ Basically, the node should be upgraded as follows:
    ```bash
    sudo systemctl stop waves
    ```
-2. After stopping the node execute following command to export existing blocks to a binary file:
+2. After stopping the node execute following command to [export existing blocks to a binary file](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
    ```bash
-   sudo -u waves exporter /etc/waves/waves.conf /usr/share/waves/mainnet
+   sudo -u waves exporter /etc/waves/waves.conf [output-file-name] [height]
    ```
 3. Remove data folder:
    ```bash
@@ -36,22 +36,16 @@ Basically, the node should be upgraded as follows:
    ```bash
    sudo dpkg -i waves_X.Y.Z_all.deb
    ```
-5. Import blocks from the binary file:
+5. [Import blocks from the binary file](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
    ```bash
-   sudo -u waves importer /etc/waves/waves.conf /usr/share/waves/mainnet-[some height]
+   sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
    ```
 6. After import start the node:
    ```bash
    sudo systemctl start waves
    ```
-7. Do not forget to remove binary blockchain files if you don't need them any more:
-   ```bash
-   sudo rm /usr/share/waves/mainnet-[some height]
-   ```
 
 ## Update the Configuration
 
-Please, read the updated [documentation of Waves node configuration file](/waves-full-node/how-to-configure-a-node.md)
-
-
+Please, read the updated documentation of [_**Waves node configuration file**_](/waves-full-node/configuration-parameters.md)_**.**_
 
