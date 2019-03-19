@@ -3,7 +3,7 @@
 **Note:** This functionality available since version 0.8.
 
 
-## Export existing blocks to a binary file {#user-content-export-existing-blocks-to-a-binary-file}
+## Export existing blocks to a binary file 
 
 **Note:** You have to stop the node before starting export of blocks.
 
@@ -28,7 +28,7 @@ If parameter`height`was not given all blocks will be exported. In another case, 
 
 The output file name parameter is optional, name 'blockchain' is used by default. As a result, a file named '&lt;output-file-name&gt;-&lt;height&gt;' will be created in the current folder.
 
-## Import blocks from the binary file {#user-content-import-blocks-from-the-binary-file}
+## Import blocks from the binary file 
 
 | Warning | This operation will completely overwrite existing node data. Do not forget to make a backup of your node’s`data`folder. |
 

@@ -1,6 +1,6 @@
-# **1. 현 블록체인 시스템의 과제와 확장성의 한계** {#Waves-NGProtocol-1.ScalabilityLimitsandChallengesinCurrentBlockchainSystems}
+# **1. 현 블록체인 시스템의 과제와 확장성의 한계** 
 
-## **1.1 문제 설명과 동기** {#Waves-NGProtocol-1.1ProblemStatementandMotivation}
+## **1.1 문제 설명과 동기** 
 
 블록체인 프로토콜은 확장성의 한계와 처리량과 지연속도 간의 상충관계에 대한 과제가 있습니다. 현재 블록체인 기술은 충분히 빠르지 않고 시스템에 더 많은 트랜잭션을 기록할 수 있도록 확장되지 않기 때문에 우리는 본 성능 문제를 고려해야 합니다.
 
@@ -22,7 +22,7 @@ Waves-NG는 네트워크 상태에 따라 네트워크가 최고 처리량에 �
 
 ![](/_assets/waves_dex_ng.jpg)
 
-## **1.2 확장성 향상을 위한 현 제안들의 약점** {#Waves-NGProtocol-1.2WeaknessesofCurrentProposalstoImproveScalability}
+## **1.2 확장성 향상을 위한 현 제안들의 약점** 
 
 Blockchain 시스템은 트랜잭션을 처리 할 수 있으며 이러한 트랜잭션의 최대 속도는 두 가지 변수의 선택에 의해 제한됩니다: 블록 사이즈와 블록 간격.
 
@@ -40,7 +40,7 @@ Blockchain 시스템은 트랜잭션을 처리 할 수 있으며 이러한 트�
 
 그림 2, 정적 블록 빈도로 블록 사이즈 증가시키면 폐기 되는 블록이 더 많이 생성되며 네트워크 스파이크를 초래 할 것 입니다.
 
-## **1.3 Bitcoin-NG에 대한 간단한 요약** {#Waves-NGProtocol-1.3BriefSummaryofBitcoin-NG}
+## **1.3 Bitcoin-NG에 대한 간단한 요약** 
 
 차세대 블록체인 프로토콜로서 블록 사이즈를 늘리거나 블록 간격을 줄이지 않는 Bitcoin 확장 솔루션입니다. 이는 포크의 위험성을 줄여 주며 Bitcoin-NG는 다음과 같이 설명됩니다. Bitcoin의 기본적인 상충관계는 대안의 블록체인 프로토콜로 줄일 수 있으며 Network Plane에 의해서만 제한된 대역폭과 컨센서스 딜레이를 제공합니다. 프로토콜은 시간을 시간 주기\(epoch\)로 나누며 각 시간 주기에는 특정의 리더가 트랜잭션을 직렬화합니다 \(그림 3\).
 
@@ -53,7 +53,7 @@ Blockchain 시스템은 트랜잭션을 처리 할 수 있으며 이러한 트�
 
 그림 3: Bitcoin-NG 시간 주기 구조와 트랜잭션 직렬화
 
-# **2. Waves-NG 오버레이** {#Waves-NGProtocol-2.Waves-NGOverlay}
+# **2. Waves-NG 오버레이** 
 
 Waves-NG는 트랜잭션을 직렬화하고 향상된 트랜잭션 지연속도\(낮은 지연속도\)와 대역폭\(높은 처리량\)을 제공하는 차세대 Bitcoin 프로토콜을 기반으로 하며 Bitcoin과는 대조적으로 다른 속성을 희생하지 않아도 됩니다.
 
@@ -63,7 +63,7 @@ Waves는 마이너가 지속적인 접근 방식으로 마이닝 하는 동안 �
 
 또한 Waves-NG는 크라우드세일 및 에어드롭과 같은 대량 토큰 배부로 인한 플랫폼 과부하를 견딜수 있게 해줍니다. Waves 탈중앙화 거래소 \(DEX\)에서 거래 트랜잭션 처리 속도 또한 빨라집니다.
 
-## **2.1 Waves-NG의 운영** {#Waves-NGProtocol-2.1Waves-NGoperations}
+## **2.1 Waves-NG의 운영** 
 
 Waves-NG의 핵심 아이디어는 Liquid 블록을 두가지 유형으로 분리하는 것 입니다. 두가지 유형의 블록은 Key블록과 Micro 블록 입니다. Liquid 블록이 만들어지는 과정은 다음과 같습니다:
 
@@ -83,7 +83,7 @@ Key 블록에 이어서 마이너는 Key 블록의 coinbase에 있는 프라이�
 
 그림 4: Key 블록과 Micro 블록의 서명 절차.
 
-## **2.1.1 리더 블록** {#Waves-NGProtocol-2.1.1Leaderblocks}
+## **2.1.1 리더 블록** 
 
 "Key 블록"이라고도 불리우며 이런 블록들은 Proof-of-Stake로 생성되지만 트랜잭션을 포함하지는 않습니다.
 
@@ -93,7 +93,7 @@ Key 블록에 이어서 마이너는 Key 블록의 coinbase에 있는 프라이�
 
 Bitcoin에서 Key 블록이 승인되려면 header의 암호화 해시가 target 값 보다 작아야 하지만 Bitcoin과 달리 Key 블록은 다음 Micro 블록에서 사용되는 퍼플릭키를 포함합니다.
 
-## **2.1.2 Micro 블록** {#Waves-NGProtocol-2.1.2Microblocks}
+## **2.1.2 Micro 블록** 
 
 노드가 Key 블록을 생성하면 이는 리더가 됩니다. 리더로서 노드는 사전에 설정된 최대값 보다 작은 설정 속도로 Micro 블록을 생성 할 수있습니다.
 
@@ -109,7 +109,7 @@ Micro 블록이 승인되기 위해서는 상태 시스템의 사양에 따라 �
 
 모든 Micro 블록이 승인되면 Key 블록과 병합되어 하나의 블록으로 통합됩니다.
 
-## **2.2 Waves-NG 보상 메커니즘** {#Waves-NGProtocol-2.2Waves-NGrewardmechanisms}
+## **2.2 Waves-NG 보상 메커니즘** 
 
 보수는 두 가지로 구성됩니다. 첫째, 각 Key 블록은 생성기에 설정된 양을 부여합니다. 둘째, 각 원장 항목에는 수수료가 부과됩니다.
 

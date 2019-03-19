@@ -1,4 +1,4 @@
-# Examples
+#Examples
 
 As we explained before, Functions are invoked using _**InvokeScriptTransaction**_, which specifies the account which calls the script,
 
@@ -16,33 +16,33 @@ The getInteger function gets data that were put into the blockhain where address
 
 ```js
 func getBalance(address: Address) : Int = {
-match getInteger(this, toBase58String(address.bytes)) {
-case a: Int => a
-case _ => 0
-}
+  match getInteger(this, toBase58String(address.bytes)) {
+    case a: Int => a
+    case _ => 0
+  }
 }
 ```
 
 Now we need to define a **deposit function**\(as Callable function\) where the user can send payment as WAVES and save them in the wallet.
 
-**@callable\(i\): **the parameter "i" is of type Invocation, Invocation data type contains contract caller and the attache payment if any.
+**@Callable\(i\): **the parameter "i" is of type Invocation, Invocation data type contains contract caller and the attache payment if any.
 
 ```js
 @Callable(i)
 func deposit() = {
-let caller = toBase58String(i.caller.bytes) //contract caller address.
-let currentBalance = getBalance(caller) //how much WAVES did the contract issuer give to the contract.
+  let caller = toBase58String(i.caller.bytes) //contract caller address.
+  let currentBalance = getBalance(caller) //how much WAVES did the contract issuer give to the contract.
 
-let payment = match(i.payment) { //even none or exact amount of the attached payment(InvokeScriptTransaction).
-case p : AttachedPayment => p
-case _ => throw("You have to provide a payment to deposit")
-}
+  let payment = match(i.payment) { //even none or exact amount of the attached payment(InvokeScriptTransaction).
+    case p : AttachedPayment => p
+    case _ => throw("You have to provide a payment to deposit")
+  }
 
-if (payment.asset != unit) then throw("This wallet cannot hold assets other than WAVES")
-else {
-let newBalance = currentBalance + payment.amount
-WriteSet(List(DataEntry(caller, newBalance)))// it defines what data (caller address and the new balance) will be stored in contract's account.
-}
+  if (payment.asset != unit) then throw("This wallet cannot hold assets other than WAVES")
+  else {
+    let newBalance = currentBalance + payment.amount
+    WriteSet(List(DataEntry(caller, newBalance)))// it defines what data (caller address and the new balance) will be stored in contract's account.
+  }
 }
 
 // List[T] is a sequence (a : T, b : T, c : T, …).
@@ -54,23 +54,24 @@ Finally we need to write the **withdraw function** \(Callable function\) where t
 ```js
 @Callable(i)
 func withdraw(amount: Int) = {
-let caller = toBase58String(i.caller.bytes) //contract caller address.
-let currentBalance = getBalance(caller) //how much WAVES did the contract issuer give to the contract.
+  let caller = toBase58String(i.caller.bytes) //contract caller address.
+  let currentBalance = getBalance(caller) //how much WAVES did the contract issuer give to the contract.
 
-
-if (amount < 0) then throw("Can't withdraw negative amount") // checking if the amount is negative or not
-else if (amount > currentBalance) then throw("Not enough balance") // checking enough balance
-else {
-let newBalance = currentBalance - amount
-ContractResult(
-WriteSet(List(DataEntry(currentKey, newBalance))),
-TransferSet(List(ContractTransfer(i.caller, amount, unit)))// it defines outgoing payments.
-)
-}
+  if (amount < 0) then throw("Can't withdraw negative amount") // checking if the amount is negative or not
+  else if (amount > currentBalance) then throw("Not enough balance") // checking enough balance
+  else {
+    let newBalance = currentBalance - amount
+    ContractResult(
+      WriteSet(List(DataEntry(currentKey, newBalance))),
+      TransferSet(List(ContractTransfer(i.caller, amount, unit)))// it defines outgoing payments.
+    )
+  }
 }
 
 // ContractResult (recipient : Address, amount : Integer, assetId : ByteArray)
 ```
+
+
 
 ## Dividing funds into two parts equally
 
@@ -79,20 +80,18 @@ In this Example, let's suppose that we need to implement a mechanism to ensure t
 Let's divide the funds into two specified addresses by calling the split function described in the script. This feature splits all contract account funds in half, sending them to two addresses, Alice and Bob. In this case, the commission is paid by the one who sends this transaction.
 
 ```js
-// predefined addresses of recipients
+# predefined addresses of recipients
 let Alice = base58'3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8'
 let Bob = base58'3N78bNBYhT6pt6nugc6ay1uW1nLEfnRWkJd'
+
 @Callable(i)
 func split() = {
-//calculate the amount of WAVES that will be transferred to Alice and Bob
-let transferAmount = wavesBalance(this) / 2
-//the result of a contract invocation contains two transfers (to Alice and to Bob)
-TransferSet(List(
-ContractTransfer(Alice, transferAmount, unit),
-ContractTransfer(Bob, transferAmount, unit)
-))
+  //calculate the amount of WAVES that will be transferred to Alice and Bob
+  let transferAmount = wavesBalance(this) / 2
+  //the result of a contract invocation contains two transfers (to Alice and to Bob)
+    TransferSet(List(
+      ContractTransfer(Alice, transferAmount, unit),
+      ContractTransfer(Bob, transferAmount, unit)
+    ))
 }
 ```
-
-
-

@@ -165,4 +165,4 @@ A data transaction cannot contain multiple entries sharing the same key. Such a 
 
 ### Related Changes
 
-Data transaction will go through feature activation routine as Feature 5.
+Data transaction goes through feature #5.

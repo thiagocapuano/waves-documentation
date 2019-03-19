@@ -7,7 +7,7 @@ and they use a multi-signature account to do this.
 
 They create an account and do `SetScriptTransaction` with the multi-sig account, which can be implemented as follows:
 
-```js
+```scala
 let alicePubKey  = base58'B1Yz7fH1bJ2gVDjyJnuyKNTdMFARkKEpV'
 let bobPubKey    = base58'7hghYeWtiekfebgAcuCg9ai2NXbRreNzc'
 let carolPubKey = base58'BVqYXrapgJP9atQccdBPAgJPwHDKkh6A8'
