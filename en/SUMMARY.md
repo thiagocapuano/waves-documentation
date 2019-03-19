@@ -66,6 +66,7 @@
   * [Web Auth API](waves-api-and-sdk/client-api/auth-api.md)
   * [Payment API](waves-api-and-sdk/client-api/payments-api.md)
 * [Waves Keeper API](waves-api-and-sdk/waves-keeper-api.md)
+* [Waves data service API](waves-api-and-sdk/waves-data-service-api.md)
 * [Waves Games](waves-api-and-sdk/waves-gaming-api.md)
   * [Waves Games API](waves-api-and-sdk/waves-gaming-api/waves-games-api.md)
   * [Examples](waves-api-and-sdk/waves-gaming-api/examples.md)
