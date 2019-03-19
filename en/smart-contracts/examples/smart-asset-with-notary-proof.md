@@ -5,7 +5,7 @@ Suppose that we want to transfer some assets only when we receive proof of posse
 
 Also, we want to check that the recipient is able to accept the transfer. For this purposes we can write a script for our smart asset:
 
-```js
+```scala
 let king = extract(addressFromString("${king.address}"))
 let company = extract(addressFromString("${company.address}"))
 let notary1 = addressFromPublicKey(extract(getBinary(king,"notary1PK")))

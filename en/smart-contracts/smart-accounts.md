@@ -14,7 +14,7 @@ In order to setup an Smart Account, The account needs to issue [SetScriptTransac
 `AccountScript` can be changed or cleared if the script installed allows the new [SetScriptTransaction](https://wavesplatform.github.io/waves-transactions/globals.html#setscript) to process.  
 The default account has no script, which is equivalent to this script:
 
-```go
+```scala
 sigVerify(tx.bodyBytes, tx.proofs[0], tx.senderPk)
 ```
 
@@ -76,7 +76,7 @@ match tx {
 
 #### 2. Buy back custom asset on specified price in WAVES:
 
-```js
+```scala
 let myAssetId = base58'BVqYXrapgJP9atQccdBPAgJPwHDKkh6B9'
 let cooperPubKey = base58'BVqYXrapgJP9atQccdBPAgJPwHDKkh6A8'
 

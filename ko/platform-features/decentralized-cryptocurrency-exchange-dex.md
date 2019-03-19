@@ -1,8 +1,8 @@
-# 동기 {#Decentralizedcryptocurrencyexchange(DEX)-Motivation}
+# 동기 
 
 암호화폐의 종류와 시장이 확대되면서 암호화 토큰을 변환하거나 교환해야 할 필요성이 커지고 있습니다. 블록체인 환경의 주요 특징 중 하나는 탈중앙화이지만 최근까지는 Bitcoin과 Ethereum 같은 암호화폐의 경우 중앙집중형 거래소만 존재하였습니다. 많은 거래소들은 암호화폐, 실물화폐 그리고 암호화 토큰의 거래 서비스를 제공합니다. 예를 들면 Coinbase, BTC-e, ShapeShift 그리고 Mt.Gox와 같은 중앙집중형 거래소가 있습니다. 탈중앙화 영역에서의 중앙집권화된 거래소는 매우 유감스러운 일입니다. 중앙집중형 거래소에서는 거래를 하고자 하는 모든 사용자의 자금은 한곳에 보관되어야 합니다. 사용자의 자금은 거래소에 직접적으로 보관되며 매매에 대한 주문을 매칭하거나 오더북을 올바른 상태로 유지할 뿐만 아니라 예금자의 자금 또한 관리합니다. Mt.Gox의 붕괴는 왜 중앙집권형 거래소를 신뢰할 수 없는지에 대한 가장 좋은 예이며, 해킹 사건에 대한 손실액은 약 650,000 BTC 였습니다. 누군가가 거래소 시스템을 해킹 할 수 있으며 모든 사용자들이 모든 것을 잃을 수도 있습니다. 왜냐하면 BTC-e 펀드 해킹 사례처럼 사용자들의 프라이빗 키를 모두 한곳에 보관하기 때문입니다. 그리고 이와 유사한 방법으로 사용자들의 자금을 잃어버린 거래소는 앞서 언급한 두 곳 뿐만이 아닙니다. 거래소가 탈중앙화 처리 방법을 사용하게 되면 사용자들의 자산이 해커들의 선행매매 위험으로부터 안전하게 보관될 수 있습니다.
 
-# 1. 탈중앙화 거래소 {#Decentralizedcryptocurrencyexchange(DEX)-DecentralizedExchange}
+# 1. 탈중앙화 거래소 
 
 탈중앙화 거래소는 그들의 자본력으로 사용자의 신뢰를 얻기위해 노력하지 않습니다. 사용자들의 지갑은 단일 실체에 의해 관리되지 않습니다. 승인 절차의 일환으로써 사용자들은 직접적으로 그들의 주문에 디질털 서명을 합니다. 유저들은 그들의 자금을 관리하지만 on-chain 거래는 중앙집중형 거래소와 같이 비실시간 거래의 부작용이 있습니다.
 
@@ -14,7 +14,7 @@
 
 만약 우리가 거래소의 모든 구성 요소가 아닌 매칭 부분만을 탈중앙화한다면 어떨까요? 본 설계는 위에 언급한 두 가지, 주문을 취소한 중재자와 선행매매 마이너 문제를 해결할 수 있습니다. 중앙집중형 거래소와는 다르게 중앙화된 matcher를 탑재한 탈중앙화 솔루션은 사용자의 자금을 훔칠 수 있는 권한이 없을 것입니다.
 
-# 2. Waves 탈중앙화 거래소 {#Decentralizedcryptocurrencyexchange(DEX)-WavesDEX}
+# 2. Waves 탈중앙화 거래소 
 
 Waves는 탈중앙화 거래소 \(DEX\) 서비스를 제공합니다. 이는 전통적인 거래소와 같이 사용자들 간 여러 다른 자산을 거래할 수 있게 하며 탈중앙화된 특성으로 인해 최종 사용자에게 더욱더 안전한 보안 서비스를 보장합니다. Waves 기반 신규 자산을 생성할 수 있으며 토큰에 유동성을 제공하는 크라우드 펀딩 지분의 조기 거래를 가능하게 합니다. 이를 위해 토큰은 구매자와 판매자가 주문을 할 수 있는 공공의 채널에서 판매되어야 합니다.
 
@@ -36,7 +36,7 @@ Waves는 탈중앙화 거래소 \(DEX\) 서비스를 제공합니다. 이는 전
 
 주문의 단계에 따라 주문 상태의 표시가 다르게 나타납니다. 오더북에 있지만 체결되지 않은 주문은 "Accepted"로 표시되며 상태에 따라 "Filled", "Partially Filled" 또는 "Canceled"로 나타나기도 합니다. 완전히 체결되지 않은 주문은 취소될 수 있으며 취소 후 Matcher의 오더북에서 삭제됩니다.
 
-# 3. Matcher 수수료 산출 {#Decentralizedcryptocurrencyexchange(DEX)-Matcherfeecalculation}
+# 3. Matcher 수수료 산출 
 
 매수 또는 매도 주문이든 거래 수량에 상관없이 **하나의 주문에 대한 수수료는 0.003 WAVES로** 동일합니다. 거래 트랜잭션은 매수자의 주문에서 매도자의 주문으로 가는 Matcher 수수료를 위한 두 가지의 개별 필드를 포함합니다. 몇몇의 트랜잭션에 의해 하나의 주문이 완전히 실행될 수 있으며 이 경우 모든 Matcher는 해당 트랜잭션에 포함된 주문에 수수료를 가합니다.
 
@@ -57,9 +57,9 @@ Waves는 탈중앙화 거래소 \(DEX\) 서비스를 제공합니다. 이는 전
 
 ![](/_assets/matcher.png)그림 2: Matcher 수수료 작업에 대한 예시, TX1 - 트랜잭션1, TX2 - 트랜잭션2, Ord1 - 주문1, Ord2 - 주문2, Ord3 - 주문3
 
-###  {#Decentralizedcryptocurrencyexchange(DEX)-Summary:}
+###  
 
-### Summary: {#Decentralizedcryptocurrencyexchange(DEX)-Summary:}
+### Summary: 
 
 | 기간 | Matcher의 수수료 | 마이너의 수수료 | Matcher 수익률 |
 | :--- | :--- | :--- | :--- |
@@ -68,7 +68,7 @@ Waves는 탈중앙화 거래소 \(DEX\) 서비스를 제공합니다. 이는 전
 
 요약하자면 전체 기간 동안 Matcher는 총 수수료의 18.74%를 획득하였으며 그 외의 수수료는 블록에 트랜잭션을 기록하는 마이너들에게 지불되었습니다 \(2018년 2월 8일 데이터\).
 
-# 4. DEX 설치하기 {#Decentralizedcryptocurrencyexchange(DEX)-InstallingDEX}
+# 4. DEX 설치하기 
 
 * Waves 공식 홈페이지,
   [www.wavesplatform.com](http://www.wavesplatform.com/)
@@ -76,7 +76,7 @@ Waves는 탈중앙화 거래소 \(DEX\) 서비스를 제공합니다. 이는 전
   [beta.wavesplatform.com](https://beta.wavesplatform.com/) 에서 웹지갑을 이용하세요.
 * [귀하의 Bitcoin 입금](/waves-client/transfers-and-gateways/bitcoin-transfers.md) 하거나 [Waves Platform에서 지원하는 코인이나 토큰](/en/waves-client/wallet-management.md) 을 지갑에 입금하고 [Waves DEX를 사용하여 거래를 시작하세요](/waves-client/waves-dex.md).
 
-# 5. Matcher 설치하기 {#Decentralizedcryptocurrencyexchange(DEX)-InstallingyourOwnMatcher}
+# 5. Matcher 설치하기 
 
 * 사용자들은 Waves 소프트웨어를 설치하고 매칭 기능을 활성화시켜서 그들만의 Matcher 설치할 수 있습니다.
 * Matcher가 이가 제공하는 서비스로부터 수수료를 받을 수 있습니다. 이를 통해 당신의 마이닝 수익을 상당히 증가시킬 수 있습니다.

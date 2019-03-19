@@ -4,7 +4,7 @@
 
 
 
-## Export Existing Blocks to a Binary File {#user-content-export-existing-blocks-to-a-binary-file}
+## Export Existing Blocks to a Binary File 
 
 You have to stop the node before starting export of blocks. To export existing blockchain to the binary file run following command. Export is quite a fast operation, but resulting binary file could additionally take up to 1/3 of `data` folder size on disk.
 

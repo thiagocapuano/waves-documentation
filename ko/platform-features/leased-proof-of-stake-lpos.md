@@ -5,7 +5,7 @@ Waves는 이른바 지분증명 \(Proof-of-Stake, PoS\) 컨센서스 알고리�
 
 각각의 블록체인은 탈중앙화된 "노드"들의 시스템 \(또는 네트워크에서 발생하는 트랜잭션을 승인하거나 시스템 전반에 탈중앙화 컨센서스를 유지시키는 컴퓨터\) 이기 때문에 노드들이 지속적으로 트랜잭션을 승인 할 수 있도록 장려하는 것이 중요합니다. 노드는 작업증명 Proof-of-Work 시스템에서는 "채굴자 \(miners\)", 지분증명 Proof-of-Stake 시스템에서는 "검증자 \(validators\)"로 알려져 있습니다. "miner" 또는 "validator" 노드들이 트랜잭션을 승인하는 방법과 노드들이 트랜잭션을 승인하는 것에 대해 인센티브를 받는 방식은 Proof-of-Work와 Proof-of-Stake의 주된 차이점 입니다.
 
-# 1. 작업증명 \(Proof-of-Work, PoW\) {#LeasedProofofStake(LPOS)-Proof-of-Work(PoW)}
+# 1. 작업증명 \(Proof-of-Work, PoW\) 
 
 Proof-of-Work 어려운 수학식을 계산하는 블록 생성기가 필요한 컨센서스 알고리즘 입니다. 이는 채굴 또는 마이닝이라고 칭하며 마이닝은 분산 원장에 새로운 trustless 트랜잭션들\(소위 블록\)의 그룹을 만들기 위해 수행되어야 합니다.
 
@@ -35,14 +35,14 @@ Proof-of-Work 네트워크의 이점은 시스템에 중요한 변경 사항을 
 
 이러한 투표권의 중앙집중화와 네트워크의 제어는 분산된 원장 기반 암호화폐의 목적을 무력화 시킵니다. 왜냐하면 이는 중앙 권력의 존재를 없애기 위해 네트워크 내에서 모든 요소를 분산하는 원칙에 위배되기 때문입니다.
 
-## 1.1 Proof-of-Work의 단점 {#LeasedProofofStake(LPOS)-Proof-of-Workdownsides}
+## 1.1 Proof-of-Work의 단점 
 
 * 마이너들에게 더 많은 전력 비용을 요구합니다.
 * 높은 컴퓨팅 파워를 제공하는 고사양의 하드웨어는 매우 비쌉니다.
 * 마이너가 보상이 더 좋은 다른 코인을 채굴 할 가능성이 높습니다 \(충성도\).
 * 더 많은 코인이 릴리즈 되면 \(더 많은 Bitcoin의 수\) 해당 코인을 채굴하기 더 어려워지며 마이너들에게 주어지는 보상이 줄어듭니다.
 
-# 2. 지분증명 \(Proof-of-Stake, PoS\) {#LeasedProofofStake(LPOS)-Proof-of-Stake(PoS)}
+# 2. 지분증명 \(Proof-of-Stake, PoS\) 
 
 Proof-of-Stake는 트랜잭션 검증하고 분산된 컨센서스를 성취하는 다른 방법입니다. Proof-of-Work와 목적은 같지만 목표에 도달하는 절차는 매우 다릅니다.
 
@@ -57,7 +57,7 @@ PoS는 몇 가지 종류의 공격을 피하기 위한 제약이 있습니다:
 * WAVES를 생성하기 위한 최소 수량은 1,000 WAVES 입니다.
 * 잔고가 증가하면 generating 잔고는 1,000 블록 후에 증가 됩니다.
 
-## 2.1 우리가 Proof-of-Stake를 사용하는 이유 {#LeasedProofofStake(LPOS)-WhyweuseProof-of-Stake}
+## 2.1 우리가 Proof-of-Stake를 사용하는 이유 
 
 * Proof-of-Stake의 중대한 이점 중 하나는 에너지 효율성 입니다.
 * Waves는 보다 친환경적이고 저렴한 분산 형태의 컨센서스를 위해 Proof-of-Stake 방식을 시행합니다.
@@ -65,7 +65,7 @@ PoS는 몇 가지 종류의 공격을 피하기 위한 제약이 있습니다:
 
 ![](/_assets/PoW.png)그림 1, PoW vs PoS
 
-# 3. Leased 지분증명 \(Leased Proof-of-Stake, LPoS\) {#LeasedProofofStake(LPOS)-LeasedProof-of-Stake(LPoS)}
+# 3. Leased 지분증명 \(Leased Proof-of-Stake, LPoS\) 
 
 LPoS는 Proof-of-Stake에서 좀 더 향상된 버전입니다. 일반적인 Proof-of-Stake 시스템에서는 특정 수량의 암호화폐를 보유한 각각의 노드가 블록체인에 다음 블록을 추가할 수 있지만 LPoS 시스템인 Waves Platform에서는 사용자들이 그들의 잔고를 풀노드들에게 lease 해줄 수 있습니다. LPoS로 사용자들은 Waves를 본인의 지갑에서 다른 컨트랙터에게 lease 할 수 있으며 컨트랙터는 보상으로 퍼센티지로 지불할 것입니다. 풀노드에 lease 되는 수량이 많을수록 해당 풀노드가 다음 블록을 생성할 확률이 높아집니다. 만약 해당 풀노드가 다음 블록을 생성하게 된다면 lease 해준 사람은 풀노드가 수집한 트랜잭션 수수료의 퍼센티지를 받을 것입니다.
 
@@ -76,7 +76,7 @@ Waves는 지갑을 지속적으로 실행시켜두거나 "마이너"를 필요�
 ![](/_assets/Webp.net-resizeimage-2.jpg)  
 그림 2, LPoS 시스템
 
-## 3.1 WAVES leasing의 이점 {#LeasedProofofStake(LPOS)-BenefitsofleasingyourWAVES}
+## 3.1 WAVES leasing의 이점 
 
 안전성 \(귀하의 WAVES는 당신의 지갑을 떠나지 않습니다\):
 
@@ -96,9 +96,9 @@ Waves는 지갑을 지속적으로 실행시켜두거나 "마이너"를 필요�
 * 네트워크에서 이루어지는 트랜잭션이 많을수록 더 많은 보상을 받을 수 있습니다.
 * 이러한 보상은 주로 WAVES로 제공되지만 다른 토큰들이 수수료로 취급 될 수 있는 Waves의 고유한 기능으로 인해 다른 토큰으로 보상 받을 수도 있습니다.
 
-# 3.2 Leasing 트랜잭션 {#LeasedProofofStake(LPOS)-LeasingTransactions}
+# 3.2 Leasing 트랜잭션 
 
-## 3.2.1 Leasing 트랜잭션 생성하기 {#LeasedProofofStake(LPOS)-CreateLeasingTransaction}
+## 3.2.1 Leasing 트랜잭션 생성하기 
 
 ```
 "Id": 9q7X84wFuVvKqRdDQeWbtBmpsHt9SXFbvPPtUuKBVxxr ,
@@ -109,14 +109,14 @@ Waves는 지갑을 지속적으로 실행시켜두거나 "마이너"를 필요�
 "timestamp":46305781705234713
 ```
 
-## 3.2.2 Leasing 트랜잭션 취소하기 {#LeasedProofofStake(LPOS)-CancelLeasingTransaction}
+## 3.2.2 Leasing 트랜잭션 취소하기 
 
 ```
 "sender" : 3HgqG68qfeVz5dqbyvqnxQceFaH49xmGvUS ,
 "leaseId": 9q7X84wFuVvKqRdDQeWbtBmpsHt9SXFbvPPtUuKBVxxr
 ```
 
-# 3.2.3  Leasing에 유용한 링크 {#LeasedProofofStake(LPOS)-Usefullinksforleasing}
+# 3.2.3  Leasing에 유용한 링크 
 
 [여기를](/en/waves-client/account-management/waves-leasing.md) 클릭하여 Waves를 leasing하는 단계별 안내서를 확인하세요.
 

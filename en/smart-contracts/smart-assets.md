@@ -10,8 +10,8 @@ In simple words, **Smart assets** are assets with an attached script which valid
 
 ## Smart Assets Features
 
-* **Smart assets** will allow to apply constraints on all operations for a specific asset.
-* **Smart assets** will offer a great degree of autonomy, anonymity, and low-cost of transactions.
+* **Smart assets** allow to apply constraints on all operations for a specific asset.
+* **Smart assets**  offer a great degree of autonomy, anonymity, and low-cost of transactions.
 
 ## Smart Assets Use Cases
 
