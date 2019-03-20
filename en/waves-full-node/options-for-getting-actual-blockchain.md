@@ -15,7 +15,14 @@ After launch, the node begins to receive blocks from the network, verify them an
 
 ## 2. Importing state from a previously prepared file
 
-[_**Import state**_](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md), here the user needs to stop the node before starting the process of exporting the blocks.
+The user needs to stop the node before starting the process of importing the blocks.
+
+> [!TIP]
+> You can find more details about importing from blockchain by the link below. 
+
+{% prettylink link="../waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md" %} Import From Blockchain {% endprettylink %}
+
+
 
 In this case, we exclude network sharing costs \(we don’t count the time to download the file itself\). In addition, the import will not allow our node to "get on the fork"  
 The speed of block verification and signature verification affects the time of reaching the current state by the import method. These operations are performed on the CPU. The verification of the blocks goes in one stream, therefore, a gain in time will be given by a high-frequency CPU rather than a multicore one. The signature verification operation is multi-threaded, but against the background of block verification, it has an insignificant effect.  

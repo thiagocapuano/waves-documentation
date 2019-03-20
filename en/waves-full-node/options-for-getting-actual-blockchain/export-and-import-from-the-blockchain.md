@@ -1,8 +1,7 @@
-# Export and Import From The Blockchain
+# Export to The Blockchain
 
 ![master](https://img.shields.io/badge/node->%3D0.8.0-4bc51d.svg)
-If you already have a Waves full node synced to the correct chain, you can export the blockchain data from the fully synced node and import it into your new node. Importing and exporting can be used as an option for more quickly obtaining the Waves blockchain.
-
+If you already have a Waves full node synced to the correct chain, you can export the blockchain data.
 
 ## Export Existing Blocks to a Binary File 
 
@@ -42,48 +41,6 @@ You can download recently exported blockchains using following links:
 {% prettylink link="http://blockchain.wavesnodes.com/" %}MainNet{% endprettylink %}
 
 {% prettylink link="http://blockchain.testnet.wavesnodes.com/" %}TestNet{% endprettylink %}
-
-# Import Blocks From The Binary File
-
-The node must be stopped before importing the blockchain. If you already have some data in the node's `data` folder, the import will continue to append new data from the blockchain's binary file. So, you may want to remove the existing data. The user should be careful while appending data because mixing data from different versions can lead to an erroneous state.
-
-To import the blockchain and rebuild the state run the following command\(Import is a heavy operation and could take a few hours to complete\):
-
-On Windows:
-
-```
-java -cp waves-all-<version>.jar com.wavesplatform.Importer [configuration-file-name] [binary-file-name]
-```
-
-On Linux:
-
-```
-Mainnet: sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
-
-Testnet: sudo -u waves-testnet importer-testnet /etc/waves-testnet/waves.conf [binary-file-name]
-```
-
-## Import blocks up to a certain height
-
-when importing, The user can specify the target height. If the parameter `height` was not given, all blocks will be imported. To accomplish that, the user need to write the following commands:
-
-On Windows:
-
-```
-java com.wavesplatform.Importer <config_file> <blockchain_file> <height>
-```
-
-On Linux\(MainNet\):
-
-```
-sudo -u waves /usr/share/waves/bin/importer /etc/waves/waves.conf /path/to/mainnet-1234688 500
-```
-
-On Linux\(TestNet\):
-
-```
-sudo -u waves-testnet /usr/share/waves-testnet/bin/importer-testnet /etc/waves-testnet/waves.conf /path/to/testnet-1234688 500
-```
 
 
 
