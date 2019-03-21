@@ -1,7 +1,3 @@
-# Ledger Nano S
-
-Waves wallet can be managed on the Waves [web and desktop](https://wavesplatform.com/product) clients or by using the Waves app on your Ledger Nano S.
-
 ## Before you start
 
 1. You've [initialized](https://support.ledgerwallet.com/hc/en-us/articles/360000613793) your Ledger Nano S.
@@ -33,8 +29,8 @@ Waves wallet can be managed on the Waves [web and desktop](https://wavesplatform
 
 ## How to use Ledger Nano S on the Waves app
 
-1. Make sure your Ledger Nano S is connected and unlocked and that other cryptocurrency apps are not running and not intercepting the connection between Ledger Nano and Waves app.   
-2. Visit [https://client.wavesplatform.com](https://client.wavesplatform.com) \(Google Chrome or Firefox browser\) or open desktop app.  
+1. Make sure your Ledger Nano S is connected, unlocked, other cryptocurrency apps are not running and not intercepting the connection between Ledger Nano and Waves app.   
+2. Visit [https://client.wavesplatform.com](https://client.wavesplatform.com) \(Google Chrome or Firefox browser\) or install [Desktop app](https://wavesplatform.com/products-exchange).  
 3. Click on **Import accounts** if you are using the Waves app for the first time or click on **Create a new account** &gt; **Import accounts**.
 4. Choose **Import accounts from your Ledger Nano S**. An address selection page will appear.
 
