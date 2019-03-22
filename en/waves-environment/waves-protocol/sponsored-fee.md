@@ -13,7 +13,8 @@ Only the issuer of an asset can set up sponsorship. The sponsorship is set by gi
 ### Feature activation
 
 * SponsorFeeTransaction is invalid unless "Fee Sponsorship" feature isn't activated.
-* After "Fee Sponsorship" feature activation SponsorFeeTransaction is available to process.
+* After "Fee Sponsorship" feature activation SponsorFeeTransaction is available to process, but it starts work only after 10000 blocks after activation. Before that, the Asset Fee calculation remains unchanged.
+* After 10000 blocks sponsor pays 1/minSponsoredAssetFee for each token used fo fee.
 
 ### Implementation
 
