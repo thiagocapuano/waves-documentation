@@ -18,7 +18,7 @@ After launch, the node begins to receive blocks from the network, verify them an
 The user needs to stop the node before starting the process of importing the blocks.
 
 > [!TIP]
-> You can find more details about importing from blockchain by the link below. 
+> Please follow the steps for to import from blockchain by the link below. 
 
 {% prettylink link="../waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md" %} Import From Blockchain {% endprettylink %}
 
@@ -31,6 +31,7 @@ This can be achieved by updating the node version and reimport the blockchain **
 
 > [!TIP]
 > Download recently exported blockchains(the file blockchain_last.tar ) using following links:
+
 
 {% prettylink link="http://blockchain.wavesnodes.com" %} Mainnet {% endprettylink %}
 {% prettylink link="http://blockchain.testnet.wavesnodes.com" %} Testnet {% endprettylink %}
