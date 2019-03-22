@@ -25,8 +25,7 @@ The user needs to stop the node before starting the process of importing the blo
 If the node is on a fork with a height more than 2000 blocks, it should choose an option for getting the actual blockchain. This can be achieved by updating the node version and reimport the blockchain.
 
 > [!DANGER]
-> If your node is on a fork and you want to update it, please do not export/import your own blockchain but download it from the provided links below (the file blockchain_last.tar) otherwise your node will stay on the fork.
-
+> If your node is on a fork and you want to update it, please do not export/import your own blockchain but download the recent exported blockchains from the provided links below(the file blockchain_last.tar) otherwise your node will stay on the fork.
 
 {% prettylink link="http://blockchain.wavesnodes.com" %} Mainnet {% endprettylink %}
 {% prettylink link="http://blockchain.testnet.wavesnodes.com" %} Testnet {% endprettylink %}
