@@ -55,7 +55,6 @@ After that, you'll see keeper main page.
 ![](/_assets/waves_keeper_08.png)
 
 Here you can shortly **Copy address**, scan **QR** code which contains your deposit Waves address or find private data of your account by clicking on the ![](/_assets/waves_keeper_08.1.png).
-=======
 
 So, now you can open official [online app](https://client.wavesplatform.com) and import your account from the Waves keeper.
 
@@ -98,7 +97,6 @@ After that, you'll see keeper main page.
 ![](/_assets/waves_keeper_08.png)
 
 Here you can shortly **Copy address**, scan **QR** code which contains your deposit Waves address or find private data of your account by clicking on the ![](/_assets/waves_keeper_08.1.png).
-=======
 
 If you need to import an account in the future, just repeat the steps above.
 
