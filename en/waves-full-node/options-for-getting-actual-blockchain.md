@@ -37,7 +37,7 @@ This can be achieved by updating the node version and reimport the blockchain **
 
 
 > [!DANGER]
-> If the node is on a fork and you want to update it, please do not export/import your own blockchain but download it from the provide links otherwise your node will stay on the fork.
+> If the node is on a fork and you want to update it, please do not export/import your own blockchain but download it from the provided links otherwise your node will stay on the fork.
  
 The speed of block verification and signature verification affects the time of reaching the current state by the import method. These operations are performed on the CPU. The verification of the blocks goes in one stream, therefore, a gain in time will be given by a high-frequency CPU rather than a multicore one. The signature verification operation is multi-threaded, but against the background of block verification, it has an insignificant effect. In other words, there is practically no difference when using 8 or 16 cores CPUs operating at the same frequency. The remaining blocks will be synchronized during normal operation.
 
