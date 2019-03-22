@@ -10,11 +10,6 @@ After this transaction is confirmed, it becomes possible to use this asset as a 
 
 Only the issuer of an asset can set up sponsorship. The sponsorship is set by giving the rate at which fee in an asset is converted to Waves.
 
-### Feature activation
-
-* SponsorFeeTransaction is invalid unless "Fee Sponsorship" feature isn't activated.
-* After "Fee Sponsorship" feature activation SponsorFeeTransaction is available to process, but it starts work only after 10000 blocks after activation. Before that, the Asset Fee calculation remains unchanged.
-* After 10000 blocks sponsor pays 1/minSponsoredAssetFee for each token used fo fee.
 
 ### Implementation
 
