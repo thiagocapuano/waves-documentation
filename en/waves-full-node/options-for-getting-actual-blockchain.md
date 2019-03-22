@@ -36,23 +36,11 @@ If the node is on a fork with a height more than 2000 blocks, it should choose a
 
 > [!ATTENTION]
 > If the node is on a fork and you want to update it, please do not export/import your own blockchain but download it from the provide links otherwise your node will stay on the fork.
+ 
+The speed of block verification and signature verification affects the time of reaching the current state by the import method. These operations are performed on the CPU. The verification of the blocks goes in one stream, therefore, a gain in time will be given by a high-frequency CPU rather than a multicore one. The signature verification operation is multi-threaded, but against the background of block verification, it has an insignificant effect. In other words, there is practically no difference when using 8 or 16 cores CPUs operating at the same frequency. The remaining blocks will be synchronized during normal operation.
 
-
-
-
-
-
-
-
-
-
-In this case, we exclude network sharing costs \(we don’t count the time to download the file itself\). In addition, the import will not allow our node to "get on the fork"  
-The speed of block verification and signature verification affects the time of reaching the current state by the import method. These operations are performed on the CPU. The verification of the blocks goes in one stream, therefore, a gain in time will be given by a high-frequency CPU rather than a multicore one. The signature verification operation is multi-threaded, but against the background of block verification, it has an insignificant effect.  
-In other words, there is practically no difference when using 8 or 16 cores CPUs operating at the same frequency.
-
-The remaining blocks will be synchronized during normal operation.
-
-When synchronizing the state, an active writing to disk exceeds the IOPS values that the HDD gives. In particular, there may be delays when the operating system doesn't have enough physical memory. We recommend keeping at least 30% of the total memory for the needs of the operating system \(cache/buffers\).  
+> [!NOTE]
+> When synchronizing the state, an active writing to disk exceeds the IOPS values that the HDD gives. In particular, there may be delays when the operating system doesn't have enough physical memory. We recommend keeping at least 30% of the total memory for the needs of the operating system \(cache/buffers\).  
 Therefore, we choose SSD.
 
 ## 3. Copy the finished node database
