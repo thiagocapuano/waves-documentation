@@ -32,6 +32,9 @@ If the node is on a fork with a height more than 2000 blocks, it should choose a
 {% prettylink link="http://blockchain.wavesnodes.com" %} Mainnet {% endprettylink %}
 {% prettylink link="http://blockchain.testnet.wavesnodes.com" %} Testnet {% endprettylink %}
 
+> [!ATTENTION]
+> If the node is on a fork and you want to update it, please do not export/import your own blockchain but download it from the provide links otherwise your node will stay on the fork.
+
 
 
 
