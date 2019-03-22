@@ -22,6 +22,23 @@ The user needs to stop the node before starting the process of importing the blo
 
 {% prettylink link="../waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md" %} Import From Blockchain {% endprettylink %}
 
+If the node is on a fork with a height more than 2000 blocks, it should choose an option for getting the actual blockchain. This can be achieved by updating the node version and reimport the blockchain **_only from_** one of the links provided below.
+>[!Note]
+> This step is important to avoid the situation when the node is on a fork and it exports/imports it's own blockchain. In this case even after the update procedure the node still stays on the fork. 
+
+> [!TIP]
+> Download recently exported blockchains(the file blockchain_last.tar ) using following links:
+
+{% prettylink link="http://blockchain.wavesnodes.com" %} Mainnet {% endprettylink %}
+{% prettylink link="http://blockchain.testnet.wavesnodes.com" %} Testnet {% endprettylink %}
+
+
+
+
+
+
+
+
 
 
 In this case, we exclude network sharing costs \(we don’t count the time to download the file itself\). In addition, the import will not allow our node to "get on the fork"  
