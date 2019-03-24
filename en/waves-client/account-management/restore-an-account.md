@@ -4,12 +4,22 @@ You can use either [**Online Client**](https://client.wavesplatform.com), or sta
 
 Choose and open up your Waves wallet.
 
-Click on **Restore account** on the main page.
+Click on **Import accounts** if you do not have imported accounts.
 
 ![](/_assets/account_restoring_01.png)
 
-You will be forwarded to the following page.  
-Copy and paste or type your SEED into the blank text field.  
+Also, you can import as many accounts as you need if you want to use several accounts in the same app.
+Open **Sign in** page. Under **Address / Account name** click on the box and then click on the **Import accounts**.
+
+![](/_assets/account_restoring_01.1.png)
+
+You will be forwarded to the following page. Click on the **Backup SEED Phrase** **Import account from a backup SEED**.
+
+![](/_assets/account_restoring_01.2.png)
+
+Also, you can import accounts from the [Waves Lite client](/waves-client/account-management/account-migration.md), [Ledger Nano S](/waves-client/account-management/ledger-nano.md), [Waves Keeper](/waves-client/account-management/waves-keeper.md).
+
+Copy and paste or type your seed into the blank text field.  
 The Waves wallet will automatically generate the corresponding address right below the text field.
 
 ![](/_assets/account_restoring_02.png)
@@ -32,7 +42,7 @@ If you have done all of the above, you are forwarded to the user interface.
 
 ## How to pairing accounts between devices
 
-Also, you can synchronize your accounts between [mobile apps](en/waves-client/mobile-apps.md) and desktop or online accounts. So, to sync your account from the desktop or online app, just open Waves app &gt; **Settings** &gt; **General** &gt; **Export account**.
+Also, you can synchronize your accounts between [mobile apps](/waves-client/mobile-apps.md) and desktop or online accounts. So, to sync your account from the desktop or online app, just open Waves app &gt; **Settings** &gt; **General** &gt; **Export account**.
 
 ![](/_assets/account_restoring_06.png)
 
