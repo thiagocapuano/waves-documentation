@@ -28,6 +28,10 @@ Now we need to define a **deposit function**\(as Callable function\) where the u
 **@Callable\(i\): **the parameter "i" is of type Invocation, Invocation data type contains contract caller and the attache payment if any.
 
 ```js
+{-# STDLIB_VERSION 3 #-}
+{-# CONTENT_TYPE CONTRACT #-}
+{-# SCRIPT_TYPE ACCOUNT #-}
+
 @Callable(i)
 func deposit() = {
   let caller = toBase58String(i.caller.bytes) //contract caller address.
@@ -80,18 +84,22 @@ In this Example, let's suppose that we need to implement a mechanism to ensure t
 Let's divide the funds into two specified addresses by calling the split function described in the script. This feature splits all contract account funds in half, sending them to two addresses, Alice and Bob. In this case, the commission is paid by the one who sends this transaction.
 
 ```js
+{-# STDLIB_VERSION 3 #-}
+{-# CONTENT_TYPE CONTRACT #-}
+{-# SCRIPT_TYPE ACCOUNT #-}
+
 # predefined addresses of recipients
-let Alice = base58'3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8'
-let Bob = base58'3N78bNBYhT6pt6nugc6ay1uW1nLEfnRWkJd'
+let Alice = Address(base58'3NBVqYXrapgJP9atQccdBPAgJPwHDKkh6A8')
+let Bob = Address(base58'3N78bNBYhT6pt6nugc6ay1uW1nLEfnRWkJd')
 
 @Callable(i)
-func split() = {
-  //calculate the amount of WAVES that will be transferred to Alice and Bob
-  let transferAmount = wavesBalance(this) / 2
-  //the result of a contract invocation contains two transfers (to Alice and to Bob)
-    TransferSet(List(
-      ContractTransfer(Alice, transferAmount, unit),
-      ContractTransfer(Bob, transferAmount, unit)
-    ))
+func divideAmount() = {
+# calculate the amount of WAVES that will be transferred to Alice and Bob
+    let transferAmount = wavesBalance(this) / 2
+# the result of a contract invocation contains two transfers (to Alice and to Bob)
+    TransferSet([
+                ContractTransfer(Alice, transferAmount, unit),
+                ContractTransfer(Bob, transferAmount, unit)
+    ])
 }
 ```
