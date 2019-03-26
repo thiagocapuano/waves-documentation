@@ -10,7 +10,7 @@ At the same time, you can always restore your account using a backup copy of the
 
 ## Migration process via Google Chrome and Firefox browsers
 
-Open the link https://client.wavesplatform.com/restore and you will be forwarded to the restoring page.
+Open the link https://client.wavesplatform.com/import and you will be forwarded to the restoring page.
 
 ![](/_assets/account_migration_01.png)
 
