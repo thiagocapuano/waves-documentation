@@ -17,7 +17,7 @@
 
 ![](/_assets/account_restoring_01.2.png)
 
-Также вы можете импортировать аккаунты из [Waves Lite client](/waves-client/account-management/account-migration.md), [Ledger Nano S](/waves-client/account-management/ledger-nano.md), [Waves Keeper](/waves-client/account-management/waves-keeper.md).
+Также вы можете импортировать аккаунты с помощью [Waves Lite client](/waves-client/account-management/account-migration.md), [Ledger Nano S](/waves-client/account-management/ledger-nano.md), [Waves Keeper](/waves-client/account-management/waves-keeper.md).
 
 Скопируйте или впишите вручную слова seed фразы в текстовое поле.
 Waves кошелек автоматически сгенерирует соответствующий адрес в строке под текстовым полем. Если вы введете Seed фразу верно, то в этой строке появится ваш Waves адрес.
