@@ -24,7 +24,7 @@
 
 ![](/_assets/account_migration_03.png)
 
-Также вы можете импортировать аккаунты с помощью [Seed фразы](ru/waves-client/account-management/restore-an-account.md), [Ledger Nano S](/waves-client/account-management/ledger-nano.md), [Waves Keeper](/waves-client/account-management/waves-keeper.md).
+Также вы можете импортировать аккаунты с помощью [Seed фразы](/waves-client/account-management/restore-an-account.md), [Ledger Nano S](/waves-client/account-management/ledger-nano.md), [Waves Keeper](/waves-client/account-management/waves-keeper.md).
 
 ___
 
