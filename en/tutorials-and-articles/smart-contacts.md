@@ -1,4 +1,4 @@
-# Smart Contracts Tutorials
+#Smart Contracts Tutorials
 
 ## 1. Multi Signature Using Waves IDE & WavesJ
 
@@ -44,7 +44,7 @@ Please, read our Hitchhiker’s Guide to Waves Smart Contracts which we divided 
 
 ## 1. The Hitchhiker’s Guide to Waves Smart Contracts. Part1
 
-[_**In this article**_](https://blog.wavesplatform.com/the-hitchhikers-guide-to-waves-smart-contracts-part-1-b80aa47a745a), We focused on the idea of Waves Smart Accounts and what makes it different than other existing solutions.  
+[_**In this article**_](https://blog.wavesplatform.com/the-hitchhikers-guide-to-waves-smart-contracts-part-1-b80aa47a745a), We focused on the idea of Waves Smart Accounts and what makes it different than other existing solutions.
 We began with a brief introduction about some definitions of smart contracts then we explained about the difference between Bitcoin script, Ethereum Smart Contract and Waves Smart Accounts.
 
 ## 2. The Hitchhiker’s Guide to Waves Smart Contracts. Part 2
@@ -64,4 +64,3 @@ We began with a brief introduction about some definitions of smart contracts the
 [_**In this article**_](https://blog.wavesplatform.com/microsoft-azure-cloud-features-waves-smart-assets-and-smart-accounts-1a71b3c23c2b), We introduced Waves smart accounts and smart assets to developers on [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/category/blockchain?search=blockchain&page=1) in a special extension for [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride), which simplifies the process of creating and operating smart contracts.
 
 Two new virtual machine templates in Azure can be used for setting up new options on a public or private blockchain.
-

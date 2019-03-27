@@ -4,7 +4,7 @@
 
 ### Address
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | :---: | :---: | --- |
 | 1 | Version\(0x01\) | Byte | 1 |
 | 2 | Address scheme \(0x54 for Testnet and 0x57for Mainnet\) | Byte | 1 |
@@ -15,7 +15,7 @@ Public key hash is first 20 bytes of\_SecureHash\_of public key bytes. Checksum 
 
 ### Alias
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Version \(0x02\) | Byte | 1 |
 | 2 | Address scheme \(0x54 for Testnet and 0x57 for Mainnet\) | Byte | 1 |
@@ -30,7 +30,7 @@ Alias is a UTF-8 string with the following constraints:
 
 ### Proof
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Proof size \(N\) | Short | 2 |
 | 2 | Proof | Bytes | N |
@@ -41,7 +41,7 @@ A recipient that can be encoded either as pure address or alias. Both `Address` 
 
 ### Block
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Version \(0x02 for Genesis block, 0x03 for common block\) | Byte | 0 |
 | 2 | Timestamp | Long | 1 |
@@ -58,14 +58,14 @@ A recipient that can be encoded either as pure address or alias. Both `Address` 
 
 Generation signature is calculated as Blake2b256 hash of the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Previous block's generation signature | Bytes | 32 |
 | 2 | Generator's public key | Bytes | 32 |
 
 Block's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Version \(0x02 for Genesis block,, 0x03 for common block\) | Byte | 1 |
 | 2 | Timestamp | Long | 8 |
@@ -81,7 +81,7 @@ Block's signature is calculated from the following bytes:
 
 ### Order
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Sender's public key | Bytes | 32 |
 | 2 | Matcher's public key | Bytes | 32 |
@@ -103,7 +103,7 @@ Expiration is order time to live, timestamp in future, max = 30 days in future.
 
 The signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Sender's public key | Bytes | 32 |
 | 2 | Matcher's public key | Bytes | 32 |
@@ -120,7 +120,7 @@ The signature is calculated from the following bytes:
 
 ### Order V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Version | Byte \(constant, value = 2\) | 1
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32
@@ -138,9 +138,9 @@ The signature is calculated from the following bytes:
 | 12.1 | Proofs version \(1\) |  | 1
 | 12.2 | Proofs count |  | 2
 | 12.3 | Proof 1 length \(P1\) |  | 2
-| 12.4 | Proof 1 | ByteStr \(Array[Byte]\) | P1
+| 12.4 | Proof 1 | ByteStr \(Array[Byte]\) | Maximum 65536(2^16)
 | 12.5 | Proof 2 length \(P2\) |  | 2
-| 12.6 | Proof 2  | ByteStr \(Array[Byte]\) | P2
+| 12.6 | Proof 2  | ByteStr \(Array[Byte]\) | Maximum 65536(2^16)
 | ... | ... | ... | ... |
 
 ### Transactions
@@ -172,7 +172,7 @@ Transaction types:
 
 #### Genesis transaction
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 1\) | 1
 | 2 | Timestamp | Long | 8
@@ -181,16 +181,16 @@ Transaction types:
 
 #### Issue transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 3\) | 1
 | 2 | Signature | ByteStr \(Array[Byte]\) | 64
 | 3 | Transaction type | Byte \(constant, value = 3\) | 1
 | 4 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32
 | 5.1 | Asset name length \(N\) |  | 2
-| 5.2 | Asset name | Array[Byte] | N
+| 5.2 | Asset name | Array[Byte] | Maximum 65536(2^16)
 | 6.1 | Description length \(D\) |  | 2
-| 6.2 | Description | Array[Byte] | D
+| 6.2 | Description | Array[Byte] | Maximum 65536(2^16)
 | 7 | Quantity | Long | 8
 | 8 | Decimals | Byte | 1
 | 9 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1
@@ -199,14 +199,14 @@ Transaction types:
 
 The transaction's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x03\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
 | 3 | Name's length \(N\) | Short | 2 |
-| 4 | Name's bytes | Bytes | N |
+| 4 | Name's bytes | Bytes | Maximum 65536(2^16) |
 | 5 | Description's length \(M\) | Short | 2 |
-| 6 | Description's bytes | Bytes | M |
+| 6 | Description's bytes | Bytes | Maximum 65536(2^16) |
 | 7 | Quantity | Long | 8 |
 | 8 | Decimals | Byte | 1 |
 | 9 | Reissuable flag \(1-True, 0-False\) | Byte | 1 |
@@ -215,7 +215,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Issue Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 3\) | 1
@@ -223,9 +223,9 @@ The transaction's signature is calculated from the following bytes:
 | 4 | Chain ID | Byte | 1
 | 5 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32
 | 6.1 | Name length \(N\) |  | 2
-| 6.2 | Name | Array[Byte] | N
+| 6.2 | Name | Array[Byte] | Maximum 65536(2^16)
 | 7.1 | Description length \(D\) |  | 2
-| 7.2 | Description | Array[Byte] | D
+| 7.2 | Description | Array[Byte] | Maximum 65536(2^16)
 | 8 | Quantity | Long | 8
 | 9 | Decimals | Byte | 1
 | 10 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1
@@ -244,7 +244,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Transfer Transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 4\) | 1
 | 2 | Signature | ByteStr \(Array[Byte]\) | 64
@@ -263,7 +263,7 @@ The transaction's signature is calculated from the following bytes:
 
 The transaction's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x04\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
@@ -280,7 +280,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Transfer Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 4\) | 1
@@ -309,7 +309,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Reissue Transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 5\) | 1
 | 2 | Signature | ByteStr \(Array[Byte]\) | 64
@@ -323,7 +323,7 @@ The transaction's signature is calculated from the following bytes:
 
 The transaction's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x05\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
@@ -335,7 +335,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Reissue Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 5\) | 1
@@ -357,7 +357,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Burn Transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 6\) | 1
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32
@@ -369,7 +369,7 @@ The transaction's signature is calculated from the following bytes:
 
 The transaction's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | ChainId | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
@@ -380,7 +380,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Burn Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 6\) | 1
@@ -402,7 +402,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Exchange Transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 7\) | 1
 | 2 | Buy order object length \(BN\) |  | 4
@@ -419,7 +419,7 @@ The transaction's signature is calculated from the following bytes:
 
 The transaction's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x07\) | Byte | 1 |
 | 2 | Buy order object length \(BN\) | Bytes | 4 |
@@ -435,7 +435,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Exchange Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 7\) | 1
@@ -462,7 +462,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Lease Transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 8\) | 1
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32
@@ -474,7 +474,7 @@ The transaction's signature is calculated from the following bytes:
 
 The transaction's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x08\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
@@ -485,7 +485,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Lease Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 8\) | 1
@@ -509,7 +509,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Lease Cancel Transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 9\) | 1
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32
@@ -520,7 +520,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Lease Cancel Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 9\) | 1
@@ -540,7 +540,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Create Alias Transaction V1
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 10\) | 1
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32
@@ -552,7 +552,7 @@ The transaction's signature is calculated from the following bytes:
 
 The transaction's signature is calculated from the following bytes:
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type \(0x0a\) | Byte | 1 |
 | 2 | Sender's public key | Bytes | 32 |
@@ -563,7 +563,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Create Alias Transaction V2
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 10\) | 1
@@ -583,7 +583,7 @@ The transaction's signature is calculated from the following bytes:
 
 #### Mass Transfer Transaction
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 11\) | 1
 | 2 | Version | Byte \(constant, value = 1\) | 1
@@ -642,7 +642,7 @@ Below is a sample **Mass Transfer transaction** encoded as **JSON**:
 
 #### Data Transaction
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 12\) | 1
@@ -703,7 +703,7 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 
 #### Set Script Transaction
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 13\) | 1
@@ -733,7 +733,7 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 
 Set and cancel [fee sponsorship](sponsored-fee.md) for asset.
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 14\) | 1
@@ -776,7 +776,7 @@ Below is a sample **Sponsored transaction** encoded as **JSON**:
 
 #### Set Asset Script Transaction
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 15\) | 1
@@ -816,7 +816,7 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
 
 #### Contract Invocation Transaction
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
 | 2 | Transaction type | Byte \(constant, value = 16\) | 1
@@ -844,7 +844,7 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
 
 All network messages shares the same structure except the Handshake.
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -859,7 +859,7 @@ Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes of\_Fa
 
 Handshake is used to start communication between two nodes.
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Application name length \(N\) | Byte | 1 |
 | 2 | Application name \(UTF-8 encoded bytes\) | Bytes | N |
@@ -877,7 +877,7 @@ Handshake is used to start communication between two nodes.
 
 GetPeers message is sent when sending node wants to know of other nodes on network.
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -889,7 +889,7 @@ GetPeers message is sent when sending node wants to know of other nodes on netwo
 
 Peers message is a reply on GetPeers message.
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -905,7 +905,7 @@ Peers message is a reply on GetPeers message.
 
 ### GetSignatures message
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -919,7 +919,7 @@ Peers message is a reply on GetPeers message.
 
 ### Signatures message
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -933,7 +933,7 @@ Peers message is a reply on GetPeers message.
 
 ### GetBlock message
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -944,7 +944,7 @@ Peers message is a reply on GetPeers message.
 
 ### Block message
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -955,7 +955,7 @@ Peers message is a reply on GetPeers message.
 
 ### Score message
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -966,7 +966,7 @@ Peers message is a reply on GetPeers message.
 
 ### Transaction message
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | :--- | :--- | :--- | :--- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
@@ -977,7 +977,7 @@ Peers message is a reply on GetPeers message.
 
 ### Checkpoint message
 
-| \# | Field name | Type | Length |
+| \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Packet length \(BigEndian\) | Int | 4 |
 | 2 | Magic Bytes | Bytes | 4 |
