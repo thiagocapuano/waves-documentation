@@ -15,8 +15,12 @@ _**As a first step**_, let's write a function which gets how much WAVES did the 
 The getInteger function gets data that were put into the blockhain where address is `this` and the key is `toBase58String(address.bytes)`.
 
 ```js
-func getBalance(address: Address) : Int = {
-  match getInteger(this, toBase58String(address.bytes)) {
+{-# STDLIB_VERSION 3 #-}
+{-# CONTENT_TYPE DAPP #-}
+{-# SCRIPT_TYPE ACCOUNT #-}
+
+func getBalance(address: String) = {
+  match getInteger(this, address) {
     case a: Int => a
     case _ => 0
   }
@@ -28,29 +32,25 @@ Now we need to define a **deposit function**\(as Callable function\) where the u
 **@Callable\(i\): **the parameter "i" is of type Invocation, Invocation data type contains contract caller and the attache payment if any.
 
 ```js
-{-# STDLIB_VERSION 3 #-}
-{-# CONTENT_TYPE CONTRACT #-}
-{-# SCRIPT_TYPE ACCOUNT #-}
-
 @Callable(i)
 func deposit() = {
-  let caller = toBase58String(i.caller.bytes) //contract caller address.
-  let currentBalance = getBalance(caller) //how much WAVES did the contract issuer give to the contract.
+  let caller = toBase58String(i.caller.bytes) #contract caller address.
+  let currentBalance = getBalance(caller) #how much WAVES did the contract issuer give to the contract.
 
-  let payment = match(i.payment) { //even none or exact amount of the attached payment(InvokeScriptTransaction).
+  let payment = match(i.payment) { #even none or exact amount of the attached payment(InvokeScriptTransaction).
     case p : AttachedPayment => p
     case _ => throw("You have to provide a payment to deposit")
   }
 
-  if (payment.asset != unit) then throw("This wallet cannot hold assets other than WAVES")
+  if (payment.assetId != unit) then throw("This wallet cannot hold assets other than WAVES")
   else {
     let newBalance = currentBalance + payment.amount
-    WriteSet(List(DataEntry(caller, newBalance)))// it defines what data (caller address and the new balance) will be stored in contract's account.
+    WriteSet([DataEntry(caller, newBalance)]) #it defines what data (caller address and the new balance) will be stored in contract's account.
   }
 }
 
-// List[T] is a sequence (a : T, b : T, c : T, …).
-// DataEntry (key : String, value : String | Binary | Integer | Boolean)
+# List[T] is a sequence (a : T, b : T, c : T, …).
+# DataEntry (key : String, value : String | Binary | Integer | Boolean)
 ```
 
 Finally we need to write the **withdraw function** \(Callable function\) where the user can take WAVES back.
@@ -58,21 +58,21 @@ Finally we need to write the **withdraw function** \(Callable function\) where t
 ```js
 @Callable(i)
 func withdraw(amount: Int) = {
-  let caller = toBase58String(i.caller.bytes) //contract caller address.
-  let currentBalance = getBalance(caller) //how much WAVES did the contract issuer give to the contract.
+let caller = toBase58String(i.caller.bytes) # contract caller address.
+let currentBalance = getBalance(caller) # how much WAVES did the contract issuer give to the contract.
 
-  if (amount < 0) then throw("Can't withdraw negative amount") // checking if the amount is negative or not
-  else if (amount > currentBalance) then throw("Not enough balance") // checking enough balance
-  else {
-    let newBalance = currentBalance - amount
-    ContractResult(
-      WriteSet(List(DataEntry(currentKey, newBalance))),
-      TransferSet(List(ContractTransfer(i.caller, amount, unit)))// it defines outgoing payments.
-    )
-  }
+if (amount < 0) then throw("Can't withdraw negative amount") # checking if the amount is negative or not
+else if (amount > currentBalance) then throw("Not enough balance") # checking enough balance
+else {
+let newBalance = currentBalance - amount
+ScriptResult(
+WriteSet([DataEntry(caller, newBalance)]),
+TransferSet([ScriptTransfer(i.caller, amount, unit)]) # it defines outgoing payments.
+)
+}
 }
 
-// ContractResult (recipient : Address, amount : Integer, assetId : ByteArray)
+# ContractResult (recipient : Address, amount : Integer, assetId : ByteArray)
 ```
 
 
