@@ -16,8 +16,8 @@
 | /blocks/at/.+ | 1 | 1 |
 |/blocks/last<br/>/scorex/version<br/>/scorex/status<br/>/consensus/algo<br/>/consensus/basetarget<br/>/waves/address<br/>/transactions/address/.+/limit/.+<br/>/addresses/validate/.+<br/>/blocks/signature/.+<br/>/blocks/delay/.+/.+<br/>/consensus/generatingbalance/.+<br/>/waves/external-payment<br/>/peers/connected<br/>/peers/all<br/>/node/version<br/>/node/status<br/>/addresses/effectiveBalance/.+<br/>/assets/broadcast/issue<br/>/assets/broadcast/reissue<br/>/assets/broadcast/transfer<br/>/waves/broadcast-signed-payment.+<br/>/waves/external-payment<br/>/waves/broadcast-signed-payment<br/>/leasing/broadcast/lease<br/>/leasing/broadcast/cancel<br/>/alias/.+<br/>/assets/broadcast/burn |  100|  20 (burst 50)
 | /transactions/info/.+ | 15 | 20 (burst 50) |
-|  /blocks/height\|/transactions/unconfirmed| 15 | 20 (burst 50)
-| /addresses/balance/.+\|/assets/balance/.+ | 15 | 20 (burst 50)
+| ![](/assets/Screen Shot 2019-04-01 at 6.16.26 PM.png)| 15 | 20 (burst 50)
+| ![](/assets/Screen Shot 2019-04-01 at 6.17.03 PM.png)| 15 | 20 (burst 50)
 | /utils/script/decompile  | <span style="color:red">The path is temporarily unavailable</span>| <span style="color:red">The path is temporarily unavailable</span>|
 
 
