@@ -124,5 +124,5 @@
 
 ## Ноды Waves
 
-* [Ограничения на количество запросов к пулу публичных нод](nodi-waves/ogranicheniya-na-kolichestvo-zaprosov-k-pulu-publichnih-nod.md)
+* [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-na-kolichestvo-zaprosov-k-pulu-publichnih-nod.md)
 

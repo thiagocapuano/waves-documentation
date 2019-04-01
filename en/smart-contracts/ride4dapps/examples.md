@@ -1,4 +1,4 @@
-#Examples
+# Examples
 
 As we explained before, Functions are invoked using _**InvokeScriptTransaction**_, which specifies the account which calls the script,
 
@@ -72,10 +72,8 @@ TransferSet([ScriptTransfer(i.caller, amount, unit)]) # it defines outgoing paym
 }
 }
 
-# ContractResult (recipient : Address, amount : Integer, assetId : ByteArray)
+# scriptResult(recipient : Address, amount : Integer, assetId : ByteArray)
 ```
-
-
 
 ## Dividing funds into two parts equally
 
@@ -98,8 +96,11 @@ func divideAmount() = {
     let transferAmount = wavesBalance(this) / 2
 # the result of a contract invocation contains two transfers (to Alice and to Bob)
     TransferSet([
-                ContractTransfer(Alice, transferAmount, unit),
-                ContractTransfer(Bob, transferAmount, unit)
+                ScriptTransfer(Alice, transferAmount, unit),
+                ScriptTransfer(Bob, transferAmount, unit)
     ])
 }
 ```
+
+
+

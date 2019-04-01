@@ -124,6 +124,7 @@
 * [Logging Configuration](waves-full-node/logging-configuration.md)
 * [Joining Testnet](waves-full-node/joining-testnet.md)
 * [Private Waves Network](waves-full-node/private-waves-network.md)
+* [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
 
 ## WAVES CLIENT
 
