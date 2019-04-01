@@ -10,7 +10,7 @@
 
 | Путь | Макс. кол-во одновременных соединений с Nginx-сервером с одного IP-адреса \(при превышении лимита клиенту вернется HTTP Status 503\) | Макс. кол-во запросов в секунду к Nginx-серверу с одного IP-адреса |
 | --- | :---: | :---: |
-| / | 15 | 20 \(burst 50\) |
+| / | 15 | 20 (burst 50) |
 | /blocks/seq/\d+/\d+ | 1 | 1 |
 | /blocks/at/.+ | 1 | 1 |
 |/blocks/last<br/>/scorex/version<br/>/scorex/status<br/>/consensus/algo<br/>/consensus/basetarget<br/>/waves/address<br/>/transactions/address/.+/limit/.+<br/>/addresses/validate/.+<br/>/blocks/signature/.+<br/>/blocks/delay/.+/.+<br/>/consensus/generatingbalance/.+<br/>/waves/external-payment<br/>/peers/connected<br/>/peers/all<br/>/node/version<br/>/node/status<br/>/addresses/effectiveBalance/.+<br/>/assets/broadcast/issue<br/>/assets/broadcast/reissue<br/>/assets/broadcast/transfer<br/>/waves/broadcast-signed-payment.+<br/>/waves/external-payment<br/>/waves/broadcast-signed-payment<br/>/leasing/broadcast/lease<br/>/leasing/broadcast/cancel<br/>/alias/.+<br/>/assets/broadcast/burn |  100|  20 (burst 50)
