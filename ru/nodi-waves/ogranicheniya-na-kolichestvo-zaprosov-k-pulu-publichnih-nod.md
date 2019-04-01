@@ -1,3 +1,5 @@
+# Ограничения API пула публичных нод
+
 **Пул публичных нод** — это множество публичных нод, предоставляющих через REST API [https://nodes.wavesnodes.com](https://nodes.wavesnodes.com/) информацию для наших продуктов (Waves-кошелек, DEX и др.). Вы можете пользоваться нашими публичными нодами для получения информации из блокчейна, но мы рекомендуем вам использовать собственные ноды, т.к. на нашем пуле есть ограничения, которые приводятся в таблице ниже.
 
 
@@ -15,7 +17,4 @@
 | /transactions/info/.+ | 15 | 20 (burst 50) |
 |  /blocks/height\|/transactions/unconfirmed| 15 | 20 (burst 50)
 | /addresses/balance/.+\|/assets/balance/.+ | 15 | 20 (burst 50)
-| /utils/script/decompile  | <span style="color:red">Путь временно недоступен</span>| <span style="color:red">Путь временно недоступен</span> |
-
-
-
+| /utils/script/decompile  | <span style="color:red">Путь временно недоступен</span>| <span style="color:red">Путь временно недоступен</span>|
