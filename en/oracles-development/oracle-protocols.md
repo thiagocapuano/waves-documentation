@@ -10,7 +10,5 @@ Blockchains need a special way to query data from the outside world & import it 
 
 
 # Oracles Types
-the oracle can either bring data inside the blockchain (inbound) or inform an entity outside of the blockchain about a specific event (outbound). Oracles directly interact with data feeds such as APIs, scrappers & web hooks to extract, verify, & push this data to smart contracts on a number of blockchains.
-
-
+The oracle can either bring data inside the blockchain (inbound) or inform an entity outside of the blockchain about a specific event (outbound). Oracles directly interact with data feeds such as APIs, scrappers & web hooks to extract, verify, & push this data to smart contracts on a number of blockchains.
 Blockchains need a special way to query data from the outside world & import it in a blockchain format. Oracles have the single purpose of filling this role as an interface between the blockchain world & the outside world. With oracles, blockchain developers will be able to import & act on real-time da 
