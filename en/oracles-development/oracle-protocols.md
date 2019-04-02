@@ -1,5 +1,5 @@
 # What is a data oracle
-An oracle, in the context of blockchains and smart contracts, is a tool that determines and validates real-world data and submits this data to a blockchain to be used by smart contracts. In other words, An oracle is a data feed(given by third party service) created for use in smart contracts on the blockchain.
+An oracle, in the context of blockchains and smart contracts, is a tool that determines and validates real-world data and submits this data to a blockchain to be used by smart contracts. In other words, an oracle is a data feed(given by third party service) created for use in smart contracts on the blockchain.
 
 ## Why blockchain needs data oracles
 **How can smart contracts execute based on real-world conditions, such as price changes, game outcomes, or physical properties if the Waves blockchain has no way of directly accessing these data points through popular 3rd-party APIs?**
