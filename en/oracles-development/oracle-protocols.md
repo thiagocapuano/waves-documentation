@@ -102,9 +102,12 @@ In the value of key “wpo\_specifation” needs to enter the parameters of orac
 
 One parameter of specifications are a set of four attributes each:
 
-|  |  |
+| Attributes of Parameters | Description |
 | :--- | :--- |
-|  |  |
+| Name | Parameter name |
+| Type | 1-String, 2- Integer, 3- Boolean, 4- Binary |
+| Required | 1- yes, 0- no |
+| Description | Parameter description |
 
 For example, oracle will to transmit three parameters:_version_,_weather_,_temperature_. Parameters\_version\_and\_weather\_are required.
 
