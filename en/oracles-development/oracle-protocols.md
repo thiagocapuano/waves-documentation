@@ -92,9 +92,23 @@ Parameters for the provider description
 
 To go starting to write data in Waves blockchain transaction as Oracle, initialize data provider as Oracle.
 
-|  |  |
-| :--- | :--- |
-|  |  |
+| Key | Input in Waves Oracles | Type | Required | Value |
+| :--- | :--- | :--- | :--- | :--- |
+| wpo\_oracle |  | string | yes | ==”oracle” a special attribute for which the crawler is search the initialization data transaction |
+| wpo\_testnet |  | boolean | yes\(only in testnet\) | ==true  only in Testnet |
+| wpo\_createdate |  | Integer | yes | ==0 when you create Oracle first time timestamp first created version of Oracle |
+| wpo\_createid |  | String | yes | =="origin" when you create Oracle first time transaction ID of the first created version of Oracle |
+| wpo\_address | Address | String | yes | Waves address |
+| wpo\_name | Oracle name | String | yes | Oracle name |
+| wpo\_link | Link | String | no | Link |
+| wpo\_protocol | Category | Integer | yes | protocol code |
+| wpo\_status | Status | Integer | yes | current status of the provider defined by an integer: “3” — archive “2” — development “1” — production “0” — test |
+| wpo\_description | About | String | no | oracle description |
+| wpo\_frequency | Update frequency | String  | no | frequency |
+| wpo\_revisions | Summary of Changes from Previous Version | String | no | summary of revisions made |
+| wpo\_specifation | Specification | Binary | yes | base64 string. |
+| wpo\_example | Example | Binary | no | base64 string. |
+| wpo\_updatedate |  | Integer | yes | ==0 when you create Oracle first time timestamp new version of Oracle |
 
 ### Specification {#Oracleprotocols-SpecificationSpecification}
 
