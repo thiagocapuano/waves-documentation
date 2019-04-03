@@ -9,7 +9,7 @@
 * In the table below regular expressions are used to express paths' names, such as, for example, ["\d+"](https://stackoverflow.com/questions/2841550/what-does-d-mean-in-regular-expression-terms). 
 * The term burst below — is a Nginx's setting that defines the maximum size of the "splash" of the requests. If the amount of arriving requests per second exceeds the defined value, all the exceeding requests are put into a queue. The burst is the size of that queue. If the number of the exceeding requests begins to surpass the value of the burst, then new exceeding requests will not be put into the queue, and will be canceled with the error. Read more in [the documentation](http://nginx.org/en/docs/http/ngx_http_limit_req_module.html).
 
-| Path | Maximum number of simultaneous connections to Nginx-server per IP-address (if limit will be excited a client will get HTTP Status 503) | Maximum number of the requests to Nginx-server per IP-address |
+| Path | Maximum number of simultaneous connections to Nginx-server per IP-address (if limit will be exceeded, a client will get HTTP Status 503) | Maximum number of the requests to Nginx-server per IP-address |
 | --- | :---: | :---: |
 |  | 15 | 20 (burst 50) |
 | /blocks/seq/\d+/\d+ | 1 | 1 |
