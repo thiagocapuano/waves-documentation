@@ -106,7 +106,7 @@ To go starting to write data in Waves blockchain transaction as Oracle, initiali
 | wpo\_description | About | String | no | oracle description |
 | wpo\_frequency | Update frequency | String | no | frequency |
 | wpo\_revisions | Summary of Changes from Previous Version | String | no | summary of revisions made |
-| wpo\_specifation | Specification | Binary | yes | base64 string. |
+| wpo\_specifation | Specification | Binary | no | base64 string. |
 | wpo\_example | Example | Binary | no | base64 string. |
 | wpo\_updatedate |  | Integer | yes | ==0 when you create Oracle first time timestamp new version of Oracle |
 
