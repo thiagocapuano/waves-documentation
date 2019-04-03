@@ -40,7 +40,7 @@ On the oracle card, there is a button **Show in explorer**. By clicking it, the 
 
 ## Create an Oracle
 
-Only an authorized user can Create an oracle\(login with Waves Keeper\).
+Only an authorized user can Create an oracle(login with Waves Keeper).
 
 * If you login with Waves address from Testnet, then your Oracle will be created in the Testnet.
 * If you login with Waves address from Mainnet,then your Oracle will be created in the Mainnet.
@@ -72,7 +72,7 @@ It is an usual data transaction that contains a well-defined set of attributes.
 
 The Waves Oracles tool helps in a user-friendly interface to create such Initializing data transactions.
 
-For a [data transaction](/waves-environment/waves-protocol/data-transaction.md) to be considered to initialize the Oracle, it must have a special attribute \_wpo\_oracle \_in the \_data\[ \] \_array:
+For a [data transaction](/waves-environment/waves-protocol/data-transaction.md) to be considered to initialize the Oracle, it must have a special attribute wpo_oracle in the data[] array:
 
 ```js
 {
@@ -84,9 +84,9 @@ For a [data transaction](/waves-environment/waves-protocol/data-transaction.md) 
 
 This is key allows to find exactly the initialization data transaction from all Waves blockchain transactions.
 
-Also needs add service keys: _wpo\_createdate,wpo\_createid, wpo\_updatedate \_and \_wpo\_testnet_\(only in testnet\).
+Also needs add service keys: wpo_createdate,wpo_createid, wpo_updatedate and wpo_testnet(only in testnet).
 
-## Data Provider Initialization {#Oracleprotocols-DataProviderInitialization}
+## Data Provider Initialization
 
 Parameters for the provider description
 
@@ -94,25 +94,25 @@ To go starting to write data in Waves blockchain transaction as Oracle, initiali
 
 | Key | Input in Waves Oracles | Type | Required | Value |
 | :--- | :--- | :--- | :--- | :--- |
-| wpo\_oracle |  | string | yes | ==”oracle” a special attribute for which the crawler is search the initialization data transaction |
-| wpo\_testnet |  | boolean | yes\(only in testnet\) | ==true  only in Testnet |
-| wpo\_createdate |  | Integer | yes | ==0 when you create Oracle first time timestamp first created version of Oracle |
-| wpo\_createid |  | String | yes | =="origin" when you create Oracle first time transaction ID of the first created version of Oracle |
-| wpo\_address | Address | String | yes | Waves address |
-| wpo\_name | Oracle name | String | yes | Oracle name |
-| wpo\_link | Link | String | no | Link |
-| wpo\_protocol | Category | Integer | yes | protocol code |
-| wpo\_status | Status | Integer | yes | current status of the provider defined by an integer: “3” — archive “2” — development “1” — production “0” — test |
-| wpo\_description | About | String | no | oracle description |
-| wpo\_frequency | Update frequency | String  | no | frequency |
-| wpo\_revisions | Summary of Changes from Previous Version | String | no | summary of revisions made |
-| wpo\_specifation | Specification | Binary | yes | base64 string. |
-| wpo\_example | Example | Binary | no | base64 string. |
-| wpo\_updatedate |  | Integer | yes | ==0 when you create Oracle first time timestamp new version of Oracle |
+| wpo_oracle |  | string | yes | ==”oracle” a special attribute for which the crawler is search the initialization data transaction |
+| wpo_testnet |  | boolean | yes(only in testnet) | ==true  only in Testnet |
+| wpo_createdate |  | Integer | yes | ==0 when you create Oracle first time timestamp first created version of Oracle |
+| wpo_createid |  | String | yes | =="origin" when you create Oracle first time transaction ID of the first created version of Oracle |
+| wpo_address | Address | String | yes | Waves address |
+| wpo_name | Oracle name | String | yes | Oracle name |
+| wpo_link | Link | String | no | Link |
+| wpo_protocol | Category | Integer | yes | protocol code |
+| wpo_status | Status | Integer | yes | current status of the provider defined by an integer: “3” — archive “2” — development “1” — production “0” — test |
+| wpo_description | About | String | no | oracle description |
+| wpo_frequency | Update frequency | String | no | frequency |
+| wpo_revisions | Summary of Changes from Previous Version | String | no | summary of revisions made |
+| wpo_specifation | Specification | Binary | yes | base64 string.
+| wpo_example | Example | Binary | no | base64 string. |
+| wpo_updatedate |  | Integer | yes | ==0 when you create Oracle first time timestamp new version of Oracle |
 
-### Specification {#Oracleprotocols-SpecificationSpecification}
+### Specification 
 
-In the value of key “wpo\_specifation” needs to enter the parameters of oracle specifications converted in_base64_.
+In the value of key “wpo_specifation” needs to enter the parameters of oracle specifications converted in base64.
 
 One parameter of specifications are a set of four attributes each:
 
@@ -123,7 +123,7 @@ One parameter of specifications are a set of four attributes each:
 | Required | 1- yes, 0- no |
 | Description | Parameter description |
 
-For example, oracle will to transmit three parameters:_version_,_weather_,_temperature_. Parameters\_version\_and\_weather\_are required.
+For example, oracle will transmit three parameters:version, weather, temperature. Parameters version and weather are required.
 
 Then the JSON array describing specification will look like this:
 
@@ -147,7 +147,7 @@ Then the JSON array describing specification will look like this:
 ]
 ```
 
-Then convert its JSON in base64 and it is being value of key “wpo\_specifation”:
+Then convert its JSON in base64 and it is being value of key “wpo_specifation”:
 
 ```js
 {
@@ -157,7 +157,7 @@ Then convert its JSON in base64 and it is being value of key “wpo\_specifation
 }
 ```
 
-### Example {#Oracleprotocols-ExampleExample}
+### Example
 
 In the value of key “wpo\_example” needs to enter the example of oracle transaction based on their specification and converted in_base64_. An example of Oracle transaction in JSON:
 
@@ -179,7 +179,7 @@ Then convert its JSON in base64 and it is being value of key “wpo\_example”:
 }
 ```
 
-### Usage {#Oracleprotocols-Usage}
+### Usage
 
 An example data transaction to initialize a data provider:
 
@@ -255,13 +255,13 @@ An example data transaction to initialize a data provider:
 
 | Category code | Protocol Code Value | Description |
 | :--- | :--- | :--- |
-| 100 | 100 | Algorithms & calculations \(random value for example\) |
+| 100 | 100 | Algorithms & calculations(random value for example) |
 |  | 101 | Pseudo random algorithms |
-| 200 | 200 | Offline data source \(IoT, sensors, other hardware\) |
-|  | 201 | Smart trackers \(smartphone, watch, collar, bracelet, etc.\) |
+| 200 | 200 | Offline data source(IoT, sensors, other hardware) |
+|  | 201 | Smart trackers(smartphone, watch, collar, bracelet, etc.) |
 |  | 202 | Transfer, logistics, connected car, smart car |
 |  | 203 | Smart home |
-| 300 | 300 | Online data source \(rates, market data, weather, etc.\) |
+| 300 | 300 | Online data source(rates, market data, weather, etc.) |
 |  | 301 | Market data & exchange rates |
 |  | 302 | Weather data & forecasts |
 |  | 303 | Sport & bets |
@@ -270,10 +270,7 @@ An example data transaction to initialize a data provider:
 | 400 | 400 | Data Mangement |
 |  | 401 | Rights |
 |  | 402 | Media & Content |
-|  | 403 | Document flow, work \(plans, activity records, etc.\) |
+|  | 403 | Document flow, work(plans, activity records, etc.) |
 | 500 | 500 | DApps |
 |  | 501 | Identification |
 |  | 502 | Games |
-
-
-
