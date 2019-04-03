@@ -129,6 +129,7 @@
 ## ORACLES DEVELOPMENT
 
 * [What is a Data Oracle](oracles-development/what-is-a-data-oracle.md)
+* [Oracle Protocols](oracles-development/protocols.md)
 
 ## WAVES CLIENT
 
