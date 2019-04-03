@@ -102,7 +102,7 @@ To go starting to write data in Waves blockchain transaction as Oracle, initiali
 | wpo\_name | Oracle name | String | yes | Oracle name |
 | wpo\_link | Link | String | no | Link |
 | wpo\_protocol | Category | Integer | yes | protocol code |
-| wpo\_status | Status | Integer | yes | current status of the provider defined by an integer: “3” — archive “2” — development “1” — production “0” — test |
+| wpo\_status | Status | Integer | yes | current status of the provider defined by an integer. “3”\(archive\), “2”\(development\), “1”\(production\), “0”\(test\) |
 | wpo\_description | About | String | no | oracle description |
 | wpo\_frequency | Update frequency | String | no | frequency |
 | wpo\_revisions | Summary of Changes from Previous Version | String | no | summary of revisions made |
