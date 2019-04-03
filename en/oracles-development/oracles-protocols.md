@@ -106,9 +106,7 @@ One parameter of specifications are a set of four attributes each:
 | :--- | :--- |
 |  |  |
 
-
-
-For example, oracle will to transmit three parameters:_version_,_weather_,_temperature_. Parameters_version_and_weather_are required.
+For example, oracle will to transmit three parameters:_version_,_weather_,_temperature_. Parameters\_version\_and\_weather\_are required.
 
 Then the JSON array describing specification will look like this:
 
@@ -235,6 +233,30 @@ An example data transaction to initialize a data provider:
     ]
 }
 ```
+
+## Protocol codes table
+
+| Category code | Protocol Code Value | Description |
+| :--- | :--- | :--- |
+| 100 | 100 | Algorithms & calculations \(random value for example\) |
+|  | 101 | Pseudo random algorithms |
+| 200 | 200 | Offline data source \(IoT, sensors, other hardware\) |
+|  | 201 | Smart trackers \(smartphone, watch, collar, bracelet, etc.\) |
+|  | 202 | Transfer, logistics, connected car, smart car |
+|  | 203 | Smart home |
+| 300 | 300 | Online data source \(rates, market data, weather, etc.\) |
+|  | 301 | Market data & exchange rates |
+|  | 302 | Weather data & forecasts |
+|  | 303 | Sport & bets |
+|  | 304 | Other blockchains |
+|  | 305 | Time, date, calendar |
+| 400 | 400 | Data Mangement |
+|  | 401 | Rights |
+|  | 402 | Media & Content |
+|  | 403 | Document flow, work \(plans, activity records, etc.\) |
+| 500 | 500 | DApps |
+|  | 501 | Identification |
+|  | 502 | Games |
 
 
 
