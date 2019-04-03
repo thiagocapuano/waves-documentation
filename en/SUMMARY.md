@@ -32,6 +32,7 @@
   * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
+  * [Oracle Protocols](waves-environment/waves-protocol/oracle-protocols.md)
 
 ## GETTING STARTED
 
@@ -125,11 +126,6 @@
 * [Joining Testnet](waves-full-node/joining-testnet.md)
 * [Private Waves Network](waves-full-node/private-waves-network.md)
 * [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
-
-## ORACLE DEVELOPMENTS
-
-* [What is a Data Oracle](oracle-developments/what-is-a-data-oracle.md)
-* [Oracle Protocols](oracle-developments/oracle-protocols.md)
 
 ## WAVES CLIENT
 
