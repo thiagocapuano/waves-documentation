@@ -84,9 +84,7 @@ For a [data transaction](/waves-environment/waves-protocol/data-transaction.md) 
 
 This is key allows to find exactly the initialization data transaction from all Waves blockchain transactions.
 
-Also needs add service keys: _wpo\_createdate,wpo\_createid, wpo\_updatedate _and _wpo\_testnet_\(only in testnet\).
-
-
+Also needs add service keys: _wpo\_createdate,wpo\_createid, wpo\_updatedate \_and \_wpo\_testnet_\(only in testnet\).
 
 ## Data Provider Initialization {#Oracleprotocols-DataProviderInitialization}
 
@@ -94,9 +92,149 @@ Parameters for the provider description
 
 To go starting to write data in Waves blockchain transaction as Oracle, initialize data provider as Oracle.
 
+|  |  |
+| :--- | :--- |
+|  |  |
+
+### Specification {#Oracleprotocols-SpecificationSpecification}
+
+In the value of key “wpo\_specifation” needs to enter the parameters of oracle specifications converted in_base64_.
+
+One parameter of specifications are a set of four attributes each:
+
+|  |  |
+| :--- | :--- |
+|  |  |
 
 
 
+For example, oracle will to transmit three parameters:_version_,_weather_,_temperature_. Parameters_version_and_weather_are required.
+
+Then the JSON array describing specification will look like this:
+
+```js
+[{
+        "name": "version",
+        "type": 1,
+        "required": 1,
+        "description": "current version of protocol"
+    }, {
+        "name": "weather",
+        "type": 1,
+        "required": 1,
+        "description": "weather data"
+    }, {
+        "name": "temperature",
+        "type": 2,
+        "required": 0,
+        "description": "сelsius"
+    }
+]
+```
+
+Then convert its JSON in base64 and it is being value of key “wpo\_specifation”:
+
+```js
+{
+    "key": "wpo_specifation",
+    "type": "string",
+    "value": "base64:Clt7CiJuYW1lIjogInZlcnNpb24iLAoidHlwZSI6IDEsCiJyZXF1aXJlZCI6IDEsCiJkZXNjcmlwdGlvbiI6ICJjdXJyZW50IHZlcnNpb24gb2YgcHJvdG9jb2wiCn0sIHsKIm5hbWUiOiAid2VhdGhlciIsCiJ0eXBlIjogMSwKInJlcXVpcmVkIjogMSwKImRlc2NyaXB0aW9uIjogIndlYXRoZXIgZGF0YSIKfSwgewoibmFtZSI6ICJ0ZW1wZXJhdHVyZSIsCiJ0eXBlIjogMiwKInJlcXVpcmVkIjogMCwKImRlc2NyaXB0aW9uIjogItGBZWxzaXVzIgp9Cl0="
+}
+```
+
+### Example {#Oracleprotocols-ExampleExample}
+
+In the value of key “wpo\_example” needs to enter the example of oracle transaction based on their specification and converted in_base64_. An example of Oracle transaction in JSON:
+
+```js
+{
+    "version": "1.00.95-release",
+    "weather": "sun",
+    "temperature": 23
+}
+```
+
+Then convert its JSON in base64 and it is being value of key “wpo\_example”:
+
+```js
+{
+    "key": "wpo_example",
+    "type": "string",
+    "value": "base64:ewoidmVyc2lvbiI6ICIxLjAwLjk1LXJlbGVhc2UiLAoid2VhdGhlciI6ICJzdW4iLAoidGVtcGVyYXR1cmUiOiAyMwp9"
+}
+```
+
+### Usage {#Oracleprotocols-Usage}
+
+An example data transaction to initialize a data provider:
+
+```js
+{
+    "type": 12,
+    "version": 1,
+    "senderPublicKey": "442hJo5S9U2jsdTvJ4v5zacH324XMnq3qUWCPmbkBWbZ",
+    "fee": 300000,
+    "timestamp": 1547218635000,
+    "data": [{
+            "key": "wpo_oracle",
+            "type": "string",
+            "value": "oracle"
+        }, {
+            "key": "wpo_createdate",
+            "type": "integer",
+            "value": 1548865781425
+        }, {
+            "key": "wpo_createid",
+            "type": "string",
+            "value": "CoQ79XjwgBiYxpzTVM2RQV1cFWeujF3JdwtAzdL6jx2r"
+        }, {
+            "key": "wpo_address",
+            "type": "string",
+            "value": "3Mso8hGr8dv4DK4nEY8fJykGpQkxK7PaZvs"
+        }, {
+            "key": "wpo_name",
+            "type": "string",
+            "value": "Example Stocks Oracle"
+        }, {
+            "key": "wpo_link",
+            "type": "string",
+            "value": "example.com"
+        }, {
+            "key": "wpo_protocol",
+            "type": "integer",
+            "value": 301
+        }, {
+            "key": "wpo_status",
+            "type": "integer",
+            "value": 1
+        }, {
+            "key": "wpo_description",
+            "type": "string",
+            "value": "An example of a public oracle containing information on various financial instruments in accordance with the requirements of the WPO002 protocol standard, such as stocks, commodities, fiat and cryptocurrencies."
+        }, {
+            "key": "wpo_frequency",
+            "type": "string",
+            "value": "Information is updated every 60 minutes."
+        }, {
+            "key": "wpo_revisions",
+            "type": "string",
+            "value": "Summary of revisions made"
+        }, {
+            "key": "wpo_specifation",
+            "type": "string",
+            "value": "base64:Clt7CiJuYW1lIjogInZlcnNpb24iLAoidHlwZSI6IDEsCiJyZXF1aXJlZCI6IDEsCiJkZXNjcmlwdGlvbiI6ICJjdXJyZW50IHZlcnNpb24gb2YgcHJvdG9jb2wiCn0sIHsKIm5hbWUiOiAid2VhdGhlciIsCiJ0eXBlIjogMSwKInJlcXVpcmVkIjogMSwKImRlc2NyaXB0aW9uIjogIndlYXRoZXIgZGF0YSIKfSwgewoibmFtZSI6ICJ0ZW1wZXJhdHVyZSIsCiJ0eXBlIjogMiwKInJlcXVpcmVkIjogMCwKImRlc2NyaXB0aW9uIjogItGBZWxzaXVzIgp9Cl0="
+        }, {
+            "key": "wpo_example",
+            "type": "string",
+            "value": "base64:ewoidmVyc2lvbiI6ICIxLjAwLjk1LXJlbGVhc2UiLAoid2VhdGhlciI6ICJzdW4iLAoidGVtcGVyYXR1cmUiOiAyMwp9"
+        }, {
+            "key": "wpo_updatedate",
+            "type": "integer",
+            "value": 1548866781425
+        }
+    ]
+}
+```
 
 
 
