@@ -32,7 +32,6 @@
   * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
-  * [Oracle Protocols](waves-environment/waves-protocol/oracle-protocols.md)
 
 ## GETTING STARTED
 
