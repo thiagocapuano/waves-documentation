@@ -4,6 +4,10 @@
 
 {% prettylink link="https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/" %}Download for Firefox{% endprettylink %}
 
+{% prettylink link="https://addons.opera.com/ru/extensions/details/waves-keeper/" %}Download for Opera{% endprettylink %}
+
+
+
 {% prettylink link="https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab" %}Download for Microsoft Edge{% endprettylink %}
 
 
