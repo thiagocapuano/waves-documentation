@@ -8,7 +8,7 @@ Waves Keeper is designed for convenience, so you can sign transactions with just
 
 ## How to install Waves Keeper
 
-Waves keeper extension available for [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/) and [**Microsoft Endge**](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) users.
+Waves keeper extension available for [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/), [**Opera**](https://addons.opera.com/ru/extensions/details/waves-keeper/) and [**Microsoft Edge**](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) users.
 
 Choose, install and open up your Waves keeper.
 
