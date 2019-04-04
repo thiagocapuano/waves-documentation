@@ -126,10 +126,10 @@
 * [Private Waves Network](waves-full-node/private-waves-network.md)
 * [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
 
-## ORACLES DEVELOPMENT
+## ORACLES DEVELOPMENTS
 
-* [what is a Data Oracle](oracles-development/what-is-a-data-oracle.md)
-* [Oracle Protocols](oracles-development/oracle-protocols.md)
+* [What is a Data Oracle](oracels-developments/what-is-a-data-oracle.md)
+* [Oracle Protocols](oracels-developments/oracle-protocols.md)
 
 ## WAVES CLIENT
 
