@@ -164,7 +164,7 @@ Transaction types:
 | 13 | SetScriptTransaction |
 | 14 | SponsorFeeTransaction |
 | 15 | SetAssetScriptTransaction |
-| 16 | ContractInvocationTransaction\*\* |
+| 16 | InvokeScriptTransaction\*\* |
 
 \* - Deprecated
 
