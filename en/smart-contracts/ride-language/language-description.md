@@ -61,8 +61,8 @@ Standard ByteVector type
 * size: ByteVector => Long
 * take: ByteVector, Long =&gt; ByteVector
 * drop: ByteVector, Long =&gt; ByteVector
-* dropRight: `ByteVector`, Long =&gt; ByteVector
-* takeRight: `ByteVector`, Long =&gt; ByteVector
+* dropRight: ByteVector, Long =&gt; ByteVector
+* takeRight: ByteVector, Long =&gt; ByteVector
 
 ### Long
 
