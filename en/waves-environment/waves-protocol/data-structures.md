@@ -814,7 +814,7 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
 }
 ```
 
-#### Contract Invocation Transaction
+#### InvokeScript Transaction
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
