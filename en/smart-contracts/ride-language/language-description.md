@@ -9,30 +9,30 @@ Waves smart contracts language is:
 
 ## Operations and constructs
 
-* Binary operations:`>=`, `>`, `<`, `<=`, `+`, `-`, `&&`, `||`, `*`, `%`, `/`, `==`, `!=`
-* Unary operations `-`, `!`
-* Constants declaration via `let`
-* `if-then-else` clause
-* Accessing fields of any instances within predefined structures by `.`
-* Accessing list element by index `[]`
-* Calls of predefined functions by `()`
+* Binary operations: **>=**, >, **<**, **<=**, **+**, **-**, **&&**, **||**, ** * **, **%**, **/**, **==**, **!=**
+* Unary operations **-**, **!**
+* Constants declaration via **let**
+* **if-then-else** clause
+* Accessing fields of any instances within predefined structures by **.**
+* Accessing list element by index **[]**
+* Calls of predefined functions by **()**
 
 ## Available data types
 
-* `Long`
-* `String`
-* `Boolean`
-* `ByteVector`
-* `List[T]`
-* Predefined non-recursive data structure like `Transaction` and `Block`.
-* `Unit` - a type which has only one instance, `unit`.
-* `Nothing`- "bottom type", no instance of this type can exist, but it can be applied on any other type.
-* Union types, like `Int | String | Transaction` and `ByteVector | Unit`
+* Long
+* String
+* Boolean
+* ByteVector
+* List[T]
+* Predefined non-recursive data structure like **Transaction** and **Block**.
+* Unit - a type which has only one instance, unit.
+* Nothing- "bottom type", no instance of this type can exist, but it can be applied on any other type.
+* Union types, like **Int | String | Transaction** and **ByteVector | Unit**
 
 ### Structures
 
-* `Point(x: Int, y: Int)`
-* `Alias(name: String)`
+* Point(x: Int, y: Int)
+* Alias(name: String)
 
 Defining user structures are restricted in RIDE.  
 You can create instance of any pre-defined structure by calling the constructor.
@@ -43,41 +43,40 @@ let alias = Alias("alicia")
 let name  = alias.name
 ```
 
-### List\[T\]
+### List[T]
 
-The user can't create `List[T]` instances but he can input data which contains some `List[T]` fields. All transactions contain field `proofs: List[ByteVector]` but MassTransfer transactions contain field `transfers: List[Transfer]`.
+The user can't create **List[T]** instances but he can input data which contains some **List[T]** fields. All transactions contain field **proofs: List[ByteVector]** but MassTransfer transactions contain field **transfers: List[Transfer]**.
 
-To access lists element you can use syntax `list[index]` with the first element at index 0.
+To access lists element you can use syntax **list[index]** with the first element at index 0.
 
-To determinate count of list elements, you can use function `size`:
+To determinate count of list elements, you can use function **size**:
 
-* `size`: `List[T] => Long`
-  This is also true as well for `DataType.ByteArray`:
-* `size`: `DataType.ByteArray => Long`
+* **size: List[T] => Long** This is also true as well for **DataType.ByteArray**.
+* **size: `DataType.ByteArray => Long**
 
 ### ByteVector
 
 Standard ByteVector type
 
-* `size`: `ByteVector => Long`
-* `take`: `ByteVector`, `Long` =&gt; `ByteVector`
-* `drop`: `ByteVector`, `Long` =&gt; `ByteVector`
-* `dropRight`: `ByteVector`, `Long` =&gt; `ByteVector`
-* `takeRight`: `ByteVector`, `Long` =&gt; `ByteVector`
+* size: ByteVector => Long
+* take: ByteVector, Long =&gt; ByteVector
+* drop: ByteVector, Long =&gt; ByteVector
+* dropRight: `ByteVector`, Long =&gt; ByteVector
+* takeRight: `ByteVector`, Long =&gt; ByteVector
 
 ### Long
 
-* `fraction(value: LONG, numerator: LONG, denominator: LONG) => LONG`
+* **fraction(value: LONG, numerator: LONG, denominator: LONG) => LONG**
 
 ### String
 
 Standard string type
 
-* `size`: `String => Long`
-* `take`: `String`, `Long` =&gt; `String`
-* `drop`: `String`, `Long` =&gt; `String`
-* `takeRight`: `String`, `Long` =&gt; `String`
-* `dropRight`: `String`, `Long` =&gt; `String`
+* size: String => Long`
+* take: String, Long =&gt; String
+* drop: String, Long =&gt; String
+* takeRight: String, Long =&gt; String
+* dropRight: String, Long =&gt; String
 
 ## Pattern Matching
 
@@ -111,5 +110,5 @@ let cooperSigned = if(sigVerify(tx.bodyBytes, tx.proofs[2], cooperPubKey )) then
 aliceSigned + bobSigned + cooperSigned >= 2
 ```
 
-**Note** Keep in mind that all `let`'s could actually be inlined, they exist only for the sake of readability.
+**Note** Keep in mind that all **let** could actually be inlined, they exist only for the sake of readability.
 
