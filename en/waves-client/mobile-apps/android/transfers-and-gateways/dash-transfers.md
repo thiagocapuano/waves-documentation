@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Dash](#how-to-receive-dash)
-* [How to send Dash](#how-to-send-dash)
-* [How to transfer Dash to another Waves account](#how-to-transfer-dash-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Dash on its blockchain. This works through a so-called Multigateway approach: Dash sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Dash token \(wDASH\) issued in the Waves blockchain. Every single Dash token is backed 1:1 with the real Dash.
@@ -93,6 +85,15 @@ After you have entered all necessary information click on the **Continue**.
 Re-check entered data and click on the **Confirm** to complete the process.
 
 ![](/waves-client/mobile-apps/_assets/dash_transfers_06.png)
+
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Continue** button.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/waves-client/mobile-apps/_assets/transaction_fee.png)
 
 ___
 

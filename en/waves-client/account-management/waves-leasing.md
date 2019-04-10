@@ -1,9 +1,4 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to Lease Your Waves](#how-to-lease-your-waves)
-* [How to close active Lease](#how-to-close-active-lease)
-* [More info](#more-info)
+# Lease Your WAVES
 
 ## Introduction
 
@@ -11,10 +6,9 @@
 
 Most people don't have 1000 WAVES to run their own node, so they are still able to help the whole project through leasing their Waves to someone who is able to run a node.
 
-> Most big nodes pay in a one week cycle to their users. The LPoS reward depends on the conditions of the selected pool.
-We do not regulate the payment process, so before using LPoS service, please read carefully the terms of payment and do your investigation of the pool that you want to use.
-The terms can vary between LPOS pools. Please use the list of LPoS pools - https://forum.wavesplatform.com/c/pools
-
+> Most big nodes pay in a one week cycle to their users. The LPoS reward depends on the conditions of the selected pool.  
+> We do not regulate the payment process, so before using LPoS service, please read carefully the terms of payment and do your investigation of the pool that you want to use.  
+> The terms can vary between LPOS pools. Please use the list of LPoS pools - [https://forum.wavesplatform.com/c/pools](https://forum.wavesplatform.com/c/pools)
 
 ## How to Lease Your Waves
 
@@ -55,10 +49,11 @@ Select the required leasing click on the icon in the right. Select **Cancel Leas
 
 That's it! You'll see the **The leasing canceled complete**.
 
-___
+---
 
 ## More info
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.
+

@@ -15,13 +15,23 @@ After launch, the node begins to receive blocks from the network, verify them an
 
 ## 2. Importing state from a previously prepared file
 
-[_**Import state**_](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md), here the user needs to stop the node before starting the process of exporting the blocks.
+The user needs to stop the node before starting the process of importing the blocks.
 
-In this case, we exclude network sharing costs \(we don’t count the time to download the file itself\). In addition, the import will not allow our node to "get on the fork"  
-The speed of block verification and signature verification affects the time of reaching the current state by the import method. These operations are performed on the CPU. The verification of the blocks goes in one stream, therefore, a gain in time will be given by a high-frequency CPU rather than a multicore one. The signature verification operation is multi-threaded, but against the background of block verification, it has an insignificant effect.  
-In other words, there is practically no difference when using 8 or 16 cores CPUs operating at the same frequency.
+> [!TIP]
+> Please follow the steps to import from blockchain by the link below. 
 
-The remaining blocks will be synchronized during normal operation.
+{% prettylink link="../waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md" %} Import From Blockchain {% endprettylink %}
+
+If the node is on a fork with a height more than 2000 blocks, it should choose an option for getting the actual blockchain. This can be achieved by updating the node version and reimporting the blockchain.
+
+> [!DANGER]
+> If your node is on a fork and you want to update it, please do not export/import your own blockchain but download the recent exported blockchains from the provided links below(the file blockchain_last.tar) otherwise your node will stay on the fork.
+
+{% prettylink link="http://blockchain.wavesnodes.com" %} Mainnet {% endprettylink %}
+{% prettylink link="http://blockchain.testnet.wavesnodes.com" %} Testnet {% endprettylink %}
+
+ 
+The speed of block verification and signature verification affects the time of reaching the current state by the import method. These operations are performed on the CPU. The verification of the blocks goes in one stream, therefore, a gain in time will be given by a high-frequency CPU rather than a multicore one. The signature verification operation is multi-threaded, but against the background of block verification, it has an insignificant effect. In other words, there is practically no difference when using 8 or 16 cores CPUs operating at the same frequency. The remaining blocks will be synchronized during normal operation.
 
 When synchronizing the state, an active writing to disk exceeds the IOPS values that the HDD gives. In particular, there may be delays when the operating system doesn't have enough physical memory. We recommend keeping at least 30% of the total memory for the needs of the operating system \(cache/buffers\).  
 Therefore, we choose SSD.
@@ -36,7 +46,7 @@ In this case, the longest operation is to download the archive. Then it is enoug
 
 Block verification is not a linear operation, “heavy” blocks are verified longer. The ”heaviness" of a block is determined by the number and type of transactions it contains.  So the first blocks \(for example, the first 200.000\) are empty and verified much faster than the same number of blocks after the million.  On the chart it looks as follows:
 
-![](/_assets/statisticsBlocksReceiving.png)
+![](../_assets/statistics_blocks_receiving.png)
 
 The time to reach the block 1220000 on different CPUs \(number of cores and frequencies\) in numbers:
 
@@ -47,6 +57,3 @@ The time to reach the block 1220000 on different CPUs \(number of cores and freq
 | Intel i7 8550u @ 1.8 GHz \(up to 4GHz\) \(8 vCPU\)/16 GB | 9:35. | 9:20. |
 
 {% prettyhint type="info" %} You can go through the links above for more details about each step.{% endprettyhint %}
-
-
-

@@ -5,7 +5,7 @@ Waves使用所谓的“权益证明”一致性算法。在这里，我们将描
 
 由于每个区块链是分散的“节点”系统\(或电脑确认网络上发生的交易并在整个系统中保持去中心化的一致意见\)，对于这些节点，又被称为工作量证明系统中的“矿工” ，或在权益证明系统中被称为“验证者”，是很重要的。这些节点将被激励以持续确认交易。而“矿工”或“验证者”节点确认事务的方式以及这些节点是如何被激励的，是工作量证明和权益证明之间的主要区别。
 
-# 1. 工作量证明 \(PoW\) {#LeasedProofofStake(LPOS)-Proof-of-Work(PoW)}
+# 1. 工作量证明 \(PoW\) 
 
 工作量证明是一种共识算法，它需要区块生成器执行昂贵的计算机计算，也称为开采，这需要被执行，以便在一个名为区块链的分布式分类账上创建一个新的无需信任交易组\(所谓的区块\)。
 
@@ -35,14 +35,14 @@ Waves使用所谓的“权益证明”一致性算法。在这里，我们将描
 
 这种投票权的集中化以及对网络的控制本质上破坏了基于分布式账薄的加密货币，因为为了避免出现中央机构，它违背了其分配网络内所有元素的全部原则。
 
-## 1.1 工作量证明系统的缺点 {#LeasedProofofStake(LPOS)-Proof-of-Workdownsides}
+## 1.1 工作量证明系统的缺点 
 
 * 需要更多的电力，成为矿工的成本。
 * 昂贵的高计算能力的硬件
 * 如果回报更好的话，有可能矿工们会租赁他们的硬件来开采一枚不同的硬币\(忠诚度\)。
 * 随着越来越多的硬币\(如更多的比特币\)被释放，矿工们的奖励会随着硬币变得稀缺而下降。
 
-# 2. 权益证明系统 \(PoS\) {#LeasedProofofStake(LPOS)-Proof-of-Stake(PoS)}
+# 2. 权益证明系统 \(PoS\) 
 
 权益证明系统是验证交易并实现分布式共识的一另一种方式。 其目的与工作量证明是相同的，但达成目标的过程却完全不同。
 
@@ -57,7 +57,7 @@ PoS必须制约以避免某些类型的攻击：
 * 要生成的最小WAVES数量为1000 WAVES。
 * 当余额增加时，1000区块之后将增加余额。
 
-## 2.1 为什么我们使用权益证明系统 {#LeasedProofofStake(LPOS)-WhyweuseProof-of-Stake}
+## 2.1 为什么我们使用权益证明系统 
 
 * 权益证明系统的重要优势包括能源效率。
 * Waves实施权益证明方法以获得更加环保和更便宜的分布式共识。
@@ -65,7 +65,7 @@ PoS必须制约以避免某些类型的攻击：
 
 ![](/_assets/PoW.png) 图1 PoW 对比 PoS
 
-# 3. 权益证明系统租赁 \(LPoS\) {#LeasedProofofStake(LPOS)-LeasedProof-of-Stake(LPoS)}
+# 3. 权益证明系统租赁 \(LPoS\) 
 
 LPoS是权益证明系统的增强版本。 在常规的权益证明系统中，每个拥有一定数量的加密货币的节点都有资格将下一个区块添加到区块链中，但在LPoS系统中，在Waves平台上，用户可以将其余额租赁给完整节点。通过使用LPOS，用户可以将WAVES从钱包租赁给不同的承包商，并支付一定比例的报酬。 被租赁到一个完整节点的金额越大，被选中的完整节点产生下一个区块的可能性就越大。如果选中了完整的节点来生成下一个区块，那么租赁者将收到完整节点收集的交易费用的百分比。
 
@@ -76,7 +76,7 @@ LPoS是权益证明系统的增强版本。 在常规的权益证明系统中，
 ![](/_assets/Webp.net-resizeimage-2.jpg)  
 图2，LPOS 系统
 
-## 3.1 租赁你的waves所带来的好处 {#LeasedProofofStake(LPOS)-BenefitsofleasingyourWAVES}
+## 3.1 租赁你的waves所带来的好处 
 
 安全性\(你的waves永远不会离开你的钱包\)::
 
@@ -96,9 +96,9 @@ LPoS是权益证明系统的增强版本。 在常规的权益证明系统中，
 * 网络上进行的交易越多，租赁者获得的奖励就越多。
 * 这些奖励主要以WAVES，但也可以接受采用具有独特的Waves功能的其他代币，作为费用。
 
-# 3.2 租赁交易 {#LeasedProofofStake(LPOS)-LeasingTransactions}
+# 3.2 租赁交易 
 
-## 3.2.1 创建租赁交易 {#LeasedProofofStake(LPOS)-CreateLeasingTransaction}
+## 3.2.1 创建租赁交易 
 
 ```
 "Id": 9q7X84wFuVvKqRdDQeWbtBmpsHt9SXFbvPPtUuKBVxxr ,
@@ -109,14 +109,14 @@ LPoS是权益证明系统的增强版本。 在常规的权益证明系统中，
 "timestamp":46305781705234713
 ```
 
-## 3.2.2 取消租赁交易 {#LeasedProofofStake(LPOS)-CancelLeasingTransaction}
+## 3.2.2 取消租赁交易 
 
 ```
 "sender" : 3HgqG68qfeVz5dqbyvqnxQceFaH49xmGvUS ,
 "leaseId": 9q7X84wFuVvKqRdDQeWbtBmpsHt9SXFbvPPtUuKBVxxr
 ```
 
-# 3.2.3 有用的租赁链接 {#LeasedProofofStake(LPOS)-Usefullinksforleasing}
+# 3.2.3 有用的租赁链接 
 
 有关租用您的waves分步指南，请点击[此处](/waves-client/account-management/waves-leasing.md).
 

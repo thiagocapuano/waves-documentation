@@ -11,4 +11,9 @@
 * Bitcoin, cryptos, fiat currencies, and all types of real-world commodities and assets can be issued, transferred and exchanged in a fully decentralized manner.
 * The fiat-crypto problem is solved through Waves fiat gateways.
 
-**Note** Please find [**here**](en/overview/how-to-use-this-guide.md) the instructions of using this guide.
+**Note** For additional resources, please follow any of the links below:
+* [**waves-official-resources**](/en/overview/waves-official-resources.md)
+* [**developer-resources**](/en/overview/developer-resources.md)
+* [**platform-components**](/en/overview/platform-components.md)
+* [**security-notes**](/en/overview/security-notes.md)
+ 

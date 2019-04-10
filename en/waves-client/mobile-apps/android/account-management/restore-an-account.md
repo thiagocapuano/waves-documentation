@@ -1,9 +1,3 @@
-## **Contents**:
-
-* [How to restore your account](#how-to-restore-your-account)
-* [How to pairing accounts between devices](#how-to-pairing-accounts-between-devices)
-* [More info](#more-info)
-
 ## How to restore your account
 
 Download and install the latest version from the App Store.  

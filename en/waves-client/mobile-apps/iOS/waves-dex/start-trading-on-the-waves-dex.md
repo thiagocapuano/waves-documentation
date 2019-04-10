@@ -1,8 +1,4 @@
-## **Contents**:
-
-* [How to buy cryptocurrency](#how-to-buy-cryptocurrency)
-* [How to sell cryptocurrency](#how-to-sell-cryptocurrency)
-* [More info](#more-info)
+## Introduction
 
 Open up your Waves wallet and click on the DEX ![](/waves-client/mobile-apps/_assets/dex_01.png).
 
@@ -52,9 +48,10 @@ The placed order will appears in the **My orders**. All executed or cancelled or
 
 ![](/waves-client/mobile-apps/_assets/dex_10.png)
 
-**Note**: You can cancel opened order by clicking on the **X** in the **My orders**.
+**Note**: The trading fee in the **Asset/Asset** pair is **0.003 Waves**. For **Asset/Smart-asset** pair - **0.007 Waves** and **Smart-asset/Smart-asset** pair **0.011 Waves**.
+The fee will be frozen for the order fee. If the order is not executed and then canceled, then Waves be will be unfrozen.
 
-**Attention** The commission for creating one **buy** or **sell** order on the DEX is **0.003 Waves**. This amount will be frozen for the order fee. If the order is not executed and then canceled, the amount will be unfrozen.
+**Note**: You can cancel opened order by clicking on the **X** in the **My orders**.
 
 ## How to sell cryptocurrency
 
@@ -73,19 +70,19 @@ After filling, click on the **Sell** **----**, where **----** currency of the se
 ![](/waves-client/mobile-apps/_assets/dex_11.png)
 
 **Note**: Please take into account the maximum order time is **29 days**. You can change the order time in the **Expiration** field.
-
 After the expiration of the selected period, the order will be forcibly canceled.
 
 The placed order will appears in the **My orders**. All executed or cancelled orders are available in the **My orders**.
 
 ![](/waves-client/mobile-apps/_assets/dex_12.png)
 
+**Note**: The trading fee in the **Asset/Asset** pair is **0.003 Waves**. For **Asset/Smart-asset** pair - **0.007 Waves** and **Smart-asset/Smart-asset** pair **0.011 Waves**.
+The fee will be frozen for the order fee. If the order is not executed and then canceled, then Waves be will be unfrozen.
+
 **Note**: You can cancel opened order by clicking on the **X** in the **My orders**.
 
-**Attention** The commission for creating one **buy** or **sell** order on the DEX is **0.003 Waves**. This amount will be frozen for the order fee. If the order is not executed and then canceled, the amount will be unfrozen.
-
-> *Before sending, receiving and trading crypto assets, educate yourself to make informed decisions. Crypto assets are volatile and the prices can go up and down. Carefully evaluate your trading goals and the financial risk you are willing to take.
-Please beware that Wavesplatform does not provide financial, tax, or legal advice. You should take such decisions on your own or consult with reliable experts*.
+> _Before sending, receiving and trading crypto assets, educate yourself to make informed decisions. Crypto assets are volatile, and the prices can go up and down. Carefully evaluate your trading goals and the financial risk you are willing to take.
+> Please beware that Wavesplatform does not provide financial, tax, or legal advice. You should make such decisions on your own or consult with reliable experts_.
 
 ___
 

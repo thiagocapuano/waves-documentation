@@ -1,7 +1,8 @@
-# Краткое изложение
+# Summary
 
 ## Обзор
 
+* [Introduction](README.md)
 * [Как использовать это руководство](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Заметки о безопасности](overview/security-notes.md)
@@ -13,17 +14,18 @@
 
 * [Протокол активации](platform-features/activation-protocol.md)
 * [Assets Custom Tokens](platform-features/assets-custom-tokens.md)
-* [Децентрализованная биржа (DEX)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
+* [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
 * [Fair Pos](platform-features/fair-pos.md)
-* [Leased Proof Of Stake (Lpos)](platform-features/leased-proof-of-stake-lpos.md)
+* [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
 * [Смарт контракты](platform-features/smart-contracts.md)
+
+## С чего начать
+
+* [Пользователю](getting-started/as-a-user.md)
 
 ## Waves приложение
 
 * [Установка Waves приложения](waves-client/install-waves-client.md)
-* [⚠️ Безопасность](waves-client/security.md)
-  * [⚠️ Будьте осторожны при использовании парольной фразы (SEED-фразы)!](waves-client/security/safe-place.md)
-  * [⚠️ Спам-транзакции](waves-client/security/spam-transactions.md)
 * [Управление аккаунтом](waves-client/account-management.md)
   * [Создание аккаунта](waves-client/account-management/creating-an-account.md)
   * [Восстановление аккаунта](waves-client/account-management/restore-an-account.md)
@@ -44,6 +46,7 @@
   * [Переводы Bitcoin Cash](waves-client/transfers-and-gateways/bitcoin-cash-transfers.md)
   * [Переводы Dash](waves-client/transfers-and-gateways/dash-transfers.md)
   * [Переводы Monero](waves-client/transfers-and-gateways/monero-transfers.md)
+  * [Переводы Bitcoin SV](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md)
   * [Перевод EUR и USD](waves-client/transfers-and-gateways/eur-usd-transfers.md)
   * [Покупка Waves с банковской карты](waves-client/transfers-and-gateways/buying-waves-using-card.md)
 * [Waves DEX](waves-client/waves-dex.md)
@@ -106,8 +109,8 @@
       * [Android: Покупка Waves с банковской карты](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Android: Использование биржи DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
-
 * [Часто задаваемые вопросы](waves-client/faq.md)
+  * [Подозрительные транзакции](waves-client/security/spam-transactions.md)
   * [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
   * [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [У меня есть достаточно Waves, но я не могу открыть ордер.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
@@ -116,5 +119,10 @@
   * [Поиск токена на бирже DEX используя Asset ID.](waves-client/frequently-asked-questions-faq/waves-dex/asset-id.md)
   * [Что такое платежный шлюз?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
   * [Обработка Ethereum платежей и смарт-контракты.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
-  * [Что такое эйрдроп (Airdrop)?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
+  * [Что такое эйрдроп \(Airdrop\)?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [Активация Ночного режима.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
+
+## Ноды Waves
+
+* [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
+

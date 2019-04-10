@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Monero](#how-to-receive-monero)
-* [How to send Monero](#how-to-send-monero)
-* [How to transfer Monero to another Waves account](#how-to-transfer-monero-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Monero on its blockchain. This works through a so-called Multigateway approach: Monero sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Monero token \(wMONERO\) issued in the Waves blockchain. Every single Monero token is backed 1:1 with the real Monero.
@@ -23,9 +15,9 @@ The following window will appear. Tap on the **Asset** and choose **Monero** fro
 
 Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.01 XMR**
+**The minimum amount of deposit is 0.1 XMR**
 ```
-If you will send less than 0.01 XMR, you will lose that money.
+If you will send less than 0.1 XMR, you will lose that money.
 ```
 **Send only XMR to this deposit address**
 ```
@@ -97,6 +89,15 @@ After you have entered all necessary information click on the **Continue**.
 Re-check entered data and click on the **Confirm** to complete the process.
 
 ![](/waves-client/mobile-apps/_assets/monero_transfers_06.png)
+
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your portfolio, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Continue** button.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/waves-client/mobile-apps/_assets/transaction_fee.png)
 
 ___
 

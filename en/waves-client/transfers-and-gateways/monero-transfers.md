@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Monero](#how-to-receive-monero)
-* [How to send Monero](#how-to-send-monero)
-* [How to transfer Monero to another Waves account](#how-to-transfer-monero-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Monero on its blockchain. This works through a so-called Multigateway approach: Monero sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Monero token \(wMonero\) issued in the Waves blockchain. Every single Monero token is backed 1:1 with the real Monero.
@@ -21,16 +13,16 @@ In the Monero section, click on the **Receive**.
 
 The following window will appear. Before proceeding please carefully read the conditions:
 
-**The minimum amount of deposit is 0.01 XMR**
+**The minimum amount of deposit is 0.1 XMR**
 ```
-If you will send less than 0.01 XMR, you will lose that money.
+If you will send less than 0.1 XMR, you will lose that money.
 ```
 **Send only XMR to this deposit address**
 ```
 Sending any other currency to this address may result in the total loss of your deposit.
 ```
 
-Copy the shown Monero address or Scan QR Code and send a payment.
+Copy the shown Monero address or Scan QR Code and send the payment.
 
 **Note**: Monero Payment ID already included in the recipient Monero address.
 But if the sender side required Payment ID, please contact Coinomat support team - **support@coinomat.com**
@@ -78,6 +70,15 @@ The following pop-up will appear.
 To complete the operation, click on the **Confirm** or **Back** to repeat the process.
 
 ![](/_assets/monero_transfers_08.png)
+
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/_assets/transaction_fee.png)
 
 ___
 

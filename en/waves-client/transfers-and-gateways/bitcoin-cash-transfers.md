@@ -1,11 +1,3 @@
-## **Contents**:
-
-* [Introduction](#introduction)
-* [How to receive Bitcoin Cash](#how-to-receive-bitcoin-cash)
-* [How to send Bitcoin Cash](#how-to-send-bitcoin-cash)
-* [How to transfer Bitcoin Cash to another Waves account](#how-to-transfer-bitcoin-cash-to-another-waves-account)
-* [More info](#more-info)
-
 ## Introduction
 
 Waves allow you to hold and transfer Bitcoin Cash on its blockchain. This works through a so-called Multigateway approach: Bitcoins Cash are sent to a user's deposit address available in the Waves wallet and after the deposit the user receives a Bitcoin Cash token \(wBCH\) issued in the Waves blockchain. Every single Bitcoin Cash token is backed 1:1 with the real Bitcoin Cash.
@@ -75,6 +67,15 @@ The following pop-up will appear.
 To complete the operation, click on the **Confirm** or **Back** to repeat the process.
 
 ![](/_assets/bch_transfers_08.png)
+
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/_assets/transaction_fee.png)
 
 ___
 

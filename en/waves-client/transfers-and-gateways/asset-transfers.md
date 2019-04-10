@@ -1,9 +1,3 @@
-**Menu**:
-
-* [How to receive Asset](#how-to-receive-asset)
-* [How to send Asset](#how-to-send-asset)
-* [More info](#more-info)
-
 ## How to receive Asset
 
 Think of the Waves account as a multi-wallet. It, obviously, supports Waves and also any other token existing on the Waves blockchain.
@@ -51,6 +45,15 @@ The following pop-up will appear.
 Re-check entered data and click on the **Confirm** button.
 
 ![](/_assets/asset_transfers_04.png)
+
+## How to use sponsored fee
+
+Waves users can also use a sponsored fee to pay for outgoing transfers. Check your **Portfolio**, if you see there a token with **%** icon. So it means you can change the default Waves fee to another sponsored token.
+
+So how to do it? Just create an outgoing transfer described above and click on the **WAVES** under **Transaction Fee**.
+Choose an available sponsored token and click on the **Continue** button.
+
+![](/_assets/transaction_fee.png)
 
 ___
 

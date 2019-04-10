@@ -2,6 +2,7 @@
 
 Testnet is a fully functioning Waves blockchain with the one key exception that because the Waves on the network can be created freely, it has no value. Testnet helps developers test new versions of Waves, as well as test network operations using identical versions of the software before they are carried out on the mainnet.
 
+
 ## How to Join Waves Testnet
 
 1. The simplest way to join a Waves testnet is by running the **docker container image** as explained [_**here**_](/waves-full-node/waves-node-in-docker.md).
