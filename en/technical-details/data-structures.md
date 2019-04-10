@@ -55,9 +55,9 @@ A recipient that can be encoded either as pure address or alias. Both `Address` 
 | 5 | Base target | Long | 8 |
 | 6 | Generation signature\* | Bytes | 32 |
 | 7 | Transactions block length \(N\) | Int | 4 |
-| 8 | Transaction \#1 bytes | Bytes | M1 |
+| 8 | Transaction \#1 bytes | Bytes | M1 \(see appropriate Transaction structure\) |
 | ... | ... | ... | ... |
-| 8 + \(K - 1\) | Transaction \#K bytes | Bytes | MK |
+| 8 + \(K - 1\) | Transaction \#K bytes | Bytes | MK \(see appropriate Transaction structure\) |
 | 9 + \(K - 1\) | Generator's public key | Bytes | 32 |
 | 10 + \(K - 1\) | Block's signature | Bytes | 64 |
 
@@ -72,16 +72,16 @@ Block's signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
-| 1 | Version \(0x02 for Genesis block,, 0x03 for common block\) | Byte | 1 |
+| 1 | Version \(0x02 for Genesis block, 0x03 for common block\) | Byte | 1 |
 | 2 | Timestamp | Long | 8 |
 | 3 | Parent block signature | Bytes | 64 |
 | 4 | Consensus block length \(always 40 bytes\) | Int | 4 |
 | 5 | Base target | Long | 8 |
 | 6 | Generation signature\* | Bytes | 32 |
 | 7 | Transactions block length \(N\) | Int | 4 |
-| 8 | Transaction \#1 bytes | Bytes | M1 |
+| 8 | Transaction \#1 bytes | Bytes | M1 \(see appropriate Transaction structure\) |
 | ... | ... | ... | ... |
-| 8 + \(K - 1\) | Transaction \#K bytes | Bytes | MK |
+| 8 + \(K - 1\) | Transaction \#K bytes | Bytes | MK \(see appropriate Transaction structure\) |
 | 9 + \(K - 1\) | Generator's public key | Bytes | 32 |
 
 ### Order V1
@@ -91,15 +91,15 @@ Block's signature is calculated from the following bytes:
 | 1 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
 | 2 | Matcher's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
 | 3.1 | Amount asset flag \(1 - asset, 0 - Waves\) |  | 1 
-| 3.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32/0 \(depends on byte in 3.1\) 
+| 3.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on byte in 3.1\) 
 | 4.1 | Price asset flag \(1 - asset, 0 - Waves\) |  | 1 
-| 4.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 32/0 \(depends on byte in 4.1\) 
+| 4.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on byte in 4.1\) 
 | 5 | Order type \(0 - Buy, 1 - Sell\) | Byte | 1 
 | 6 | Price | Long | 8 
 | 7 | Amount | Long | 8 
 | 8 | Timestamp | Long | 8 
 | 9 | Expiration | Long | 8 
-| 10 | Matcher's fee | Long | 8 
+| 10 | Matcher fee | Long | 8 
 | 11 | Signature | Bytes | 64 |
 
 The price listed for amount asset in price asset \* 10^8.
@@ -110,18 +110,18 @@ The signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length |
 | --- | --- | --- | --- |
-| 1 | Sender's public key | Bytes | 32 |
-| 2 | Matcher's public key | Bytes | 32 |
-| 3 | Amount's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
-| 4 | Amount's asset ID \(\*if used\) | Bytes | 0 \(32\*\) |
-| 5 | Price's asset flag \(0-Waves, 1-Asset\) | Byte | 1 |
-| 6 | Price's asset ID \(\*\*if used\) | Bytes | 0 \(32\*\*\) |
-| 7 | Order type \(0 - Buy, 1 - Sell\) | Bytes | 1 |
-| 8 | Price | Long | 8 |
-| 9 | Amount | Long | 8 |
-| 10 | Timestamp | Long | 8 |
-| 11 | Expiration | Long | 8 |
-| 12 | Matcher fee | Long | 8 |
+| 1 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
+| 2 | Matcher's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
+| 3.1 | Amount asset flag \(1 - asset, 0 - Waves\) |  | 1 
+| 3.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on byte in 3.1\) 
+| 4.1 | Price asset flag \(1 - asset, 0 - Waves\) |  | 1 
+| 4.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on byte in 4.1\) 
+| 5 | Order type \(0 - Buy, 1 - Sell\) | Bytes | 1 |
+| 6 | Price | Long | 8 |
+| 7 | Amount | Long | 8 |
+| 8 | Timestamp | Long | 8 |
+| 9 | Expiration | Long | 8 |
+| 10 | Matcher fee | Long | 8 |
 
 ### Order V2
 
