@@ -250,7 +250,7 @@ The transaction's signature is calculated from the following bytes:
 | 7 | Timestamp | Long | 8 
 | 8 | Amount | Long | 8 
 | 9 | Fee | Long | 8 
-| 10 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 10 | Recipient | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 11.1 | Attachment length \(N\) |  | 2 
 | 11.2 | Attachment | Array[Byte] | N <= 140 
 
@@ -267,7 +267,7 @@ The transaction's signature is calculated from the following bytes:
 | 5 | Timestamp | Long | 8 |
 | 6 | Amount | Long | 8 |
 | 7 | Fee | Long | 8 |
-| 8 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 8 | Recipient | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 9.1 | Attachment length \(N\) |  | 2 
 | 9.2 | Attachment | Array[Byte] | N <= 140 
 
@@ -286,7 +286,7 @@ The transaction's signature is calculated from the following bytes:
 | 7 | Timestamp | Long | 8 
 | 8 | Amount | Long | 8 
 | 9 | Fee | Long | 8 
-| 10 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 10 | Recipient | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 11.1 | Attachment length \(N\) |  | 2 
 | 11.2 | Attachment | Array[Byte] | N <= 140 
 | 12 | Proofs | Proofs | See Proofs structure 
@@ -435,7 +435,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 8\) | 1 
 | 2 | Sender's public key | PublicKey \(Array[Byte]\) | 32 
-| 3 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 3 | Recipient | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 4 | Amount | Long | 8 
 | 5 | Fee | Long | 8 
 | 6 | Timestamp | Long | 8 
@@ -447,7 +447,7 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 8\) | 1 
 | 2 | Sender's public key | PublicKey \(Array[Byte]\) | 32 
-| 3 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 3 | Recipient | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 4 | Amount | Long | 8 |
 | 5 | Fee | Long | 8 |
 | 6 | Timestamp | Long | 8 |
@@ -462,7 +462,7 @@ The transaction's signature is calculated from the following bytes:
 | 4.1 | Leasing asset flag\* \(1 - asset, 0 - Waves\) |  | 1 
 | 4.2 | Leasing asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on byte in 4.1\) 
 | 5 | Sender's public key | PublicKey \(Array[Byte]\) | 32 
-| 6 | Recipient | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 6 | Recipient | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 7 | Amount | Long | 8 
 | 8 | Fee | Long | 8 
 | 9 | Timestamp | Long | 8 
@@ -542,9 +542,9 @@ The transaction's signature is calculated from the following bytes:
 | 4.1 | Asset ID existence flag \(1/0\) |  | 1 
 | 4.2 | Asset ID | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on byte in 4.1\) 
 | 5.1 | Number of transfers |  | 2 
-| 5.2 | Address or alias for transfer 1 | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 5.2 | Address or alias for transfer 1 | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 5.3 | Amount for transfer 1 | Long | 8 
-| 5.4 | Address or alias for transfer 2 | Address or Alias | depends on first byte \(1 - Address, 2 - Alias\) 
+| 5.4 | Address or alias for transfer 2 | Address or Alias | Depends on first byte \(1 - Address, 2 - Alias\) 
 | 5.5 | Amount for transfer 2 | Long | 8 
 | ... | ... | ... | ... |
 | 6 | Timestamp | Long | 8 
@@ -597,7 +597,7 @@ Below is a sample **Mass Transfer transaction** encoded as **JSON**:
 | 5.2 | Key 1 length \(K1\) |  | 2 
 | 5.3 | Key 1 bytes | UTF-8 encoded | K1 <= 100 \* 4 \(max bytes count per char\) = 400 
 | 5.4 | Value 1 type \(0 = integer, 1 = boolean, 2 = binary array, 3 = string\) |  | 1 
-| 5.5 | Value 1 bytes | Value 1 type | depends on value type, max 32767 
+| 5.5 | Value 1 bytes | Value 1 type | Depends on value type, max 32767 
 | ... | ... | ... | ... |
 | 6 | Timestamp | Long | 8 
 | 7 | Fee | Long | 8 
