@@ -233,7 +233,7 @@
 
 ## TUTORIALS AND ARTICLES
 
-* [Smart Contacts](tutorials-and-articles/smart-contacts.md)
+* [Smart Contracts](tutorials-and-articles/smart-contacts.md)
 * [REPL\(Waves Console\)](tutorials-and-articles/replwaves-console.md)
 * [Waves Full Node](tutorials-and-articles/waves-full-node.md)
 

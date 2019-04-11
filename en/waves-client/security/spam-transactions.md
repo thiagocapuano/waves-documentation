@@ -1,10 +1,9 @@
 # What is the suspicious transaction in my wallet?
 
-Wavesplatform is open source and decentralized platform. For this reason, any member of the Waves network can create its own tokens and distribute them to other participants. Someone doing it to attract attention to their token, someone doing it to draw attention to their LPOS pool. Most often there is nothing wrong with that.
+Wavesplatform is open source and decentralized platform. For this reason, any member of the Waves network can create a new token and distribute it to other participants. Someone doing it to attract attention to their token, someone doing it to draw attention to their LPOS pool. Most often there is nothing wrong with that. But at the same time, some tokens can contain phishing links or violate the following requirements and rules regarding the token creation which are mentioning while creating a token. For this reason, we decided to create a special section for this type of tokens and mark them as **Suspicious**.
+Suspicious tokens can be found only by their Asset ID on the Waves DEX.
 
-But at the same time, some tokens can contain phishing links or duplicate existing cryptocurrency. For this reason, we decided to create a special section for suspicious tokens and mark them as **SUSPICIOUS**. Also, these tokens can be found only with Asset ID on the DEX platform.
-
-All suspicious assets are placing into the suspicious folder. Suspicious filtering integrated into all Waves Clients, such as: [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/WavesClient-mac.dmg), [**Linux**](https://wavesplatform.com/WavesClient-linux.deb), [**iOS**](https://itunes.apple.com/us/app/waves-wallet/id1233158971) and [**Android**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
+All suspicious tokens are placing into the suspicious folder. Suspicious filtering integrated into all Waves apps, such as: [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/WavesClient-mac.dmg), [**Linux**](https://wavesplatform.com/WavesClient-linux.deb), [**iOS**](https://itunes.apple.com/us/app/waves-wallet/id1233158971) and [**Android**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 
 Suspicious section can be found in a special section or disabled in the application settings. See wallet settings:
 

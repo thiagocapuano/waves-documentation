@@ -164,7 +164,7 @@ Transaction types:
 | 13 | SetScriptTransaction |
 | 14 | SponsorFeeTransaction |
 | 15 | SetAssetScriptTransaction |
-| 16 | ContractInvocationTransaction\*\* |
+| 16 | InvokeScriptTransaction\*\* |
 
 \* - Deprecated
 
@@ -814,7 +814,7 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
 }
 ```
 
-#### Contract Invocation Transaction
+#### InvokeScript Transaction
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
