@@ -131,9 +131,9 @@ The signature is calculated from the following bytes:
 | 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 3 | Matcher's public key | PublicKeyAccount \(Array[Byte]\) | 32 
 | 4.1 | Amount asset flag \(1 - asset, 0 - Waves\) |  | 1 
-| 4.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32/0 \(depends on the byte in 4.1\) 
+| 4.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 4.1\) 
 | 5.1 | Price asset flag \(1 - asset, 0 - Waves\) |  | 1 
-| 5.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 32/0 \(depends on the byte in 5.1\) 
+| 5.2 | Price asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 5.1\) 
 | 6 | Order type \(0 - Buy, 1 - Sell\) | Byte | 1 
 | 7 | Price | Long | 8 
 | 8 | Amount | Long | 8 
@@ -232,7 +232,7 @@ The transaction's signature is calculated from the following bytes:
 | 12 | Timestamp | Long | 8 
 | 13.1 | Script existence flag \(1/0\) |  | 1 
 | 13.2 | Script length \(S\) |  | 2 or 0 \(depends on the byte in 13.1\) 
-| 13.3 | Script | Script | 0 <= S <= 32768 or 0 \(depends on the byte in 13.1\) 
+| 13.3 | Script | Script | S <= 32768 or 0 \(depends on the byte in 13.1\) 
 | 14 | Proofs | Proofs | See Proofs structure 
 
 #### Transfer Transaction V1
@@ -595,7 +595,7 @@ Below is a sample **Mass Transfer transaction** encoded as **JSON**:
 | 4 | Sender's public key | PublicKey \(Array[Byte]\) | 32
 | 5.1 | Data entries count |  | 2
 | 5.2 | Key 1 length \(K1\) |  | 2
-| 5.3 | Key 1 bytes | UTF-8 encoded | K1<= 100 \* 4 \(max bytes count per char\) = 400 
+| 5.3 | Key 1 bytes | UTF-8 encoded | K1 <= 100 \* 4 \(max number of bytes per char\) = 400 
 | 5.4 | Value 1 type \(0 = integer, 1 = boolean, 2 = binary array, 3 = string\) |  | 1 
 | 5.5 | Value 1 bytes | Value 1 type | Depends on the value type, max 32767 
 | ... | ... | ... | ... |
@@ -649,7 +649,7 @@ Sets the script which verifies all outgoing transactions. The set script can be 
 | 5 | Sender's public key | PublicKey \(Array[Byte]\) | 32 
 | 6.1 | Script existence flag \(1/0\) |  | 1 
 | 6.2 | Script length \(S\) |  | 2 or 0 \(depends on the byte in 6.1\) 
-| 6.3 | Script | Script | 0 <= S <= 32768 or 0 \(depends on the byte in 6.1\) 
+| 6.3 | Script | Script | S <= 32768 or 0 \(depends on the byte in 6.1\) 
 | 7 | Fee | Long | 8 
 | 8 | Timestamp | Long | 8 
 | 9 | Proofs | Proofs | See Proofs structure 
@@ -713,7 +713,7 @@ Below is a sample **Sponsored transaction** encoded as **JSON**:
 | 8 | Timestamp | Long | 8 
 | 9.1 | Script existence flag \(1/0\) |  | 1 
 | 9.2 | Script length \(S\) |  | 2 or 0 \(depends on the byte in 9.1\) 
-| 9.3 | Script | Script | 0 <= S <= 32768 or 0 \(depends on the byte in 9.1\) 
+| 9.3 | Script | Script | S <= 32768 or 0 \(depends on the byte in 9.1\) 
 | 10 | Proofs | Proofs | See Proofs structure 
 
 Below is a sample **Set Asset Script** encoded as **JSON**:
