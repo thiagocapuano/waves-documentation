@@ -88,8 +88,8 @@ Block's signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
-| 1 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
-| 2 | Matcher's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
+| 1 | Sender's public key | PublicKey \(Array[Byte]\) | 32 |
+| 2 | Matcher's public key | PublicKey \(Array[Byte]\) | 32 |
 | 3.1 | Amount asset flag \(1 - asset, 0 - Waves\) |  | 1 
 | 3.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 3.1\) 
 | 4.1 | Price asset flag \(1 - asset, 0 - Waves\) |  | 1 
@@ -110,8 +110,8 @@ The signature is calculated from the following bytes:
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
-| 1 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
-| 2 | Matcher's public key | PublicKeyAccount \(Array[Byte]\) | 32 |
+| 1 | Sender's public key | PublicKey \(Array[Byte]\) | 32 |
+| 2 | Matcher's public key | PublicKey \(Array[Byte]\) | 32 |
 | 3.1 | Amount asset flag \(1 - asset, 0 - Waves\) |  | 1 
 | 3.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 3.1\) 
 | 4.1 | Price asset flag \(1 - asset, 0 - Waves\) |  | 1 
@@ -128,8 +128,8 @@ The signature is calculated from the following bytes:
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
 | 1 | Version | Byte \(constant, value = 2\) | 1 
-| 2 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
-| 3 | Matcher's public key | PublicKeyAccount \(Array[Byte]\) | 32 
+| 2 | Sender's public key | PublicKey \(Array[Byte]\) | 32 
+| 3 | Matcher's public key | PublicKey \(Array[Byte]\) | 32 
 | 4.1 | Amount asset flag \(1 - asset, 0 - Waves\) |  | 1 
 | 4.2 | Amount asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 4.1\) 
 | 5.1 | Price asset flag \(1 - asset, 0 - Waves\) |  | 1 
@@ -278,7 +278,7 @@ The transaction's signature is calculated from the following bytes:
 | 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
 | 2 | Transaction type | Byte \(constant, value = 4\) | 1 
 | 3 | Version | Byte | 1 
-| 4 | Sender's public key | PublicKeyAccount \(Array[Byte]\) | 32 
+| 4 | Sender's public key | PublicKey \(Array[Byte]\) | 32 
 | 5.1 | Asset ID flag \(1 - asset, 0 - Waves\) |  | 1 
 | 5.2 | Asset ID\* | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 5.1\) 
 | 6.1 | Fee's asset ID flag \(1 - asset, 0 - Waves\) |  | 1 
