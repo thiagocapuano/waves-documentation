@@ -745,8 +745,8 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
 | 6 | Contract address | Address | 26
 | 7 | Function call | EXPR | F
 | 8.1 | Payments size |  | 2
-| 8.2 | Payment length \(P\) |  | 2 or 0 \(depends on the short in 8.1\) 
-| 8.3 | Payment | Payment \(Long, Option[AssetId]\) | P <= 40 or 0 \(depends on the short in 8.1\) 
+| 8.2 | Payment 1 length \(P1\) |  | 2 or 0 \(depends on the short in 8.1\) 
+| 8.3 | Payment 1 | Payment \(Long, Option[AssetId]\) | P1 <= 40 or 0 \(depends on the short in 8.1\) 
 | ... | ... | ... | ... |
 | 9 | Fee | Long | 8 
 | 10.1 | Fee's asset ID flag \(1 - asset, 0 - Waves\) |  | 1
