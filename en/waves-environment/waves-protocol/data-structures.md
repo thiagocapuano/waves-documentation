@@ -744,9 +744,10 @@ Below is a sample **Set Asset Script** encoded as **JSON**:
 | 5 | Sender's public key | PublicKey \(Array[Byte]\) | 32
 | 6 | Contract address | Address | 26
 | 7 | Function call | EXPR | F
-| 8.1 | Payment |  | 1 
+| 8.1 | Payments size |  | 2
 | 8.2 | Payment length \(P\) |  | 2 or 0 \(depends on the short in 8.1\) 
 | 8.3 | Payment | Payment \(Long, Option[AssetId]\) | P <= 40 or 0 \(depends on the short in 8.1\) 
+| ... | ... | ... | ... |
 | 9 | Fee | Long | 8 
 | 10.1 | Fee's asset ID flag \(1 - asset, 0 - Waves\) |  | 1
 | 10.2 | Fee's asset ID | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 10.1\) 
