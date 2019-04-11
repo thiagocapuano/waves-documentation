@@ -550,7 +550,7 @@ The transaction's signature is calculated from the following bytes:
 | 6 | Timestamp | Long | 8
 | 7 | Fee | Long | 8
 | 8.1 | Attachments length \(N\) |  | 2
-| 8.2 | Attachments | Array[Byte] | N<= 140 
+| 8.2 | Attachments | Array[Byte] | N <= 140 
 | 9 | Proofs | Proofs | See Proofs structure 
 
 The transaction signature is calculated from the fields 1 to 8.2, i.e. proofs and signatures are not included.
