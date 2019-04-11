@@ -10,6 +10,10 @@
 
 {% prettylink link="https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab" %}Download for Microsoft Edge{% endprettylink %}
 
+{% prettylink link="https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo" %}Brave supports Waves Keeper Chrome extension in the chrome web store {% endprettylink %}
+
+
+
 
 {% prettylink link="https://chrome-ext.wvservices.com" %}Demo Page{% endprettylink %}
 
