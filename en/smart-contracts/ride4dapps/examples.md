@@ -1,4 +1,5 @@
 # Examples
+{% prettylink link="https://github.com/wavesplatform/ride-examples" %}RIDE Examples on Github{% endprettylink %}
 
 As we explained before, Functions are invoked using _**InvokeScriptTransaction**_, which specifies the account which calls the script,
 
