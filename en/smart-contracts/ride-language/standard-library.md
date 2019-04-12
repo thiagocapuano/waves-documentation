@@ -86,6 +86,17 @@
 | size|2|Size of list|<ul> <li>arr LIST[ T] list</li></ul>| <a>Int</a>
 | -|9|Change integer sign|<ul> <li>@n <a>Int</a> value</li></ul>| <a>Int</a>
 | !|11|unary negation|<ul> <li>@p  <a>Boolean</a> boolean</li></ul>|  <a>Boolean</a>
+| value|13|Extract value from option or fail|<ul> <li>@a  <a>ByteVector</a> OPTION[T]Optional value</li></ul>| <a>T</a>
+| cons|2|Construct a new List[T]|<ul> <li>head A head tail <a>LIST[B] tail</a> value</li></ul>| <a>LIST[]</a>
+| ensure|16|Ensure parameter is true|<ul> <li> @b <a>Boolean</a> value</li></ul> <li>@msg <a>String </a> error message </li></ul>| <a>Boolean</a>
+| toUtf8String|20|Convert UTF8 bytes to string|<ul> <li>u <a>ByteVector</a> utf8 </li></ul>|<a>String</a>
+| toInt|10|Deserialize big endian 8-bytes|<ul> <li>bin <a>ByteVector</a> 8-bytes BE binaries</li></ul>| <a>Int</a>
+| toInt|10|Deserialize big endian 8-bytes|<ul> <li>bin <a>ByteVector</a> 8-bytes BE binaries</li><li>offet <a>Int</a> bytes offset</li></ul>| <a>Int</a>
+| indexOf|20|index of substring|<ul> <li>str <a>String</a> String for analize</li><li>substr <a>String</a> String for searching</li></ul>| <a>Option[Int]</a>
+| indexOf|20|index of substring|<ul> <li>str <a>String</a> String for analize</li><li>substr <a>String</a> String for searching</li></ul> <li>offet <a>Int</a> offset</li></ul>| <a>Option[Int]</a>
+| split|100|split string by separator|<ul> <li>str <a>String</a> String for splitting</li><li>separator <a>String</a> separator</li></ul>| <a>LIST[String]</a>
+| parseInt|20|parse string to integer|<ul> <li>str <a>String</a> String for parsing</li></ul>| <a>OPTION[Int]</a>
+| parseInt|20|parse string to integer with fail on errors|<ul> <li>str <a>String</a> String for parsing</li></ul>| <a>Int</a>
 | keccak256|10|256 bit Keccak/SHA-3/TIPS-202|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>ByteVector</a>
 | blake2b256|10|256 bit BLAKE|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>ByteVector</a>
 | sha256|10|256 bit SHA-2|<ul> <li>bytes <a>ByteVector</a> value</li></ul>| <a>ByteVector</a>
