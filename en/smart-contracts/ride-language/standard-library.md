@@ -1,4 +1,5 @@
 # Standard Library
+{% prettylink link="https://cdn.rawgit.com/wavesplatform/waves-documentation/master/en/doc.html" %}Full Details{% endprettylink %}
 
 # Types
 |type|adds|
