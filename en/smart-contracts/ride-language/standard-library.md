@@ -31,6 +31,13 @@
 | [SponsorFeeTransaction](#SponsorFeeTransaction) |   <ul> <li> <b>assetId</b> <a>ByteVector</a> </li> <li> <b>minSponsoredAssetFee</b>  <a>OPTION(Int)</a></li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
 | [ExchangeTransaction](#ExchangeTransaction) |   <ul> <li> <b>buyOrder</b>[Order](#Order) </li> <li> <b>sellOrder</b>[Order](#Order) </li> <li> <b>price</b> <a>Int</a> </li> <li> <b>amount</b> <a>Int</a> </li> <li> <b>buyMatcherFee</b> <a>Int</a> </li> <li> <b>sellMatcherFee</b> <a>Int</a> </li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
 | [DataTransaction](#DataTransaction) |   <ul> <li> <b>data</b> <a>LIST</a>[ [DataEntry](#DataEntry)]</li> <li> <b>id</b> <a>ByteVector</a> </li> <li> <b>fee</b> <a>Int</a> </li> <li> <b>timestamp</b> <a>Int</a> </li> <li> <b>version</b> <a>Int</a> </li> <li> <b>sender</b><a>Address</a> </li> <li> <b>senderPublicKey</b> <a>ByteVector</a> </li> <li> <b>bodyBytes</b> <a>ByteVector</a> </li> <li> <b>proofs</b> <a>LIST</a> <a>ByteVector</a></li></ul>|
+|[WriteSet](WriteSet) | </li> <li> <b>data</b> <a> LIST[DataEntry] </a> |
+|[AttachedPayment](AttachedPayment) | </li> <li> <b>assetId</b> <a> OPTION[ByteVector] </a> </li> <li> <b>amount</b> <a>Int </a> |
+|[ScriptTransfer](ScriptTransfer) | </li> <li> <b>recipient</b> <a> Address </a> <a>Alias</a> </li> <li> <b>amount</b> <a>Int </a> </li> <li> <b>asset</b> <a> OPTION[ByteVector] </a> |
+|[TransferSet](TransferSet) | </li> <li> <b>transfers</b> <a> LIST[ScriptTransfer]  </a>  |
+|[ScriptResult](ScriptResult) | </li> <li> <b>data</b> <a> WriteSet </a> </li> <li> <b>transfers</b> <a>TransferSet </a> |
+|[Invocation](Invocation) | </li> <li> <b>caller</b> <a> Address </a> </li> <li> <b>callerPublicKey</b> <a>ByteVector </a> </li> <li> <b>payment</b> <a> OPTION[AttachedPayment]  </a> |
+
 
 # Input variables
 |vars|type|doc|
