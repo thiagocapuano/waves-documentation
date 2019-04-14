@@ -25,18 +25,17 @@ Let's describe each boxes:
 **Decimals**: Set how many decimals your asset shall have. For example, if you set 8 decimals as in Bitcoin, your token can be divided down to 0.00000001. If you set 0, your token can only be transacted in whole pieces (1, 3, 15);
 
 **Note**: Before creating a new Asset, make sure that you have at least 1 WAVES for asset creation fee.
-
 **Note**: The name of the created asset can not be shorter than 4 characters.
 
 Check all fields in the **Preview** box and if everything is OK, click on the **Generate** button.
 
 ![](/_assets/token_creation_03.png)
 
-After that recheck everything again and click on the **Confirm** button and your asset will be created with the next block.
+After that please carefully read asset creation conditions and if everything is correct, click on the **Send**. If not, please change the name of the token under the token creation conditions by clicking **Go Back**.
 
-![](/_assets/token_creation_04.png)
+![](/_assets/token_creation_03.1.png)
 
-You'll be able to see your newly created token in the Portfolio.
+After all you'll be able to see your newly created token in the Portfolio.
 
 ![](/_assets/token_creation_05.png)
 
