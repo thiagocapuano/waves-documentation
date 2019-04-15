@@ -18,11 +18,12 @@
 * [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
 * [Fair Pos](platform-features/fair-pos.md)
 * [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
-* [Смарт контракты](platform-features/smart-contracts.md)
 
 ## С чего начать
 
 * [Пользователю](getting-started/as-a-user.md)
+
+## Язык RIDE
 
 ## Waves приложение
 
