@@ -26,8 +26,8 @@
 ## Смарт-контракты
 
 * [Язык RIDE](smart-contracts/ride-language.md)
-  * [О языке RIDE](yazik-ride/o-yazike-ride.md)
-  * [Неизменяемые переменные и ключевое слово let](smart-contracts/ride-language/neizmenyaemie-peremennie-i-klyuchevoe-slovo-let.md)
+  * [О языке RIDE](smart-contracts/ride-language/about-ride-language.md)
+  * [Неизменяемые переменные и ключевое слово let](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
 
 ## Waves приложение
 
