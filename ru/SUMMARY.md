@@ -25,6 +25,8 @@
 
 ## Язык RIDE
 
+* [О языке RIDE](yazik-ride/o-yazike-ride.md)
+
 ## Waves приложение
 
 * [Установка Waves приложения](waves-client/install-waves-client.md)
