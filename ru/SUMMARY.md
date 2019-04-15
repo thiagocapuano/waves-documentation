@@ -9,6 +9,7 @@
 * [Официальные ресурсы ](overview/waves-official-resources.md)
 * [Waves релизы](overview/waves-releases.md)
 * [Waves токены](overview/waves-tokens.md)
+* [Использование RIDE для написания dApps](ispolzovanie-ride-dlya-napisaniya-dapps.md)
 
 ## Возможности платформы
 

@@ -23,7 +23,7 @@ In the **Security** settings you will find **Script** and **Set Script** button.
 
 ![](/_assets/advanced_features_03.1.png)
 
-Read the important notice carefully before proceeding. Afetr that, clicon the **Accept and continue**.
+Read the important notice carefully before proceeding. Afetr that, click on the **Accept and continue**.
 
 ![](/_assets/advanced_features_03.2.png)
 

@@ -1,4 +1,5 @@
 # Examples
+{% prettylink link="https://github.com/wavesplatform/ride-examples" %}RIDE Examples on Github{% endprettylink %}
 
 As we explained before, Functions are invoked using _**InvokeScriptTransaction**_, which specifies the account which calls the script,
 
@@ -104,14 +105,10 @@ func divideAmount() = {
 
 ## InvokeScript Transaction to execute Functions
 
-You can execute the functions by using [IDE](https://ide.wavesplatform.com/) console. Also it's available in the JS library \([waves-transactions](https://docs.wavesplatform.com/en/waves-api-and-sdk/client-libraries/waves-transactions.html)\).
-
-
+You can execute the functions by using [IDE](https://ide.wavesplatform.com/) console. Also it's available in the JS library \([waves-transactions](/waves-api-and-sdk/client-libraries/waves-transactions.md)\).
 
 ```js
-broadcast(invokeScript({contractAddress: {CONTRACT_ADDRESS_HERE}), call:{function:"divideAmount",args:[]}, payment: []}))
-
-
+broadcast(invokeScript({dappAddress: "Contract Address", call:{function:"divideAmount",args:[]}, payment: []}))
 ```
 
 

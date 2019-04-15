@@ -1,6 +1,7 @@
 # Effective RIDE Examples
 
-{% prettylink link="/technical-details/ride-language.md" %}RIDE's Introduction{% endprettylink %}
+{% prettylink link="https://github.com/wavesplatform/ride-examples" %}RIDE Examples on Github{% endprettylink %}
+
 
 ## Formatting
 
