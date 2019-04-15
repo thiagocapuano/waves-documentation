@@ -23,8 +23,6 @@
 
 * [Пользователю](getting-started/as-a-user.md)
 
-## Язык RIDE
-
 ## Смарт-контракты
 
 * [Язык RIDE](smart-contracts/ride-language.md)
