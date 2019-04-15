@@ -27,6 +27,11 @@
 
 * [О языке RIDE](yazik-ride/o-yazike-ride.md)
 
+## Смарт-контракты
+
+* [Язык RIDE](smart-contracts/ride-language.md)
+* [Неизменяемые переменные и ключевое слово let](smart-contracts/ride-language/neizmenyaemie-peremennie-i-klyuchevoe-slovo-let.md)
+
 ## Waves приложение
 
 * [Установка Waves приложения](waves-client/install-waves-client.md)
