@@ -92,6 +92,7 @@
     * [Examples](smart-contracts/ride4dapps/examples.md)
 * [RIDE Language](smart-contracts/ride-language/ride-language.md)
   * [About RIDE language](smart-contracts/ride-language/about-ride-language.md)
+  * [Immutable variables and the "let" keyword](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
   * [Functions and Standard Library](smart-contracts/ride-language/standard-library.md)
   * [Language Description](smart-contracts/ride-language/language-description.md)
   * [Effective RIDE Examples](smart-contracts/ride-language/effective-ride-examples.md)
