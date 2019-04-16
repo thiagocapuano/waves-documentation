@@ -1,12 +1,5 @@
 # Language description
 
-Waves smart contracts language is:
-
-* Lazy
-* Strong typed
-* Statically typed
-* Expression-based.
-
 ## Operations and constructs
 
 * Binary operations: **>=**, >, **<**, **<=**, **+**, **-**, **&&**, **||**, ** * **, **%**, **/**, **==**, **!=**

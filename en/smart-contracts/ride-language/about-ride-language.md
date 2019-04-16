@@ -14,6 +14,6 @@ RIDE language was designed as not [Turing complete](https://en.wikipedia.org/wik
 
 ## Some facts about RIDE language
 - RIDE is based on expressions.
-- RIDE language is [lazy](https://wavesplatform.atlassian.net/wiki/spaces/WDOCS/pages/1558249955) by design.
+- RIDE language is [lazy](/smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md) by design.
 - RIDE is not an object-oriented language. By paradigm, RIDE is rather a functional programming language.
-- RIDE is case-sensitive. Because of that, the variables myVar and myVAR will be treated as different variables.
+- RIDE is case-sensitive. Because of that, the variables `myVar` and `myVAR` will be treated as different variables.
