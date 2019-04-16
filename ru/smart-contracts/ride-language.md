@@ -1,0 +1,2 @@
+- [О языке RIDE](/smart-contracts/ride-language/about-ride-language.md)
+- [Неизменяемые переменные и ключевое слово let](/smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)

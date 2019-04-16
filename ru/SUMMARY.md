@@ -18,11 +18,16 @@
 * [Децентрализованная биржа \(DEX\)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
 * [Fair Pos](platform-features/fair-pos.md)
 * [Leased Proof Of Stake \(Lpos\)](platform-features/leased-proof-of-stake-lpos.md)
-* [Смарт контракты](platform-features/smart-contracts.md)
 
 ## С чего начать
 
 * [Пользователю](getting-started/as-a-user.md)
+
+## Смарт-контракты
+
+* [Язык RIDE](smart-contracts/ride-language.md)
+  * [О языке RIDE](smart-contracts/ride-language/about-ride-language.md)
+  * [Неизменяемые переменные и ключевое слово let](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
 
 ## Waves приложение
 
