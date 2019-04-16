@@ -1,2 +1,2 @@
-- [О языке RIDE](https://docs.wavesplatform.com/ru/smart-contracts/ride-language/about-ride-language.html)
-- [Неизменяемые переменные и ключевое слово let](https://docs.wavesplatform.com/ru/smart-contracts/ride-language/immutable-variables-and-the-let-keyword.html)
+- [О языке RIDE](/smart-contracts/ride-language/about-ride-language.md)
+- [Неизменяемые переменные и ключевое слово let](/smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
