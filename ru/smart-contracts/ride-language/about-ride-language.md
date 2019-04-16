@@ -17,7 +17,7 @@
 ## Факты о языке RIDE
 
 * Язык RIDE основан на выражениях.
-* Язык RIDE — [ленивый](https://docs.wavesplatform.com/ru/smart-contracts/ride-language/immutable-variables-and-the-let-keyword.html) по задумке.
+* Язык RIDE — [ленивый](/smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md) по задумке.
 * RIDE — не объектно-ориентированный язык. По своей парадигме RIDE является скорее функциональным языком программирования.
 * Язык RIDE чувствителен к регистру, поэтому переменные `myVar` и `myVAR` будут считаться разными переменными.
 * Файлы с исходными кодами языка имеют расширение ".ride".
