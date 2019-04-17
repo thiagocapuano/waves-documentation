@@ -3,11 +3,11 @@
 Here you can find some video tutorials about our smart contracts use-cases which were build using:
 
 1. [Waves IDE](https://ide.wavesplatform.com)
-2. [WaveJ \(Waves Java Library\) ](../development-and-api/client-libraries/wavesj.md)
+2. [WaveJ (Waves Java Library) ](../waves-api-and-sdk/client-libraries/wavesj.md)
 
 ## 1.1 Using Smart Contracts with Waves Console
 
-[In this tutorial](https://www.youtube.com/watch?v=sOZuE9Ebfko&t=619s), we explain how to create, compile, deploy, and use Smart Contracts with Waves Console. The main use case here is 2-of-3 MultiSig account. This tutorial includes two parts:
+In this tutorial, we explain how to create, compile, deploy, and use Smart Contracts with Waves Console. The main use case here is 2-of-3 MultiSig account. This tutorial includes two parts:
 
 **First Part:** this part includes console overview and how to write, compile and deploy the smart contract.
 
@@ -21,7 +21,7 @@ Here you can find some video tutorials about our smart contracts use-cases which
 
 ## 1.2 Multi Signature Using Waves IDE & WavesJ
 
-[In this tutorial](https://www.youtube.com/watch?v=o2msjSo0y0o&t=35s), the use case supposes that there are 3 people in a team and they hold common funds for corporate purposes. It is convenient for the team to make a decision about the allocation of common funds according to the majority decision, and they use a multi-signature account to do this \(smart account\). They create an account and do [`SetScriptTransaction`](https://ebceu4.github.io/waves-transactions/interfaces/setscripttransaction.html) with the **multisig account**. The idea here of a smart account is the following: before the transaction is submitted for inclusion in the next block, the account checks if the transaction meets certain requirements, defined in a script. The script is attached to the account so the account can validate every transaction before confirming it.
+In this tutorial, the use case supposes that there are 3 people in a team and they hold common funds for corporate purposes. It is convenient for the team to make a decision about the allocation of common funds according to the majority decision, and they use a multi-signature account to do this \(smart account\). They create an account and do [`SetScriptTransaction`](https://wavesplatform.github.io/waves-transactions/globals.html#setscript) with the **multisig account**. The idea here of a smart account is the following: before the transaction is submitted for inclusion in the next block, the account checks if the transaction meets certain requirements, defined in a script. The script is attached to the account so the account can validate every transaction before confirming it.
 
 * [_**Source Code**_](https://github.com/Nazeim/Waves-Smart-Contracts-Tutorials)
 * [_**Waves IDE**_](https://ide.wavesplatform.com)
@@ -33,7 +33,7 @@ Here you can find some video tutorials about our smart contracts use-cases which
 
 ## 1.3 Escrow Using Waves IDE & WavesJ
 
-[In this tutorial](https://www.youtube.com/watch?v=31dwYcgb65M&t=383s), we consider the problem of buying physical goods with cryptocurrencies. Should the buyer trust the seller and pay before receiving the goods or should the seller trust the buyer and ship the goods before receiving payment? This issue can be solved by using a third party escrow service. A well-known improvement uses Waves multisig feature. In this scheme, the money is not sent directly to the escrow service’s address, but instead, it is sent to a 2-of-3 multisig address with one key controlled by each of the transacting parties and one controlled by the mediator. When there is no dispute, the two transacting parties can together create the transfer transaction. Only when there is a dispute will the mediator get involved, collaborating with either the buyer or seller \(as appropriate\) to redeem the funds.
+In this tutorial, we consider the problem of buying physical goods with cryptocurrencies. Should the buyer trust the seller and pay before receiving the goods or should the seller trust the buyer and ship the goods before receiving payment? This issue can be solved by using a third party escrow service. A well-known improvement uses Waves multisig feature. In this scheme, the money is not sent directly to the escrow service’s address, but instead, it is sent to a 2-of-3 multisig address with one key controlled by each of the transacting parties and one controlled by the mediator. When there is no dispute, the two transacting parties can together create the transfer transaction. Only when there is a dispute will the mediator get involved, collaborating with either the buyer or seller(as appropriate) to redeem the funds.
 
 * [_**Source Code**_](https://github.com/Nazeim/Waves-Smart-Contracts-Tutorials/blob/master/src/main/java/Escrow.java)
 * [_**Waves IDE**_](https://ide.wavesplatform.com)
@@ -45,7 +45,7 @@ Here you can find some video tutorials about our smart contracts use-cases which
 ## 1.4 Waves Console Commands
 
 Waves IDE has a **Waves console** feature which supports different commands.  
-[In this video](https://www.youtube.com/watch?v=gBgLjg6nrvA&amp=&feature=youtu.be) we went through most of these commands with simple examples.
+In this video, we went through most of these commands with simple examples.
 
 * [_**Waves Console Commands Examples**_](../technical-details/waves-contracts-language-description/waves-console-commands.md)
 
@@ -54,12 +54,15 @@ Waves IDE has a **Waves console** feature which supports different commands.
 
 ## 1.5 Create MultiSig Account via Waves Client
 
-[In this tutorial](https://www.youtube.com/watch?v=OIQoheOYJw8), we went through Waves Client advanced features which are:
+In this tutorial, we went through Waves Client advanced features which are:
 
 1. Get the transaction as JSON.
 2. Attach a script to your account.
 
 As a first step in our example, we created a script for 2 of 2 MultiSig account, Attach the script to our account via Waves client and then made a transfer transaction with two signatures.
+
+{%youtube%}OIQoheOYJw8{%endyoutube%}
+
 
 ## 1.6 Create MultiSig Account via Waves IDE tools
 
