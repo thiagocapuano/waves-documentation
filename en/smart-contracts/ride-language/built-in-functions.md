@@ -2,6 +2,13 @@
 <div style="overflow-x:auto;">
   <h1>Functions</h1>
 <table border="1">
+<tr>
+   <th>Function Name</th>
+   <th>Cost(Complexity)</th>
+   <th>Description</th>
+   <th>Params</th>
+   <th>Type</th>
+ </tr>
 <tr><td>fraction</td>
 <td>1</td>
 <td>Multiply and dividion with big integer intermediate representation</td>
