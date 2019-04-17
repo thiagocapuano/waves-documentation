@@ -1,6 +1,6 @@
 # Summary
 
-## OVERVIEW
+## Overview
 
 * [What is Waves Platform?](README.md)
 * [Waves Platform Components](overview/platform-components.md)
@@ -9,7 +9,7 @@
 * [Developer Resources ](overview/waves-official-resources.md)
 * [Contributing](contributing.md)
 
-## WAVES ENVIRONMENT
+## Waves environment
 
 * [Waves Tokens](waves-environment/waves-tokens.md)
 * [Custom Tokens](waves-environment/custom-tokens.md)
@@ -33,19 +33,19 @@
   * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
   * [Smart Contracts](waves-environment/waves-protocol/smart-contracts.md)
 
-## GETTING STARTED
+## Getting started
 
 * [As a Developer](getting-started/as-a-developer.md)
 * [As a Node Owner](getting-started/as-a-node-owner.md)
 * [As a User](getting-started/as-a-user.md)
 
-## DEVELOPER TOOLS
+## Developer tools
 
 * [Waves Explorer](developer-tools/waves-explorer.md)
 * [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
 * [REPL](developer-tools/repl.md)
 
-## WAVES API & SDK
+## Waves API and SDK
 
 * [NODE API: Waves Node Rest API](waves-api-and-sdk/waves-node-rest-api.md)
   * [Address](waves-api-and-sdk/waves-node-rest-api/address.md)
@@ -83,7 +83,7 @@
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create Your First crypto Trading Bot](waves-api-and-sdk/examples/trading-bot.md)
 
-## SMART CONTRACTS
+## Smart contracts \(dApps\)
 
 * [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
   * [Smart Accounts](smart-contracts/smart-accounts.md)
@@ -93,8 +93,8 @@
 * [RIDE Language](smart-contracts/ride-language/ride-language.md)
   * [About RIDE language](smart-contracts/ride-language/about-ride-language.md)
   * [Immutable variables and the "let" keyword](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
-  * [Functions and Standard Library](smart-contracts/ride-language/standard-library.md)
   * [Language Description](smart-contracts/ride-language/language-description.md)
+  * [Functions and Standard Library](smart-contracts/ride-language/standard-library.md)
   * [Effective RIDE Examples](smart-contracts/ride-language/effective-ride-examples.md)
   * [Creating and Deploying a Script Manually](smart-contracts/ride-language/creating-and-deploying-a-script-manually.md)
   * [Script Performance Tests](smart-contracts/ride-language/script-performance-tests.md)
@@ -107,7 +107,7 @@
   * [Maven Compiler](smart-contracts/ride-language/maven-compiler.md)
 * [Video Tutorials and Articles](smart-contracts/video-tutorials-and-articles.md)
 
-## WAVES FULL NODE
+## Waves full node
 
 * [What is Waves Full Node ](waves-full-node/what-is-a-full-node.md)
 * [How To Install a Node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
@@ -128,12 +128,12 @@
 * [Private Waves Network](waves-full-node/private-waves-network.md)
 * [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
 
-## ORACLES DEVELOPMENTS
+## Oracles development
 
 * [What is a Data Oracle](oracels-developments/what-is-a-data-oracle.md)
 * [Oracle Protocols](oracels-developments/oracle-protocols.md)
 
-## WAVES CLIENT
+## Waves Client
 
 * [Installation ](waves-client/install-waves-client.md)
 * [Online/Desktop Apps](waves-client/onlinedesktop-apps.md)
@@ -233,13 +233,13 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
-## TUTORIALS AND ARTICLES
+## Tutorials and articles
 
 * [Smart Contracts](tutorials-and-articles/smart-contacts.md)
 * [REPL\(Waves Console\)](tutorials-and-articles/replwaves-console.md)
 * [Waves Full Node](tutorials-and-articles/waves-full-node.md)
 
-## PROPOSALS
+## Proposals
 
 * [Asset Verification Protocol](proposals/asset-verification-protocol.md)
 * [Sponsored Transactions](proposals/sponsored-transactions.md)
