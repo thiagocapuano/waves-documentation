@@ -3,16 +3,16 @@
 ## Overview
 
 * [What is Waves Platform?](README.md)
-* [Waves Platform Components](overview/platform-components.md)
-* [Security Notes](overview/security-notes.md)
+* [Waves Platform components](overview/platform-components.md)
+* [Security notes](overview/security-notes.md)
 * [Official resorces](overview/waves-official-resources.md)
-* [Developer Resources ](overview/waves-official-resources.md)
+* [Developer resources ](overview/waves-official-resources.md)
 * [Contributing](contributing.md)
 
 ## Waves environment
 
-* [Waves Tokens](waves-environment/waves-tokens.md)
-* [Custom Tokens](waves-environment/custom-tokens.md)
+* [Waves tokens](waves-environment/waves-tokens.md)
+* [Custom tokens](waves-environment/custom-tokens.md)
 * [Waves Mainnet](waves-environment/waves-mainnet.md)
 * [Waves Testnet](waves-environment/waves-testnet.md)
 * [Waves Protocol](waves-environment/waves-protocol.md)
@@ -35,9 +35,9 @@
 
 ## Getting started
 
-* [As a Developer](getting-started/as-a-developer.md)
-* [As a Node Owner](getting-started/as-a-node-owner.md)
-* [As a User](getting-started/as-a-user.md)
+* [As a developer](getting-started/as-a-developer.md)
+* [As a node owner](getting-started/as-a-node-owner.md)
+* [As a user](getting-started/as-a-user.md)
 
 ## Developer tools
 
