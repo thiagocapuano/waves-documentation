@@ -111,6 +111,22 @@ func verify() = {
     }
 }
 ```
+## InvokeScriptTransaction function parameters
+| Parameter name |Parameter type |Description  |
+|---|---|---|
+|  type  |Int   |  transaction type (16 for the InvokeScript) |
+| dappAddress   | Address  | address of the account to which dApp is attached  |
+|  payment  | OPTION[AttachedPayment]  | payment (amount, asset type) |
+|  fee  |  Int | fee amount  |
+|  call: <br /> - function <br /> -args | <br /> String <br />LIST[UNION(Boolean,ByteVector,Int,String)]  | <br /> the name of the callable function <br /> the list of the passed arguments |
+|  id  | ByteVector  |  transaction identifier |
+|  timestamp  |  Int | transaction execution time  |
+|  version  | Int  |  the verision of the transaction (currently it's 1) |
+|  sender  |  Address |  the address of the account that makes a call to the function |
+|  senderPublicKey  | ByteVector  |  the public key of the account that makes a call to the function |
+| proofs   | LIST[ByteVector]  |  the list of signatures that prove the authenticity of the transaction |
+|  chainId |  Byte | blockchain network identifier <br /> "T" — testing <br /> "W" — working (production)  |
+
 ## JSON of the InvokeScript-transaction
 ```
 {
