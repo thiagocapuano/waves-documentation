@@ -233,12 +233,6 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
-## Tutorials and articles
-
-* [Smart Contracts](tutorials-and-articles/smart-contacts.md)
-* [REPL\(Waves Console\)](tutorials-and-articles/replwaves-console.md)
-* [Waves Full Node](tutorials-and-articles/waves-full-node.md)
-
 ## Proposals
 
 * [Asset Verification Protocol](proposals/asset-verification-protocol.md)
