@@ -8,7 +8,7 @@ By default, _only_ the fact that the transaction belongs to the owner of the acc
 If a validation algorithm has to have some additional logic that goes beyond only the detection of transaction's ownership, then a special script written in RIDE is used. This script is attached to the account. That kind of script is called the **account script**. After the attachment of the script to the account, all the transactions that are sent from this account will be verified with this script.
 
 ## IDE for writing account scripts
-We are using [Waves IDE](http://ide.wavesplatform.com/) as our IDE for writing RIDE scripts. To create a new script let's click the "New" button and select "Account script" option.
+We are using [Waves IDE](http://ide.wavesplatform.com/) as our IDE for writing RIDE scripts. To create a new script let's click the **New** button and select the **Account script** option.
 ![](../../assets/1.png)
 
 A new tab will open, inside of which we can start writing our RIDE script.
