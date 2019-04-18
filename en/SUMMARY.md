@@ -97,6 +97,7 @@
   * [Immutable variables and the "let" keyword](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
   * [Language Description](smart-contracts/ride-language/language-description.md)
   * [Built-in functions](smart-contracts/ride-language/built-in-functions.md)
+  * [Operators](smart-contracts/ride-language/operators.md)
   * [Functions and Standard Library](smart-contracts/ride-language/standard-library.md)
   * [Effective RIDE Examples](smart-contracts/ride-language/effective-ride-examples.md)
   * [Creating and Deploying a Script Manually](smart-contracts/ride-language/creating-and-deploying-a-script-manually.md)
