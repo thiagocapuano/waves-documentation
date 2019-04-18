@@ -4,10 +4,10 @@
 <table border="1">
 <tr>
    <th>Function Name</th>
-   <th>Cost(Complexity)</th>
+   <th>Cost(complexity)</th>
    <th>Description</th>
    <th>Params</th>
-   <th>Type</th>
+   <th>Return Type</th>
  </tr>
 <tr><td>fraction</td>
 <td>1</td>
