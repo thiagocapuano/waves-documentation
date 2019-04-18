@@ -2,7 +2,7 @@
 ## Default transactions validation
 After the creation of a Waves account, each transaction that's sent from this account goes through the process of validation. If a transaction is valid, then it goes to generated block in the blockchain, if not — it's rejected by blockchain.
 
-By default, _only_ the fact that the transaction belongs to the owner of the account from which it was sent, is checked. To check that, the transaction's binary data, the account owner's public key and the digital signature of the transaction are being run through special sigVerify function. If the sigVerify function returns true — the transaction is considered valid, otherwise — invalid.
+By default, _only_ the fact that the transaction belongs to the owner of the account from which it was sent, is checked. To check that, the transaction's binary data, the account owner's public key and the digital signature of the transaction are being run through special `sigVerify` function. If the `sigVerify` function returns `true` — the transaction is considered valid, otherwise — invalid.
 
 ## Transactions validation using account scripts
 If a validation algorithm has to have some additional logic that goes beyond only the detection of transaction's ownership, then a special script written in RIDE is used. This script is attached to the account. That kind of script is called the **account script**. After the attachment of the script to the account, all the transactions that are sent from this account will be verified with this script.
@@ -11,11 +11,11 @@ If a validation algorithm has to have some additional logic that goes beyond onl
 We are using [Waves IDE](http://ide.wavesplatform.com/) as our IDE for writing RIDE scripts. To create a new script let's click the "New" button and select "Account script" option.
 ![](../../assets/1.png)
 
-A new tab will open up, inside of which we can start writing our RIDE script.
+A new tab will open, inside of which we can start writing our RIDE script.
 ![](../../assets/2.png)
 
-## Working with tx object inside of the account script
-An account script has the context containing a few useful variables. One of such variables is the variable tx, that contains within itself the information about the transaction that's validated by the account script. There are [several types of transactions](/waves-api-and-sdk/waves-node-rest-api/transactions.md) exist in the Waves blockchain. Inside of the account script we have to have an ability to determine the type of a transaction. Type casting is possible due to the match operator:
+## Working with transaction object inside of the account script
+An account script has the context containing a few useful variables. One of such variables is the variable `tx`, that contains within itself the information about the transaction that's validated by the account script. There are [several types of transactions](/waves-api-and-sdk/waves-node-rest-api/transactions.md) exist in the Waves blockchain. Inside of the account script we have to have an ability to determine the type of a transaction. Type casting is possible due to the `match` operator:
 ```
 let accountPubKey = base58'9xPqZ7fhgKxRsgkbahawNMsgHhM9TMYa3SXwNmn3bvyS'
  
@@ -68,11 +68,11 @@ func doSomething() = {
 }
 ```
 ## Definitions of the callable functions
-Here we can define functions, that will be called with Invoke Script-transactions. Such functions are adorned with @Callable(contextObj), where contextObj is an arbitrary name of the context object. The context object contains the following fields:
+Here we can define functions, that will be called with Invoke Script-transactions. Such functions are adorned with `@Callable(contextObj)`, where `contextObj` is an arbitrary name of the context object. The context object contains the following fields:
 
-- caller — the account address, which called the function.
-- callerPublicKey — the public key of the account, which called the function.
-- payment — the payment that's attached to the function call. The payment can be empty (UNIT).
+- `caller` — the account address, which called the function.
+- `callerPublicKey` — the public key of the account, which called the function.
+- `payment` — the payment that's attached to the function call. The payment can be empty (UNIT).
 
 A callable function can use the functions and the values from the script context (see above) and from its own context.
 ```
@@ -91,15 +91,15 @@ func foo() = {
 ## Definition of the validation function
 The validation function in a dApp plays the role of the account script — it validates all the outgoing from this account transactions.
 
-Such a function is adorned with the @Verifier(tx) annotation, where tx is the transaction, which the function is currently validating. Available fields of the transaction (different by transaction type) you can see at the [Functions and Standard Library](/smart-contracts/ride-language/standard-library.md) page.
+Such a function is adorned with the `@Verifier(tx)` annotation, where `tx` is the transaction, which the function is currently validating. Available fields of the transaction (different by transaction type) you can see at the [Functions and Standard Library](/smart-contracts/ride-language/standard-library.md) page.
 
 Possible execution results:
 
-- true
-- false
+- `true`
+- `false`
 - an error
 
-If a dApp doesn't have the validation function, then the default validation algorithm is applied to all the outgoing transactions (see the sigVerify function mentioned earlier).
+If a dApp doesn't have the validation function, then the default validation algorithm is applied to all the outgoing transactions (see the `sigVerify` function mentioned earlier).
 
 The example of a function, that permits only Transfer-transactions (any other types of transactions will not be allowed to be sent from such an account):
 ```
@@ -121,7 +121,7 @@ func verify() = {
 |  call: <br /> - function <br /> -args | <br /> String <br />LIST[UNION(Boolean,ByteVector,Int,String)]  | <br /> the name of the callable function <br /> the list of the passed arguments |
 |  id  | ByteVector  |  transaction identifier |
 |  timestamp  |  Int | transaction execution time  |
-|  version  | Int  |  the verision of the transaction (currently it's 1) |
+|  version  | Int  |  the version of the transaction (currently it's 1) |
 |  sender  |  Address |  the address of the account that makes a call to the function |
 |  senderPublicKey  | ByteVector  |  the public key of the account that makes a call to the function |
 | proofs   | LIST[ByteVector]  |  the list of signatures that prove the authenticity of the transaction |
