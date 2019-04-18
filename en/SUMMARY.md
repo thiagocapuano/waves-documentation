@@ -98,6 +98,7 @@
   * [Language Description](smart-contracts/ride-language/language-description.md)
   * [RIDE Built-in functions](smart-contracts/ride-language/built-in-functions.md)
   * [RIDE Operators](smart-contracts/ride-language/operators.md)
+  * [Data types](smart-contracts/ride-language/data-types.md)
   * [Functions and Standard Library](smart-contracts/ride-language/standard-library.md)
   * [Effective RIDE Examples](smart-contracts/ride-language/effective-ride-examples.md)
   * [Creating and Deploying a Script Manually](smart-contracts/ride-language/creating-and-deploying-a-script-manually.md)
