@@ -118,6 +118,7 @@ func verify() = {
 | dappAddress   | Address  | address of the account to which dApp is attached  |
 |  payment  | OPTION[AttachedPayment]  | payment (amount, asset type) |
 |  fee  |  Int | fee amount  |
+| feeAssetId | OPTION[ByteVector] | fee asset identifier (null for WAVES)|
 |  call: <br /> - function <br /> -args | <br /> String <br />LIST[UNION(Boolean,ByteVector,Int,String)]  | <br /> the name of the callable function <br /> the list of the passed arguments |
 |  id  | ByteVector  |  transaction identifier |
 |  timestamp  |  Int | transaction execution time  |
