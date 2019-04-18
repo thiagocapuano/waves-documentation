@@ -200,7 +200,6 @@ func withdraw(amount: Int) = {
                 )
     }
  
- 
 # Valiation function — validates all the outgoing from the account transactions.
 @Verifier(tx)
 func verify() = {
