@@ -1,9 +1,9 @@
-## Facts about RIDE structures {#Structures-FactsaboutRIDEstructures}
+## Facts about RIDE structures
 
 * At the present moment, all structures in RIDE are predefined, therefore you can't create your own structures.
 * All structures have constructors.
 
-## Examples {#Structures-Examples}
+## Examples
 
 The following code creates an instance of the `DataEntry` structure and reads its key and value:
 ```
