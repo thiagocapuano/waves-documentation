@@ -87,16 +87,16 @@
 
 * [About RIDE](ride/about-ride.md)
 * [Immutable variables and the "let" keyword](ride/immutable-variables-and-the-let-keyword.md)
-* [Data types](smart-contracts/ride-language/data-types.md)
-* [RIDE operators](smart-contracts/ride-language/operators.md)
-* [RIDE built-in functions](smart-contracts/ride-language/built-in-functions.md)
-* [RIDE built-in structures](smart-contracts/ride-language/ride-built-in-structures.md)
+* [Data types](ride/data-types.md)
+* [RIDE operators](ride/operators.md)
+* [RIDE built-in functions](ride/built-in-functions.md)
+* [RIDE built-in structures](ride/ride-built-in-structures.md)
 * [Structures](ride/structures.md)
 * [Functions](ride/functions.md)
   * [Built-in functions](ride/functions/built-in-functions.md)
-* [Effective RIDE examples](smart-contracts/ride-language/effective-ride-examples.md)
-* [Implementation details](smart-contracts/ride-language/implementation-details.md)
-* [Functions and Standard Library](smart-contracts/ride-language/standard-library.md)
+* [Effective RIDE examples](ride/effective-ride-examples.md)
+* [Implementation details](ride/implementation-details.md)
+* [Functions and Standard Library](ride/standard-library.md)
 
 ## Smart contracts \(dApps\)
 
