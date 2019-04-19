@@ -1,12 +1,12 @@
 # Functions
 
-## Facts about RIDE functions {#Functions-FactsaboutRIDEfunctions}
+## Facts about RIDE functions
 
 * Any function must return a value
 * Functions do not specify their return type in the signature
 * Any function must be defined above the place where it will be used
 
-## Examples {#Functions-Examples}
+## Examples
 Definition of a function with no parameters that returns the integer:
 ```
 func main() = {
