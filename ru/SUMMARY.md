@@ -9,7 +9,6 @@
 * [Официальные ресурсы ](overview/waves-official-resources.md)
 * [Waves релизы](overview/waves-releases.md)
 * [Waves токены](overview/waves-tokens.md)
-* [Использование RIDE для написания dApps](ispolzovanie-ride-dlya-napisaniya-dapps.md)
 
 ## Возможности платформы
 
@@ -23,8 +22,10 @@
 
 * [Пользователю](getting-started/as-a-user.md)
 
-## Смарт-контракты
+## Смарт-контракты \(dApps\)
 
+* [Что такое распределенное приложение \(dApp\)](smart-contracts/what-is-a-decentralised-application-dapp.md)
+* [Написание dApps](smart-contracts/writing-dapps.md)
 * [Язык RIDE](smart-contracts/ride-language.md)
   * [О языке RIDE](smart-contracts/ride-language/about-ride-language.md)
   * [Неизменяемые переменные и ключевое слово let](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)

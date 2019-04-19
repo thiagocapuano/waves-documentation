@@ -9,7 +9,8 @@
 "headers-with-anchors@git+https://github.com/KardanovIR/gitbook-plugin-headers-with-anchors.git",
 "custom-favicon",
 "flexible-alerts",
-"anchor-navigation"
+"anchor-navigation",
+"youtubex"
 ],
 "pluginsConfig": {
 "gtm": {

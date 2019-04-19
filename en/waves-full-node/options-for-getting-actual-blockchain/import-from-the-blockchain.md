@@ -7,7 +7,7 @@ If you already have a Waves full node synced to the correct chain, you can impor
 
 The node must be stopped before importing the blockchain. If you already have some data in the node's `data` folder, the import will continue to append new data from the blockchain's binary file. So, you may want to remove the existing data. The user should be careful while appending data because mixing data from different versions can lead to an erroneous state.
 
-To import the blockchain and rebuild the state run the following command\(Importing is a heavy operation and it could take a few hours to be completed\):
+To import the blockchain and rebuild the state run the following command(Importing is a heavy operation and it could take a few hours to be completed):
 
 ### On Windows
 
