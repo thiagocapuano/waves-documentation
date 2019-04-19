@@ -1,4 +1,4 @@
-# About RIDE language
+# About RIDE
 **RIDE** is a programming language that's used for writing decentralised applications (dApps) in Waves blockchain.
 
 ## The history of the language

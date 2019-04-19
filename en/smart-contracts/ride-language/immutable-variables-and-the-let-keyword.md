@@ -1,25 +1,19 @@
-# Immutable variables and the "let" keyword
-In RIDE language _all_ variables are immutable. This means that as soon as we assigned a value to a variable, it will be not possible to change its value in the future. Variables in RIDE work as constant variables in major programming languages.
+# Functions
+## Facts about RIDE functions
+- Any function must return a value
+- Functions do not specify their return type in the signature
+- Any function must be defined above the place where it will be used
 
-**let** is a keyword, that assigns a value to a variable in a [lazy way](https://docs.scala-lang.org/sips/improved-lazy-val-initialization.html) (the word `let` works like lazy val in Scala language).
-
-The value of the variable, which was defined with the let word, will be calculated only in the moment of its first usage. Imagine we have the following RIDE script:
+## Examples
+Definition of a function that has no parameters and returns the integer:
 ```
-let a = 8
-let b = a + 1
-true
+func main() = {
+   3
+}
 ```
-As we can see, the script returns `true`. Despite the fact that the variable `a` is used in line 2 for defining the variable `b`, the values of variables `a` and `b` will not be calculated during the script execution because the variable `b` is not used anywhere in the code.
-## Examples of usage
-Integer value assignment:
+Definition of a function with two parameters:
 ```
-let a = 8
-```
-String value assignment:
-```
-let b = "hello"
-```
-ByteVector value assignment:
-```
-let c = base58'5AzfA9UfpWVYiwFwvdr77k6LWupSTGLb14b24oVdEpMM'
+func main(amount: Int, name: String) = {
+   throw()
+}
 ```
