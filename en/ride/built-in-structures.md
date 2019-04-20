@@ -2,7 +2,7 @@
   <h1>Build-in structures</h1>
 <table border="1">
 <tr>
-  <th>Structure Name</th>
+  <th>Structure name</th>
   <th>Parameters</th>
 </tr>
 <tr><td><a id="AssetPair">AssetPair</a></td><td>

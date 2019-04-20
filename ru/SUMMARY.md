@@ -22,13 +22,15 @@
 
 * [Пользователю](getting-started/as-a-user.md)
 
+## RIDE
+
+* [О RIDE](ride/about-ride.md)
+* [Неизменяемые переменные](ride/immutable-variables.md)
+
 ## Смарт-контракты \(dApps\)
 
-* [Что такое распределенное приложение \(dApp\)](smart-contracts/what-is-a-decentralised-application-dapp.md)
+* [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
-* [Язык RIDE](smart-contracts/ride-language.md)
-  * [О языке RIDE](smart-contracts/ride-language/about-ride-language.md)
-  * [Неизменяемые переменные и ключевое слово let](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
 
 ## Waves приложение
 
