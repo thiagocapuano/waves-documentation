@@ -1,5 +1,5 @@
 # About RIDE
-**RIDE** is a programming language for writing decentralised applications (dApps) on the Waves blockchain.
+**RIDE** is a programming language for writing decentralised applications ([dApps](/smart-contracts/what-is-a-dapp.md)) on the Waves blockchain.
 
 ## The history of the language
 RIDE was created in 2018. The [white paper](https://wavesplatform.com/files/docs/white_paper_waves_smart_contracts.pdf) of the language was published at that time also.
@@ -14,6 +14,6 @@ RIDE language was designed as not [Turing complete](https://en.wikipedia.org/wik
 
 ## Some facts about RIDE language
 - RIDE is based on expressions.
-- RIDE language is [lazy](/smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md) by design.
+- RIDE language is [lazy](/ride/immutable-variables.md) by design.
 - RIDE is not an object-oriented language. By paradigm, RIDE is rather a functional programming language.
 - RIDE is case-sensitive. Because of that, the variables `myVar` and `myVAR` will be treated as different variables.
