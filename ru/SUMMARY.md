@@ -26,6 +26,8 @@
 
 * [О RIDE](ride/about-ride.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
+* [Функции](ride/functions.md)
+* [Структуры](ride/structures.md)
 
 ## Смарт-контракты \(dApps\)
 
