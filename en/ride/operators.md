@@ -2,11 +2,11 @@
 <h1>Operators</h1>
 <table border="1">
  <tr>
-  <th>Operator Name</th>
-  <th>Cost<br>(complexity)</br></th>
+  <th>Operator name</th>
+  <th>Calculational cost</br></th>
   <th>Description</th>
   <th>Params</th>
-  <th>Result Type</th>
+  <th>Result type</th>
  </tr>
 <tr><td>*</td>
 <td>1</td>

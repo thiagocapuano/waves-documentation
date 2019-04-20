@@ -1,4 +1,4 @@
-# Immutable variables and the "let" keyword
+# Immutable variables
 In RIDE language _all_ variables are immutable. This means that as soon as we assigned a value to a variable, it will be not possible to change its value in the future. Variables in RIDE work as constant variables in major programming languages.
 
 **let** is a keyword, that assigns a value to a variable in a [lazy way](https://docs.scala-lang.org/sips/improved-lazy-val-initialization.html) (the word `let` works like lazy val in Scala language).

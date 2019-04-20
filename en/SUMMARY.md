@@ -99,7 +99,7 @@
 
 ## Smart contracts \(dApps\)
 
-* [What is a decentralised application \(dApp\)](smart-contracts/what-is-a-decentralised-application-dapp.md)
+* [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
 * [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
   * [Smart Accounts](smart-contracts/smart-accounts.md)
