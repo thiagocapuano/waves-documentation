@@ -86,13 +86,13 @@
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
-* [Immutable variables and the "let" keyword](ride/immutable-variables-and-the-let-keyword.md)
+* [Immutable variables](ride/immutable-variables.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
 * [Structures](ride/structures.md)
-  * [RIDE built-in structures](ride/ride-built-in-structures.md)
+  * [Built-in structures](ride/built-in-structures.md)
 * [Functions](ride/functions.md)
-  * [RIDE built-in functions](ride/built-in-functions.md)
+  * [Built-in functions](ride/built-in-functions.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [Implementation details](ride/implementation-details.md)
 * [Functions and Standard Library](ride/standard-library.md)

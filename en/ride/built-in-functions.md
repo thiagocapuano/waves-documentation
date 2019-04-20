@@ -1,6 +1,5 @@
-
 <div style="overflow-x:auto;">
-  <h1>Functions</h1>
+  <h1>Built-in functions</h1>
 <table border="1">
 <tr>
    <th>Function Name</th>

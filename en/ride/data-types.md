@@ -1,5 +1,5 @@
 <div style="overflow-x:auto;">
-  <h1>Types</h1>
+  <h1>Data types</h1>
 <table border="1">
 <tr>
   <th>Type Name</th>

@@ -1,5 +1,5 @@
 <div style="overflow-x:auto;">
-  <h1>Types</h1>
+  <h1>Build-in structures</h1>
 <table border="1">
 <tr>
   <th>Structure Name</th>
