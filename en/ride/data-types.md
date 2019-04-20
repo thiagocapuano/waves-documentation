@@ -2,7 +2,7 @@
   <h1>Data types</h1>
 <table border="1">
 <tr>
-  <th>Type Name</th>
+  <th>Type name</th>
   <th>Parameters</th>
 </tr>
 <tr><td><a id="Unit">Unit</a></td><td>
