@@ -10,7 +10,7 @@ let b = a + 1
 true
 ```
 As we can see, the script returns `true`. Despite the fact that the variable `a` is used in line 2 for defining the variable `b`, the values of variables `a` and `b` will not be calculated during the script execution because the variable `b` is not used anywhere in the code.
-## Examples of usage
+## Examples
 Integer value assignment:
 ```
 let a = 8
