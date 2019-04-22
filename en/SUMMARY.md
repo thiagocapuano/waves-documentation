@@ -112,6 +112,8 @@
 * [Script performance tests](smart-contracts/script-performance-tests.md)
 * [Creating and deploying a script manually](smart-contracts/creating-and-deploying-a-script-manually.md)
 * [Video tutorials and articles](smart-contracts/video-tutorials-and-articles.md)
+* Video tutorials
+  * [Introduction to the Waves blockchain, Waves Smart Accounts and Waves Smart Assets](smart-contracts/introduction-to-the-waves-blockchain-waves-smart-accounts-and-waves-smart-assets.md)
 
 ## Waves full node
 
