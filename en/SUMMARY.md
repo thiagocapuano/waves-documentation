@@ -95,7 +95,7 @@
   * [Built-in functions](ride/built-in-functions.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [Implementation details](ride/implementation-details.md)
-* [Functions and Standard Library](ride/standard-library.md)
+* [Standard Library](ride/standard-library.md)
 
 ## Smart contracts \(dApps\)
 
