@@ -1,4 +1,4 @@
-# REPL
+# Waves console(REPL)
 
 It contains javascript console for waves blockchain. It is built on top of [jsconsole](https://github.com/remy/jsconsole) and have predefined functions to work with waves.
 

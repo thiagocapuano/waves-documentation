@@ -41,9 +41,13 @@
 
 ## Developer tools
 
-* [Waves Explorer](developer-tools/waves-explorer.md)
+* [Waves IDE](developer-tools/waves-ide.md)
+* [Waves console](developer-tools/repl.md)
+  * [Waves console overview](developer-tools/repl/waves-console-overview.md)
+  * [Waves console examples](developer-tools/repl/waves-console-examples.md)
 * [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
-* [REPL](developer-tools/repl.md)
+* [Waves Explorer](developer-tools/waves-explorer.md)
+* [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
 
 ## Waves API and SDK
 
@@ -96,6 +100,7 @@
 * [Functions](ride/functions.md)
   * [Built-in functions](ride/built-in-functions.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
+* [Ride Maven compiler](ride/maven-compiler.md)
 
 ## Smart contracts \(dApps\)
 
@@ -104,14 +109,8 @@
 * [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
   * [Smart Accounts](smart-contracts/smart-accounts.md)
   * [Smart Assets](smart-contracts/smart-assets.md)
-* [Tools](smart-contracts/tools/overview.md)
-  * [Waves IDE](developer-tools/waves-ide.md)
-  * [IDE Console overview](smart-contracts/ride-language/waves-console-commands/waves-console-commands.md)
-  * [IDE Console examples](smart-contracts/ride-language/waves-console-commands/examples.md)
-  * [Visual Studio Code Extension](smart-contracts/tools/vs-code-plugin.md)
-  * [Maven Compiler](smart-contracts/ride-language/maven-compiler.md)
-* [Script performance tests](smart-contracts/ride-language/script-performance-tests.md)
-* [Creating and deploying a script manually](smart-contracts/ride-language/creating-and-deploying-a-script-manually.md)
+* [Script performance tests](smart-contracts/script-performance-tests.md)
+* [Creating and deploying a script manually](smart-contracts/creating-and-deploying-a-script-manually.md)
 * [Video tutorials and articles](smart-contracts/video-tutorials-and-articles.md)
 
 ## Waves full node
