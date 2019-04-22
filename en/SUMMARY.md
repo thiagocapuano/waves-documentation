@@ -87,6 +87,8 @@
 
 * [About RIDE](ride/about-ride.md)
 * [Immutable variables](ride/immutable-variables.md)
+* [Core concepts](ride/core-concepts.md)
+  * [Computational cost](ride/core-concepts/computational-cost.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
 * [Structures](ride/structures.md)
@@ -95,7 +97,7 @@
   * [Built-in functions](ride/built-in-functions.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [Implementation details](ride/implementation-details.md)
-* [Standard Library](ride/standard-library.md)
+* Core concepts
 
 ## Smart contracts \(dApps\)
 
