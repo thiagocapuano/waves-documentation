@@ -1,0 +1,1 @@
+- [Introduction to the Waves blockchain, Waves Smart Accounts and Waves Smart Assets](/smart-contracts/introduction-to-the-waves-blockchain-waves-smart-accounts-and-waves-smart-assets.md)

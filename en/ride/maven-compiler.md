@@ -1,4 +1,4 @@
-# Maven Compiler Package
+# RIDE Maven compiler
 
 The RIDE compiler is [published as a Maven artefact](https://mvnrepository.com/artifact/com.wavesplatform/lang) so that it can be used from any JVM-based project.
 
@@ -21,7 +21,7 @@ compile group: 'com.wavesplatform', name: 'lang', version: '1.0.0'
 libraryDependencies += "com.wavesplatform" % "lang" % "1.0.0"
 ```
 
-There's single entry point to the package, the `Lang` class. It currently contains two static methods:
+There's a single entry point to the package, the `Lang` class. It currently contains two static methods:
 * `compile` compiles a program text to an opaque object representing the root of an abstract syntax tree.
 * `serialize` converts the compiled tree into bytecode, and returns a byte array.
 
