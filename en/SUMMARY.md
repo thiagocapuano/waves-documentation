@@ -42,9 +42,9 @@
 ## Developer tools
 
 * [Waves IDE](developer-tools/waves-ide.md)
-* [Waves console](developer-tools/repl.md)
-  * [Waves console overview](developer-tools/repl/waves-console-overview.md)
-  * [Waves console examples](developer-tools/repl/waves-console-examples.md)
+* [Waves console](developer-tools/waves-console.md)
+  * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
+  * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
 * [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
 * [Waves Explorer](developer-tools/waves-explorer.md)
 * [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
@@ -113,7 +113,12 @@
 * [Creating and deploying a script manually](smart-contracts/creating-and-deploying-a-script-manually.md)
 * [Video tutorials and articles](smart-contracts/video-tutorials-and-articles.md)
 * [Video tutorials](smart-contracts/video-tutorials.md)
-  * [Introduction to the Waves blockchain, Waves Smart Accounts and Waves Smart Assets](smart-contracts/introduction-to-the-waves-blockchain-waves-smart-accounts-and-waves-smart-assets.md)
+  * [Introduction to the Waves blockchain, Waves Smart Accounts and Waves Smart Assets](smart-contracts/video-tutorials/introduction-to-the-waves-blockchain-waves-smart-accounts-and-waves-smart-assets.md)
+  * [Waves Smart Account with multisignature](smart-contracts/video-tutorials/waves-smart-account-with-multisignature.md)
+  * [Waves Smart Account with escrow service](smart-contracts/video-tutorials/waves-smart-account-with-escrow-service.md)
+  * [Creating multisignature account via Waves IDE tools](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-ide-tools.md)
+  * [Creating multisignature account via Waves Client](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-client.md)
+  * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
 
 ## Waves full node
 
