@@ -2,9 +2,9 @@
 
 ## Facts about RIDE functions
 
-* Any function in RIDE must return a value.
-* Functions do not specify return types in their signatures.
-* Any function must be defined above the place where it will be used.
+* A function has to return a value.
+* The return type is not specified in a function's signature.
+* A function has to be defined above the place of its usage.
 
 ## Examples
 Definition of a function with no parameters that returns the integer:
