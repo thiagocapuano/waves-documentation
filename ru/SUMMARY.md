@@ -28,8 +28,10 @@
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Основные понятия](ride/core-concepts.md)
   * [Вычислительная стоимость](ride/core-concepts/computational-cost.md)
+* [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
 * [Функции](ride/functions.md)
+* [Исключения](ride/exceptions.md)
 
 ## Смарт-контракты \(dApps\)
 

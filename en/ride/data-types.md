@@ -1,48 +1,35 @@
-<div style="overflow-x:auto;">
-  <h1>Data types</h1>
-<table border="1">
-<tr>
-  <th>Type name</th>
-  <th>Parameters</th>
-</tr>
-<tr><td><a id="Unit">Unit</a></td><td>
-<table>
-</table>
-</td></tr>
-<tr><td><a id="Int">Int</a></td><td>
-Native
-</td></tr>
-<tr><td><a id="Boolean">Boolean</a></td><td>
-Native
-</td></tr>
-<tr><td><a id="ByteVector">ByteVector</a></td><td>
-Native
-</td></tr>
-<tr><td><a id="String">String</a></td><td>
-Native
-</td></tr>
-<tr><td><a id="Address">Address</a></td><td>
-<table>
-<tr><td>bytes</td><td>
-  <a href="#ByteVector">ByteVector</a>
-</td></tr></table>
-</td></tr>
-<tr><td><a id="Alias">Alias</a></td><td>
-<table>
-<tr><td>alias</td><td>
-  <a href="#String">String</a>
-</td></tr></table>
-</td></tr>
-<tr><td><a id="DataEntry">DataEntry</a></td><td>
-<table>
-<tr><td>key</td><td>
-  <a href="#String">String</a>
-</td></tr><tr><td>value</td><td>
-   <a href="#Int">Int</a>
-   <a href="#Boolean">Boolean</a>
-   <a href="#ByteVector">ByteVector</a>
-   <a href="#String">String</a>
-</td></tr></table>
-</td></tr>
-</table>
-</div>
+#Data types
+All data types in RIDE can be divided into the following groups:
+
+1. Base types
+2. Special types
+3. Predefined data structures
+4. Union types
+
+## Base types {#Datatypes-Basetypes}
+
+1. Boolean
+2. ByteVector
+3. Int
+4. String
+
+## Special types {#Datatypes-Specialtypes}
+
+1. List
+2. Nothing
+3. Unit
+
+## Predefined data structures {#Datatypes-Predefineddatastructures}
+
+1. Address
+2. Alias
+3. DataEntry
+4. ScriptResult
+5. ScriptTransfer
+6. TransferSet
+7. WriteSet
+
+## Union types {#Datatypes-Uniontypes}
+
+
+

@@ -99,8 +99,9 @@
   * [Built-in structures](ride/built-in-structures.md)
 * [Functions](ride/functions.md)
   * [Built-in functions](ride/built-in-functions.md)
+* [Exceptions](ride/exceptions.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
-* [Ride Maven compiler](ride/maven-compiler.md)
+* [RIDE Maven compiler](ride/maven-compiler.md)
 
 ## Smart contracts \(dApps\)
 
