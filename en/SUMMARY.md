@@ -239,7 +239,7 @@
 ## Waves Oracles
 
 * [What is a data oracle](waves-oracles/what-is-a-data-oracle.md)
-* [Waves Oracle protocols](waves-oracles/waves-oracle-protocols.md)
+* [About Waves Oracles](waves-oracles/about-waves-oracles.md)
 
 ## Resources
 
