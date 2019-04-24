@@ -2,7 +2,7 @@
 
 ## Getting started
 
-* [What is Waves Platform?](README.md)
+* [About Waves Platform](README.md)
 * [Waves Platform components](overview/platform-components.md)
 * [Getting started for users](getting-started/as-a-user.md)
 * [Getting started for developers](getting-started/as-a-developer.md)

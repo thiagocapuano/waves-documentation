@@ -1,4 +1,4 @@
-# What is Waves Platform
+# About Waves Platform
 
 _**Waves Platform is a comprehensive blockchain platform that features **_[_**fiat gateways**_](/waves-client/wallet-management.md)_**, **_[_**smart contracts**_](/smart-contracts/waves-smart-contracts-overview.md)_**, **_[_**mobile wallet**_](/waves-client/mobile-apps.md)_**, **_[_**token issuance**_](/waves-client/assets-management.md)_**, a **_[_**DEX \(decentralized exchange\)**_](/waves-client/waves-dex.md)_**, and more.**_
 
