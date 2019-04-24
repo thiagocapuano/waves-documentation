@@ -33,114 +33,6 @@
   * [Smart contracts](waves-environment/waves-protocol/smart-contracts.md)
 * [Security notes](overview/security-notes.md)
 
-## Developer tools
-
-* [Waves IDE](developer-tools/waves-ide.md)
-* [Waves console](developer-tools/waves-console.md)
-  * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
-  * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
-* [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
-* [Waves Explorer](developer-tools/waves-explorer.md)
-* [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
-
-## Waves API and SDK
-
-* [NODE API: Waves node rest API](waves-api-and-sdk/waves-node-rest-api.md)
-  * [Address](waves-api-and-sdk/waves-node-rest-api/address.md)
-  * [Lease Transactions](waves-api-and-sdk/waves-node-rest-api/lease-transactions.md)
-  * [Assets](waves-api-and-sdk/waves-node-rest-api/asset-transactions.md)
-    * [Public Functions](waves-api-and-sdk/waves-node-rest-api/asset-transactions/public-functions.md)
-    * [Private Functions](waves-api-and-sdk/waves-node-rest-api/asset-transactions/private-functions.md)
-    * [Distribution Methods](waves-api-and-sdk/waves-node-rest-api/asset-transactions/distribution-methods.md)
-  * [Alias Transaction](waves-api-and-sdk/waves-node-rest-api/alias-transaction.md)
-  * [Transactions](waves-api-and-sdk/waves-node-rest-api/transactions.md)
-  * [Peers](waves-api-and-sdk/waves-node-rest-api/peers.md)
-  * [Blocks](waves-api-and-sdk/waves-node-rest-api/blocks.md)
-  * [Utils](waves-api-and-sdk/waves-node-rest-api/utils.md)
-  * [Examples of transactions](waves-api-and-sdk/waves-node-rest-api/example-transactions.md)
-* [DEX API: Waves node rest API](waves-api-and-sdk/dex-api.md)
-  * [Matcher](waves-api-and-sdk/dex-api/matcher.md)
-* [Waves Client API](waves-api-and-sdk/client-api/overview.md)
-  * [Web auth API](waves-api-and-sdk/client-api/auth-api.md)
-  * [Payment API](waves-api-and-sdk/client-api/payments-api.md)
-* [Waves Keeper API](waves-api-and-sdk/waves-keeper-api.md)
-* [Waves data service API](waves-api-and-sdk/waves-data-service-api.md)
-* [Waves Games](waves-api-and-sdk/waves-gaming-api.md)
-  * [Waves Games API](waves-api-and-sdk/waves-gaming-api/waves-games-api.md)
-  * [Examples](waves-api-and-sdk/waves-gaming-api/examples.md)
-* [Client libraries](waves-api-and-sdk/client-libraries.md)
-  * [PyWaves](waves-api-and-sdk/client-libraries/pywaves.md)
-  * [WavesJ](waves-api-and-sdk/client-libraries/wavesj.md)
-  * [WavesCS](waves-api-and-sdk/client-libraries/wavescs.md)
-  * [WavesC](waves-api-and-sdk/client-libraries/waves-c.md)
-  * [GoWaves](waves-api-and-sdk/client-libraries/gowaves.md)
-  * [WavesRS](waves-api-and-sdk/client-libraries/wavesrs.md)
-  * [Waves signature adapter](waves-api-and-sdk/client-libraries/waves-signature-adapter.md)
-  * [Waves transactions](waves-api-and-sdk/client-libraries/waves-transactions.md)
-  * [Community libraries](development-and-api/client-libraries/unofficial-libraries.md)
-* [Examples](waves-api-and-sdk/examples.md)
-  * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
-
-## RIDE
-
-* [About RIDE](ride/about-ride.md)
-* [Immutable variables](ride/immutable-variables.md)
-* [Core concepts](ride/core-concepts.md)
-  * [Computational cost](ride/core-concepts/computational-cost.md)
-* [Data types](ride/data-types.md)
-* [Operators](ride/operators.md)
-* [Structures](ride/structures.md)
-  * [Built-in structures](ride/built-in-structures.md)
-* [Functions](ride/functions.md)
-  * [Built-in functions](ride/built-in-functions.md)
-* [Exceptions](ride/exceptions.md)
-* [Effective RIDE examples](ride/effective-ride-examples.md)
-* [RIDE Maven compiler](ride/maven-compiler.md)
-
-## Smart contracts \(dApps\)
-
-* [What is a dApp](smart-contracts/what-is-a-dapp.md)
-* [Writing dApps](smart-contracts/writing-dapps.md)
-* [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
-* [Smart Accounts](smart-contracts/smart-accounts.md)
-* [Smart Assets](smart-contracts/smart-assets.md)
-* [Script performance tests](smart-contracts/script-performance-tests.md)
-* [Creating and deploying a script manually](smart-contracts/creating-and-deploying-a-script-manually.md)
-* [Video tutorials](smart-contracts/video-tutorials.md)
-  * [Introduction to the Waves blockchain, Waves Smart Accounts and Waves Smart Assets](smart-contracts/video-tutorials/introduction-to-the-waves-blockchain-waves-smart-accounts-and-waves-smart-assets.md)
-  * [Waves Smart Account with multisignature](smart-contracts/video-tutorials/waves-smart-account-with-multisignature.md)
-  * [Waves Smart Account with escrow service](smart-contracts/video-tutorials/waves-smart-account-with-escrow-service.md)
-  * [Creating multisignature account via Waves IDE tools](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-ide-tools.md)
-  * [Creating multisignature account via Waves Client](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-client.md)
-  * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
-* [Articles on dApps](smart-contracts/articles-on-dapps.md)
-
-## Waves full node
-
-* [What is Waves full node ](waves-full-node/what-is-a-full-node.md)
-* [How To install a node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-  * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
-  * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
-  * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
-* [How to build and test a node](waves-full-node/how-to-build-and-test-a-node.md)
-* [Options for getting actual blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
-  * [State downloading and applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
-  * [Import from the blockchain](waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
-  * [Export to the blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
-* [Upgrading](waves-full-node/upgrading.md)
-* [How to rollback a node](waves-full-node/how-to-rollback-a-node.md)
-* [Waves node in Docker](waves-full-node/waves-node-in-docker.md)
-* [Node configuration](waves-full-node/configuration-parameters.md)
-* [Logging configuration](waves-full-node/logging-configuration.md)
-* [Joining testnet](waves-full-node/joining-testnet.md)
-* [Private Waves network](waves-full-node/private-waves-network.md)
-* [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
-
-## Oracles development
-
-* [What is a data oracle](oracels-developments/what-is-a-data-oracle.md)
-* [Oracle Protocols](oracels-developments/oracle-protocols.md)
-
 ## Waves Client
 
 * [Installation ](waves-client/install-waves-client.md)
@@ -241,15 +133,124 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
-## Proposals
+## RIDE
 
-* [Asset verification Protocol](proposals/asset-verification-protocol.md)
-* [Sponsored transactions](proposals/sponsored-transactions.md)
-* [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
+* [About RIDE](ride/about-ride.md)
+* [Immutable variables](ride/immutable-variables.md)
+* [Core concepts](ride/core-concepts.md)
+  * [Computational cost](ride/core-concepts/computational-cost.md)
+* [Data types](ride/data-types.md)
+* [Operators](ride/operators.md)
+* [Structures](ride/structures.md)
+  * [Built-in structures](ride/built-in-structures.md)
+* [Functions](ride/functions.md)
+  * [Built-in functions](ride/built-in-functions.md)
+* [Exceptions](ride/exceptions.md)
+* [Effective RIDE examples](ride/effective-ride-examples.md)
+* [RIDE Maven compiler](ride/maven-compiler.md)
+
+## Smart contracts \(dApps\)
+
+* [What is a dApp](smart-contracts/what-is-a-dapp.md)
+* [Writing dApps](smart-contracts/writing-dapps.md)
+* [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
+* [Smart Accounts](smart-contracts/smart-accounts.md)
+* [Smart Assets](smart-contracts/smart-assets.md)
+* [Script performance tests](smart-contracts/script-performance-tests.md)
+* [Creating and deploying a script manually](smart-contracts/creating-and-deploying-a-script-manually.md)
+* [Video tutorials](smart-contracts/video-tutorials.md)
+  * [Introduction to the Waves blockchain, Waves Smart Accounts and Waves Smart Assets](smart-contracts/video-tutorials/introduction-to-the-waves-blockchain-waves-smart-accounts-and-waves-smart-assets.md)
+  * [Waves Smart Account with multisignature](smart-contracts/video-tutorials/waves-smart-account-with-multisignature.md)
+  * [Waves Smart Account with escrow service](smart-contracts/video-tutorials/waves-smart-account-with-escrow-service.md)
+  * [Creating multisignature account via Waves IDE tools](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-ide-tools.md)
+  * [Creating multisignature account via Waves Client](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-client.md)
+  * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
+* [Articles on dApps](smart-contracts/articles-on-dapps.md)
+
+## Developer tools
+
+* [Waves IDE](developer-tools/waves-ide.md)
+* [Waves console](developer-tools/waves-console.md)
+  * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
+  * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
+* [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
+* [Waves Explorer](developer-tools/waves-explorer.md)
+* [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
+
+## Waves API and SDK
+
+* [NODE API: Waves node rest API](waves-api-and-sdk/waves-node-rest-api.md)
+  * [Address](waves-api-and-sdk/waves-node-rest-api/address.md)
+  * [Lease Transactions](waves-api-and-sdk/waves-node-rest-api/lease-transactions.md)
+  * [Assets](waves-api-and-sdk/waves-node-rest-api/asset-transactions.md)
+    * [Public Functions](waves-api-and-sdk/waves-node-rest-api/asset-transactions/public-functions.md)
+    * [Private Functions](waves-api-and-sdk/waves-node-rest-api/asset-transactions/private-functions.md)
+    * [Distribution Methods](waves-api-and-sdk/waves-node-rest-api/asset-transactions/distribution-methods.md)
+  * [Alias Transaction](waves-api-and-sdk/waves-node-rest-api/alias-transaction.md)
+  * [Transactions](waves-api-and-sdk/waves-node-rest-api/transactions.md)
+  * [Peers](waves-api-and-sdk/waves-node-rest-api/peers.md)
+  * [Blocks](waves-api-and-sdk/waves-node-rest-api/blocks.md)
+  * [Utils](waves-api-and-sdk/waves-node-rest-api/utils.md)
+  * [Examples of transactions](waves-api-and-sdk/waves-node-rest-api/example-transactions.md)
+* [DEX API: Waves node rest API](waves-api-and-sdk/dex-api.md)
+  * [Matcher](waves-api-and-sdk/dex-api/matcher.md)
+* [Waves Client API](waves-api-and-sdk/client-api/overview.md)
+  * [Web auth API](waves-api-and-sdk/client-api/auth-api.md)
+  * [Payment API](waves-api-and-sdk/client-api/payments-api.md)
+* [Waves Keeper API](waves-api-and-sdk/waves-keeper-api.md)
+* [Waves data service API](waves-api-and-sdk/waves-data-service-api.md)
+* [Waves Games](waves-api-and-sdk/waves-gaming-api.md)
+  * [Waves Games API](waves-api-and-sdk/waves-gaming-api/waves-games-api.md)
+  * [Examples](waves-api-and-sdk/waves-gaming-api/examples.md)
+* [Client libraries](waves-api-and-sdk/client-libraries.md)
+  * [PyWaves](waves-api-and-sdk/client-libraries/pywaves.md)
+  * [WavesJ](waves-api-and-sdk/client-libraries/wavesj.md)
+  * [WavesCS](waves-api-and-sdk/client-libraries/wavescs.md)
+  * [WavesC](waves-api-and-sdk/client-libraries/waves-c.md)
+  * [GoWaves](waves-api-and-sdk/client-libraries/gowaves.md)
+  * [WavesRS](waves-api-and-sdk/client-libraries/wavesrs.md)
+  * [Waves signature adapter](waves-api-and-sdk/client-libraries/waves-signature-adapter.md)
+  * [Waves transactions](waves-api-and-sdk/client-libraries/waves-transactions.md)
+  * [Community libraries](development-and-api/client-libraries/unofficial-libraries.md)
+* [Examples](waves-api-and-sdk/examples.md)
+  * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
+
+## Waves full node
+
+* [What is Waves full node ](waves-full-node/what-is-a-full-node.md)
+* [How To install a node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
+  * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
+  * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
+  * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
+* [How to build and test a node](waves-full-node/how-to-build-and-test-a-node.md)
+* [Options for getting actual blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
+  * [State downloading and applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
+  * [Import from the blockchain](waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
+  * [Export to the blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
+* [Upgrading](waves-full-node/upgrading.md)
+* [How to rollback a node](waves-full-node/how-to-rollback-a-node.md)
+* [Waves node in Docker](waves-full-node/waves-node-in-docker.md)
+* [Node configuration](waves-full-node/configuration-parameters.md)
+* [Logging configuration](waves-full-node/logging-configuration.md)
+* [Joining testnet](waves-full-node/joining-testnet.md)
+* [Private Waves network](waves-full-node/private-waves-network.md)
+* [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
+
+## Oracles development
+
+* [What is a data oracle](oracels-developments/what-is-a-data-oracle.md)
+* [Oracle Protocols](oracels-developments/oracle-protocols.md)
+
+## Proposals
 
 ## Resources
 
 * [Official resorces](overview/waves-official-resources.md)
 * [Developer resources ](overview/waves-official-resources.md)
 * [Contributing](contributing.md)
+* Proposals
+  * 1
+* [Sponsored transactions](proposals/sponsored-transactions.md)
+* [Asset verification Protocol](proposals/asset-verification-protocol.md)
+* [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
 
