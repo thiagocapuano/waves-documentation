@@ -1,15 +1,14 @@
 # Summary
 
-## Overview
+## Getting started
 
 * [What is Waves Platform?](README.md)
 * [Waves Platform components](overview/platform-components.md)
-* [Security notes](overview/security-notes.md)
-* [Official resorces](overview/waves-official-resources.md)
-* [Developer resources ](overview/waves-official-resources.md)
-* [Contributing](contributing.md)
+* [Getting started for users](getting-started/as-a-user.md)
+* [Getting started for developers](getting-started/as-a-developer.md)
+* [Getting started for node owners](getting-started/as-a-node-owner.md)
 
-## Waves environment
+## Waves blockchain
 
 * [Waves tokens](waves-environment/waves-tokens.md)
 * [Custom tokens](waves-environment/custom-tokens.md)
@@ -32,12 +31,7 @@
   * [Waves-NG Protocol](waves-environment/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](waves-environment/waves-protocol/activation-protocol.md)
   * [Smart contracts](waves-environment/waves-protocol/smart-contracts.md)
-
-## Getting started
-
-* [As a developer](getting-started/as-a-developer.md)
-* [As a node owner](getting-started/as-a-node-owner.md)
-* [As a user](getting-started/as-a-user.md)
+* [Security notes](overview/security-notes.md)
 
 ## Developer tools
 
@@ -252,4 +246,10 @@
 * [Asset verification Protocol](proposals/asset-verification-protocol.md)
 * [Sponsored transactions](proposals/sponsored-transactions.md)
 * [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
+
+## Resources
+
+* [Official resorces](overview/waves-official-resources.md)
+* [Developer resources ](overview/waves-official-resources.md)
+* [Contributing](contributing.md)
 
