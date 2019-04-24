@@ -241,16 +241,13 @@
 * [What is a data oracle](oracels-developments/what-is-a-data-oracle.md)
 * [Oracle Protocols](oracels-developments/oracle-protocols.md)
 
-## Proposals
-
 ## Resources
 
 * [Official resorces](overview/waves-official-resources.md)
 * [Developer resources ](overview/waves-official-resources.md)
 * [Contributing](contributing.md)
-* Proposals
-  * 1
-* [Sponsored transactions](proposals/sponsored-transactions.md)
-* [Asset verification Protocol](proposals/asset-verification-protocol.md)
-* [Trezor Hardware Wallet Integration Specification](proposals/trezor-hardware-wallet-integration-specification.md)
+* [Proposals](overview/proposals.md)
+  * [Asset verification protocol](proposals/asset-verification-protocol.md)
+  * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
+  * [Sponsored transactions](proposals/sponsored-transactions.md)
 
