@@ -119,7 +119,7 @@
   * [Creating multisignature account via Waves IDE tools](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-ide-tools.md)
   * [Creating multisignature account via Waves Client](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-client.md)
   * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
-* [Articles](smart-contracts/articles.md)
+* [Articles on dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves full node
 

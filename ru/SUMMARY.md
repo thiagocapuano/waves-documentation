@@ -37,6 +37,7 @@
 
 * [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
+* [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves приложение
 
