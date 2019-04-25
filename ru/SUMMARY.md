@@ -33,7 +33,7 @@
 * [Функции](ride/functions.md)
 * [Исключения](ride/exceptions.md)
 
-## Смарт-контракты \(dApps\)
+## Смарт-контракты \(Waves dApps\)
 
 * [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)

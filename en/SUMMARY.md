@@ -149,7 +149,7 @@
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [RIDE Maven compiler](ride/maven-compiler.md)
 
-## Smart contracts \(dApps\)
+## Smart contracts \(Waves dApps\)
 
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
