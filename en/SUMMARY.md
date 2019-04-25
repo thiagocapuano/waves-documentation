@@ -167,6 +167,27 @@
   * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
 * [Articles on dApps](smart-contracts/articles-on-dapps.md)
 
+## Waves full node
+
+* [What is Waves full node ](waves-full-node/what-is-a-full-node.md)
+* [How To install a node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
+  * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
+  * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
+  * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
+* [How to build and test a node](waves-full-node/how-to-build-and-test-a-node.md)
+* [Options for getting actual blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
+  * [State downloading and applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
+  * [Import from the blockchain](waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
+  * [Export to the blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
+* [Upgrading](waves-full-node/upgrading.md)
+* [How to rollback a node](waves-full-node/how-to-rollback-a-node.md)
+* [Waves node in Docker](waves-full-node/waves-node-in-docker.md)
+* [Node configuration](waves-full-node/configuration-parameters.md)
+* [Logging configuration](waves-full-node/logging-configuration.md)
+* [Joining testnet](waves-full-node/joining-testnet.md)
+* [Private Waves network](waves-full-node/private-waves-network.md)
+* [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
+
 ## Developer tools
 
 * [Waves IDE](developer-tools/waves-ide.md)
@@ -214,27 +235,6 @@
   * [Community libraries](development-and-api/client-libraries/unofficial-libraries.md)
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
-
-## Waves full node
-
-* [What is Waves full node ](waves-full-node/what-is-a-full-node.md)
-* [How To install a node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-  * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
-  * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
-  * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
-* [How to build and test a node](waves-full-node/how-to-build-and-test-a-node.md)
-* [Options for getting actual blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
-  * [State downloading and applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
-  * [Import from the blockchain](waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
-  * [Export to the blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
-* [Upgrading](waves-full-node/upgrading.md)
-* [How to rollback a node](waves-full-node/how-to-rollback-a-node.md)
-* [Waves node in Docker](waves-full-node/waves-node-in-docker.md)
-* [Node configuration](waves-full-node/configuration-parameters.md)
-* [Logging configuration](waves-full-node/logging-configuration.md)
-* [Joining testnet](waves-full-node/joining-testnet.md)
-* [Private Waves network](waves-full-node/private-waves-network.md)
-* [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
 
 ## Waves Oracles
 
