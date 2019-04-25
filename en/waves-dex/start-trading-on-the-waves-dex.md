@@ -1,4 +1,4 @@
-## Introduction
+## Start trading on the Waves DEX
 
 Open up your Waves wallet.
 

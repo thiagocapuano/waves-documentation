@@ -1,1 +1,0 @@
-#About Waves Token Rating

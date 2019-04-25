@@ -68,8 +68,6 @@
     * [Bitcoin SV transfers](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md)
     * [EURO and USD transfers](waves-client/transfers-and-gateways/eur-usd-transfers.md)
     * [Buying Waves using credit or debit card](waves-client/transfers-and-gateways/buying-waves-using-card.md)
-  * [Waves DEX](waves-client/waves-dex.md)
-    * [Start trading on the Waves DEX](waves-client/waves-dex/start-trading-on-the-waves-dex.md)
   * [Advanced Features](waves-client/advanced_features.md)
     * [Script transaction](waves-client/advanced_features/script_transaction.md)
     * [JSON confirmation](waves-client/advanced_features/json_confirmation.md)
@@ -127,7 +125,6 @@
   * [I have enough Waves but I can't create an order.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
   * [How to get enough Waves for the fees?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
   * [Order execution time.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
-  * [Asset ID on the Waves DEX.](waves-client/frequently-asked-questions-faq/waves-dex/asset-id.md)
   * [What is a payment gateway.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
   * [Ethereum transfers with smart-contracts.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
@@ -236,6 +233,13 @@
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
 
+## Waves DEX
+
+* [About Waves DEX](waves-dex/about-waves-dex.md)
+* [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
+* [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
+* [DEX protocol](waves-dex/dex-protocol.md)
+
 ## Waves Oracles
 
 * [What is a data oracle](waves-oracles/what-is-a-data-oracle.md)
@@ -243,7 +247,7 @@
 
 ## Waves Token Rating
 
-* [About Waves Token Rating](en/waves-token-rating/about-waves-token-rating.md)
+* [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 
 ## Resources
 
