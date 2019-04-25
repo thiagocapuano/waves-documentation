@@ -142,3 +142,7 @@
 
 * [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
 
+## Waves Token Rating
+
+* [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+

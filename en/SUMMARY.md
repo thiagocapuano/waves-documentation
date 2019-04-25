@@ -241,6 +241,10 @@
 * [What is a data oracle](waves-oracles/what-is-a-data-oracle.md)
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
 
+## Waves Token Rating
+
+* [About Waves Token Rating](en/waves-token-rating/about-waves-token-rating.md)
+
 ## Resources
 
 * [Official resorces](overview/waves-official-resources.md)
