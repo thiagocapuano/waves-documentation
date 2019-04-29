@@ -1,1 +1,0 @@
-#О Waves Token Rating
