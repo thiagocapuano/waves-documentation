@@ -1,11 +1,11 @@
-# Burn transactions
+# Burn transaction
 
 ## Usage
 
 Burn transaction is used to give the ability to burn tokens of an asset by specifying the amount and the asset id.
 
 > \[!NOTE\]  
-> Check the required [transactions fees ](/waves-blockchain/waves-transactions/transactions-fees.md)for the minimal fee in WAVES.
+> Check the required [transaction fees ](/waves-blockchain/waves-transactions/transactions-fees.md)for the minimal fee in WAVES.
 
 ## Binary data structure
 
