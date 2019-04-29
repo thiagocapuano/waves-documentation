@@ -22,13 +22,22 @@
 
 * [Пользователю](getting-started/as-a-user.md)
 
-## Смарт-контракты \(dApps\)
+## RIDE
 
-* [Что такое распределенное приложение \(dApp\)](smart-contracts/what-is-a-decentralised-application-dapp.md)
+* [О RIDE](ride/about-ride.md)
+* [Неизменяемые переменные](ride/immutable-variables.md)
+* [Основные понятия](ride/core-concepts.md)
+  * [Вычислительная стоимость](ride/core-concepts/computational-cost.md)
+* [Типы данных](ride/data-types.md)
+* [Структуры](ride/structures.md)
+* [Функции](ride/functions.md)
+* [Исключения](ride/exceptions.md)
+
+## Смарт-контракты \(Waves dApps\)
+
+* [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
-* [Язык RIDE](smart-contracts/ride-language.md)
-  * [О языке RIDE](smart-contracts/ride-language/about-ride-language.md)
-  * [Неизменяемые переменные и ключевое слово let](smart-contracts/ride-language/immutable-variables-and-the-let-keyword.md)
+* [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves приложение
 
@@ -132,4 +141,8 @@
 ## Ноды Waves
 
 * [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
+
+## Waves Token Rating
+
+* [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 

@@ -1,0 +1,1 @@
+- [Вычислительная стоимость](/ride/core-concepts/computational-cost.md)

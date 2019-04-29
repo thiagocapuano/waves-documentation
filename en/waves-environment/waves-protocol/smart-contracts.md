@@ -30,7 +30,7 @@ For more theoretical and technical details please go to [_**Smart Contract Secti
 
 Ride4DApps is an update of RIDE language which main goal is to enable classic 'DApps' approach on Waves by adding the ability to define and call functions in a contract. This feature is not available on the mainnet yet, but IDE supports new language syntax and allows to compile and deploy contracts to the testnet or your custom chain.
 
-[Ride4DApps documentation](https://docs.wavesplatform.com/en/smart-contracts/ride4dapps/overview.html)
+[Writing dApps](https://docs.wavesplatform.com/en/smart-contracts/writing-dapps.html)
 
 
 ## Forum
