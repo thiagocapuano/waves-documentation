@@ -187,7 +187,32 @@ The **token rating **will be the weighted average of the scores: Rating = \(5\*3
 
 The total tokens votes will be: for 5 - 3.6k, for 4 - 7.
 
-
-
 ![](../waves-token-rating/waves-token-rating-pic/Example rating calculate.png)
+
+Oracle Token Rating daily publishes a date in Waves blockchain with a transaction with a rating of tokens with which it has changed in the past 24 hours. In a one data-transaction is not more than 100 changes, therefore, if there are more, then several transactions are published.
+
+Token Rating oracle card in Waves Oracles: [https://oracles.wavesexplorer.com/oracle/GgR4urzrig9p8VxHkUmnpZRfxLbzb9xFHUEABnZqF6tG](https://oracles.wavesexplorer.com/oracle/GgR4urzrig9p8VxHkUmnpZRfxLbzb9xFHUEABnZqF6tG)
+
+Oracle Token Rating data-transaction consists of an array of “glued” keys:
+
+| Key | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| assetRating\_assetId | string |  | Rating token with assetId. assetId should be replaced real value. \(see example below\) |
+
+An example of the data \[ \] array is the Oracle Token Chart  data-transaction:
+
+```js
+{
+    "key": "assetRating_62LyMjcr2DtiyF5yVXFhoQ2q414VPPJXjsNYp72SuDCH",
+    "type": "string",
+    "value": "4.5"
+}, {
+    "key": "assetRating_4QUMfcxQB112bZdyoAPrp1oTVN4cBA68NpGkD7W3n33i",
+    "type": "string",
+    "value": "3.9"
+}
+...
+```
+
+
 
