@@ -10,6 +10,9 @@
 
 ## Waves blockchain
 
+* [Waves transactions](waves-blockchain/waves-transactions.md)
+  * [Transactions types](waves-blockchain/waves-transactions/transactions-types.md)
+    * [Burn transactions](waves-blockchain/waves-transactions/transactions-types/burn-transactions.md)
 * [Waves tokens](waves-blockchain/waves-tokens.md)
 * [Custom tokens](waves-blockchain/custom-tokens.md)
 * [Waves mainnet](waves-blockchain/waves-mainnet.md)
