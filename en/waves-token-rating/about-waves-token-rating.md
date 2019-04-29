@@ -125,5 +125,71 @@ An example of the data array is the data transaction with the user score:
 }
 ```
 
+## Assessment and rating calculation {#AboutWavesTokenRating-Assessmentandratingcalculation}
 
+### How is the user score formed? {#AboutWavesTokenRating-Howistheuserscoreformed?}
+
+The score is discrete and can take values \[1, 2, 3, 4, 5\]. The number of WCT tokens on the balance sheet has a non-linear effect on the final assessment weight. The more tokens on the balance, the lower the coefficient.
+
+Weight is calculated by the formula:
+
+_**W = B¹ × k  **_\(1\), where
+
+_**W**_– the total estimated weight of the score, rounded to the full value,
+
+_**B¹**_– effective balance,
+
+_**k**_– coefficient, which is calculated by the formula \(rounded to hundredths\):
+
+_**B¹∈**\[1, 10\],**k = 1**_
+
+_**B¹ ∈ \(**10, 150 000\],**k = – 0,091 × ln\(B¹\) + 1,20958**_
+
+_**B¹ ∈**\(150 000, 540 000\],**k = \(– 0,00019 × B¹ + 153\) ÷ 1000**_
+
+_**B¹ ∈**\(540 000, ∞\)**, k = 0,05**_
+
+Calculation of the effective balance:
+
+The current balance is recorded at the time of voting _**B**_WCT. Within 24 hours, all WCT**spending**operations are checked at this address and their volume is summarized. After 24 hours, the amount of WCT token transactions \(if any\) outgoing within 24 hours is subtracted from_**B**_. The result is an effective balance. _**B¹.**_ If its value is&gt; 0, apply formula \(1\) to calculate the total weight.
+
+The resulting value \(score and weight\) is recorded in the blockchain as the final score from the user. If the value is &lt;0, the score is not counted.
+
+## Rating calculation {#AboutWavesTokenRating-Ratingcalculation}
+
+The current rating is an instantaneous weighted average of user scores.
+
+### Example {#AboutWavesTokenRating-Example}
+
+_User1_rated the token at 5 stars. At the time of voting on his account 10,000 WCT.
+
+There were 3 operations on his accounts in 24 hours: spending 300 WTC, spending 200 WTC and income 500 WTC. Therefore, total spending transactions amount to 300 + 200 = 500. 9500 - is an effective balance_**B¹ **_for the calculation, despite the fact that the same 10,000 WCT remained on the account after 24 hours as at the time of the assessment.
+
+_**B¹ **_is in the interval \(10, 150 000\], it means that we calculate_**k**_by the formula:
+
+_**k = – 0,091 × ln\(B¹\) + 1,20958**_=-0.091 \* ln\(9500\) + 1.20958 = 0,38
+
+_**W = B¹ × k**_= 0,38 \* 9500 = 3610
+
+Total: the token will receive a rating of 5 with a weight of 3610 from_User1_.
+
+  
+
+
+Another_User2_rated the same token at 4 stars. At the time of voting on his account 7 WCT.
+
+There were no account transactions for 24 hours, so the effective balance is 7 WCT.
+
+_B¹  _is in between \[1, 10\], in this case _**k = 1**_
+
+_**W = B¹ × k**_= 7 \* 1 = 7
+
+Total: the token will receive a rating of 4 with a weight of 7 from _User2._
+
+  
+
+
+The**token rating**will be the weighted average of the scores: Rating = \(5\*3610 + 4\*7\) / 3617 = 4.998 \(rounded up to 5.0\)
+
+The total tokens votes will be: for 5 - 3.6k, for 4 - 7.
 
