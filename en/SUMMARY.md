@@ -32,7 +32,7 @@
   * [Fair Proof of Stake](waves-blockchain/waves-protocol/fair-pos.md)
   * [Waves-NG Protocol](waves-blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](waves-blockchain/waves-protocol/activation-protocol.md)
-  * [Smart contracts](waves-blockchain/waves-protocol/smart-contracts.md)
+  * [Smart contracts](waves-environment/waves-protocol/smart-contracts.md)
 * [Security notes](overview/security-notes.md)
 
 ## Waves Client
