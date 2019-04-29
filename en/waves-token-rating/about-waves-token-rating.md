@@ -125,9 +125,9 @@ An example of the data array is the data transaction with the user score:
 }
 ```
 
-## Assessment and rating calculation {#AboutWavesTokenRating-Assessmentandratingcalculation}
+## Assessment and rating calculation 
 
-### How is the user score formed? {#AboutWavesTokenRating-Howistheuserscoreformed?}
+### How is the user score formed? 
 
 The score is discrete and can take values \[1, 2, 3, 4, 5\]. The number of WCT tokens on the balance sheet has a non-linear effect on the final assessment weight. The more tokens on the balance, the lower the coefficient.
 
@@ -155,12 +155,11 @@ The current balance is recorded at the time of voting _**B **WCT. Within 24 hour
 
 The resulting value \(score and weight\) is recorded in the blockchain as the final score from the user. If the value is &lt;0, the score is not counted.
 
-## Rating calculation {#AboutWavesTokenRating-Ratingcalculation}
+## Rating calculation 
 
 The current rating is an instantaneous weighted average of user scores.
 
-### Example {#AboutWavesTokenRating-Example}
-
+### Example 
 User1 rated the token at 5 stars. At the time of voting on his account 10,000 WCT.
 
 There were 3 operations on his accounts in 24 hours: spending 300 WTC, spending 200 WTC and income 500 WTC. Therefore, total spending transactions amount to 300 + 200 = 500. 9500 - is an effective balance **B¹ **for the calculation, despite the fact that the same 10,000 WCT remained on the account after 24 hours as at the time of the assessment.
