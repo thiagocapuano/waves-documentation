@@ -121,7 +121,7 @@ Waves Token Rating — онлайн-сервис \([https://tokenrating.wavesexp
     "value": 4
 ```
 
-## Расчет веса оценки токена, выставляемой пользователем 
+## Расчет веса оценки токена, выставляемой пользователем
 
 Оценка может принимать целые значения от 1 до 5 — \[1, 2, 3, 4, 5\].
 
@@ -153,11 +153,11 @@ _**B ∈**\(540 000, ∞\)**, k = 0,05**_
 
 Полученное значение \(оценка и вес\) записываются в блокчейн как финальная оценка от пользователя. Если значение &lt;0, оценка не засчитывается.
 
-## Расчет рейтинга токена 
+## Расчет рейтинга токена
 
 Текущий рейтинг представляет собой мгновенное средневзвешенное значение оценок, выставленных пользователями.
 
-## Пример от выставления оценки до расчета рейтинга 
+## Пример от выставления оценки до расчета рейтинга
 
 _Пользователь1 _оценил токен в 5 баллов. На момент голосования на его счету 10000 WCT.
 
@@ -191,8 +191,30 @@ _**W = B × k**_= 7 \* 1 = 7
 
 Token Rating Oracle ежедневно публикует в Waves блокчейн транзакцию данных с рейтингом токенов, у которых он изменился за прошедшие 24 часа. В одну транзакцию входит не более 100 изменений, поэтому, если их больше, то публикуется несколько транзакций.
 
-Карточка оракула Token Rating в Waves Oracles: [https://oracles.wavesexplorer.com/oracle/GgR4urzrig9p8VxHkUmnpZRfxLbzb9xFHUEABnZqF6tG](https://oracles.wavesexplorer.com/oracle/GgR4urzrig9p8VxHkUmnpZRfxLbzb9xFHUEABnZqF6tG)
+Карточка оракула Token Rating в Waves Oracles: [https://oracles.wavesexplorer.com/oracle/GgR4urzrig9p8VxHkUmnpZRfxLbzb9xFHUEABnZqF6tG](https://oracles.wavesexplorer.com/oracle/GgR4urzrig9p8VxHkUmnpZRfxLbzb9xFHUEABnZqF6tG)
 
 Транзакция данных оракула Token Rating состоит из массива “склеенных” ключей:
+
+| Key  | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| assetRating\_assetId  | string |  | Рейтинг токена с assetId. assetId необходимо заменить на реальный идентификатор ассета \(см. пример ниже\) |
+
+
+
+Пример содержимого массива data транзакции данных оракула Token Rating:
+
+```js
+{
+    "key": "assetRating_62LyMjcr2DtiyF5yVXFhoQ2q414VPPJXjsNYp72SuDCH",
+    "type": "string",
+    "value": "4.5"
+}, {
+    "key": "assetRating_4QUMfcxQB112bZdyoAPrp1oTVN4cBA68NpGkD7W3n33i",
+    "type": "string",
+    "value": "3.9"
+}
+...
+```
+
 
 
