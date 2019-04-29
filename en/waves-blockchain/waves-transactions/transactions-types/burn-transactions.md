@@ -1,12 +1,12 @@
 # Burn transactions
 
-## Usage {#Burntransactions-Usage}
+## Usage 
 
 Burn transaction is used to give the ability to burn tokens of an asset by specifying the amount and the asset id.
 
-## Binary data structure {#Burntransactions-Binarydatastructure}
+## Binary data structure 
 
-### Burn transaction version2 {#Burntransactions-Burntransactionversion2}
+### Burn transaction version2 
 
 | \# | Field name | Type | Size in bytes |
 | :--- | :--- | :--- | :--- |
@@ -21,7 +21,7 @@ Burn transaction is used to give the ability to burn tokens of an asset by spe
 | 9 | Timestamp | Long | 8 |
 | 10 | Proofs | Proofs | See Proofs structure |
 
-### Burn transaction version1 {#Burntransactions-Burntransactionversion1}
+### Burn transaction version1 
 
 | \# | Field name | Type | Size in bytes |
 | :--- | :--- | :--- | :--- |
@@ -44,7 +44,7 @@ The transaction's signature is calculated from the following bytes:
 | 5 | Fee | Long | 8 |
 | 6 | Timestamp | Long | 8 |
 
-## JSON example {#Burntransactions-JSONexample}
+## JSON example
 
 ```js
 {
