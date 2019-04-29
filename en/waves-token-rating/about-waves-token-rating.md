@@ -176,7 +176,7 @@ Another\_User2\_rated the same token at 4 stars. At the time of voting on his ac
 
 There were no account transactions for 24 hours, so the effective balance is 7 WCT.
 
-_B¹  \_is in between \[1, 10\], in this case _**k = 1**\_
+_B¹  \_is in between \[1, 10\], in this case _**k = 1**
 
 _**W = B¹ × k**_= 7 \* 1 = 7
 
