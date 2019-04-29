@@ -83,7 +83,7 @@ Further goes the **General information **block:
 
 
 
-## Restrictions {#AboutWavesTokenRating-Restrictions}
+## Restrictions 
 
 Tokens can be rated from desktop browsers only; for mobile browsers, the service is available to read-only.
 
@@ -91,7 +91,7 @@ You can rate a token if Waves Keeper is installed in your browser, and you have 
 
 WCT tokens are not transferred, only on existing balance is required for voting. Each vote is weighted according to the number of WCT in your balance.
 
-## To rate a token {#AboutWavesTokenRating-Torateatoken}
+## To rate a token 
 
 To rate a token, select it in the ratings table or in the search bar, then on the token page click on 1 to 5 stars. Then, click the Rate button and sign the transaction using Waves Keeper - your vote will be applied after 24 hours.
 
@@ -99,9 +99,10 @@ You can rate a token from each address only once. If you have already rated the 
 
 If no one has yet rated a token, then after you vote it will listed in the ratings table, but without a value, until the rating is calculated.
 
-## Data Transaction of user score {#AboutWavesTokenRating-DataTransactionofuserscore}
+## Data Transaction of user score 
 
 When the user has to rate a token, a date-transaction is formed with the following fields:
+
 
 
 
