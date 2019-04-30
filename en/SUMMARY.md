@@ -10,9 +10,9 @@
 
 ## Blockchain
 
-* [Transaction](blockchain/waves-transactions.md)
-  * [Transaction types](blockchain/waves-transactions/transactions-types.md)
-  * [Transaction fees](blockchain/waves-transactions/transactions-fees.md)
+* [Transaction](blockchain/transaction.md)
+  * [Transaction types](blockchain/transaction/transactions-types.md)
+  * [Transaction fees](blockchain/transaction/transactions-fees.md)
 * [Waves tokens](blockchain/waves-tokens.md)
 * [Custom tokens](blockchain/custom-tokens.md)
 * [Waves mainnet](blockchain/waves-mainnet.md)
