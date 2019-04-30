@@ -11,7 +11,7 @@
 ## Blockchain
 
 * [Transaction](blockchain/transaction.md)
-  * [Transaction types](blockchain/transaction/transactions-types.md)
+  * [Transaction types](blockchain/transaction/transaction-types.md)
   * [Transaction fees](blockchain/transaction/transactions-fees.md)
 * [Waves tokens](blockchain/waves-tokens.md)
 * [Custom tokens](blockchain/custom-tokens.md)
