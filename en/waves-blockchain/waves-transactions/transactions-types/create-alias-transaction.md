@@ -9,7 +9,7 @@ Create alias transaction is used to create an alias for an account.
 
 ## Binary data structure
 
-### Burn transaction version2
+### Create alias transaction version2
 
 | \# | Field name | Type | Size in bytes |
 | :--- | :--- | :--- | :--- |
@@ -17,19 +17,19 @@ Create alias transaction is used to create an alias for an account.
 | 2 | Transaction type | Byte \(constant, value = 10\) | 1 |
 | 3 | Version | Byte | 1 |
 | 4 | Sender's public key | PublicKey \(Array\[Byte\]\) | 32 |
-| 5.1 | Alias object length \(A\) |   | 2 |
+| 5.1 | Alias object length \(A\) |  | 2 |
 | 5.2 | Alias object | Alias | 4 &lt;= A &lt;= 30 |
 | 6 | Fee | Long | 8 |
 | 7 | Timestamp | Long | 8 |
 | 8 | Proofs | Proofs | See proofs structure |
 
-### Burn transaction version1
+### Create alias transaction version1
 
 | \# | Field name | Type | Size in bytes |
 | :--- | :--- | :--- | :--- |
 | 1 | Transaction type | Byte \(constant, value = 10\) | 1 |
 | 2 | Sender's public key | PublicKey \(Array\[Byte\]\) | 32 |
-| 3.1 | Alias object length \(A\) |   | 2 |
+| 3.1 | Alias object length \(A\) |  | 2 |
 | 3.2 | Alias object | Alias | 4 &lt;= A &lt;= 30 |
 | 4 | Fee | Long | 8 |
 | 5 | Timestamp | Long | 8 |
@@ -41,7 +41,7 @@ The transaction's signature is calculated from the following bytes:
 | :--- | :--- | :--- | :--- |
 | 1 | Transaction type | Byte \(constant, value = 10\) | 1 |
 | 2 | Sender's public key | PublicKey \(Array\[Byte\]\) | 32 |
-| 3.1 | Alias object length \(A\) |   | 2 |
+| 3.1 | Alias object length \(A\) |  | 2 |
 | 3.2 | Alias object | Alias | 4 &lt;= A &lt;= 30 |
 | 4 | Fee | Long | 8 |
 | 5 | Timestamp | Long | 8 |
