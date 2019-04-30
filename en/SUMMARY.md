@@ -8,9 +8,9 @@
 * [Getting started for developers](getting-started/as-a-developer.md)
 * [Getting started for node owners](getting-started/as-a-node-owner.md)
 
-## blockchain
+## Blockchain
 
-* [Transactions](waves-blockchain/waves-transactions.md)
+* [Transaction](waves-blockchain/waves-transactions.md)
   * [Transaction types](waves-blockchain/waves-transactions/transactions-types.md)
     * [Burn transaction](waves-blockchain/waves-transactions/transactions-types/burn-transactions.md)
     * [Create alias transaction](waves-blockchain/waves-transactions/transactions-types/create-alias-transaction.md)
