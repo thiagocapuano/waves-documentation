@@ -12,8 +12,6 @@
 
 * [Transaction](waves-blockchain/waves-transactions.md)
   * [Transaction types](waves-blockchain/waves-transactions/transactions-types.md)
-    * [Burn transaction](waves-blockchain/waves-transactions/transactions-types/burn-transactions.md)
-    * [Create alias transaction](waves-blockchain/waves-transactions/transactions-types/create-alias-transaction.md)
   * [Transaction fees](waves-blockchain/waves-transactions/transactions-fees.md)
 * [Waves tokens](waves-blockchain/waves-tokens.md)
 * [Custom tokens](waves-blockchain/custom-tokens.md)
