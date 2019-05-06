@@ -49,7 +49,7 @@ Fill in the sending form.
 * **Recipient**: Put the recipient address or scan QR-code or choose from Address book.
 * **Amount**: Define a number of Bitcoins you want to send or choose **Use total balance** **50%** **10%** **5%**
 
-Please note that the gateway charges **0.001 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
+Please note that the gateway charges **0.0005 BTC** for the gateway fee as well as **0.001 Waves** for the network fee.
 **Before proceeding please carefully read the conditions**.
 
 After you have filled the form, click on the **Continue**.
