@@ -1,6 +1,6 @@
 # About Waves Oracles
 
-Waves platform allows users to issue their own oracle and act as a data carrier, a reliable connection between Web APIs and your dApp. Oracles allow you to write data in the blockchain according to certain rules.
+Waves platform allows users to issue their own [oracle](/waves-oracles/oracle.md) and act as a data carrier, a reliable connection between Web APIs and your dApp. Oracles allow you to write data in the blockchain according to certain rules.
 
 Based on the tool provided, some users will be able to describe their protocols and create Oracles, while other users will be able to easily find already created oracles and build DApp using this protocols.
 
