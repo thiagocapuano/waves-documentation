@@ -149,6 +149,6 @@
 ## Waves Token Rating
 
 * [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Транзакция данных оценки](waves-token-rating/user-score-data-transaction.md)
-* [Оракул Token Rating](waves-token-rating/token-rating-oracle.md)
+* [Транзакция данных оценки пользователя](waves-token-rating/user-score-data-transaction.md)
+* [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
 
