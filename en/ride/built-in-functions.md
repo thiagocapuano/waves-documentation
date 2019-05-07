@@ -1251,6 +1251,21 @@
 <td>  <a href="#Address">Address</a>
 </td>
 </tr>
+<tr><td>assetInfo</td>
+<td>100</td>
+<td>get asset info by id</td>
+<td>
+<table>
+<tr><td>id</td>
+<td>  <a href="#ByteVector"> ByteVector</a>
+</td>
+<td>asset Id
+</td></tr>
+</table>
+</td>
+<td>  OPTION[<a href="#Asset">Asset</a>]
+</td>
+</tr>
 </table>
 </div>
 
