@@ -22,6 +22,10 @@
 
 * [Пользователю](getting-started/as-a-user.md)
 
+## Waves Explorer
+
+* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
+
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)

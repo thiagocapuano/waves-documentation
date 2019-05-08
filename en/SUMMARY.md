@@ -131,6 +131,10 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
+## Waves Explorer
+
+* [Account balance top up in testnet](waves-explorer/account-balance-top-up-in-testnet.md)
+
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
