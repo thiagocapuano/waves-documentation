@@ -1,7 +1,7 @@
 # Account balance top up in testnet
 
 1. Go to https://wavesexplorer.com/testnet.
-2. Press <img src="img/faucet.png" alt="faucet" width="70"/>.
+2. Click <img src="img/faucet.png" alt="faucet" width="70"/>.
 3. Enter account ID to the **Address** field.
 4. Press **Request 10 WAVES**.
 
