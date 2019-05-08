@@ -24,6 +24,7 @@
 
 ## Waves Explorer
 
+* [О Waves Explorer](waves-explorer/about-waves-explorer.md)
 * [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
 
 ## RIDE
