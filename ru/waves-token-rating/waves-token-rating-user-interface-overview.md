@@ -4,7 +4,8 @@
 
 Таблица рейтингов содержит информацию о токенах, которым кто-то уже выставил оценку.
 
-<img src="img/table.png" alt="faucet" width="700"/>
+<img src="img/table.png" alt="table" width="700"/>
+
 
 Описание таблицы рейтингов:
 
@@ -23,7 +24,7 @@
 ## Строка поиска токенов
 
 Поисковая строка позволяет искать токены по названию, тикеру или ID токена.
-<img src="img/search.png" alt="faucet" width="350"/>
+<img src="img/search.png" alt="search" width="350"/>
 
 Если токен уже имеет рейтинг, то рядом с ним будет указываться его текущий рейтинг.
 
@@ -34,13 +35,14 @@
 **Все токены** — отображаются токены, за которые кто-либо проголосовал.
 
 **Одобренные** — отображаются токены, у которых рейтинг и сумма [эффективных балансов](/waves-token-rating/about-waves-token-rating.md) всех проголосовавших за них адресов больше определенного значения.
-<img src="img/filters.png" alt="faucet" width="230"/>
+
+<img src="img/filters.png" alt="filters" width="230"/>
 
 ## Карточка токена
 
 В заголовке карточки отображается название токена.
 
-<img src="img/card.png" alt="faucet" width="500"/>
+<img src="img/card.png" alt="card" width="500"/>
 
 В верхней части карточки содержится подробная информация о токене и о его рейтинге (если он есть). 
 
@@ -71,11 +73,11 @@
 
 Позволяет выбрать язык интерфейса (русский или английский).
 
-<img src="img/russian.png" alt="faucet" width="110"/>
+<img src="img/russian.png" alt="russian" width="110"/>
 
 ## F.A.Q.
 
 Содержит ответы на часто задаваемые вопросы по Waves Token Rating.
 
-<img src="img/faq.png" alt="faucet" width="120"/>
+<img src="img/faq.png" alt="faq" width="120"/>
 
