@@ -8,6 +8,6 @@
 
 
 > [!NOTE]
-> The balance of an account in the testnet is topped up by 10 WAVES at a time. It is possible to top up the balance again no earlier than 15 minutes since the last top up.
+> The balance of an account in the testnet is topped up by 10 WAVES at a time. It is possible to top up the balance again no earlier than 15 minutes since the last top up
 
 
