@@ -254,6 +254,7 @@
 ## Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+* [Token Rating's oracle data transaction](waves-token-rating/token-rating-oracle-data-transaction.md)
 
 ## Resources
 
