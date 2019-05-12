@@ -42,7 +42,7 @@ where
 
 The calculated value of `W` is rounded to the integer.
 
-### Calculation of effective balance B
+### Calculation of effective balance `B`
 
 At the time of voting, the value of the **current balance** in WCT is recorded. Within 24 hours, all expenditure transactions in the WCT are checked at this address and their sum `S` is calculated. After 24 hours, `S` is deducted from the current balance. As a result, **effective balance** `B` is obtained.
 
