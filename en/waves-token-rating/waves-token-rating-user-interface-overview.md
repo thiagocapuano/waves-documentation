@@ -19,12 +19,12 @@ Description of the rating table:
 
 When you click on the token line in the table, the token card opens.
 
-Tokens, which no one has yet rated, can be found using the search box.
+Tokens, which no one has yet rated, can be found using the search bar.
 
 
-## Token Search String
+## Token search bar
 
-The search string allows you to search for tokens by name, ticker or token ID.
+The search bar allows you to search for tokens by name, ticker or token ID.
 <img src="img/search.png" alt="search" width="350"/>
 
 If the token already has a rating, then its current rating will be displayed next to it.
@@ -73,6 +73,7 @@ Further goes the **General Information** block:
 ## Language selection
 
 Allows you to select the language of the interface (English or Russian).
+
 <img src="img/language.png" alt="russian" width="110"/>
 
 ## F.A.Q.
