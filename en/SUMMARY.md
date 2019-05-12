@@ -248,12 +248,13 @@
 
 ## Waves Oracles
 
-* [Oracle](waves-oracles/oracle.md)
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
+* [Oracle](waves-oracles/oracle.md)
 
 ## Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+* [User score data transaction](waves-token-rating/user-score-data-transaction.md)
 * [Token Rating's oracle data transaction](waves-token-rating/token-rating-oracle-data-transaction.md)
 
 ## Resources

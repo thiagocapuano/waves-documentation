@@ -97,34 +97,6 @@ You can rate a token from each address only once. If you have already rated the 
 
 If no one has yet rated a token, then after you vote it will listed in the ratings table, but without a value, until the rating is calculated.
 
-## Data Transaction of user score
-
-When the user has to rate a token, a date-transaction is formed with the following fields:
-
-| Filed name | Data type | Required | Description |
-| :--- | :--- | :--- | :--- |
-| tokenRating | string | + | A service field that allows to find transactions with the user scores of tokens in the Token Rating. |
-| assetId | string | + | Token ID. |
-| score | integer | + | User score |
-
-An example of the data array is the data transaction with the user score:
-
-```js
-{
-    "key": "tokenRating",
-    "type": "string",
-    "value": "tokenRating"
-}, {
-    "key": "assetId",
-    "type": "string",
-    "value": "BrjUWjndUanm5VsJkbUip8VRYy6LWJePtxya3FNv4TQa"
-}, {
-    "key": "score",
-    "type": "integer",
-    "value": 4
-}
-```
-
 ## Assessment and rating calculation 
 
 ### How is the user score formed? 
