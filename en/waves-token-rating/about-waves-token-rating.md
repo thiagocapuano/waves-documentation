@@ -1,85 +1,12 @@
 # About Waves Token Rating
 
-[**Waves Token Rating **](https://tokenrating.wavesexplorer.com/)is a service that provides ratings for tokens \(projects\) issued on the Waves platform. Ratings are based on opinions of community members \(WCT token holders\) on a specific token.
+**Waves Token Rating** is an online service (https://tokenrating.wavesexplorer.com) that shows the ratings of tokens (projects) issued on the Waves Platform.
 
-## Main page
+Ratings of tokens are based on the opinions of community members. Only WCT token holders can participate in voting for tokens.
 
-### Ratings table
+## Service user interface overview
 
-The ratings table lists tokens that have already been rated.
-
-![](../waves-token-rating/waves-token-rating-pic/image2019-4-29_13-54-54.png)
-
-| Column | **Description** |
-| :--- | :--- |
-| Name | Token name |
-| Rating | The current token rating is from 1 to 5, rounded to one decimal place |
-| Total token votes | The number of tokens voted \(sum of weight of scores\) |
-| Total amount | Total number of tokens issued |
-| Price | Current token price in USD from DEX. Updated every 3 hours. |
-
-Tokens that have not yet been rated by anyone can be found using the search bar, either by name or by token ID.
-
-A click on the rating row opens the token page.
-
-### Search bar
-
-Tokens that have not yet been rated by anyone can be found using the search bar, either by name or by token ID.
-
-If the token already has a rating, then its current rating will be indicated next to it.
-
-When you select a token, its page opens.
-
-![](../waves-token-rating/waves-token-rating-pic/image2019-4-29_13-52-49.png)
-
-### Filters
-
-If ‘All tokens’ is selected, then the table will display all tokens.
-
-If ‘Approved’ is selected, then you will see only those tokens that have minimum rating and a certain number of total votes.  
-![](../waves-token-rating/waves-token-rating-pic/image2019-4-29_13-53-29.png)
-
-### Localization
-
-Switch Russian and English interface languages
-
-![](../waves-token-rating/waves-token-rating-pic/image2019-4-29_13-55-58.png)
-
-### F.A.Q
-
-This section contains some general information about the Waves Token Rating and a link to this description.
-
-![](../waves-token-rating/waves-token-rating-pic/image2019-4-29_13-55-28.png)
-
-## Token page
-
-The token page contains detailed information about the token and its rating. The title of the card is the name of the token.  
-![](../waves-token-rating/waves-token-rating-pic/image2019-4-29_14-2-35.png)
-
-The top part of the token page displays the current token rating \(if any\) with details on the number of tokens who voted for each of the scores. Below are five stars with which the user can rate the token, the Rate button, which becomes active when the token is rated, and a hint.
-
-Next is the **Market information **block \(if it's present\):
-
-| Field name | Description |
-| :--- | :--- |
-| Price | Price from DEX |
-| Cap | Multiplication of quantity and price |
-
-Further goes the **General information **block:
-
-![](../waves-token-rating/waves-token-rating-pic/image2019-4-29_14-3-8.png)
-
-| Field name | Description |
-| :--- | :--- |
-| ID | Token ID. |
-| Name | Token name. |
-| Total amount | A total number of tokens issued. |
-| Decimal points | A number of symbols after the comma. |
-| Type | Not reissuable or reissuable |
-| Issuer | Sender address. |
-| Block | The block in which the token release transaction fell \(height\). |
-| Issue date | Token release date. |
-| Description | Token description. |
+See the page [Waves Token Rating user interface overview](/waves-token-rating/waves-token-rating-user-interface-overview.md).
 
 ## Restrictions
 
