@@ -26,7 +26,8 @@ If no one has scored a token yet, then, after a user scores it, the token will a
 
 # Weight calculation
 
-The formula for calculating the score weight
+## The formula for calculating the weight of the score
+
 When calculating the rating of a token, not only the user's score is taken into account, but also the weight of this score.
 
 The weight `W` of the score is calculated by the formula:
@@ -43,15 +44,15 @@ The calculated value of `W` is rounded to the integer.
 
 ### Calculation of effective balance B
 
-At the time of voting, the value of the **current balance** is recorded in the WCT. Within 24 hours, all expenditure transactions in the WCT are checked at this address and their sum `S` is calculated. After 24 hours, `S` is deducted from the current balance. As a result, **effective balance** `B` is obtained.
+At the time of voting, the value of the **current balance** in WCT is recorded. Within 24 hours, all expenditure transactions in the WCT are checked at this address and their sum `S` is calculated. After 24 hours, `S` is deducted from the current balance. As a result, **effective balance** `B` is obtained.
 
 If `B` < 1, then the score will not be taken into account when calculating the token rating.
 
 ### Calculation of the weighting factor `k`
 
-The value of the coefficient `k` depends on the value of the effective balance `B` of the user and is calculated by the formula:
+The value of the coefficient `k` depends on the value of the effective balance `B` of the user's account and is calculated by the formula:
 
-|The value of the effective balance `B` of the user|The value of `k`|
+|The value of the effective balance `B` of the user's account|The value of `k`|
 |---|---|
 |1 — 10|1|
 |11 — 150,000|1.20958 – 0.091 × ln(`B`)|
@@ -66,9 +67,9 @@ The current rating is the instant weighted arithmetic mean of the scores of all
 
 ## Token rating calculation example
 
-**User 1** scored the token with 5 stars. At the time of voting, there were 10,000 WCT on the user's account.
+**User 1** scored a token with 5 stars. At the time of voting, there were 10,000 WCT on the user's account.
 
-In 24 hours, there were 3 operations on the user's account: spending 300 WTC, spending 200 WTC and income of 500 WTC. It turns out that expenditure operations amount to 300 + 200 = 500 WTC. Thus, 9500 WCT is the effective balance `B` (despite the fact that the same 10,000 WCT remained on the account after 24 hours as at the time of the scoring).
+In 24 hours, there were 3 operations on the user's account: spending 300 WTC, spending 200 WTC and income of 500 WTC. It turns out that expenditure operations amount to 300 + 200 = 500 WTC. Thus, 9500 WCT is the effective balance `B` (despite the fact that the same 10,000 WCT were on the account after 24 hours, like they were at the time of the scoring).
 
 `B` is in the range of 11 — 150,000, which means we calculate `k` by the formula:
 ```
@@ -83,7 +84,7 @@ Summary: token got the score of 5 with the weight of 3610.
 
 **User 2** scored the same token with 4 stars. At the time of voting, there were 7 WCT on the user's account.
 
-There were no account transactions for 24 hours on the user's account, so the effective balance is 7 WCT.
+There were no outgoing transactions for 24 hours from the user's account, so the effective balance is 7 WCT.
 
 B is in the range of 1 — 10, therefore:
 ```
@@ -102,4 +103,4 @@ R = (5 × 3610 + 4 × 7) / (3610 + 7) = 4.998 (rounds to 5.0)
 
 The total number of voted tokens will be 3.6k for the score of 5, and 7 for the score of 4.
 
-<img src="img/rating.png" alt="rating" width="300"/>
+<img src="img/rating.png" alt="rating" width="350"/>
