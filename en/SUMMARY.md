@@ -197,7 +197,7 @@
 * [Waves console](developer-tools/waves-console.md)
   * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
   * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
-* [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
+* [Waves Keeper](developer-tools/waves-keeper.md)
 * [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
 
 ## Waves API and SDK
