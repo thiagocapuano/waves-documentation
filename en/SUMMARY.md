@@ -10,6 +10,7 @@
 
 ## Blockchain
 
+* [Account script](blockchain/account-script.md)
 * [Script](blockchain/script.md)
 * [Transaction](blockchain/transaction.md)
 * [Transaction fee](blockchain/transaction-fee.md)
@@ -33,7 +34,7 @@
   * [Waves-NG Protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](blockchain/waves-protocol/activation-protocol.md)
   * [Smart contracts](blockchain/waves-protocol/smart-contracts.md)
-* Script
+* [Script](blockchain/script.md)
 
 ## Waves Client
 
