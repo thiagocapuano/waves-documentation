@@ -1,22 +1,27 @@
-# About Waves Keeper
 
-[_**Waves Keeper**_](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo) is an extension that allows you to interact with _**Waves-enabled web services**_ securely from your Chrome browser.
+# Waves Keeper
 
-{% prettylink link="//waves-api-and-sdk/waves-keeper-api.md" %}Waves Keeper API{% endprettylink %}
+**Waves Keeper** is the web browsers' extension that allows to securely interact with Waves-enabled web services.
 
+## Download Waves Keeper
 
-
+* [Google Chrome and Brave extension](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo) (Brave supports Chrome's extension from the Chrome Web Store)
+* [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper)
+* [Opera extension](https://addons.opera.com/ru/extensions/details/waves-keeper)
+* [Microsoft Edge extension](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab)
 
 ## Waves Keeper Features
 
-* SEEDs and private keys are encrypted and stored within the extension and cannot be accessed by the dApps and services on the web, giving you peace of mind that your funds are always safe from hackers and malicious sites.
-
+* SEEDs and private keys are encrypted and stored within the extension and cannot be accessed by dApps and services on the web, giving you peace of mind that your funds are always safe from hackers and malicious sites.
 * The process of completing a transaction doesn’t require entering any sensitive information.
-
 * The user is able to sign transactions with just a couple of clicks.
+* Users can create multiple wallets and switch between them easily. If the user ever forgets the password to the account, he can recover it from his SEED, as normal.
 
-* Users can create multiple wallets and switch between them easily, and if the user ever forget the password to the account, he can recover it from his SEED, as normal.
+## Waves Keeper API
 
-You can view the [source code for Waves Keeper on GitHub](https://github.com/wavesplatform/waveskeeper), or check it like any other [Chrome extension](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo).
+See the page [Waves Keeper API](/waves-api-and-sdk/waves-keeper-api.md).
 
+## Source code
+
+The source code of the Waves Keeper is available on [GitHub](https://github.com/wavesplatform/waveskeeper).
 
