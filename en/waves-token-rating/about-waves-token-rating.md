@@ -4,7 +4,7 @@
 
 Ratings of tokens are based on the opinions of community members. Only WCT token holders can participate in voting for tokens.
 
-## Service user interface overview
+## User interface overview
 
 See the page [Waves Token Rating user interface overview](/waves-token-rating/waves-token-rating-user-interface-overview.md).
 
