@@ -720,6 +720,20 @@
 <td>  OPTION[<a href="#Int">Int</a>]
 </td>
 </tr>
+<tr><td>blockInfoByHeight</td>
+<td>100</td>
+<td>Lookup block by height and return info if it exists</td>
+<td>
+<table>
+<tr><td>height</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>block height</td></tr>
+</table>
+</td>
+<td>  OPTION[<a href="#BlockInfo">BlockInfo</a>]
+</td>
+</tr>
 <tr><td>getInteger</td>
 <td>100</td>
 <td>get data from the account state</td>
