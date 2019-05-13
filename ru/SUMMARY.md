@@ -22,6 +22,10 @@
 
 * [Пользователю](getting-started/as-a-user.md)
 
+## Blockchain
+
+* [Script](blockchain/script.md)
+
 ## Waves Explorer
 
 * [О Waves Explorer](waves-explorer/about-waves-explorer.md)
