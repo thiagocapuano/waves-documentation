@@ -32,11 +32,11 @@
   * [Waves-NG Protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](blockchain/waves-protocol/activation-protocol.md)
   * [Smart contracts](blockchain/waves-protocol/smart-contracts.md)
-* [Security notes](overview/security-notes.md)
 
 ## Waves Client
 
 * [Installation ](waves-client/install-waves-client.md)
+* [Security notes](waves-client/security-notes.md)
 * [Online/Desktop Apps](waves-client/onlinedesktop-apps.md)
   * [Account Management](waves-client/account-management.md)
     * [Account creation](waves-client/account-management/creating-an-account.md)
@@ -259,4 +259,3 @@
   * [Asset verification protocol](proposals/asset-verification-protocol.md)
   * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
   * [Sponsored transactions](proposals/sponsored-transactions.md)
-
