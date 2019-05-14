@@ -52,6 +52,7 @@
 ## Waves приложение
 
 * [Установка Waves приложения](waves-client/install-waves-client.md)
+* [Заметки о безопасности](waves-client/security-notes.md)
 * [Управление аккаунтом](waves-client/account-management.md)
   * [Создание аккаунта](waves-client/account-management/creating-an-account.md)
   * [Восстановление аккаунта](waves-client/account-management/restore-an-account.md)
