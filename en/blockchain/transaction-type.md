@@ -8,7 +8,7 @@ Transaction type data structure
 
 A transaction of each type has a unique [data structure](/blockchain/transaction-type-data-structure.md).
 
-## List of transaction types {#Transactiontype-Listoftransactiontypes}
+## List of transaction types
 
 | Transaction type ID | Transaction type name |
 | :--- | :--- |
