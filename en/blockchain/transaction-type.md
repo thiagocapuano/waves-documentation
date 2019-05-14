@@ -2,11 +2,7 @@
 
 Each transaction on the Waves blockchain belongs to one of the 15 transaction types. 
 
-The type of transaction determines the transaction's purpose.
-
-Transaction type data structure
-
-A transaction of each type has a unique [data structure](/blockchain/transaction-type-data-structure.md).
+Transactions of each type have unique [data structure](/blockchain/transaction-type-data-structure.md).
 
 ## List of transaction types
 
