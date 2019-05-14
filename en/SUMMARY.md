@@ -33,6 +33,7 @@
 * [Transaction fee](blockchain/transaction-fee.md)
 * [Transaction type](blockchain/transaction-type.md)
 * [Transaction type data structure](blockchain/transaction-type-data-structure.md)
+* [Transaction validation](blockchain/transaction-validation.md)
 * [Waves tokens](blockchain/waves-tokens.md)
 * [Custom tokens](blockchain/custom-tokens.md)
 * [Waves mainnet](blockchain/waves-mainnet.md)
