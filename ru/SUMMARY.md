@@ -26,6 +26,10 @@
 
 * [Скрипт](blockchain/script.md)
 * [Скрипт аккаунта](blockchain/account-script.md)
+* [Скрипт ассета](blockchain/asset-script.md)
+* [Смарт-аккаунт](blockchain/smart-account.md)
+* [Смарт-ассет](blockchain/smart-asset.md)
+* [Транзакция](blockchain/transaction.md)
 
 ## Waves Explorer
 

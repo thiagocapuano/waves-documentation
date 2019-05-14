@@ -11,6 +11,7 @@
 ## Blockchain
 
 * [Account script](blockchain/account-script.md)
+* [Asset script](blockchain/asset-script.md)
 * [Script](blockchain/script.md)
 * [Transaction](blockchain/transaction.md)
 * [Transaction fee](blockchain/transaction-fee.md)
@@ -19,22 +20,6 @@
 * [Custom tokens](blockchain/custom-tokens.md)
 * [Waves mainnet](blockchain/waves-mainnet.md)
 * [Waves testnet](blockchain/waves-testnet.md)
-* [Waves Protocol](blockchain/waves-protocol.md)
-  * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
-  * [Data structures](blockchain/waves-protocol/data-structures.md)
-  * [Validation rules](blockchain/waves-protocol/validation-rules.md)
-  * [Mass Transfer transaction](blockchain/waves-protocol/mass-transfer-transaction.md)
-  * [Data transaction](blockchain/waves-protocol/data-transaction.md)
-  * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
-  * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
-  * [Transactions structure](blockchain/waves-protocol/transactions-structure.md)
-  * [Versioned transactions](blockchain/waves-protocol/versioned-transactions.md)
-  * [Leased Proof of Stake \(LPoS\)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
-  * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
-  * [Waves-NG Protocol](blockchain/waves-protocol/waves-ng-protocol.md)
-  * [Activation Protocol](blockchain/waves-protocol/activation-protocol.md)
-  * [Smart contracts](blockchain/waves-protocol/smart-contracts.md)
-* [Script](blockchain/script.md)
 
 ## Waves Client
 
