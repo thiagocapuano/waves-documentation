@@ -37,6 +37,7 @@
 * [Waves tokens](blockchain/waves-tokens.md)
 * [Custom tokens](blockchain/custom-tokens.md)
 * [Waves mainnet](blockchain/waves-mainnet.md)
+* [Waves testnet](blockchain/waves-testnet.md)
 
 ## Waves Client
 
