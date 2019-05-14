@@ -11,6 +11,7 @@
 ## Blockchain
 
 * [Account script](blockchain/account-script.md)
+* [Asset script](blockchain/asset-script.md)
 * [Script](blockchain/script.md)
 * [Transaction](blockchain/transaction.md)
 * [Transaction fee](blockchain/transaction-fee.md)
