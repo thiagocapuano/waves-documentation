@@ -1,6 +1,6 @@
-# Transaction types
+# Transaction type
 
-In Waves blockchain, there are 14 different types of transactions \(as shown in the \_table \_below\) where each type is used for different purpose. The main advantages of having different types of transactions are flexibility and scalability. So if there is a need to enable a new feature, for example setting a script to an account, a new transaction type will be introduced. It’s not logical to have only one or two transactions to cover all use cases.
+There are 15 types of transactions on the Waves blockchain:
 
 | Transaction type name | Transaction type ID | Description |
 | :--- | :--- | :--- |

@@ -22,6 +22,16 @@
 
 * [Пользователю](getting-started/as-a-user.md)
 
+## Блокчейн
+
+* [Скрипт](blockchain/script.md)
+* [Скрипт аккаунта](blockchain/account-script.md)
+
+## Waves Explorer
+
+* [О Waves Explorer](waves-explorer/about-waves-explorer.md)
+* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
+
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
@@ -143,6 +153,14 @@
 
 * [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
 
+## Waves Oracles
+
+* [Оракул](waves-oracles/oracle.md)
+
 ## Waves Token Rating
 
 * [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+* [Обзор пользовательского интерфейса Waves Token Rating](waves-token-rating/waves-token-rating-user-interface-overview.md)
+* [Транзакция данных оценки пользователя](waves-token-rating/user-score-data-transaction.md)
+* [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
+

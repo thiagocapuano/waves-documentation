@@ -1,38 +1,4 @@
-# Download Waves Keeper
-
-Waves Keeper supports many browsers(Chrome, Firefox, Opera, Microsoft Edge and Brave ) and also can support [Waves Client API](/waves-api-and-sdk/client-api/overview.md): [Web Auth API,](/waves-api-and-sdk/client-api/auth-api.md) [Payment API](/waves-api-and-sdk/client-api/payments-api.md). If a user has both Waves Client and Waves Keeper, the Keeper would have higher priority.
-
-{% prettylink link="https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo" %}Download for Chrome{% endprettylink %}
-
-{% prettylink link="https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/" %}Download for Firefox{% endprettylink %}
-
-{% prettylink link="https://addons.opera.com/ru/extensions/details/waves-keeper/" %}Download for Opera{% endprettylink %}
-
-
-
-{% prettylink link="https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab" %}Download for Microsoft Edge{% endprettylink %}
-
-{% prettylink link="https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo" %}Brave supports Waves Keeper Chrome extension in the chrome web store {% endprettylink %}
-
-
-
-
-{% prettylink link="https://chrome-ext.wvservices.com" %}Demo Page{% endprettylink %}
-
-{% prettylink link="https://kardanovir.github.io/WavesKeeper/" %}Demo Page 2{% endprettylink %}
-
-
-
-
-# Waves Keeper v1.1.3
-
-Waves Keeper is an extension that allows users to securely interact with Waves-enabled web services from the Chrome browser.
-
-Seed phrases and private keys are encrypted and stored within the extension and cannot be accessed by online dApps and services, making sure that users' funds are always protected from hackers and malicious websites. Completion of a transaction doesn't require entering any sensitive information.
-
-Waves Keeper is designed for convenience, so users can sign transactions with just a couple of clicks. Users can create multiple wallets and switch between them easily. And if a user ever forgets the password to the account, it can be recovered from the seed phrase.
-
-## Waves Keeper API
+# Waves Keeper API
 
 On browser pages that operate under the http/https \(not worked local pages with file:// protocol\) with Waves Keeper extension installed, Waves Keeper global object becomes available, featuring the following methods:
 

@@ -1,4 +1,4 @@
-# Transaction Fees
+# Transaction Fee
 
 There are currently 13 different types of transactions in the Waves Blockchain. the following table shows the minimal required fees in non-scripted case \(accounts don’t have scripts, assets don’t have scripts\) and for each time the script is called, total transaction’s fee increases by 0.004 Waves.
 

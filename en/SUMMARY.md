@@ -10,9 +10,11 @@
 
 ## Blockchain
 
+* [Account script](blockchain/account-script.md)
+* [Script](blockchain/script.md)
 * [Transaction](blockchain/transaction.md)
-  * [Transaction types](blockchain/transaction/transaction-types.md)
-  * [Transaction fees](blockchain/transaction/transactions-fees.md)
+* [Transaction fee](blockchain/transaction-fee.md)
+* [Transaction type](blockchain/transaction-type.md)
 * [Waves tokens](blockchain/waves-tokens.md)
 * [Custom tokens](blockchain/custom-tokens.md)
 * [Waves mainnet](blockchain/waves-mainnet.md)
@@ -32,6 +34,7 @@
   * [Waves-NG Protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation Protocol](blockchain/waves-protocol/activation-protocol.md)
   * [Smart contracts](blockchain/waves-protocol/smart-contracts.md)
+  * [Script](blockchain/script.md)
 
 ## Waves Client
 
@@ -131,6 +134,11 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
+## Waves Explorer
+
+* [About Waves Explorer](waves-explorer/about-waves-explorer.md)
+* [Account balance top up in testnet](waves-explorer/account-balance-top-up-in-testnet.md)
+
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
@@ -192,8 +200,7 @@
 * [Waves console](developer-tools/waves-console.md)
   * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
   * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
-* [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
-* [Waves Explorer](developer-tools/waves-explorer.md)
+* [Waves Keeper](developer-tools/waves-keeper.md)
 * [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
 
 ## Waves API and SDK
@@ -243,12 +250,15 @@
 
 ## Waves Oracles
 
-* [What is a data oracle](waves-oracles/what-is-a-data-oracle.md)
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
+* [Oracle](waves-oracles/oracle.md)
 
 ## Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+* [Waves Token Rating user interface overview](waves-token-rating/waves-token-rating-user-interface-overview.md)
+* [User score data transaction](waves-token-rating/user-score-data-transaction.md)
+* [Token Rating's oracle data transaction](waves-token-rating/token-rating-oracle-data-transaction.md)
 
 ## Resources
 
