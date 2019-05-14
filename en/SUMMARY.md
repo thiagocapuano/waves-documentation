@@ -25,7 +25,6 @@
   * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
   * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
-  * [Smart Contracts](blockchain/waves-protocol/smart-contracts.md)
 * [Account script](blockchain/account-script.md)
 * [Asset script](blockchain/asset-script.md)
 * [Script](blockchain/script.md)
