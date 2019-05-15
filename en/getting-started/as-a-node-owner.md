@@ -1,6 +1,4 @@
-# Getting Started as a Node Owner
-
-## Overview
+# Getting started for node owners
 
 [_**Get to understand what is a Waves full node**_](/waves-full-node/what-is-a-full-node.md), Nodes are a critical part of Waves ecosystem. By Running a Waves node, you help in processing transactions and you will increase your profit for securing the network if users [_**start leasing**_](/waves-client/account-management/waves-leasing.md) their funds to your node \(The more WAVES you lease to a node, the more rewards you will receive, you can lease any sum from 0.002 WAVES\).
 

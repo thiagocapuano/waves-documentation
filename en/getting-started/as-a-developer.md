@@ -1,6 +1,4 @@
-# Getting Started as a Developer
-
-## Overview
+# Getting started for developers
 
 This page introduces you to the things you'll need to get started on your journey.
 

@@ -1,6 +1,4 @@
-# As a User
-
-## Install Waves Client
+# Getting started for users
 
 As a user, the first step that you need to do is to install Waves client. To accomplish that, you will need to go through [_**Install Waves Client Guide**_](/waves-client/install-waves-client.md) The application is very light-weight and therefore downloaded within seconds.
 
