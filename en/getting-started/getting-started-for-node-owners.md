@@ -44,7 +44,7 @@ In case that your node is on fork with a height less than 2000 blocks, here you 
 
 * Otherwise, you need to choose an [_**option for Getting Actual Blockchain**_](/waves-full-node/options-for-getting-actual-blockchain.md).
 
-{% prettyhint type="info" %} If you're interested in joining the Testnet, you will need to follow these steps for <a href="/waves-full-node/joining-testnet.md"> &nbsp;Joining The Testnet. </a> {% endprettyhint %}
+{% prettyhint type="info" %} If you're interested in joining the Testnet, you will need to follow these steps for<a href="/waves-full-node/joining-testnet.md">&nbsp;Joining The Testnet. </a> {% endprettyhint %}
 
 
 

@@ -29,19 +29,21 @@ Usually as a developer, you will need two things: **theoretical understanding** 
 
 You will need to know:
 
-* How Waves smart contract works \(You can go through our [_**smart contract guide**_](/smart-contracts/waves-contracts-language-description.md) to get more information about it\) and you can read about our [_**smart accounts**_](/smart-contracts/smart-accounts.md) and [_**smart assets.**_](/smart-contracts/smart-assets.md)
+* How Waves smart contract works \(You can go through our [_**smart contract guide**_ ](/smart-contracts/waves-smart-contracts-overview.md)to get more information about it\) and you can read about our [_**smart accounts**_](/smart-contracts/smart-accounts.md) and [_**smart assets.**_](/smart-contracts/smart-assets.md)
 
-* Which programming language to use \(we're using our own language which called RIDE, [_**Get to know RIDE**_](/smart-contracts/ride-language/ride-language.md)_**\)**_.
+* Which programming language to use \(we're using our own language which called RIDE, [_**Get to know RIDE**_](/ride/about-ride.md)_**\)**_.
 
-let's suppose now that you understand the main idea of our smart contracts and you want to go through all functions and to understand how they work, please find here our [_**functions and standard library**_](/smart-contracts/ride-language/standard-library.md).
+* How to write a dApp \([_**Go ahead and write your first dApp**_](/smart-contracts/writing-dapps.md)\)
+
+let's suppose now that you understand the main idea of our smart contracts and you want to go through all functions and to understand how they work, please find here our_** **_[_**built-in functions**_](/ride/built-in-functions.md)_**, **_[_**operators**_](/ride/operators.md)_** **_and_** **_[_**structures**_](/ride/structures.md)_**.**_
 
 ### _**Tools to help you with RIDE**_
 
 In Waves, we always think about the best way to help external developers and because of that we will provide you with some useful tools:
 
 * [_**Waves IDE **_](https://ide.wavesplatform.com), Try out the new non-turing complete Waves smart contract language Ride by using our IDE.
-* [_**Waves console and its commands**_](/smart-contracts/ride-language/waves-console-commands/waves-console-commands.md), Waves IDE has a Waves console feature which supports different commands.
-* [_**Get to our Tutorials**_](/smart-contracts/video-tutorials-and-articles.md), We believe that the best way to learn is by practical examples.
+* [_**Waves console and its commands**_](/developer-tools/waves-console.md), Waves IDE has a Waves console feature which supports different commands.
+* Get to our [_**videos**_](/smart-contracts/video-tutorials.md) and [_**articles**_](/smart-contracts/articles-on-dapps.md), We believe that the best way to learn is by practical examples.
 
 ## DEX API
 
