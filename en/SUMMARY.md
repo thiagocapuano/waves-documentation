@@ -145,8 +145,7 @@
 
 * [About RIDE](ride/about-ride.md)
 * [Immutable variables](ride/immutable-variables.md)
-* [Core concepts](ride/core-concepts.md)
-  * [Computational cost](ride/core-concepts/computational-cost.md)
+* [Computational cost](ride/computational-cost.md)
 * [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)

@@ -41,8 +41,7 @@
 
 * [О RIDE](ride/about-ride.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
-* [Основные понятия](ride/core-concepts.md)
-  * [Вычислительная стоимость](ride/core-concepts/computational-cost.md)
+* [Вычислительная стоимость](ride/computational-cost.md)
 * [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
