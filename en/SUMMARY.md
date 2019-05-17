@@ -147,6 +147,7 @@
 * [Immutable variables](ride/immutable-variables.md)
 * [Core concepts](ride/core-concepts.md)
   * [Computational cost](ride/core-concepts/computational-cost.md)
+* [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
 * [Structures](ride/structures.md)
@@ -177,7 +178,7 @@
 
 ## Waves full node
 
-* [What is Waves full node ](waves-full-node/what-is-a-full-node.md)
+* [What is Waves full node](waves-full-node/what-is-a-full-node.md)
 * [How To install a node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
   * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
   * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
@@ -265,7 +266,7 @@
 ## Resources
 
 * [Official resorces](overview/waves-official-resources.md)
-* [Developer resources ](overview/waves-official-resources.md)
+* [Developer resources](overview/waves-official-resources.md)
 * [Contributing](contributing.md)
 * [Proposals](overview/proposals.md)
   * [Asset verification protocol](proposals/asset-verification-protocol.md)
