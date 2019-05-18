@@ -2,8 +2,8 @@
 
 Each [transaction type](/blockchain/transaction-type.md) has a unique set of fields that define its **data structure**.
 
-## Data structure versions
+## Versions
 
-During the time the transaction's data structure may change. We use versions to distinguish the old data structures from new.
+Over time, transaction data structures may change. We use versions to distinguish outdated data structures from the most recent ones.
 
-At the present moment, most of our transaction types have two versions of data structures: v2 and v1. The v2 should be used over v1 whenever is possible.
+Currently, most of our transaction types have at least two versions of data structure: v2 and v1.

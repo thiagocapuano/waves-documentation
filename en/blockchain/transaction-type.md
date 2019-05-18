@@ -1,10 +1,10 @@
 # Transaction type
 
-Each transaction on the Waves blockchain belongs to one of the 15 transaction types. 
+Every transaction on the Waves blockchain has a certain **transaction type**.
 
-Transactions of each type have unique [data structure](/blockchain/transaction-type-data-structure.md).
+Each transaction type has a unique [data structure](/blockchain/transaction-type-data-structure.md).
 
-## List of transaction types
+## Transaction types
 
 | Transaction type ID | Transaction type name |
 | :--- | :--- |
@@ -23,7 +23,3 @@ Transactions of each type have unique [data structure](/blockchain/transaction-t
 | 14 | Sponsorship transaction |
 | 15 | Set asset script transaction |
 | 16 | Invoke script transaction |
-
-  
-
-

@@ -6,7 +6,7 @@
 * [Как использовать это руководство](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Заметки о безопасности](overview/security-notes.md)
-* [Официальные ресурсы ](overview/waves-official-resources.md)
+* [Официальные ресурсы](overview/waves-official-resources.md)
 * [Waves релизы](overview/waves-releases.md)
 * [Waves токены](overview/waves-tokens.md)
 
@@ -31,6 +31,8 @@
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Транзакция](blockchain/transaction.md)
+* [Тип транзакции](blockchain/transaction-type.md)
+* [Структура данных типа транзакции](blockchain/transaction-type-data-structure.md)
 
 ## Waves Explorer
 
@@ -168,4 +170,3 @@
 * [Обзор пользовательского интерфейса Waves Token Rating](waves-token-rating/waves-token-rating-user-interface-overview.md)
 * [Транзакция данных оценки пользователя](waves-token-rating/user-score-data-transaction.md)
 * [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
-
