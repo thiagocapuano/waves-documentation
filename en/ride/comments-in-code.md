@@ -6,7 +6,7 @@ To write comments in code, use comment symbol `#`.
 let velocity = 50 # Set initial velocity
 ```
 
-If the comment requires more than one line, use the comment symbol on each line.
+If the comment requires more than one line, use comment symbol on each line.
 
 ```
 # This comment
