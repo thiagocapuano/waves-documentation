@@ -6,4 +6,4 @@ Each [transaction type](/blockchain/transaction-type.md) has a unique set of fie
 
 Over time, transaction data structures may change. We use versions to distinguish outdated data structures from the most recent ones.
 
-Currently, most of our transaction types have at least two versions of data structure: v2 and v1.
+Currently, most of our transaction types have at least two versions: v2 and v1.
