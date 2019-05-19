@@ -1,6 +1,6 @@
 # About RIDE
 
-**RIDE** is a programming language for writing decentralised applications ([dApps](/smart-contracts/what-is-a-dapp.md)) on the Waves blockchain.
+**RIDE** is a programming language for writing [dApps](/smart-contracts/what-is-a-dapp.md) (decentralised applications) on the Waves blockchain.
 
 ## The history of the language
 
