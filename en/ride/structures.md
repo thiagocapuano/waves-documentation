@@ -1,3 +1,5 @@
+# Structures
+
 ## Facts about RIDE structures
 
 * At the present moment, all structures in RIDE are predefined, therefore you can't create your own structures.

@@ -1,4 +1,4 @@
-#Exceptions
+# Exceptions
 
 You can throw exceptions in RIDE using the `throw` function:
 ```

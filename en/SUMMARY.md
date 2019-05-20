@@ -40,7 +40,7 @@
 
 ## Waves Client
 
-* [Installation ](waves-client/install-waves-client.md)
+* [Installation](waves-client/install-waves-client.md)
 * [Security notes](waves-client/security-notes.md)
 * [Online/Desktop Apps](waves-client/onlinedesktop-apps.md)
   * [Account Management](waves-client/account-management.md)
@@ -154,6 +154,7 @@
 * [Functions](ride/functions.md)
   * [Built-in functions](ride/built-in-functions.md)
 * [Exceptions](ride/exceptions.md)
+* [RIDE script](ride/ride-script.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [RIDE Maven compiler](ride/maven-compiler.md)
 

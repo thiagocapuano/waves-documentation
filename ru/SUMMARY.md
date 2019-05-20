@@ -49,6 +49,7 @@
 * [Структуры](ride/structures.md)
 * [Функции](ride/functions.md)
 * [Исключения](ride/exceptions.md)
+* [Скрипт на RIDE](ride/ride-script.md)
 
 ## Смарт-контракты \(Waves dApps\)
 
