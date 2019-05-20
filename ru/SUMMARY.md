@@ -31,6 +31,7 @@
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Транзакция](blockchain/transaction.md)
+* [Подпись транзакции](blockchain/transaction-signature.md)
 * [Тип транзакции](blockchain/transaction-type.md)
 * [Структура данных типа транзакции](blockchain/transaction-type-data-structure.md)
 

@@ -30,6 +30,7 @@
 * [Smart asset](blockchain/smart-asset.md)
 * [Transaction](blockchain/transaction.md)
 * [Transaction fee](blockchain/transaction-fee.md)
+* [Transaction signature](blockchain/transaction-signature.md)
 * [Transaction type](blockchain/transaction-type.md)
 * [Transaction type data structure](blockchain/transaction-type-data-structure.md)
 * [Transaction validation](blockchain/transaction-validation.md)
@@ -158,7 +159,7 @@
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [RIDE Maven compiler](ride/maven-compiler.md)
 
-## Smart contracts \(Waves dApps\)
+## Smart contracts (Waves dApps)
 
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
