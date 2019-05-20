@@ -24,6 +24,8 @@
   * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
 * [Account script](blockchain/account-script.md)
+* [Address](blockchain/address.md)
+* [Alias](blockchain/alias.md)
 * [Asset script](blockchain/asset-script.md)
 * [Script](blockchain/script.md)
 * [Smart account](blockchain/smart-account.md)

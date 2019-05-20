@@ -24,7 +24,9 @@
 
 ## Блокчейн
 
+* [Адрес](blockchain/address.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
+* [Псевдоним](blockchain/alias.md)
 * [Скрипт](blockchain/script.md)
 * [Скрипт аккаунта](blockchain/account-script.md)
 * [Скрипт ассета](blockchain/asset-script.md)
