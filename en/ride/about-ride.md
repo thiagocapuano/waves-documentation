@@ -6,7 +6,7 @@
 
 RIDE was created in 2018. The [white paper](https://wavesplatform.com/files/docs/white_paper_waves_smart_contracts.pdf) of the language was published at that time also.
 
-It would have been quite difficult to take some existing programming language as the basis and tailor it to our needs. That's why we decided to create a new language from scratch, making it fast (RIDE scripts should not load the network) and reliable (RIDE is a language with [strong](https://en.wikipedia.org/wiki/Strong_and_weak_typing) [static typing](https://en.wikipedia.org/wiki/Type_system#Static_type_checking)).
+It would have been quite difficult to take some existing programming language as the basis and tailor it to our needs. That's why we decided to create a new language from scratch, making it fast (RIDE scripts do not load the network) and reliable (RIDE is a language with [strong](https://en.wikipedia.org/wiki/Strong_and_weak_typing) [static typing](https://en.wikipedia.org/wiki/Type_system#Static_type_checking)).
 
 ## Lack of Turing completeness
 
