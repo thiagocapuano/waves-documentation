@@ -26,16 +26,19 @@
 
 * [Адрес](blockchain/address.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
+* [Подпись транзакции](blockchain/transaction-signature.md)
 * [Псевдоним](blockchain/alias.md)
 * [Скрипт](blockchain/script.md)
 * [Скрипт аккаунта](blockchain/account-script.md)
 * [Скрипт ассета](blockchain/asset-script.md)
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
-* [Транзакция](blockchain/transaction.md)
-* [Подпись транзакции](blockchain/transaction-signature.md)
-* [Тип транзакции](blockchain/transaction-type.md)
 * [Структура данных типа транзакции](blockchain/transaction-type-data-structure.md)
+* [Тип транзакции](blockchain/transaction-type.md)
+* [Токен](blockchain/token.md)
+  * [WAVES](blockchain/token/waves.md)
+  * [WAVELET](blockchain/token/wavelet.md)
+* [Транзакция](blockchain/transaction.md)
 
 ## Waves Explorer
 
