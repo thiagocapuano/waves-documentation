@@ -38,10 +38,10 @@
   * [Waves tokens](blockchain/token/waves-tokens.md)
   * [Custom tokens](blockchain/token/custom-tokens.md)
 * [Transaction](blockchain/transaction.md)
+* [Transaction data structure](blockchain/transaction-data-structure.md)
 * [Transaction fee](blockchain/transaction-fee.md)
 * [Transaction signature](blockchain/transaction-signature.md)
 * [Transaction type](blockchain/transaction-type.md)
-* [Transaction type data structure](blockchain/transaction-type-data-structure.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client

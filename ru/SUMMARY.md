@@ -33,7 +33,7 @@
 * [Скрипт ассета](blockchain/asset-script.md)
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
-* [Структура данных типа транзакции](blockchain/transaction-type-data-structure.md)
+* [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тип транзакции](blockchain/transaction-type.md)
 * [Токен](blockchain/token.md)
   * [WAVES](blockchain/token/waves.md)
