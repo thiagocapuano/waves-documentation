@@ -4,7 +4,7 @@ A **transaction proof** is an array of bytes that can be used to check the valid
 
 An array of proofs can consist of multiple [transaction signatures](/blockchain/transaction-signature.md) (but not limited to only signatures).
 
-One of the examples of proofs usage is multisignature where it's important to store transaction signatures from different users in proofs.
+One of the examples of proofs usage is multisignature where it's important to store transaction signatures from different accounts.
 
 Transactions with [data structures](/blockchain/transaction-data-structure.md)  of versions 2 and above are signed by proofs instead of signatures.  
 
