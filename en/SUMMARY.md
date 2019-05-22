@@ -40,8 +40,10 @@
 * [Transaction](blockchain/transaction.md)
 * [Transaction data structure](blockchain/transaction-data-structure.md)
 * [Transaction fee](blockchain/transaction-fee.md)
+* [Transaction proof](blockchain/transaction-proof.md)
 * [Transaction signature](blockchain/transaction-signature.md)
 * [Transaction type](blockchain/transaction-type.md)
+  * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client

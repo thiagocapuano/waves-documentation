@@ -16,4 +16,3 @@ let data = DataEntry("k", 33)
 let key  = data.key
 let val = data.value
 ```
-

@@ -12,7 +12,7 @@ Each transaction type has a unique [data structure](/blockchain/transaction-data
 | 3 | Issue transaction |
 | 4 | Transfer transaction |
 | 5 | Reissue transaction |
-| 6 | Burn transaction |
+| 6 | [Burn transaction](/blockchain/transaction-type/burn-transaction.md) |
 | 7 | Exchange transaction |
 | 8 | Lease transaction |
 | 9 | Lease cancel transaction |
