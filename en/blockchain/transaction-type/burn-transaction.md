@@ -13,7 +13,7 @@
 | 5 | Sender's public key | Array of bytes | 32 | Account public key of the sender |
 | 6 | Asset ID | Array of bytes | 32 | ID of the asset to burn |
 | 7 | Quantity | Long | 8 | Amount of tokens to burn |
-| 8 | Fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/WAVELET.md) |
+| 8 | Fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 9 | Timestamp | Long | 8 | Unix time of transaction publication to the network |
 | 10 | Proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N`+ (`P1` + `P2` + ... + `Pn`), where `N` is the number of proofs in the array, `Pn` is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
