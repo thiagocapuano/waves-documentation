@@ -1,6 +1,6 @@
 # Burn transaction
 
-**Burn transaction** is a transaction that burns tokens.
+**Burn transaction** is a [transaction](/blockchain/transaction.md) that burns [tokens](/blockchain/token.md).
 
 ## Data structure v2
 
