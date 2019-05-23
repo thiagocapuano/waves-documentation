@@ -34,6 +34,7 @@
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
+* [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Тип транзакции](blockchain/transaction-type.md)
 * [Токен](blockchain/token.md)
   * [WAVES](blockchain/token/waves.md)
