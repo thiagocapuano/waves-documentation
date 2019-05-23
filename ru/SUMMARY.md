@@ -35,6 +35,7 @@
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
 * [Токен](blockchain/token.md)
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
