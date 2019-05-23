@@ -5,4 +5,4 @@
 3. Enter account ID to the **Address** field.
 4. Press **Request 10 WAVES**.
 
-> The balance of an account in the testnet is topped up by 10 WAVES at a time. It is possible to top up the balance again no earlier than 15 minutes since the last top up
+> The balance of an account in the testnet is topped up by 10 WAVES at a time. <br>It's allowed to top up the balance of any one account once in 15 minutees
