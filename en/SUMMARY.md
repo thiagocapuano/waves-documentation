@@ -2,43 +2,54 @@
 
 ## Getting started
 
-* [About Waves Platform](README.md)
-* [Waves Platform components](overview/platform-components.md)
-* [Getting started for users](getting-started/as-a-user.md)
-* [Getting started for developers](getting-started/as-a-developer.md)
-* [Getting started for node owners](getting-started/as-a-node-owner.md)
+* [Getting started guide](README.md)
+* [Getting started for users](getting-started/getting-started-for-users.md)
+* [Getting started for developers](getting-started/getting-started-for-developers.md)
+* [Getting started for node owners](getting-started/getting-started-for-node-owners.md)
 
-## blockchain
+## Blockchain
 
-* [Transactions](waves-blockchain/waves-transactions.md)
-  * [Transaction types](waves-blockchain/waves-transactions/transactions-types.md)
-    * [Burn transaction](waves-blockchain/waves-transactions/transactions-types/burn-transactions.md)
-    * [Create alias transaction](waves-blockchain/waves-transactions/transactions-types/create-alias-transaction.md)
-  * [Transaction fees](waves-blockchain/waves-transactions/transactions-fees.md)
-* [Waves tokens](waves-blockchain/waves-tokens.md)
-* [Custom tokens](waves-blockchain/custom-tokens.md)
-* [Waves mainnet](waves-blockchain/waves-mainnet.md)
-* [Waves testnet](waves-blockchain/waves-testnet.md)
-* [Waves Protocol](waves-blockchain/waves-protocol.md)
-  * [Cryptographic practical details](waves-blockchain/waves-protocol/cryptographic-practical-details.md)
-  * [Data structures](waves-blockchain/waves-protocol/data-structures.md)
-  * [Validation rules](waves-blockchain/waves-protocol/validation-rules.md)
-  * [Mass Transfer transaction](waves-blockchain/waves-protocol/mass-transfer-transaction.md)
-  * [Data transaction](waves-blockchain/waves-protocol/data-transaction.md)
-  * [Waves-NG solution](waves-blockchain/waves-protocol/waves-ng-solution.md)
-  * [Sponsored fee](waves-blockchain/waves-protocol/sponsored-fee.md)
-  * [Transactions structure](waves-blockchain/waves-protocol/transactions-structure.md)
-  * [Versioned transactions](waves-blockchain/waves-protocol/versioned-transactions.md)
-  * [Leased Proof of Stake \(LPoS\)](waves-blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
-  * [Fair Proof of Stake](waves-blockchain/waves-protocol/fair-pos.md)
-  * [Waves-NG Protocol](waves-blockchain/waves-protocol/waves-ng-protocol.md)
-  * [Activation Protocol](waves-blockchain/waves-protocol/activation-protocol.md)
-  * [Smart contracts](waves-environment/waves-protocol/smart-contracts.md)
-* [Security notes](overview/security-notes.md)
+* [Waves protocol](blockchain/waves-protocol.md)
+  * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
+  * [Data structures](blockchain/waves-protocol/data-structures.md)
+  * [Validation rules](blockchain/waves-protocol/validation-rules.md)
+  * [Mass transfer transaction](blockchain/waves-protocol/mass-transfer-transaction.md)
+  * [Data transaction](blockchain/waves-protocol/data-transaction.md)
+  * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
+  * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
+  * [Transactions structure](blockchain/waves-protocol/transactions-structure.md)
+  * [Versioned transactions](blockchain/waves-protocol/versioned-transactions.md)
+  * [Leased Proof of Stake \(LPoS\)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
+  * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
+  * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
+  * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
+* [Account script](blockchain/account-script.md)
+* [Address](blockchain/address.md)
+* [Alias](blockchain/alias.md)
+* [Asset script](blockchain/asset-script.md)
+* [Mainnet](blockchain/mainnet.md)
+* [Script](blockchain/script.md)
+* [Smart account](blockchain/smart-account.md)
+* [Smart asset](blockchain/smart-asset.md)
+* [Testnet](blockchain/testnet.md)
+* [Token](blockchain/token.md)
+  * [WAVES](blockchain/token/waves.md)
+  * [WAVELET](blockchain/token/wavelet.md)
+  * [Waves tokens](blockchain/token/waves-tokens.md)
+  * [Custom tokens](blockchain/token/custom-tokens.md)
+* [Transaction](blockchain/transaction.md)
+* [Transaction data structure](blockchain/transaction-data-structure.md)
+* [Transaction fee](blockchain/transaction-fee.md)
+* [Transaction proof](blockchain/transaction-proof.md)
+* [Transaction signature](blockchain/transaction-signature.md)
+* [Transaction type](blockchain/transaction-type.md)
+  * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
+* [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
 
-* [Installation ](waves-client/install-waves-client.md)
+* [Installation](waves-client/install-waves-client.md)
+* [Security notes](waves-client/security-notes.md)
 * [Online/Desktop Apps](waves-client/onlinedesktop-apps.md)
   * [Account Management](waves-client/account-management.md)
     * [Account creation](waves-client/account-management/creating-an-account.md)
@@ -133,12 +144,17 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
+## Waves Explorer
+
+* [About Waves Explorer](waves-explorer/about-waves-explorer.md)
+* [Account balance top up in testnet](waves-explorer/account-balance-top-up-in-testnet.md)
+
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
 * [Immutable variables](ride/immutable-variables.md)
-* [Core concepts](ride/core-concepts.md)
-  * [Computational cost](ride/core-concepts/computational-cost.md)
+* [Computational cost](ride/computational-cost.md)
+* [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
 * [Structures](ride/structures.md)
@@ -146,10 +162,11 @@
 * [Functions](ride/functions.md)
   * [Built-in functions](ride/built-in-functions.md)
 * [Exceptions](ride/exceptions.md)
+* [RIDE script](ride/ride-script.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [RIDE Maven compiler](ride/maven-compiler.md)
 
-## Smart contracts \(Waves dApps\)
+## Smart contracts (Waves dApps)
 
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
@@ -169,7 +186,7 @@
 
 ## Waves full node
 
-* [What is Waves full node ](waves-full-node/what-is-a-full-node.md)
+* [What is Waves full node](waves-full-node/what-is-a-full-node.md)
 * [How To install a node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
   * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
   * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
@@ -194,8 +211,7 @@
 * [Waves console](developer-tools/waves-console.md)
   * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
   * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
-* [Waves Keeper](developer-tools/waves-keeper-api/overview.md)
-* [Waves Explorer](developer-tools/waves-explorer.md)
+* [Waves Keeper](developer-tools/waves-keeper.md)
 * [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
 
 ## Waves API and SDK
@@ -245,17 +261,20 @@
 
 ## Waves Oracles
 
-* [What is a data oracle](waves-oracles/what-is-a-data-oracle.md)
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
+* [Oracle](waves-oracles/oracle.md)
 
 ## Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+* [Waves Token Rating user interface overview](waves-token-rating/waves-token-rating-user-interface-overview.md)
+* [User score data transaction](waves-token-rating/user-score-data-transaction.md)
+* [Token Rating's oracle data transaction](waves-token-rating/token-rating-oracle-data-transaction.md)
 
 ## Resources
 
 * [Official resorces](overview/waves-official-resources.md)
-* [Developer resources ](overview/waves-official-resources.md)
+* [Developer resources](overview/waves-official-resources.md)
 * [Contributing](contributing.md)
 * [Proposals](overview/proposals.md)
   * [Asset verification protocol](proposals/asset-verification-protocol.md)

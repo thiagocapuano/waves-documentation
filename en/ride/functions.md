@@ -7,6 +7,7 @@
 * A function has to be defined above the place of its usage.
 
 ## Examples
+
 Definition of a function with no parameters that returns the integer:
 ```
 func main() = {

@@ -1,8 +1,17 @@
 # Create a personal Alias
 
-An Alias is a string between 4 and 30 characters long consisting of lowercase Latin letters, digits and symbols **-.0123456789@_abcdefghijklmnopqrstuvwxyz** used to simplify transactions.  
-It is possible to specify aliases instead of full address for asset transfers and leasing transactions.  
-The cost is limited to 0.001 WAVES \(the Tx fee\).
+An Alias is a string between 4 and 30 characters long consisting of lowercase Latin letters, digits and symbols **-.0123456789@_abcdefghijklmnopqrstuvwxyz** used to simplify transactions. It is possible to specify aliases instead of full address for asset transfers and leasing transactions. The cost is limited to 0.001 WAVES \(the Tx fee\).
+
+The following characters are allowed in the alias name:
+
+* lowercase Latin letters
+* numbers
+* dot
+* underscore
+* hyphen
+* @
+
+**Please remember, created alias cannot be changed and removed from the Waves address**.
 
 The creation of an Alias is very straightforward;
 

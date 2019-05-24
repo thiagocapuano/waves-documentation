@@ -720,6 +720,20 @@
 <td>  OPTION[<a href="#Int">Int</a>]
 </td>
 </tr>
+<tr><td>blockInfoByHeight</td>
+<td>100</td>
+<td>Lookup block by height and return info if it exists</td>
+<td>
+<table>
+<tr><td>height</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>block height</td></tr>
+</table>
+</td>
+<td>  OPTION[<a href="#BlockInfo">BlockInfo</a>]
+</td>
+</tr>
 <tr><td>getInteger</td>
 <td>100</td>
 <td>get data from the account state</td>
@@ -1249,6 +1263,21 @@
 </table>
 </td>
 <td>  <a href="#Address">Address</a>
+</td>
+</tr>
+<tr><td>assetInfo</td>
+<td>100</td>
+<td>get asset info by id</td>
+<td>
+<table>
+<tr><td>id</td>
+<td>  <a href="#ByteVector"> ByteVector</a>
+</td>
+<td>asset Id
+</td></tr>
+</table>
+</td>
+<td>  OPTION[<a href="#Asset">Asset</a>]
 </td>
 </tr>
 </table>
