@@ -22,5 +22,5 @@ Transactions with [data structures](/blockchain/transaction-data-structure.md) o
 | 6 | 2nd proof bytes | Array of bytes | up to 64 | Array of bytes of the 2nd proof |
 | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... |
-| 5 | `N`-th proof length | Short | 2 | Length in bytes of the `N`-th proof, where `N` is the number of proofs in the array |
-| 6 | `N`-th proof bytes | Array of bytes | up to 64 | Array of bytes of the `N`-th proof, where `N` is the number of proofs in the array |
+| 2 × `N` + 1 | `N`-th proof length | Short | 2 | Length in bytes of the `N`-th proof |
+| 2 × `N` + 2 | `N`-th proof bytes | Array of bytes | up to 64 | Array of bytes of the `N`-th proof |
