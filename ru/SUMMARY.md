@@ -36,6 +36,7 @@
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
 * [Токен](blockchain/token.md)
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
@@ -58,7 +59,7 @@
 * [Исключения](ride/exceptions.md)
 * [Скрипт на RIDE](ride/ride-script.md)
 
-## Смарт-контракты \(Waves dApps\)
+## Смарт-контракты (Waves dApps)
 
 * [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
