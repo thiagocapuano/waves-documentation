@@ -15,7 +15,7 @@
 | 7 | Quantity | Long | 8 | Amount of tokens to burn |
 | 8 | Fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 9 | Timestamp | Long | 8 | Unix time of transaction publication to the network |
-| 10 | Proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N`+ (P<sub>1</sub> + P<sub>2</sub> + ... + P<sub>n</sub>), where `N` is the number of proofs in the array,P<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
+| 10 | Proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N` + (P<sub>1</sub> + P<sub>2</sub> + ... + P<sub>n</sub>), where `N` is the number of proofs in the array, P<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
 ## JSON representation of a transaction with data structure v2
 
