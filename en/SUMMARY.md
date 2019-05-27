@@ -43,6 +43,7 @@
 * [Transaction proof](blockchain/transaction-proof.md)
 * [Transaction signature](blockchain/transaction-signature.md)
 * [Transaction type](blockchain/transaction-type.md)
+  * [Alias transaction](blockchain/transaction-type/alias-transaction.md)
   * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
@@ -280,4 +281,3 @@
   * [Asset verification protocol](proposals/asset-verification-protocol.md)
   * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
   * [Sponsored transactions](proposals/sponsored-transactions.md)
-
