@@ -1,26 +1,24 @@
 # Alias transaction
 
-**Alias transaction** is a transaction that creates [alias](/blockchain/alias.md) for account.
+**Alias transaction** is a [transaction](/blockchain/transaction.md) that creates [alias](/blockchain/alias.md) for account.
 
 ## Data structure v2
 
 | Field order number | Field name | Field type | Field size in bytes | Field description |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag | Byte  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/transaction-data-structure.md) of version 2 or above.</br> The value must be 0 |
-| 2 | Transaction type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). </br> The value must be 10 |
-| 3 | Version number | Byte | 1 | Version number of the data structure of the transaction.</br> The value must be  2 |
+| 1 | Version flag | Byte  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/transaction-data-structure.md) of version 2 or above.<br> The value must be 0 |
+| 2 | Transaction type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). <br> The value must be 10 |
+| 3 | Version number | Byte | 1 | Version number of the data structure of the transaction.<br> The value must be  2 |
 | 4 | Public key of sender | Array of bytes | 32 | Account public key of the sender |
 | 5 | Alias length | Short | 2 | Length of the alias \(number of characters in the alias name\) |
 | 6 | Alias | Array of bytes | from 4 to 30 | Array of bytes of alias |
 | 7 | Fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 8 | Timestamp | Long | 8 | Unix time of transaction publication to the network |
-| 9 | Proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N`+ (P<sub>1</sub> + P<sub>2</sub> + ... + P<sub>n</sub>), where `N` is the number of proofs in the array,P<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
+| 9 | Proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N` + (`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>), where `N` is the number of proofs in the array,`P`<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
 ## JSON representation of a transaction with data structure v2
 
 ```js
-
-{
   {
   	"type": 10,
   	"version": 2,
