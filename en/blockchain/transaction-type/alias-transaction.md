@@ -6,9 +6,9 @@
 
 | Field order number | Field name | Field type | Field size in bytes | Field description |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag | Byte  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/transaction-data-structure.md) of version 2 or above.</br> The value must be 0 |
-| 2 | Transaction type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). </br> The value must be 10 |
-| 3 | Version number | Byte | 1 | Version number of the data structure of the transaction.</br> The value must be  2 |
+| 1 | Version flag | Byte  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/transaction-data-structure.md) of version 2 or above.<br> The value must be 0 |
+| 2 | Transaction type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). <br> The value must be 10 |
+| 3 | Version number | Byte | 1 | Version number of the data structure of the transaction.<br> The value must be  2 |
 | 4 | Public key of sender | Array of bytes | 32 | Account public key of the sender |
 | 5 | Alias length | Short | 2 | Length of the alias \(number of characters in the alias name\) |
 | 6 | Alias | Array of bytes | from 4 to 30 | Array of bytes of alias |
@@ -19,8 +19,6 @@
 ## JSON representation of a transaction with data structure v2
 
 ```js
-
-{
   {
   	"type": 10,
   	"version": 2,
