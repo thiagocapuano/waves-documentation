@@ -6,20 +6,20 @@ Each transaction type has a unique [data structure](/blockchain/transaction-data
 
 ## Transaction types
 
-| Transaction type ID | Transaction type name |
+| Transaction type name  | Transaction type ID |
 | :--- | :--- |
-| 10 | [Alias transaction](/blockchain/transaction-type/alias-transaction.md) |
-| 6  | [Burn transaction](/blockchain/transaction-type/burn-transaction.md) |
-| 12 | Data transaction |
-| 7  | Exchange transaction |
-| 1  | Genesis transaction |
-| 16 | Invoke script transaction |
-| 3  | Issue transaction |
-| 9  | Lease cancel transaction |
-| 8  | Lease transaction |
-| 11 | Mass transfer transaction |
-| 5  | Reissue transaction|
-| 15 | Set asset script transaction |
-| 13 | Set script transaction |
-| 14 | Sponsorship transaction |
-| 4  | Transfer transaction |
+| [Alias transaction](/blockchain/transaction-type/alias-transaction.md) | 10 |
+| [Burn transaction](/blockchain/transaction-type/burn-transaction.md)  | 6 |
+| Data transaction | 12 |
+| Exchange transaction  | 7 |
+| Genesis transaction  | 1 |
+| Invoke script transaction | 16 |
+| Issue transaction  | 3 |
+| Lease cancel transaction  | 9 |
+| Lease transaction  | 8 |
+| Mass transfer transaction | 11 |
+| Reissue transaction  | 5 |
+| Set asset script transaction | 15 |
+| Set script transaction | 13 |
+| Sponsorship transaction | 14 |
+| Transfer transaction  | 4 |

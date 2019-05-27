@@ -1,6 +1,6 @@
 # Alias transaction
 
-**alias transaction** is a transaction that creates an [alias](/blockchain/alias.md) for an account.
+**Alias transaction** is a transaction that creates [alias](/blockchain/alias.md) for account.
 
 ## Data structure v2
 
@@ -14,7 +14,7 @@
 | 6 | Alias | Array of bytes | from 4 to 30 | Array of bytes of alias |
 | 7 | Fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 8 | Timestamp | Long | 8 | Unix time of transaction publication to the network |
-| 9 | Proofs | Array of proofs | S | If the array is empty, then S = 3. </br> If the array is not empty, then S = 3 + 2 × N + \(P1 + P2 + ... + Pn\), </br> where</br> N is the number of proofs in the array, </br> Pn is the size on N-th proof in bytes. </br> The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
+| 9 | Proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N`+ (`P1` + `P2` + ... + `Pn`), where `N` is the number of proofs in the array, `Pn` is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
 ## JSON representation of a transaction with data structure v2
 
