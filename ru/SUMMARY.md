@@ -37,6 +37,7 @@
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Тип транзакции](blockchain/transaction-type.md)
   * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
+  * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
 * [Токен](blockchain/token.md)
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
