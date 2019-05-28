@@ -24,11 +24,12 @@
 
 ## Блокчейн
 
+* [dApp](blockchain/dapp.md)
+* [dApp-скрипт](blockchain/dapp-script.md)
 * [Адрес](blockchain/address.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Псевдоним](blockchain/alias.md)
-* [Скрипт](blockchain/script.md)
 * [Скрипт аккаунта](blockchain/account-script.md)
 * [Скрипт ассета](blockchain/asset-script.md)
 * [Смарт-аккаунт](blockchain/smart-account.md)
@@ -42,6 +43,7 @@
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
 * [Транзакция](blockchain/transaction.md)
+* [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
 ## Waves Explorer
 
@@ -62,8 +64,8 @@
 
 ## Смарт-контракты (Waves dApps)
 
-* [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
+* [Простое голосования на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves приложение
