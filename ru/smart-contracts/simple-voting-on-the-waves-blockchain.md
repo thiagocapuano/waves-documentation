@@ -53,7 +53,7 @@
 
 Замените автоматически сгенерированный код на следующий:
 
-```
+```ride
 {-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
@@ -93,7 +93,7 @@ func vote(theVote: Int) = {
 
 #### Функция vote
 
-Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в хранилище данных аккаунта главы ТСЖ.
+Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в [хранилище данных](/blockchain/account-data-storage.md) аккаунта главы ТСЖ.
 
 Перед функцией vote указан атрибут `Callable`, который делает данную функцию вызываемой у dApp. У данного атрибута `i` — переменная, содержащая информацию о транзакции, в рамках которой был вызван скрипт. Переменная `i` используется в коде для получения публичного ключа аккаунта `i.callerPublicKey`, вызвавшего скрипт.
 
@@ -119,7 +119,7 @@ func vote(theVote: Int) = {
 let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 ```
 
-Размер и сложность скрипта отображаются в панели под редактором скрипта.
+Размер и [сложность](/ride/computational-cost.md) скрипта отображаются в панели под редактором скрипта.
 
 <img src="img/voting/script-complexity.png" width="890"/>
 
@@ -133,7 +133,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/add-sign.png" width="900"/>
 
-Отметим, что подписать транзакцию можно также секретной фразой или с помощью Waves Keeper.
+Отметим, что подписать транзакцию можно также секретной фразой или с помощью [Waves Keeper](/waves-keeper/about-waves-keeper.md).
 
 <img src="img/voting/seed-and-waves-keeper.png" width="300"/>
 
@@ -143,7 +143,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 Таким образом, вы только что создали dApp.
 
-В Waves Explorer, _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
+В [Waves Explorer](https://wavesexplorer.com/), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
 
 <img src="img/voting/testnet-address.png" width="800"/>
 
@@ -155,7 +155,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 Для того, чтобы проголосовать, жильцу необходимо отправить транзакцию вызова скрипта со своего аккаунта. В транзакции необходимо указать адрес dApp, имя вызываемого метода dApp, а также передаваемые в метод параметры.
 
-Отправьте транзакцию вызова скрипта с аккаунта Алексея с помощью REPL. Для этого в Waves IDE _выберите аккаунт Алексея_.
+Отправьте транзакцию вызова скрипта с аккаунта Алексея с помощью [REPL](/developer-tools/repl.md). Для этого в Waves IDE _выберите аккаунт Алексея_.
 
 <img src="img/voting/account-aleksei.png" width="320"/>
 

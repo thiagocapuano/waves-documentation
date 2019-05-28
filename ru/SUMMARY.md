@@ -51,6 +51,10 @@
 * [О Waves Explorer](waves-explorer/about-waves-explorer.md)
 * [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
 
+## Waves Keeper
+
+* [О Waves Keeper](/waves-keeper/about-waves-keeper.md)
+
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
@@ -172,6 +176,11 @@
 ## Ноды Waves
 
 * [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
+
+## Инструменты разработчика
+
+* [REPL](/developer-tools/repl.md)
+* [Waves IDE](/developer-tools/waves-ide.md)
 
 ## Waves Oracles
 
