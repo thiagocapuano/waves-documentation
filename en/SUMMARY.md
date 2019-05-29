@@ -130,7 +130,7 @@
 * [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
 * [DEX protocol](waves-dex/dex-protocol.md)
 
-## [FAQ]
+## FAQ
 
   * [About](waves-client/faq.md)
   * [Suspicious transactions](waves-client/security/spam-transactions.md)
