@@ -31,7 +31,7 @@
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-Скопируйте адрес из карточки аккаунта главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-testnet.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты комиссии за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/blockchain/dapp-script.md) к своему аккаунту.
+Скопируйте [адрес](/blockchain/address.md) из карточки аккаунта главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-testnet.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты комиссии за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/blockchain/dapp-script.md) к своему аккаунту.
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -97,7 +97,7 @@ func vote(theVote: Int) = {
 
 Перед функцией vote указан атрибут `Callable`, который делает данную функцию вызываемой у dApp. У данного атрибута `i` — переменная, содержащая информацию о транзакции, в рамках которой был вызван скрипт. Переменная `i` используется в коде для получения публичного ключа аккаунта `i.callerPublicKey`, вызвавшего скрипт.
 
-Для простоты, в функции vote нет никаких проверок значения переменной `theVote`.
+Для простоты, в функцие `vote` нет никаких проверок значения переменной `theVote`.
 
 #### Функция voterIsAllowedToVote
 
@@ -108,8 +108,6 @@ func vote(theVote: Int) = {
 Значения публичных ключей в коде `alekseiPubKey` и `annaPubKey` возьмите из карточек аккаунтов Алексея и Анны.
 
 <img src="img/voting/public-key.png" width="240"/>
-
-
 
 #### Функция getInteger
 
@@ -141,7 +139,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/publish.png" width="880"/>
 
-Таким образом, вы только что создали dApp.
+Таким образом, вы только что создали [dApp](/blockchain/dapp.md).
 
 В [Waves Explorer](https://wavesexplorer.com/), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
 
@@ -169,7 +167,7 @@ broadcast(invokeScript({dApp: "3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL", call: {func
 
 <img src="img/voting/repl-success.png" width="650"/>
 
-Аналогично проголосуйте с аккаунта Анны, предварительно выбрав аккаунт Анны:
+Аналогично проголосуйте с аккаунта Анны, _предварительно выбрав аккаунт Анны_:
 
 ```
 broadcast(invokeScript({dApp: "3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL", call: {function: "vote", args: [{type: "integer", value: 25}]} }))
