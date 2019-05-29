@@ -1,13 +1,13 @@
 <div style="overflow-x:auto;">
   <h1>Built-in functions</h1>
 <table border="1">
-<tr>
+  <tr>
    <th>Function Name</th>
    <th>Cost(complexity)</th>
    <th>Description</th>
    <th>Params</th>
    <th>Return Type</th>
-</tr>  
+  </tr>  
 <tr><td>fraction</td>
 <td>1</td>
 <td>Multiply and dividion with big integer intermediate representation</td>
