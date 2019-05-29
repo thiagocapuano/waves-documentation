@@ -166,7 +166,9 @@
 * [О Waves DEX](waves-dex/waves-dex.md)
 * [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
 
-* [Часто задаваемые вопросы](waves-client/faq.md)
+## Часто задаваемые вопросы
+
+  * [О разделе](waves-client/faq.md)
   * [Подозрительные транзакции](waves-client/security/spam-transactions.md)
   * [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
   * [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
