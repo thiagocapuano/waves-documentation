@@ -7,7 +7,7 @@
    <th>Description</th>
    <th>Params</th>
    <th>Return Type</th>
- </tr>
+</tr>  
 <tr><td>fraction</td>
 <td>1</td>
 <td>Multiply and dividion with big integer intermediate representation</td>
