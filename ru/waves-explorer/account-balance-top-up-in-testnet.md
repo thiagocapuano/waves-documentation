@@ -5,7 +5,7 @@
 
 Чтобы пополнить баланс аккаунта в тестовой сети, выполните следующие действия:
 
-1. Перейдите на страницу <https://wavesexplorer.com/testnet.>
+1. Перейдите на страницу <https://wavesexplorer.com/testnet>.
 2. Кликните на <img src="img/faucet.png" alt="faucet" width="70"/>.
 3. Введите идентификатор аккаунта в поле **Address**.
 4. Нажмите **Request 10 WAVES**.
