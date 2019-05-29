@@ -26,6 +26,7 @@
 * [Account script](blockchain/account-script.md)
 * [Address](blockchain/address.md)
 * [Alias](blockchain/alias.md)
+* [Asset](blockchain/asset.md)
 * [Asset script](blockchain/asset-script.md)
 * [Mainnet](blockchain/mainnet.md)
 * [Script](blockchain/script.md)
