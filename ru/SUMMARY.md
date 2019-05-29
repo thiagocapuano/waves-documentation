@@ -42,8 +42,9 @@
   * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
 * [Токен](blockchain/token.md)
-  * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
+  * [WAVES](blockchain/token/waves.md)
+  * [WCT](blockchain/token/wct.md)
 * [Транзакция](blockchain/transaction.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
