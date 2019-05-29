@@ -1,5 +1,5 @@
 # Account script
 
-An **account script** is a [script](/blockchain/script.md) that is attached to an account with a set script transaction.
+An **account script** is a [script](/blockchain/script.md) that is attached to an account with the set script transaction.
 
-An account with the attached script is a smart account.
+An account with the attached script is called a [smart account](/blockchain/smart-account.md).

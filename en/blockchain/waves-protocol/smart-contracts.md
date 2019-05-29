@@ -25,14 +25,16 @@ For more theoretical and technical details please go to [_**Smart Contract Secti
 
 ## Ride4Dapps
 
-![MAINNET not available](https://img.shields.io/badge/mainnet-work%20in%20progress-0056FF.svg)
+![MAINNET not available](https://img.shields.io/badge/mainnet-work in progress-0056FF.svg)  
 ![TESTNET voting](https://img.shields.io/badge/testnet-voting-4bc51d.svg?color=yellow)
 
 Ride4DApps is an update of RIDE language which main goal is to enable classic 'DApps' approach on Waves by adding the ability to define and call functions in a contract. This feature is not available on the mainnet yet, but IDE supports new language syntax and allows to compile and deploy contracts to the testnet or your custom chain.
 
 [Ride4DApps documentation](https://docs.wavesplatform.com/en/smart-contracts/ride4dapps/overview.html)
 
-
 ## Forum
 
 1. [_**DevTools: IDE + REPL**_](https://forum.wavesplatform.com/t/devtools-ide-repl/1992) \(This topic is for discussing your issues, requests, feedback and for announcements related to **Waves Ride IDE** and **REPL**\).
+
+
+

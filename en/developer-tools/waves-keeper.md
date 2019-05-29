@@ -9,7 +9,7 @@
 * [Opera extension](https://addons.opera.com/ru/extensions/details/waves-keeper)
 * [Microsoft Edge extension](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab)
 
-## Waves Keeper Features
+## Waves Keeper features
 
 * SEEDs and private keys are encrypted and stored within the extension and cannot be accessed by dApps and services on the web, giving you peace of mind that your funds are always safe from hackers and malicious sites.
 * The process of completing a transaction doesn’t require entering any sensitive information.

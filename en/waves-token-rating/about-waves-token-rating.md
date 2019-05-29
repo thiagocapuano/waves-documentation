@@ -36,11 +36,11 @@ W = B × k
 ```
 where
 
-`B` is an effective balance in WCT tokens WCT,
+`B` is an effective balance in WCT tokens,
 
 `k` is a weighting factor.
 
-The calculated value of `W` is rounded to the integer.
+The calculated value of `W` is rounded to an integer.
 
 ### Calculation of effective balance `B`
 

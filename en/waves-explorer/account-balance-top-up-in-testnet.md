@@ -1,13 +1,8 @@
 # Account balance top up in testnet
 
-1. Go to https://wavesexplorer.com/testnet.
+> The balance of an account in the testnet is topped up by 10 WAVES at a time. <br>It's allowed to top up the balance of any _one_ account once in 15 minutes
+
+1. Go to <https://wavesexplorer.com/testnet>.
 2. Click <img src="img/faucet.png" alt="faucet" width="70"/>.
 3. Enter account ID to the **Address** field.
 4. Press **Request 10 WAVES**.
-
-
-
-> [!NOTE]
-> The balance of an account in the testnet is topped up by 10 WAVES at a time. It is possible to top up the balance again no earlier than 15 minutes since the last top up
-
-

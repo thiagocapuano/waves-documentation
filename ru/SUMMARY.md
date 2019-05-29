@@ -6,7 +6,7 @@
 * [Как использовать это руководство](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Заметки о безопасности](overview/security-notes.md)
-* [Официальные ресурсы ](overview/waves-official-resources.md)
+* [Официальные ресурсы](overview/waves-official-resources.md)
 * [Waves релизы](overview/waves-releases.md)
 * [Waves токены](overview/waves-tokens.md)
 
@@ -24,29 +24,55 @@
 
 ## Блокчейн
 
-* [Скрипт](blockchain/script.md)
+* [dApp](blockchain/dapp.md)
+* [dApp-скрипт](blockchain/dapp-script.md)
+* [Адрес](blockchain/address.md)
+* [Ассет](blockchain/asset.md)
+* [Валидация транзакции](blockchain/transaction-validation.md)
+* [Подпись транзакции](blockchain/transaction-signature.md)
+* [Подтверждение транзакции](blockchain/transaction-proof.md)
+* [Псевдоним](blockchain/alias.md)
 * [Скрипт аккаунта](blockchain/account-script.md)
+* [Скрипт ассета](blockchain/asset-script.md)
+* [Смарт-аккаунт](blockchain/smart-account.md)
+* [Смарт-ассет](blockchain/smart-asset.md)
+* [Структура данных транзакции](blockchain/transaction-data-structure.md)
+* [Тестовая сеть](blockchain/testnet.md)
+* [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
+  * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
+* [Токен](blockchain/token.md)
+  * [WAVELET](blockchain/token/wavelet.md)
+  * [WAVES](blockchain/token/waves.md)
+  * [WCT](blockchain/token/wct.md)
+* [Транзакция](blockchain/transaction.md)
+* [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
 ## Waves Explorer
 
 * [О Waves Explorer](waves-explorer/about-waves-explorer.md)
 * [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
 
+## Waves Keeper
+
+* [О Waves Keeper](/waves-keeper/about-waves-keeper.md)
+
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
-* [Основные понятия](ride/core-concepts.md)
-  * [Вычислительная стоимость](ride/core-concepts/computational-cost.md)
+* [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
 * [Функции](ride/functions.md)
 * [Исключения](ride/exceptions.md)
+* [Скрипт на RIDE](ride/ride-script.md)
+* [Сложность скрипта](ride/script-complexity.md)
 
-## Смарт-контракты \(Waves dApps\)
+## Смарт-контракты (Waves dApps)
 
-* [Что такое dApp](smart-contracts/what-is-a-dapp.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
+* [Простое голосования на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves приложение
@@ -158,6 +184,11 @@
 ## Ноды Waves
 
 * [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
+
+## Инструменты разработчика
+
+* [REPL](/developer-tools/repl.md)
+* [Waves IDE](/developer-tools/waves-ide.md)
 
 ## Waves Oracles
 
