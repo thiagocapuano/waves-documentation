@@ -272,7 +272,7 @@
 <td>  <a href="#String">String</a>
 </td>
 </tr>
-<tr><td>isInstanceOf</td>
+<tr><td>_isInstanceOf</td>
 <td>1</td>
 <td>Internal function to check value type</td>
 <td>
