@@ -59,13 +59,13 @@
 
 * [О RIDE](ride/about-ride.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
-* [Вычислительная стоимость](ride/computational-cost.md)
 * [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
 * [Функции](ride/functions.md)
 * [Исключения](ride/exceptions.md)
 * [Скрипт на RIDE](ride/ride-script.md)
+* [Сложность скрипта](ride/script-complexity.md)
 
 ## Смарт-контракты (Waves dApps)
 
