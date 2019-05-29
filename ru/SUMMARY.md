@@ -76,8 +76,6 @@
   * [Переводы Bitcoin SV](waves-client/transfers-and-gateways/bitcoin-sv-transfers.md)
   * [Перевод EUR и USD](waves-client/transfers-and-gateways/eur-usd-transfers.md)
   * [Покупка Waves с банковской карты](waves-client/transfers-and-gateways/buying-waves-using-card.md)
-* [Waves DEX](waves-client/waves-dex.md)
-  * [Использование биржи DEX](waves-client/waves-dex/start-trading-on-the-waves-dex.md)
 * [Управление ассетами](waves-client/assets-management.md)
   * [Создание токена](waves-client/assets-management/issue-an-asset.md)
   * [Перевыпуск токена](waves-client/assets-management/reissue-an-asset.md)
@@ -136,6 +134,12 @@
       * [Android: Покупка Waves с банковской карты](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Android: Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Android: Использование биржи DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
+
+## Waves DEX
+
+* [О Waves DEX](waves-dex/waves-dex.md)
+* [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
+
 * [Часто задаваемые вопросы](waves-client/faq.md)
   * [Подозрительные транзакции](waves-client/security/spam-transactions.md)
   * [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
@@ -163,4 +167,3 @@
 * [Обзор пользовательского интерфейса Waves Token Rating](waves-token-rating/waves-token-rating-user-interface-overview.md)
 * [Транзакция данных оценки пользователя](waves-token-rating/user-score-data-transaction.md)
 * [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
-
