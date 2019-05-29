@@ -2,11 +2,11 @@
   <h1>Built-in functions</h1>
 <table border="1">
   <tr>
-   <th>Function Name</th>
-   <th>Cost(complexity)</th>
-   <th>Description</th>
-   <th>Params</th>
-   <th>Return Type</th>
+    <th>Function Name</th>
+    <th>Cost(complexity)</th>
+    <th>Description</th>
+    <th>Params</th>
+    <th>Return Type</th>
   </tr>  
 <tr><td>fraction</td>
 <td>1</td>
