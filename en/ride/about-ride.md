@@ -2,7 +2,7 @@
 
 **RIDE** is a programming language for writing [dApp scripts](/blockchain/dapp-script.md), [account scripts](/blockchain/account-script.md) and [asset scripts](/blockchain/asset-script.md).
 
-RIDE is case-sensitive, based on expressions, and by design [lazy](/ride/immutable-variables.md).
+The language is case-sensitive, based on expressions, and by design [lazy](/ride/immutable-variables.md).
 
 RIDE is not an object-oriented language (by paradigm it's rather a functional programming language).
 
