@@ -91,7 +91,7 @@ func vote(theVote: Int) = {
 
 ### Пояснения к коду dApp-скрипта
 
-#### Функция vote
+#### Функция `vote`
 
 Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в [хранилище данных](/blockchain/account-data-storage.md) аккаунта главы ТСЖ.
 
@@ -99,7 +99,7 @@ func vote(theVote: Int) = {
 
 Для простоты, в функции `vote` нет никаких проверок значения переменной `theVote`.
 
-#### Функция voterIsAllowedToVote
+#### Функция `voterIsAllowedToVote`
 
 Функция `voterIsAllowedToVote` проверяет, что аккаунт, вызывающий скрипт, имеет право голосовать.
 
@@ -109,7 +109,7 @@ func vote(theVote: Int) = {
 
 <img src="img/voting/public-key.png" width="240"/>
 
-#### Функция getInteger
+#### Функция `getInteger`
 
 Функция `getInteger` получает значения из хранилища данных аккаунта по ключу:
 
