@@ -60,7 +60,6 @@
     * [Account recovery](waves-client/account-management/restore-an-account.md)
     * [Ledger Nano S and Waves app](waves-client/account-management/ledger-nano.md)
     * [Waves Keeper](waves-client/account-management/waves-keeper.md)
-    * [Account migration](waves-client/account-management/account-migration.md)
     * [Signing in to your Account](waves-client/account-management/signing-in-to-your-account.md)
     * [Use your Waves address](waves-client/account-management/waves-address.md)
     * [Create a personal Alias](waves-client/account-management/creating-an-alias.md)

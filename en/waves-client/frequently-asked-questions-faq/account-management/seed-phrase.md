@@ -1,16 +1,16 @@
 # What is a seed phrase?
 
-The seed phrase is a set of words that allows you get access to funds of your Waves account.
+The seed phrase is a set of words that allows you get access to funds of your Waves account. During account registration, you will be always asked to save your secret phrase (Seed) which contains 15 English words with spaces between each word.
 
-When you registering an account, you will be always asked to save your secret phrase (Seed) which contains 15 English words with spaces between each word.
+Open online or desktop Waves app and click on the **Account avatar** at the top righ corner. Then click on the **Settings**. Account seed phrase can be found under **Settings** ![](/_assets/seed_phrase_02.png) > **Security** ![](/_assets/seed_phrase_03.png) > **Backup phrase**.
+
+![](/_assets/advanced_features_001.png)
 
 For example, a standard seed phrase looks like this:
 
 **uncle push human bus echo drastic garden joke sand warfare sentence fossil title color combine**
 
-Moreover, it will always generating one Waves address: **3P9KR33QyXwfTXv8kKtNGZYtgKk3RXSUk36**
-
-Seed phrase of the account can be found under **Settings** ![](/_assets/seed_phrase_02.png) > **Security** ![](/_assets/seed_phrase_03.png) > **Backup phrase**.
+And it will always generate the same Waves address: **3P9KR33QyXwfTXv8kKtNGZYtgKk3RXSUk36**
 
 How it looks like in the Waves app:
 
@@ -20,7 +20,7 @@ If you are importing the seed passphrase and you are getting a completely differ
 
 See more:
 
-* [Security notes](/overview/security-notes.md)
+* [Security notes](/security-notes.md)
 * [Account recovery](/waves-client/account-management/restore-an-account.md)
 * [Account recovery (iOS)](/waves-client/mobile-apps/iOS/account-management/restore-an-account.md)
 * [Account recovery (Android)](/waves-client/mobile-apps/android/account-management/restore-an-account.md)

@@ -1,20 +1,17 @@
-# How to receive and send Waves
-
 ## How to receive Waves
 
 Receiving Waves is very straightforward. Just copy your Waves address and hand it to the person who wants to send you Waves.
 
-Open your Waves wallet. At the top left corner click on the avatar of your account.
+You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
-![](/_assets/waves_transfers_04.png)
+Open your Waves wallet. At the top righ corner click on the **Account avatar**.
+
+![](/_assets/waves_address_01.png)
 
 The following pop-up will appear.
+Here you will find the Waves address of your account. To copy address to clipboard, just click on the **Copy** button ![](/_assets/waves_address_02.png).
 
-There you will find the Waves address of your account.
-
-![](/_assets/waves_transfers_05.png)
-
-Copy the shown Waves address and use it as recipient address.
+After that use it as the recipient address for incoming Waves transfers.
 
 ## How to send Waves
 

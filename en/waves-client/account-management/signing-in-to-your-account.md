@@ -1,12 +1,18 @@
 # How to sign in to your Account
 
-You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb). All versions support automatic update!
+You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
 Choose and open up your Waves wallet.
 
-On the main page choose the necessary address from the drop-down list and put the password, then click **Log in**.
+Click on the **Sign In**.
 
 ![](/_assets/login_page.png)
+
+You will be forwarded to the following page.
+
+![](/_assets/login_page_02.png)
+
+Type the password in the **Password** field and click on the **Log in**.
 
 ___
 

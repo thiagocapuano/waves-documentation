@@ -6,11 +6,7 @@ This section will discuss and show step by step instructions on how to set up a 
 * [_**Account recovery**_](account-management/restore-an-account.md)
 * [_**Ledger Nano S and Waves app**_](account-management/ledger-nano.md)
 * [_**Waves Keeper**_](account-management/waves-keeper.md)
-* [_**Account migration**_](account-management/account-migration.md)
 * [_**Signing in to Your Account**_](account-management/signing-in-to-your-account.md)
 * [_**Use Your Waves address**_](account-management/waves-address.md)
 * [_**Create a personal Alias**_](account-management/creating-an-alias.md)
 * [_**Lease Your Waves tokens**_](account-management/waves-leasing.md)
-
-
-
