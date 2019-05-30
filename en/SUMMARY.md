@@ -135,7 +135,17 @@
       * [Buying Waves using credit or debit card](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
-* [FAQ](waves-client/faq.md)
+
+## Waves DEX
+
+* [About Waves DEX](waves-dex/about-waves-dex.md)
+* [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
+* [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
+* [DEX protocol](waves-dex/dex-protocol.md)
+
+## FAQ
+
+  * [About](waves-client/faq.md)
   * [Suspicious transactions](waves-client/security/spam-transactions.md)
   * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
@@ -254,13 +264,6 @@
   * [Community libraries](development-and-api/client-libraries/unofficial-libraries.md)
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
-
-## Waves DEX
-
-* [About Waves DEX](waves-dex/about-waves-dex.md)
-* [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
-* [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
-* [DEX protocol](waves-dex/dex-protocol.md)
 
 ## Waves Oracles
 

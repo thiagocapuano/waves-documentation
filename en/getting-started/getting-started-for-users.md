@@ -27,7 +27,7 @@ On our client you can also issue your own assets, The [_**Assets Management Guid
 
 ## Waves DEX
 
-To trade different assets back and forth between you and other users. please [_**Start Trading Using our Waves DEX**_.](/waves-client/waves-dex.md)
+To trade different assets back and forth between you and other users. please [_**Start Trading Using our Waves DEX**_](/waves-dex/about-waves-dex.md).
 
 ## Mobile Applications
 
