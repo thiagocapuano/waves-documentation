@@ -1,6 +1,6 @@
 # Статьи о dApps
 
-Статить из блога платформы Waves о dApps:
+Статьи из блога платформы Waves о dApps:
 
 1. [The Hitchhiker’s Guide to Waves Smart Contracts. Part 1](https://blog.wavesplatform.com/the-hitchhikers-guide-to-waves-smart-contracts-part-1-b80aa47a745a) _(14 сентября 2018)_
 2. [The Hitchhiker’s Guide to Waves Smart Contracts. Part 2](https://blog.wavesplatform.com/the-hitchhikers-guide-to-waves-smart-contracts-part-2-44621fd5a007) _(18 сентября 2018)_
