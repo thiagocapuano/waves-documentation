@@ -73,7 +73,7 @@
 ## Смарт-контракты (Waves dApps)
 
 * [Написание dApps](smart-contracts/writing-dapps.md)
-* [Простое голосования на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
+* [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves приложение
