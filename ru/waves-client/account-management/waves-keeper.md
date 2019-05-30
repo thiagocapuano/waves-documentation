@@ -58,7 +58,8 @@ Waves Keeper предназначен также и для удобства по
 
 Откройте [онлайн-приложение](https://client.wavesplatform.com).
 
-Откройте страницу **Имрорт** page [client.wavesplatform.com/import](https://client.wavesplatform.com/import) и нажмите на **Waves Keeper**.
+
+Откройте страницу **Имрорт** [client.wavesplatform.com/import](https://client.wavesplatform.com/import) и нажмите на **Waves Keeper**.
 
 ![](/_assets/waves_keeper_09.png)
 
