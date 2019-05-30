@@ -1,15 +1,17 @@
 ## How to restore your account
 
-You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb). All versions support automatic update!
+You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
 Choose and open up your Waves wallet.
 
-Click on **Import accounts** if you do not have imported accounts.
+Click on the **Get Started** and you will be forwarded to the following page.
 
 ![](/_assets/account_restoring_01.png)
 
-Also, you can import as many accounts as you need if you want to use several accounts in the same app.
-Open **Sign in** page. Under **Address / Account name** click on the box and then click on the **Import accounts**.
+Here click on the **Import accounts** box.
+
+Also, you can import as many accounts as you need if you want to use several accounts. Just repeat the steps described below for each import.
+Open **Sign in** page. Under **Address / Account name** click on the **Import accounts** box.
 
 ![](/_assets/account_restoring_01.1.png)
 
@@ -17,22 +19,21 @@ You will be forwarded to the following page. Click on the **Backup SEED Phrase**
 
 ![](/_assets/account_restoring_01.2.png)
 
-Also, you can import accounts from the [Waves Lite client](/waves-client/account-management/account-migration.md), [Ledger Nano S](/waves-client/account-management/ledger-nano.md), [Waves Keeper](/waves-client/account-management/waves-keeper.md).
+Here you can also import accounts from the [Ledger Nano S](/waves-client/account-management/ledger-nano.md) and [Waves Keeper](/waves-client/account-management/waves-keeper.md).
 
 Copy and paste or type your seed into the blank text field.  
 The Waves wallet will automatically generate the corresponding address right below the text field.
 
 ![](/_assets/account_restoring_02.png)
 
-If you entered the correct SEED, it will display your Waves address.  
+If you entered the correct SEED, it will display your Waves address. If you are getting the correct address, click on the **Continue**.
 Choose account name and wallet password then repeat the password.
 
 To finish the process, click on **Sign in**
 
 ![](/_assets/account_restoring_003.png)
 
-At the final stage, read carefully the conditions and if you are agree put the checkboxes.  
-Click on **Confirm and Begin**.
+At the final stage, read carefully the conditions and if you are agree put the checkboxes and click on **Confirm and Begin**.
 
 ![](/_assets/account_restoring_04.png)
 
@@ -42,7 +43,11 @@ If you have done all of the above, you are forwarded to the user interface.
 
 ## How to pairing accounts between devices
 
-Also, you can synchronize your accounts between [mobile apps](/waves-client/mobile-apps.md) and desktop or online accounts. So, to sync your account from the desktop or online app, just open Waves app &gt; **Settings** &gt; **General** &gt; **Export account**.
+Also, you can synchronize your accounts between [mobile apps](/waves-client/mobile-apps.md) and desktop or online apps. So, to sync your account from the desktop or online app, just open online or desktop Waves app and click on the **Account avatar** at the top righ corner. Then click on the **Settings**.
+
+![](/_assets/account_restoring_006.png)
+
+You will be forwarded to the **Settings page**. In the **General** settings find **Export account** and click on the **Show Pairing Code**.
 
 ![](/_assets/account_restoring_06.png)
 
