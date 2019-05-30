@@ -6,13 +6,13 @@ Open up your Waves wallet.
 
 Go to the **Portfolio**.
 
-![](/_assets/token_burn_01.png)
+![](/_assets/token_creation_04.png)
 
-Find issued token and click on the ![](/_assets/token_burn_02.png) button.
+Find the required token and click on the ![](/_assets/token_reissue_02.png) button.
 
 Click on the **Token Burn** button.
 
-![](/_assets/token_burn_03.png)
+![](/_assets/token_reissue_03.png)
 
 The following window will appear.
 

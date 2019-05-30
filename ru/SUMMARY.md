@@ -45,6 +45,7 @@
   * [WAVELET](blockchain/token/wavelet.md)
   * [WAVES](blockchain/token/waves.md)
   * [WCT](blockchain/token/wct.md)
+  * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
 * [Транзакция](blockchain/transaction.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
@@ -72,7 +73,7 @@
 ## Смарт-контракты (Waves dApps)
 
 * [Написание dApps](smart-contracts/writing-dapps.md)
-* [Простое голосования на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
+* [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves приложение
@@ -84,7 +85,6 @@
   * [Восстановление аккаунта](waves-client/account-management/restore-an-account.md)
   * [Ledger Nano S в Waves приложении](waves-client/account-management/ledger-nano.md)
   * [Waves Keeper](waves-client/account-management/waves-keeper.md)
-  * [Перенос аккаунта](waves-client/account-management/account-migration.md)
   * [Вход в аккаунт](waves-client/account-management/signing-in-to-your-account.md)
   * [Ваш Waves адрес](waves-client/account-management/waves-address.md)
   * [Создание персонального алиаса](waves-client/account-management/creating-an-alias.md)

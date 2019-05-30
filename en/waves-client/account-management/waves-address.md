@@ -1,13 +1,10 @@
-# Where Can I Find My Waves Address
+# Where Can I find my Waves address?
 
-Open your Waves wallet. At the top left corner click on the avatar of your account.
+Open your Waves wallet. At the top righ corner click on the **Account avatar**.
 
 ![](/_assets/waves_address_01.png)
 
-The following pop-up will appear.
-There you will find the Waves address of your account.
-
-![](/_assets/waves_address_02.png)
+Here you will find the Waves address of your account. To copy address to clipboard, just click on the **сopy** button ![](/_assets/waves_address_02.png).
 
 Also in this section you can create personal Alias, for more information please follow another article [How to create an Alias](/waves-client/account-management/creating-an-alias.md)
 

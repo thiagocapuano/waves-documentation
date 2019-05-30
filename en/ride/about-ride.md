@@ -4,7 +4,7 @@
 
 The language is case-sensitive, based on expressions, and by design [lazy](/ride/immutable-variables.md).
 
-RIDE is not an object-oriented language (by paradigm it's rather a functional programming language).
+RIDE is not an object-oriented language; by paradigm it's rather a functional programming language.
 
 Files with source codes in RIDE have ".ride" extension.
 

@@ -3,13 +3,12 @@
 As you may know, Wavesplatform uses Waves token as a basic fee for all types of transactions. We implemented a completely new feature called Sponsored fees.
 So, now Waves users can use custom fees. It allows using fee in token if the creator of this token supports sponsored transactions. Thus, you can pay the transaction fee using sponsored token. Also, you can pay sponsored fees for transfers with Waves and any other Waves based tokens
 
-Open up your Waves wallet.
+Open up your Waves wallet.  
+At the top left corner click on the **Send** button.
 
-Click on the **Send** button on the **Assets** page.
+![](/_assets/asset_transfers_01.png)
 
 **Note**: To use sponsored fees, you must have sponsored token. The token issuer activated sponsored transactions. If these conditions are not met, you will be able to pay the transaction fee in Waves only.
-
-![](/_assets/sponsored_fee_01.png)
 
 The following window will appear.
 

@@ -2,9 +2,11 @@
 
 Open up your Waves wallet.
 
-Click on the DEX button ![](/_assets/dex_01.png).
+At the top-left menu click on the **Exchange**.
 
-Then, choose trading pair from the list. After that, the selected market will open.
+![](/_assets/dex_01.png)
+
+Then, choose trading pair from the list and selected market will open.
 
 ![](/_assets/dex_02.png)
 

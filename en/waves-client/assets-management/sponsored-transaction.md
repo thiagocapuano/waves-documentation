@@ -10,11 +10,13 @@ For these reasons, we implemented a completely new feature called Sponsored Tran
 
 Open up your Waves wallet.
 
-Go to the **Portfolio** and find your token.
+Go to the **Portfolio**.
 
-![](/_assets/sponsored_transaction_01.png)
+![](/_assets/token_creation_04.png)
 
-As soon as you find your token, click on the (![](/_assets/sponsored_transaction_02.png)) button and choose Enable Sponsorship.
+Find the required token and click on the ![](/_assets/token_reissue_02.png) button.
+
+Click on the **Enable Sponsorship**.
 
 ![](/_assets/sponsored_transaction_03.png)
 
