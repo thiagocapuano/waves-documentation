@@ -35,6 +35,7 @@
 * [Testnet](blockchain/testnet.md)
 * [Token](blockchain/token.md)
   * [Custom tokens](blockchain/token/custom-tokens.md)
+  * [Non-fungible token](blockchain/token/non-fungible-token.md)
   * [WAVES](blockchain/token/waves.md)
   * [Waves tokens](blockchain/token/waves-tokens.md)
   * [WAVELET](blockchain/token/wavelet.md)
