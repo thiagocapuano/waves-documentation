@@ -26,6 +26,7 @@
 * [Account script](blockchain/account-script.md)
 * [Address](blockchain/address.md)
 * [Alias](blockchain/alias.md)
+* [Asset](blockchain/asset.md)
 * [Asset script](blockchain/asset-script.md)
 * [Mainnet](blockchain/mainnet.md)
 * [Script](blockchain/script.md)
@@ -33,16 +34,19 @@
 * [Smart asset](blockchain/smart-asset.md)
 * [Testnet](blockchain/testnet.md)
 * [Token](blockchain/token.md)
-  * [WAVES](blockchain/token/waves.md)
-  * [WAVELET](blockchain/token/wavelet.md)
-  * [Waves tokens](blockchain/token/waves-tokens.md)
   * [Custom tokens](blockchain/token/custom-tokens.md)
+  * [Non-fungible token](blockchain/token/non-fungible-token.md)
+  * [WAVES](blockchain/token/waves.md)
+  * [Waves tokens](blockchain/token/waves-tokens.md)
+  * [WAVELET](blockchain/token/wavelet.md)
+  * [WCT](blockchain/token/wct.md)
 * [Transaction](blockchain/transaction.md)
 * [Transaction data structure](blockchain/transaction-data-structure.md)
 * [Transaction fee](blockchain/transaction-fee.md)
 * [Transaction proof](blockchain/transaction-proof.md)
 * [Transaction signature](blockchain/transaction-signature.md)
 * [Transaction type](blockchain/transaction-type.md)
+  * [Alias transaction](blockchain/transaction-type/alias-transaction.md)
   * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
@@ -56,7 +60,6 @@
     * [Account recovery](waves-client/account-management/restore-an-account.md)
     * [Ledger Nano S and Waves app](waves-client/account-management/ledger-nano.md)
     * [Waves Keeper](waves-client/account-management/waves-keeper.md)
-    * [Account migration](waves-client/account-management/account-migration.md)
     * [Signing in to your Account](waves-client/account-management/signing-in-to-your-account.md)
     * [Use your Waves address](waves-client/account-management/waves-address.md)
     * [Create a personal Alias](waves-client/account-management/creating-an-alias.md)
@@ -132,7 +135,17 @@
       * [Buying Waves using credit or debit card](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
-* [FAQ](waves-client/faq.md)
+
+## Waves DEX
+
+* [About Waves DEX](waves-dex/about-waves-dex.md)
+* [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
+* [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
+* [DEX protocol](waves-dex/dex-protocol.md)
+
+## FAQ
+
+  * [About](waves-client/faq.md)
   * [Suspicious transactions](waves-client/security/spam-transactions.md)
   * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
@@ -252,13 +265,6 @@
 * [Examples](waves-api-and-sdk/examples.md)
   * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
 
-## Waves DEX
-
-* [About Waves DEX](waves-dex/about-waves-dex.md)
-* [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
-* [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
-* [DEX protocol](waves-dex/dex-protocol.md)
-
 ## Waves Oracles
 
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
@@ -280,4 +286,3 @@
   * [Asset verification protocol](proposals/asset-verification-protocol.md)
   * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
   * [Sponsored transactions](proposals/sponsored-transactions.md)
-

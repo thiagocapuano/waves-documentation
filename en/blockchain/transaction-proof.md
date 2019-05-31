@@ -1,14 +1,14 @@
 # Transaction proof
 
-A **transaction proof** is an array of bytes that can be used to check the validity of a transaction.
+A **transaction proof** is an array of bytes that is used to check the validity of a transaction.
 
-An array of proofs can consist of multiple [transaction signatures](/blockchain/transaction-signature.md) (but not limited to only signatures).
+An array of proofs can consist of several [transaction signatures](/blockchain/transaction-signature.md) (but not limited to only signatures).
 
 One of the examples of proofs usage is multisignature which stores several transaction signatures from different accounts.
 
-Transactions with [data structures](/blockchain/transaction-data-structure.md) of versions 2 and above are signed by proofs instead of signatures.  
+Transactions with [data structures](/blockchain/transaction-data-structure.md) of version 2 and above are signed by proofs instead of signatures.
 
-> The number of proofs in the array cannot be more than 8
+> The number of proofs in the array cannot exceed 8
 
 ## The data structure of an array of `N` proofs
 
@@ -22,5 +22,5 @@ Transactions with [data structures](/blockchain/transaction-data-structure.md) o
 | 6 | 2nd proof bytes | Array of bytes | up to 64 | Array of bytes of the 2nd proof |
 | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... |
-| 5 | `N`-th proof length | Short | 2 | Length in bytes of the `N`-th proof, where `N` is the number of proofs in the array |
-| 6 | `N`-th proof bytes | Array of bytes | up to 64 | Array of bytes of the `N`-th proof, where `N` is the number of proofs in the array |
+| 2 × `N` + 1 | `N`-th proof length | Short | 2 | Length in bytes of the `N`-th proof |
+| 2 × `N` + 2 | `N`-th proof bytes | Array of bytes | up to 64 | Array of bytes of the `N`-th proof |
