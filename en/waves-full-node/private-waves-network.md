@@ -36,39 +36,52 @@ genesis-generator
   average-block-delay: 60s #average block delay
   timestamp: 1500635421931 #comment this to use the current time
 
-  # seed text -> share
-  # the sum of shares should be <= initial-balance
+  # the sum of shares should be = initial-balance
   distributions
   {
-    "foo0": 10000000000000
+    foo0 { # name for this account. Will be printed in generator's output
+      seed-text: "foo0"
+      nonce: 0
+      amount: 10000000000000000
+    }
   }
 }
 ```
 
 ## Fourth Step
 
-* Run the genesis block generator using `sbt "test:runMain tools.GenesisBlockGenerator src/test/resources/genesis.example.conf"` , Results will be like this:
+* Run the genesis block generator using `sbt "node/runMain com.wavesplatform.GenesisBlockGenerator src/test/resources/genesis.example.conf"` , Results will be like this:
 
 ```
 Addresses:
-(0):
+foo0:
  Seed text:           foo0
  Seed:                3csAfH
  Account seed:        58zgAnBg775J6NKd4qVtfeX3m5TBMeizHNY9STvm2N87
  Private account key: FYLXp1ecxQ6WCPD4axTotHU9RVfPCBLfSeKx1XSCyvdT
  Public account key:  GbGEY3XVc2ohdv6hQBukVKSTQyqP8rjQ8Kigkj6bL57S
  Account address:     3JfE6tjeT7PnpuDQKxiVNLn4TJUFhuMaaT5
-
 Settings:
 genesis {
   average-block-delay: 60000ms
   initial-base-target: 153722867
   timestamp: 1500635421931
   block-timestamp: 1500635421931
-  signature: "4xpkFL6TdaEwqZnDcuMVSei77rR5S8EpsEr3dkFMNoDCtxxhBVQCbzkeGwKLdyT5zcPumpNnqgybb3qeLV5QtEKv"
+  signature: "3NELFXiQqQoYUfgLba5YAS1z8gJLc19zfzSvmYRX9eLso4zGByRGDpWdL4cooHTocyi5boFiu6H7hyW3ukVGtswP"
   initial-balance: 10000000000000000
-  transactions = [{recipient: "3JfE6tjeT7PnpuDQKxiVNLn4TJUFhuMaaT5", amount: 10000000000000}]}
+  transactions = [
+    {recipient: "3JfE6tjeT7PnpuDQKxiVNLn4TJUFhuMaaT5", amount: 10000000000000000}
+  ]
+}
 ```
+
+* If you built a fat JAR, you can generate a genesis block through it. For example:
+
+```
+java -cp ./node/target/waves-all-0.17.2-grpc-27-g0fab715-DIRTY.jar com.wavesplatform.GenesisBlockGenerator node/src/test/resources/genesis.example.conf
+```
+
+The output will be the same.
 
 ## Fifth Step
 
@@ -113,15 +126,16 @@ waves
         max-transaction-time-back-offset = 120m
         max-transaction-time-forward-offset = 90m
       }
-      genesis 
-      {
-        average-block-delay: 60s
+      genesis {
+        average-block-delay: 60000ms
         initial-base-target: 153722867
         timestamp: 1500635421931
         block-timestamp: 1500635421931
-        signature: "4xpkFL6TdaEwqZnDcuMVSei77rR5S8EpsEr3dkFMNoDCtxxhBVQCbzkeGwKLdyT5zcPumpNnqgybb3qeLV5QtEKv"
+        signature: "3NELFXiQqQoYUfgLba5YAS1z8gJLc19zfzSvmYRX9eLso4zGByRGDpWdL4cooHTocyi5boFiu6H7hyW3ukVGtswP"
         initial-balance: 10000000000000000
-        transactions = [{recipient: "3JfE6tjeT7PnpuDQKxiVNLn4TJUFhuMaaT5", amount: 10000000000000}]
+        transactions = [
+          {recipient: "3JfE6tjeT7PnpuDQKxiVNLn4TJUFhuMaaT5", amount: 10000000000000000}
+        ]
       }
     }
   }

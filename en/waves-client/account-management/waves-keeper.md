@@ -56,9 +56,11 @@ After that, you'll see keeper main page.
 
 Here you can shortly **Copy address**, scan **QR** code which contains your deposit Waves address or find private data of your account by clicking on the ![](/_assets/waves_keeper_08.1.png).
 
-So, now you can open official [online app](https://client.wavesplatform.com) and import your account from the Waves keeper.
+## How to import an account from the Waves Keeper to Online client
 
-To do it, open the online app. On the main page click on the **Import accounts** and choose **Keeper Client**
+Open official [online app](https://client.wavesplatform.com)
+
+Open **Import** page [client.wavesplatform.com/import](https://client.wavesplatform.com/import) and click on the **Waves Keeper** button.
 
 ![](/_assets/waves_keeper_09.png)
 
@@ -66,7 +68,7 @@ After that, a new dialog box will open. Check **Account address** and **Account 
 
 ![](/_assets/waves_keeper_10.png)
 
-There you need to check the following data: Account address and request link. **Always check these data before confirmation**. If everything is correct click on the **Sign**.
+There you need to check the following data: **Account address** and **Request hash**. **Always check these data before confirmation**. If everything is correct click on the **Sign**.
 
 ![](/_assets/waves_keeper_11.png)
 
