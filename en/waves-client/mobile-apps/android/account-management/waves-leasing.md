@@ -1,6 +1,6 @@
 ## Introduction
 
-[**LPoS \(Leased Proof of Stake\)**](/platform-features/leased-proof-of-stake-lpos.md) gives you the opportunity to make the network stronger and safer while receiving more Waves and other assets as a reward for doing so. It's the so called **Leasing**.
+[**LPoS \(Leased Proof of Stake\)**](/blockchain/waves-protocol/leased-proof-of-stake-lpos.md) gives you the opportunity to make the network stronger and safer while receiving more Waves and other assets as a reward for doing so. It's the so called **Leasing**.
 
 Most people don't have 1000 WAVES to run their own node, so they are still able to help the whole project through leasing their Waves to someone who is able to run a node.
 
