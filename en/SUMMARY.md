@@ -28,6 +28,7 @@
 * [Alias](blockchain/alias.md)
 * [Asset](blockchain/asset.md)
 * [Asset script](blockchain/asset-script.md)
+* [dApp script](blockchain/dapp-script.md)
 * [Mainnet](blockchain/mainnet.md)
 * [Script](blockchain/script.md)
 * [Smart account](blockchain/smart-account.md)
