@@ -165,6 +165,7 @@
 
 * [О Waves DEX](waves-dex/waves-dex.md)
 * [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
+* [Поиск токена на бирже DEX используя Asset ID](waves-dex/asset-id.md)
 
 ## Часто задаваемые вопросы
 
