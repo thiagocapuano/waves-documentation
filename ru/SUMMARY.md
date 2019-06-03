@@ -38,6 +38,7 @@
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тестовая сеть](blockchain/testnet.md)
+* [Комиссия за транзакцию](blockchain/transaction-fee.md)
 * [Тип транзакции](blockchain/transaction-type.md)
   * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
