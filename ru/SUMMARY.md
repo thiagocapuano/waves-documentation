@@ -29,6 +29,7 @@
 * [Адрес](blockchain/address.md)
 * [Ассет](blockchain/asset.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
+* [Комиссия за транзакцию](blockchain/transaction-fee.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Псевдоним](blockchain/alias.md)
