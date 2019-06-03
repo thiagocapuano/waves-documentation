@@ -1,6 +1,6 @@
 # Transaction Fee
 
-A **transaction fee** is a fee that account owner pays to send a [transaction](/blockchain/transaction).
+A **transaction fee** is a fee that account owner pays to send a [transaction](/blockchain/transaction.md).
 
 A sender can specify any amount of fee but not less than a certain number. The larger the fee is, the quicker the transaction will be added to the new block.
 
