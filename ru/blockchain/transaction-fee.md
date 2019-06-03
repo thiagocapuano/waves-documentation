@@ -22,4 +22,4 @@
 | Транзакция установки скрипта ассета | 15 | 1 | |
 
 > Если [смарт-аккаунт](/blockchain/smart-account.md) отправляет [смарт-ассет](/blockchain/smart-asset.md), то комиссия удваивается.
-Если транзакция валидируется [скриптом аккаунта](/blockchain/account-script.md) или [скриптом ассета](/blockchain/account-script.md), то комиссия увеличивается на 0,004 WAVES
+Если транзакция валидируется [скриптом аккаунта](/blockchain/account-script.md) или [скриптом ассета](/blockchain/asset-script.md), то комиссия увеличивается на 0,004 WAVES

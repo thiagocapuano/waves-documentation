@@ -1,40 +1,24 @@
 # Transaction Fee
 
-There are currently 13 different types of transactions in the Waves Blockchain. the following table shows the minimal required fees in non-scripted case \(accounts don’t have scripts, assets don’t have scripts\) and for each time the script is called, total transaction’s fee increases by 0.004 Waves.
+A **transaction fee** is a fee that account owner pays to send a [transaction](/blockchain/transaction).
 
-**Note. **If a scripted account transfers a smart asset, then the fee is increased twice \(the fee increases _**+0.004**_ every time the transaction is validated by account’s script or asset’s script\), you can check here the [_**transactions examples**_](../waves-api-and-sdk/waves-node-rest-api/example-transactions.md).
+A sender can specify any amount of fee but not less than a certain number. The larger the fee is, the quicker the transaction will be added to the new block.
 
-| Transaction | Minimal Transaction Fee in WAVES |
-| :--- | :--- |
-| Issue | 1 |
-| Transfer | 0.001 |
-| Reissue | 1 |
-| Burn | 0.001 |
-| Exchange | 0.003 |
-| Lease | 0.001 |
-| Cancel Lease | 0.001 |
-| Alias | 0.001 |
-| Mass Transfer | 0.001 + 0.0005\*N, rounded up to 0.001 |
-| Data | 0.001 per kilobyte, rounded up |
-| Set Script | 0.01 |
-| Set Sponsorship | 1 |
-| Set Asset Script | 1 |
+| Transaction type | Transaction type ID | A minimum transaction fee in WAVES | Comments |
+| :--- | :--- | :--- | :--- |
+| [Alias transaction](/blockchain/transaction-type/alias-transaction.md) | 10 | 0.001 | |
+| [Burn transaction](/blockchain/transaction-type/burn-transaction.md) | 6 | 0.001 | |
+| Data transaction | 12 | 0.001 per kilobyte | |
+| Exchange transaction | 7 | 0.003 | |
+| Invoke script transaction | 16 | 0.005 + `B` + `C` + 0.004 × `D` | If transaction is sent from a [smart account](/blockchain/smart-account.md), then `B` = 0.004, otherwise `B` = 0. <br>If transaction has a payment attached, then `C` = 0.004, otherwise `C` = 0. <br>`D` is a number of transfers in a dApp |
+| Issue transaction | 3 | 1 | |
+| Lease cancel transaction | 9 | 0.001 | |
+| Lease transaction | 8 | 0.001 | |
+| Mass transfer transaction | 11 | 0.001 + 0.0005 × N | `N` is the number of transfers inside of the transaction |
+| Reissue transaction | 5 | 1 | |
+| Set asset script transaction | 15 | 1 | |
+| Set script transaction | 13 | 0.01 | |
+| Sponsorship transaction | 14 | 1 | |
+| Transfer transaction | 4 | 0.001 | |
 
-## Fee Calculation with Smart Trading Feature
-
-The accounts pay the matcher for orders placement, then the matcher pays the fee when an _**ExchangeTransaction**_ is put to the blockchain and it doesn’t matter if the accounts are smart or not. But if the matcher is a SmartAccount \(has a script\) then the fee for the matcher is increased by 0.004.
-
-* If an Asset Pair contains a Smart Asset then the fee is increased by** + 0.004** \(**+0.008** if both assets are smart\).
-* It **doesn't** matter if any of the accounts is a Smart Account, Smart Accounts pay in the same way as non-smart Accounts do.
-* Smart Accounts **don’t** pay extra** 0.004** for Order placements.
-* Exchange Transaction’s fee is **not** increased by **+0.004** if any of the accounts is a Smart Account.
-
-### **Examples**
-
-* plain transfer fee is **0.001** WAVES, if user makes account scripted or smart asset transfer, the fee should be 0.005.waves, but if user will transfer smart assets from scripted account the final fee is **0.009** WAVES.
-* Exchange transaction fee is **0.003** WAVES, if matcher also can be scripted, this makes fee as **0.007** WAVES .
-* the heaviest case is transaction created by scripted matcher where both orders from scripted accounts and assets pair uses smart assets: _**Firstly,**_ Both accounts pay to the matcher \(order.fee + 2\*smart asset fee = **0.003** + **2\*0.004** = **0.011**\).
-  _**Secondly,**_ the ExchangeTransaction’s fee will be \(exchangeTx + scripedMatcherFee + 2\*smartAssetFee = **0.003** + **0.004** + **2\*0.004** = **0.015**\) **which is payed by the matcher**
-
-
-
+> If a smart account transfers a [smart asset](/blockchain/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](/blockchain/account-script.md) or an [asset script](/blockchain/asset-script.md), then the fee is increased by 0.004 WAVES
