@@ -10,7 +10,7 @@ A sender can specify any amount of fee but not less than a certain number. The l
 | [Burn transaction](/blockchain/transaction-type/burn-transaction.md) | 6 | 0.001 | |
 | Data transaction | 12 | 0.001 per kilobyte | |
 | Exchange transaction | 7 | 0.003 | |
-| Invoke script transaction | 16 | 0.005 + `B` + `C` + 0.004 × `D` | If transaction is sent from a [smart account](/blockchain/smart-account.md), then `B` = 0.004, otherwise `B` = 0. If transaction has a payment attached, then `C` = 0.004, otherwise `C` = 0. `D` is a number of transfers in a dApp (1 ≤ `D`≤ 10 ) |
+| Invoke script transaction | 16 | 0.005 + `B` + `C` + 0.004 × `D` | If transaction is sent from a [smart account](/blockchain/smart-account.md), then `B` = 0.004, otherwise `B` = 0. <br>If transaction has a payment attached, then `C` = 0.004, otherwise `C` = 0. <br>`D` is a number of transfers in a dApp |
 | Issue transaction | 3 | 1 | |
 | Lease cancel transaction | 9 | 0.001 | |
 | Lease transaction | 8 | 0.001 | |
