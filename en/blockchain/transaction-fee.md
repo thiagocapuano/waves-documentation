@@ -21,4 +21,4 @@ A sender can specify any amount of fee but not less than a certain number. The l
 | Sponsorship transaction | 14 | 1 | |
 | Transfer transaction | 4 | 0.001 | |
 
-> If a smart account transfers a [smart asset](/blockchain/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](https://confluence.wavesplatform.com/display/WDOCS/Account+script) or an [asset script](https://confluence.wavesplatform.com/display/WDOCS/Asset+script), then the fee is increased by 0.004 WAVES
+> If a smart account transfers a [smart asset](/blockchain/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](/blockchain/account-script.md) or an [asset script](/blockchain/asset-script.md), then the fee is increased by 0.004 WAVES
