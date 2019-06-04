@@ -6,11 +6,11 @@
 
 | Field order number | Field name | JSON field name | Field type | Field size in bytes | Field description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag | Byte  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/transaction-data-structure.md) of version 2 or above.<br> The value must be 0 |
+| 1 | Version flag| | Byte  | 1 | Indicates that this is a transaction with the [data structure](/blockchain/transaction-data-structure.md) of version 2 or above.<br> The value must be 0 |
 | 2 | Transaction type | type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). <br> The value must be 10 |
 | 3 | Version number| version | Byte | 1 | Version number of the data structure of the transaction.<br> The value must be  2 |
 | 4 | Public key of sender |senderPublicKey| Array of bytes | 32 | Account public key of the sender |
-| 5.1 | Alias length | Short | 2 | Length of the alias \(number of characters in the alias name\) |
+| 5.1 | Alias length| | Short | 2 | Length of the alias \(number of characters in the alias name\) |
 | 5.2 | Alias |alias| Array of bytes | from 4 to 30 | Array of bytes of alias |
 | 6 | Fee| fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 7 | Timestamp | timestamp | Long | 8 | Unix time of transaction publication to the network |
