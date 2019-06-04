@@ -29,6 +29,7 @@
 * [Адрес](blockchain/address.md)
 * [Ассет](blockchain/asset.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
+* [Комиссия за транзакцию](blockchain/transaction-fee.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Псевдоним](blockchain/alias.md)
@@ -165,6 +166,7 @@
 
 * [О Waves DEX](waves-dex/waves-dex.md)
 * [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
+* [Поиск токена на бирже DEX используя Asset ID](waves-dex/asset-id.md)
 
 ## Часто задаваемые вопросы
 
