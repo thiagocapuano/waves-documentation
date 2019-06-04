@@ -40,6 +40,7 @@
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тестовая сеть](blockchain/testnet.md)
 * [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция данных](blockchain/data-transaction.md/
   * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
 * [Токен](blockchain/token.md)
