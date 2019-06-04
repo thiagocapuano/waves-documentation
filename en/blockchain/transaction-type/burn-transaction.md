@@ -11,7 +11,7 @@
 | 3 | Version number | version | Byte | 1 | Version number of the data structure of the transaction.  <br>The value has to be equal to 2 |
 | 4 | Network ID | chain id|Byte | 1 | Determines the network where the transaction will be published to. <br>84 for [testnet](/blockchain/testnet.md), 87 for [mainnet](/blockchain/mainnet.md) |
 | 5 | Public key of sender | senderPublicKey | Array of bytes | 32 | Account public key of the sender |
-| 6 | Token ID | assetId| Array of bytes | 32 | ID of token to burn |
+| 6 | Token ID | assetId| Array of bytes | 32 | ID of the token to burn |
 | 7 | Amount | amount | Long | 8 | Amount of tokens to burn |
 | 8 | Fee | fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 9 | Timestamp | timestamp | Long | 8 | Unix time of transaction publication to the network |
@@ -44,8 +44,8 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | Transaction type | Byte | 1 | ID of the transaction type.The value has to be equal to 6 |
 | 2 | Sender's public key | Array of bytes | 32 | Public key of the sender's account |
-| 3 | Asset ID | Array of bytes | 32 | ID of the asset to be burned |
-| 4 | Quantity | Long | 8 | ID of the asset to burn |
+| 3 | Token ID | Array of bytes | 32 | ID of the token to burn |
+| 4 | Amount | Long | 8 | ID of the asset to burn |
 | 5 | Fee | Long | 8 | Transaction fee in WAVELET |
 | 6 | Timestamp | Long | 8 | Unix time of transaction publication to the network |
 | 7 | Signature | Array of bytes | 64 | [Transaction signature](/blockchain/transaction-signature.md) |
