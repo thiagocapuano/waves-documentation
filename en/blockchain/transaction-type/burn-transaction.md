@@ -45,7 +45,7 @@
 | 1 | Transaction type | Byte | 1 | ID of the transaction type.The value has to be equal to 6 |
 | 2 | Sender's public key | Array of bytes | 32 | Public key of the sender's account |
 | 3 | Token ID | Array of bytes | 32 | ID of the token to burn |
-| 4 | Amount | Long | 8 | ID of the asset to burn |
+| 4 | Amount | Long | 8 | Amount of tokens to burn |
 | 5 | Fee | Long | 8 | Transaction fee in WAVELET |
 | 6 | Timestamp | Long | 8 | Unix time of transaction publication to the network |
 | 7 | Signature | Array of bytes | 64 | [Transaction signature](/blockchain/transaction-signature.md) |
