@@ -29,7 +29,7 @@ See more abount Waves DEX:
 
 * [Start trading on the Waves DEX](/waves-dex/start-trading-on-the-waves-dex.md)
 * [iOS: Start trading on the Waves DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
-* [Android: Start trading on the Waves DEX](/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
+* [Android: Start trading on the Waves DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
 
 ___
 
