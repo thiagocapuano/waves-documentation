@@ -83,7 +83,7 @@
       },
       { 
          "key":"My poem",
-         "value":"Oh waves!",
+         "value":"Oh Waves!",
          "type":"string"
       }
    ],
