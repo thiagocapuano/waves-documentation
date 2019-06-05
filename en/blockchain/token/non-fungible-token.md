@@ -10,8 +10,8 @@ NFT is most commonly used in games.
 
 ## Issue of non-fungible tokens
 
-The issue of a single non-fungible token is made by an issue transaction; for such a transaction, the value of the "Amount" field is one, and the "Number of decimal places" field is zero.
+The issue of a single non-fungible token is made by an issue transaction; for such a transaction, the value of the "Amount" field equals 1, and the values of the fields "Number of decimal places" and "Reissue flag" equal 0.
+
+To issue NFTs you can also use the [waves-games](https://www.npmjs.com/package/@waves/waves-games) npm package.
 
 The fee for the issue of a single NFT is 0.001 [WAVES](/blockchain/token/waves.md).
-
-For a one-time issue of a large number of NFTs, you can use the [waves-games](https://www.npmjs.com/package/@waves/waves-games) npm package.
