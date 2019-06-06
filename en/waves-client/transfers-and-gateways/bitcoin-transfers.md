@@ -64,7 +64,7 @@ After you have completed the form, click on the **Continue** button.
 ![](/_assets/bitcoin_transfers_07.png)
 
 The following pop-up will appear.  
-To complete the operation, click on the **Confirm** or **Back** to repeat the process.
+To complete the operation, click on the **Send** or **Back** to repeat the process.
 
 ![](/_assets/bitcoin_transfers_08.png)
 
