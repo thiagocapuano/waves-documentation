@@ -22,11 +22,11 @@
 Значение поля `key` формируется конкатенацией строк:
 
 ```js
-"assetRating_" + assetId
+"assetRating_" + tokenID
 ```
 
 где
 
 `"assetRating_"` — строковая константа,
 
-`assetId` — ID токена.
+`tokenID` — ID токена.

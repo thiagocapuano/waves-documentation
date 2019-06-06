@@ -1,27 +1,32 @@
 # Token Rating's oracle data transaction
 
-[Token Rating's oracle](https://oracles.wavesexplorer.com/oracle/Dqrh9Pok57XUTEEynpBKAUWRt5EUpSzpsGmo5cMnWynM) daily sends to the Waves blockchain a data transaction with a rating of tokens whose rating has changed over the past 24 hours. No more than 100 changes are included in a single transaction, therefore, if there are more changes, several transactions will be sent. The `data` field of a transaction is an array of key-value pairs. The name of each key is formed by concatenation of strings:
+Once a day, the [oracle](/waves-oracles/oracle.md) [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) sends to the Waves blockchain a [data transaction](/blockchain/transaction-type/data-transaction.md) with the token ratings, that have been changed in the past 24 hours. No more than 100 changes are included in one data transaction, therefore, if there are more changes, then several transactions will be sent.
 
-```
-"assetRating_" + assetId
-```
-where
+An example of the `data` field of such a transaction:
 
-`"assetRating_"` is a string constant,
-
-`assetId` is the identifier of the asset.
-
-An example of the contents of the `data` field serialized in JSON:
-
-```
-{
+```js
+"data": [
+  {
     "key": "assetRating_62LyMjcr2DtiyF5yVXFhoQ2q414VPPJXjsNYp72SuDCH",
     "type": "string",
     "value": "4.5"
-}, {
+  }, {
     "key": "assetRating_4QUMfcxQB112bZdyoAPrp1oTVN4cBA68NpGkD7W3n33i",
     "type": "string",
     "value": "3.9"
-}
-...
+  },
+  ...
+]
 ```
+
+The value of the `key` field is formed by concatenation of strings:
+
+```js
+"assetRating_" + tokenID
+```
+
+где
+
+`"assetRating_"` — строковая константа,
+
+`tokenID` — ID токена.
