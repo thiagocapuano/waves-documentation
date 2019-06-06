@@ -89,4 +89,4 @@ R = (5 × 3 610 + 4 × 7) / (3 610 + 7) = 4,998 (округляется до 5,0
 
 Количество WCT, выставивших оценку 5 будет 3 610, оценку 4 — 7:
 
-<img src="img/token-rating.png" alt="faucet" width="350"/>
+<img src="img/rating.png" alt="faucet" width="350"/>
