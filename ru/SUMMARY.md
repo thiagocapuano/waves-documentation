@@ -93,6 +93,7 @@
 * [Переводы и шлюзы](waves-client/wallet-management.md)
   * [Переводы Waves](waves-client/transfers-and-gateways/waves-transfers.md)
   * [Переводы Ассетов](waves-client/transfers-and-gateways/asset-transfers.md)
+  * [Переводы Vostok](waves-client/transfers-and-gateways/vostok-transfers.md)
   * [Переводы Bitcoin](waves-client/transfers-and-gateways/bitcoin-transfers.md)
   * [Переводы Ethereum](waves-client/transfers-and-gateways/ethereum-transfers.md)
   * [Переводы Litecoin](waves-client/transfers-and-gateways/litecoin-transfers.md)

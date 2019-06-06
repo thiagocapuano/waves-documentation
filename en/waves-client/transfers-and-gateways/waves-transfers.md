@@ -35,7 +35,7 @@ After you have entered all necessary information, click on the **Continue** butt
 
 The following pop-up will appear.
 
-Re-check entered data and click on the **Confirm** button.
+Re-check entered data and click on the **Send** button.
 
 ![](/_assets/waves_transfers_03.png)
 

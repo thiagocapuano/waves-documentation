@@ -77,6 +77,7 @@
   * [Transfers and Gateways](waves-client/wallet-management.md)
     * [Waves transfers](waves-client/transfers-and-gateways/waves-transfers.md)
     * [Asset transfers](waves-client/transfers-and-gateways/asset-transfers.md)
+    * [Vostok transfers](waves-client/transfers-and-gateways/vostok-transfers.md)
     * [Bitcoin transfers](waves-client/transfers-and-gateways/bitcoin-transfers.md)
     * [Ethereum transfers](waves-client/transfers-and-gateways/ethereum-transfers.md)
     * [Litecoin transfers](waves-client/transfers-and-gateways/litecoin-transfers.md)
