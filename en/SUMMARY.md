@@ -275,7 +275,8 @@
 ## Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Waves Token Rating user interface overview](waves-token-rating/waves-token-rating-user-interface-overview.md)
+* [User interface](waves-token-rating/user-interface.md)
+* [Rating formula](waves-token-rating/rating-formula.md)
 * [User score data transaction](waves-token-rating/user-score-data-transaction.md)
 * [Token Rating's oracle data transaction](waves-token-rating/token-rating-oracle-data-transaction.md)
 
