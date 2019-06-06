@@ -138,6 +138,17 @@
       * [Buying Waves using credit or debit card](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
+* [FAQ](waves-client/faq.md)
+    * [Suspicious transactions](waves-client/security/spam-transactions.md)
+    * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
+    * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
+    * [I have enough Waves but I can't create an order.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
+    * [How to get enough Waves for the fees?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
+    * [Order execution time.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
+    * [What is a payment gateway.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
+    * [Ethereum transfers with smart-contracts.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
+    * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
+    * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
 ## Waves DEX
 
@@ -145,20 +156,6 @@
 * [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
 * [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
 * [DEX protocol](waves-dex/dex-protocol.md)
-
-## FAQ
-
-  * [About](waves-client/faq.md)
-  * [Suspicious transactions](waves-client/security/spam-transactions.md)
-  * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
-  * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
-  * [I have enough Waves but I can't create an order.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
-  * [How to get enough Waves for the fees?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
-  * [Order execution time.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
-  * [What is a payment gateway.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
-  * [Ethereum transfers with smart-contracts.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
-  * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
-  * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
 ## Waves Explorer
 
