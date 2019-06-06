@@ -24,8 +24,6 @@ Copy the shown Vostok address or Scan QR Code and send a payment.
 
 ![](/_assets/vostok_transfers_02.png)
 
-**Note**: Processing may take up to 120 minutes.
-
 ## How to send Vostok
 
 Open your Waves wallet,  
