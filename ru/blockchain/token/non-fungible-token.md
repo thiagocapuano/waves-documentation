@@ -14,4 +14,4 @@
 
 Для выпуска NFT вы можете также использовать npm-пакет [waves-games](https://www.npmjs.com/package/@waves/waves-games).
 
-Комиссия за выпуск одного NFT составляет 0.001 [WAVES](/blockchain/token/waves.md).
+Комиссия за выпуск одного NFT составляет 0,001 [WAVES](/blockchain/token/waves.md).
