@@ -25,8 +25,8 @@ The value of the `key` field is formed by concatenation of strings:
 "assetRating_" + tokenID
 ```
 
-где
+where
 
-`"assetRating_"` — строковая константа,
+`"assetRating_"` is a string constant,
 
-`tokenID` — ID токена.
+`tokenID` is the ID of the token.
