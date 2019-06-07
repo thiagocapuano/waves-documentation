@@ -19,7 +19,7 @@
   * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
   * [Transactions structure](blockchain/waves-protocol/transactions-structure.md)
   * [Versioned transactions](blockchain/waves-protocol/versioned-transactions.md)
-  * [Leased Proof of Stake \(LPoS\)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
+  * [Leased Proof of Stake (LPoS)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
   * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
   * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
@@ -28,6 +28,7 @@
 * [Alias](blockchain/alias.md)
 * [Asset](blockchain/asset.md)
 * [Asset script](blockchain/asset-script.md)
+* [dApp](blockchain/dapp.md)
 * [dApp script](blockchain/dapp-script.md)
 * [Mainnet](blockchain/mainnet.md)
 * [Script](blockchain/script.md)
@@ -49,6 +50,7 @@
 * [Transaction type](blockchain/transaction-type.md)
   * [Alias transaction](blockchain/transaction-type/alias-transaction.md)
   * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
+  * [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
@@ -76,6 +78,7 @@
   * [Transfers and Gateways](waves-client/wallet-management.md)
     * [Waves transfers](waves-client/transfers-and-gateways/waves-transfers.md)
     * [Asset transfers](waves-client/transfers-and-gateways/asset-transfers.md)
+    * [Vostok transfers](waves-client/transfers-and-gateways/vostok-transfers.md)
     * [Bitcoin transfers](waves-client/transfers-and-gateways/bitcoin-transfers.md)
     * [Ethereum transfers](waves-client/transfers-and-gateways/ethereum-transfers.md)
     * [Litecoin transfers](waves-client/transfers-and-gateways/litecoin-transfers.md)
@@ -121,12 +124,12 @@
       * [Use your Waves address](waves-client/mobile-apps/android/account-management/waves-address.md)
       * [Create a personal Alias](waves-client/mobile-apps/android/account-management/creating-an-alias.md)
       * [Lease Your Waves tokens](waves-client/mobile-apps/android/account-management/waves-leasing.md)
-    * [ Assets Management](waves-client/mobile-apps/android/assets-management.md)
+    * [Assets Management](waves-client/mobile-apps/android/assets-management.md)
       * [Token burning](waves-client/mobile-apps/android/assets-management/burn-an-asset.md)
     * [Transfers and gateways](waves-client/mobile-apps/android/wallet-management.md)
       * [Waves transfers](waves-client/mobile-apps/android/transfers-and-gateways/waves-transfers.md)
       * [Asset transfers](waves-client/mobile-apps/android/transfers-and-gateways/asset-transfers.md)
-      * [ Bitcoin transfers](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-transfers.md)
+      * [Bitcoin transfers](waves-client/mobile-apps/android/transfers-and-gateways/bitcoin-transfers.md)
       * [Ethereum transfers](waves-client/mobile-apps/android/transfers-and-gateways/ethereum-transfers.md)
       * [Litecoin transfers](waves-client/mobile-apps/android/transfers-and-gateways/litecoin-transfers.md)
       * [Zcash transfers](waves-client/mobile-apps/android/transfers-and-gateways/zcash-transfers.md)
@@ -136,6 +139,17 @@
       * [Buying Waves using credit or debit card](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
+* [FAQ](waves-client/faq.md)
+    * [Suspicious transactions](waves-client/security/spam-transactions.md)
+    * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
+    * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
+    * [I have enough Waves but I can't create an order.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
+    * [How to get enough Waves for the fees?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
+    * [Order execution time.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
+    * [What is a payment gateway.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
+    * [Ethereum transfers with smart-contracts.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
+    * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
+    * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
 ## Waves DEX
 
@@ -144,24 +158,10 @@
 * [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
 * [DEX protocol](waves-dex/dex-protocol.md)
 
-## FAQ
-
-  * [About](waves-client/faq.md)
-  * [Suspicious transactions](waves-client/security/spam-transactions.md)
-  * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
-  * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
-  * [I have enough Waves but I can't create an order.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
-  * [How to get enough Waves for the fees?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
-  * [Order execution time.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
-  * [What is a payment gateway.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
-  * [Ethereum transfers with smart-contracts.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
-  * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
-  * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
-
 ## Waves Explorer
 
 * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Account balance top up in testnet](waves-explorer/account-balance-top-up-in-testnet.md)
+* [Address balance top up in testnet](waves-explorer/address-balance-top-up-in-testnet.md)
 
 ## RIDE
 
@@ -274,8 +274,9 @@
 ## Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Waves Token Rating user interface overview](waves-token-rating/waves-token-rating-user-interface-overview.md)
-* [User score data transaction](waves-token-rating/user-score-data-transaction.md)
+* [User interface](waves-token-rating/user-interface.md)
+* [Rating formula](waves-token-rating/rating-formula.md)
+* [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Token Rating's oracle data transaction](waves-token-rating/token-rating-oracle-data-transaction.md)
 
 ## Resources

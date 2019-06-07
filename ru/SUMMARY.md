@@ -40,6 +40,8 @@
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тестовая сеть](blockchain/testnet.md)
 * [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
+  * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
   * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
 * [Токен](blockchain/token.md)
@@ -53,7 +55,7 @@
 ## Waves Explorer
 
 * [О Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
+* [Пополнение баланса адреса в тестовой сети](waves-explorer/address-balance-top-up-in-testnet.md)
 
 ## Waves Keeper
 
@@ -93,6 +95,7 @@
 * [Переводы и шлюзы](waves-client/wallet-management.md)
   * [Переводы Waves](waves-client/transfers-and-gateways/waves-transfers.md)
   * [Переводы Ассетов](waves-client/transfers-and-gateways/asset-transfers.md)
+  * [Переводы Vostok](waves-client/transfers-and-gateways/vostok-transfers.md)
   * [Переводы Bitcoin](waves-client/transfers-and-gateways/bitcoin-transfers.md)
   * [Переводы Ethereum](waves-client/transfers-and-gateways/ethereum-transfers.md)
   * [Переводы Litecoin](waves-client/transfers-and-gateways/litecoin-transfers.md)
@@ -199,6 +202,7 @@
 ## Waves Token Rating
 
 * [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Обзор пользовательского интерфейса Waves Token Rating](waves-token-rating/waves-token-rating-user-interface-overview.md)
-* [Транзакция данных оценки пользователя](waves-token-rating/user-score-data-transaction.md)
+* [Интерфейс пользователя](waves-token-rating/user-interface.md)
+* [Формула рейтинга](waves-token-rating/rating-formula.md)
+* [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)

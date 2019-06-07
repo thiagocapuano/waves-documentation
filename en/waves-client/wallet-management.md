@@ -4,6 +4,7 @@ Transfers and gateways chapter includes all details about send and deposit opera
 
 * [_**Waves transfers**_](transfers-and-gateways/waves-transfers.md)
 * [_**Asset transfers**_](transfers-and-gateways/asset-transfers.md)
+* [_**Vostok transfers**_](transfers-and-gateways/vostok-transfers.md)
 * [_**Bitcoin transfers**_](transfers-and-gateways/bitcoin-transfers.md)
 * [_**Ethereum transfers**_](transfers-and-gateways/ethereum-transfers.md)
 * [_**Litecoin transfers**_](transfers-and-gateways/litecoin-transfers.md)
