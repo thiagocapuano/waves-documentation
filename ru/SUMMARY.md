@@ -40,6 +40,7 @@
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тестовая сеть](blockchain/testnet.md)
 * [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
   * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
@@ -54,7 +55,7 @@
 ## Waves Explorer
 
 * [О Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
+* [Пополнение баланса адреса в тестовой сети](waves-explorer/address-balance-top-up-in-testnet.md)
 
 ## Waves Keeper
 

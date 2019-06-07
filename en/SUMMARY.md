@@ -50,6 +50,7 @@
 * [Transaction type](blockchain/transaction-type.md)
   * [Alias transaction](blockchain/transaction-type/alias-transaction.md)
   * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
+  * [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
@@ -160,7 +161,7 @@
 ## Waves Explorer
 
 * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Account balance top up in testnet](waves-explorer/account-balance-top-up-in-testnet.md)
+* [Address balance top up in testnet](waves-explorer/address-balance-top-up-in-testnet.md)
 
 ## RIDE
 
