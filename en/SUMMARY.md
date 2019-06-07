@@ -50,6 +50,7 @@
 * [Transaction type](blockchain/transaction-type.md)
   * [Alias transaction](blockchain/transaction-type/alias-transaction.md)
   * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
+  * [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
