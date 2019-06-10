@@ -13,13 +13,3 @@
 - Платформа построена на базе Scorex.
 
 **Примечание:**  [**Здесь**](https://docs.wavesplatform.com/ru/overview/how-to-use-this-guide.html) вы можете найти инструкции по пользованию данным руководством.
-
-## Changelog
-
-### June 1 — June 7
-
-#### Added pages
-
-**Blockchain**
-
-- [Data transaction](https://docs.wavesplatform.com/ru/blockchain/transaction-type/data-transaction.html)
