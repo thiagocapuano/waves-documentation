@@ -1,13 +1,14 @@
 <div style="overflow-x:auto;">
   <h1>Built-in functions</h1>
 <table border="1">
-<tr>
-   <th>Function Name</th>
-   <th>Cost(complexity)</th>
-   <th>Description</th>
-   <th>Params</th>
-   <th>Return Type</th>
- </tr>
+  <tr>
+    <th>Function Name</th>
+    <th>Cost(complexity)</th>
+    <th>Description</th>
+    <th>Params</th>
+    <th>Return Type</th>
+  </tr>
+
 <tr><td>fraction</td>
 <td>1</td>
 <td>Multiply and dividion with big integer intermediate representation</td>
@@ -388,6 +389,42 @@
 <td>  T
 </td>
 </tr>
+<tr><td>valueWithErrorMessage</td>
+<td>13</td>
+<td>Extract value from option or fail with message</td>
+<td>
+<table>
+<tr><td>@a</td>
+<td>  OPTION[T]
+</td>
+<td>Optional value</td></tr>
+<tr><td>@msg</td>
+<td>  String
+</td>
+<td>Error message</td></tr>
+</table>
+</td>
+<td>  T
+</td>
+</tr>
+tr><td>extractWithErrorMessage</td>
+<td>13</td>
+<td>Extract value from option or fail with message</td>
+<td>
+<table>
+<tr><td>@a</td>
+<td>  OPTION[T]
+</td>
+<td>Optional value</td></tr>
+<tr><td>@msg</td>
+<td>  String
+</td>
+<td>Error message</td></tr>
+</table>
+</td>
+<td>  T
+</td>
+</tr>
 <tr><td>cons</td>
 <td>2</td>
 <td>Construct a new List[T]</td>
@@ -404,24 +441,6 @@
 </table>
 </td>
 <td>  LIST[]
-</td>
-</tr>
-<tr><td>ensure</td>
-<td>16</td>
-<td>Ensure parameter is true</td>
-<td>
-<table>
-<tr><td>@b</td>
-<td>  <a href="#Boolean">Boolean</a>
-</td>
-<td>condition</td></tr>
-<tr><td>@msg</td>
-<td>  <a href="#String">String</a>
-</td>
-<td>error message</td></tr>
-</table>
-</td>
-<td>  <a href="#Boolean">Boolean</a>
 </td>
 </tr>
 <tr><td>toUtf8String</td>
@@ -556,6 +575,74 @@
 <td>  <a href="#Int">Int</a>
 </td>
 </tr>
+<tr><td>pow</td>
+<td>100</td>
+<td>Math pow</td>
+<td>
+<table>
+<tr><td>base</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>bases value</td></tr>
+<tr><td>bp</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>bases decimal</td></tr>
+<tr><td>exponent</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>exponents value</td></tr>
+<tr><td>ep</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>exponents decimal</td></tr>
+<tr><td>rp</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>results decimal</td></tr>
+<tr><td>round</td>
+<td>  <a href="#Down">Down</a> <a href="#Up">Up</a> <a href="#HalfUp">HalfUp</a> <a href="#HalfDown">HalfDown</a> <a href="#Ceiling">Ceiling</a> <a href="#Floor">Floor</a> <a href="#HalfEven">HalfEven</a>
+</td>
+<td>round method</td></tr>
+</table>
+</td>
+<td>  <a href="#Int">Int</a>
+</td>
+</tr>
+<tr><td>log</td>
+<td>100</td>
+<td>Math log</td>
+<td>
+<table>
+<tr><td>value</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>value</td></tr>
+<tr><td>ep</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>value decimal</td></tr>
+<tr><td>base</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>bases value</td></tr>
+<tr><td>bp</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>bases decimal</td></tr>
+<tr><td>rp</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>results decimal</td></tr>
+<tr><td>round</td>
+<td>  <a href="#Down">Down</a> <a href="#Up">Up</a> <a href="#HalfUp">HalfUp</a> <a href="#HalfDown">HalfDown</a> <a href="#Ceiling">Ceiling</a> <a href="#Floor">Floor</a> <a href="#HalfEven">HalfEven</a>
+</td>
+<td>round method</td></tr>
+</table>
+</td>
+<td>  <a href="#Int">Int</a>
+</td>
+</tr>
 <tr><td>keccak256</td>
 <td>10</td>
 <td>256 bit Keccak/SHA-3/TIPS-202</td>
@@ -676,34 +763,88 @@
 <td>  <a href="#ByteVector">ByteVector</a>
 </td>
 </tr>
-<tr><td>transactionById</td>
-<td>500</td>
-<td>Lookup transaction</td>
+<tr><td>rsaVerify</td>
+<td>100</td>
+<td>check RSA signature</td>
 <td>
 <table>
-<tr><td>id</td>
+<tr><td>digest</td>
+<td>  <a href="#NOALG">NOALG</a> <a href="#MD5">MD5</a>
+<a href="#SHA1">SHA1</a>
+<a href="#SHA224">SHA224</a>
+<a href="#SHA256">SHA256</a>
+<a href="#SHA384">SHA384 </a>
+<a href="#SHA512">SHA512</a>
+<a href="#SHA3224">SHA3224</a>
+<a href="#SHA3256">SHA3256</a>
+<a href="#SHA3384">SHA3384</a>
+<a href="#SHA3512">SHA3512</a>
+</td>
+<td>digest algorithm</td></tr>
+<tr><td>message</td>
 <td>  <a href="#ByteVector">ByteVector</a>
 </td>
-<td>transaction Id</td></tr>
+<td>value</td></tr>
+<tr><td>sig</td>
+<td>  <a href="#ByteVector">ByteVector</a>
+</td>
+<td>signature</td></tr>
+<tr><td>pub</td>
+<td>  <a href="#ByteVector">ByteVector</a>
+</td>
+<td>public key</td></tr>
 </table>
 </td>
-<td>   <a href="#Unit">Unit</a>
-   <a href="#GenesisTransaction">GenesisTransaction</a>
-   <a href="#PaymentTransaction">PaymentTransaction</a>
-   <a href="#ReissueTransaction">ReissueTransaction</a>
-   <a href="#BurnTransaction">BurnTransaction</a>
-   <a href="#MassTransferTransaction">MassTransferTransaction</a>
-   <a href="#ExchangeTransaction">ExchangeTransaction</a>
-   <a href="#TransferTransaction">TransferTransaction</a>
-   <a href="#SetAssetScriptTransaction">SetAssetScriptTransaction</a>
-   <a href="#InvokeScriptTransaction">InvokeScriptTransaction</a>
-   <a href="#IssueTransaction">IssueTransaction</a>
-   <a href="#LeaseTransaction">LeaseTransaction</a>
-   <a href="#LeaseCancelTransaction">LeaseCancelTransaction</a>
-   <a href="#CreateAliasTransaction">CreateAliasTransaction</a>
-   <a href="#SetScriptTransaction">SetScriptTransaction</a>
-   <a href="#SponsorFeeTransaction">SponsorFeeTransaction</a>
-   <a href="#DataTransaction">DataTransaction</a>
+<td>  <a href="#Boolean">Boolean</a>
+</td>
+</tr>
+<tr><td>checkMerkleProof</td>
+<td>30</td>
+<td>Check validity of merkle tree proof</td>
+<td>
+<table>
+<tr><td>merkleRoot</td>
+<td> <a href="#ByteVector">ByteVector</a>
+<td>root hash of merkle tree</td></tr>
+<tr><td>merkleProof</td>
+<td>  <a href="#ByteVector">ByteVector</a>
+</td>
+<td>proof bytes</td></tr>
+<tr><td>valueBytes</td>
+<td>  <a href="#ByteVector">ByteVector</a>
+</td>
+<td>bytes of value to be prooven</td></tr>
+</table>
+</td>
+<td>  <a href="#Boolean">Boolean</a>
+</td>
+</tr>
+
+
+
+
+<tr><td>toBase16String</td>
+<td>10</td>
+<td>Base16 encode</td>
+<td>
+<table>
+<tr><td>bytes</td>
+<td> <a href="#ByteVector">ByteVector</a>
+<td>value</td></tr>
+</table>
+<td>  <a href="#String">String</a>
+</td>
+</tr>
+<tr><td>fromBase16String</td>
+<td>10</td>
+<td>Base16 decode</td>
+<td>
+<table>
+<tr><td>str</td>
+<td> <a href="#String">String</a>
+<td>base 16 encoded string</td></tr>
+</table>
+<td>  <a href="#ByteVector">ByteVector</a>
 </td>
 </tr>
 <tr><td>transactionHeightById</td>
@@ -718,20 +859,6 @@
 </table>
 </td>
 <td>  OPTION[<a href="#Int">Int</a>]
-</td>
-</tr>
-<tr><td>blockInfoByHeight</td>
-<td>100</td>
-<td>Lookup block by height and return info if it exists</td>
-<td>
-<table>
-<tr><td>height</td>
-<td>  <a href="#Int">Int</a>
-</td>
-<td>block height</td></tr>
-</table>
-</td>
-<td>  OPTION[<a href="#BlockInfo">BlockInfo</a>]
 </td>
 </tr>
 <tr><td>getInteger</td>
@@ -1280,8 +1407,34 @@
 <td>  OPTION[<a href="#Asset">Asset</a>]
 </td>
 </tr>
+<tr><td>blockInfoByHeight</td>
+<td>100</td>
+<td>Lookup block by height and return info if it exists</td>
+<td>
+<table>
+<tr><td>height</td>
+<td>  <a href="#Int">Int</a>
+</td>
+<td>block height</td></tr>
+</table>
+</td>
+<td>  OPTION[<a href="#BlockInfo">BlockInfo</a>]
+</td>
+</tr>
+<tr><td>transferTransactionById</td>
+<td>100</td>
+<td>Lookup transfer transaction</td>
+<td>
+<table>
+<tr><td>id</td>
+<td>  <a href="#ByteVector">ByteVector</a>
+</td>
+<td>transfer transaction id</td></tr>
+</table>
+</td>
+<td>
+<a href="#TransferTransaction">TransferTransaction</a>
+</td>
+</tr>
 </table>
 </div>
-
-
-

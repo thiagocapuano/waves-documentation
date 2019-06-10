@@ -59,7 +59,7 @@ You can send Bitcoin Cash directly to another Waves account. Just use the recipi
 
 ![](/_assets/bch_transfers_01.png)
 
-After you have completed the form, click on the **Continue** button.
+After you have completed the form, click on the **Send** button.
 
 ![](/_assets/bch_transfers_07.png)
 

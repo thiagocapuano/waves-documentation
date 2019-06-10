@@ -1,27 +1,32 @@
 # Транзакция данных оракула Token Rating
-[Оракул Token Rating](https://oracles.wavesexplorer.com/oracle/Dqrh9Pok57XUTEEynpBKAUWRt5EUpSzpsGmo5cMnWynM) ежедневно отправляет в блокчейн Waves транзакцию данных с рейтингом токенов, у которых за прошедшие 24 часа рейтинг менялся. В одну транзакцию входит не более 100 изменений, поэтому, если изменений будет больше, то будет отправлено несколько транзакций.
 
-Поле `data` транзакции является массивом пар ключ-значение. Имя каждого ключа формируется конкатенацией строк:
-```
-"assetRating_" + assetId
-```
-где 
+Раз в сутки [оракул](/waves-oracles/oracle.md) [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) отправляет в блокчейн Waves [транзакцию данных](/blockchain/transaction-type/data-transaction.md) с рейтингами токенов, у которых за прошедшие 24 часа рейтинг менялся. В одну транзакцию данных входит не более 100 изменений, поэтому, если изменений будет больше, то будет отправлено несколько транзакций.
 
-`"assetRating_"` — строковая константа,
+Пример поля `data` такой транзакции:
 
-`assetId` — идентификатор ассета.
-
-Пример содержимого поля `data`, сериализованного в JSON:
-```
-{
+```js
+"data": [
+  {
     "key": "assetRating_62LyMjcr2DtiyF5yVXFhoQ2q414VPPJXjsNYp72SuDCH",
     "type": "string",
     "value": "4.5"
-}, {
+  }, {
     "key": "assetRating_4QUMfcxQB112bZdyoAPrp1oTVN4cBA68NpGkD7W3n33i",
     "type": "string",
     "value": "3.9"
-}
-...
+  },
+  ...
+]
 ```
 
+Значение поля `key` формируется конкатенацией строк:
+
+```js
+"assetRating_" + tokenID
+```
+
+где
+
+`"assetRating_"` — строковая константа,
+
+`tokenID` — ID токена.

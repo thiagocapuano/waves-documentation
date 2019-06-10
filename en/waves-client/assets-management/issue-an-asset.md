@@ -4,7 +4,9 @@ Issuing your own token on Waves couldn’t be simpler, in the Waves client there
 
 It costs just 1 Waves to do so and then your token can be traded on the DEX.
 
-Go to the **Tokens Creation** tab to create an asset ![](/_assets/token_creation_01.png)
+At the top-left corner click on the **Create token** to start the creation process.
+
+![](/_assets/token_creation_01.png)
 
 **Note**: Before creating a new asset, please make sure that you have at least 1 WAVES on your account to pay the fee charged for the asset creation.
 
@@ -24,6 +26,9 @@ Let's describe each boxes:
 
 **Decimals**: Set how many decimals your asset shall have. For example, if you set 8 decimals as in Bitcoin, your token can be divided down to 0.00000001. If you set 0, your token can only be transacted in whole pieces (1, 3, 15);
 
+**Smart asset**: A Smart Asset is an asset with an attached script that places conditions on every transaction made for the token in question.
+Each validation of a transaction by a Smart Asset’s script increases the transaction fee by 0.004 WAVES. For example, if a regular tx is made for a Smart Asset, the cost is **0.001 + 0.004 = 0.005 Waves**. If an exchange transaction is made, the cost is **0.003 + 0.004 = 0.007 Waves**. [Learn more](https://docs.wavesplatform.com/en/smart-contracts/smart-assets.html)
+
 **Note**: Before creating a new Asset, make sure that you have at least 1 WAVES for asset creation fee.
 **Note**: The name of the created asset can not be shorter than 4 characters.
 
@@ -35,10 +40,13 @@ After that please carefully read asset creation conditions and if everything is 
 
 ![](/_assets/token_creation_03.1.png)
 
-After all you'll be able to see your newly created token in the Portfolio.
+After all you'll be able to see your newly created token in the **Portfolio**.
+
+![](/_assets/token_creation_04.png)
+
+You can sort and easily to find your tokens in the **Portfolio** settings.
 
 ![](/_assets/token_creation_05.png)
-
 ___
 
 See more articles in the [Assets Management](/waves-client/assets-management.md) chapter.

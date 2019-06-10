@@ -4,9 +4,9 @@ Open up your Waves wallet.
 
 Go to the **Portfolio**.
 
-![](/_assets/token_reissue_01.png)
+![](/_assets/token_creation_04.png)
 
-Find issued token and click on the ![](/_assets/token_reissue_02.png) button.
+Find the required token and click on the ![](/_assets/token_reissue_02.png) button.
 
 Click on the **Token Reissue** button.
 

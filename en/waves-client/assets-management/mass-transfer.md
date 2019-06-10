@@ -5,14 +5,14 @@ With this feature, you can distribute your Token, Waves or any other Waves based
 
 Let's make distribution for Waves tokens, although this method also works for any other tokens of your balance. Before you start, please make sure that you have enough Waves for the transaction fee.
 
-Open up your wallet.
+Open up your Waves wallet.  
+At the top left corner click on the **Send** button.
 
-Go to **Portfolio**, click on the **Send** button (top left corner).
-
-![](/_assets/mass_transfer_01.png)
+![](/_assets/asset_transfers_01.png)
 
 The following pop-up will appear.
-Select **Mass Payment** and choose a token for distribution.
+
+Select **Mass Transfer** and choose a token for distribution.
 Then fill in the sending form.
 
 ![](/_assets/mass_transfer_02.png)

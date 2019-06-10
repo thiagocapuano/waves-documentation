@@ -17,4 +17,6 @@
 * [Мобильное приложение для iOS устройств](waves-client/mobile-apps/iOS.md)
 * [Мобильное приложение для Android устройств](/waves-client/mobile-apps/android.md)
 
+___
+
 Если у вас возникнут трудности с использованием нашей платформы, пожалуйста, создайте запрос в [службу поддержки](https://support.wavesplatform.com/) или задайте вопрос на нашем [форуме](https://forum.wavesplatform.com/).

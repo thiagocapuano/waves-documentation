@@ -6,7 +6,6 @@
 * [Восстановление аккаунта](account-management/restore-an-account.md)
 * [Ledger Nano S и Waves приложение](account-management/ledger-nano.md)
 * [Waves Keeper](account-management/waves-keeper.md)
-* [Перенос аккаунта](account-management/account-migration.md)
 * [Вход в аккаунт](account-management/signing-in-to-your-account.md)
 * [Ваш Waves адрес](account-management/waves-address.md)
 * [Создание персонального алиаса](account-management/creating-an-alias.md)
