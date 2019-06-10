@@ -1,4 +1,6 @@
-# Getting started guide
+# Getting started
+
+## Selecting getting started page
 
 Please select the page that fits you best:
 
@@ -8,27 +10,25 @@ Please select the page that fits you best:
 
 * [Getting started for node owners](/getting-started/getting-started-for-node-owners.md)
 
-## Changelog
+## Changelog. June 3 — June 9
 
-### June 3 — June 9
+### Added pages
 
-#### Added pages
-
-##### Blockchain
+#### Blockchain
 
 * [dApp](blockchain/dapp.md)
 
-##### Waves Client
+#### Waves Client
 
-* [Vostok transfers](waves-keeper/about-waves-keeper.md)
+* [Vostok transfers](waves-client/transfers-and-gateways/vostok-transfers.md)
 
-##### Waves Keeper
+#### Waves Keeper
 
 * [Waves Keeper](waves-keeper/about-waves-keeper.md)
 
-##### Waves Token Rating
+#### Waves Token Rating
 
-* [About Waves Token Rating](waves-keeper/about-waves-keeper.md)
+* [About Waves Token Rating](waves-token-rating/about-token-rating.md)
 * [User interface](waves-token-rating/user-interface.md)
 * [Rating formula](waves-token-rating/rating-formula.md)
 * [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
