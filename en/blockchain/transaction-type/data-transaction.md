@@ -48,7 +48,7 @@ The size of value field can be from 0 to 32767 bytes.
 | 6.7 | Key 2 | key | String | Up to 4 × `L` | `L` is a key length |
 | 6.8 | Value 2 type | type | Byte | 1 | 0 — integer <br> 1 — boolean <br> 2 — array of bytes <br> 3 — string |
 | 6.9 |  Value 2 length |   |  Short |  2 | This field is present only if the value is of type of array of bytes or a string. <br> If the value is of type of integer or a boolean, this field should not be included in the data structure |
-| 6.10| Value 2 | value | One of the following: <br> * integer <br> * boolean <br> * array of bytes <br> * string| Depends on the size of the value | |
+| 6.10| Value 2 | value | One of the following: <ul><li> integer</li><li> boolean</li> <li>array of bytes</li> <li> string </li></ul> | Depends on the size of the value | |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
@@ -58,7 +58,7 @@ The size of value field can be from 0 to 32767 bytes.
 | 6.[5 × N - 3] | N-th key | key | String | Up to 4 × `L` | `L` is a key length |
 | 6.[5 × N - 2] | N-th value type | type | Byte | 1 | 0 — integer <br> 1 — boolean <br> 2 — array of bytes <br> 3 — string |
 | 6.[5 × N - 1] | N-th value length   |   | Short  | 2  |  This field is present only if the value is of type of array of bytes or a string. <br> If the value is of type of integer or a boolean, this field should not be included in the data structure |
-| 6.[5 × N] | N-th value | value | One of the following: <br> * integer <br> * boolean <br> * array of bytes <br> * string| Depends on the size of the value | Depends on the size of the value | |
+| 6.[5 × N] | N-th value | value | One of the following: <ul><li> integer</li><li> boolean</li> <li>array of bytes</li> <li> string </li></ul> | Depends on the size of the value | Depends on the size of the value | |
 | 7 | Timestamp | timestamp | Long | 8 | Unix time of sending of transaction to blockchain |
 | 8 | Fee | fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 9 | Proofs | proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S` = 3. If the array is not empty, then `S` = 3 + 2 × `N` + (`P1` + `P2` + ... + `P`<sub>`n`</sub>), where `N` is the number of proofs in the array, `P`<sub>`n`</sub> is the size of `N`-th proof in bytes. The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
