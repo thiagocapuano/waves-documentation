@@ -1,33 +1,37 @@
 # Data transaction
 
 **Data transaction** is a [transaction](/blockchain/transaction.md) that writes data to account data storage.
+> The next data transaction can overwrite the existing keys but not delete them. There is currently no planned way to clear the state of an account. The data transaction cannot contain multiple entries sharing the same key
 
 ## Array data of a transaction
 
-The maximum size of the array of data of a transaction is 140 kilobytes.
-
-The maximum number of elements in the array of data is 100.
-
-Each element of the array is an object that has 3 fields: `key`, `type`, `value`.
+The maximum length of the data array is 100 element.
+The maximum size of the data array is 140 kilobytes.
+Each element of the data array is an object that has 3 fields: `key`, `type`, `value`.
 
 ## The `key` field
 
-The value of the `key` field is a UTF-8 encoded string of length from 0 to 100 characters inclusive.
+The value of the `key` field is a UTF-8 encoded string of length from 1 to 100 characters inclusive.
 
-## The `type` field
+## The type field
 
-The value of the `type` field is a short integer that specifies the type of the data stored in the `value` field:
+The type field specifies the type of the value field:
 
 * 0 — integer
 * 1 — boolean
 * 2 — array of bytes
 * 3 — string
 
+| Value type | Value type ID | Value type size in bytes |
+|------------|---------------|--------------------------|
+| integer    | 0             | 8                        |
+| boolean    | 1             | 0 = false <br> 1 = true       |
+| binary     | 2             | Up to 4                  |
+| string     | 3             | Up to 4                  |
+
 ## The `value` field
 
-The `value` field can store an integer, a boolean, an array of bytes, or a string.
-
-The size of the data of the field can be from 0 to 32767 bytes.
+The size of value field can be from 0 to 32767 bytes.
 
 ## Data structure
 
@@ -37,23 +41,23 @@ The size of the data of the field can be from 0 to 32767 bytes.
 | 2 | Transaction type | type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). The value must be 12 |
 | 3 | Version | version | Byte | 1 | Version number of the data structure of the transaction. The value must be 1 |
 | 4 | Public key of sender | senderPublicKey | Array of bytes | 32 | Account public key of the sender |
-| 5 | Data entries count | | Short | 2 | |
-| 6.1 | 1st element’s key length | | Short | 2 | |
-| 6.2 | 1st element’s key | key | String | 4 × `L` | `L` is a key length |
-| 6.3 | 1st element’s data type | type | Byte | 1 | |
-| 6.4 | 1st element’s data | value | The same as the data type has | Depends on the size of the data | |
-| 6.5 | 2nd element’s key length | | Short | 2 | |
-| 6.6 | 2nd element’s key | key | String | 4 × `L` | `L` is a key length |
-| 6.7 | 2nd element’s data type | type | Byte | 1 | |
-| 6.8 | 2nd element’s data | value | The same as the data type has | Depends on the size of the data | |
+| 5 | Length of the data array | | Short | 2 | |
+| 6.1 | Key 1 length | | Short | 2 | |
+| 6.2 | Key 1 | key | String | 4 × `L` | `L` is a key length |
+| 6.3 | Value 1 type | type | Byte | 1 | |
+| 6.4 | Value 1 | value | Depends on value type | Depends on the size of value type | |
+| 6.5 | Key 2 length | | Short | 2 | |
+| 6.6 | Key 2 | key | String | 4 × `L` | `L` is a key length |
+| 6.7 | Value 2 type | type | Byte | 1 | |
+| 6.8 | Value 2 | value | Depends on value type | Depends on the size of value type | |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
-| 6.[4 × `N - 3`] | N-th element’s key length | | Short | 2 | |
-| 6.[4 × `N - 2`] | N-th element’s  key | key | String | 4 × `L` | `L` is a key length |
-| 6.[4 × `N - 1`] | N-th element’s data type | type | Byte | 1 | |
-| 6.[4 × `N`] | N-th element’s data | value | The same as the data type has | Depends on the size of the data | |
+| 6.[4 × `N - 3`] | N-th key length | | Short | 2 | |
+| 6.[4 × `N - 2`] | N-th key | key | String | 4 × `L` | `L` is a key length |
+| 6.[4 × `N - 1`] | N-th value type | type | Byte | 1 | |
+| 6.[4 × `N`] | N-th value | value | Depends on value type | Depends on the size of value type | |
 | 7 | Timestamp | timestamp | Long | 8 | Unix time of sending of transaction to blockchain |
 | 8 | Fee | fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 9 | Proofs | proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S` = 3. If the array is not empty, then `S` = 3 + 2 × `N` + (`P1` + `P2` + ... + `P`<sub>`n`</sub>), where `N` is the number of proofs in the array, `P`<sub>`n`</sub> is the size of `N`-th proof in bytes. The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
