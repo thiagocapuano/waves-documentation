@@ -6,7 +6,9 @@
 ## Array data of a transaction
 
 The maximum length of the data array is 100 element.
+
 The maximum size of the data array is 140 kilobytes.
+
 Each element of the data array is an object that has 3 fields: `key`, `type`, `value`.
 
 ## The `key` field
