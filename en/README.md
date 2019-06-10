@@ -28,7 +28,7 @@ Please select the page that fits you best:
 
 #### Waves Token Rating
 
-* [About Waves Token Rating](waves-token-rating/about-token-rating.md)
+* [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 * [User interface](waves-token-rating/user-interface.md)
 * [Rating formula](waves-token-rating/rating-formula.md)
 * [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
