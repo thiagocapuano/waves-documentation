@@ -15,7 +15,7 @@ The array of data cannot contain two elements with the same key field.
 
 ## The key field
 
-The value of the `key` field is a UTF-8 encoded string of length from 1 to 100 characters inclusive.
+The value of the key field is a UTF-8 encoded string of length from 1 to 100 characters inclusive.
 
 ## The type field
 
