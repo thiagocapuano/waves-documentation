@@ -16,8 +16,6 @@
   * [Mass transfer transaction](blockchain/waves-protocol/mass-transfer-transaction.md)
   * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
   * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
-  * [Transactions structure](blockchain/waves-protocol/transactions-structure.md)
-  * [Versioned transactions](blockchain/waves-protocol/versioned-transactions.md)
   * [Leased Proof of Stake (LPoS)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
   * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
   * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)

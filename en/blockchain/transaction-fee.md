@@ -19,6 +19,6 @@ A sender can specify any amount of fee but not less than a certain number. The l
 | Set asset script transaction | 15 | 1 | |
 | Set script transaction | 13 | 0.01 | |
 | Sponsorship transaction | 14 | 1 | |
-| Transfer transaction | 4 | 0.001 | |
+| Transfer transaction | 4 | 0.001 | | |
 
 > If a smart account transfers a [smart asset](/blockchain/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](/blockchain/account-script.md) or an [asset script](/blockchain/asset-script.md), then the fee is increased by 0.004 WAVES
