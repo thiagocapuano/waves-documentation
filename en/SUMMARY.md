@@ -14,7 +14,6 @@
   * [Data structures](blockchain/waves-protocol/data-structures.md)
   * [Validation rules](blockchain/waves-protocol/validation-rules.md)
   * [Mass transfer transaction](blockchain/waves-protocol/mass-transfer-transaction.md)
-  * [Data transaction](blockchain/waves-protocol/data-transaction.md)
   * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
   * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
   * [Transactions structure](blockchain/waves-protocol/transactions-structure.md)
