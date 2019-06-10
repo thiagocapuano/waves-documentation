@@ -1,6 +1,6 @@
 # About Waves Keeper
 
-Waves Keeper is a browser extension that allows securely interact with Waves-enabled web services.
+**Waves Keeper** is a browser extension that allows securely interact with Waves-enabled web services.
 
 ## Download Waves Keeper
 
