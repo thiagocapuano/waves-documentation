@@ -162,6 +162,10 @@
 * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
 * [Address balance top up in testnet](waves-explorer/address-balance-top-up-in-testnet.md)
 
+## Waves Keeper
+
+* [About Waves Keeper](waves-keeper/about-waves-keeper.md)
+
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
