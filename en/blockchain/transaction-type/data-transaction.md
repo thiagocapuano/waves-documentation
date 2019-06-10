@@ -11,7 +11,7 @@ The maximum size of the data array is 140 kilobytes.
 
 Each element of the data array is the object that has 3 fields: `key`, `type`, `value`.
 
-The array of data cannot contain two elements with the same key field.
+The array of data cannot contain two elements with the same `key` field.
 
 ## The `key` field
 
@@ -19,7 +19,7 @@ The value of the `key` field is a UTF-8 encoded string of length from 1 to 100 c
 
 ## The `type` field
 
-The `type` field specifies the type of the value field:
+The `type` field specifies the type of the `value` field:
 
 * 0 — integer
 * 1 — boolean
