@@ -13,26 +13,26 @@ Each element of the data array is the object that has 3 fields: `key`, `type`, `
 
 The array of data cannot contain two elements with the same key field.
 
-## The key field
+## The `key` field
 
-The value of the key field is a UTF-8 encoded string of length from 1 to 100 characters inclusive.
+The value of the `key` field is a UTF-8 encoded string of length from 1 to 100 characters inclusive.
 
-## The type field
+## The `type` field
 
-The type field specifies the type of the value field:
+The `type` field specifies the type of the value field:
 
 * 0 — integer
 * 1 — boolean
 * 2 — array of bytes
 * 3 — string
 
-## The value field
+## The `value` field
 
-The size of value field can be from 0 to 32767 bytes.
+The size of `value` field can be from 0 to 32767 bytes.
 
 ## Data structure
 
-| Field order number | Field name | JSON field name  | Field Type | Field size in bytes | Field description |
+| Field order number | Field name | JSON field name  | Field type | Field size in bytes | Field description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | Version flag | | Byte | 1 | Indicates that the current transaction has [data structure](/blockchain/transaction-data-structure.md) of version 2 or above. The value must be 0 |
 | 2 | Transaction type | type | Byte  | 1 | ID of the [transaction type](/blockchain/transaction-type.md). The value must be 12 |
