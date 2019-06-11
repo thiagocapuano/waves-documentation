@@ -14,9 +14,9 @@ Please select the page that fits you best:
 
 ### Blockchain
 
-* [Matcher](blockchain/node/mathcher.md)
+* [Matcher](blockchain/node/matcher.md)
 * [gRPC Server](blockchain/node/grpc-server.md)
-* [node](blockchain/node.md)
+* [Node](blockchain/node.md)
 * [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [dApp](blockchain/dapp.md)
 
