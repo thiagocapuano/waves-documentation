@@ -18,9 +18,9 @@ Node REST API allows working with Waves Blockchain like with many other centrali
 ### Terms
 **Node** — Full Node, it contains full-copy of the blockchain.
 
-**Matcher \(DEX\)** — part of a full node. Matcher nodes are responsible for pairing orders and executing trades quickly, whilst they are still settled on the blockchain. When a user sends an order to Matcher he doesn’t transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order. More details can be found here and here.
+**Matcher (DEX)** — part of a full node. Matcher nodes are responsible for pairing orders and executing trades quickly, whilst they are still settled on the blockchain. When a user sends an order to Matcher he doesn’t transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order. More details can be found here and here.
 
-**AssetPair**  — Pair of assets we want to exchange.
+**AssetPair** — Pair of assets we want to exchange.
 
 ### Trading strategy
 [Scalping trading strategy](https://www.investopedia.com/articles/trading/05/scalping.asp) widely used in trading, and crypto community is not an exception. There are a lot of variations of the strategy, the main difference between them is in size of timeframe. The strategy exploits small changes in currency prices: it buys at the mean price minus some [price step](https://www.asx.com.au/services/trading-services/price.htm) and sells at the mean price plus some step, in order to gain the bid/ask difference. It normally involves establishing and liquidating a position quickly, in this case within 15 seconds. The bid and ask are the best potential prices that buyers and sellers are willing to transact at the bid for the buying side, and the ask for the selling side.
