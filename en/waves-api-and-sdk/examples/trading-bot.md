@@ -26,7 +26,7 @@ Node REST API allows working with Waves Blockchain like with many other centrali
 Scalping trading strategy widely used in trading, and crypto community is not an exception. There are a lot of variations of the strategy, the main difference between them is in size of timeframe. The strategy exploits small changes in currency prices: it buys at the mean price minus some step and sells at the mean price plus some step, in order to gain the bid/ask difference. It normally involves establishing and liquidating a position quickly, in this case within 15 seconds.
 
 Disclaimer: I do not suggest to use scalping strategy. The strategy was chosen because of its simplicity for implementing in a bot.
-The bot with initial parameters trades on Waves-BTC pair (Waves is an amount asset and BTC is a `price_asset`). The spread mean price is `(best_bid + best_ask) / 2`. The price step is `0.5%` from the mean price. The bot places the buy order at price `meanprice * (1 - price_step)` and the amount `(BTC_balance / bid_price) - order_fee`. The sell order is placed at `meanprice * (1 + price_step)` and the amount equal to `Waves_balance - order_fee `.
+The bot with initial parameters trades on Waves-BTC pair (Waves is an amount asset and BTC is a `price_asset`). The spread mean price is `((best_bid + best_ask) // 2) * 10 ** (bot.price_asset.decimals - bot.amount_asset.decimals)`. The price step is `0.5%` from the mean price. The bot places the buy order at price `meanprice * (1 - price_step)` and the amount `(BTC_balance / bid_price) - order_fee`. The sell order is placed at `meanprice * (1 + price_step)` and the amount equal to `Waves_balance - order_fee `.
 
 ###Let’s code, step-by-step
 So, let’s get started! We’ll use Pywaves and configparser libraries for API calls and reading config file. Let's install them:
@@ -130,10 +130,10 @@ while True:
   # Get best bid and ask
   best_bid = order_book["bids"][0]["price"]
   best_ask = order_book["asks"][0]["price"]
-  spread_mean_price = (best_bid + best_ask) // 2
+  spread_mean_price = ((best_bid + best_ask) // 2) * 10 ** (bot.price_asset.decimals - bot.amount_asset.decimals)
   bid_price = spread_mean_price * (1 - bot.price_step)
   ask_price = spread_mean_price * (1 + bot.price_step)
-  bid_amount = int((btc_balance / bid_price) * 10 **         pw.WAVES.decimals) - bot.order_fee
+  bid_amount = int((btc_balance / bid_price) * 10 ** pw.WAVES.decimals) - bot.order_fee
   ask_amount = int(waves_balance) - bot.order_fee
   # Send orders
   if bid_amount >= bot.min_amount:
@@ -147,6 +147,4 @@ maxLifetime=bot.order_lifetime)
 ```
 
 We’re done. Your first trading bot is ready to go!
-
-Best of all, the source code and documentation for this example are released to the public domain, so you can start by grabbing the code and building on top of it.
-
+Sorce code is available [here](https://github.com/wavesplatform/demo-python-trading-bot)
