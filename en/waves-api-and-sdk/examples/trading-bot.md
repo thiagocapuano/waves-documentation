@@ -23,7 +23,7 @@ Node REST API allows working with Waves Blockchain like with many other centrali
 **AssetPair**  —  Pair of assets we want to exchange.
 
 ###Trading strategy
-Scalping trading strategy widely used in trading, and crypto community is not an exception. There are a lot of variations of the strategy, the main difference between them is in size of timeframe. The strategy exploits small changes in currency prices: it buys at the mean price minus some step and sells at the mean price plus some step, in order to gain the bid/ask difference. It normally involves establishing and liquidating a position quickly, in this case within 15 seconds.
+[Scalping trading strategy](https://www.investopedia.com/articles/trading/05/scalping.asp) widely used in trading, and crypto community is not an exception. There are a lot of variations of the strategy, the main difference between them is in size of timeframe. The strategy exploits small changes in currency prices: it buys at the mean price minus some [price step](https://www.asx.com.au/services/trading-services/price.htm) and sells at the mean price plus some step, in order to gain the bid/ask difference. It normally involves establishing and liquidating a position quickly, in this case within 15 seconds.
 
 Disclaimer: I do not suggest to use scalping strategy. The strategy was chosen because of its simplicity for implementing in a bot.
 The bot with initial parameters trades on Waves-BTC pair (Waves is an amount asset and BTC is a `price_asset`). The spread mean price is `((best_bid + best_ask) // 2) * 10 ** (bot.price_asset.decimals - bot.amount_asset.decimals)`. The price step is `0.5%` from the mean price. The bot places the buy order at price `meanprice * (1 - price_step)` and the amount `(BTC_balance / bid_price) - order_fee`. The sell order is placed at `meanprice * (1 + price_step)` and the amount equal to `Waves_balance - order_fee `.
@@ -147,4 +147,4 @@ maxLifetime=bot.order_lifetime)
 ```
 
 We’re done. Your first trading bot is ready to go!
-Sorce code is available [here](https://github.com/wavesplatform/demo-python-trading-bot)
+Source code is available [on github](https://github.com/wavesplatform/demo-python-trading-bot)
