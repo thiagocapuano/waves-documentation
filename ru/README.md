@@ -13,3 +13,10 @@
 - Платформа построена на базе Scorex.
 
 **Примечание:**  [**Здесь**](https://docs.wavesplatform.com/ru/overview/how-to-use-this-guide.html) вы можете найти инструкции по пользованию данным руководством.
+
+## Новые статьи, добавленные в документацию в июне
+
+### Блокчейн
+
+- [Транзакция лизинга](/blockchain/transaction-type/lease-transaction.md)
+- [Транзакция данных](/blockchain/transaction-type/data-transaction.md)
