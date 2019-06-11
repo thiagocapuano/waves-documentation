@@ -27,7 +27,13 @@ Node REST API allows working with Waves Blockchain like with many other centrali
 
 It's not suggested to use scalping strategy. The scalping strategy was chosen because of its simplicity to implement it in a bot.
 
-The bot with initial parameters trades on Waves-BTC pair (Waves is an amount asset and BTC is a `price_asset`). The spread mean price is `((best_bid + best_ask) // 2) * 10 ** (bot.price_asset.decimals - bot.amount_asset.decimals)`. The price step is `0.5%` from the mean price. The bot places the buy order at price `meanprice * (1 - price_step)` and the amount `(BTC_balance / bid_price) - order_fee`. The sell order is placed at `meanprice * (1 + price_step)` and the amount equal to `Waves_balance - order_fee `.
+The bot with initial parameters trades on Waves-BTC pair (Waves is an amount asset and BTC is a `price_asset`).
+
+The spread mean price is `((best_bid + best_ask) // 2) * 10 ** (bot.price_asset.decimals - bot.amount_asset.decimals)`.
+
+The price step is `0.5%` from the mean price.
+
+The bot places the buy order at price `meanprice * (1 - price_step)` and the amount `(BTC_balance / bid_price) - order_fee`. The sell order is placed at `meanprice * (1 + price_step)` and the amount equal to `Waves_balance - order_fee `.
 
 ### Let’s code, step-by-step
 So, let’s get started! We’ll use Pywaves and configparser libraries for API calls and reading config file. Let's install them:
