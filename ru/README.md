@@ -18,5 +18,16 @@
 
 ### Блокчейн
 
+* [Матчер](blockchain/node/matcher.md)
+* [gRPC Server](blockchain/node/grpc-server.md)
+* [Нода](blockchain/node.md)
 * [Транзакция лизинга](/blockchain/transaction-type/lease-transaction.md)
 * [Транзакция данных](/blockchain/transaction-type/data-transaction.md)
+
+### Waves Token Rating
+
+* [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
+* [Интерфейс пользователя](waves-token-rating/user-interface.md)
+* [Формула рейтинга](waves-token-rating/rating-formula.md)
+* [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
+* [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
