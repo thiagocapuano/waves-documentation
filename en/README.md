@@ -10,23 +10,21 @@ Please select the page that fits you best:
 
 * [Getting started for node owners](/getting-started/getting-started-for-node-owners.md)
 
-## Changelog. June 3 — June 9
+## Changelog for June
 
-### Added pages
-
-#### Blockchain
+### Blockchain
 
 * [dApp](blockchain/dapp.md)
 
-#### Waves Client
+### Waves Client
 
 * [Vostok transfers](waves-client/transfers-and-gateways/vostok-transfers.md)
 
-#### Waves Keeper
+### Waves Keeper
 
 * [Waves Keeper](waves-keeper/about-waves-keeper.md)
 
-#### Waves Token Rating
+### Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 * [User interface](waves-token-rating/user-interface.md)
