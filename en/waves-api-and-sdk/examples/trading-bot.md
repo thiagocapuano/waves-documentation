@@ -3,9 +3,9 @@
 ###Introduction
 Waves platform is designed and built from the ground up for speed and scale. At the same time Waves is one of the most developer-friendly ecosystems. Waves blockchain exposes its functionality through a powerful REST API, that can be used with any programming language.
 
-This text guides you through the basics of Waves Node Rest API. Here we will use python wrapper for the API — [PyWaves](https://github.com/PyWaves/PyWaves) library, but there are other options for different programming languages, e.g. [WavesCS for C#](https://github.com/wavesplatform/WavesCS), [WavesJ for Java](https://github.com/wavesplatform/WavesJ) etc.
+This text guides you through the basics of Waves Node Rest API. In this example, we will use python wrapper for the API — [PyWaves](https://github.com/PyWaves/PyWaves) library, but there are other options for [different programming languages as well](/waves-api-and-sdk/client-libraries.md), e.g. [WavesCS for C#](https://github.com/wavesplatform/WavesCS), [WavesJ for Java](https://github.com/wavesplatform/WavesJ) etc.
 
-Pywaves is an object-oriented Python interface to the Waves blockchain, which will help us to reduce code complexity while maintaining its structure, so anything you learn using this library can be applied with pure HTTP API calls.
+Pywaves is an object-oriented Python interface to the Waves blockchain which will help us to reduce the code complexity while maintaining its structure. Anything you learn using this library can be applied with pure HTTP API calls.
 
 ###What is Waves Node REST API
 Waves Platform is a little bit complex and consists of a lot of components:
