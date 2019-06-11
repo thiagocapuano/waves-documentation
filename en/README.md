@@ -10,10 +10,14 @@ Please select the page that fits you best:
 
 * [Getting started for node owners](/getting-started/getting-started-for-node-owners.md)
 
-## New articles added to the documentation in June
+## New pages added to the documentation in June
 
 ### Blockchain
 
+* [Matcher](blockchain/node/mathcher.md)
+* [gRPC Server](blockchain/node/grpc-server.md)
+* [node](blockchain/node.md)
+* [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [dApp](blockchain/dapp.md)
 
 ### Waves Client
