@@ -2,14 +2,13 @@
 
 **Data transaction** is a [transaction](/blockchain/transaction.md) that writes data to account data storage.
 
-
 ## Data array of a data transaction
 
 The maximum length of the data array is 100.
 
 The maximum size of the data array is 140 kilobytes.
 
-Each element of the data array is the object that has 3 fields: `key`, `type`, `value`.
+Each element of the data array is an object that has 3 fields: `key`, `type`, `value`.
 
 The array of data cannot contain two elements with the same `key` field.
 
@@ -41,14 +40,14 @@ The size of `value` field can be from 0 to 32767 bytes.
 | 5 | Length of the data array | | Short | 2 | |
 | 6.1 | Key 1 length | | Short | 2 | |
 | 6.2 | Key 1 | key | String | Up to 4 × `L` | `L` is a key length |
-| 6.3 | Value 1 type | type | Byte | 1 | 0 — integer <br> 1 — boolean <br> 2 — array of bytes <br> 3 — string |
-| 6.4 |  Value 1 length |   |  Short | 2  | This field is present only if the value is of type of array of bytes or a string. <br> If the value is of type of integer or a boolean, this field should not be included in the data structure  |
+| 6.3 | Value 1 type | type | Byte | 1 | 0 — integer <br> 1 — boolean <br>2 — array of bytes <br> 3 — string |
+| 6.4 |  Value 1 length |   |  Short | 2  | This field is present only if the value is of type of array of bytes or a string. <br>If the value is of type of integer or a boolean, this field should not be included in the data structure  |
 | 6.5 | Value 1 | value | One of the following: <ul><li> integer</li><li> boolean</li> <li>array of bytes</li> <li> string </li></ul> | Depends on the size of the value | |
 | 6.6 | Key 2 length | | Short | 2 | |
 | 6.7 | Key 2 | key | String | Up to 4 × `L` | `L` is a key length |
-| 6.8 | Value 2 type | type | Byte | 1 | 0 — integer <br> 1 — boolean <br> 2 — array of bytes <br> 3 — string |
-| 6.9 |  Value 2 length |   |  Short |  2 | This field is present only if the value is of type of array of bytes or a string. <br> If the value is of type of integer or a boolean, this field should not be included in the data structure |
-| 6.10| Value 2 | value | One of the following: <ul><li> integer</li><li> boolean</li> <li>array of bytes</li> <li> string </li></ul> | Depends on the size of the value | |
+| 6.8 | Value 2 type | type | Byte | 1 | 0 — integer <br>1 — boolean <br> 2 — array of bytes <br> 3 — string |
+| 6.9 |  Value 2 length |   |  Short |  2 | This field is present only if the value is of type of array of bytes or a string. <br>If the value is of type of integer or a boolean, this field should not be included in the data structure |
+| 6.10| Value 2 | value | One of the following: <ul><li> integer</li><li> boolean</li><li>array of bytes</li><li> string </li></ul> | Depends on the size of the value | |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
@@ -56,8 +55,8 @@ The size of `value` field can be from 0 to 32767 bytes.
 | ... | ... | ... | ... | ... | ... |
 | 6.[5 × N - 4] | N-th key length | | Short | 2 | |
 | 6.[5 × N - 3] | N-th key | key | String | Up to 4 × `L` | `L` is a key length |
-| 6.[5 × N - 2] | N-th value type | type | Byte | 1 | 0 — integer <br> 1 — boolean <br> 2 — array of bytes <br> 3 — string |
-| 6.[5 × N - 1] | N-th value length   |   | Short  | 2  |  This field is present only if the value is of type of array of bytes or a string. <br> If the value is of type of integer or a boolean, this field should not be included in the data structure |
+| 6.[5 × N - 2] | N-th value type | type | Byte | 1 | 0 — integer <br>1 — boolean <br> 2 — array of bytes <br>3 — string |
+| 6.[5 × N - 1] | N-th value length   |   | Short  | 2  |  This field is present only if the value is of type of array of bytes or a string. <br>If the value is of type of integer or a boolean, this field should not be included in the data structure |
 | 6.[5 × N] | N-th value | value | One of the following: <ul><li> integer</li><li> boolean</li> <li>array of bytes</li> <li> string </li></ul> | Depends on the size of the value | |
 | 7 | Timestamp | timestamp | Long | 8 | Unix time of sending of transaction to blockchain |
 | 8 | Fee | fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
