@@ -8,7 +8,6 @@
 * [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper)
 * [Opera extension](https://addons.opera.com/en/extensions/details/waves-keeper)
 * [Microsoft Edge extension](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab)
-* [Brave extension](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo)
 
 ## Source code
 
