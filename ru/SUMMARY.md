@@ -75,7 +75,7 @@
 * [Функции](ride/functions.md)
 * [Исключения](ride/exceptions.md)
 * [Скрипт на RIDE](ride/ride-script.md)
-* [Сложность скрипта](ride/script-complexity.md)
+* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
 ## Смарт-контракты (Waves dApps)
 

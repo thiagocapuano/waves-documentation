@@ -117,7 +117,7 @@ func vote(theVote: Int) = {
 let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 ```
 
-Размер и [сложность](/ride/script-complexity.md) скрипта отображаются в панели под редактором скрипта.
+Размер и [сложность](/ride/ride-script-complexity.md) скрипта отображаются в панели под редактором скрипта.
 
 <img src="img/voting/script-complexity.png" width="890"/>
 
