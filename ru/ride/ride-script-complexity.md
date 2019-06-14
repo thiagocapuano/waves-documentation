@@ -7,3 +7,5 @@
 Сложность скрипта можно посмотреть в [Waves IDE](https://ide.wavesplatform.com):
 
 <img src="img/ride-script-complexity/script-complexity.png" alt="faucet" width="700"/>
+
+В настоящее время сложность скрипта ограничена 2000.
