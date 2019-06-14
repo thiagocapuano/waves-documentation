@@ -171,7 +171,6 @@
 
 * [About RIDE](ride/about-ride.md)
 * [Immutable variables](ride/immutable-variables.md)
-* [Computational cost](ride/ride-script-complexity.md)
 * [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
@@ -181,6 +180,7 @@
   * [Built-in functions](ride/built-in-functions.md)
 * [Exceptions](ride/exceptions.md)
 * [RIDE script](ride/ride-script.md)
+* [RIDE script complexity](ride/ride-script-complexity.md)
 * [Effective RIDE examples](ride/effective-ride-examples.md)
 * [RIDE Maven compiler](ride/maven-compiler.md)
 
