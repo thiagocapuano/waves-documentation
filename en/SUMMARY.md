@@ -171,7 +171,7 @@
 
 * [About RIDE](ride/about-ride.md)
 * [Immutable variables](ride/immutable-variables.md)
-* [Computational cost](ride/computational-cost.md)
+* [Computational cost](ride/ride-script-complexity.md)
 * [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
