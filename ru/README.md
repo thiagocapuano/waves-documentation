@@ -24,6 +24,10 @@
 * [Транзакция лизинга](/blockchain/transaction-type/lease-transaction.md)
 * [Транзакция данных](/blockchain/transaction-type/data-transaction.md)
 
+## RIDE
+
+* [Сложность скрипта на RIDE](/ride/ride-script-complexity.md)
+
 ### Waves Token Rating
 
 * [О Waves Token Rating](/waves-token-rating/about-waves-token-rating.md)

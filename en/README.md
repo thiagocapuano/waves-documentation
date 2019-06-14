@@ -28,6 +28,10 @@ Please select the page that fits you best:
 
 * [Waves Keeper](waves-keeper/about-waves-keeper.md)
 
+## RIDE
+
+* [RIDE script complexity](/ride/ride-script-complexity.md)
+
 ### Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
