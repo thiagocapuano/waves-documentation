@@ -18,7 +18,7 @@ Node REST API allows working with Waves Blockchain like with many other centrali
 ## Terms
 **Node** — Full Node, it contains full-copy of the blockchain.
 
-**Matcher (DEX)** — part of a full node. Matcher nodes are responsible for pairing orders and executing trades quickly, whilst they are still settled on the blockchain. When a user sends an order to Matcher he doesn’t transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order. More details can be found here and here.
+**Matcher (DEX)** — part of a full node. Matcher nodes are responsible for pairing orders and executing trades quickly, whilst they are still settled on the blockchain. When a user sends an order to Matcher he doesn’t transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order. For more details, read [DEX protocol](/waves-dex/dex-protocol.md) and [Matcher API](/waves-api-and-sdk/dex-api/matcher.md).
 
 **AssetPair** — Pair of assets we want to exchange.
 
