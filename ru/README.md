@@ -18,6 +18,7 @@
 
 ### Блокчейн
 
+* [Аккаунт](/blockchain/account.md)
 * [Матчер](/blockchain/node/matcher.md)
 * [gRPC Server](/blockchain/node/grpc-server.md)
 * [Нода](/blockchain/node.md)

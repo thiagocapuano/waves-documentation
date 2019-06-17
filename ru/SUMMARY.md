@@ -27,6 +27,7 @@
 * [dApp](blockchain/dapp.md)
 * [dApp-скрипт](blockchain/dapp-script.md)
 * [Адрес](blockchain/address.md)
+* [Акаунт](blockchain/account.md)
 * [Ассет](blockchain/asset.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
 * [Комиссия за транзакцию](blockchain/transaction-fee.md)

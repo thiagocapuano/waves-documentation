@@ -14,6 +14,7 @@ Please select the page that fits you best:
 
 ### Blockchain
 
+* [Account](blockchain/account.md)
 * [Account data storage](blockchain/account-data-storage.md)
 * [Matcher](blockchain/node/matcher.md)
 * [gRPC Server](blockchain/node/grpc-server.md)
