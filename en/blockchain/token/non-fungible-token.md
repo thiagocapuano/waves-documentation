@@ -16,7 +16,7 @@ To issue NFTs you can use the [waves-games](https://www.npmjs.com/package/@waves
 
 The fee for the issue of a single NFT is 0.001 [WAVES](/blockchain/token/waves.md).
 
-### JSON representation of non-fungible token issue transaction
+### JSON representation of an issue transaction of a non-fungible token
 
 ```json
 { 
