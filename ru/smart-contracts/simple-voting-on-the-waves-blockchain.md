@@ -23,7 +23,7 @@
 
 <img src="img/voting/account-settings-test.png" width="540"/>
 
-Создайте аккаунт главы ТСЖ. Для этого выберите **Generate new account**.
+Создайте аккаунт главы ТСЖ, выбрав  **Generate new account**.
 
 <img src="img/voting/account-new.png" width="240"/>
 
@@ -31,7 +31,7 @@
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-Скопируйте [адрес](/blockchain/address.md) из карточки аккаунта главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-testnet.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты комиссии за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/blockchain/dapp-script.md) к своему аккаунту.
+Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-testnet.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты комиссии за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/blockchain/dapp-script.md) к своему аккаунту.
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -43,7 +43,7 @@
 
 ## 3. Создание dApp-скрипта
 
-Создайте [dApp-скрипт](/blockchain/dapp-script.md), выбрав в выпадающем меню **DApp**.
+Создайте [dApp-скрипт](/blockchain/dapp-script.md), выбрав в выпадающем списке **DApp**.
 
 <img src="img/voting/new-dapp-script.png" width="870"/>
 
@@ -95,7 +95,7 @@ func vote(theVote: Int) = {
 
 Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в [хранилище данных аккаунта](/blockchain/account-data-storage.md) главы ТСЖ.
 
-Перед функцией `vote` указана аннотация `@Callable`, которая делает данную функцию вызываемой у dApp. У данной аннотации `i` — переменная, содержащая информацию о транзакции, в рамках которой был вызван скрипт. Переменная `i` используется в коде для получения публичного ключа аккаунта `i.callerPublicKey`, вызвавшего скрипт.
+Перед функцией `vote` указана аннотация `@Callable`, которая делает данную функцию вызываемой у dApp. У данной аннотации `i` — переменная, содержащая информацию о транзакции, которая вызвала функцию `vote`. Мы используем переменную `i` в коде для получения публичного ключа аккаунта `i.callerPublicKey`, который отправил транзакцию вызова скрипта.
 
 Для простоты, в функции `vote` нет никаких проверок значения переменной `theVote`.
 
@@ -105,7 +105,7 @@ func vote(theVote: Int) = {
 
 В данном примере значения публичных ключей жестко прописаны в коде скрипта. В реальном примере можно было бы считывать публичные ключи, например, из хранилища данных аккаунта главы ТСЖ (предварительно записав их туда).
 
-Значения публичных ключей в коде `alekseiPubKey` и `annaPubKey` возьмите из карточек аккаунтов Алексея и Анны.
+Значения публичных ключей `alekseiPubKey` и `annaPubKey` возьмите из карточек аккаунтов Алексея и Анны.
 
 <img src="img/voting/public-key.png" width="240"/>
 
@@ -127,7 +127,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/deploy-dapp-script.png" width="940"/>
 
-В открывшемся окне в комбинированном списке **Account** выберите значение "Глава ТСЖ". Подпишите транзакцию, нажав **Add sign**.
+В открывшемся окне, в комбинированном списке **Account**, выберите значение "Глава ТСЖ". Подпишите транзакцию, нажав **Add sign**.
 
 <img src="img/voting/add-sign.png" width="900"/>
 
@@ -135,7 +135,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/seed-and-waves-keeper.png" width="300"/>
 
-Отправьте с аккаунта главы ТСЖ транзакцию установки скрипта, нажав **Publish**. Вверху экрана появится плашка с текстом о том, что транзакция была успешно отправлена.
+Отправьте с аккаунта главы ТСЖ транзакцию установки скрипта, нажав **Publish**.
 
 <img src="img/voting/publish.png" width="880"/>
 
