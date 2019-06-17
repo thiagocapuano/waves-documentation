@@ -163,7 +163,7 @@
 ## Waves Explorer
 
 * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Address balance top up in testnet](waves-explorer/address-balance-top-up-in-testnet.md)
+* [Account balance top up in the test network](waves-explorer/account-balance-top-up-in-the-test-network.md)
 
 ## Waves Keeper
 
