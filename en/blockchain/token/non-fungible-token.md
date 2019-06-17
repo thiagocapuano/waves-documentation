@@ -19,26 +19,26 @@ The fee for the issue of a single NFT is 0.001 [WAVES](/blockchain/token/waves.m
 ### JSON representation of an issue transaction of a non-fungible token
 
 ```json
-{ 
-   "type":3,
-   "version":1,
-   "chainId": 87
-   "senderPublicKey":"FkoFqtAeibv2E6Y86ZDRfAkZz61LwUMjLAP2gmS1j7xe",
-   "name":"The One Ring",
-   "description":"Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul.",
-   "amount":1,
-   "decimals":0,
-   "reissuable":false,
-   "fee":100000,
-   "timestamp":1485529001965,
-   "script":null,
-   "proofs":[ 
-       "2kSNWQM7zx4xXkSZrksZPSNYY32WXAdvQcBTvySMrtZ5rzWYpyXYcm8tbdUSjbyBT2LtMfiyQnYXguxrMdLpWgCq"
-   ],
-   "id":"8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf",
-   "sender":"3Mv61qe6egMSjRDZiiuvJDnf3Q1qW9tTZDB",
-   "feeAssetId":null,
-   "assetId":"8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf",
-   "height":193
+{
+  "type": 3,
+  "version": 1,
+  "chainId": 87,
+  "senderPublicKey": "FkoFqtAeibv2E6Y86ZDRfAkZz61LwUMjLAP2gmS1j7xe",
+  "name": "The One Ring",
+  "description": "Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul.",
+  "amount": 1,
+  "decimals": 0,
+  "reissuable": false,
+  "fee": 100000,
+  "timestamp": 1485529001965,
+  "script": null,
+  "proofs": [
+    "2kSNWQM7zx4xXkSZrksZPSNYY32WXAdvQcBTvySMrtZ5rzWYpyXYcm8tbdUSjbyBT2LtMfiyQnYXguxrMdLpWgCq"
+  ],
+  "id": "8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf",
+  "sender": "3Mv61qe6egMSjRDZiiuvJDnf3Q1qW9tTZDB",
+  "feeAssetId": null,
+  "assetId": "8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf",
+  "height": 193
 }
 ```
