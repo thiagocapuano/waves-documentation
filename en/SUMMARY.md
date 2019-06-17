@@ -227,9 +227,7 @@
 ## Developer tools
 
 * [Waves IDE](developer-tools/waves-ide.md)
-* [Waves console](developer-tools/waves-console.md)
-  * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
-  * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
+* [REPL](developer-tools/repl.md)
 * [Waves Keeper](developer-tools/waves-keeper.md)
 * [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
 

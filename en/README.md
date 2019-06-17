@@ -33,6 +33,10 @@ Please select the page that fits you best:
 
 * [RIDE script complexity](/ride/ride-script-complexity.md)
 
+## Developer tools
+
+* [REPL](/developer-tools/repl.md)
+
 ### Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)

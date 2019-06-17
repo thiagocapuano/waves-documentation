@@ -6,6 +6,6 @@ The complexity of a RIDE script is estimated based on complexities of all the [o
 
 The complexity of a script can be seen in the [Waves IDE](https://ide.wavesplatform.com):
 
-<img src="img/ride-script-complexity/script-complexity.png" alt="faucet" width="700"/>
+<img src="img/ride-script-complexity/script-complexity.png" width="700"/>
 
 At the moment, the complexity of the script is limited to 2000.
