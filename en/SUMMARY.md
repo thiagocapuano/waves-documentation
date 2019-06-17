@@ -20,6 +20,7 @@
   * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
   * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
+* [Account data storage](blockchain/account-data-storage.md)
 * [Account script](blockchain/account-script.md)
 * [Address](blockchain/address.md)
 * [Alias](blockchain/alias.md)
