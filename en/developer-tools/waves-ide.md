@@ -4,4 +4,4 @@
 
 ## Debugging
 
-There is no way to debug a RIDE script in the Waves IDE. The best way to check if the script works is to write tests and run them in the [test network](/blockchain/testnet.md).
+There is no way to debug a RIDE script in the Waves IDE. The best way to check if the script works is to write tests and run them in the [test network](/blockchain/test-network.md).

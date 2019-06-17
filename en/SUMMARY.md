@@ -36,7 +36,7 @@
 * [Script](blockchain/script.md)
 * [Smart account](blockchain/smart-account.md)
 * [Smart asset](blockchain/smart-asset.md)
-* [Testnet](blockchain/testnet.md)
+* [Test network](blockchain/test-network.md)
 * [Token](blockchain/token.md)
   * [Custom tokens](blockchain/token/custom-tokens.md)
   * [Non-fungible token](blockchain/token/non-fungible-token.md)

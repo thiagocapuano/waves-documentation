@@ -19,7 +19,7 @@
 
 <img src="img/voting/account-settings.png" width="300"/>
 
-Убедитесь, что выбрана [тестовая сеть](/blockchain/testnet.md).
+Убедитесь, что выбрана [тестовая сеть](/blockchain/test-network.md).
 
 <img src="img/voting/account-settings-test.png" width="540"/>
 

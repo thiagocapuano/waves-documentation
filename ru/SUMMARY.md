@@ -42,7 +42,7 @@
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
-* [Тестовая сеть](blockchain/testnet.md)
+* [Тестовая сеть](blockchain/test-network.md)
 * [Тип транзакции](blockchain/transaction-type.md)
   * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md)

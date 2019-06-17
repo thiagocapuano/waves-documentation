@@ -9,7 +9,7 @@
 | 1 | Version flag | | Byte | 1 | Indicates that this is a transaction with a [data structure](/blockchain/transaction-data-structure.md) of version 2 or above. <br>The value has to be equal to 0 |
 | 2 | Transaction type | type | Byte | 1 | ID of the [transaction type](/blockchain/transaction-type.md). <br>The value has to be equal to 6 |
 | 3 | Version number | version | Byte | 1 | Version number of the data structure of the transaction.  <br>The value has to be equal to 2 |
-| 4 | Network ID | chainId|Byte | 1 | Determines the network where the transaction will be published to. <br>84 for [testnet](/blockchain/testnet.md), 87 for [mainnet](/blockchain/mainnet.md) |
+| 4 | Network ID | chainId|Byte | 1 | Determines the network where the transaction will be published to. <br>84 for [test network](/blockchain/test-network.md), 87 for [mainnet](/blockchain/mainnet.md) |
 | 5 | Public key of sender | senderPublicKey | Array of bytes | 32 | Account public key of the sender |
 | 6 | Token ID | assetId| Array of bytes | 32 | ID of the token to burn |
 | 7 | Amount | amount | Long | 8 | Amount of tokens to burn |
