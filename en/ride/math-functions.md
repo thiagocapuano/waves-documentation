@@ -79,9 +79,9 @@ You can use rounding functions only with log and pow functions, i.e. you can not
 | Ceiling(): Int | Round towards positive infinity |
 | Down(): Int | Round towards zero |
 | Floor(): Int | Round towards negative infinity |
-| HalfDown(): Int | Round down towards the nearest integer. <br> If the discarded fraction is &gt; 0.5 then behaves as `Up()` |
-| HalfEven(): Int | Round towards the nearest even integer. <br> If the digit to the left of the discarded fraction is odd then behaves as`HalfUp()` otherwise behaves as `HalfDown()` |
-| HalfUp(): Int | Round up towards the nearest integer. <br> If the discarded fraction is &lt; 0.5 then behaves as `Down()` |
+| HalfDown(): Int | Round down towards the nearest integer. <br>If the discarded fraction is &gt; 0.5 then behaves as `Up()` |
+| HalfEven(): Int | Round towards the nearest even integer. <br>If the digit to the left of the discarded fraction is odd then behaves as`HalfUp()` otherwise behaves as `HalfDown()` |
+| HalfUp(): Int | Round up towards the nearest integer. <br>If the discarded fraction is &lt; 0.5 then behaves as `Down()` |
 | Up(): Int | Round away from zero |
 
 ### Examples
