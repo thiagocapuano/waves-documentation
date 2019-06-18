@@ -180,7 +180,7 @@
   * [Built-in structures](ride/built-in-structures.md)
 * [Functions](ride/functions.md)
   * [Built-in functions](ride/built-in-functions.md)
-  * [Math-functions](ride/math-functions.md)
+  * [Math functions](ride/math-functions.md)
 * [Exceptions](ride/exceptions.md)
 * [RIDE script](ride/ride-script.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
