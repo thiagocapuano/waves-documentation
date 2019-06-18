@@ -10,7 +10,7 @@ Each transaction type has a unique [data structure](/blockchain/transaction-data
 | :--- | :--- |
 | [Alias transaction](/blockchain/transaction-type/alias-transaction.md) | 10 |
 | [Burn transaction](/blockchain/transaction-type/burn-transaction.md)  | 6 |
-| Data transaction | 12 |
+| [Data transaction](/blockchain/transaction-type/data-transaction.md) | 12 |
 | Exchange transaction  | 7 |
 | Genesis transaction  | 1 |
 | Invoke script transaction | 16 |
