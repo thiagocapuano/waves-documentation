@@ -3,7 +3,7 @@
 | Name | Description | complexity |
 | :--- | :--- | :--- |
 |log(Int, Int, Int, Int, Int, Union): Int | Returns the logarithm of a number | 100 |
-| [ow(Int, Int, Int, Int, Int, Union): Int | Returns a number raised to a power | 100 |
+| pow(Int, Int, Int, Int, Int, Union): Int | Returns a number raised to a power | 100 |
 
 ## log(Int, Int, Int, Int, Int, Union): Int
 
