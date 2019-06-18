@@ -37,7 +37,7 @@ The number of decimals of the resulting value.
 
 #### `round`: Union
 
-[The rounding function](#Rounding functions).
+[Rounding functions](#Rounding functions).
 
 ## Rounding functions
 
