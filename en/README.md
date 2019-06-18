@@ -18,6 +18,7 @@ Please select the page that fits you best:
 * [Account data storage](blockchain/account-data-storage.md)
 * [Matcher](blockchain/node/matcher.md)
 * [gRPC Server](blockchain/node/grpc-server.md)
+* [Non-fungible token](blockchain/token/non-fungible-token.md)
 * [Node](blockchain/node.md)
 * [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [dApp](blockchain/dapp.md)
