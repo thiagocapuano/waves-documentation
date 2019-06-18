@@ -2,8 +2,8 @@
 
 | Name | Description | complexity |
 | :--- | :--- | :--- |
-|<a href= "#log(Int, Int, Int, Int, Int, Union):Int"> log(Int, Int, Int, Int, Int, Union): Int </a>  | Returns the logarithm of a number | 100 |
-| <a href= "#pow(Int, Int, Int, Int, Int, Union): Int"> pow(Int, Int, Int, Int, Int, Union): Int </a> | Returns a number raised to a power | 100 |
+| <a href= "#log(Int,-Int,-Int,-Int,-Int,-Union):-Int">log(Int, Int, Int, Int, Int, Union): Int</a>  | Returns the logarithm of a number | 100 |
+| <a href= "#pow(Int,-Int,-Int,-Int,-Int,-Union):-Int">pow(Int, Int, Int, Int, Int, Union): Int</a> | Returns a number raised to a power | 100 |
 
 ## log(Int, Int, Int, Int, Int, Union): Int
 
@@ -72,7 +72,6 @@ The number of decimals of the resulting value.
 ## Rounding functions
 
 You can use rounding functions only with log and pow functions, i.e. you can not use them by themselves separately.
-
 
 |Name | Description |
 | :--- | :--- |
