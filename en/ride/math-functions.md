@@ -2,8 +2,8 @@
 
 | Name | Description | complexity |
 | :--- | :--- | :--- |
-|[log(Int, Int, Int, Int, Int, Union): Int](#log(int,int, int,int,int,union):int) | Returns the logarithm of a number | 100 |
-| [pow(Int, Int, Int, Int, Int, Union): Int](#pow(Int, Int, Int, Int, Int, Union) | Returns a number raised to a power | 100 |
+|log(Int, Int, Int, Int, Int, Union): Int | Returns the logarithm of a number | 100 |
+| [ow(Int, Int, Int, Int, Int, Union): Int | Returns a number raised to a power | 100 |
 
 ## log(Int, Int, Int, Int, Int, Union): Int
 
@@ -30,6 +30,40 @@ The base of the logarithm.
 #### `bp`: Int
 
 The number of decimals of the base.
+
+#### `rp`: Int
+
+The number of decimals of the resulting value.
+
+#### `round`: Union
+
+[Rounding functions](#rounding-functions).
+
+## pow(Int, Int, Int, Int, Int, Union): Int
+
+Returns number raised to a power.
+
+```
+pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
+```
+
+### Parameters
+
+#### `base`: Int
+
+The base.
+
+#### `exponent`: Int
+
+The exponent..
+
+#### `ep`: Int
+
+The number of decimals of the exponent.
+
+#### `rp`: Int
+
+The number of decimals of the resulting value.
 
 #### `rp`: Int
 
