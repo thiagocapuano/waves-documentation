@@ -6,7 +6,7 @@ Objective: implement such voting among tenants on the Waves blockchain.
 
 ## Roadmap
 
-1. Create an [account](/en/blockchain/account.md) of the head of the HOA.
+1. Create an [account](/blockchain/account.md) of the head of the HOA.
 2. Create accounts of tenants.
 3. Create [dApp script](/blockchain/dapp-script.md) script with the `vote` method.
 4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/dapp.md).
@@ -15,7 +15,7 @@ Objective: implement such voting among tenants on the Waves blockchain.
 
 ## 1. Creation of the account of the head of the HOA
 
-Go to the [Waves IDE](https://ide.wavesplatform.com/) settings.
+Go to the [Waves IDE](https://ide.wavesplatform.com) settings.
 
 <img src="img/voting/account-settings.png" width="300"/>
 
