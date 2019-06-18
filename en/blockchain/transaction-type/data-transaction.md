@@ -1,10 +1,10 @@
 # Data transaction
 
-**Data transaction** is a [transaction](/blockchain/transaction.md) that writes data to account data storage.
+**Data transaction** is a [transaction](/blockchain/transaction.md) that writes data to the [account data storage](/blockchain/account-data-storage.md).
 
 ## Data array of a data transaction
 
-The maximum length of the data array is 100.
+The maximum length of the data array is 100 elements.
 
 The maximum size of the data array is 140 kilobytes.
 
