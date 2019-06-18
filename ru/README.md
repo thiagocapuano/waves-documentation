@@ -23,6 +23,7 @@
 * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
 * [gRPC Server](blockchain/node/grpc-server.md)
 * [Нода](blockchain/node.md)
+* [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
 * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
 * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
 
