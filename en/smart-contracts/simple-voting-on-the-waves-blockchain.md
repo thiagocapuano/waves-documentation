@@ -6,7 +6,7 @@ Objective: implement such voting among tenants on the Waves blockchain.
 
 ## Roadmap
 
-1. Create an account of the head of the HOA.
+1. Create an [account](/en/blockchain/account.md) of the head of the HOA.
 2. Create accounts of tenants.
 3. Create [dApp script](/blockchain/dapp-script.md) script with the `vote` method.
 4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/dapp.md).
@@ -149,3 +149,37 @@ There are two transactions on the head of the HOA's address: the transfer transa
 
 <img src="img/voting/waves-explorer-chief-transactions.png" width="900"/>
 
+## 5. Voting
+
+In order to vote a resident must send an invoke script transaction from his account. In the transaction he must specify the address of the dApp, the name of the method to call, and the passed parameters.
+Send an invoke script transaction from Aleksei's account using [REPL](/developer-tools/repl.md). First, _select Aleksei's account_ in the Waves IDE.
+
+<img src="img/voting/account-aleksei.png" width="320"/>
+
+Then in the REPL execute the following command:
+
+```ride
+broadcast(invokeScript({dApp: "3Mw2J9yxS8ftQ8FZuD6hsE3fCu494qJqB5r", call: {function: "vote", args: [{type: "integer", value: 7}]} }))
+```
+
+If everything went right, you will see the following result (expand the `Promise` object in the console):
+
+<img src="img/voting/repl-success.png" width="650"/>
+
+Similarly, vote from Anna's account, after selecting Anna's account in the Wave IDE:
+
+```ride
+broadcast(invokeScript({dApp: "3Mw2J9yxS8ftQ8FZuD6hsE3fCu494qJqB5r", call: {function: "vote", args: [{type: "integer", value: 25}]} }))
+```
+
+If you try to vote again from Aleksei's or Anna's accounts, you will see the error:
+
+<img src="img/voting/repl-error-1.png" width="900"/>
+
+If you try to vote from the account of the head of the HOA, you will see the error:
+
+## 6. Viewing the results of the voting
+
+Take a look at the contents of the head of the HOA's account data storage on the **Data** tab in the Waves Explorer — there are two records in the account data storage.
+
+<img src="img/voting/voting-results.png" width="880"/>
