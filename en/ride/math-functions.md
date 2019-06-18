@@ -55,15 +55,11 @@ The base.
 
 #### `exponent`: Int
 
-The exponent..
+The exponent.
 
 #### `ep`: Int
 
 The number of decimals of the exponent.
-
-#### `rp`: Int
-
-The number of decimals of the resulting value.
 
 #### `rp`: Int
 
