@@ -2,7 +2,7 @@
 
 | Name | Description | complexity |
 | :--- | :--- | :--- |
-|[log(Int, Int, Int, Int, Int, Union): Int](#log(Int, Int, Int, Int, Int, Union) | Returns the logarithm of a number | 100 |
+|[log(Int, Int, Int, Int, Int, Union): Int](#log(int, int, int, int, int, Union): int) | Returns the logarithm of a number | 100 |
 | [pow(Int, Int, Int, Int, Int, Union): Int](#pow(Int, Int, Int, Int, Int, Union) | Returns a number raised to a power | 100 |
 
 ## log(Int, Int, Int, Int, Int, Union): Int
