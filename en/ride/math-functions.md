@@ -2,7 +2,7 @@
 
 | Name | Description | complexity |
 | :--- | :--- | :--- |
-|log(Int, Int, Int, Int, Int, Union): Int | Returns the logarithm of a number | 100 |
+|[log(Int, Int, Int, Int, Int, Union): Int](#log(Int, Int, Int, Int, Int, Union): Int) | Returns the logarithm of a number | 100 |
 | pow(Int, Int, Int, Int, Int, Union): Int | Returns a number raised to a power | 100 |
 
 ## log(Int, Int, Int, Int, Int, Union): Int
@@ -76,13 +76,13 @@ You can use rounding functions only with log and pow functions, i.e. you can not
 
 |Name | Description |
 | :--- | :--- |
-| Ceiling\(\): Int | Round towards positive infinity |
-| Down\(\): Int | Round towards zero |
-| Floor\(\): Int | Round towards negative infinity |
-| HalfDown\(\): Int | Round down towards the nearest integer.If the discarded fraction is &gt; 0.5 then behaves as `Up()` |
-| HalfEven\(\): Int | Round towards the nearest even neighbour.If the digit to the left of the discarded fraction is odd then behaves as`HalfUp()` otherwise behaves as `HalfDown()` |
-| HalfUp\(\): Int | Round up towards the nearest neighbour.If the discarded fraction is &lt; 0.5 then behaves as `Down()` |
-| Up\(\): Int | Round away from zero |
+| Ceiling(): Int | Round towards positive infinity |
+| Down(): Int | Round towards zero |
+| Floor(): Int | Round towards negative infinity |
+| HalfDown(): Int | Round down towards the nearest integer.If the discarded fraction is &gt; 0.5 then behaves as `Up()` |
+| HalfEven(): Int | Round towards the nearest even integer.If the digit to the left of the discarded fraction is odd then behaves as`HalfUp()` otherwise behaves as `HalfDown()` |
+| HalfUp(): Int | Round up towards the nearest integer.If the discarded fraction is &lt; 0.5 then behaves as `Down()` |
+| Up(): Int | Round away from zero |
 
 ### Examples
 
