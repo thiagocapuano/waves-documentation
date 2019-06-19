@@ -210,4 +210,4 @@
 * [Интерфейс пользователя](waves-token-rating/user-interface.md)
 * [Формула рейтинга](waves-token-rating/rating-formula.md)
 * [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
-* [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
+* [Транзакция данных оракула Token Rating](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)

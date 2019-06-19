@@ -1,6 +1,6 @@
-# Token Rating's oracle data transaction
+# Data transaction of the Token Rating oracle
 
-Once a day, the [oracle](/waves-oracles/oracle.md) [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) sends to the Waves blockchain a [data transaction](/blockchain/transaction-type/data-transaction.md) with the token ratings, that have been changed in the past 24 hours. No more than 100 changes are included in one data transaction, therefore, if there are more changes, then several transactions will be sent.
+Once a day, the [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) [oracle](/waves-oracles/oracle.md) sends to the Waves blockchain a [data transaction](/blockchain/transaction-type/data-transaction.md) with the token ratings, that have been changed in the past 24 hours. No more than 100 changes are included in one data transaction, therefore, if there are more changes, then several transactions will be sent.
 
 An example of the `data` field of such a transaction:
 
