@@ -1,11 +1,11 @@
 # Math functions
 
-| Name | Description | complexity |
+| Name | Description | Complexity |
 | :--- | :--- | :--- |
-| <a href= "#log(Int,-Int,-Int,-Int,-Int,-Union):-Int">log(Int, Int, Int, Int, Int, Union): Int</a>  | Returns the logarithm of a number | 100 |
-| <a href= "#pow(Int,-Int,-Int,-Int,-Int,-Union):-Int">pow(Int, Int, Int, Int, Int, Union): Int</a> | Returns a number raised to a power | 100 |
+|<a href= "#log">log</a> | Returns the logarithm of a number | 100 |
+|<a href= "#pow">pow</a> | Returns a number raised to a power| 100 |
 
-## log(Int, Int, Int, Int, Int, Union): Int
+## log
 
 Returns the logarithm of a number.
 
@@ -37,9 +37,9 @@ The number of decimals of the resulting value.
 
 #### `round`: Union
 
-[Rounding functions](#rounding-functions).
+The [rounding function](#rounding-functions).
 
-## pow(Int, Int, Int, Int, Int, Union): Int
+## pow
 
 Returns number raised to a power.
 
@@ -67,21 +67,22 @@ The number of decimals of the resulting value.
 
 #### `round`: Union
 
-[Rounding functions](#rounding-functions).
+The [rounding function](#rounding-functions).
 
 ## Rounding functions
 
-You can use rounding functions only with log and pow functions, i.e. you can not use them by themselves separately.
+The rounding functions are _only_ used as the parameters of [log](#log) and [pow](#pow) functions and they are not used by themselves.
+
 
 |Name | Description |
 | :--- | :--- |
-| Ceiling(): Int | Round towards positive infinity |
-| Down(): Int | Round towards zero |
-| Floor(): Int | Round towards negative infinity |
-| HalfDown(): Int | Round down towards the nearest integer. <br>If the discarded fraction is &gt; 0.5 then behaves as `Up()` |
-| HalfEven(): Int | Round towards the nearest even integer. <br>If the digit to the left of the discarded fraction is odd then behaves as`HalfUp()` otherwise behaves as `HalfDown()` |
-| HalfUp(): Int | Round up towards the nearest integer. <br>If the discarded fraction is &lt; 0.5 then behaves as `Down()` |
-| Up(): Int | Round away from zero |
+| Ceiling(): Int | Rounding towards positive infinity |
+| Down(): Int | Rounding towards zero |
+| Floor(): Int | Rounding towards negative infinity |
+| HalfDown(): Int | Rounding down towards the nearest integer |
+| HalfEven(): Int | Rounding towards the nearest even integer |
+| HalfUp(): Int   | Rounding up towards the nearest integer   |
+| Up(): Int | Rounding away from zero |
 
 ### Examples
 
