@@ -119,7 +119,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 Размер и [сложность](/ride/ride-script-complexity.md) скрипта отображаются в панели под редактором скрипта.
 
-<img src="img/voting/script-complexity.png" width="400"/>
+<img src="img/voting/script-complexity.png" width="450"/>
 
 ## 4. Привязка dApp-скрипта к аккаунту главы ТСЖ
 

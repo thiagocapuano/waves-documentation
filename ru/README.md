@@ -31,6 +31,10 @@
 
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
+### Смарт-котракты (Waves dApps)
+
+* [Простое голосование на блокчейне Waves](ride/simple-voting-on-the-waves-blockchain.md)
+
 ### Инструменты разработчика
 
 * [REPL](developer-tools/repl.md)

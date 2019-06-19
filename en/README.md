@@ -35,6 +35,10 @@ Please select the page that fits you best:
 
 * [RIDE script complexity](/ride/ride-script-complexity.md)
 
+## Smart contracts (Waves dApps)
+
+* [Simple voting on the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md)
+
 ## Developer tools
 
 * [REPL](/developer-tools/repl.md)

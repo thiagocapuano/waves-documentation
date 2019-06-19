@@ -191,6 +191,7 @@
 
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
+* [Simple voting on the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
 * [Smart Accounts](smart-contracts/smart-accounts.md)
 * [Smart Assets](smart-contracts/smart-assets.md)

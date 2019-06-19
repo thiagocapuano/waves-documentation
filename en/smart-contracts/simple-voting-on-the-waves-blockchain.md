@@ -31,7 +31,7 @@ Rename created account to "Head of HOA".
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-Copy the [address](/blockchain/address.md) of the head of HOA and top up its balance by 10 [WAVES](/blockchain/token/waves.md) [Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md). The head of HOA will need [tokens](/blockchain/token.md) to pay the fee for the set script transaction when he will be attaching [dApp script](/blockchain/dapp-script.md) to his account.
+Copy the [address](/blockchain/address.md) of the head of HOA and top up its balance by 10 [WAVES](/blockchain/token/waves.md) using the [Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md). The head of HOA will need [tokens](/blockchain/token.md) to pay the fee for the set script transaction when he will be attaching [dApp script](/blockchain/dapp-script.md) to his account.
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -119,7 +119,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 The size and the [complexity](/ride/ride-script-complexity.md) of the script is displayed in the panel underneath the script editor.
 
-<img src="img/voting/script-complexity.png" width="890"/>
+<img src="img/voting/script-complexity.png" width="450"/>
 
 ## 4. Attaching dApp script to the account of the head of the HOA
 
@@ -135,17 +135,15 @@ Note that you can also sign a transaction with a seed phrase or using the [Waves
 
 <img src="img/voting/seed-and-waves-keeper.png" width="300"/>
 
-Send a set script transaction from the account of the head of the HOA by pressing **Publish**.
+Send a set script transaction from the account of the head of the HOA by pressing **Publish**. By doing so, you just created a [dApp](/blockchain/dapp.md).
 
 <img src="img/voting/publish.png" width="880"/>
 
-By doing so, you just created a [dApp](/blockchain/dapp.md).
-
-In the [Waves Explorer](https://wavesexplorer.com/), in the _test network_, find the information about the activity on the account of the head of the HOA. Enter the address of the head of the HOA in the search bar and press **Enter**.
+In the [Waves Explorer](https://wavesexplorer.com/testnet), in the _test network_, find the information about the activity on the account of the head of the HOA. Enter the address of the head of the HOA in the search bar and press **Enter**.
 
 <img src="img/voting/testnet-address.png" width="800"/>
 
-There are two transactions on the head of the HOA's address: the transfer transaction (balance top up by 10 WAVES using faucet) and the set script transaction. Note that the commission of 0.001 WAVES was charged from the head of the HOA's balance for the set script transaction.
+There are two transactions on the head of the HOA's address: the transfer transaction (balance top up by 10 WAVES using the Faucet) and the set script transaction. Note that the commission of 0.001 WAVES was charged from the head of the HOA's balance for the set script transaction.
 
 <img src="img/voting/waves-explorer-chief-transactions.png" width="900"/>
 
@@ -166,7 +164,7 @@ If everything went right, you will see the following result (expand the `Promise
 
 <img src="img/voting/repl-success.png" width="650"/>
 
-Similarly, vote from Anna's account, after selecting Anna's account in the Wave IDE:
+Similarly, vote from Anna's account, _after selecting Anna's account_ in the Wave IDE:
 
 ```ride
 broadcast(invokeScript({dApp: "3Mw2J9yxS8ftQ8FZuD6hsE3fCu494qJqB5r", call: {function: "vote", args: [{type: "integer", value: 25}]} }))
@@ -177,6 +175,9 @@ If you try to vote again from Aleksei's or Anna's accounts, you will see the err
 <img src="img/voting/repl-error-1.png" width="900"/>
 
 If you try to vote from the account of the head of the HOA, you will see the error:
+
+<img src="img/voting/repl-error-2.png" width="900"/>
+
 
 ## 6. Viewing the results of the voting
 
