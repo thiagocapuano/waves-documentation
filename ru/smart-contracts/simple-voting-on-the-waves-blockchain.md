@@ -141,7 +141,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 Таким образом, вы только что создали [dApp](/blockchain/dapp.md).
 
-В [Waves Explorer](https://wavesexplorer.com/), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
+В [Waves Explorer](https://wavesexplorer.com/testnet), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
 
 <img src="img/voting/testnet-address.png" width="800"/>
 
