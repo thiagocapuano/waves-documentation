@@ -2,8 +2,8 @@
 
 | Name | Description | complexity |
 | :--- | :--- | :--- |
-|<a href= "#log">log</a>  | Returns the logarithm of a number | 100 |
-| <a href= "#pow">pow</a> | Returns a number raised to a power | 100 |
+|<a href= "#log">log</a> | Returns the logarithm of a number | 100 |
+|<a href= "#pow">pow</a> | Returns a number raised to a power| 100 |
 
 ## log
 
