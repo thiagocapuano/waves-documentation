@@ -5,6 +5,6 @@
 
 Чтобы пополнить баланс адреса в тестовой сети, сделайте следующее:
 
-1. Перейдите на страницу <https://wavesexplorer.com/testnet>.
+1. Перейдите на страницу <https://wavesexplorer.com/testnet/faucet>.
 2. Введите адрес аккаунта в поле **Address**.
 3. Нажмите **Request 10 WAVES**.
