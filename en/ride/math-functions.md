@@ -1,6 +1,6 @@
 # Math functions
 
-| Name | Description | complexity |
+| Name | Description | Complexity |
 | :--- | :--- | :--- |
 |<a href= "#log">log</a> | Returns the logarithm of a number | 100 |
 |<a href= "#pow">pow</a> | Returns a number raised to a power| 100 |
