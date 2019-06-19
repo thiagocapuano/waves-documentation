@@ -71,7 +71,7 @@ The [rounding function](#rounding-functions).
 
 ## Rounding functions
 
-The rounding functions are _only_ used as the parameters of `log` and `pow` functions and they are not used by themselves.
+The rounding functions are _only_ used as the parameters of [log](#log) and [pow](#pow) functions and they are not used by themselves.
 
 
 |Name | Description |
