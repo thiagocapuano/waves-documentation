@@ -163,6 +163,8 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 broadcast(invokeScript({dApp: "3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL", call: {function: "vote", args: [{type: "integer", value: 7}]} }))
 ```
 
+Здесь `3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL` — адрес аккаунта главы ТСЖ.
+
 Если все прошло успешно, то вы увидите следующий результат (разверните объект `Promise` в консоли):
 
 <img src="img/voting/repl-success.png" width="650"/>

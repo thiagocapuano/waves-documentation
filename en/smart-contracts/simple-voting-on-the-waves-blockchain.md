@@ -160,6 +160,8 @@ Then in the REPL execute the following command:
 broadcast(invokeScript({dApp: "3Mw2J9yxS8ftQ8FZuD6hsE3fCu494qJqB5r", call: {function: "vote", args: [{type: "integer", value: 7}]} }))
 ```
 
+Here `3Mw2J9yxS8ftQ8FZuD6hsE3fCu494qJqB5r` is the address of the account of the head of the HOA.
+
 If everything went right, you will see the following result (expand the `Promise` object in the console):
 
 <img src="img/voting/repl-success.png" width="650"/>
@@ -170,11 +172,11 @@ Similarly, vote from Anna's account, _after selecting Anna's account_ in the Wav
 broadcast(invokeScript({dApp: "3Mw2J9yxS8ftQ8FZuD6hsE3fCu494qJqB5r", call: {function: "vote", args: [{type: "integer", value: 25}]} }))
 ```
 
-If you try to vote again from Aleksei's or Anna's accounts, you will see the error:
+If you will try to vote again from Aleksei's or Anna's accounts, you will see the error:
 
 <img src="img/voting/repl-error-1.png" width="900"/>
 
-If you try to vote from the account of the head of the HOA, you will see the error:
+If you will try to vote from the account of the head of the HOA, you will see the error:
 
 <img src="img/voting/repl-error-2.png" width="900"/>
 
