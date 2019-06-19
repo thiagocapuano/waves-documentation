@@ -1,6 +1,6 @@
 # Rating formula
 
-The rating of a token is a daily weighted mean of individual rates of all users who have ever evaluated the token:
+The rating of a token is a daily weighted mean of individual rates of all users who have ever rated the token:
 
 R = (R<sub>1</sub>W<sub>1</sub> + R<sub>2</sub>W<sub>2</sub> + ... + R<sub>n</sub>W<sub>n</sub>) / (W<sub>1</sub> + W<sub>2</sub> + ... + W<sub>n</sub>),
 
