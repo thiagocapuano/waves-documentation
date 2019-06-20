@@ -22,8 +22,6 @@
 | <a href= "#fromBase58String">fromBase58String(String): ByteVector</a> | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
 | <a href= "#fromBase64String">fromBase64String(String): ByteVector</a>| Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
 
-
-
 ## blake2b256
 
 [BLAKE-256](https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29) hash function.
@@ -37,7 +35,6 @@ blake2b256(bytes: ByteVector): ByteVector
 #### `bytes`: ByteVector
 
 The array of bytes to encode.
-
 
 ## keccak256
 
@@ -53,7 +50,6 @@ keccak256(bytes: ByteVector): ByteVector
 
 The array of bytes to encode.
 
-
 ## sha256
 
 [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function.
@@ -67,7 +63,6 @@ sha256(bytes: ByteVector): ByteVector
 #### `bytes`: ByteVector
 
 The array of bytes to encode.
-
 
 ## toBase16String
 
@@ -83,8 +78,6 @@ toBase16String(bytes: ByteVector): String
 
 The array of bytes to encode.
 
-
-
 ## toBase58String
 
 Encodes an array of bytes to a [Base58](https://en.wikipedia.org/wiki/Base58) string.
@@ -98,7 +91,6 @@ toBase58String(bytes: ByteVector): String
 #### `bytes`: ByteVector
 
 The array of bytes to encode.
-
 
 ## toBase64String
 
@@ -128,7 +120,6 @@ addressFromString(string: String): Address|Unit
 
 The string to decode.
 
-
 ## addressFromStringValue
 
 Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.
@@ -145,8 +136,6 @@ addressFromStringValue(string: String): Address
 
 The string to decode.
 
-
-
 ## fromBase16String
 
 Decodes a [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes.
@@ -161,7 +150,6 @@ fromBase16String(str: String): ByteVector
 
 The string to decode.
 
-
 ## fromBase58String
 
 Decodes a [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes.
@@ -175,7 +163,6 @@ fromBase58String(str: String): ByteVector
 #### `str`: String
 
 The string to decode.
-
 
 ## fromBase64String
 
