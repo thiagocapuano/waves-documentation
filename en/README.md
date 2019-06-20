@@ -32,8 +32,9 @@ Please select the page that fits you best:
 * [Waves Keeper](waves-keeper/about-waves-keeper.md)
 
 ## RIDE
-
+* [Encoding and decoding functions](/ride/built-in-functions/encoding-and-decoding-functions.md)
 * [RIDE script complexity](/ride/ride-script-complexity.md)
+* [Math functions](/ride/built-in-functions/math-functions.md)
 
 ## Smart contracts (Waves dApps)
 
