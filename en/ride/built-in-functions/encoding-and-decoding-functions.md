@@ -16,7 +16,7 @@
 | Name | Description | Complexity |
 | :--- | :--- | :--- |
 | [addressFromString(String): Address&#124;Unit](#addressfromstring)| Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
-| [addressFromStringValue(String): Address](#addressfromstringvalue)</a> | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
+| [addressFromStringValue(String): Address](#addressfromstringvalue) | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
 | [fromBase16String(String): ByteVector](#frombase16string) | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
 | [fromBase58String(String): ByteVector](#frombase58string) | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
 | [fromBase64String(String): ByteVector](#frombase64string)| Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
