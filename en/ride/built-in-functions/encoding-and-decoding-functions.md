@@ -7,7 +7,7 @@
 | <a href= "#blake2b256">blake2b256(ByteVector): ByteVector</a> | [BLAKE-256](https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29) hash function | 10 |
 | <a href= "#keccak256">keccak256(ByteVector): ByteVector</a> | [SHA-3-256](https://en.wikipedia.org/wiki/SHA-3) hash function | 10 |
 | <a href= "#sha256">sha256(ByteVector): ByteVector</a> | [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function | 10 |
-| [toBase16String(ByteVector): String](../built-in-functions/encoding-and-decoding-functions.md#toBase16String)  | Encodes array of bytes to [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string | 10 |
+| [toBase16String(ByteVector): String](#toBase16String)  | Encodes array of bytes to [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string | 10 |
 | <a href= "#toBase58String">toBase58String(ByteVector): String</a> | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
 | <a href= "#toBase64String">toBase64String(ByteVector): String</a> | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
 
