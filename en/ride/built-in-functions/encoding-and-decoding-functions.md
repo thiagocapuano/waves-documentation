@@ -8,7 +8,7 @@
 | <a href= "#keccak256">keccak256(ByteVector): ByteVector</a> | [SHA-3-256](https://en.wikipedia.org/wiki/SHA-3) hash function | 10 |
 | <a href= "#sha256">sha256(ByteVector): ByteVector</a> | [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function | 10 |
 | [toBase16String(ByteVector): String](#toBase16String)  | Encodes array of bytes to [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string | 10 |
-| [toBase16String(ByteVector): String](#toBase58String) | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
+| [toBase58String(ByteVector): String](#toBase58String) | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
 | [toBase64String(ByteVector): String](#toBase64String) | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
 
 
