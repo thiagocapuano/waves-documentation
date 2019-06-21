@@ -11,6 +11,6 @@
 * читать данные из [хранилища данных аккаунта](/blockchain/account-data-storage.md)
 * отправлять и отменять ордера на DEX
 
-В консоли можно писать любой код на JavaScript, в том числе вызывающий методы JavaScript-библиотеки [Waves Transactions](https://github.com/wavesplatform/waves-transactions). Документация по Waves Transcations доступна на [GitHub](https://wavesplatform.github.io/waves-transactions/).
+В консоли можно писать любой код на JavaScript, в том числе вызывающий методы TypeScript-библиотеки [Waves Transactions](https://github.com/wavesplatform/waves-transactions). Документация по Waves Transcations доступна на [GitHub](https://wavesplatform.github.io/waves-transactions/).
 
 У консоли также есть [объекты и функции](https://wavesplatform.github.io/js-test-env/modules/globalenv.html) для доступа к окружению Waves IDE.
