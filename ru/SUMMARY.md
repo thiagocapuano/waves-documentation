@@ -25,11 +25,14 @@
 ## Блокчейн
 
 * [dApp](blockchain/dapp.md)
+* [Блок](blockchain/block.md)
 * [dApp-скрипт](blockchain/dapp-script.md)
 * [Адрес](blockchain/address.md)
 * [Акаунт](blockchain/account.md)
 * [Ассет](blockchain/asset.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
+* [Высота блока](blockchain/block-height.md)
+* [Высота блокчейна](blockchain/blockchain-height.md)
 * [Комиссия за транзакцию](blockchain/transaction-fee.md)
 * [Нода](blockchain/node.md)
   * [gRPC Server](blockchain/node/grpc-server.md)

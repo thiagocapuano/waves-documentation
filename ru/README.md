@@ -18,6 +18,9 @@
 
 ### Блокчейн
 
+* [Высота блокчейна](blockchain/blockchain-height.md)
+* [Высота блока](blockchain/block-height.md)
+* [Блок](blockchain/block.md)
 * [Аккаунт](blockchain/account.md)
 * [Матчер](blockchain/node/matcher.md)
 * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
