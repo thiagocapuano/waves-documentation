@@ -81,6 +81,7 @@
   * [Математические функции](ride/built-in-functions/math-functions.md)
   * [Функции получения данных из блокчейна](ride/built-in-functions/blockchain-data-retrieval-functions.md)
 * [Исключения](ride/exceptions.md)
+* [Функции](ride/functions.md)
 * [Скрипт на RIDE](ride/ride-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
