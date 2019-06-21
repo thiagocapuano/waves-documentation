@@ -1,3 +1,3 @@
 # Блок
 
-**Блок** — звено цепочки [блокчейна](blockchain/blockchain.md).
+**Блок** — звено цепочки [блокчейна](/blockchain/blockchain.md).
