@@ -23,7 +23,7 @@ ID токена.
 
 ## blockInfoByHeight
 
-Получает информацию о [блоке](blockchain/block.md) по его [высоте](blockchain/block-height.md).
+Получает информацию о [блоке](blockchain/block.md) по его [высоте](/blockchain/block-height.md).
 
 ```
 blockInfoByHeight(height: Int): BlockInfo|Unit
@@ -37,7 +37,7 @@ blockInfoByHeight(height: Int): BlockInfo|Unit
 
 ## transactionHeightById
 
-Получает [высоту блока](blockchain/block-height.md) транзакции.
+Получает [высоту блока](/blockchain/block-height.md) транзакции.
 
 ```
 transactionHeightById(id: ByteVector): Int|Unit
