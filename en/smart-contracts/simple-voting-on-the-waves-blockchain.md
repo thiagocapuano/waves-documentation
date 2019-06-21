@@ -8,7 +8,7 @@ Objective: implement such voting among tenants on the Waves blockchain.
 
 1. Create an [account](/blockchain/account.md) of the head of the HOA.
 2. Create accounts of tenants.
-3. Create [dApp script](/blockchain/dapp-script.md) script with the `vote` method.
+3. Create [dApp script](/blockchain/dapp-script.md) with the `vote` method.
 4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/dapp.md).
 5. Vote from the accounts of tenants by invoking the `vote` method of the dApp.
 6. View the results of the voting.

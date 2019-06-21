@@ -11,6 +11,6 @@ The console allows:
 * read the data from the [account data storage](/blockchain/account-data-storage.md)
 * send and cancel orders on DEX
 
-You can write in the console any JavaScript code, including one that makes calls to the methods of the JavaScript library [Waves Transactions](https://github.com/wavesplatform/waves-transactions). The documentation on the Waves Transactions is available on [GitHub](https://wavesplatform.github.io/waves-transactions/).
+You can write in the console any JavaScript code, including one that makes calls to the methods of the TypeScript library [Waves Transactions](https://github.com/wavesplatform/waves-transactions). The documentation on the Waves Transactions is available on [GitHub](https://wavesplatform.github.io/waves-transactions/).
 
-The console also has objects and methods for accessing the Waves IDE's environment.
+The console also has [objects and methods](https://wavesplatform.github.io/js-test-env/modules/globalenv.html) for accessing the Waves IDE's environment.

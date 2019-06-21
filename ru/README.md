@@ -29,6 +29,7 @@
 
 ### RIDE
 
+* [Математические функции](ride/functions/math-functions.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
 ### Смарт-котракты (Waves dApps)

@@ -74,6 +74,7 @@
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
 * [Функции](ride/functions.md)
+  * [Математические функции](ride/functions/math-functions.md)
 * [Исключения](ride/exceptions.md)
 * [Скрипт на RIDE](ride/ride-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
