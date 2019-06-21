@@ -1,4 +1,4 @@
-# Transaction Fee
+# Transaction fee
 
 A **transaction fee** is a fee that an [account](/blockchain/account.md) owner pays to send a [transaction](/blockchain/transaction.md).
 
