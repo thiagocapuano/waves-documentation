@@ -18,6 +18,10 @@
 
 ### Блокчейн
 
+* [Блокчейн](blockchain/blockchain.md)
+* [Высота блокчейна](blockchain/blockchain-height.md)
+* [Высота блока](blockchain/block-height.md)
+* [Блок](blockchain/block.md)
 * [Аккаунт](blockchain/account.md)
 * [Матчер](blockchain/node/matcher.md)
 * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
@@ -29,7 +33,8 @@
 
 ### RIDE
 
-* [Математические функции](ride/functions/math-functions.md)
+* [Функции получения данных из блокчейна](ride/built-in-functions/blockchain-data-retrieval-functions.md)
+* [Математические функции](ride/built-in-functions/math-functions.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
 ### Смарт-котракты (Waves dApps)
