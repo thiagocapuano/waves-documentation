@@ -1,12 +1,12 @@
 # Structures
 
-All structures in RIDE are predefined — you cannot create your own structures.
+All structures in RIDE are [built-in](/ride/built-in-structures.md) — you cannot create your own structures.
 
 All structures have constructors.
 
 ## Examples
 
-The following code creates an instance of the `DataEntry` structure and reads its key and value:
+The code that creates an instance of the `DataEntry` structure and reads its key and value.
 
 ```ride
 {-# STDLIB_VERSION 3 #-}
