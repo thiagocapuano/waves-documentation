@@ -32,6 +32,7 @@ Please select the page that fits you best:
 * [Waves Keeper](waves-keeper/about-waves-keeper.md)
 
 ## RIDE
+* [Byte functions](ride/built-in-functions/byte-functions.md)
 * [Encoding and decoding functions](/ride/built-in-functions/encoding-and-decoding-functions.md)
 * [Math functions](/ride/built-in-functions/math-functions.md)
 * [RIDE script complexity](/ride/ride-script-complexity.md)
