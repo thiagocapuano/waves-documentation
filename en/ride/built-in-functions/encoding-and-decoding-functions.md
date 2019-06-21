@@ -5,21 +5,21 @@
 | Name | Description | Complexity |
 | :--- | :--- | :--- |
 | <a href= "#blake2b256">blake2b256(ByteVector): ByteVector</a> | [BLAKE-256](https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29) hash function | 10 |
-| <a href="#keccak256">keccak256(ByteVector): ByteVector</a> | [SHA-3-256](https://en.wikipedia.org/wiki/SHA-3) hash function | 10 |
-| <a href="#sha256">sha256(ByteVector): ByteVector</a> | [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function | 10 |
-| <a href="#toBase16String">toBase16String(ByteVector): String</a> | Encodes array of bytes to [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string | 10 |
-| <a href="#toBase58String">toBase58String(ByteVector): String</a> | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
-| <a href="#toBase64String">toBase64String(ByteVector): String</a> | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
+| <a href= "#keccak256">keccak256(ByteVector): ByteVector</a> | [SHA-3-256](https://en.wikipedia.org/wiki/SHA-3) hash function | 10 |
+| <a href= "#sha256">sha256(ByteVector): ByteVector</a> | [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function | 10 |
+| [toBase16String(ByteVector): String](../built-in-functions/encoding-and-decoding-functions.md#toBase16String)  | Encodes array of bytes to [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string | 10 |
+| <a href= "#toBase58String">toBase58String(ByteVector): String</a> | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
+| <a href= "#toBase64String">toBase64String(ByteVector): String</a> | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
 
 
 ## Decoding functions
 
 | Name | Description | Complexity |
 | :--- | :--- | :--- |
-| <a href="#addressFromString">addressFromString(String): Address&#124;Unit</a> | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
-| <a href="#addressFromStringValue">addressFromStringValue(String): Address</a> | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
-| <a href="#fromBase16String">fromBase16String(String): ByteVector</a> | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
-| <a href="#fromBase58String">fromBase58String(String): ByteVector</a> | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
+| <a href= "#addressFromString">addressFromString(String): Address&#124;Unit</a> | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
+| <a href= "#addressFromStringValue">addressFromStringValue(String): Address</a> | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
+| <a href= "#fromBase16String">fromBase16String(String): ByteVector</a> | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
+| <a href= "#fromBase58String">fromBase58String(String): ByteVector</a> | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
 | <a href= "#fromBase64String">fromBase64String(String): ByteVector</a>| Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
 
 ## blake2b256
