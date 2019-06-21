@@ -77,11 +77,11 @@
 * [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
+* [Функции](ride/functions.md)
 * [Встроенные функции](ride/built-in-functions.md)
   * [Математические функции](ride/built-in-functions/math-functions.md)
   * [Функции получения данных из блокчейна](ride/built-in-functions/blockchain-data-retrieval-functions.md)
 * [Исключения](ride/exceptions.md)
-* [Функции](ride/functions.md)
 * [Скрипт на RIDE](ride/ride-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
