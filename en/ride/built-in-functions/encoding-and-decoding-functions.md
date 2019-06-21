@@ -11,7 +11,6 @@
 | [toBase58String(ByteVector): String](#toBase58String) | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
 | [toBase64String(ByteVector): String](#toBase64String) | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
 
-
 ## Decoding functions
 
 | Name | Description | Complexity |
