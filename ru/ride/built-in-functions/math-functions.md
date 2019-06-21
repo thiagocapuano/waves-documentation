@@ -2,8 +2,8 @@
 
 | Название | Описание | Сложность |
 | :--- | :--- | :--- |
-| <a href="#log">log(Int, Int, Int, Int, Int, Union): Int</a>  | Возвращает логарифм числа | 100 |
-| <a href="#pow">pow(Int, Int, Int, Int, Int, Union): Int</a> | Возвращает число, возведённое в степень | 100 |
+| [log(Int, Int, Int, Int, Int, Union): Int](#log)  | Возвращает логарифм числа | 100 |
+| [pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Возвращает число, возведённое в степень | 100 |
 
 ## log
 
