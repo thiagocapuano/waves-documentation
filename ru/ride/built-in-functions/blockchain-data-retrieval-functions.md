@@ -7,7 +7,7 @@
 |   3  | [transactionHeightById(ByteVector): Int&#124;Unit](#transaction-height-by-id) | Получает [высоту блока](/blockchain/block-height.md) транзакции | 100 |
 |   4  | [transferTransactionById(ByteVector): TransferTransaction&#124;Unit](#transfer-transaction-by-id) | Получает данные транзакции перевода | 100 |
 
-## <a name="asset-info"></a>assetInfo
+## <a id="asset-info"></a>assetInfo
 
 Получает информацию о токене.
 
@@ -21,7 +21,7 @@ assetInfo(id: ByteVector): Аsset|Unit
 
 ID токена.
 
-## <a name="block-info-by-height"></a>blockInfoByHeight
+## <a id="block-info-by-height"></a>blockInfoByHeight
 
 Получает информацию о [блоке](/blockchain/block.md) по его [высоте](/blockchain/block-height.md).
 
@@ -35,7 +35,7 @@ blockInfoByHeight(height: Int): BlockInfo|Unit
 
 Высота блока.
 
-## <a name="transaction-height-by-id"></a>transactionHeightById
+## <a id="transaction-height-by-id"></a>transactionHeightById
 
 Получает [высоту блока](/blockchain/block-height.md) транзакции.
 
@@ -49,7 +49,7 @@ transactionHeightById(id: ByteVector): Int|Unit
 
 ID транзакции.
 
-## <a name="transfer-transaction-by-id"></a>transferTransactionById
+## <a id="transfer-transaction-by-id"></a>transferTransactionById
 
 Получает данные транзакции перевода.
 
