@@ -3,10 +3,10 @@
 |Name | Description | Complexity |
 | :--- | :--- | :--- |
 | [drop(ByteVector, Int): ByteVector](#drop) | Drops the first `n` bytes of an array of bytes | 1 |
-| [dropRight(ByteVector, Int): ByteVector](#dropRight) | Drops the last `n` bytes of an array of bytes | 19 |
+| [dropRight(ByteVector, Int): ByteVector](#dropright) | Drops the last `n` bytes of an array of bytes | 19 |
 | [size(ByteVector): Int](#size) | Returns the size of an array of bytes | 1 |
 | [take(ByteVector, Int): ByteVector](#take) | Takes the first `n` bytes from an array of bytes | 1 |
-| [takeRight(ByteVector, Int): ByteVector](#takeRight) | Takes the last `n` bytes from an array of bytes | 19 |
+| [takeRight(ByteVector, Int): ByteVector](#takeright) | Takes the last `n` bytes from an array of bytes | 19 |
 
 ## drop
 
