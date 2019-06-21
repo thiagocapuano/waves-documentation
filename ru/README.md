@@ -32,8 +32,8 @@
 
 ### RIDE
 
-* [Функции получения данных из блокчейна](ride/functions/blockchain-data-retrieval-functions.md)
-* [Математические функции](ride/functions/math-functions.md)
+* [Функции получения данных из блокчейна](ride/builtin-functions/blockchain-data-retrieval-functions.md)
+* [Математические функции](ride/builtin-functions/math-functions.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
 ### Смарт-котракты (Waves dApps)
