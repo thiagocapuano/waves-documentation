@@ -18,6 +18,7 @@
 
 ### Блокчейн
 
+* [Блокчейн](blockchain/blockchain.md)
 * [Высота блокчейна](blockchain/blockchain-height.md)
 * [Высота блока](blockchain/block-height.md)
 * [Блок](blockchain/block.md)
