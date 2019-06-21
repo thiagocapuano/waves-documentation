@@ -25,11 +25,11 @@
 ## Блокчейн
 
 * [dApp](blockchain/dapp.md)
-* [Блок](blockchain/block.md)
 * [dApp-скрипт](blockchain/dapp-script.md)
 * [Адрес](blockchain/address.md)
 * [Акаунт](blockchain/account.md)
 * [Ассет](blockchain/asset.md)
+* [Блок](blockchain/block.md)
 * [Блокчейн](blockchain/blockchain.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
 * [Высота блока](blockchain/block-height.md)
@@ -77,7 +77,7 @@
 * [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
-* [Функции](ride/builtin-functions.md)
+* [Встроенные функции](ride/built-in-functions.md)
   * [Математические функции](ride/built-in-functions/math-functions.md)
   * [Функции получения данных из блокчейна](ride/built-in-functions/blockchain-data-retrieval-functions.md)
 * [Исключения](ride/exceptions.md)
