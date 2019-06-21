@@ -2,8 +2,8 @@
 
 | Name | Description | Complexity |
 | :--- | :--- | :--- |
-|<a href= "#log">log(Int, Int, Int, Int, Int, Union): Int</a> | Returns the logarithm of a number | 100 |
-|<a href= "#pow">pow(Int, Int, Int, Int, Int, Union): Int</a> | Returns a number raised to a power| 100 |
+|[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
+|[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
 
 ## log
 
