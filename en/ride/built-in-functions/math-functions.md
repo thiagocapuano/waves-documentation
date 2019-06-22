@@ -61,6 +61,10 @@ The exponent.
 
 The number of decimals of the exponent.
 
+#### `bp`: Int
+
+The number of decimals of the base.
+
 #### `rp`: Int
 
 The number of decimals of the resulting value.
