@@ -1,6 +1,6 @@
 # Transaction type
 
-Each transaction on the Waves blockchain refers to a certain **transaction type**.
+Each [transaction](/blockchain/transaction.md) on the [blockchain](/blockchain/blockchain.md) refers to a certain **transaction type**.
 
 Each transaction type has a unique [data structure](/blockchain/transaction-data-structure.md).
 
