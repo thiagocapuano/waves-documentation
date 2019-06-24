@@ -7,3 +7,5 @@ The address allows a user to view account balance. [Tokens](/blockchain/token.md
 An address can be represented as an alphanumeric string or a scanned QR code.
 
 Each account has a _single_ address.
+
+One address can have several [aliases](/blockchain/alias.md).
