@@ -182,14 +182,12 @@
 * [Functions](ride/functions/functions.md)
 * [Built-in functions](ride/built-in-functions/built-in-functions.md)
   * [Blockchain data retrieval functions](ride/built-in-functions/blockchain-data-retrieval-functions.md)
-  * [Byte functions](ride/built-in-functions/byte-functions.md) 
+  * [Byte functions](ride/built-in-functions/byte-functions.md)
   * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
   * [Math functions](ride/built-in-functions/math-functions.md)
 * [Exceptions](ride/exceptions.md)
 * [RIDE script](ride/ride-script.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
-* [Effective RIDE examples](ride/effective-ride-examples.md)
-* [RIDE Maven compiler](ride/maven-compiler.md)
 
 ## Smart contracts (Waves dApps)
 
