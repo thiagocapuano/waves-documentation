@@ -53,6 +53,10 @@ pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
 
 The base.
 
+#### `bp`: Int
+
+The number of decimals of the base.
+
 #### `exponent`: Int
 
 The exponent.
@@ -60,10 +64,6 @@ The exponent.
 #### `ep`: Int
 
 The number of decimals of the exponent.
-
-#### `bp`: Int
-
-The number of decimals of the base.
 
 #### `rp`: Int
 
