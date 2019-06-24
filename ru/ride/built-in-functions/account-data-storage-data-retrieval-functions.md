@@ -180,7 +180,7 @@ getStringValue(addressOrAlias: Address|Alias, key: String): String
 Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md).
 
 ```
-transactionwavesBalance(addressOrAlias: Address|Alias): Int
+wavesBalance(addressOrAlias: Address|Alias): Int
 ```
 
 ### Параметры
