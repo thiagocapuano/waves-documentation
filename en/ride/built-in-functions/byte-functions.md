@@ -1,12 +1,12 @@
 # Byte functions
 
-|Name | Description | Complexity |
-| :--- | :--- | :--- |
-| [drop(ByteVector, Int): ByteVector](#drop) | Drops the first `n` bytes of an array of bytes | 1 |
-| [dropRight(ByteVector, Int): ByteVector](#drop-right) | Drops the last `n` bytes of an array of bytes | 19 |
-| [size(ByteVector): Int](#size) | Returns the size of an array of bytes | 1 |
-| [take(ByteVector, Int): ByteVector](#take) | Takes the first `n` bytes from an array of bytes | 1 |
-| [takeRight(ByteVector, Int): ByteVector](#take-right) | Takes the last `n` bytes from an array of bytes | 19 |
+|#|Name | Description | Complexity |
+|:---| :--- | :--- | :--- |
+|1| [drop(ByteVector, Int): ByteVector](#drop) | Drops the first `n` bytes of an array of bytes | 1 |
+|2| [dropRight(ByteVector, Int): ByteVector](#drop-right) | Drops the last `n` bytes of an array of bytes | 19 |
+|3| [size(ByteVector): Int](#size) | Returns the size of an array of bytes | 1 |
+|4| [take(ByteVector, Int): ByteVector](#take) | Takes the first `n` bytes from an array of bytes | 1 |
+|5| [takeRight(ByteVector, Int): ByteVector](#take-right) | Takes the last `n` bytes from an array of bytes | 19 |
 
 ## drop(ByteVector, Int): ByteVector<a id="drop"></a>
 

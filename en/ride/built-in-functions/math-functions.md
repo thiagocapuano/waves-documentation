@@ -1,9 +1,9 @@
 # Math functions
 
-| Name | Description | Complexity |
-| :--- | :--- | :--- |
-|[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
-|[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
+|#| Name | Description | Complexity |
+|:---| :--- | :--- | :--- |
+|1|[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
+|2|[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
 
 ## log(Int, Int, Int, Int, Int, Union): Int<a id="log"></a>
 
