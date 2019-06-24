@@ -4,11 +4,11 @@
 
 Please select the page that fits you best:
 
-* [Getting started for users](/getting-started/getting-started-for-users.md)
+* [Getting started for users](getting-started/getting-started-for-users.md)
 
-* [Getting started for developers](/getting-started/getting-started-for-developers.md)
+* [Getting started for developers](getting-started/getting-started-for-developers.md)
 
-* [Getting started for node owners](/getting-started/getting-started-for-node-owners.md)
+* [Getting started for node owners](getting-started/getting-started-for-node-owners.md)
 
 ## New pages added to the documentation in June
 
@@ -37,11 +37,11 @@ Please select the page that fits you best:
 
 ## RIDE
 
-* [Blockchain data retrieval functions](/ride/built-in-functions/blockchain-data-retrieval-functions.md)
+* [Blockchain data retrieval functions](ride/built-in-functions/blockchain-data-retrieval-functions.md)
 * [Byte functions](ride/built-in-functions/byte-functions.md)
-* [Encoding and decoding functions](/ride/built-in-functions/encoding-and-decoding-functions.md)
-* [Math functions](/ride/built-in-functions/math-functions.md)
-* [RIDE script complexity](/ride/ride-script-complexity.md)
+* [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
+* [Math functions](ride/built-in-functions/math-functions.md)
+* [RIDE script complexity](ride/ride-script-complexity.md)
 
 ## Smart contracts (Waves dApps)
 
@@ -49,7 +49,7 @@ Please select the page that fits you best:
 
 ## Developer tools
 
-* [REPL](/developer-tools/repl.md)
+* [REPL](developer-tools/repl.md)
 
 ### Waves Token Rating
 
