@@ -38,6 +38,7 @@ The number of decimals of the resulting value.
 #### `round`: Union
 
 The [rounding function](#rounding-functions).
+The HalfUp() function may be used as the default value.
 
 ## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
@@ -72,6 +73,7 @@ The number of decimals of the resulting value.
 #### `round`: Union
 
 The [rounding function](#rounding-functions).
+The HalfUp() function may be used as the default value.
 
 ## Rounding functions
 

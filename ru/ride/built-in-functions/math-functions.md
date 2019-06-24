@@ -38,6 +38,7 @@ log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 #### `round`: Union
 
 [Функция округления](#Функции-округления).
+В качестве значения по умолчанию может быть использована функция HalfUp().
 
 ## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
@@ -72,6 +73,7 @@ pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
 #### `round`: Union
 
 [Функция округления](#Функции-округления).
+В качестве значения по умолчанию может быть использована функция HalfUp().
 
 ## Функции округления
 
