@@ -1,11 +1,11 @@
 # Math functions
 
-| Name | Description | Complexity |
-| :--- | :--- | :--- |
-|[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
-|[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
+|#| Name | Description | Complexity |
+|:---| :--- | :--- | :--- |
+|1|[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
+|2|[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
 
-## log
+## log(Int, Int, Int, Int, Int, Union): Int<a id="log"></a>
 
 Returns the logarithm of a number.
 
@@ -38,8 +38,9 @@ The number of decimals of the resulting value.
 #### `round`: Union
 
 The [rounding function](#rounding-functions).
+The HalfUp() function may be used as the default value.
 
-## pow
+## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
 Returns number raised to a power.
 
@@ -53,6 +54,10 @@ pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
 
 The base.
 
+#### `bp`: Int
+
+The number of decimals of the base.
+
 #### `exponent`: Int
 
 The exponent.
@@ -61,10 +66,6 @@ The exponent.
 
 The number of decimals of the exponent.
 
-#### `bp`: Int
-
-The number of decimals of the base.
-
 #### `rp`: Int
 
 The number of decimals of the resulting value.
@@ -72,11 +73,11 @@ The number of decimals of the resulting value.
 #### `round`: Union
 
 The [rounding function](#rounding-functions).
+The HalfUp() function may be used as the default value.
 
 ## Rounding functions
 
 The rounding functions are _only_ used as the parameters of [log](#log) and [pow](#pow) functions and they are not used by themselves.
-
 
 |Name | Description |
 | :--- | :--- |

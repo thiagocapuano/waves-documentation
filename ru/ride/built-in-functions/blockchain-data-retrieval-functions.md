@@ -1,6 +1,6 @@
 # Функции получения данных из блокчейна
 
-|   #  | Название | Описание | Сложность |
+|   #   | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
 |   1  | [assetInfo(ByteVector): Аsset&#124;Unit](#asset-info) | Получает информацию о [токене](/blockchain/token.md) | 100 |
 |   2  | [blockInfoByHeight(Int): BlockInfo&#124;Unit](#block-info-by-height) | Получает информацию о [блоке](/blockchain/block.md) по [высоте блока](/blockchain/block-height.md) | 100 |
