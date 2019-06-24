@@ -14,7 +14,7 @@ An alias is created using an [alias transaction](/blockchain/transaction-type/al
 
 > A created alias cannot be deleted
 
-A length of an alias can be from 4 to 30 characters inclusive.
+The length of the name of an alias can be from 4 to 30 characters inclusive.
 
 The following characters are allowed in the name of an alias:
 
