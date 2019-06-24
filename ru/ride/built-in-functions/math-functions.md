@@ -5,7 +5,7 @@
 | [log(Int, Int, Int, Int, Int, Union): Int](#log)  | Возвращает логарифм числа | 100 |
 | [pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Возвращает число, возведённое в степень | 100 |
 
-## log
+## log(Int, Int, Int, Int, Int, Union)<a id="log"></a>
 
 Возвращает логарифм числа.
 
@@ -39,7 +39,7 @@ log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 
 [Функция округления](#Функции-округления).
 
-## pow
+## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
 Возвращает число, возведенное в степень.
 
