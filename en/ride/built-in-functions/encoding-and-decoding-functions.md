@@ -2,24 +2,24 @@
 
 ## Encoding functions
 
-| Name | Description | Complexity |
-| :--- | :--- | :--- |
-| [blake2b256(ByteVector): ByteVector](#blake2b256) | [BLAKE-256](https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29) hash function | 10 |
-| [keccak256(ByteVector): ByteVector](#keccak256)| [SHA-3-256](https://en.wikipedia.org/wiki/SHA-3) hash function | 10 |
-| [sha256(ByteVector): ByteVector](#sha256) | [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function | 10 |
-| [toBase16String(ByteVector): String](#to-base-16-string)  | Encodes array of bytes to [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string | 10 |
-| [toBase58String(ByteVector): String](#to-base-58-string) | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
-| [toBase64String(ByteVector): String](#to-base-64-string) | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
+|#| Name | Description | Complexity |
+|:---| :--- | :--- | :--- |
+|1| [blake2b256(ByteVector): ByteVector](#blake2b256) | [BLAKE-256](https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29) hash function | 10 |
+|2| [keccak256(ByteVector): ByteVector](#keccak256)| [SHA-3-256](https://en.wikipedia.org/wiki/SHA-3) hash function | 10 |
+|3| [sha256(ByteVector): ByteVector](#sha256) | [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function | 10 |
+|4| [toBase16String(ByteVector): String](#to-base-16-string)  | Encodes array of bytes to [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string | 10 |
+|5| [toBase58String(ByteVector): String](#to-base-58-string) | Encodes array of bytes to [Base58](https://en.wikipedia.org/wiki/Base58) string | 10 |
+|6| [toBase64String(ByteVector): String](#to-base-64-string) | Encodes array of bytes to [Base64](https://en.wikipedia.org/wiki/Base64) string | 10 |
 
 ## Decoding functions
 
-| Name | Description | Complexity |
-| :--- | :--- | :--- |
-| [addressFromString(String): Address&#124;Unit](#address-from-string)| Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
-| [addressFromStringValue(String): Address](#address-from-string-value) | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
-| [fromBase16String(String): ByteVector](#from-base-16-string) | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
-| [fromBase58String(String): ByteVector](#from-base-58-string) | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
-| [fromBase64String(String): ByteVector](#from-base-64-string)| Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
+|#| Name | Description | Complexity |
+|1| :--- | :--- | :--- |
+|2| [addressFromString(String): Address&#124;Unit](#address-from-string)| Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
+|3| [addressFromStringValue(String): Address](#address-from-string-value) | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
+|4| [fromBase16String(String): ByteVector](#from-base-16-string) | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
+|5| [fromBase58String(String): ByteVector](#from-base-58-string) | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
+|6| [fromBase64String(String): ByteVector](#from-base-64-string)| Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
 
 ## blake2b256(ByteVector): ByteVector<a id="blake2b256"></a>
 
