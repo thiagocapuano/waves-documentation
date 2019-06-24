@@ -37,7 +37,7 @@ Please select the page that fits you best:
 
 ## RIDE
 
-* [Blockchain data retrieval functions](/en/ride/built-in-functions/blockchain-data-retrieval-functions.md)
+* [Blockchain data retrieval functions](/ride/built-in-functions/blockchain-data-retrieval-functions.md)
 * [Byte functions](ride/built-in-functions/byte-functions.md)
 * [Encoding and decoding functions](/ride/built-in-functions/encoding-and-decoding-functions.md)
 * [Math functions](/ride/built-in-functions/math-functions.md)
