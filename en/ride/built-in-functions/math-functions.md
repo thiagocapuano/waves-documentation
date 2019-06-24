@@ -5,7 +5,7 @@
 |[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
 |[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
 
-## log
+## log(Int, Int, Int, Int, Int, Union): Int<a id="log"></a>
 
 Returns the logarithm of a number.
 
@@ -39,7 +39,7 @@ The number of decimals of the resulting value.
 
 The [rounding function](#rounding-functions).
 
-## pow
+## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
 Returns number raised to a power.
 

@@ -3,12 +3,12 @@
 |Name | Description | Complexity |
 | :--- | :--- | :--- |
 | [drop(ByteVector, Int): ByteVector](#drop) | Drops the first `n` bytes of an array of bytes | 1 |
-| [dropRight(ByteVector, Int): ByteVector](#dropright) | Drops the last `n` bytes of an array of bytes | 19 |
+| [dropRight(ByteVector, Int): ByteVector](#drop-right) | Drops the last `n` bytes of an array of bytes | 19 |
 | [size(ByteVector): Int](#size) | Returns the size of an array of bytes | 1 |
 | [take(ByteVector, Int): ByteVector](#take) | Takes the first `n` bytes from an array of bytes | 1 |
-| [takeRight(ByteVector, Int): ByteVector](#takeright) | Takes the last `n` bytes from an array of bytes | 19 |
+| [takeRight(ByteVector, Int): ByteVector](#take-right) | Takes the last `n` bytes from an array of bytes | 19 |
 
-## drop
+## drop(ByteVector, Int): ByteVector<a id="drop"></a>
 
 Drops the first `n` bytes of an array of bytes.
 
@@ -26,7 +26,7 @@ The array of bytes.
 
 The number of the first `n` bytes.
 
-## dropRight
+## dropRight(ByteVector, Int): ByteVector<a id="drop-right"></a>
 
 Drops the last `n` bytes of an array of bytes.
 
@@ -44,7 +44,7 @@ The array of bytes.
 
 The number of thelast `n` bytes.
 
-## size
+## size(ByteVector): Int<a id="size"></a>
 
 Returns the size of an array of bytes.
 
@@ -58,7 +58,7 @@ size(byteVector: ByteVector): Int
 
 The array of bytes.
 
-## take
+## take(ByteVector, Int): ByteVector<a id="take"></a>
 
 Takes the first `n` bytes from an array of bytes.
 
@@ -76,7 +76,7 @@ The array of bytes.
 
 The number of the first `n` bytes to return.
 
-## takeRight
+## takeRight(ByteVector, Int): ByteVector<a id="take-right"></a>
 
 Takes the last `n` bytes from an array of bytes.
 
