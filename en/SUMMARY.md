@@ -37,7 +37,6 @@
 * [Node](blockchain/node.md)
   * [gRPC Server](blockchain/node/grpc-server.md)
   * [Matcher](blockchain/node/matcher.md)
-* [Script](blockchain/script.md)
 * [Smart account](blockchain/smart-account.md)
 * [Smart asset](blockchain/smart-asset.md)
 * [Test network](blockchain/test-network.md)
