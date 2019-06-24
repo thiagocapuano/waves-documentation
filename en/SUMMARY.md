@@ -185,6 +185,7 @@
 * [Built-in functions](ride/built-in-functions/built-in-functions.md)
   * [Blockchain data retrieval functions](ride/built-in-functions/blockchain-data-retrieval-functions.md)
   * [Byte functions](ride/built-in-functions/byte-functions.md)
+  * [Converting functions](ride/built-in-functions/converting-functions.md)
   * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
   * [Math functions](ride/built-in-functions/math-functions.md)
 * [Exceptions](ride/exceptions.md)
