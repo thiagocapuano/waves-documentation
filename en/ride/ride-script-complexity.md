@@ -1,6 +1,6 @@
 # RIDE script complexity
 
-**RIDE script complexity** is a dimensionless quantity that is used to estimate the computational resources that are needed to execute a [RIDE script](/ride/ride-script.md).
+**RIDE script complexity** is a dimensionless quantity that estimates computational resources that are required to execute a [RIDE script](/ride/ride-script.md).
 
 The complexity of a RIDE script is estimated based on complexities of all the [operators](/ride/operators.md) and [functions](/ride/functions.md) it consists of.
 
