@@ -78,7 +78,7 @@
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
 * [Функции](ride/functions.md)
-* [Встроенные функции](/ride/built-in-functions/built-in-functions.md)
+* [Встроенные функции](/ride/built-in-functions.md)
   * [Математические функции](ride/built-in-functions/math-functions.md)
   * [Функции получения данных из блокчейна](ride/built-in-functions/blockchain-data-retrieval-functions.md)
   * [Функции получения данных из хранилища данных аккаунта](ride/built-in-functions/account-data-storage-data-retrieval-functions.md)
