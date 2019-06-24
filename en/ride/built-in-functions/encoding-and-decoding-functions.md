@@ -14,12 +14,12 @@
 ## Decoding functions
 
 |#| Name | Description | Complexity |
-|1| :--- | :--- | :--- |
-|2| [addressFromString(String): Address&#124;Unit](#address-from-string)| Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
-|3| [addressFromStringValue(String): Address](#address-from-string-value) | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
-|4| [fromBase16String(String): ByteVector](#from-base-16-string) | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
-|5| [fromBase58String(String): ByteVector](#from-base-58-string) | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
-|6| [fromBase64String(String): ByteVector](#from-base-64-string)| Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
+|:---| :--- | :--- | :--- |
+| 1 | [addressFromString(String): Address&#124;Unit](#address-from-string)| Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string | 124 |
+| 2 | [addressFromStringValue(String): Address](#address-from-string-value) | Decodes address from [Base58](https://en.wikipedia.org/wiki/Base58) string.<br>Raises an exception if the string can not be parsed | 124 |
+| 3 | [fromBase16String(String): ByteVector](#from-base-16-string) | Decodes [Base16](https://en.wikipedia.org/wiki/Hexadecimal) string to an array of bytes | 10 |
+| 4 | [fromBase58String(String): ByteVector](#from-base-58-string) | Decodes [Base58](https://en.wikipedia.org/wiki/Base58) string to an array of bytes | 10 |
+| 5 | [fromBase64String(String): ByteVector](#from-base-64-string)| Decodes [Base64](https://en.wikipedia.org/wiki/Base64) string to an array of bytes | 10 |
 
 ## blake2b256(ByteVector): ByteVector<a id="blake2b256"></a>
 
