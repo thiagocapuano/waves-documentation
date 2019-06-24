@@ -1,5 +1,5 @@
 # Скрипт на RIDE
 
-**Скрипт на RIDE** — код, написанный на языке [RIDE](/ride/about-ride.md).
+**Скрипт на RIDE** — код на языке [RIDE](/ride/about-ride.md).
 
-Любой скрипт на RIDE имеет определенную [сложность](/ride/ride-script-complexity.md).
+У скрипта на RIDE есть [сложность](/ride/ride-script-complexity.md).

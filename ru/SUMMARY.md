@@ -73,6 +73,8 @@
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
+* [Скрипт на RIDE](ride/ride-script.md)
+* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
@@ -83,8 +85,6 @@
   * [Функции получения данных из блокчейна](ride/built-in-functions/blockchain-data-retrieval-functions.md)
   * [Функции получения данных из хранилища данных аккаунта](ride/built-in-functions/account-data-storage-data-retrieval-functions.md)
 * [Исключения](ride/exceptions.md)
-* [Скрипт на RIDE](ride/ride-script.md)
-* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
 ## Смарт-контракты (Waves dApps)
 
