@@ -12,7 +12,7 @@
 | 8 | [toInt(ByteVector, Int): Int](#toint-bytes-int) | Converts an array of bytes to an integer starting from a certain index | 10 |
 | 9 | [toString(Boolean): String](#tostring-bool) | Converts a boolean to a string | 1 |
 | 10 | [toString(Int): String](#tostring-int) | Converts an integer to a string | 1 |
-| 11 | [toUtf8String(ByteVector): String](#to-utf8-string") | Converts an array of bytes to a UTF-8 string | 20 |
+| 11 | [toUtf8String(ByteVector): String](#to-utf8-string) | Converts an array of bytes to a UTF-8 string | 20 |
 
 
 ## addressFromPublicKey(ByteVector): Address<a id="address-from-public-key"></a>
