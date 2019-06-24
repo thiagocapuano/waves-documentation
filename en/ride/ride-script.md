@@ -1,5 +1,5 @@
 # RIDE scirpt
 
-**RIDE script** is a code written in [RIDE](/ride/about-ride.md) language.
+**RIDE script** is a code in [RIDE](/ride/about-ride.md) language.
 
-Any RIDE script has a certain [complexity](/ride/ride-script-complexity.md).
+RIDE script has [complexity](/ride/ride-script-complexity.md).

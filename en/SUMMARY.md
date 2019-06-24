@@ -173,6 +173,8 @@
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
+* [RIDE script](ride/ride-script.md)
+* [RIDE script complexity](ride/ride-script-complexity.md)
 * [Immutable variables](ride/immutable-variables.md)
 * [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
@@ -186,8 +188,6 @@
   * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
   * [Math functions](ride/built-in-functions/math-functions.md)
 * [Exceptions](ride/exceptions.md)
-* [RIDE script](ride/ride-script.md)
-* [RIDE script complexity](ride/ride-script-complexity.md)
 
 ## Smart contracts (Waves dApps)
 
