@@ -31,7 +31,7 @@ assetBalance(addressOrAlias: Address|Alias, assetId: ByteVector): Int
 
 ID токена.
 
-## getBinary(Address|Alias, String): ByteVector|Unit<a name="get-binary"></a>
+## getBinary(Address|Alias, String): ByteVector|Unit<a id="get-binary"></a>
 
 Получает массив байтов по ключу.
 
@@ -49,7 +49,7 @@ getBinary(addressOrAlias: Address|Alias, key: String): ByteVector|Unit
 
 Ключ.
 
-## getBinaryValue(Address|Alias, String): ByteVector<a name="get-binary-value"></a>
+## getBinaryValue(Address|Alias, String): ByteVector<a id="get-binary-value"></a>
 
 Получает массив байтов по ключу. Выбрасывает исключение если данных нет.
 
@@ -67,7 +67,7 @@ getBinaryValue(addressOrAlias: Address|Alias, key: String): ByteVector
 
 Ключ.
 
-## getBoolean(Address|Alias, String): Boolean|Unit<a name="get-boolean"></a>
+## getBoolean(Address|Alias, String): Boolean|Unit<a id="get-boolean"></a>
 
 Получает логическое значение по ключу.
 
@@ -85,7 +85,7 @@ getBoolean(addressOrAlias: Address|Alias, key: String): Boolean|Unit
 
 Ключ.
 
-## getBooleanValue(Address|Alias, String): Boolean<a name="get-boolean-value"></a>
+## getBooleanValue(Address|Alias, String): Boolean<a id="get-boolean-value"></a>
 
 Получает логическое значение по ключу. Выбрасывает исключение если данных нет.
 
@@ -103,7 +103,7 @@ getBooleanValue(addressOrAlias: Address|Alias, key: String): Boolean
 
 Ключ.
 
-## getInteger(Address|Alias, String): Int|Unit<a name="get-integer"></a>
+## getInteger(Address|Alias, String): Int|Unit<a id="get-integer"></a>
 
 Получает целое число по ключу.
 
@@ -121,7 +121,7 @@ getInteger(addressOrAlias: Address|Alias, key: String): Int|Unit
 
 Ключ.
 
-## getIntegerValue(Address|Alias, String): Int<a name="get-integer-value"></a>
+## getIntegerValue(Address|Alias, String): Int<a id="get-integer-value"></a>
 
 Получает целое число по ключу. Выбрасывает исключение если данных нет.
 
@@ -139,7 +139,7 @@ getIntegerValue(addressOrAlias: Address|Alias, key: String): Int
 
 Ключ.
 
-## getString(Address|Alias, String): String|Unit<a name="get-string"></a>
+## getString(Address|Alias, String): String|Unit<a id="get-string"></a>
 
 Получает строку по ключу.
 
@@ -157,7 +157,7 @@ getString(addressOrAlias: Address|Alias, key: String): String|Unit
 
 Ключ.
 
-## getStringValue(Address|Alias, String): String<a name="get-string-value"></a>
+## getStringValue(Address|Alias, String): String<a id="get-string-value"></a>
 
 Получает строку по ключу. Выбрасывает исключение если данных нет.
 
@@ -175,7 +175,7 @@ getStringValue(addressOrAlias: Address|Alias, key: String): String
 
 Ключ.
 
-## wavesBalance(Address|Alias): Int<a name="waves-balance"></a>
+## wavesBalance(Address|Alias): Int<a id="waves-balance"></a>
 
 Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md).
 
