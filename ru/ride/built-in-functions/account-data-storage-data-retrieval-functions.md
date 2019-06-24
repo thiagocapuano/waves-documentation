@@ -15,7 +15,7 @@
 
 ## assetBalance(Address|Alias, ByteVector): Int<a name="asset-balance"></a>
 
-Получает баланс токенов на аккаунте по ID токена
+Получает баланс токенов на аккаунте по ID токена.
 
 ```
 assetBalance(addressOrAlias: Address|Alias, assetId: ByteVector): Int
