@@ -4,7 +4,7 @@
 |:--- | :--- | :--- | :--- |
 | 1 | [addressFromPublicKey(ByteVector): Address](#address-from-public-key)| Converts account public key to [address](blockhain/address.md) | 82 |
 | 2 | [parseInt(String): Int&#124;Unit](#parse-int) | Converts the string representation of a number to its integer equivalent | 20 |
-| 3 | [parseIntValue(String): Int](#parse-int-value) | Converts the string representation of a number to its integer equivalent.Raises an exception if the string cannot be parsed | 20 |
+| 3 | [parseIntValue(String): Int](#parse-int-value) | Converts the string representation of a number to its integer equivalent.<br>Raises an exception if the string cannot be parsed | 20 |
 | 4 | [toBytes(Boolean): ByteVector](#tobytes-bool) | Converts a boolean to an array of bytes | 1 |
 | 5 | [toBytes(Int): ByteVector](#tobytes-int) | Converts an integer to an array of bytes | 1 |
 | 6 | [toBytes(String): ByteVector](#tobytes-string) | Converts a string to an array of bytes | 1 |
