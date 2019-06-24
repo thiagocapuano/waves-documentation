@@ -2,7 +2,7 @@
 
 |      | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | [assetBalancе(Address&#124;Alias, ByteVector): Int](#asset-balancе)  | Получает баланс токенов на аккаунте по ID токена | 100 |
+| 1 | [assetBalancе(Address&#124;Alias, ByteVector): Int](#asset-balance)  | Получает баланс токенов на аккаунте по ID токена | 100 |
 | 2 | [getBinary(Address&#124;Alias, String): ByteVector&#124;Unit](#get-binary)  | Получает массив байтов по ключу | 100 |
 | 3 | [getBinaryValue(Address&#124;Alias, String): ByteVector](#get-binary-value)  | Получает массив байтов по ключу. Выбрасывает исключение если данных нет | 100 |
 | 4 | [getBoolean(Address&#124;Alias, String): Boolean&#124;Unit](#get-boolean)  | Получает логическое значение по ключу | 100 |
