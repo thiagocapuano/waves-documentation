@@ -2,12 +2,12 @@
 
 |      | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-|   1  | <a href="#assetInfo">assetInfo(ByteVector): Аsset&#124;Unit</a> | Получает информацию о токене | 100 |
-|   2  | <a href="#blockInfoByHeight">blockInfoByHeight(Int): BlockInfo&#124;Unit</a> | Получает информацию о [блоке](blockchain/block.md) по его [высоте](blockchain/block-height.md) | 100 |
-|   3  | <a href="#transactionHeightById">transactionHeightById(ByteVector): Int&#124;Unit</a> | Получает [высоту блока](blockchain/block-height.md) транзакции | 100 |
-|   4  | <a href="#transferTransactionById">transferTransactionById(ByteVector): TransferTransaction&#124;Unit</a> | Получает данные транзакции перевода | 100 |
+|   1  | [assetInfo(ByteVector): Аsset&#124;Unit](#asset-info) | Получает информацию о токене | 100 |
+|   2  | [blockInfoByHeight(Int): BlockInfo&#124;Unit](#block-info-by-height) | Получает информацию о [блоке](/blockchain/block.md) по его [высоте](/blockchain/block-height.md) | 100 |
+|   3  | [transactionHeightById(ByteVector): Int&#124;Unit](#transaction-height-by-id) | Получает [высоту блока](/blockchain/block-height.md) транзакции | 100 |
+|   4  | [transferTransactionById(ByteVector): TransferTransaction&#124;Unit](#transfer-transaction-by-id) | Получает данные транзакции перевода | 100 |
 
-## assetInfo
+## <a id="asset-info"></a>assetInfo
 
 Получает информацию о токене.
 
@@ -21,9 +21,9 @@ assetInfo(id: ByteVector): Аsset|Unit
 
 ID токена.
 
-## blockInfoByHeight
+## <a id="block-info-by-height"></a>blockInfoByHeight
 
-Получает информацию о [блоке](blockchain/block.md) по его [высоте](/blockchain/block-height.md).
+Получает информацию о [блоке](/blockchain/block.md) по его [высоте](/blockchain/block-height.md).
 
 ```
 blockInfoByHeight(height: Int): BlockInfo|Unit
@@ -35,7 +35,7 @@ blockInfoByHeight(height: Int): BlockInfo|Unit
 
 Высота блока.
 
-## transactionHeightById
+## <a id="transaction-height-by-id"></a>transactionHeightById
 
 Получает [высоту блока](/blockchain/block-height.md) транзакции.
 
@@ -49,7 +49,7 @@ transactionHeightById(id: ByteVector): Int|Unit
 
 ID транзакции.
 
-## transferTransactionById
+## <a id="transfer-transaction-by-id"></a>transferTransactionById
 
 Получает данные транзакции перевода.
 

@@ -14,6 +14,10 @@ Please select the page that fits you best:
 
 ### Blockchain
 
+* [Block](blockchain/block.md)
+* [Block height](blockchain/block-height.md)
+* [Blockchain](blockchain/blockchain.md)
+* [Blockchain height](blockchain/blockchain-height.md)
 * [Account](blockchain/account.md)
 * [Account data storage](blockchain/account-data-storage.md)
 * [Matcher](blockchain/node/matcher.md)

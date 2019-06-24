@@ -1,6 +1,6 @@
 # Structures
 
-All structures in RIDE are [built-in](/ride/built-in-structures.md) — you cannot create your own structures.
+All structures in RIDE are built-in — you cannot create your own structures.
 
 All structures have constructors.
 
