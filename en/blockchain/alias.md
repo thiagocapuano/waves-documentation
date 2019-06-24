@@ -4,9 +4,9 @@ An **alias** is a short, easy to remember, name of [address](/blockchain/addres
 
 Aliases are easy to remember, because of that they are often used instead of addresses.
 
-One address can have many aliases.
-
 There cannot be two aliases with the same name on the [blockchain](/blockchain/blockchain.md).
+
+One address can have several aliases.
 
 ## Creation of an alias
 
