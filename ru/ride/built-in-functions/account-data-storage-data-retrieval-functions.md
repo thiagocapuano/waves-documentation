@@ -67,7 +67,7 @@ getBinaryValue(addressOrAlias: Address|Alias, key: String): ByteVector
 
 Ключ.
 
-## getBoolean(Address|Alias, String): Boolean|Unit
+## getBoolean(Address|Alias, String): Boolean|Unit<a name="get-boolean"></a>
 
 Получает логическое значение по ключу.
 
@@ -103,7 +103,7 @@ getBooleanValue(addressOrAlias: Address|Alias, key: String): Boolean
 
 Ключ.
 
-## getInteger(Address|Alias, String): Int|Unit<a name="get-integer></a>
+## getInteger(Address|Alias, String): Int|Unit<a name="get-integer"></a>
 
 Получает целое число по ключу.
 
