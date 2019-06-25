@@ -16,8 +16,8 @@ java -cp waves-all-<version>.jar com.wavesplatform.Exporter -c [configuration-fi
 _**On Linux:**_
 
 ```
-Mainnet: sudo -u waves export -c /etc/waves/waves.conf -o [output-file-name] -h [height]
-Testnet: sudo -u waves-testnet export -c /etc/waves-testnet/waves.conf -o [output-file-name] -h [height]
+Mainnet: sudo -u waves waves export -c /etc/waves/waves.conf -o [output-file-name] -h [height]
+Testnet: sudo -u waves-testnet waves-testnet export -c /etc/waves-testnet/waves.conf -o [output-file-name] -h [height]
 ```
 
 If the parameter `height` was not given, all blocks will be exported. Otherwise, only blocks up to that `height` will be exported to the output file.
