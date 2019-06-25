@@ -135,7 +135,7 @@ The string.
 
 #### `number`: Int
 
-The number n.
+The number `n`.
 
 ## takeRight(String, Int): String<a id="take-right"></a>
 
@@ -153,4 +153,4 @@ The string.
 
 #### `number`: Int
 
-The number n.
+The number `n`.
