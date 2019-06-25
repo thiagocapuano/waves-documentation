@@ -2,7 +2,7 @@
 
 |   #   | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | [addressFromPublicKey(ByteVector): Address](#address-from-public-key)  | Конвертирует публичный ключ аккаунта в адрес | 82 |
+| 1 | [addressFromPublicKey(ByteVector): Address](#address-from-public-key)  | Конвертирует публичный ключ аккаунта в [адрес](/blockchain/address.md) | 82 |
 | 2 | [parseInt(String): Int&#124;Unit](#parse-int)  | Конвертирует строку в целое число | 20 |
 | 3 | [parseIntValue(String): Int](#parse-int-value)  | Конвертирует строку в целое число.<br>Выбрасывает исключение, если строка не может быть сконвертирована | 20 |
 | 4 | [toBytes(Boolean): ByteVector](#to-bytes-bool)  | Конвертирует логическое значение в массив байтов | 1 |
