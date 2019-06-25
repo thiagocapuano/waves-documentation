@@ -43,7 +43,7 @@ The `HalfUp()` function may be used as the default value.
 
 ## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
-Returns number raised to a power.
+Returns a number raised to a power.
 
 ``` ride
 pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
