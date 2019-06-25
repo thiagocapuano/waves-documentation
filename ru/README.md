@@ -18,26 +18,26 @@
 
 ### Блокчейн
 
-* [Блокчейн](blockchain/blockchain.md)
-* [Высота блокчейна](blockchain/blockchain-height.md)
-* [Высота блока](blockchain/block-height.md)
-* [Блок](blockchain/block.md)
+* [gRPC Server](blockchain/node/grpc-server.md)
 * [Аккаунт](blockchain/account.md)
+* [Блок](blockchain/block.md)
+* [Блокчейн](blockchain/blockchain.md)
+* [Высота блока](blockchain/block-height.md)
+* [Высота блокчейна](blockchain/blockchain-height.md)
 * [Матчер](blockchain/node/matcher.md)
 * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
-* [gRPC Server](blockchain/node/grpc-server.md)
 * [Нода](blockchain/node.md)
 * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
-* [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
 * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
+* [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
 
 ### RIDE
 
-* [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
-* [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
-* [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
 * [Математические функции](ride/built-in-functions/math-functions.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
+* [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
+* [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
+* [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
 
 ### Смарт-котракты (Waves dApps)
 
@@ -49,8 +49,8 @@
 
 ### Waves Token Rating
 
-* [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 * [Интерфейс пользователя](waves-token-rating/user-interface.md)
-* [Формула рейтинга](waves-token-rating/rating-formula.md)
-* [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
+* [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
 * [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
+* [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
+* [Формула рейтинга](waves-token-rating/rating-formula.md)
