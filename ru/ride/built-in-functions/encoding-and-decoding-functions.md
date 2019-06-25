@@ -25,7 +25,7 @@
 
 Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция))
 
-```ride
+``` ride
 blake2b256(bytes: ByteVector): ByteVector
 ```
 
@@ -39,7 +39,7 @@ blake2b256(bytes: ByteVector): ByteVector
 
 Хеширует массив байтов с помощью алгоритма [SHA-3-256](https://ru.wikipedia.org/wiki/SHA-3).
 
-```ride
+``` ride
 keccak256(bytes: ByteVector): ByteVector
 ```
 
@@ -53,7 +53,7 @@ keccak256(bytes: ByteVector): ByteVector
 
 Хеширует массив байтов с помощью алгоритма [SHA-256](https://ru.wikipedia.org/wiki/SHA-2).
 
-```ride
+``` ride
 sha256(bytes: ByteVector): ByteVector
 ```
 
@@ -67,7 +67,7 @@ sha256(bytes: ByteVector): ByteVector
 
 Кодирует массив байтов в строку [Base16](https://ru.wikipedia.org/wiki/Шестнадцатеричная_система_счисления).
 
-```ride
+``` ride
 toBase16String(bytes: ByteVector): String
 ```
 
@@ -81,7 +81,7 @@ toBase16String(bytes: ByteVector): String
 
 Кодирует массив байтов в строку [Base58](https://ru.wikipedia.org/wiki/Base58).
 
-```ride
+``` ride
 toBase58String(bytes: ByteVector): String
 ```
 
@@ -95,7 +95,7 @@ toBase58String(bytes: ByteVector): String
 
 Кодирует массив байтов в строку [Base64](https://ru.wikipedia.org/wiki/Base64).
 
-```ride
+``` ride
 toBase64String(bytes: ByteVector): String
 ```
 
@@ -109,7 +109,7 @@ toBase64String(bytes: ByteVector): String
 
 Декодирует адрес из строки [Base58](https://ru.wikipedia.org/wiki/Base58).
 
-```ride
+``` ride
 addressFromString(string: String): Address|Unit
 ```
 
@@ -125,7 +125,7 @@ addressFromString(string: String): Address|Unit
 
 Выбрасывает исключение, если адрес невозможно декодировать.
 
-```ride
+``` ride
 addressFromStringValue(string: String): Address
 ```
 
@@ -139,7 +139,7 @@ addressFromStringValue(string: String): Address
 
 Декодирует строку [Base16](https://ru.wikipedia.org/wiki/Шестнадцатеричная_система_счисления) в массив байтов.
 
-```ride
+``` ride
 fromBase16String(str: String): ByteVector
 ```
 
@@ -153,7 +153,7 @@ fromBase16String(str: String): ByteVector
 
 Декодирует строку [Base58](https://ru.wikipedia.org/wiki/Base58) в массив байтов.
 
-```ride
+``` ride
 fromBase58String(str: String): ByteVector
 ```
 
@@ -167,7 +167,7 @@ fromBase58String(str: String): ByteVector
 
 Декодирует строку [Base64](https://ru.wikipedia.org/wiki/Base64) в массив байтов.
 
-```ride
+``` ride
 fromBase64String(str: String): ByteVector
 ```
 
