@@ -24,7 +24,7 @@ The array of bytes.
 
 #### `number`: Int
 
-The number n.
+The number `n`.
 
 ## dropRight(ByteVector, Int): ByteVector<a id="drop-right"></a>
 
@@ -74,7 +74,7 @@ The array of bytes.
 
 #### `number`: Int
 
-The number n.
+The number `n`.
 
 ## takeRight(ByteVector, Int): ByteVector<a id="take-right"></a>
 
