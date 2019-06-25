@@ -190,6 +190,7 @@
   * [Exception functions](ride/built-in-functions/exception-functions.md)
   * [List functions](ride/built-in-functions/list-functions.md)
   * [Math functions](ride/built-in-functions/math-functions.md)
+  * [String functions](ride/built-in-functions/string-functions.md)
 * [Exceptions](ride/exceptions.md)
 
 ## Smart contracts (Waves dApps)
