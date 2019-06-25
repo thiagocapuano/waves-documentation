@@ -10,7 +10,7 @@
 
 Gets an element from a list by index.
 
-```
+``` ride
 getElement(arr: List[T], pos: Int): T
 ```
 
@@ -28,7 +28,7 @@ The index of the element.
 
 Prepends a new element to the list.
 
-```
+``` ride
 cons(head:T, tail: List[T]): List[T]
 ```
 
@@ -46,7 +46,7 @@ The list.
 
 Returns the size of a list.
 
-```
+``` ride
 size(arr: List[T]): Int
 ```
 
