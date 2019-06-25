@@ -7,7 +7,7 @@
 | 3 | [indexOf(String, String): Int&#124;Unit](#index-of-string) | Returns the index of the first occurrence of a substring | 20 |
 | 4 | [indexOf(String, String, Int): Int&#124;Unit](#index-of-string-int) | Returns the index of the first occurrence of a substring after a certain index | 20 |
 | 5 | [size(String): Int](#size) | Returns the size of a string | 1 |
-| 6 | [split(String, String): List[String]](#split) | Splits a string delimited by a separator into a list of substrings. | 100 |
+| 6 | [split(String, String): List[String]](#split) | Splits a string delimited by a separator into a list of substrings | 100 |
 | 7 | [take(String, Int): String](#take) | Takes the first `n` characters from a string | 1 |
 | 8 | [takeRight(String, Int): String](#take-right) | Takes the last `n` characters from a string | 19 |
 
