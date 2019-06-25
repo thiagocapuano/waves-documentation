@@ -1,4 +1,4 @@
-# Blockchain data retrieval functions
+# Blockchain functions
 
 |   #  | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
