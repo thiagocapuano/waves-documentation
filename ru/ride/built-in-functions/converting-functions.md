@@ -1,19 +1,175 @@
-# Конвертации
+# Функции конвертации
 
 |   #   | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-|   1  | [](#) |  | 100 |
+| 1 | [addressFromPublicKey(ByteVector): Address](#address-from-public-key)  | Конвертирует публичный ключ аккаунта в адрес | 82 |
+| 2 | [parseInt(String): Int&#124;Unit](#parse-int)  | Конвертирует строку в целое число | 20 |
+| 3 | [parseIntValue(String): Int](#parse-int-value)  | Конвертирует строку в целое число.<br>Выбрасывает исключение, если строка не может быть сконвертирована | 20 |
+| 4 | [toBytes(Boolean): ByteVector](#to-bytes-bool)  | Конвертирует логическое значение в массив байтов | 1 |
+| 5 | [toBytes(Int): ByteVector](#to-bytes-int)  | Конвертирует целое число в массив байтов | 1 |
+| 6 | [toBytes(String): ByteVector](#to-bytes-str)  | Конвертирует строку в массив байтов | 1 |
+| 7 | [toInt(ByteVector): Int](#to-int-arr)  | Конвертирует массив байтов в целое число | 10 |
+| 8 | [toInt(ByteVector, Int): Int](#to-int-idx)  | Конвертирует массив байтов начиная с определенного индекса в целое число | 10 |
+| 9 | [toString(Boolean): String](#to-string-bool)  | Конвертирует логическое значение в строку | 1 |
+| 10 | [toString(Int): String](#to-string-int)  | Конвертирует целое число в строку | 1 |
+| 11 | [toUtf8String(ByteVector): String](#to-utf8-string)  | Конвертирует массив байтов в строку в UTF-8 | 20 |
 
-## assetInfo(ByteVector): Аsset|Unit<a id="asset-info"></a>
+## addressFromPublicKey(ByteVector): Address<a id="#address-from-public-key"></a>
 
-Получает информацию о [токене](/blockchain/token.md).
+Конвертирует публичный ключ аккаунта в адрес.
 
-```
-assetInfo(id: ByteVector): Аsset|Unit
+``` ride
+addressFromPublicKey(publicKey: ByteVector): Int
 ```
 
 ### Параметры
 
-#### `id`: ByteVector
+`publicKey`: ByteVector
 
-ID [токена](/blockchain/token.md).
+Публичный ключ аккаунта.
+
+## parseInt(String): Int&#124;Unit<a id="#parse-int"></a>
+
+Конвертирует строку в целое число.
+
+``` ride
+parseInt(str: String): Int|Unit
+```
+
+### Параметры
+
+`str`: String
+
+Строка для конвертации.
+
+## parseIntValue(String): Int<a id="#parse-int-value"></a>
+
+Конвертирует строку в целое число.
+
+Выбрасывает исключение, если строка не может быть сконвертирована.
+
+``` ride
+parseIntValue(str: String): Int
+```
+
+### Параметры
+
+`str`: String
+
+Строка для конвертации.
+
+## toBytes(Boolean): ByteVector<a id="#to-bytes-bool"></a>
+
+Конвертирует логическое значение в массив байтов.
+
+``` ride
+toBytes(b: Boolean): ByteVector
+```
+
+### Параметры
+
+`b`: Boolean
+
+Логическое значение для конвертации.
+
+## toBytes(Int): ByteVector<a id="#to-bytes-int"></a>
+
+Конвертирует целое число в массив байтов.
+
+``` ride
+toBytes(n: Int): ByteVector
+```
+
+### Параметры
+
+`n`: Int
+
+Целое число для конвертации.
+
+## toBytes(String): ByteVector<a id="#to-bytes-str"></a>
+
+Конвертирует строку в массив байтов.
+
+``` ride
+toBytes(s: String): ByteVector
+```
+
+### Параметры
+
+`s`: String
+
+Строка для конвертации.
+
+## toInt(ByteVector): Int<a id="#to-int-arr"></a>
+
+Конвертирует массив байтов в целое число.
+
+``` ride
+toInt(bin: ByteVector): Int
+```
+
+### Параметры
+
+`bin`: ByteVector
+
+Массив байтов для конвертации.
+
+## toInt(ByteVector, Int): Int<a id="#to-int-idx"></a>
+
+Конвертирует массив байтов начиная с определенного индекса в целое число.
+
+``` ride
+toInt(bin: ByteVector, offset: Int): Int
+```
+
+### Параметры
+
+`bin`: ByteVector
+
+Массив байтов для конвертации.
+
+`offset`: Int
+
+Индекс.
+
+## toString(Boolean): String<a id="#to-string-bool"></a>
+
+Конвертирует логическое значение в строку.
+
+``` ride
+toString(b: Boolean): String
+```
+
+### Параметры
+
+`b`: Boolean
+
+Логическое значение для конвертации.
+
+## toString(Int): String<a id="#to-string-int"></a>
+
+Конвертирует целое число в строку.
+
+``` ride
+toString(n: Int): String
+```
+
+### Параметры
+
+`n`: Int
+
+Целое число для конвертации.
+
+## toUtf8String(ByteVector): String<a id="#to-utf8-string"></a>
+
+Конвертирует массив байтов в строку в UTF-8.
+
+``` ride
+toUtf8String(u: ByteVector): String
+```
+
+### Параметры
+
+`u`: ByteVector
+
+Массив байтов для конвертации.
