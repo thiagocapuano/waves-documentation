@@ -11,7 +11,7 @@
 | 5 | [toBase58String(ByteVector): String](#to-base-58-string) | Кодирует массив байтов в строку [Base58](https://ru.wikipedia.org/wiki/Base58) | 10 |
 | 6 | [toBase64String(ByteVector): String](#to-base-64-string) | Кодирует массив байтов в строку [Base64](https://ru.wikipedia.org/wiki/Base64) | 10 |
 
-## Функции раскодирования
+## Функции декодирования
 
 | # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
