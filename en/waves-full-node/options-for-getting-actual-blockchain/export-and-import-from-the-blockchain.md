@@ -10,14 +10,14 @@ You have to stop the node before starting export of blocks. To export existing b
 _**On Windows:**_
 
 ```
-java -cp waves-all-<version>.jar com.wavesplatform.Exporter [configuration-file-name] [output-file-name] [height]
+java -cp waves-all-<version>.jar com.wavesplatform.Exporter -c [configuration-file-name] -o [output-file-name] -h [height]
 ```
 
 _**On Linux:**_
 
 ```
-Mainnet: sudo -u waves exporter /etc/waves/waves.conf [output-file-name] [height]
-Testnet: sudo -u waves-testnet exporter-testnet /etc/waves-testnet/waves.conf [output-file-name] [height]
+Mainnet: sudo -u waves export -c /etc/waves/waves.conf -o [output-file-name] -h [height]
+Testnet: sudo -u waves-testnet export -c /etc/waves-testnet/waves.conf -o [output-file-name] -h [height]
 ```
 
 If the parameter `height` was not given, all blocks will be exported. Otherwise, only blocks up to that `height` will be exported to the output file.
