@@ -2,18 +2,18 @@
 
 ## Функции кодирования
 
-|#| Название | Описание | Сложность |
+| # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-|1| [blake2b256(ByteVector): ByteVector](#blake2b256) | Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция)) | 10 |
-|2| [keccak256(ByteVector): ByteVector](#keccak256) | Хеширует массив байтов с помощью алгоритма [SHA-3-256](https://ru.wikipedia.org/wiki/SHA-3) | 10 |
-|3| [sha256(ByteVector): ByteVector](#sha256) | Хеширует массив байтов с помощью алгоритма [SHA-256](https://ru.wikipedia.org/wiki/SHA-2) | 10 |
-|4| [toBase16String(ByteVector): String](#to-base-16-string) | Кодирует массив байтов в строку [Base16](https://ru.wikipedia.org/wiki/Шестнадцатеричная_система_счисления) | 10 |
-|5| [toBase58String(ByteVector): String](#to-base-58-string) | Кодирует массив байтов в строку [Base58](https://ru.wikipedia.org/wiki/Base58) | 10 |
-|6| [toBase64String(ByteVector): String](#to-base-64-string) | Кодирует массив байтов в строку [Base64](https://ru.wikipedia.org/wiki/Base64) | 10 |
+| 1 | [blake2b256(ByteVector): ByteVector](#blake2b256) | Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция)) | 10 |
+| 2 | [keccak256(ByteVector): ByteVector](#keccak256) | Хеширует массив байтов с помощью алгоритма [SHA-3-256](https://ru.wikipedia.org/wiki/SHA-3) | 10 |
+| 3 | [sha256(ByteVector): ByteVector](#sha256) | Хеширует массив байтов с помощью алгоритма [SHA-256](https://ru.wikipedia.org/wiki/SHA-2) | 10 |
+| 4 | [toBase16String(ByteVector): String](#to-base-16-string) | Кодирует массив байтов в строку [Base16](https://ru.wikipedia.org/wiki/Шестнадцатеричная_система_счисления) | 10 |
+| 5 | [toBase58String(ByteVector): String](#to-base-58-string) | Кодирует массив байтов в строку [Base58](https://ru.wikipedia.org/wiki/Base58) | 10 |
+| 6 | [toBase64String(ByteVector): String](#to-base-64-string) | Кодирует массив байтов в строку [Base64](https://ru.wikipedia.org/wiki/Base64) | 10 |
 
 ## Функции раскодирования
 
-|#| Название | Описание | Сложность |
+| # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
 | 1 | [addressFromString(String): Address&#124;Unit](#address-from-string)| Декодирует адрес из строки [Base58](https://ru.wikipedia.org/wiki/Base58) | 124 |
 | 2 | [addressFromStringValue(String): Address](#address-from-string-value) | Декодирует адрес из строки [Base58](https://ru.wikipedia.org/wiki/Base58).<br>Выбрасывает исключение, если адрес невозможно декодировать | 124 |
@@ -25,7 +25,7 @@
 
 Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция)
 
-```
+```ride
 blake2b256(bytes: ByteVector): ByteVector
 ```
 
@@ -39,7 +39,7 @@ blake2b256(bytes: ByteVector): ByteVector
 
 Хеширует массив байтов с помощью алгоритма [SHA-3-256](https://ru.wikipedia.org/wiki/SHA-3).
 
-```
+```ride
 keccak256(bytes: ByteVector): ByteVector
 ```
 
@@ -53,7 +53,7 @@ keccak256(bytes: ByteVector): ByteVector
 
 Хеширует массив байтов с помощью алгоритма [SHA-256](https://ru.wikipedia.org/wiki/SHA-2).
 
-```
+```ride
 sha256(bytes: ByteVector): ByteVector
 ```
 
@@ -67,7 +67,7 @@ sha256(bytes: ByteVector): ByteVector
 
 Кодирует массив байтов в строку [Base16](https://ru.wikipedia.org/wiki/Шестнадцатеричная_система_счисления).
 
-```
+```ride
 toBase16String(bytes: ByteVector): String
 ```
 
@@ -81,7 +81,7 @@ toBase16String(bytes: ByteVector): String
 
 Кодирует массив байтов в строку [Base58](https://ru.wikipedia.org/wiki/Base58).
 
-```
+```ride
 toBase58String(bytes: ByteVector): String
 ```
 
@@ -95,7 +95,7 @@ toBase58String(bytes: ByteVector): String
 
 Кодирует массив байтов в строку [Base64](https://ru.wikipedia.org/wiki/Base64).
 
-```
+```ride
 toBase64String(bytes: ByteVector): String
 ```
 
@@ -109,7 +109,7 @@ toBase64String(bytes: ByteVector): String
 
 Декодирует адрес из строки [Base58](https://ru.wikipedia.org/wiki/Base58).
 
-```
+```ride
 addressFromString(string: String): Address|Unit
 ```
 
@@ -125,7 +125,7 @@ addressFromString(string: String): Address|Unit
 
 Выбрасывает исключение, если адрес невозможно декодировать.
 
-```
+```ride
 addressFromStringValue(string: String): Address
 ```
 
@@ -139,7 +139,7 @@ addressFromStringValue(string: String): Address
 
 Декодирует строку [Base16](https://ru.wikipedia.org/wiki/Шестнадцатеричная_система_счисления) в массив байтов.
 
-```
+```ride
 fromBase16String(str: String): ByteVector
 ```
 
@@ -153,7 +153,7 @@ fromBase16String(str: String): ByteVector
 
 Декодирует строку [Base58](https://ru.wikipedia.org/wiki/Base58) в массив байтов.
 
-```
+```ride
 fromBase58String(str: String): ByteVector
 ```
 
@@ -167,7 +167,7 @@ fromBase58String(str: String): ByteVector
 
 Декодирует строку [Base64](https://ru.wikipedia.org/wiki/Base64) в массив байтов.
 
-```
+```ride
 fromBase64String(str: String): ByteVector
 ```
 
