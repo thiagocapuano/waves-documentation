@@ -1,13 +1,13 @@
 # REPL
 
-**REPL** (_read–eval–print loop_) — консоль [Waves IDE](/developer-tools/waves-ide.md).
+**REPL** ([_read–eval–print loop_](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)) — консоль [Waves IDE](/developer-tools/waves-ide.md).
 
 <img src="img/repl/repl.png" width="700px" />
 
 С помощью консоли вы можете:
 
 * подписывать и отправлять [транзакции](/blockchain/transaction.md)
-* получать информацию о балансе аккаунтов
+* получать информацию о балансе аккаунта
 * читать данные из [хранилища данных аккаунта](/blockchain/account-data-storage.md)
 * отправлять и отменять ордера на DEX
 
