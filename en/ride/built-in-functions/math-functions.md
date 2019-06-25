@@ -1,15 +1,15 @@
 # Math functions
 
-|#| Name | Description | Complexity |
+| # | Name | Description | Complexity |
 |:---| :--- | :--- | :--- |
-|1|[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
-|2|[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
+| 1 |[log(Int, Int, Int, Int, Int, Union): Int](#log)| Returns the logarithm of a number | 100 |
+| 2 |[pow(Int, Int, Int, Int, Int, Union): Int](#pow) | Returns a number raised to a power| 100 |
 
 ## log(Int, Int, Int, Int, Int, Union): Int<a id="log"></a>
 
 Returns the logarithm of a number.
 
-```
+``` ride
 log(value: Int, ep: Int, base: Int, bp: Int, rp: Int, round: Union): Int
 ```
 
@@ -38,13 +38,14 @@ The number of decimals of the resulting value.
 #### `round`: Union
 
 The [rounding function](#rounding-functions).
-The HalfUp() function may be used as the default value.
+
+The `HalfUp()` function may be used as the default value.
 
 ## pow(Int, Int, Int, Int, Int, Union): Int<a id="pow"></a>
 
 Returns number raised to a power.
 
-```
+``` ride
 pow(base: Int, bp: Int, exponent: Int, ep: Int, rp: Int, round: Union): Int
 ```
 
@@ -72,8 +73,9 @@ The number of decimals of the resulting value.
 
 #### `round`: Union
 
-The [rounding function](#rounding-functions).
-The HalfUp() function may be used as the default value.
+One of the [rounding functions](#rounding-functions).
+
+The `HalfUp()` function may be used as the default value.
 
 ## Rounding functions
 
