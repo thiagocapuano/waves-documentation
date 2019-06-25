@@ -23,7 +23,7 @@
 
 ## blake2b256(ByteVector): ByteVector<a id="blake2b256"></a>
 
-Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция)
+Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция))
 
 ```ride
 blake2b256(bytes: ByteVector): ByteVector
