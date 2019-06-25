@@ -42,6 +42,7 @@ Please select the page that fits you best:
 * [Converting functions](ride/built-in-functions/converting-functions.md)
 * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
 * [Exception functions](ride/built-in-functions/exception-functions.md)
+* [List functions](ride/built-in-functions/list-functions.md)
 * [Math functions](ride/built-in-functions/math-functions.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
 
