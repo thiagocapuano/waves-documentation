@@ -50,7 +50,7 @@ genesis-generator
 
 ## Fourth Step
 
-* Run the genesis block generator using `sbt "node/runMain com.wavesplatform.GenesisBlockGenerator src/test/resources/genesis.example.conf"` , Results will be like this:
+* Run the genesis block generator using `sbt "node/runMain com.wavesplatform.GenesisBlockGenerator src/test/resources/genesis.example.conf genesis.conf"`. The result will be written to the genesis.conf file (instead of genesis.conf, you can use arbitrary name), and it will look like this:
 
 ```
 Addresses:
@@ -85,7 +85,13 @@ The output will be the same.
 
 ## Fifth Step
 
-* Open your favorite text editor and create waves-custom-network.conf \(or any other name\) file like this:
+* Open your favorite text editor and create waves-custom-network.conf (or any other name) file.
+
+> Earlier the `directory` from below (i.e. the Waves folder) was created in the user's home directory. Now, if the `directory` parameter was not redefined, it will be <br>Linux: $XDG_DATA_HOME/waves or $HOME/.local/share/waves<br>Win: %APPDATA%/local/waves<br>Mac OS: $HOME/Library/Application Support/waves
+
+> The `address-scheme-character` parameter value from below must be the same as the `network-type` value from the step 3
+
+> The contents of the `genesis` section from below is what was generated on the step 4. Instead of pasting this section, you can just write `include "genesis.conf"`, where the `genesis.conf` is a filename from the step 4
 
 ```
 # Waves node settings
@@ -101,7 +107,7 @@ waves
     type: CUSTOM
     custom 
     {
-      address-scheme-character: "L"
+      address-scheme-character: "L" # this value must be the same as the `network-type` value from the step 3
       # various parameters of network consensus
       functionality {
         feature-check-blocks-period = 30
@@ -137,6 +143,9 @@ waves
           {recipient: "3JfE6tjeT7PnpuDQKxiVNLn4TJUFhuMaaT5", amount: 10000000000000000}
         ]
       }
+      # the contents of the above `genesis` section is what was generated on the step 4
+      # please note that instead of pasting this section, you can just write
+      # `include "genesis.conf"`, where the `genesis.conf` is a filename from # the step 4
     }
   }
 
@@ -157,15 +166,22 @@ waves
 
   rest-api 
   {
+    # Enable/disable REST API
     enable = yes
+    # Network address to bind to
     bind-address = "0.0.0.0"
+    # Port to listen to REST API requests
     port = 6861
+    # Hash of API key string
     api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
   }
 
   miner 
   {
+    # Enable block generation only in the last block is not older the given period of time
     interval-after-last-block-then-generation-is-allowed = 999d
+    # Required number of connections (both incoming and outgoing) to attempt block generation. Setting this value to 0
+    # enables "off-line generation".
     quorum = 0
   }
 }
