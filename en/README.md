@@ -14,18 +14,18 @@ Please select the page that fits you best:
 
 ### Blockchain
 
+* [Account](blockchain/account.md)
+* [Account data storage](blockchain/account-data-storage.md)
 * [Block](blockchain/block.md)
 * [Block height](blockchain/block-height.md)
 * [Blockchain](blockchain/blockchain.md)
 * [Blockchain height](blockchain/blockchain-height.md)
-* [Account](blockchain/account.md)
-* [Account data storage](blockchain/account-data-storage.md)
-* [Matcher](blockchain/node/matcher.md)
-* [gRPC Server](blockchain/node/grpc-server.md)
-* [Non-fungible token](blockchain/token/non-fungible-token.md)
-* [Node](blockchain/node.md)
-* [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [dApp](blockchain/dapp.md)
+* [Data transaction](blockchain/transaction-type/data-transaction.md)
+* [gRPC Server](blockchain/node/grpc-server.md)
+* [Matcher](blockchain/node/matcher.md)
+* [Node](blockchain/node.md)
+* [Non-fungible token](blockchain/token/non-fungible-token.md)
 
 ### Waves Client
 
@@ -37,12 +37,15 @@ Please select the page that fits you best:
 
 ## RIDE
 
-* [Blockchain data retrieval functions](ride/built-in-functions/blockchain-data-retrieval-functions.md)
-* [Byte functions](ride/built-in-functions/byte-functions.md)
+* [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
+* [Byte array functions](ride/built-in-functions/byte-array-functions.md)
 * [Converting functions](ride/built-in-functions/converting-functions.md)
 * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
+* [Exception functions](ride/built-in-functions/exception-functions.md)
+* [List functions](ride/built-in-functions/list-functions.md)
 * [Math functions](ride/built-in-functions/math-functions.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
+* [String functions](ride/built-in-functions/string-functions.md)
 
 ## Smart contracts (Waves dApps)
 
@@ -55,7 +58,7 @@ Please select the page that fits you best:
 ### Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [User interface](waves-token-rating/user-interface.md)
-* [Rating formula](waves-token-rating/rating-formula.md)
-* [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Data transaction of the Token Rating oracle](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
+* [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
+* [Rating formula](waves-token-rating/rating-formula.md)
+* [User interface](waves-token-rating/user-interface.md)
