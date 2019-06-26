@@ -12,7 +12,7 @@
 
 Drops the first `n` bytes of an array of bytes.
 
-```
+``` ride
 drop(xs: ByteVector, number: Int): ByteVector
 ```
 
@@ -24,13 +24,13 @@ The array of bytes.
 
 #### `number`: Int
 
-The number of the first `n` bytes.
+The number `n`.
 
 ## dropRight(ByteVector, Int): ByteVector<a id="drop-right"></a>
 
 Drops the last `n` bytes of an array of bytes.
 
-```
+``` ride
 dropRight(xs: ByteVector, number: Int): ByteVector
 ```
 
@@ -42,13 +42,13 @@ The array of bytes.
 
 #### `number`: Int
 
-The number of thelast `n` bytes.
+The number `n`.
 
 ## size(ByteVector): Int<a id="size"></a>
 
 Returns the size of an array of bytes.
 
-```
+``` ride
 size(byteVector: ByteVector): Int
 ```
 
@@ -62,7 +62,7 @@ The array of bytes.
 
 Takes the first `n` bytes from an array of bytes.
 
-```
+``` ride
 take(xs: ByteVector, number: Int): ByteVector
 ```
 
@@ -74,13 +74,13 @@ The array of bytes.
 
 #### `number`: Int
 
-The number of the first `n` bytes to return.
+The number `n`.
 
 ## takeRight(ByteVector, Int): ByteVector<a id="take-right"></a>
 
 Takes the last `n` bytes from an array of bytes.
 
-```
+``` ride
 takeRight(xs: ByteVector, number: Int): ByteVector
 ```
 
@@ -92,4 +92,4 @@ The array of bytes.
 
 #### `number`: Int
 
-The number of the last `n` bytes to return.
+The number `n`.

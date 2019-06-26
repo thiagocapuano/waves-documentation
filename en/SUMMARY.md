@@ -187,7 +187,10 @@
   * [Byte array functions](ride/built-in-functions/byte-array-functions.md)
   * [Converting functions](ride/built-in-functions/converting-functions.md)
   * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
+  * [Exception functions](ride/built-in-functions/exception-functions.md)
+  * [List functions](ride/built-in-functions/list-functions.md)
   * [Math functions](ride/built-in-functions/math-functions.md)
+  * [String functions](ride/built-in-functions/string-functions.md)
 * [Exceptions](ride/exceptions.md)
 
 ## Smart contracts (Waves dApps)

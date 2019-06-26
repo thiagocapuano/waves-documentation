@@ -12,15 +12,15 @@ To import the blockchain and rebuild the state run the following command(Importi
 ### On Windows
 
 ```bash
-java -cp waves-all-<version>.jar com.wavesplatform.Importer [configuration-file-name] [binary-file-name]
+java -cp waves-all-<version>.jar com.wavesplatform.Importer -c [configuration-file-name] -i [binary-file-name]
 ```
 
 ### On Linux
 
 ```bash
-Mainnet: sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
+Mainnet: sudo -u waves waves import -c /etc/waves/waves.conf -i [binary-file-name]
 
-Testnet: sudo -u waves-testnet importer-testnet /etc/waves-testnet/waves.conf [binary-file-name]
+Testnet: sudo -u waves-testnet waves-testnet import -c /etc/waves-testnet/waves.conf -i [binary-file-name]
 ```
 
 ## Import blocks up to a certain height
@@ -30,14 +30,14 @@ when importing, The user can specify the target height. If the parameter `height
 ### On Windows
 
 ```
-java com.wavesplatform.Importer <config_file> <blockchain_file> <height>
+java com.wavesplatform.Importer -c <config_file> -i <blockchain_file> -h <height>
 ```
 
 ### On Linux
 
 ```
-Mainnet: sudo -u waves /usr/share/waves/bin/importer /etc/waves/waves.conf /path/to/mainnet-1234688 500
-Testnet: sudo -u waves-testnet /usr/share/waves-testnet/bin/importer-testnet /etc/waves-testnet/waves.conf /path/to/testnet-1234688 500
+Mainnet: sudo -u waves waves import -c /etc/waves/waves.conf -i /path/to/mainnet-1234688
+Testnet: sudo -u waves-testnet waves-testnet import -c /etc/waves-testnet/waves.conf -i /path/to/testnet-1234688
 ```
 
 
