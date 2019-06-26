@@ -13,7 +13,7 @@
 | 9 | [getStringValue(Address&#124;Alias, String): String](#get-string-value)  | Получает строку по ключу. Выбрасывает исключение если данных нет | 100 |
 | 10 | [wavesBalance(Address&#124;Alias): Int](#waves-balance)  | Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md) | 100 |
 
-## assetBalance(Address|Alias, ByteVector): Int<a name="asset-balance"></a>
+## assetBalance(Address|Alias, ByteVector): Int<a id="asset-balance"></a>
 
 Получает баланс токенов на аккаунте по ID токена.
 
