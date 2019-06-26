@@ -9,3 +9,7 @@
 * [скрипты ассетов](/blockchain/asset-script.md)
 
 У скрипта на RIDE есть [сложность](/ride/ride-script-complexity.md).
+
+## IDE
+
+В качестве среды разработки [скриптов на RIDE](/ride/ride-script.md) можно использовать [Waves IDE](/developer-tools/waves-ide.md) или [Visual Studio Code](https://code.visualstudio.com/) с установленным расширением [waves-ride](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
