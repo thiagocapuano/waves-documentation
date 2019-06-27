@@ -89,4 +89,4 @@ The signature.
 
 #### `pub`: ByteVectore
 
-The [account public key](http://confluence.wavesplatform.com/display/WDOCS/Account+public+key).
+The account public key.
