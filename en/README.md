@@ -46,6 +46,7 @@ Please select the page that fits you best:
 * [Math functions](ride/built-in-functions/math-functions.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
 * [String functions](ride/built-in-functions/string-functions.md)
+* [Verification functions](ride/built-in-functions/verification-functions.md)
 
 ## Smart contracts (Waves dApps)
 
