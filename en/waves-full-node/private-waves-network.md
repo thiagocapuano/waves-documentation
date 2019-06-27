@@ -87,11 +87,11 @@ The output will be the same.
 
 * Open your favorite text editor and create waves-custom-network.conf (or any other name) file.
 
-> Earlier the `directory` from below (i.e. the Waves folder) was created in the user's home directory. Now, if the `directory` parameter was not redefined, it will be <br>Linux: $XDG_DATA_HOME/waves or $HOME/.local/share/waves<br>Win: %APPDATA%/local/waves<br>Mac OS: $HOME/Library/Application Support/waves
+> Earlier the `directory` from below (i.e. the Waves folder) was created in the user's home directory. Now, if the `directory` parameter was not redefined, it will be <br>Linux: $XDG_DATA_HOME/waves or $HOME/.local/share/waves<br>Win: %APPDATA%/local/waves<br>Mac OS: $HOME/Library/Application Support/waves.
 
-> The `address-scheme-character` parameter value from below must be the same as the `network-type` value from the step 3
+> The `address-scheme-character` parameter value from below must be the same as the `network-type` value from the step 3.
 
-> The contents of the `genesis` section from below is what was generated on the step 4. Instead of pasting this section, you can just write `include "genesis.conf"`, where the `genesis.conf` is a filename from the step 4
+> The contents of the `genesis` section from below is what was generated on the step 4. Instead of pasting this section, you can just write `include "genesis.conf"`, where the `genesis.conf` is a filename from the step 4.
 
 ```
 # Waves node settings
