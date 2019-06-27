@@ -33,7 +33,7 @@ The tree of hashes.
 
 Checks if a value is not `Unit`.
 
-```
+``` ride
 isDefined(a: List[T]|Unit): Boolean
 ```
 
