@@ -25,7 +25,7 @@ You can enable these features on your node and you can achieve that as it's expl
 
 ## Third Step
 
-* Edit the file with genesis block parameters `src/test/resources/genesis.example.conf`, for example like this:
+* Edit the file with genesis block parameters `node/src/test/resources/genesis.example.conf`, for example like this:
 
 ```
 genesis-generator
@@ -50,7 +50,7 @@ genesis-generator
 
 ## Fourth Step
 
-* Run the genesis block generator using `sbt "node/runMain com.wavesplatform.GenesisBlockGenerator src/test/resources/genesis.example.conf genesis.conf"`. The result will be written to the genesis.conf file (instead of genesis.conf, you can use arbitrary name), and it will look like this:
+* Run the genesis block generator using `sbt "node/runMain com.wavesplatform.GenesisBlockGenerator node/src/test/resources/genesis.example.conf genesis.conf"`. The result will be written to the genesis.conf file (instead of genesis.conf, you can use arbitrary name), and it will look like this:
 
 ```
 Addresses:
