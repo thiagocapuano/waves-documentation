@@ -22,9 +22,9 @@ Please select the page that fits you best:
 * [Blockchain height](blockchain/blockchain-height.md)
 * [dApp](blockchain/dapp.md)
 * [Data transaction](blockchain/transaction-type/data-transaction.md)
-* [gRPC Server](blockchain/node/grpc-server.md)
+* [gRPC Server](waves-node/extensions/grpc-server.md)
 * [Matcher](blockchain/node/matcher.md)
-* [Node](blockchain/node.md)
+* [Node](waves-node/extensions/node.md)
 * [Non-fungible token](blockchain/token/non-fungible-token.md)
 
 ### Waves Client
