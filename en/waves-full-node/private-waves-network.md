@@ -1,31 +1,16 @@
-# How To Create a Private Waves Blockchain Network
-# Node Features
-You can enable these features on your node and you can achieve that as it's explained in the fifth step by modifying the parameter `pre-activated-features`:
+# Private Waves blockchain network setup
 
- | Features |                   Name                   |   Status  |
-|:--------:|:----------------------------------------:|:---------:|
-|     1    | Minimum Generating Balance of 1000 WAVES | ACTIVATED |
-|     2    |                NG Protocol               | ACTIVATED |
-|     3    |         Mass Transfer Transaction        | ACTIVATED |
-|     4    |              Smart Accounts              | ACTIVATED |
-|     5    |             Data Transaction             | ACTIVATED |
-|     6    |              Burn Any Tokens             | ACTIVATED |
-|     7    |              Fee Sponsorship             | ACTIVATED |
-|     8    |                 Fair PoS                 | ACTIVATED |
-|     9    |               Smart Assets               | ACTIVATED |
-|    10    |           Smart Account Trading          | ACTIVATED |
+## Step 1
 
-## First Step
+Install git, [Java 8](https://java.com/en/download/) and [sbt](http://www.scala-sbt.org/).
 
-* Install git, [Java 8](https://java.com/en/download/) and [sbt](http://www.scala-sbt.org/).
+## Step 2
 
-## Second Step
+Clone [Waves repository](https://github.com/wavesplatform/Waves/).
 
-* Clone [Waves repo](https://github.com/wavesplatform/Waves/) using git.
+## Step 3
 
-## Third Step
-
-* Edit the file with genesis block parameters `src/test/resources/genesis.example.conf`, for example like this:
+Edit the `node/src/test/resources/genesis.example.conf` file with genesis block parameters, for example like this:
 
 ```
 genesis-generator
@@ -48,9 +33,13 @@ genesis-generator
 }
 ```
 
-## Fourth Step
+## Step 4
 
-* Run the genesis block generator using `sbt "node/runMain com.wavesplatform.GenesisBlockGenerator src/test/resources/genesis.example.conf"` , Results will be like this:
+Run the genesis block generator command:
+
+```sbt "node/runMain com.wavesplatform.GenesisBlockGenerator node/src/test/resources/genesis.example.conf genesis.conf"```
+
+The result will be written to the `genesis.conf` file (instead of `genesis.conf`, you can use arbitrary name), and it will look like this:
 
 ```
 Addresses:
@@ -75,7 +64,7 @@ genesis {
 }
 ```
 
-* If you built a fat JAR, you can generate a genesis block through it. For example:
+If you built a fat JAR, you can generate a genesis block through it. For example:
 
 ```
 java -cp ./node/target/waves-all-0.17.2-grpc-27-g0fab715-DIRTY.jar com.wavesplatform.GenesisBlockGenerator node/src/test/resources/genesis.example.conf
@@ -83,9 +72,33 @@ java -cp ./node/target/waves-all-0.17.2-grpc-27-g0fab715-DIRTY.jar com.wavesplat
 
 The output will be the same.
 
-## Fifth Step
+## Step 5
 
-* Open your favorite text editor and create waves-custom-network.conf \(or any other name\) file like this:
+Open a text editor and create `waves-custom-network.conf` (or any other name) file.
+
+You can enable following features on your node by modifying the `pre-activated-features` parameter in the file.
+
+| Features | Name | Status |
+|---|---|---|
+| 1 | Minimum Generating Balance of 1000 WAVES | ACTIVATED |
+| 2 | NG Protocol | ACTIVATED |
+| 3 | Mass Transfer Transaction | ACTIVATED |
+| 4 | Smart Accounts | ACTIVATED |
+| 5 | Data Transaction | ACTIVATED |
+| 6 | Burn Any Tokens | ACTIVATED |
+| 7 | Fee Sponsorship | ACTIVATED |
+| 8 | Fair PoS | ACTIVATED |
+| 9 | Smart Assets | ACTIVATED |
+| 10 | Smart Account Trading | ACTIVATED |
+
+> If the directory parameter was not redefined, the waves folder will be created in 
+<br>Linux: $XDG_DATA_HOME/waves or $HOME/.local/share/waves
+<br>Win: %APPDATA%/local/waves
+<br>Mac OS: $HOME/Library/Application Support/waves
+
+> The `address-scheme-character` parameter value from below must be the same as the `network-type` value from the step 3.
+
+> The contents of the `genesis` section from below is what was generated on the step 4. Instead of pasting this section, you can just write `include "genesis.conf"`, where the `genesis.conf` is a filename from the step 4.
 
 ```
 # Waves node settings
@@ -101,7 +114,7 @@ waves
     type: CUSTOM
     custom 
     {
-      address-scheme-character: "L"
+      address-scheme-character: "L" # this value must be the same as the `network-type` value from the step 3
       # various parameters of network consensus
       functionality {
         feature-check-blocks-period = 30
@@ -137,6 +150,9 @@ waves
           {recipient: "3JfE6tjeT7PnpuDQKxiVNLn4TJUFhuMaaT5", amount: 10000000000000000}
         ]
       }
+      # the contents of the above `genesis` section is what was generated on the step 4
+      # please note that instead of pasting this section, you can just write
+      # `include "genesis.conf"`, where the `genesis.conf` is a filename from # the step 4
     }
   }
 
@@ -157,35 +173,45 @@ waves
 
   rest-api 
   {
+    # Enable/disable REST API
     enable = yes
+    # Network address to bind to
     bind-address = "0.0.0.0"
+    # Port to listen to REST API requests
     port = 6861
+    # Hash of API key string
     api-key-hash = "H6nsiifwYKYEx6YzYD7woP1XCn72RVvx6tC1zjjLXqsu"
   }
 
   miner 
   {
+    # Enable block generation only in the last block is not older the given period of time
     interval-after-last-block-then-generation-is-allowed = 999d
+    # Required number of connections (both incoming and outgoing) to attempt block generation. Setting this value to 0
+    # enables "off-line generation".
     quorum = 0
   }
 }
 ```
 
-Pay attention to the parameters `waves.blockchain.custom.address-scheme-character` and `waves.blockchain.custom.genesis`, they was copied from the result and settings of genesis generator tool. Also look at `waves.wallet.seed` value, this value can be copied from "Seed" value for one of genesis addresses from the result of genesis generator tool.
+Pay attention to the parameters `waves.blockchain.custom.address-scheme-character` and `waves.blockchain.custom.genesis`. They were copied from the result and settings of genesis generator tool. Also, look at `waves.wallet.seed` value. This value can be copied from "Seed" value for one of the genesis addresses from the result of genesis generator tool.
 
-## Sixth Step
+## Step 6
 
-* Start your custom network node with `sbt "run waves-custom-network.conf"` Also you can run already builded release package \(deb or jar\) with this configuration file manually.
+Start your custom network node by running:
 
-Done! You create your private Waves network consisting of one node!
+```sbt "run waves-custom-network.conf"```
+
+Also, you can run already built release package (deb or jar) with this configuration file manually.
+
+Done! You created your private Waves network consisting of one node!
 
 ## Adding Nodes to Your Network
 
-You can add more nodes to your network using `waves.network.known-peers` parameter, specify the address and port of the existing node with the same network parameters like "127.0.0.1:6860". If you are making several nodes locally, then do not forget to change for the new nodes the network port `waves.network.port`, the API port `waves.rest-api.port`, folder for the data `waves.directory` and wallet seed `waves.wallet.seed`.
+You can add more nodes to your network using `waves.network.known-peers` parameter, specify the address and port of the existing node with the same network parameters like "127.0.0.1:6860". If you are making several nodes locally, then do not forget to change for the new nodes the network port `waves.network.port`, the API port `waves.rest-api.port`, folder for the data `waves.directory` and wallet seed `waves.wallet.seed`.
 
-`waves.blockchain.custom.functionality` section contains parameters that allow you to enable and disable some features in your blockchain system.
+`waves.blockchain.custom.functionality` section contains parameters that allow you to enable and disable some features in your blockchain system.
 
-**Note.** the developers can add new parameters in `waves.blockchain.custom.functionality` section, which are not present in this example; for an example of a working configuration, you can look at the[ `waves-devnet.conf` file in root folder of repository](https://github.com/wavesplatform/Waves/blob/master/waves-devnet.conf).
+**Note**. The developers can add new parameters in `waves.blockchain.custom.functionality` section, which are not present in this example; for an example of a working configuration, you can look at the [waves-devnet.conf file in root folder of repository](https://github.com/wavesplatform/Waves/blob/master/node/waves-devnet.conf).
 
-Check our [configuration file documentation](/en/waves-full-node/configuration-parameters.md) for more information.
-
+Check our [configuration file documentation](/waves-full-node/configuration-parameters.md) for more information.

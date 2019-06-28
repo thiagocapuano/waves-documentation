@@ -17,7 +17,7 @@ During the account creation, you will also be asked to generate a password for y
 The password has two purposes:
 
 1. It encrypts the SEED locally so the SEED is never sent to the network unprotected.
-2. Your account will be cached so you don't have to import the SEED from new every time you want to log in. The password secures that only you can log into your cached account. If you happen to lose your password, you can simply delete the cached account, restore account by using your SEED.
+2. Your account will be cached so you don't have to import the SEED from new every time you want to log in. The password secures that only you can log into your account which stored in the localstorage. If you happen to lose your password, you can simply delete the account from the localstorage, restore account by using your SEED.
 
 **Notes**
 

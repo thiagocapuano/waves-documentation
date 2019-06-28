@@ -6,7 +6,7 @@
 
 ## План действий
 
-1. Создадим аккаунт главы ТСЖ.
+1. Создадим [аккаунт](/blockchain/account.md) главы ТСЖ.
 2. Создадим аккаунты жильцов дома.
 3. Создадим [dApp-скрипт](/blockchain/dapp-script.md) с методом `vote`.
 4. Привяжем dApp-скрипт к аккаунту главы ТСЖ, создав таким образом [dApp](/blockchain/dapp.md).
@@ -19,11 +19,11 @@
 
 <img src="img/voting/account-settings.png" width="300"/>
 
-Убедитесь, что выбрана [тестовая сеть](/blockchain/testnet.md).
+Убедитесь, что выбрана [тестовая сеть](/blockchain/test-network.md).
 
 <img src="img/voting/account-settings-test.png" width="540"/>
 
-Создайте аккаунт главы ТСЖ. Для этого выберите **Generate new account**.
+Создайте аккаунт главы ТСЖ, выбрав  **Generate new account**.
 
 <img src="img/voting/account-new.png" width="240"/>
 
@@ -31,7 +31,7 @@
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-Скопируйте [адрес](/blockchain/address.md) из карточки аккаунта главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-testnet.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты комиссии за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/blockchain/dapp-script.md) к своему аккаунту.
+Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты [комиссии](/blockchain/transaction-fee.md) за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/blockchain/dapp-script.md) к своему аккаунту.
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -43,7 +43,7 @@
 
 ## 3. Создание dApp-скрипта
 
-Создайте [dApp-скрипт](/blockchain/dapp-script.md), выбрав в выпадающем меню **DApp**.
+Создайте [dApp-скрипт](/blockchain/dapp-script.md), выбрав в выпадающем списке **DApp**.
 
 <img src="img/voting/new-dapp-script.png" width="870"/>
 
@@ -93,9 +93,9 @@ func vote(theVote: Int) = {
 
 #### Функция `vote`
 
-Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в [хранилище данных](/blockchain/account-data-storage.md) аккаунта главы ТСЖ.
+Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в [хранилище данных аккаунта](/blockchain/account-data-storage.md) главы ТСЖ.
 
-Перед функцией `vote` указана аннотация `@Callable`, которая делает данную функцию вызываемой у dApp. У данной аннотации `i` — переменная, содержащая информацию о транзакции, в рамках которой был вызван скрипт. Переменная `i` используется в коде для получения публичного ключа аккаунта `i.callerPublicKey`, вызвавшего скрипт.
+Перед функцией `vote` указана аннотация `@Callable`, которая делает данную функцию вызываемой у dApp. У данной аннотации `i` — переменная, содержащая информацию о транзакции, которая вызвала функцию `vote`. Мы используем переменную `i` в коде для получения публичного ключа аккаунта `i.callerPublicKey`, который отправил транзакцию вызова скрипта.
 
 Для простоты, в функции `vote` нет никаких проверок значения переменной `theVote`.
 
@@ -105,7 +105,7 @@ func vote(theVote: Int) = {
 
 В данном примере значения публичных ключей жестко прописаны в коде скрипта. В реальном примере можно было бы считывать публичные ключи, например, из хранилища данных аккаунта главы ТСЖ (предварительно записав их туда).
 
-Значения публичных ключей в коде `alekseiPubKey` и `annaPubKey` возьмите из карточек аккаунтов Алексея и Анны.
+Значения публичных ключей `alekseiPubKey` и `annaPubKey` возьмите из карточек аккаунтов Алексея и Анны.
 
 <img src="img/voting/public-key.png" width="240"/>
 
@@ -117,9 +117,9 @@ func vote(theVote: Int) = {
 let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 ```
 
-Размер и [сложность](/ride/script-complexity.md) скрипта отображаются в панели под редактором скрипта.
+Размер и [сложность](/ride/ride-script-complexity.md) скрипта отображаются в панели под редактором скрипта.
 
-<img src="img/voting/script-complexity.png" width="890"/>
+<img src="img/voting/script-complexity.png" width="450"/>
 
 ## 4. Привязка dApp-скрипта к аккаунту главы ТСЖ
 
@@ -127,7 +127,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/deploy-dapp-script.png" width="940"/>
 
-В открывшемся окне в комбинированном списке **Account** выберите значение "Глава ТСЖ". Подпишите транзакцию, нажав **Add sign**.
+В открывшемся окне, в комбинированном списке **Account**, выберите значение "Глава ТСЖ". Подпишите транзакцию, нажав **Add sign**.
 
 <img src="img/voting/add-sign.png" width="900"/>
 
@@ -135,17 +135,17 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/seed-and-waves-keeper.png" width="300"/>
 
-Отправьте с аккаунта главы ТСЖ транзакцию установки скрипта, нажав **Publish**. Вверху экрана появится плашка с текстом о том, что транзакция была успешно отправлена.
+Отправьте с аккаунта главы ТСЖ транзакцию установки скрипта, нажав **Publish**.
 
 <img src="img/voting/publish.png" width="880"/>
 
 Таким образом, вы только что создали [dApp](/blockchain/dapp.md).
 
-В [Waves Explorer](https://wavesexplorer.com/), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
+В [Waves Explorer](https://wavesexplorer.com/testnet), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
 
 <img src="img/voting/testnet-address.png" width="800"/>
 
-По адресу главы ТСЖ отображаются две транзакции: пополнение баланса на 10 WAVES и отправка транзакции установки скрипта. Отметим, что с баланса аккаунта главы ТСЖ списали комиссию за транзакцию установки скрипта в 0.001 WAVES.
+По адресу главы ТСЖ отображаются две транзакции: транзакция перевода (пополнение баланса на 10 WAVES с помощью faucet) и отправка транзакции установки скрипта. Отметим, что с баланса аккаунта главы ТСЖ списали комиссию за транзакцию установки скрипта в 0,001 WAVES.
 
 <img src="img/voting/waves-explorer-chief-transactions.png" width="900"/>
 
@@ -163,17 +163,19 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 broadcast(invokeScript({dApp: "3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL", call: {function: "vote", args: [{type: "integer", value: 7}]} }))
 ```
 
+Здесь `3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL` — адрес аккаунта главы ТСЖ.
+
 Если все прошло успешно, то вы увидите следующий результат (разверните объект `Promise` в консоли):
 
 <img src="img/voting/repl-success.png" width="650"/>
 
-Аналогично проголосуйте с аккаунта Анны, _предварительно выбрав аккаунт Анны_:
+Аналогично проголосуйте с аккаунта Анны, _предварительно выбрав аккаунт Анны_ в Waves IDE:
 
 ```
 broadcast(invokeScript({dApp: "3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL", call: {function: "vote", args: [{type: "integer", value: 25}]} }))
 ```
 
-Если вы попробуете повторно проголосовать с аккаунта Алексея или Анны, то вы увидите ошибку:
+Если вы попробуете повторно проголосовать с аккаунтов Алексея или Анны, то вы увидите ошибку:
 
 <img src="img/voting/repl-error-1.png" width="900"/>
 
@@ -183,6 +185,6 @@ broadcast(invokeScript({dApp: "3Mz2X8c4Gpf8uporPrkEHA5TH73pYDYg6vL", call: {func
 
 ## 6. Просмотр результатов голосования
 
-На вкладке **Data** в Waves Explorer просмотрите содержимое хранилища данных аккаунта главы ТСЖ. На скриншоте ниже видно, что в хранилище данных аккаунта главы ТСЖ записаны две пары ключ-значение.
+На вкладке **Data** в Waves Explorer просмотрите содержимое хранилища данных аккаунта главы ТСЖ — в хранилище данных содержатся две записи.
 
 <img src="img/voting/voting-results.png" width="880"/>

@@ -1,5 +1,12 @@
 # Account script
 
-An **account script** is a [script](/blockchain/script.md) that is attached to an account with the set script transaction.
+An **account script** is a [RIDE script](/ride/ride-script.md) that has the following directives:
 
-An account with the attached script is called a [smart account](/blockchain/smart-account.md).
+``` ride
+{-# CONTENT_TYPE EXPRESSION #-}
+{-# SCRIPT_TYPE ACCOUNT #-}
+```
+
+Account script is attached to an [account](/blockchain/account.md) with a set script transaction.
+
+An [account](/blockchain/account.md) with the attached script is called a [smart account](/blockchain/smart-account.md).
