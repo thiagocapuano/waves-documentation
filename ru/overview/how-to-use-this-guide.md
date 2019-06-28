@@ -37,13 +37,13 @@
 
 Секция содержит всю информацию об установке, настройке и обновлении Waves full-ноды.
 
-1. [Что такое Waves full-нода](https://docs.wavesplatform.com/en/waves-full-node/what-is-a-full-node.html)
-2. [Как установить ноду](https://docs.wavesplatform.com/en/waves-full-node/how-to-install-a-node/how-to-install-a-node.html)
-3. [Как настроить ноду](https://docs.wavesplatform.com/en/waves-full-node/how-to-configure-a-node.md)
-4. [Обновление ноды](https://docs.wavesplatform.com/en/waves-full-node/upgrading.html)
-5. [Экспорт и импорт из блокчейна](https://docs.wavesplatform.com/en/waves-full-node/export-and-import-from-the-blockchain.html)
-6. [Уменьшение используемого места на диске](https://docs.wavesplatform.com/en/waves-full-node/reducing-disk-space-usage.md)
-7. [Присоединение к Testnet](https://docs.wavesplatform.com/en/waves-full-node/joining-testnet.html)
+1. [Что такое Waves full-нода](https://docs.wavesplatform.com/en/waves-node/what-is-a-full-node.html)
+2. [Как установить ноду](https://docs.wavesplatform.com/en/waves-node/how-to-install-a-node/how-to-install-a-node.html)
+3. [Как настроить ноду](https://docs.wavesplatform.com/en/waves-node/how-to-configure-a-node.md)
+4. [Обновление ноды](https://docs.wavesplatform.com/en/waves-node/upgrading.html)
+5. [Экспорт и импорт из блокчейна](https://docs.wavesplatform.com/en/waves-node/export-and-import-from-the-blockchain.html)
+6. [Уменьшение используемого места на диске](https://docs.wavesplatform.com/en/waves-node/reducing-disk-space-usage.md)
+7. [Присоединение к Testnet](https://docs.wavesplatform.com/en/waves-node/joining-testnet.html)
 
 # 6. Разработка и API
 

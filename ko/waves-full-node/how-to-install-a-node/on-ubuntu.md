@@ -60,7 +60,7 @@ Download latest version of waves.jar and required configuration file \(for mainn
 
 Check out the configuration file, **it is very important**! On this depends **the safety of your wallet and money**.
 
-Just open it via your favorite text editor, pour a cup of tea and read [the documentation of the configuration file.](/waves-full-node/how-to-configure-a-node.md)
+Just open it via your favorite text editor, pour a cup of tea and read [the documentation of the configuration file.](/waves-node/how-to-configure-a-node.md)
 
 Then start console, navigate to the folder with the jar file with the command `cd /opt/waves` and start waves node with command `java -jar waves.jar waves-config.conf`.
 

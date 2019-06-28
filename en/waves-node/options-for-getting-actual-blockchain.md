@@ -4,7 +4,7 @@ After a user installs a node, the user will have different ways to get the block
 
 ## 1. Synchronization of the state during a regular operation of the node.
 
-Build from scratch, here you will need to [_**run the node**_](/waves-full-node/how-to-install-a-node/how-to-install-a-node.md), then it will receive all the needed information from the other nodes.
+Build from scratch, here you will need to [_**run the node**_](/waves-node/how-to-install-a-node/how-to-install-a-node.md), then it will receive all the needed information from the other nodes.
 
 After launch, the node begins to receive blocks from the network, verify them and validate the signature.  By affecting these components, you can reduce the time to reach the current state.  So, the following factors affect network sharing:
 
@@ -20,7 +20,7 @@ The user needs to stop the node before starting the process of importing the blo
 > [!TIP]
 > Please follow the steps to import from blockchain by the link below. 
 
-{% prettylink link="../waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md" %} Import From Blockchain {% endprettylink %}
+{% prettylink link="../waves-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md" %} Import From Blockchain {% endprettylink %}
 
 If the node is on a fork with a height more than 2000 blocks, it should choose an option for getting the actual blockchain. This can be achieved by updating the node version and reimporting the blockchain.
 
@@ -38,7 +38,7 @@ Therefore, we choose SSD.
 
 ## 3. Copy the finished node database
 
-[_**Downloading state**_](/waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md), approximately the size of the State is around 23 GB \(**in November 2018**\).
+[_**Downloading state**_](/waves-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md), approximately the size of the State is around 23 GB \(**in November 2018**\).
 
 In this case, the longest operation is to download the archive. Then it is enough to unpack the archive files to the /var/lib/waves/data directory and run the node.  The remaining blocks will be synchronized during normal operation.
 

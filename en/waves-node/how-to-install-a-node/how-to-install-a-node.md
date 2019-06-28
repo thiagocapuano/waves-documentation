@@ -7,13 +7,13 @@ To run the Waves node have to go through 2 steps:
 
 **P.S.** you can check Waves Releases [Here](https://github.com/wavesplatform/Waves/releases).
 
-**Prior to the launch of your nodes, make sure you read the **[**configuration specification**](/waves-full-node/configuration-parameters.md)**! The default configuration does not contain the safest solution!**
+**Prior to the launch of your nodes, make sure you read the **[**configuration specification**](/waves-node/configuration-parameters.md)**! The default configuration does not contain the safest solution!**
 
 More specific steps depend on your operating system:
 
-* [On Mac](/waves-full-node/how-to-install-a-node/on-mac.md)
-* [On Windows](/waves-full-node/how-to-install-a-node/on-windows.md)
-* [On Ubuntu](/waves-full-node/how-to-install-a-node/on-ubuntu.md)
+* [On Mac](/waves-node/how-to-install-a-node/on-mac.md)
+* [On Windows](/waves-node/how-to-install-a-node/on-windows.md)
+* [On Ubuntu](/waves-node/how-to-install-a-node/on-ubuntu.md)
 
 Here you can find a tutorial about [Installing Waves Node](https://www.youtube.com/watch?v=CDmMeZlzKbk&feature=youtu.be).
 

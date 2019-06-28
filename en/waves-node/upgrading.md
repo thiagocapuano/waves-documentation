@@ -13,7 +13,7 @@
 
 Basically, the node should be upgraded as follows:  
 1. Stop the node  
-2. Export all existing blocks in the blockchain to a binary file. Please read the documentation about [_**export and import of the blockchain**_](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md) or [_**download the binary file**_](/waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md).  
+2. Export all existing blocks in the blockchain to a binary file. Please read the documentation about [_**export and import of the blockchain**_](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md) or [_**download the binary file**_](/waves-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md).  
 3. Update node's executables  
 4. Import binary file  
 5. Start the node
@@ -24,7 +24,7 @@ Basically, the node should be upgraded as follows:
    ```bash
    sudo systemctl stop waves
    ```
-2. After stopping the node execute following command to [export existing blocks to a binary file](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
+2. After stopping the node execute following command to [export existing blocks to a binary file](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
    ```bash
    sudo -u waves exporter /etc/waves/waves.conf [output-file-name] [height]
    ```
@@ -36,7 +36,7 @@ Basically, the node should be upgraded as follows:
    ```bash
    sudo dpkg -i waves_X.Y.Z_all.deb
    ```
-5. [Import blocks from the binary file](/waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
+5. [Import blocks from the binary file](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
    ```bash
    sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
    ```
@@ -47,5 +47,5 @@ Basically, the node should be upgraded as follows:
 
 ## Update the Configuration
 
-Please, read the updated documentation of [_**Waves node configuration file**_](/waves-full-node/configuration-parameters.md)_**.**_
+Please, read the updated documentation of [_**Waves node configuration file**_](/waves-node/configuration-parameters.md)_**.**_
 

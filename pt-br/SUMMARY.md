@@ -74,18 +74,18 @@
 
 ## Waves Full Node
 
-* [O que é Waves Full Node](waves-full-node/what-is-a-full-node.md)
-* [Como instalar um nó](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-  * [No Mac](waves-full-node/how-to-install-a-node/on-mac.md)
-  * [No Windows](waves-full-node/how-to-install-a-node/on-windows.md)
-  * [No Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
-* [Como configurar um nó](waves-full-node/how-to-configure-a-node.md)
-* [Atualizando](waves-full-node/upgrading.md)
-* [Exportar e Importar do Blockchain](waves-full-node/export-and-import-from-the-blockchain.md)
-* [Reduzindo o uso de espaço em disco](waves-full-node/reducing-disk-space-usage.md)
-* [Juntando-se a Testnet](waves-full-node/joining-testnet.md)
-* [Logs](waves-full-node/logging.md)
-* [Configurando um Full Node na Digital Ocean](waves-full-node/setting-up-a-waves-platform-full-node-on-digital-ocean.md)
+* [O que é Waves Full Node](waves-node/what-is-a-full-node.md)
+* [Como instalar um nó](waves-node/how-to-install-a-node/how-to-install-a-node.md)
+  * [No Mac](waves-node/how-to-install-a-node/on-mac.md)
+  * [No Windows](waves-node/how-to-install-a-node/on-windows.md)
+  * [No Ubuntu](waves-node/how-to-install-a-node/on-ubuntu.md)
+* [Como configurar um nó](waves-node/how-to-configure-a-node.md)
+* [Atualizando](waves-node/upgrading.md)
+* [Exportar e Importar do Blockchain](waves-node/export-and-import-from-the-blockchain.md)
+* [Reduzindo o uso de espaço em disco](waves-node/reducing-disk-space-usage.md)
+* [Juntando-se a Testnet](waves-node/joining-testnet.md)
+* [Logs](waves-node/logging.md)
+* [Configurando um Full Node na Digital Ocean](waves-node/setting-up-a-waves-platform-full-node-on-digital-ocean.md)
 
 ## Desenvolvimento e API
 

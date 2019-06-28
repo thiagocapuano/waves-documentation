@@ -73,17 +73,17 @@
 
 ## Waves 풀 노드
 
-* [Waves 풀 노드가 무엇인가요 ](waves-full-node/what-is-a-full-node.md)
-* [노드 설치 방법](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-  * [Mac에서 설치](waves-full-node/how-to-install-a-node/on-mac.md)
-  * [Windows에서 설치](waves-full-node/how-to-install-a-node/on-windows.md)
-  * [Ubuntu에서 설치](waves-full-node/how-to-install-a-node/on-ubuntu.md)
-* [노드 구성 방법](waves-full-node/how-to-configure-a-node.md)
-* [업그레이드 방법](waves-full-node/upgrading.md)
-* [블록체인에서 내보내기와 가져오기](waves-full-node/export-and-import-from-the-blockchain.md)
-* [디스크 사용 공간 절약 방법](waves-full-node/reducing-disk-space-usage.md)
-* [테스트넷 참여 방법](waves-full-node/joining-testnet.md)
-* [Digital Ocean 풀 노드 세팅](waves-full-node/setting-up-a-waves-platform-full-node-on-digital-ocean.md)
+* [Waves 풀 노드가 무엇인가요 ](waves-node/what-is-a-full-node.md)
+* [노드 설치 방법](waves-node/how-to-install-a-node/how-to-install-a-node.md)
+  * [Mac에서 설치](waves-node/how-to-install-a-node/on-mac.md)
+  * [Windows에서 설치](waves-node/how-to-install-a-node/on-windows.md)
+  * [Ubuntu에서 설치](waves-node/how-to-install-a-node/on-ubuntu.md)
+* [노드 구성 방법](waves-node/how-to-configure-a-node.md)
+* [업그레이드 방법](waves-node/upgrading.md)
+* [블록체인에서 내보내기와 가져오기](waves-node/export-and-import-from-the-blockchain.md)
+* [디스크 사용 공간 절약 방법](waves-node/reducing-disk-space-usage.md)
+* [테스트넷 참여 방법](waves-node/joining-testnet.md)
+* [Digital Ocean 풀 노드 세팅](waves-node/setting-up-a-waves-platform-full-node-on-digital-ocean.md)
 
 ## 개발과 API
 
