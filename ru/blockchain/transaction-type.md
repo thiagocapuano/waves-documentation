@@ -2,7 +2,7 @@
 
 Каждая [транзакция](/blockchain/transaction.md) в [блокчейне](/blockchain/blockchain.md) относится к определенному **типу транзакции**.
 
-Транзакции разных типов имеют разные [структуры данных](/blockchain/transaction-type-data-structure.md).
+Транзакции разных типов имеют разные [структуры данных](/blockchain/transaction-data-structure.md).
 
 ## Типы транзакций
 
