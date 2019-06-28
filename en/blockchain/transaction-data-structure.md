@@ -1,6 +1,6 @@
 # Transaction data structure
 
-A transaction data structure is a set of fields of a [transaction](/blockchain/transaction.md).
+A **transaction data structure** is a set of fields of a [transaction](/blockchain/transaction.md).
 
 Transactions of [different types](/blockchain/transaction-type.md) have different data structures.
 
