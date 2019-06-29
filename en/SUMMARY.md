@@ -230,7 +230,7 @@
 * [Joining testnet](waves-node/joining-testnet.md)
 * [Private Waves network](waves-node/private-waves-network.md)
 * [API limitations of the pool of public nodes](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
-* [Extensions](waves-node/extensions/extensions.md)
+* [Extensions](waves-node/extensions.md)
   * [Matcher](waves-node/extensions/matcher.md)
   * [gRPC](waves-node/extensions/grpc-server.md)
 
