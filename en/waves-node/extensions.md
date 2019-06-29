@@ -4,5 +4,5 @@ A **node extension** is a software module that is installed on a [node](/blockch
 
 The list of available extensions:
 
-* [Matcher](/waves-node/extensions/matcher.md)
 * [gRPC](/waves-node/extensions/grpc-server.md)
+* [Matcher](/waves-node/extensions/matcher.md)
