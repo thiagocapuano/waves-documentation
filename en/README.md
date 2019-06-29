@@ -31,6 +31,10 @@ Please select the page that fits you best:
 
 * [Vostok transfers](waves-client/transfers-and-gateways/vostok-transfers.md)
 
+### Waves DEX
+
+* [About Waves DEX](waves-dex/about-waves-dex.md)
+
 ### Waves Keeper
 
 * [Waves Keeper](waves-keeper/about-waves-keeper.md)

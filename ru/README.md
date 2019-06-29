@@ -31,6 +31,10 @@
 * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
 * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
 
+### Waves DEX
+
+* [О Waves DEX](waves-dex/about-waves-dex.md)
+
 ### RIDE
 
 * [Математические функции](ride/built-in-functions/math-functions.md)

@@ -180,7 +180,7 @@
 
 ## Waves DEX
 
-* [О Waves DEX](waves-dex/waves-dex.md)
+* [О Waves DEX](waves-dex/about-waves-dex.md)
 
 ## Часто задаваемые вопросы
 
