@@ -154,8 +154,6 @@
 ## Waves DEX
 
 * [About Waves DEX](waves-dex/about-waves-dex.md)
-* [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
-* [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
 * [DEX protocol](waves-dex/dex-protocol.md)
 
 ## Waves Explorer

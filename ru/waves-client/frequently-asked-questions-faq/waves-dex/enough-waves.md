@@ -8,7 +8,6 @@
 
 Подробнее:
 
-* [Использование биржи DEX](/waves-client/waves-dex/start-trading-on-the-waves-dex.md)
 * [iOS: Использование биржи DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
 * [Android: Использование биржи DEX](/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
