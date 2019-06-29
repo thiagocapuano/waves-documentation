@@ -201,10 +201,10 @@
 
 ## Ноды Waves
 
-* [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
-* [Расширения](nodi-waves/extensions/extensions.md)
-  * [gRPC server](nodi-waves/extensions/grpc-server.md)
-  * [Matcher](nodi-waves/extensions/matcher.md)
+* [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
+* [Расширения](waves-node/extensions/extensions.md)
+  * [gRPC server](waves-node/extensions/grpc-server.md)
+  * [Matcher](waves-node/extensions/matcher.md)
 
 ## Инструменты разработчика
 
