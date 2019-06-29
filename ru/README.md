@@ -18,13 +18,13 @@
 
 ### Блокчейн
 
-* [gRPC Server](blockchain/node/grpc-server.md)
+* [gRPC Server](nodi-waves/extensions/grpc-server.md)
 * [Аккаунт](blockchain/account.md)
 * [Блок](blockchain/block.md)
 * [Блокчейн](blockchain/blockchain.md)
 * [Высота блока](blockchain/block-height.md)
 * [Высота блокчейна](blockchain/blockchain-height.md)
-* [Матчер](blockchain/node/matcher.md)
+* [Матчер](nodi-waves/extensions/matcher.md)
 * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
 * [Нода](blockchain/node.md)
 * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)

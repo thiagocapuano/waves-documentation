@@ -35,9 +35,6 @@
 * [Высота блока](blockchain/block-height.md)
 * [Высота блокчейна](blockchain/blockchain-height.md)
 * [Комиссия за транзакцию](blockchain/transaction-fee.md)
-* [Нода](blockchain/node.md)
-  * [gRPC Server](blockchain/node/grpc-server.md)
-  * [Матчер](blockchain/node/matcher.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Псевдоним](blockchain/alias.md)
@@ -205,6 +202,9 @@
 ## Ноды Waves
 
 * [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
+* [Расширения](nodi-waves/extensions/extensions.md)
+  * [gRPC server](nodi-waves/extensions/grpc-server.md)
+  * [Matcher](nodi-waves/extensions/matcher.md)
 
 ## Инструменты разработчика
 

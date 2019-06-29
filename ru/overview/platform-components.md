@@ -57,7 +57,7 @@ Waves Client можно [установить](/waves-client/install-waves-clien
 
 # 7. Ноды
 
-Ноды являются основой экосистемы Waves. [Запустите Waves ноду](https://docs.wavesplatform.com/en/waves-full-node/how-to-install-a-node/how-to-install-a-node.html), помогите в обработке транзакций, попросите у комьюнити [сдать вам в лизинг WAVES](/waves-client/account-management/waves-leasing.md) и получите оплату за обеспечение безопасности сети.
+Ноды являются основой экосистемы Waves. [Запустите Waves ноду](https://docs.wavesplatform.com/en/waves-node/how-to-install-a-node/how-to-install-a-node.html), помогите в обработке транзакций, попросите у комьюнити [сдать вам в лизинг WAVES](/waves-client/account-management/waves-leasing.md) и получите оплату за обеспечение безопасности сети.
 
 **Особенности:**
 
@@ -99,7 +99,7 @@ Waves Client можно [установить](/waves-client/install-waves-clien
 
 Матчер получает плату за предоставляемую им услугу, что является дополнительным источником дохода для всех нод Waves.
 
-**Примечание.** Waves нода содержит DEX Матчер который может быть включен в настройках [файла конфигурации Waves ноды](https://docs.wavesplatform.com/en/waves-full-node/configuration-parameters.html) в разделе Matcher Settings.
+**Примечание.** Waves нода содержит DEX Матчер который может быть включен в настройках [файла конфигурации Waves ноды](https://docs.wavesplatform.com/en/waves-node/configuration-parameters.html) в разделе Matcher Settings.
 
 # 8. MainNet / TestNet
 
