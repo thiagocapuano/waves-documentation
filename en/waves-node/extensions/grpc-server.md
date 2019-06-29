@@ -1,12 +1,12 @@
 # gRPC Server
 
-**gRPC Server** is a [node](/blockchain/node.md)'s extension that allows running [gRPC](https://en.wikipedia.org/wiki/GRPC) services on a node.
+**gRPC Server** is a [node extension](/waves-node/extensions.md)  that allows running [gRPC](https://en.wikipedia.org/wiki/GRPC) services on a node.
 
 gRPC services provide information about:
 
-* accounts
-* blockchain
-* blocks
+* [accounts](/blockchain/account.md)
+* [blockchain](/blockchain/blockchain.md)
+* [blocks](/blockchain/block.md)
 * [tokens](/blockchain/token.md)
 * [transactions](/blockchain/transaction.md)
 

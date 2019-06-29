@@ -1,12 +1,12 @@
 # gRPC Server
 
-**gRPC Server** — расширение [ноды](/blockchain/node.md), которое позволяет поднимать на ноде [gRPC](https://en.wikipedia.org/wiki/GRPC)-сервисы.
+**gRPC Server** — [расширение ноды](/waves-node/extensions.md), которое позволяет поднимать на ноде [gRPC](https://en.wikipedia.org/wiki/GRPC)-сервисы.
 
 gRPC-сервисы предоставляют информацию о:
 
-* аккаунтах
-* блоках
-* блокчейне
+* [аккаунтах](/blockchain/account.md)
+* [блоках](/blockchain/block.md)
+* [блокчейне](/blockchain/blockchain.md)
 * [токенах](/blockchain/token.md)
 * [транзакциях](/blockchain/transaction.md)
 

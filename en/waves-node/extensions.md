@@ -1,6 +1,6 @@
 # Extensions
 
-Extensions can be installed on a node.
+A **node extension** is a software module that is installed on a [node](/blockchain/node.md).
 
 The list of available extensions:
 
