@@ -57,7 +57,7 @@ BTC/ETH/LTC/ZCash/BCH/Dash 网关可将这些货币转入和转出Waves区块链
 
 # 7. 节点
 
-节点是我们生态系统的重要组成部分。 [运行一个Waves节点](/waves-full-node/how-to-install-a-node/how-to-install-a-node.md), 帮助处理交易，要求社区 [出租他们的WAVES](/waves-client/wallet-operations/leasing-waves.md) 给你并得到保护网络环境安全的费用。
+节点是我们生态系统的重要组成部分。 [运行一个Waves节点](/waves-node/how-to-install-a-node/how-to-install-a-node.md), 帮助处理交易，要求社区 [出租他们的WAVES](/waves-client/wallet-operations/leasing-waves.md) 给你并得到保护网络环境安全的费用。
 
 **提示.**
 
@@ -100,7 +100,7 @@ BTC/ETH/LTC/ZCash/BCH/Dash 网关可将这些货币转入和转出Waves区块链
 
 匹配者将通过他们提供的服务收到费用，为Waves完整节点增加额外的收入来源。
 
-**提示.** Waves节点包含DEX 匹配器，在匹配器设置部分中设置 [Waves节点配置文件](/waves-full-node/how-to-configure-a-node.md) 时可以启用它。
+**提示.** Waves节点包含DEX 匹配器，在匹配器设置部分中设置 [Waves节点配置文件](/waves-node/how-to-configure-a-node.md) 时可以启用它。
 
 # 8. 主网/测试网
 

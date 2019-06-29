@@ -6,7 +6,7 @@
 
 # A interface da Web para Waves Full Node API
 
-Para a interface Web da API do Full Node Waves, verifique [**Swagger**](http://nodes.wavesplatform.com/api-docs/index.html) ou [**Postman**](https: //documenter.getpostman.com/view/2733299/waves-full-node/RVnWiKZJ).
+Para a interface Web da API do Full Node Waves, verifique [**Swagger**](http://nodes.wavesplatform.com/api-docs/index.html) ou [**Postman**](https: //documenter.getpostman.com/view/2733299/waves-node/RVnWiKZJ).
 
 # Waves Node API
 

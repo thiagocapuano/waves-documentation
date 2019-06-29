@@ -42,13 +42,13 @@
 
 这章节介绍所有 有关安装 配置 及升级 Waves 全节点的信息 .
 
-1. [什么是 Waves 全节点](/waves-full-node/what-is-a-full-node.md)
-2. [如何安装节点](/waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-3. [如何设置节点](/waves-full-node/how-to-configure-a-node.md)
-4. [升级更新](/waves-full-node/upgrading.md)
-5. [导入导出区块链](/waves-full-node/export-and-import-from-the-blockchain.md)
-6. [降低磁盘空间使用率](/waves-full-node/reducing-disk-space-usage.md)
-7. [加入测试网](/waves-full-node/joining-testnet.md)
+1. [什么是 Waves 全节点](/waves-node/what-is-a-full-node.md)
+2. [如何安装节点](/waves-node/how-to-install-a-node/how-to-install-a-node.md)
+3. [如何设置节点](/waves-node/how-to-configure-a-node.md)
+4. [升级更新](/waves-node/upgrading.md)
+5. [导入导出区块链](/waves-node/export-and-import-from-the-blockchain.md)
+6. [降低磁盘空间使用率](/waves-node/reducing-disk-space-usage.md)
+7. [加入测试网](/waves-node/joining-testnet.md)
 
 # 6. 开发及 API
 

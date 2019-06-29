@@ -26,7 +26,7 @@ But if you get an error, then check your installation and try to find some bette
 
 Just [download latest waves deb](https://github.com/wavesplatform/Waves/releases) and install it with `sudo dpkg -i waves*.deb`. Now it's time to check your waves config!
 
-It's embedded into the deb package and unpacked to `/usr/share/waves/conf/waves.conf` \(or `waves-testnet` folder for testnet\) and symlinked to `/etc/waves/waves.conf`. [Please read this and edit waves config](/waves-full-node/configuration-parameters.md) with caution.
+It's embedded into the deb package and unpacked to `/usr/share/waves/conf/waves.conf` \(or `waves-testnet` folder for testnet\) and symlinked to `/etc/waves/waves.conf`. [Please read this and edit waves config](/waves-node/configuration-parameters.md) with caution.
 
 There are two types of deb packages of waves nodes: with _**upstart loader**_ and _**systemd loader**_.
 
@@ -48,7 +48,7 @@ Users can start the node with `sudo service waves start` \(`waves-testnet` for t
 
 Check out the configuration file, **it is very important**! On this depends **the safety of your wallet and money**.
 
-Just open it via your favorite text editor, pour a cup of tea and read [the documentation of the configuration file.](/waves-full-node/configuration-parameters.md)
+Just open it via your favorite text editor, pour a cup of tea and read [the documentation of the configuration file.](/waves-node/configuration-parameters.md)
 
 Then start console, navigate to the folder with the jar file with the command `cd /opt/waves` and start waves node with command `java -jar waves.jar waves-config.conf`.
 
