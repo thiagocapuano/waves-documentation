@@ -8,13 +8,14 @@ The configuration system of Waves Node uses HOCON format. HOCON stands for Human
 
 ### Default Configuration Embedded into JAR
 
-Complete default Waves Node configuration file which is embedded into jar-file can be found here: https://github.com/wavesplatform/Waves/blob/master/src/main/resources/application.conf
+Complete default Waves Node configuration file which is embedded into jar-file can be found here: https://github.com/wavesplatform/Waves/blob/master/node/src/main/resources/application.conf
 
 ### MainNet and TestNet config in DEB-packages
 
 If you use DEB-packages to install a node, they also contain configuration files which override some parameters specific to the network:
-* https://github.com/wavesplatform/Waves/blob/master/waves-mainnet.conf
-* https://github.com/wavesplatform/Waves/blob/master/waves-testnet.conf
+
+* https://github.com/wavesplatform/Waves/blob/master/node/waves-mainnet.conf
+* https://github.com/wavesplatform/Waves/blob/master/node/waves-testnet.conf
 
 ### Overriding parameters when running JAR-file
 
@@ -46,9 +47,7 @@ Using parameter `leveldb-cache-size` you can set the size of theinternal cache o
 
 **Note:** The number of bytes should be given to set the cache size parameter. But you can use size units: <ul><li>K - for kilobyte</li><li>M - for megabytes</li><li>G - for gigabytes</li></ul>
 
-
-
-### Network settings 
+### Network settings
 
 In `network` section P2P network related settings could be set.
 
@@ -97,7 +96,7 @@ In `upnp` section you can set the UPnP settings. Actually, those settings are us
 
 In `traffic-logger` section you can enable or disable logging of some of incoming or outgoing network messages. Network messages are logged at TRACE level.
 
-### Wallet settings 
+### Wallet settings
 
 In `wallet` section you can configure wallet built in Waves node.
 
@@ -110,14 +109,14 @@ Using `seed` parameter you could recreate an existing wallet on a new node. Prov
 **Warning:** The wallet is a critical part of your node. Better to create its file in a safe and protected location. Don’t forget to backup your wallet’s file. It’s recommended to remove the seed from the configuration file immediately after the start of the node. If an attacker gains access to this seed string, he has access to all your funds on all your addresses!
 
 #### Update wallet's settings
-If you want to run the node with another wallet, you have to: 
+
+If you want to run the node with another wallet, you have to:
 * delete/cope to another location your wallet.dat file for making directory /wallet empty
-* update seed at config file 
+* update seed at config file
 
 After that node will use another wallet settings.
 
-
-### Blockchain settings 
+### Blockchain settings
 
 Here you can select the blockchain type or create your own blockchain.
 
@@ -127,7 +126,7 @@ You can change the number of blocks stored in memory using parameter `min-blocks
 
 Using `type` parameter you can select the blockchain type. Three choices are available: TESTNET, MAINNET and CUSTOM. For TESTNET or MAINNET types, parameters of blockchain are built in the application so you don’t have to configure them. But if you select CUSTOM blockchain type you have to provide the `custom` configuration section \(which is commented out in the example\).
 
-#### Configuring custom blockchain 
+#### Configuring custom blockchain
 
 Use parameter `address-scheme-character` in section `custom` to set the address feature character. This character used while building an address and also passed over a network during a handshake. The latter allow nodes not connect to the nodes with other blockchains.
 
@@ -147,11 +146,11 @@ Using `average-block-delay` parameter you can set the speed of block generation 
 
 In `transactions` parameter you should provide the list of first transactions. Each transaction is described by recipient’s address \(as BASE58 string\) and amount. You have to distribute all initial balance to one or more addresses in genesis block. If you failed to do so, the genesis block will be considered as incorrect and the application won’t start.
 
-### Checkpoints settings 
+### Checkpoints settings
 
 In this section, you can configure the public key for checkpoints verification sent over the P2P network. Provide the BASE58 representation of public key using `public-key` parameter. It’s useful to change this parameter only in CUSTOM blockchains.
 
-### Matcher settings 
+### Matcher settings
 
 Configuration section `matcher` could be used to configure DEX matcher.
 
@@ -215,7 +214,7 @@ Parameters `blacklisted-assets` and `blacklisted-names` could be used to blackli
 
 It is possible deny operations on DEX for some addresses using parameter `blacklisted-addresses`.
 
-### Miner settings 
+### Miner settings
 
 In section `miner` it is possible to configure parameters of the new blocks generator.
 
@@ -225,7 +224,7 @@ Use `quorum` parameter to set the minimum required number of connected peers to 
 
 Using `interval-after-last-block-then-generation-is-allowed` parameter you tune your node’s blocks download and generation behavior. By default, it set to 1 day, which means that your node won’t start block generation until it has the last block in the local blockchain not older than 1 day. So, using this parameter you order you node to actualize the blockchain before starting to generate new blocks. Actually, it works only after long node shutdowns.
 
-### REST API settings 
+### REST API settings
 
 In section `rest-api` you can set the node’s REST API parameters.
 
@@ -245,7 +244,7 @@ Use `api-key-hash` parameter to set the hash of your API key. The API key is use
 
 Parameter `cors` could be used to enable or disable CORS support in REST API. CORS allows to safely resolve queries to other domains outside the one running the node. It’s necessary for Swagger and Lite client. You can read about it [here](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
 
-### Synchronization settings 
+### Synchronization settings
 
 In `synchronisation` section it is possible to tune different aspects of node synchronization process.
 
@@ -265,7 +264,6 @@ In `history-replier` subsection you can configure the number of last blocks and 
 
 In `micro-block-synchronizer` subsection you could tune various parameters of Waves-NG protocol.
 
-### UTX pool settings 
+### UTX pool settings
 
 In this section, you can change the size of unconfirmed transactions pool \(`max-size` parameter\) and maximum age of transactions allowed to UTX \(`max-transaction-age`\).
-
