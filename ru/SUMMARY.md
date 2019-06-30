@@ -7,7 +7,6 @@
 * [Компоненты платформы](overview/platform-components.md)
 * [Заметки о безопасности](overview/security-notes.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
-* [Waves релизы](overview/waves-releases.md)
 
 ## Возможности платформы
 
