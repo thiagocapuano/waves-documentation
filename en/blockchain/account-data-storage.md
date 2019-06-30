@@ -12,12 +12,14 @@ The number of records in the account data storage is unlimited.
 
 The maximum size of a single record is 32 kilobytes.
 
-The number of records that can be added to an account data storage within one transaction is limited: for a data transaction, it is 100.
-
-## Editing records
-
-The `key` and `value` fields of a record can be overwritten; the `key` field of a record cannot be overwritten.
+In a single data transaction, you can add up to 100 records to the account data storage.
 
 ## Deleting records
 
-> A record from an account data storage cannot be deleted
+A record cannot be deleted from an account data storage, it can only be edited.
+
+## Editing records
+
+The values of a `type` and a `value` fields of a record can be overwritten.
+
+The value of a `key` field cannot be changed.
