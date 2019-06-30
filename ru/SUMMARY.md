@@ -5,7 +5,6 @@
 * [Introduction](README.md)
 * [Как использовать это руководство](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
-* [Заметки о безопасности](overview/security-notes.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 
 ## Возможности платформы
