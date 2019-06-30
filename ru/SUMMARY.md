@@ -8,7 +8,6 @@
 * [Заметки о безопасности](overview/security-notes.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 * [Waves релизы](overview/waves-releases.md)
-* [Waves токены](overview/waves-tokens.md)
 
 ## Возможности платформы
 
