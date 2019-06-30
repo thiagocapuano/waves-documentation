@@ -56,6 +56,7 @@
   * [WCT](blockchain/token/wct.md)
   * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
 * [Транзакция](blockchain/transaction.md)
+* [Узел](blockchain/node.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
 ## Waves Explorer

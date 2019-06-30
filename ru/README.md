@@ -26,10 +26,10 @@
 * [Высота блокчейна](blockchain/blockchain-height.md)
 * [Матчер](waves-node/extensions/matcher.md)
 * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
-* [Нода](blockchain/node.md)
 * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
 * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
 * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
+* [Узел](blockchain/node.md)
 
 ### Waves DEX
 

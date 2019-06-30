@@ -34,6 +34,7 @@
 * [dApp](blockchain/dapp.md)
 * [dApp script](blockchain/dapp-script.md)
 * [Mainnet](blockchain/mainnet.md)
+* [Node](blockchain/node.md)
 * [Smart account](blockchain/smart-account.md)
 * [Smart asset](blockchain/smart-asset.md)
 * [Test network](blockchain/test-network.md)
