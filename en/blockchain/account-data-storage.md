@@ -1,6 +1,6 @@
 # Account data storage
 
-An **account data storage** is an array of records of type `DataEntry` which is associated with an [account](/blockchain/account.md).
+An **account data storage** is an array of records of type `DataEntry` associated with an [account](/blockchain/account.md).
 
 Each account has a _single_ account data storage.
 
