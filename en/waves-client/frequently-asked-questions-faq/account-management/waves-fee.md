@@ -9,7 +9,6 @@ For more information, please check the following articles:
 * [How to get enough Waves for the fees?](/waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
 * [I have placed an order. When it will be filled?](/waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
 * [Waves transfers](/waves-client/transfers-and-gateways/waves-transfers.md)
-* [Start trading on the Waves DEX](/waves-client/waves-dex/start-trading-on-the-waves-dex.md)
 * [Lease your Waves tokens](/waves-client/account-management/waves-leasing.md)
 
 See also:

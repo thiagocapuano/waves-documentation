@@ -1,34 +1,41 @@
-#Create your first crypto trading bot
+# Create your first crypto trading bot
 
-###Introduction
+## Introduction
 Waves platform is designed and built from the ground up for speed and scale. At the same time Waves is one of the most developer-friendly ecosystems. Waves blockchain exposes its functionality through a powerful REST API, that can be used with any programming language.
 
-This text guides you through the basics of Waves Node Rest API. Here we will use python wrapper for the API — [PyWaves](https://github.com/PyWaves/PyWaves) library, but there are other options for different programming languages, e.g. [WavesCS for C#](https://github.com/wavesplatform/WavesCS), [WavesJ for Java](https://github.com/wavesplatform/WavesJ) etc.
+This text guides you through the basics of Waves Node Rest API. In this example, we will use python wrapper for the API — [PyWaves](https://github.com/PyWaves/PyWaves) library, but there are other options for [different programming languages as well](/waves-api-and-sdk/client-libraries.md), e.g. [WavesCS for C#](https://github.com/wavesplatform/WavesCS), [WavesJ for Java](https://github.com/wavesplatform/WavesJ) etc.
 
-Pywaves is an object-oriented Python interface to the Waves blockchain, which will help us to reduce code complexity while maintaining its structure, so anything you learn using this library can be applied with pure HTTP API calls.
+Pywaves is an object-oriented Python interface to the Waves blockchain which will help us to reduce the code complexity while maintaining its structure. Anything you learn using this library can be applied with pure HTTP API calls.
 
-###What is Waves Node REST API
+## What is Waves Node REST API
 Waves Platform is a little bit complex and consists of a lot of components:
 
 Waves Full Node performs almost like all other decentralized-cryptocurrencies: keeps a full-copy of the blockchain, verifies the transactions. The main differences are convenient REST API and DEX(Matcher).
 
 Note: DEX(matcher) is disabled in default configuration file.
-Node REST API allows working with Waves Blockchain like with many other centralized platforms, e.g. Google, Facebook etc. In official Wavesplatform’s Github repository, you can find RPC API documentation and description of used data structures. If you prefer API docs in Postman interface you can follow the link
+Node REST API allows working with Waves Blockchain like with many other centralized platforms, e.g. Google, Facebook etc. In official Waves platform’s Github repository, you can find RPC API documentation and description of used data structures. If you prefer API docs in Postman interface you can follow the link
 
-###Terms
-**Node  ** — Full Node, it contains full-copy of the blockchain.
+## Terms
+**Node** — Full Node, it contains full-copy of the blockchain.
 
-**Matcher \(DEX\) ** —  part of a full node. Matcher nodes are responsible for pairing orders and executing trades quickly, whilst they are still settled on the blockchain. When a user sends an order to Matcher he doesn’t transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order. More details can be found here and here.
+**Matcher (DEX)** — part of a full node. Matcher nodes are responsible for pairing orders and executing trades quickly, whilst they are still settled on the blockchain. When a user sends an order to Matcher he doesn’t transfer ownership of his money to anyone, his money remains on his account until the order is matched with counter-order. For more details, read [DEX protocol](/waves-dex/dex-protocol.md) and [Matcher API](/waves-api-and-sdk/dex-api/matcher.md).
 
-**AssetPair**  —  Pair of assets we want to exchange.
+**AssetPair** — Pair of assets we want to exchange.
 
-###Trading strategy
-Scalping trading strategy widely used in trading, and crypto community is not an exception. There are a lot of variations of the strategy, the main difference between them is in size of timeframe. The strategy exploits small changes in currency prices: it buys at the mean price minus some step and sells at the mean price plus some step, in order to gain the bid/ask difference. It normally involves establishing and liquidating a position quickly, in this case within 15 seconds.
+## Trading strategy
+[Scalping trading strategy](https://www.investopedia.com/articles/trading/05/scalping.asp) widely used in trading, and crypto community is not an exception. There are a lot of variations of the strategy, the main difference between them is in size of timeframe. The strategy exploits small changes in currency prices: it buys at the mean price minus some [price step](https://www.asx.com.au/services/trading-services/price.htm) and sells at the mean price plus some step, in order to gain the bid/ask difference. It normally involves establishing and liquidating a position quickly, in this case within 15 seconds. The bid and ask are the best potential prices that buyers and sellers are willing to transact at the bid for the buying side, and the ask for the selling side.
 
-Disclaimer: I do not suggest to use scalping strategy. The strategy was chosen because of its simplicity for implementing in a bot.
-The bot with initial parameters trades on Waves-BTC pair (Waves is an amount asset and BTC is a `price_asset`). The spread mean price is `(best_bid + best_ask) / 2`. The price step is `0.5%` from the mean price. The bot places the buy order at price `meanprice * (1 - price_step)` and the amount `(BTC_balance / bid_price) - order_fee`. The sell order is placed at `meanprice * (1 + price_step)` and the amount equal to `Waves_balance - order_fee `.
+It's not suggested to use scalping strategy. The scalping strategy was chosen because of its simplicity to implement it in a bot.
 
-###Let’s code, step-by-step
+The bot with initial parameters trades on Waves-BTC pair (Waves is an `amount asset` and BTC is a `price_asset`).
+
+The spread mean price is `((best_bid + best_ask) // 2) * 10 ** (bot.price_asset.decimals - bot.amount_asset.decimals)`.
+
+The price step is `0.5%` from the mean price.
+
+The bot places the buy order at price `meanprice * (1 - price_step)` and the amount `(BTC_balance / bid_price) - order_fee`. The sell order is placed at `meanprice * (1 + price_step)` and the amount equal to `Waves_balance - order_fee `.
+
+## Let’s code, step-by-step
 So, let’s get started! We’ll use Pywaves and configparser libraries for API calls and reading config file. Let's install them:
 
 ```python
@@ -130,10 +137,10 @@ while True:
   # Get best bid and ask
   best_bid = order_book["bids"][0]["price"]
   best_ask = order_book["asks"][0]["price"]
-  spread_mean_price = (best_bid + best_ask) // 2
+  spread_mean_price = ((best_bid + best_ask) // 2) * 10 ** (bot.price_asset.decimals - bot.amount_asset.decimals)
   bid_price = spread_mean_price * (1 - bot.price_step)
   ask_price = spread_mean_price * (1 + bot.price_step)
-  bid_amount = int((btc_balance / bid_price) * 10 **         pw.WAVES.decimals) - bot.order_fee
+  bid_amount = int((btc_balance / bid_price) * 10 ** pw.WAVES.decimals) - bot.order_fee
   ask_amount = int(waves_balance) - bot.order_fee
   # Send orders
   if bid_amount >= bot.min_amount:
@@ -147,6 +154,4 @@ maxLifetime=bot.order_lifetime)
 ```
 
 We’re done. Your first trading bot is ready to go!
-
-Best of all, the source code and documentation for this example are released to the public domain, so you can start by grabbing the code and building on top of it.
-
+Source code is available [on github](https://github.com/wavesplatform/demo-python-trading-bot)

@@ -9,7 +9,6 @@
 * [Как получить достаточно Waves для оплаты комиссии?](/waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
 * [Я разместил ордер, когда он будет исполнен?](/waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
 * [Переводы Waves](/waves-client/transfers-and-gateways/waves-transfers.md)
-* [Использование биржи DEX](/waves-client/waves-dex/start-trading-on-the-waves-dex.md)
 * [Лизинг Waves токенов](/waves-client/account-management/waves-leasing.md)
 
 И еще:

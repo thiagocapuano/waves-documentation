@@ -9,7 +9,6 @@ So, if you have enough assets (**BTC/ETH/LTC/ZEC/USD/EUR** and so on) and if the
 
 For more information, please follow the instructions:
 
-* [Start trading on the Waves DEX](/waves-dex/start-trading-on-the-waves-dex.md)
 * [iOS: Start trading on the Waves DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
 * [Android: Start trading on the Waves DEX](/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 

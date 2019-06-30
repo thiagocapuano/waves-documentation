@@ -13,6 +13,7 @@ Complete default Waves Node configuration file which is embedded into jar-file c
 ### MainNet and TestNet config in DEB-packages
 
 If you use DEB-packages to install a node, they also contain configuration files which override some parameters specific to the network:
+
 * https://github.com/wavesplatform/Waves/blob/master/node/waves-mainnet.conf
 * https://github.com/wavesplatform/Waves/blob/master/node/waves-testnet.conf
 
@@ -45,8 +46,6 @@ Parameter `data-directory` sets the location of LevelDB database folder. In this
 Using parameter `leveldb-cache-size` you can set the size of theinternal cache of LevelDB database.
 
 **Note:** The number of bytes should be given to set the cache size parameter. But you can use size units: <ul><li>K - for kilobyte</li><li>M - for megabytes</li><li>G - for gigabytes</li></ul>
-
-
 
 ### Network settings
 
@@ -110,12 +109,12 @@ Using `seed` parameter you could recreate an existing wallet on a new node. Prov
 **Warning:** The wallet is a critical part of your node. Better to create its file in a safe and protected location. Don’t forget to backup your wallet’s file. It’s recommended to remove the seed from the configuration file immediately after the start of the node. If an attacker gains access to this seed string, he has access to all your funds on all your addresses!
 
 #### Update wallet's settings
+
 If you want to run the node with another wallet, you have to:
 * delete/cope to another location your wallet.dat file for making directory /wallet empty
 * update seed at config file
 
 After that node will use another wallet settings.
-
 
 ### Blockchain settings
 

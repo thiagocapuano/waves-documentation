@@ -14,32 +14,33 @@
   * [Data structures](blockchain/waves-protocol/data-structures.md)
   * [Validation rules](blockchain/waves-protocol/validation-rules.md)
   * [Mass transfer transaction](blockchain/waves-protocol/mass-transfer-transaction.md)
-  * [Data transaction](blockchain/waves-protocol/data-transaction.md)
   * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
   * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
-  * [Transactions structure](blockchain/waves-protocol/transactions-structure.md)
-  * [Versioned transactions](blockchain/waves-protocol/versioned-transactions.md)
   * [Leased Proof of Stake (LPoS)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
   * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
   * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
   * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
+* [Account](blockchain/account.md)
+* [Account data storage](blockchain/account-data-storage.md)
 * [Account script](blockchain/account-script.md)
 * [Address](blockchain/address.md)
 * [Alias](blockchain/alias.md)
 * [Asset](blockchain/asset.md)
 * [Asset script](blockchain/asset-script.md)
+* [Block](blockchain/block.md)
+* [Block height](blockchain/block-height.md)
+* [Blockchain](blockchain/blockchain.md)
+* [Blockchain height](blockchain/blockchain-height.md)
 * [dApp](blockchain/dapp.md)
 * [dApp script](blockchain/dapp-script.md)
 * [Mainnet](blockchain/mainnet.md)
-* [Script](blockchain/script.md)
+* [Node](blockchain/node.md)
 * [Smart account](blockchain/smart-account.md)
 * [Smart asset](blockchain/smart-asset.md)
-* [Testnet](blockchain/testnet.md)
+* [Test network](blockchain/test-network.md)
 * [Token](blockchain/token.md)
-  * [Custom tokens](blockchain/token/custom-tokens.md)
   * [Non-fungible token](blockchain/token/non-fungible-token.md)
   * [WAVES](blockchain/token/waves.md)
-  * [Waves tokens](blockchain/token/waves-tokens.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WCT](blockchain/token/wct.md)
 * [Transaction](blockchain/transaction.md)
@@ -50,6 +51,7 @@
 * [Transaction type](blockchain/transaction-type.md)
   * [Alias transaction](blockchain/transaction-type/alias-transaction.md)
   * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
+  * [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
@@ -138,17 +140,7 @@
       * [Buying Waves using credit or debit card](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX](waves-client/mobile-apps/android/waves-dex.md)
       * [Start trading on the Waves DEX](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
-
-## Waves DEX
-
-* [About Waves DEX](waves-dex/about-waves-dex.md)
-* [Start trading on the Waves DEX](waves-dex/start-trading-on-the-waves-dex.md)
-* [How can I find asset on the DEX using Asset ID](waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.md)
-* [DEX protocol](waves-dex/dex-protocol.md)
-
-## FAQ
-
-  * [About](waves-client/faq.md)
+* [FAQ](waves-client/faq.md)
   * [Suspicious transactions](waves-client/security/spam-transactions.md)
   * [What is a SEED phrase?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
   * [One Seed - One Waves address.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
@@ -160,32 +152,49 @@
   * [What is an airdrop?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
   * [How to Enable Dark Mode.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
+## Waves DEX
+
+* [About Waves DEX](waves-dex/about-waves-dex.md)
+* [DEX protocol](waves-dex/dex-protocol.md)
+
 ## Waves Explorer
 
 * [About Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Account balance top up in testnet](waves-explorer/account-balance-top-up-in-testnet.md)
+* [Account balance top up in the test network](waves-explorer/account-balance-top-up-in-the-test-network.md)
+
+## Waves Keeper
+
+* [About Waves Keeper](waves-keeper/about-waves-keeper.md)
 
 ## RIDE
 
 * [About RIDE](ride/about-ride.md)
+* [RIDE script](ride/ride-script.md)
+* [RIDE script complexity](ride/ride-script-complexity.md)
 * [Immutable variables](ride/immutable-variables.md)
-* [Computational cost](ride/computational-cost.md)
 * [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
-* [Structures](ride/structures.md)
-  * [Built-in structures](ride/built-in-structures.md)
-* [Functions](ride/functions.md)
-  * [Built-in functions](ride/built-in-functions.md)
+* [Structures](ride/structures/structures.md)
+  * [Built-in structures](ride/structures/built-in-structures.md)
+* [Functions](ride/functions/functions.md)
+* [Built-in functions](ride/built-in-functions/built-in-functions.md)
+  * [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
+  * [Byte array functions](ride/built-in-functions/byte-array-functions.md)
+  * [Converting functions](ride/built-in-functions/converting-functions.md)
+  * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
+  * [Exception functions](ride/built-in-functions/exception-functions.md)
+  * [List functions](ride/built-in-functions/list-functions.md)
+  * [Math functions](ride/built-in-functions/math-functions.md)
+  * [String functions](ride/built-in-functions/string-functions.md)
+  * [Verification functions](ride/built-in-functions/verification-functions.md)
 * [Exceptions](ride/exceptions.md)
-* [RIDE script](ride/ride-script.md)
-* [Effective RIDE examples](ride/effective-ride-examples.md)
-* [RIDE Maven compiler](ride/maven-compiler.md)
 
 ## Smart contracts (Waves dApps)
 
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
+* [Simple voting on the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
 * [Smart Accounts](smart-contracts/smart-accounts.md)
 * [Smart Assets](smart-contracts/smart-assets.md)
@@ -200,34 +209,34 @@
   * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
 * [Articles on dApps](smart-contracts/articles-on-dapps.md)
 
-## Waves full node
+## Waves node
 
-* [What is Waves full node](waves-full-node/what-is-a-full-node.md)
-* [How To install a node](waves-full-node/how-to-install-a-node/how-to-install-a-node.md)
-  * [On Mac](waves-full-node/how-to-install-a-node/on-mac.md)
-  * [On Windows](waves-full-node/how-to-install-a-node/on-windows.md)
-  * [On Ubuntu](waves-full-node/how-to-install-a-node/on-ubuntu.md)
-* [How to build and test a node](waves-full-node/how-to-build-and-test-a-node.md)
-* [Options for getting actual blockchain](waves-full-node/options-for-getting-actual-blockchain.md)
-  * [State downloading and applying](waves-full-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
-  * [Import from the blockchain](waves-full-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
-  * [Export to the blockchain](waves-full-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
-* [Upgrading](waves-full-node/upgrading.md)
-* [How to rollback a node](waves-full-node/how-to-rollback-a-node.md)
-* [Waves node in Docker](waves-full-node/waves-node-in-docker.md)
-* [Node configuration](waves-full-node/configuration-parameters.md)
-* [Logging configuration](waves-full-node/logging-configuration.md)
-* [Joining testnet](waves-full-node/joining-testnet.md)
-* [Private Waves network](waves-full-node/private-waves-network.md)
-* [API limitations of the pool of public nodes](waves-full-node/api-limitations-of-the-pool-of-public-nodes.md)
+* [What is Waves full node](waves-node/what-is-a-full-node.md)
+* [How To install a node](waves-node/how-to-install-a-node/how-to-install-a-node.md)
+  * [On Mac](waves-node/how-to-install-a-node/on-mac.md)
+  * [On Windows](waves-node/how-to-install-a-node/on-windows.md)
+  * [On Ubuntu](waves-node/how-to-install-a-node/on-ubuntu.md)
+* [How to build and test a node](waves-node/how-to-build-and-test-a-node.md)
+* [Options for getting actual blockchain](waves-node/options-for-getting-actual-blockchain.md)
+  * [State downloading and applying](waves-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
+  * [Import from the blockchain](waves-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
+  * [Export to the blockchain](waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
+* [Upgrading](waves-node/upgrading.md)
+* [How to rollback a node](waves-node/how-to-rollback-a-node.md)
+* [Waves node in Docker](waves-node/waves-node-in-docker.md)
+* [Node configuration](waves-node/configuration-parameters.md)
+* [Logging configuration](waves-node/logging-configuration.md)
+* [Joining testnet](waves-node/joining-testnet.md)
+* [Private Waves network](waves-node/private-waves-network.md)
+* [API limitations of the pool of public nodes](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
+* [Extensions](waves-node/extensions.md)
+  * [gRPC](waves-node/extensions/grpc-server.md)
+  * [Matcher](waves-node/extensions/matcher.md)
 
 ## Developer tools
 
 * [Waves IDE](developer-tools/waves-ide.md)
-* [Waves console](developer-tools/waves-console.md)
-  * [Waves console overview](developer-tools/waves-console/waves-console-overview.md)
-  * [Waves console examples](developer-tools/waves-console/waves-console-examples.md)
-* [Waves Keeper](developer-tools/waves-keeper.md)
+* [REPL](developer-tools/repl.md)
 * [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
 
 ## Waves API and SDK
@@ -276,16 +285,15 @@
 ## Waves Token Rating
 
 * [About Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Waves Token Rating user interface overview](waves-token-rating/waves-token-rating-user-interface-overview.md)
-* [User score data transaction](waves-token-rating/user-score-data-transaction.md)
-* [Token Rating's oracle data transaction](waves-token-rating/token-rating-oracle-data-transaction.md)
+* [User interface](waves-token-rating/user-interface.md)
+* [Rating formula](waves-token-rating/rating-formula.md)
+* [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
+* [Data transaction of the Token Rating oracle](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
 
 ## Resources
 
-* [Official resorces](overview/waves-official-resources.md)
-* [Developer resources](overview/waves-official-resources.md)
-* [Contributing](contributing.md)
-* [Proposals](overview/proposals.md)
-  * [Asset verification protocol](proposals/asset-verification-protocol.md)
-  * [Trezor hardware wallet integration specification](proposals/trezor-hardware-wallet-integration-specification.md)
-  * [Sponsored transactions](proposals/sponsored-transactions.md)
+* [Contributing](resources/contributing.md)
+* [Proposals](resources/proposals.md)
+  * [Asset verification protocol](resources/asset-verification-protocol.md)
+  * [Trezor hardware wallet integration specification](resources/trezor-hardware-wallet-integration-specification.md)
+  * [Sponsored transactions](resources/sponsored-transactions.md)

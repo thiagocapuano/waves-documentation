@@ -5,10 +5,7 @@
 * [Introduction](README.md)
 * [Как использовать это руководство](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
-* [Заметки о безопасности](overview/security-notes.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
-* [Waves релизы](overview/waves-releases.md)
-* [Waves токены](overview/waves-tokens.md)
 
 ## Возможности платформы
 
@@ -27,8 +24,13 @@
 * [dApp](blockchain/dapp.md)
 * [dApp-скрипт](blockchain/dapp-script.md)
 * [Адрес](blockchain/address.md)
+* [Акаунт](blockchain/account.md)
 * [Ассет](blockchain/asset.md)
+* [Блок](blockchain/block.md)
+* [Блокчейн](blockchain/blockchain.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
+* [Высота блока](blockchain/block-height.md)
+* [Высота блокчейна](blockchain/blockchain-height.md)
 * [Комиссия за транзакцию](blockchain/transaction-fee.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
@@ -38,8 +40,11 @@
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
-* [Тестовая сеть](blockchain/testnet.md)
+* [Тестовая сеть](blockchain/test-network.md)
 * [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
+  * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
+  * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
   * [Транзакция сжигания токенов](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
 * [Токен](blockchain/token.md)
@@ -48,12 +53,13 @@
   * [WCT](blockchain/token/wct.md)
   * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
 * [Транзакция](blockchain/transaction.md)
+* [Узел](blockchain/node.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
 ## Waves Explorer
 
 * [О Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-testnet.md)
+* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-the-test-network.md)
 
 ## Waves Keeper
 
@@ -62,14 +68,21 @@
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
+* [Скрипт на RIDE](ride/ride-script.md)
+* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
 * [Функции](ride/functions.md)
+* [Встроенные функции](ride/built-in-functions.md)
+  * [Математические функции](ride/built-in-functions/math-functions.md)
+  * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
+  * [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
+  * [Функции списка](ride/built-in-functions/list-functions.md)
+  * [Функции строки](ride/built-in-functions/string-functions.md)
+  * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
 * [Исключения](ride/exceptions.md)
-* [Скрипт на RIDE](ride/ride-script.md)
-* [Сложность скрипта](ride/script-complexity.md)
 
 ## Смарт-контракты (Waves dApps)
 
@@ -165,33 +178,34 @@
 
 ## Waves DEX
 
-* [О Waves DEX](waves-dex/waves-dex.md)
-* [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
-* [Поиск токена на бирже DEX используя Asset ID](waves-dex/asset-id.md)
+* [О Waves DEX](waves-dex/about-waves-dex.md)
 
 ## Часто задаваемые вопросы
 
-  * [О разделе](waves-client/faq.md)
-  * [Подозрительные транзакции](waves-client/security/spam-transactions.md)
-  * [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
-  * [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
-  * [У меня есть достаточно Waves, но я не могу открыть ордер.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
-  * [Как получить достаточно Waves для оплаты комиссии?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
-  * [Время исполнения ордера.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
-  * [Поиск токена на бирже DEX используя Asset ID.](waves-client/frequently-asked-questions-faq/waves-dex/asset-id.md)
-  * [Что такое платежный шлюз?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
-  * [Обработка Ethereum платежей и смарт-контракты.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
-  * [Что такое эйрдроп \(Airdrop\)?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
-  * [Активация Ночного режима.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
+* [О разделе](waves-client/faq.md)
+* [Подозрительные транзакции](waves-client/security/spam-transactions.md)
+* [Один Seed - Один Waves адрес.](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
+* [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
+* [У меня есть достаточно Waves, но я не могу открыть ордер.](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
+* [Как получить достаточно Waves для оплаты комиссии?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
+* [Время исполнения ордера.](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
+* [Поиск токена на бирже DEX используя Asset ID.](waves-client/frequently-asked-questions-faq/waves-dex/asset-id.md)
+* [Что такое платежный шлюз?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
+* [Обработка Ethereum платежей и смарт-контракты.](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
+* [Что такое эйрдроп \(Airdrop\)?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
+* [Активация Ночного режима.](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
 ## Ноды Waves
 
-* [Ограничения API пула публичных нод](nodi-waves/ogranicheniya-api-pula-publichnih-nod.md)
+* [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
+* [Расширения](waves-node/extensions/extensions.md)
+  * [gRPC server](waves-node/extensions/grpc-server.md)
+  * [Matcher](waves-node/extensions/matcher.md)
 
 ## Инструменты разработчика
 
-* [REPL](/developer-tools/repl.md)
-* [Waves IDE](/developer-tools/waves-ide.md)
+* [REPL](developer-tools/repl.md)
+* [Waves IDE](developer-tools/waves-ide.md)
 
 ## Waves Oracles
 
@@ -200,6 +214,7 @@
 ## Waves Token Rating
 
 * [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Обзор пользовательского интерфейса Waves Token Rating](waves-token-rating/waves-token-rating-user-interface-overview.md)
-* [Транзакция данных оценки пользователя](waves-token-rating/user-score-data-transaction.md)
-* [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
+* [Интерфейс пользователя](waves-token-rating/user-interface.md)
+* [Формула рейтинга](waves-token-rating/rating-formula.md)
+* [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
+* [Транзакция данных оракула Token Rating](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)

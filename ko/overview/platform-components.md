@@ -58,7 +58,7 @@ USD 와 EUR 게이트웨이는 Waves 사용자에게 그들의 자산을 블록�
 
 # 7. 노드
 
-노드들은 우리의 생태계에 매우 중요합니다. 노드들은 [Waves 노드 운영](/waves-full-node/how-to-install-a-node/how-to-install-a-node.md), 트랜잭션 프로세싱을 지원, 커뮤니티 사용자들에게 [그들의 WAVES를 노드에게 리징](/waves-client/account-management/waves-leasing.md) 하도록 요청하고 네트워크를 확보함으로써 그 대가를 받습니다.
+노드들은 우리의 생태계에 매우 중요합니다. 노드들은 [Waves 노드 운영](/waves-node/how-to-install-a-node/how-to-install-a-node.md), 트랜잭션 프로세싱을 지원, 커뮤니티 사용자들에게 [그들의 WAVES를 노드에게 리징](/waves-client/account-management/waves-leasing.md) 하도록 요청하고 네트워크를 확보함으로써 그 대가를 받습니다.
 
 **기능:**
 
@@ -100,7 +100,7 @@ Matcher 노드는 블록체인 내의 주문들을 페어링하고 거래를 빠
 
 Matcher들은 서비스를 제공함으로써 수수료를 보상 받고 추가적으로 Waves 풀 노드에 대한 부가적인 수입을 얻게 됩니다.
 
-**참고.** Waves 노드에는 Matcher 설정 섹션에서 [Waves 노드 configuration 파일](/waves-full-node/how-to-configure-a-node.md)을 설정하여 활성화 시킬 수 있는 DEX Matcher를 포함합니다.
+**참고.** Waves 노드에는 Matcher 설정 섹션에서 [Waves 노드 configuration 파일](/waves-node/how-to-configure-a-node.md)을 설정하여 활성화 시킬 수 있는 DEX Matcher를 포함합니다.
 
 # 8. 메인넷 / 테스트넷
 

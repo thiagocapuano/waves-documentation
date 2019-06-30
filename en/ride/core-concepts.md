@@ -1,1 +1,0 @@
-- [Computational cost](/ride/core-concepts/computational-cost.md)
