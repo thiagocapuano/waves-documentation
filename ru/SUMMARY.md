@@ -198,7 +198,7 @@
 ## Ноды Waves
 
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
-* [Расширения](waves-node/extensions/extensions.md)
+* [Расширения](waves-node/extensions.md)
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Matcher](waves-node/extensions/matcher.md)
