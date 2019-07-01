@@ -14,6 +14,12 @@
 
 **Примечание:**  [**Здесь**](https://docs.wavesplatform.com/ru/overview/how-to-use-this-guide.html) вы можете найти инструкции по пользованию данным руководством.
 
+## Новые статьи, добавленные в документацию в июле
+
+### Ноды Waves
+
+* [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
+
 ## Новые статьи, добавленные в документацию в июне
 
 ### Блокчейн
@@ -48,6 +54,12 @@
 ### Смарт-котракты (Waves dApps)
 
 * [Простое голосование на блокчейне Waves](ride/simple-voting-on-the-waves-blockchain.md)
+
+### Ноды Waves
+
+* [Расширения](waves-node/extensions/extensions.md)
+* [gRPC Server](waves-node/extensions/grpc-server.md)
+* [Матчер](waves-node/extensions/matcher.md)
 
 ### Инструменты разработчика
 
