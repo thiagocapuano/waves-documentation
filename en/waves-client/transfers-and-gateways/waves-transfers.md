@@ -2,7 +2,7 @@
 
 Receiving Waves is very straightforward. Just copy your Waves address and hand it to the person who wants to send you Waves.
 
-You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
+You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
 Open your Waves wallet. At the top righ corner click on the **Account avatar**.
 

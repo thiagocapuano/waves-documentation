@@ -19,9 +19,9 @@ Se o usuário interromper o processo, ele permanecerá na página do Cliente Wav
 
 ### Pedido
 
-Exemplo: `https://client.wavesplatform.com/#send/WAVES?recipient=your-alias&amount=1&referrer=https://example.com&strict`.
+Exemplo: `https://dex.wavesplatform.com/#send/WAVES?recipient=your-alias&amount=1&referrer=https://example.com&strict`.
 
-Caminho basico `https://client.wavesplatform.com/#send/{assetId}`. Depois, há os parâmetros.
+Caminho basico `https://dex.wavesplatform.com/#send/{assetId}`. Depois, há os parâmetros.
 
 #### ID do recurso
 

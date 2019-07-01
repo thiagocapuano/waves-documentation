@@ -19,9 +19,9 @@ If the user interrupts the process, he stays on the Waves Client page.
 
 ### Request
 
-[Example](https://client.wavesplatform.com/#send/WAVES?recipient=your-alias&amount=0.01&attachment=SomeString&referrer=https://example.com&strict): `https://client.wavesplatform.com/#send/WAVES?recipient=your-alias&amount=0.01&attachment=SomeString&referrer=https://example.com&strict`.
+[Example](https://dex.wavesplatform.com/#send/WAVES?recipient=your-alias&amount=0.01&attachment=SomeString&referrer=https://example.com&strict): `https://dex.wavesplatform.com/#send/WAVES?recipient=your-alias&amount=0.01&attachment=SomeString&referrer=https://example.com&strict`.
 
-Basic path is `https://client.wavesplatform.com/#send/{assetId}`. Then there are the parameters.
+Basic path is `https://dex.wavesplatform.com/#send/{assetId}`. Then there are the parameters.
 
 #### Asset ID
 

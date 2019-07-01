@@ -22,7 +22,7 @@ One of the most common forms of scamming is phishing, which is when scammers cre
 * [**Windows Client**](https://wavesplatform.com/WavesClient-win.zip)
 * [**Mac Client**](https://wavesplatform.com/WavesClient-mac.dmg)
 * [**Linux Client**](https://wavesplatform.com/WavesClient-linux.deb)
-* [**Online Client**](https://client.wavesplatform.com)
+* [**Online Client**](https://dex.wavesplatform.com)
 * [**iOS Client**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
 * [**Android Client**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 * [**Client on GitHub**](https://github.com/wavesplatform/WavesGUI)

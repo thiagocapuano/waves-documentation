@@ -1,6 +1,6 @@
 ## Как активировать Ночной режим в кошельке Waves
 
-Вы можете использовать [**Онлайн**](https://client.wavesplatform.com) или настольную версию приложения на [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) или [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
+Вы можете использовать [**Онлайн**](https://dex.wavesplatform.com) или настольную версию приложения на [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) или [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
 Выберите и откройте Waves приложение. В правом верхнем углу нажмите на **Аватар аккаунта**, затем нажмите **Настройки**.
 

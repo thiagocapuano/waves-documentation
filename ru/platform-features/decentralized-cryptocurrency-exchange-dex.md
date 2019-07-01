@@ -78,7 +78,7 @@ Waves предлагает децентрализованную биржу \(DEX
 * Скачать Waves клиент с официального сайта,
   [www.wavesplatform.com](http://www.wavesplatform.com/)
   , или использовать онлайн кошелёк, доступный здесь
-  [beta.wavesplatform.com](https://client.wavesplatform.com/)
+  [beta.wavesplatform.com](https://dex.wavesplatform.com/)
 * [Поместите свои биткоины](/waves-client/transfers-and-gateways/bitcoin-transfers.md) или любые другие [поддерживаемые монеты и токены](/waves-client/wallet-management.md) в свой кошелёк [и начните торговать на Waves DEX](/waves-client/waves-dex/start-trading-using-the-waves-dex.md).
 
 # 5. Установка своего собственного матчера 
