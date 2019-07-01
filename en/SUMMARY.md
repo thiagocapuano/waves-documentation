@@ -156,6 +156,7 @@
 
 * [About Waves DEX](waves-dex/about-waves-dex.md)
 * [DEX protocol](waves-dex/dex-protocol.md)
+* [Start trading](waves-dex/start-trading-on-the-waves-dex.md)
 
 ## Waves Explorer
 
