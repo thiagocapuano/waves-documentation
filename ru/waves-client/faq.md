@@ -2,6 +2,7 @@
 
 Данные раздел содержит часто задаваемые вопросы, связанные с Waves приложениями. В этом разделе вы найдете некоторые тонкости для лучшего понимания алгоритмов платформы Waves.
 
+* [Подозрительные транзакции](/waves-client/security/spam-transactions.md)
 * [Один Seed - Один Waves адрес.](/waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
 * [Что такое SEED фраза?](/waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
 * [У меня есть достаточно Waves, но я не могу открыть ордер.](/waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)

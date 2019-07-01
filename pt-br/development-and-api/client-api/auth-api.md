@@ -1,6 +1,6 @@
 # Waves API de autenticação
 
-Se você quer autorizar um usuário em seu serviço por meio de sua conta Waves, aqui está a solução. Em geral, você deve redirecionar o usuário para o Cliente oficial Waves \([https://client.wavesplatform.com/] (https://beta.wavesplatform.com/) - a ser alterado posteriormente \) com determinados parâmetros de consulta incluindo alguns dados arbitrários para ele assinar.
+Se você quer autorizar um usuário em seu serviço por meio de sua conta Waves, aqui está a solução. Em geral, você deve redirecionar o usuário para o Cliente oficial Waves \([https://dex.wavesplatform.com/] (https://beta.wavesplatform.com/) - a ser alterado posteriormente \) com determinados parâmetros de consulta incluindo alguns dados arbitrários para ele assinar.
 
 Isso pode ser necessário nos casos em que você precisa trabalhar com dados pessoais do usuário e ter certeza de que uma determinada conta blockchain pertence a esse usuário.
 
@@ -25,9 +25,9 @@ Devido às limitações de comprimento da string de consulta, todos os parâmetr
 
 ### Pedido
 
-Exemplo: `https://client.wavesplatform.com#gateway/auth?r=https://example.com&n=Example&d=0123456789&i=/img/logo.png&success=/wavesAuth`.
+Exemplo: `https://dex.wavesplatform.com#gateway/auth?r=https://example.com&n=Example&d=0123456789&i=/img/logo.png&success=/wavesAuth`.
 
-A URL basica e `https://client.wavesplatform.com#gateway/auth`. Então os parâmetros de consulta vão.
+A URL basica e `https://dex.wavesplatform.com#gateway/auth`. Então os parâmetros de consulta vão.
 
 #### Referencia
 
