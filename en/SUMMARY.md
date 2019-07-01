@@ -232,6 +232,9 @@
 * [Extensions](waves-node/extensions.md)
   * [gRPC](waves-node/extensions/grpc-server.md)
   * [Matcher](waves-node/extensions/matcher.md)
+* [Features](waves-node/features/features.md)
+  * [Feature](waves-node/features/feature.md)
+  * [Feature activation protocol](waves-node/features/feature-activation-protocol.md) 
 
 ## Developer tools
 

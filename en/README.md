@@ -10,6 +10,13 @@ Please select the page that fits you best:
 
 * [Getting started for node owners](getting-started/getting-started-for-node-owners.md)
 
+## New pages added to the documentation in July
+
+## Waves nodes
+
+* [Feature](waves-node/features/feature.md)
+* [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
+
 ## New pages added to the documentation in June
 
 ### Blockchain
