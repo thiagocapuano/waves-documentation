@@ -10,7 +10,7 @@ gRPC-сервисы предоставляют информацию о:
 * [токенах](/blockchain/token.md)
 * [транзакциях](/blockchain/transaction.md)
 
-## Инструкция по установки расширения на ноду
+## Установка расширения на ноду
 
 Смотрите страницу [Установка gRPC Server](/waves-node/extensions/grpc-server/grpc-server-installation.md).
 
