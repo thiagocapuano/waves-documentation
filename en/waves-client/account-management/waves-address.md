@@ -7,7 +7,7 @@ Open your Waves wallet. At the top righ corner click on the **Account avatar**.
 In the drop-down menu click on the **Aliases**.
 The following window will appear. Here you will find the Waves address of your account.
 
-[](/_assets/waves_address_02.png)
+![](/_assets/waves_address_02.png)
 
 To copy address to clipboard, just click on the **сopy** button ![](/_assets/waves_address_03.png).
 
