@@ -2,6 +2,7 @@
 
 This section contains frequently asked questions related to the Waves applications. In this section, you will find some subtle points for a better understanding of the Waves platform algorithms.
 
+* [_**Suspicious transactions**_](/waves-client/security/spam-transactions.md)
 * [_**What is a SEED phrase?**_](/waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
 * [_**One Seed - One Waves address.**_](/waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
 * [_**I have enough Waves but I can't create an order.**_](/waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
@@ -12,6 +13,3 @@ This section contains frequently asked questions related to the Waves applicatio
 * [_**Ethereum transfers with smart-contracts.**_](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
 * [_**What is an airdrop?**_](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
 * [_**How to Enable Dark Mode.**_](/waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
-
-
-

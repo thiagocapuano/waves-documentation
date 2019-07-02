@@ -7,7 +7,7 @@
 * [**Windows приложения**](https://wavesplatform.com/files/WavesClient-win.zip)
 * [**Mac приложения**](https://wavesplatform.com/files/WavesClient-mac.dmg)
 * [**Linux приложения**](https://wavesplatform.com/files/WavesClient-linux.deb)
-* [**Онлайн приложения**](https://client.wavesplatform.com)
+* [**Онлайн приложения**](https://dex.wavesplatform.com)
 * [**iOS приложения**](https://itunes.apple.com/us/app/waves-wallet/id1233158971)
 * [**Android приложения**](https://play.google.com/store/apps/details?id=com.wavesplatform.wallet)
 

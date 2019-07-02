@@ -4,7 +4,7 @@
 
 Для этого, вам потребуется только ваш Waves адрес. Используйте его в качестве Получателя для отправки средств из другого Waves аккаунта или из биржи.
 
-Вы можете использовать [**Онлайн**](https://client.wavesplatform.com) или настольную версию приложения на [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) или [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb). Все версии поддерживают автоматическое обновление.
+Вы можете использовать [**Онлайн**](https://dex.wavesplatform.com) или настольную версию приложения на [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) или [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb). Все версии поддерживают автоматическое обновление.
 
 Выберите и откройте выбранный тип приложения. В правом верхнем углу нажмите на **Аватар аккаунта**.
 

@@ -8,7 +8,7 @@ Set Alias for an account without a script would cost **0.001 WAVES**, whereas fo
 
 **Before you start, please keep in mind. We do not recommend you submit script transactions unless you are an experienced user. Errors can lead to permanent loss of access to your account**.
 
-You can use either [**Online Client**](https://client.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
+You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
 So, to start using all available features of the application, first you need to activate the advanced features.
 

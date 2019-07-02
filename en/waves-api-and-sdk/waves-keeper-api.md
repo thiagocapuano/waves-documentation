@@ -182,7 +182,7 @@ Example
         data: "Generated string from server",
         name: "My test App",
         icon: "/img/icons/waves_logo.svg",
-        referrer: "https://client.wavesplatform.com/",
+        referrer: "https://dex.wavesplatform.com/",
         successPath: "login"
     };
 

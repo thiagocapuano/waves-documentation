@@ -58,9 +58,9 @@ Here you can shortly **Copy address**, scan **QR** code which contains your depo
 
 ## How to import an account from the Waves Keeper to Online client
 
-Open official [online app](https://client.wavesplatform.com)
+Open official [online app](https://dex.wavesplatform.com)
 
-Open **Import** page [client.wavesplatform.com/import](https://client.wavesplatform.com/import) and click on the **Waves Keeper** button.
+Open **Import** page [client.wavesplatform.com/import](https://dex.wavesplatform.com/import) and click on the **Waves Keeper** button.
 
 ![](/_assets/waves_keeper_09.png)
 
