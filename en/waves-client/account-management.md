@@ -1,6 +1,6 @@
 # Account Management
 
-This section will discuss and show step by step instructions on how to set up a Waves account. This account is needed to purchase and hold crypto tokens as well as Lease your Waves tokens.
+This section will discuss and show step by step instructions on how to set up a Waves account and manage it. This account is needed to purchase and hold crypto tokens as well as Lease your Waves tokens.
 
 * [_**Account creation**_](account-management/creating-an-account.md)
 * [_**Account recovery**_](account-management/restore-an-account.md)
