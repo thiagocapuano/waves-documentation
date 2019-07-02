@@ -4,7 +4,7 @@
 
 ## Установка с помощью deb-пакета
 
-1.&nbsp;Скачайте deb-пакет со страницы Releases [на Github](https://github.com/wavesplatform/Waves/releases). Для мейннета это файл grpc-server\_{номер версии}\_all.deb, для тестнета — grpc-server-testnet\_{номер версии}\_all.deb.
+1.&nbsp;Скачайте deb-пакет со страницы Releases (раздел Assets) [на Github](https://github.com/wavesplatform/Waves/releases). Для мейннета это файл grpc-server\_{номер версии}\_all.deb, для тестнета — grpc-server-testnet\_{номер версии}\_all.deb.
 
 2.&nbsp;Установите пакет с помощью команды:
 
@@ -36,7 +36,7 @@ sudo systemctl restart waves-testnet
 
 ## Установка с помощью zip-файла
 
-1.&nbsp;Скачайте zip-файл grpc-server-{номер версии}.zip со страницы Releases [на Github](https://github.com/wavesplatform/Waves/releases).
+1.&nbsp;Скачайте zip-файл grpc-server-{номер версии}.zip со страницы Releases (раздел Assets) [на Github](https://github.com/wavesplatform/Waves/releases).
 
 2.&nbsp;Распакуйте архив в директорию с JAR-файлом ноды.
 
