@@ -1,6 +1,6 @@
 # Account data storage
 
-An **account data storage** is a storage of data records that is associated with an [account](/blockchain/account.md).
+An **account data storage** is a storage, associated with an [account](/blockchain/account.md),  of data records.
 
 Each account has a _single_ account data storage.
 
@@ -8,7 +8,7 @@ The size of an account data storage is unlimited.
 
 ## An account data storage record
 
-An **account data storage record** is a data in the key-value format.
+An **account data storage record** is a data record that has a key-value format.
 
 The key is a unique string.
 
