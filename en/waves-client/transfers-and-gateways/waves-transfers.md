@@ -9,7 +9,9 @@ Open your Waves wallet. At the top righ corner click on the **Account avatar**.
 ![](/_assets/waves_address_01.png)
 
 The following pop-up will appear.
-Here you will find the Waves address of your account. To copy address to clipboard, just click on the **Copy** button ![](/_assets/waves_address_02.png).
+Here you will find the Waves address of your account. To copy address to clipboard, just click on the **Copy** button
+
+![](/_assets/waves_address_02.png)
 
 After that use it as the recipient address for incoming Waves transfers.
 
