@@ -74,6 +74,7 @@
 * [Комментарии в коде](ride/comments-in-code.md)
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
+  * [Общие структуры](ride/structures/general-structures.md)
 * [Функции](ride/functions.md)
 * [Встроенные функции](ride/built-in-functions.md)
   * [Математические функции](ride/built-in-functions/math-functions.md)
