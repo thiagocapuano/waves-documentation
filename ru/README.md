@@ -20,6 +20,10 @@
 
 * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
 
+### RIDE
+
+* [Общие структуры](ride/structures/common-structures.md)
+
 ## Новые статьи, добавленные в документацию в июне
 
 ### Блокчейн
