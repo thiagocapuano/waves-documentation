@@ -68,8 +68,8 @@ AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | amountAsset | ByteVector|Unit | Первый токен пары |
-| 2 | priceAsset | ByteVector|Unit | Второй токен пары |
+| 1 | amountAsset | ByteVector&#124;Unit | Первый токен пары |
+| 2 | priceAsset | ByteVector&#124;Unit | Второй токен пары |
 
 ## AttachedPayment <a id="attached-payment"></a>
 
@@ -85,7 +85,7 @@ AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | assetId | ByteVector|Unit | ID [токена](/blockchain/token.md) |
+| 1 | assetId | ByteVector&#124;Unit | ID [токена](/blockchain/token.md) |
 | 2 | amount | Int | Сумма платежа |
 
 ## BlockInfo <a id="block-info"></a>
@@ -124,7 +124,7 @@ DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
 | 1 | key | String | Ключ записи |
-| 2 | value | Int|Boolean|ByteVector|String | Значение записи |
+| 2 | value | Int&#124;Boolean&#124;ByteVector&#124;String | Значение записи |
 
 ## Invocation <a id="invocation"></a>
 
@@ -142,10 +142,10 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 | :--- | :--- | :--- | :--- |
 | 1 | caller | Address | [Адрес](/blockchain/address.md) аккаунта, который отправил транзакцию |
 | 2 | callerPublicKey | ByteVector | Публичный ключ аккаунта, который отправил транзакцию |
-| 3 | payment | AttachedPayment|Unit | Приложенный платеж |
+| 3 | payment | AttachedPayment&#124;Unit | Приложенный платеж |
 | 4 | transactionId | ByteVector | ID транзакции |
 | 5 | fee | Int | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
-| 6 | feeAssetId | ByteVector|Unit | [Токен](/blockchain/token.md) комиссии за отправку транзакции |
+| 6 | feeAssetId | ByteVector&#124;Unit | [Токен](/blockchain/token.md) комиссии за отправку транзакции |
 
 ## Order <a id="order"></a>
 
@@ -164,13 +164,13 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 | 1 | id | ByteVector | ID ордера |
 | 2 | matcherPublicKey | ByteVector | Публичный ключ аккаунта матчера |
 | 3 | assetPair | AssetPair | Пара токенов |
-| 4 | orderType | Buy|Sell | Тип ордера — продажа или покупка |
+| 4 | orderType | Buy&#124;Sell | Тип ордера — продажа или покупка |
 | 5 | price | Int | Цена обмениваемого токена |
 | 6 | amount | Int | Количество обмениваемых токенов |
 | 7 | timestamp | Int | [Unix-время](https://ru.wikipedia.org/wiki/Unix-время) валидации ордера матчером |
 | 8 | expiration | Int | Unix-время, когда невыполненный ордер будет отменен |
 | 9 | matcherFee | Int | Комиссия за исполнение ордера |
-| 10 | matcherFeeAssetId | ByteVector|Unit | Токен [комиссии за транзакцию](/blockchain/transaction-fee.md). В настоящее время возможен только WAVES |
+| 10 | matcherFeeAssetId | ByteVector&#124;Unit | Токен [комиссии за транзакцию](/blockchain/transaction-fee.md). В настоящее время возможен только WAVES |
 | 11 | sender | Address | [Адрес](/blockchain/address.md) отправителя ордера |
 | 12 | senderPublicKey | ByteVector | Публичный ключ аккаунта отправителя ордера |
 | 13 | bodyBytes | ByteVector | Массив байтов ордера |
@@ -207,9 +207,9 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | recipient | Address|Alias | [Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) получателя токенов |
+| 1 | recipient | Address&#124;Alias | [Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) получателя токенов |
 | 2 | amount | Int | Количество токенов |
-| 3 | asset | ByteVector|Unit | ID токена |
+| 3 | asset | ByteVector&#124;Unit | ID токена |
 
 ## Transfer <a id="transfer"></a>
 
@@ -225,7 +225,7 @@ Transfer(recipient: Address|Alias, amount: Int)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | recipient | Address|Alias | Адрес получателя |
+| 1 | recipient | Address&#124;Alias | Адрес получателя |
 | 2 | amount | Int | Количество токенов |
 
 ## TransferSet <a id="transfer-set"></a>
