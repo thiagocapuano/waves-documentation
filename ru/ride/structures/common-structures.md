@@ -22,7 +22,7 @@
 
 ### Конструктор
 
-```
+``` ride
 Address(bytes: ByteVector)
 ```
 
@@ -38,7 +38,7 @@ Address(bytes: ByteVector)
 
 ### Конструктор
 
-```
+``` ride
 Asset(quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector, reissuable: Boolean, scripted: Boolean, sponsored: Boolean)
 ```
 
@@ -60,7 +60,7 @@ Asset(quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector
 
 ### Конструктор
 
-```
+``` ride
 AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 ```
 
@@ -77,7 +77,7 @@ AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 
 ### Конструктор
 
-```
+``` ride
 AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 ```
 
@@ -94,7 +94,7 @@ AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 
 ### Конструктор
 
-```
+``` ride
 BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: ByteVector, generator: Address, generatorPublicKey: ByteVector)
 ```
 
@@ -115,7 +115,7 @@ BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: Byt
 
 ### Конструктор
 
-```
+``` ride
 DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 ```
 
@@ -132,7 +132,7 @@ DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 
 ### Конструктор
 
-```
+``` ride
 Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPayment|Unit, transactionId: ByteVector, fee: Int, feeAssetId: ByteVector|Unit)
 ```
 
@@ -153,7 +153,7 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 
 ### Конструктор
 
-```
+``` ride
 Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderType: Buy|Sell, price: Int, amount: Int, timestamp: Int, expiration: Int, matcherFee: Int, matcherFeeAssetId: ByteVector|Unit, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
@@ -182,7 +182,7 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 
 ### Конструктор
 
-```
+``` ride
 ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 ```
 
@@ -199,7 +199,7 @@ ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 
 ### Конструктор
 
-```
+``` ride
 ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 ```
 
@@ -217,7 +217,7 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 
 ### Конструктор
 
-```
+``` ride
 Transfer(recipient: Address|Alias, amount: Int)
 ```
 
@@ -234,7 +234,7 @@ Transfer(recipient: Address|Alias, amount: Int)
 
 ### Конструктор
 
-```
+``` ride
 TransferSet(transfers: List[ScriptTransfer])
 ```
 
@@ -250,7 +250,7 @@ TransferSet(transfers: List[ScriptTransfer])
 
 ### Конструктор
 
-```
+``` ride
 WriteSet(data: List[DataEntry])
 ```
 

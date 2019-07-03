@@ -20,9 +20,9 @@
 
 * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
 
-## Новые статьи, добавленные в документацию в июле
+### RIDE
 
-* [Общие структуры](ride/structures/general-structures.md)
+* [Общие структуры](ride/structures/common-structures.md)
 
 ## Новые статьи, добавленные в документацию в июне
 
