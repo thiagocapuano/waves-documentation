@@ -7,6 +7,6 @@
 * [Waves-NG Solution](/waves-protocol/waves-ng-solution.md)
 * [Sponsored Fee](/waves-protocol/sponsored-fee.md)
 * [Leased Proof of Stake (LPoS)](/waves-protocol/leased-proof-of-stake-lpos.md)
-* [Fair Proof of Stake**](/waves-protocol/fair-pos.md)
+* [Fair Proof of Stake](/waves-protocol/fair-pos.md)
 * [Waves-NG Protocol](/waves-protocol/waves-ng-protocol.md)
 * [Activation Protocol](/waves-protocol/activation-protocol.md)
