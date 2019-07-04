@@ -1,6 +1,6 @@
 # Where Can I find my Waves address?
 
-Open your Waves wallet. At the top righ corner click on the **Account avatar**.
+Open your Waves wallet. At the top right corner click on the **Account avatar**.
 
 ![](/_assets/waves_address_01.png)
 

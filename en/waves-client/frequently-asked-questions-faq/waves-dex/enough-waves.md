@@ -9,10 +9,11 @@ So, if you have enough assets (**BTC/ETH/LTC/ZEC/USD/EUR** and so on) and if the
 
 For more information, please follow the instructions:
 
+* [Start trading on the Waves DEX](/waves-dex/start-trading-on-the-waves-dex.md)
 * [iOS: Start trading on the Waves DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
 * [Android: Start trading on the Waves DEX](/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
-**Warning** When you are exchanging assets to get the initial Waves for the fees, please take into account the exchanging amount, since order fee is 0.003 Waves. So, to get 0.001 Waves you should buy at least 0.004 Waves — the same logic for Smart-assets.
+**Warning** When you are exchanging assets to get the initial Waves for the fees, please take into account the exchanging amount, since order fee is 0.003 (0.007, 0.011) Waves. So, to get 0.001 Waves you should buy at least 0.004 (0.008 for Waves/Smart-asset pair) Waves.
 
 ___
 

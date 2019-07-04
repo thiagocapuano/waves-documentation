@@ -19,7 +19,7 @@ Login to your Waves account.
 
 ![](/_assets/creating_an_alias_01.png)
 
-At the top righ corner click on the **Account avatar** and click on the **Aliases**.
+At the top right corner click on the **Account avatar** and click on the **Aliases**.
 
 ![](/_assets/creating_an_alias_02.png)
 

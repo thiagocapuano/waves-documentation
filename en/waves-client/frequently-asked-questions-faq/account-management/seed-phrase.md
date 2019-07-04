@@ -2,7 +2,7 @@
 
 The seed phrase is a set of words that allows you get access to funds of your Waves account. During account registration, you will be always asked to save your secret phrase (Seed) which contains 15 English words with spaces between each word.
 
-Open online or desktop Waves app and click on the **Account avatar** at the top righ corner. Then click on the **Settings**. Account seed phrase can be found under **Settings** ![](/_assets/seed_phrase_02.png) > **Security** ![](/_assets/seed_phrase_03.png) > **Backup phrase**.
+Open online or desktop Waves app and click on the **Account avatar** at the top right corner. Then click on the **Settings**. Account seed phrase can be found under **Security** > **Backup phrase**.
 
 ![](/_assets/advanced_features_001.png)
 

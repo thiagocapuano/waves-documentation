@@ -81,7 +81,7 @@ After finishing, click on the **Confirm**.
 
 ![](/_assets/account_creation_06.png)
 
-You can find account seed phrase under **Settings**. Click on the **Account avatar** at the top righ corner. Then click on the **Settings**.
+You can find account seed phrase under **Settings**. Click on the **Account avatar** at the top right corner. Then click on the **Settings**.
 
 ![](/_assets/advanced_features_001.png)
 

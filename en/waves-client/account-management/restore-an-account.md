@@ -43,7 +43,7 @@ If you have done all of the above, you are forwarded to the user interface.
 
 ## How to pairing accounts between devices
 
-Also, you can synchronize your accounts between [mobile apps](/waves-client/mobile-apps.md) and desktop or online apps. So, to sync your account from the desktop or online app, just open online or desktop Waves app and click on the **Account avatar** at the top righ corner. Then click on the **Settings**.
+Also, you can synchronize your accounts between [mobile apps](/waves-client/mobile-apps.md) and desktop or online apps. So, to sync your account from the desktop or online app, just open online or desktop Waves app and click on the **Account avatar** at the top right corner. Then click on the **Settings**.
 
 ![](/_assets/account_restoring_006.png)
 

@@ -2,7 +2,7 @@
 
 You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
-Choose and open your Waves wallet and click on the **Account avatar** at the top righ corner. Then click on the **Settings**.
+Choose and open your Waves wallet and click on the **Account avatar** at the top right corner. Then click on the **Settings**.
 
 ![](/_assets/advanced_features_001.png)
 
