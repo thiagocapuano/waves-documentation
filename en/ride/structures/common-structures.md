@@ -49,7 +49,7 @@ Asset(id: ByteVector, quantity: Int, decimals: Int, issuer: Address, issuerPubli
 | 1 | id | ByteVector | The ID of a token |
 | 2 | quantity | Int | The number of issued tokens |
 | 3 | decimals | Int | The number of decimal places |
-| 4 | issuer | Address | The address of the account that issued a token |
+| 4 | issuer | Address | The [address](/blockchain/address.md) of the [account](account.md) that issued a token |
 | 5 | issuerPublicKey | ByteVector | The public key of the account that issued a token |
 | 6 | reissuable | Boolean | true — token can be reissued, false — cannot be reissued |
 | 7 | scripted | Boolean | true — smart asset, false — regular token |
@@ -86,7 +86,7 @@ AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | assetId | ByteVector|Unit | The ID of a token |
+| 1 | assetId | ByteVector|Unit | The ID of a [token](/blockchain/token.md) |
 | 2 | amount | Int | The payment amount |
 
 ## BlockInfo <a id="block-info"></a>
@@ -103,11 +103,11 @@ BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: Byt
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | timestamp | Int | The Unix time of the creation of a block |
-| 2 | height | Int | The block height |
+| 1 | timestamp | Int | The [Unix time](https://en.wikipedia.org/wiki/Unix-time) of the creation of a block |
+| 2 | height | Int | The [block height](/blockchain/block-height.md) |
 | 3 | baseTarget | Int | The complexity of the block creation |
 | 4 | generationSignature | ByteVector | The signature of a key block |
-| 5 | generator | Address | The address of an account that created a block |
+| 5 | generator | Address | The [address](/blockchain/address.md) of an [/blockchain/account.md) account that created a block |
 | 6 | generatorPublicKey | ByteVector | The public key of the account that created a block |
 
 ## DataEntry <a id="data-entry"></a>
@@ -141,12 +141,12 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | caller | Address | The address of an account that sent a transaction |
+| 1 | caller | Address | The address of an [account](/blockchain/account.md) that sent a transaction |
 | 2 | callerPublicKey | ByteVector | The public key of an account that sent a transaction |
 | 3 | payment | AttachedPayment|Unit | The attached payment |
 | 4 | transactionId | ByteVector | The ID of a transaction |
 | 5 | fee | Int | The transaction fee |
-| 6 | feeAssetId | ByteVector|Unit | The token of a transaction fee |
+| 6 | feeAssetId | ByteVector|Unit | The [token](/blockchain/token.md) of a transaction fee |
 
 ## Order <a id="order"></a>
 
@@ -164,18 +164,18 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 | :--- | :--- | :--- | :--- |
 | 1 | id | ByteVector | The ID of an order |
 | 2 | matcherPublicKey | ByteVector | The public key of a matcher |
-| 3 | assetPair | AssetPair | The pair of tokens |
+| 3 | assetPair | AssetPair | The pair of [tokens](/blockchain/token.md) |
 | 4 | orderType | Buy|Sell | The type of an order — selling or buying |
 | 5 | price | Int | The price of a token to exchange |
 | 6 | amount | Int | The number of tokens to exchange |
-| 7 | timestamp | Int | The Unix time of the validation of an order by a matcher  |
+| 7 | timestamp | Int | The [Unix time](https://en.wikipedia.org/wiki/Unix-time) of the validation of an order by a matcher  |
 | 8 | expiration | Int | The Unix time when an uncompleted order will be cancelled |
-| 9 | matcherFee | Int | The transaction fee. |
-| 10 | matcherFeeAssetId | ByteVector|Unit | The token of a transaction fee. Currently, can only be WAVES |
-| 11 | sender | Address | The address of the sender of an order |
+| 9 | matcherFee | Int | The [transaction fee](/blockchain/transaction-fee.md) |
+| 10 | matcherFeeAssetId | ByteVector|Unit | The token of a transaction fee. Currently, can only be [WAVES](/blockchain/token/waves.md) |
+| 11 | sender | Address | The [address](/blockchain/address.md) of the sender of an order |
 | 12 | senderPublicKey | ByteVector | The public key of the sender of an order |
 | 13 | bodyBytes | ByteVector | The array of bytes of an order |
-| 14 | proofs | List[ByteVector] | The array of proofs |
+| 14 | proofs | List[ByteVector] | The array of [proofs](/blockchain/transaction-proof.md) |
 
 ## ScriptResult <a id="script-result"></a>
 
@@ -191,12 +191,12 @@ ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | writeSet | WriteSet | The list of records of an account data storage |
-| 2 | transferSet | TransferSet | The list of tokens of a transfer |
+| 1 | writeSet | WriteSet | The list of records of an [account data storage](/blockchain/transaction-proof.md) |
+| 2 | transferSet | TransferSet | The list of [tokens](/blockchain/token.md) of a transfer |
 
 ## ScriptTransfer <a id="script-transfer"></a>
 
-Структура перевода токенов.
+Структура перевода [токенов](/blockchain/token.md).
 
 ### Конструктор
 
@@ -208,13 +208,13 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | recipient | Address|Alias | The address or the alias of a recipient of tokens |
+| 1 | recipient | Address|Alias | The [address](/blockchain/address.md) or the [alias](/blockchain/alias.md) of a recipient of tokens |
 | 2 | amount | Int | The number of tokens |
 | 3 | asset | ByteVector|Unit | The ID of a token |
 
 ## Transfer <a id="transfer"></a>
 
-Структура перевода токенов транзакции массового перевода.
+Структура перевода [токенов](/blockchain/token.md) транзакции массового перевода.
 
 ### Конструктор
 
@@ -231,7 +231,7 @@ Transfer(recipient: Address|Alias, amount: Int)
 
 ## TransferSet <a id="transfer-set"></a>
 
-Структура списка переводов токенов.
+Структура списка переводов [токенов](/blockchain/token.md).
 
 ### Конструктор
 
@@ -247,7 +247,7 @@ TransferSet(transfers: List[ScriptTransfer])
 
 ## WriteSet <a id="write-set"></a>
 
-Структура списка записей хранилища данных аккаунта.
+Структура списка записей [хранилища данных аккаунта](/blockchain/account-data-storage.md).
 
 ### Конструктор
 
