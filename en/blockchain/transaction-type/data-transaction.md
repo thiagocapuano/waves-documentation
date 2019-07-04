@@ -2,15 +2,17 @@
 
 **Data transaction** is a [transaction](/blockchain/transaction.md) that writes data to the [account data storage](/blockchain/account-data-storage.md).
 
+Each data transaction has a **data array** — it is the field `data` in [JSON representation]((#json-representation)) of a transaction that contains the data to be written.
+
 ## Data array of a data transaction
 
-The maximum length of the data array is 100 elements.
+The maximum length of an array is 100 elements.
 
-The maximum size of the data array is 140 kilobytes.
+The maximum size of an array is 140 kilobytes.
 
-Each element of the data array is an object that has 3 fields: `key`, `type`, `value`.
+Each element of an array is an object that has 3 fields: `key`, `type`, `value`.
 
-The array of data cannot contain two elements with the same `key` field.
+An array cannot contain two elements with the same `key` field.
 
 ## The `key` field
 
@@ -62,7 +64,7 @@ The size of `value` field can be from 0 to 32767 bytes.
 | 8 | Fee | fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
 | 9 | Proofs | proofs | Array of [proofs](/blockchain/transaction-proof.md) | `S` | If the array is empty, then `S` = 3. If the array is not empty, then `S` = 3 + 2 × `N` + (`P1` + `P2` + ... + `P`<sub>`n`</sub>), where `N` is the number of proofs in the array, `P`<sub>`n`</sub> is the size of `N`-th proof in bytes. The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
 
-## JSON representation of a transaction
+## JSON representation of a transaction <a id="#json-representation"></a>
 
 ```json
 {
