@@ -17,7 +17,7 @@ Please select the page that fits you best:
 * [Feature](waves-node/features/feature.md)
 * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
 
-## RIDE
+### RIDE
 
 * [Common structures](ride/structures/common-structures.md)
 
