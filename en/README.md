@@ -17,6 +17,10 @@ Please select the page that fits you best:
 * [Feature](waves-node/features/feature.md)
 * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
 
+## RIDE
+
+* [Common structures](ride/structures/common-structures.md)
+
 ## New pages added to the documentation in June
 
 ### Blockchain

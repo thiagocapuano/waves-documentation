@@ -179,6 +179,7 @@
 * [Operators](ride/operators.md)
 * [Structures](ride/structures/structures.md)
   * [Built-in structures](ride/structures/built-in-structures.md)
+  * [Common structures](ride/structures/common-structures.md)
 * [Functions](ride/functions/functions.md)
 * [Built-in functions](ride/built-in-functions/built-in-functions.md)
   * [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
