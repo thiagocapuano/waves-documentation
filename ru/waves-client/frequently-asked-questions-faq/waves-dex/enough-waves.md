@@ -8,9 +8,10 @@
 
 Подробнее:
 
+* [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
 * [iOS: Использование биржи DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
 * [Android: Использование биржи DEX](/waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
 
-**Важно** При обмене ассетов на Waves для получения первоначальных токенов, учтите сумму обмена, так как комиссия в размере 0.003 Waves будет списана с полученных Waves после исполнения ордера.
+**Важно** При обмене ассетов на Waves для получения первоначальных токенов, учтите сумму обмена, так как комиссия в размере 0.003 (0.007 для пары Waves/Самрт-ассет) Waves будет списана с полученных Waves после исполнения ордера.
 
 Если у вас возникнут трудности с использованием нашей платформы, пожалуйста, создайте запрос в [службу поддержки](https://support.wavesplatform.com/) или задайте вопрос на нашем [форуме](https://forum.wavesplatform.com/).

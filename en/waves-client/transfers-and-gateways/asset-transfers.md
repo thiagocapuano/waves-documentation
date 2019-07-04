@@ -4,7 +4,7 @@ Think of the Waves account as a multi-wallet. It, obviously, supports Waves and 
 
 You can use either [**Online Client**](https://dex.wavesplatform.com), or standalone version for [**Windows**](https://wavesplatform.com/files/WavesClient-win.zip), [**Mac**](https://wavesplatform.com/files/WavesClient-mac.dmg) or [**Linux**](https://wavesplatform.com/files/WavesClient-linux.deb).
 
-Open your Waves wallet. At the top righ corner click on the **Account avatar**.
+Open your Waves wallet. At the top right corner click on the **Account avatar**.
 
 ![](/_assets/waves_address_01.png)
 

@@ -4,7 +4,7 @@
 
 Waves allows you to hold and transfer external currencies on its blockchain. This works through an established centralised [Coinomat](https://coinomat.com/) gateway: Bitcoins or any supported external coins are sent to a user's personal Waves address via standard transfer and after the deposit user receives Waves tokens \(wBTC,wETH\) issued in the Waves blockchain. Every single gateway tokens are backed 1:1 with the real external coins.
 
-\*At the moment, there are gateways for BTC/ETH/LTC/ZCash/BCH/Dash/Monero.
+\*At the moment, there are gateways for BTC/ETH/LTC/ZCash/BCH/Dash/Monero/BSV.
 
 ## How does it work?
 

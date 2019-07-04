@@ -11,7 +11,7 @@ You can use either [**Online Client**](https://dex.wavesplatform.com), or standa
 
 So, to start using all available features of the application, first you need to activate the advanced features.
 
-Open online or desktop Waves app and click on the **Account avatar** at the top righ corner. Then click on the **Settings**.
+Open online or desktop Waves app and click on the **Account avatar** at the top right corner. Then click on the **Settings**.
 
 ![](/_assets/advanced_features_001.png)
 
