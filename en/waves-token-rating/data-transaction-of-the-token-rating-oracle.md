@@ -2,7 +2,9 @@
 
 Once a day, the [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) [oracle](/waves-oracles/oracle.md) sends to the blockchain a [data transaction](/blockchain/transaction-type/data-transaction.md) with [ratings and rates](/waves-token-rating/rating-formula.md) of tokens.
 
-A data transaction of the Token Rating oracle contains information about tokens, that were rated in the past 24 hours. A single transaction contains information about no more than 50 tokens —  if there are more rated tokens, then several transactions will be sent.
+A data transaction contains the information about tokens, that were rated in the past 24 hours.
+
+A single transaction contains the information about no more than 50 tokens —  if there are more rated tokens, then several transactions will be sent.
 
 An example of a [data array](/blockchain/transaction-type/data-transaction.md) of such a transaction:
 
@@ -32,13 +34,17 @@ An example of a [data array](/blockchain/transaction-type/data-transaction.md) o
 ]
 ```
 
-The `key` field value is formed by [concatenating](https://en.wikipedia.org/wiki/Concatenation) a string "assetRating_" or a "scoreBoard_" and a string with the ID of a token.
+The `key` field is formed by [concatenating](https://en.wikipedia.org/wiki/Concatenation) a string "assetRating\_" or a "scoreBoard\_" and a string with the ID of a token.
 
 The `value` field contains an [escaped string](https://en.wikipedia.org/wiki/Escape_character) with rates.
 
 ## An example
 
-Let's say we have an escaped string with rates: "{\"1\":{\"votes\":0,\"tokens\":0},\"2\":{\"votes\":0,\"tokens\":0},\"3\":{\"votes\":3,\"tokens\":545},\"4\":{\"votes\":0,\"tokens\":0},\"5\":{\"votes\":2,\"tokens\":3827}}".
+Let's say we have an escaped string with rates:
+
+``` js
+"{\"1\":{\"votes\":0,\"tokens\":0},\"2\":{\"votes\":0,\"tokens\":0},\"3\":{\"votes\":3,\"tokens\":545},\"4\":{\"votes\":0,\"tokens\":0},\"5\":{\"votes\":2,\"tokens\":3827}}"
+```
 
 Let's unescape that string:
 
