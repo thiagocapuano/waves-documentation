@@ -1,32 +1,75 @@
 # Транзакция данных оракула Token Rating
 
-Раз в сутки [оракул](/waves-oracles/oracle.md) [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) отправляет в блокчейн Waves [транзакцию данных](/blockchain/transaction-type/data-transaction.md) с рейтингами токенов, у которых за прошедшие 24 часа рейтинг менялся. В одну транзакцию данных входит не более 100 изменений, поэтому, если изменений будет больше, то будет отправлено несколько транзакций.
+Раз в сутки [оракул](/waves-oracles/oracle.md) [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) отправляет в блокчейн [транзакцию данных](/blockchain/transaction-type/data-transaction.md) с рейтингами и оценками токенов.
 
-Пример поля `data` такой транзакции:
+В транзакцию данных попадает информация о токенах, которые за прошедшие 24 часа получили хотя бы одну новую оценку.
 
-```js
+В одну транзакцию данных входит информация максимум по 50 токенам — если изменений будет больше, то будет отправлено несколько транзакций.
+
+Пример [массива данных](/blockchain/transaction-type/data-transaction.md) такой транзакции:
+
+``` js
 "data": [
   {
-    "key": "assetRating_62LyMjcr2DtiyF5yVXFhoQ2q414VPPJXjsNYp72SuDCH",
+    "key": "assetRating_23g8VstaVP9bWcoYJtMUJ1HJk8FZkwcVaQ7d9trhfssY"
     "type": "string",
-    "value": "4.5"
-  }, {
-    "key": "assetRating_4QUMfcxQB112bZdyoAPrp1oTVN4cBA68NpGkD7W3n33i",
-    "type": "string",
-    "value": "3.9"
+    "value": "4.3",
   },
+  {
+    "key": "scoreBoard_23g8VstaVP9bWcoYJtMUJ1HJk8FZkwcVaQ7d9trhfssY"
+    "type": "string",
+    "value": "{\"1\":{\"votes\":0,\"tokens\":0},\"2\":{\"votes\":1,\"tokens\":322},\"3\":{\"votes\":0,\"tokens\":0},\"4\":{\"votes\":0,\"tokens\":0},\"5\":{\"votes\":1,\"tokens\":1120}}",
+  },
+  {
+    "key": "assetRating_E8gDQh5aDz6VQMwmFhUrpMERorwje6AqNe4FcjGSCNo6"
+    "type": "string",
+    "value": "5",
+  },
+  {
+    "key": "scoreBoard_E8gDQh5aDz6VQMwmFhUrpMERorwje6AqNe4FcjGSCNo6"
+    "type": "string",
+    "value": "{\"1\":{\"votes\":0,\"tokens\":0},\"2\":{\"votes\":0,\"tokens\":0},\"3\":{\"votes\":0,\"tokens\":0},\"4\":{\"votes\":0,\"tokens\":0},\"5\":{\"votes\":1,\"tokens\":2827}}",
+  }
   ...
 ]
 ```
 
-Значение поля `key` формируется конкатенацией строк:
+Значение поля `key` формируется с помощью [конкатенации](https://ru.wikipedia.org/wiki/Конкатенация) строки "assetRating_" или "scoreBoard_" и строки с ID токена.
 
-```js
-"assetRating_" + tokenID
+Поле `value` содержит [экранированную строку](https://ru.wikipedia.org/wiki/Экранирование_символов) с оценками.
+
+## Пример
+
+Имеется экранированная строка с оценками: `"{\"1\":{\"votes\":0,\"tokens\":0},\"2\":{\"votes\":0,\"tokens\":0},\"3\":{\"votes\":3,\"tokens\":545},\"4\":{\"votes\":0,\"tokens\":0},\"5\":{\"votes\":2,\"tokens\":3827}}"`.
+
+Разэкранируем данную строку:
+
+``` js
+{
+  "1": {
+    "votes": 0,
+    "tokens": 0
+  },
+  "2": {
+    "votes": 0,
+    "tokens": 0
+  },
+  "3": {
+    "votes": 3,
+    "tokens": 545
+  },
+  "4": {
+    "votes": 0,
+    "tokens": 0
+  },
+  "5": {
+    "votes": 2,
+    "tokens": 3827
+  }
 ```
 
-где
+Из строки следует, что никто не оценил токен одной, двумя или четырьмя звездами.
 
-`"assetRating_"` — строковая константа,
+Три пользователя оценили токен тремя звездами. Сумма [весов W<sub>n</sub>](/waves-token-rating/rating-formula.md) этих оценок равна 545.
 
-`tokenID` — ID токена.
+Два пользователя оценили токен пятью звездами. Сумма весов Wn этих оценок равна 3827.
