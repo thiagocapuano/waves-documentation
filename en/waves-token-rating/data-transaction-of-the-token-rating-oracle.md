@@ -2,7 +2,7 @@
 
 Once a day, the [Token Rating](https://oracles.wavesexplorer.com/oracle/3P2eDV4pWJGmPjLGLrW4dsMA53te4gzkwnH) [oracle](/waves-oracles/oracle.md) sends to the blockchain a [data transaction](/blockchain/transaction-type/data-transaction.md) with [ratings and rates](/waves-token-rating/rating-formula.md) of tokens.
 
-A data transaction contains the information about tokens, that were rated in the past 24 hours.
+A data transaction contains the information about tokens, that have been rated in the past 24 hours.
 
 A single transaction contains the information about no more than 50 tokens —  if there are more rated tokens, then several transactions will be sent.
 
