@@ -10,18 +10,18 @@ Please select the page that fits you best:
 
 * [Getting started for node owners](getting-started/getting-started-for-node-owners.md)
 
-## New pages added to the documentation in July
+## New pages added in July
 
-## Waves nodes
+### Waves nodes
 
 * [Feature](waves-node/features/feature.md)
 * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
 
-## RIDE
+### RIDE
 
 * [Common structures](ride/structures/common-structures.md)
 
-## New pages added to the documentation in June
+## New pages added in June
 
 ### Blockchain
 

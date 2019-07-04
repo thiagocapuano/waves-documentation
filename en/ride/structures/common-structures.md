@@ -26,7 +26,7 @@ The structure of an [address](/blockchain/address.md).
 Address(bytes: ByteVector)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -42,7 +42,7 @@ The structure of a [token](/blockchain/token.md).
 Asset(id: ByteVector, quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector, reissuable: Boolean, scripted: Boolean, sponsored: Boolean)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -65,7 +65,7 @@ The structure of a pair of [tokens](/blockchain/token.md) of an order.
 AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -82,7 +82,7 @@ The structure of an invoke script transaction payment.
 AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -99,7 +99,7 @@ The structure of a [block](/blockchain/block.md).
 BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: ByteVector, generator: Address, generatorPublicKey: ByteVector)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -120,7 +120,7 @@ The structure of a data record of an [account data storage](/blockchain/account
 DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -137,7 +137,7 @@ The structure of the abbreviated representation of an invoke script transaction
 Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPayment|Unit, transactionId: ByteVector, fee: Int, feeAssetId: ByteVector|Unit)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -158,7 +158,7 @@ The structure of an order.
 Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderType: Buy|Sell, price: Int, amount: Int, timestamp: Int, expiration: Int, matcherFee: Int, matcherFeeAssetId: ByteVector|Unit, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -187,7 +187,7 @@ The structure of the execution result of a callable function.
 ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -204,7 +204,7 @@ The structure of a [token](/blockchain/token.md) transfer.
 ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -222,7 +222,7 @@ The structure of a mass transfer transaction [token](/blockchain/token.md) tran
 Transfer(recipient: Address|Alias, amount: Int)
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -239,7 +239,7 @@ The structure of a list of [token](/blockchain/token.md) transfers.
 TransferSet(transfers: List[ScriptTransfer])
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
@@ -255,8 +255,8 @@ The structure of a list of data records of an [account data storage](/blockchai
 WriteSet(data: List[DataEntry])
 ```
 
-### Structure fields
+### Fields
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | data | List[DataEntry] | The list of data records of an account data storage. |
+| 1 | data | List[DataEntry] | The list of data records of an account data storage |
