@@ -26,7 +26,7 @@
 Address(bytes: ByteVector)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -42,7 +42,7 @@ Address(bytes: ByteVector)
 Asset(quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector, reissuable: Boolean, scripted: Boolean, sponsored: Boolean)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -64,7 +64,7 @@ Asset(quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector
 AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -81,7 +81,7 @@ AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -98,7 +98,7 @@ AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: ByteVector, generator: Address, generatorPublicKey: ByteVector)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -119,7 +119,7 @@ BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: Byt
 DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -136,7 +136,7 @@ DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPayment|Unit, transactionId: ByteVector, fee: Int, feeAssetId: ByteVector|Unit)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -157,7 +157,7 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderType: Buy|Sell, price: Int, amount: Int, timestamp: Int, expiration: Int, matcherFee: Int, matcherFeeAssetId: ByteVector|Unit, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -186,7 +186,7 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -203,7 +203,7 @@ ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -221,7 +221,7 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 Transfer(recipient: Address|Alias, amount: Int)
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -238,7 +238,7 @@ Transfer(recipient: Address|Alias, amount: Int)
 TransferSet(transfers: List[ScriptTransfer])
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
@@ -254,7 +254,7 @@ TransferSet(transfers: List[ScriptTransfer])
 WriteSet(data: List[DataEntry])
 ```
 
-### Поля структуры
+### Поля
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
