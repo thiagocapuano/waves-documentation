@@ -8,7 +8,7 @@ All structures have constructors.
 
 The code that creates an instance of the `DataEntry` structure and reads its key and value.
 
-```ride
+``` ride
 {-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE DAPP #-}
 

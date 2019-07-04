@@ -177,7 +177,7 @@
 * [Comments in code](ride/comments-in-code.md)
 * [Data types](ride/data-types.md)
 * [Operators](ride/operators.md)
-* [Structures](ride/structures/structures.md)
+* [Structures](ride/structures.md)
   * [Built-in structures](ride/structures/built-in-structures.md)
   * [Common structures](ride/structures/common-structures.md)
 * [Functions](ride/functions/functions.md)
