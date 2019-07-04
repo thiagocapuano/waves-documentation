@@ -18,33 +18,33 @@
 
 ## Address <a id="address"></a>
 
-Структура [адреса](/blockchain/address.md).
+The structure of an [address](/blockchain/address.md).
 
-### Конструктор
+### Constructor
 
 ``` ride
 Address(bytes: ByteVector)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | bytes | ByteVector | The array of bytes of an address |
 
 ## Asset <a id="asset"></a>
 
-Структура [токена](/blockchain/token.md).
+The structure of a [token](/blockchain/token.md).
 
-### Конструктор
+### Constructor
 
 ``` ride
 Asset(id: ByteVector, quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector, reissuable: Boolean, scripted: Boolean, sponsored: Boolean)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | id | ByteVector | The ID of a token |
 | 2 | quantity | Int | The number of issued tokens |
@@ -57,51 +57,51 @@ Asset(id: ByteVector, quantity: Int, decimals: Int, issuer: Address, issuerPubli
 
 ## AssetPair <a id="asset-pair"></a>
 
-Структура пары токенов ордера.
+The structure of a pair of [tokens](/blockchain/token.md) of an order.
 
-### Конструктор
+### Constructor
 
 ``` ride
 AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | amountAsset | ByteVector|Unit | The first token of a pair |
 | 2 | priceAsset | ByteVector|Unit | The second token of a pair |
 
 ## AttachedPayment <a id="attached-payment"></a>
 
-Структура платежа транзакции вызова скрипта.
+The structure of an invoke script transaction payment.
 
-### Конструктор
+### Constructor
 
 ``` ride
 AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | assetId | ByteVector|Unit | The ID of a [token](/blockchain/token.md) |
 | 2 | amount | Int | The payment amount |
 
 ## BlockInfo <a id="block-info"></a>
 
-Структура [блока](/blockchain/block.md).
+The structure of a [block](/blockchain/block.md).
 
-### Конструктор
+### Constructor
 
 ``` ride
 BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: ByteVector, generator: Address, generatorPublicKey: ByteVector)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | timestamp | Int | The [Unix time](https://en.wikipedia.org/wiki/Unix-time) of the creation of a block |
 | 2 | height | Int | The [block height](/blockchain/block-height.md) |
@@ -112,34 +112,34 @@ BlockInfo(timestamp: Int, height: Int, baseTarget: Int, generationSignature: Byt
 
 ## DataEntry <a id="data-entry"></a>
 
-Структура записи [хранилища данных аккаунта](/blockchain/account-data-storage.md).
+The structure of a data record of an [account data storage](/blockchain/account-data-storage.md).
 
-### Конструктор
+### Constructor
 
 ``` ride
 DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | key | String | The key of a record |
 | 2 | value | Int|Boolean|ByteVector|String | The value of a record |
 
 ## Invocation <a id="invocation"></a>
 
-Структура сокращенного представления транзакции вызова скрипта.
+The structure of the abbreviated representation of an invoke script transaction.
 
-### Конструктор
+### Constructor
 
 ``` ride
 Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPayment|Unit, transactionId: ByteVector, fee: Int, feeAssetId: ByteVector|Unit)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | caller | Address | The address of an [account](/blockchain/account.md) that sent a transaction |
 | 2 | callerPublicKey | ByteVector | The public key of an account that sent a transaction |
@@ -150,17 +150,17 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 
 ## Order <a id="order"></a>
 
-Структура ордера.
+The structure of an order.
 
-### Конструктор
+### Constructor
 
 ``` ride
 Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderType: Buy|Sell, price: Int, amount: Int, timestamp: Int, expiration: Int, matcherFee: Int, matcherFeeAssetId: ByteVector|Unit, sender: Address, senderPublicKey: ByteVector, bodyBytes: ByteVector, proofs: List[ByteVector])
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | id | ByteVector | The ID of an order |
 | 2 | matcherPublicKey | ByteVector | The public key of a matcher |
@@ -179,34 +179,34 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 
 ## ScriptResult <a id="script-result"></a>
 
-Структура результата выполнения вызываемой функции.
+The structure of the execution result of a callable function.
 
-### Конструктор
+### Constructor
 
 ``` ride
 ScriptResult(writeSet: WriteSet, transferSet: TransferSet)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | writeSet | WriteSet | The list of records of an [account data storage](/blockchain/transaction-proof.md) |
 | 2 | transferSet | TransferSet | The list of [tokens](/blockchain/token.md) of a transfer |
 
 ## ScriptTransfer <a id="script-transfer"></a>
 
-Структура перевода [токенов](/blockchain/token.md).
+The structure of a [token](/blockchain/token.md) transfer.
 
-### Конструктор
+### Constructor
 
 ``` ride
 ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | recipient | Address|Alias | The [address](/blockchain/address.md) or the [alias](/blockchain/alias.md) of a recipient of tokens |
 | 2 | amount | Int | The number of tokens |
@@ -214,49 +214,49 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 
 ## Transfer <a id="transfer"></a>
 
-Структура перевода [токенов](/blockchain/token.md) транзакции массового перевода.
+The structure of a mass transfer transaction [token](/blockchain/token.md) transfer.
 
-### Конструктор
+### Constructor
 
 ``` ride
 Transfer(recipient: Address|Alias, amount: Int)
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | recipient | Address|Alias | The address of a recipient of tokens |
 | 2 | amount | Int | Number of tokens |
 
 ## TransferSet <a id="transfer-set"></a>
 
-Структура списка переводов [токенов](/blockchain/token.md).
+The structure of a list of [token](/blockchain/token.md) transfers.
 
-### Конструктор
+### Constructor
 
 ``` ride
 TransferSet(transfers: List[ScriptTransfer])
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | transfers | List[ScriptTransfer] | The list of token transfers |
 
 ## WriteSet <a id="write-set"></a>
 
-Структура списка записей [хранилища данных аккаунта](/blockchain/account-data-storage.md).
+The structure of a list of data records of an [account data storage](/blockchain/account-data-storage.md).
 
-### Конструктор
+### Constructor
 
 ``` ride
 WriteSet(data: List[DataEntry])
 ```
 
-### Поля структуры
+### Structure fields
 
-|   #   | Название | Тип данных | Описание |
+|   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | data | List[DataEntry] | The list of data records of an account data storage. |
