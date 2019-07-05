@@ -214,6 +214,19 @@
 
 ## Waves node
 
+* [NODE API: Waves node rest API](waves-node/node-api.md)
+  * [Address](waves-node/node-api/address.md)
+  * [Lease Transactions](waves-node/node-api/lease-transactions.md)
+  * [Assets](waves-node/node-api/asset-transactions.md)
+    * [Public Functions](waves-node/node-api/asset-transactions/public-functions.md)
+    * [Private Functions](waves-node/node-api/asset-transactions/private-functions.md)
+    * [Distribution Methods](waves-node/node-api/asset-transactions/distribution-methods.md)
+  * [Alias Transaction](waves-node/node-api/alias-transaction.md)
+  * [Transactions](waves-node/node-api/transactions.md)
+  * [Peers](waves-node/node-api/peers.md)
+  * [Blocks](waves-node/node-api/blocks.md)
+  * [Utils](waves-node/node-api/utils.md)
+  * [Examples of transactions](waves-node/node-api/example-transactions.md)
 * [What is Waves full node](waves-node/what-is-a-full-node.md)
 * [How To install a node](waves-node/how-to-install-a-node/how-to-install-a-node.md)
   * [On Mac](waves-node/how-to-install-a-node/on-mac.md)
@@ -237,7 +250,7 @@
   * [Matcher](waves-node/extensions/matcher.md)
 * [Features](waves-node/features/features.md)
   * [Feature](waves-node/features/feature.md)
-  * [Feature activation protocol](waves-node/features/feature-activation-protocol.md) 
+  * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
 
 ## Developer tools
 
@@ -247,19 +260,6 @@
 
 ## Waves API and SDK
 
-* [NODE API: Waves node rest API](waves-api-and-sdk/node-api.md)
-  * [Address](waves-api-and-sdk/node-api/address.md)
-  * [Lease Transactions](waves-api-and-sdk/node-api/lease-transactions.md)
-  * [Assets](waves-api-and-sdk/node-api/asset-transactions.md)
-    * [Public Functions](waves-api-and-sdk/node-api/asset-transactions/public-functions.md)
-    * [Private Functions](waves-api-and-sdk/node-api/asset-transactions/private-functions.md)
-    * [Distribution Methods](waves-api-and-sdk/node-api/asset-transactions/distribution-methods.md)
-  * [Alias Transaction](waves-api-and-sdk/node-api/alias-transaction.md)
-  * [Transactions](waves-api-and-sdk/node-api/transactions.md)
-  * [Peers](waves-api-and-sdk/node-api/peers.md)
-  * [Blocks](waves-api-and-sdk/node-api/blocks.md)
-  * [Utils](waves-api-and-sdk/node-api/utils.md)
-  * [Examples of transactions](waves-api-and-sdk/node-api/example-transactions.md)
 * [DEX API: Waves node rest API](waves-api-and-sdk/dex-api.md)
   * [Matcher](waves-api-and-sdk/dex-api/matcher.md)
 * [Waves Client API](waves-api-and-sdk/client-api/overview.md)
