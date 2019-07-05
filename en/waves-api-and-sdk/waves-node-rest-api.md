@@ -1,6 +1,6 @@
 # Node API
 
-The Node API or the Waves Node API is a [RESTfull](https://en.wikipedia.org/wiki/Representational_state_transfer) API of the web services of a [node](/blockchain/node.md).
+The Node API or the Waves Node API is a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) API of the web services of a [node](/blockchain/node.md).
 
 # Web interfaces
 
