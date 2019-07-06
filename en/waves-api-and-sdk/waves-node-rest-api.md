@@ -9,4 +9,4 @@ There are [Swagger](https://swagger.io) and [Postman](https://www.getpostman.com
 | # | Network | Swagger | Postman |
 | :--- | :--- | :--- | :--- |
 | 1 | [Main network](/blockchain/mainnet.md) | https://nodes.wavesplatform.com | https://documenter.getpostman.com/view/2733299/waves-full-node/RVnWiKZJ?version=latest) |
-| 2 | [Test network](/blockchain/test-network.md) | https://testnode1.wavesnodes.com/api-docs/index.html <br>https://testnode1.wavesnodes.com/api-docs/index.html <br>https://testnode1.wavesnodes.com/api-docs/index.html <br>https://testnode1.wavesnodes.com/api-docs/index.html | | |
+| 2 | [Test network](/blockchain/test-network.md) | https://testnode1.wavesnodes.com/api-docs/index.html <br>https://testnode2.wavesnodes.com/api-docs/index.html <br>https://testnode3.wavesnodes.com/api-docs/index.html <br>https://testnode4.wavesnodes.com/api-docs/index.html | | |
