@@ -69,8 +69,8 @@ AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | amountAsset | ByteVector\|Unit | The first token of a pair |
-| 2 | priceAsset | ByteVector\|Unit | The second token of a pair |
+| 1 | amountAsset | ByteVector&#124;Unit | The first token of a pair |
+| 2 | priceAsset | ByteVector&#124;Unit | The second token of a pair |
 
 ## AttachedPayment <a id="attached-payment"></a>
 
@@ -86,7 +86,7 @@ AttachedPayment(assetId: ByteVector|Unit, amount: Int)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | assetId | ByteVector\|Unit | The ID of a [token](/blockchain/token.md) |
+| 1 | assetId | ByteVector&#124;Unit | The ID of a [token](/blockchain/token.md) |
 | 2 | amount | Int | The payment amount |
 
 ## BlockInfo <a id="block-info"></a>
@@ -125,7 +125,7 @@ DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
 | 1 | key | String | The key of a record |
-| 2 | value|Int\|Boolean\|ByteVector\|String | The value of a record |
+| 2 | value|Int&#124;Boolean&#124;ByteVector&#124;String | The value of a record |
 
 ## Invocation <a id="invocation"></a>
 
@@ -143,10 +143,10 @@ Invocation(caller: Address, callerPublicKey: ByteVector, payment: AttachedPaymen
 | :--- | :--- | :--- | :--- |
 | 1 | caller | Address | The address of an [account](/blockchain/account.md) that sent a transaction |
 | 2 | callerPublicKey | ByteVector | The public key of an account that sent a transaction |
-| 3 | payment | AttachedPayment\|Unit | The attached payment |
+| 3 | payment | AttachedPayment&#124;Unit | The attached payment |
 | 4 | transactionId | ByteVector | The ID of a transaction |
 | 5 | fee | Int | The transaction fee |
-| 6 | feeAssetId | ByteVector\|Unit | The [token](/blockchain/token.md) of a transaction fee |
+| 6 | feeAssetId | ByteVector&#124;Unit | The [token](/blockchain/token.md) of a transaction fee |
 
 ## Order <a id="order"></a>
 
@@ -165,13 +165,13 @@ Order(id: ByteVector, matcherPublicKey: ByteVector, assetPair: AssetPair, orderT
 | 1 | id | ByteVector | The ID of an order |
 | 2 | matcherPublicKey | ByteVector | The public key of a matcher |
 | 3 | assetPair | AssetPair | The pair of [tokens](/blockchain/token.md) |
-| 4 | orderType | Buy\|Sell | The type of an order — selling or buying |
+| 4 | orderType | Buy&#124;Sell | The type of an order — selling or buying |
 | 5 | price | Int | The price of a token to exchange |
 | 6 | amount | Int | The number of tokens to exchange |
 | 7 | timestamp | Int | The [Unix time](https://en.wikipedia.org/wiki/Unix-time) of the validation of an order by a matcher  |
 | 8 | expiration | Int | The Unix time when an uncompleted order will be cancelled |
 | 9 | matcherFee | Int | The [transaction fee](/blockchain/transaction-fee.md) |
-| 10 | matcherFeeAssetId | ByteVector\|Unit | The token of a transaction fee. Currently, can only be [WAVES](/blockchain/token/waves.md) |
+| 10 | matcherFeeAssetId | ByteVector&#124;Unit | The token of a transaction fee. Currently, can only be [WAVES](/blockchain/token/waves.md) |
 | 11 | sender | Address | The [address](/blockchain/address.md) of the sender of an order |
 | 12 | senderPublicKey | ByteVector | The public key of the sender of an order |
 | 13 | bodyBytes | ByteVector | The array of bytes of an order |
@@ -208,9 +208,9 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | recipient | Address\|Alias | The [address](/blockchain/address.md) or the [alias](/blockchain/alias.md) of a recipient of tokens |
+| 1 | recipient | Address&#124;Alias | The [address](/blockchain/address.md) or the [alias](/blockchain/alias.md) of a recipient of tokens |
 | 2 | amount | Int | The number of tokens |
-| 3 | asset | ByteVector\|Unit | The ID of a token |
+| 3 | asset | ByteVector&#124;Unit | The ID of a token |
 
 ## Transfer <a id="transfer"></a>
 
@@ -226,7 +226,7 @@ Transfer(recipient: Address|Alias, amount: Int)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | recipient | Address\|Alias | The address of a recipient of tokens |
+| 1 | recipient | Address&#124;Alias | The address of a recipient of tokens |
 | 2 | amount | Int | Number of tokens |
 
 ## TransferSet <a id="transfer-set"></a>
