@@ -1,11 +1,12 @@
-# Waves Node Rest API
+# Node API
 
-* Our open source client application uses the same API.
-* You can explore it and implement any kind of client application yourself.
-* Our nodes expose the REST API allowing access to all blockchain data \(transaction history, balances, etc.\) as well as operations for creating a new transaction — it’s easy to make a transfer, exchange, issue of tokens or lease fund transactions programmatically.
+The Node API or the Waves Node API is a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) API of the web services of a [node](/blockchain/node.md).
 
-# The Web Interface to Waves Full Node API
+# Web interfaces
 
-For The Web Interface to the Waves Full Node API, Please check [**Swagger**](http://nodes.wavesplatform.com/api-docs/index.html) or [**Postman**](https://documenter.getpostman.com/view/2733299/waves-node/RVnWiKZJ) on Mainnet.  
-on Testnet:_** **_[_**TestNode1**_](https://testnode1.wavesnodes.com/api-docs/index.html), [_**TestNode2**_](https://testnode2.wavesnodes.com/api-docs/index.html), [_**TestNode3**_](https://testnode3.wavesnodes.com/api-docs/index.html) and [_**TestNode4**_](https://testnode4.wavesnodes.com/api-docs/index.html).
+There are [Swagger](https://swagger.io) and [Postman](https://www.getpostman.com) web interfaces of the Node API:
 
+| # | Network | Swagger | Postman |
+| :--- | :--- | :--- | :--- |
+| 1 | [Main network](/blockchain/mainnet.md) | https://nodes.wavesplatform.com | https://documenter.getpostman.com/view/2733299/waves-full-node/RVnWiKZJ?version=latest) |
+| 2 | [Test network](/blockchain/test-network.md) | https://testnode1.wavesnodes.com/api-docs/index.html <br>https://testnode2.wavesnodes.com/api-docs/index.html <br>https://testnode3.wavesnodes.com/api-docs/index.html <br>https://testnode4.wavesnodes.com/api-docs/index.html | | |
