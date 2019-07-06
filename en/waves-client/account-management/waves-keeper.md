@@ -144,7 +144,7 @@ Click on the **Save**.
 
 ---
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 

@@ -94,7 +94,7 @@ Litecoin поступают на Litecoin адрес выданный польз
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/mobile-apps/android/wallet-management.md)
 

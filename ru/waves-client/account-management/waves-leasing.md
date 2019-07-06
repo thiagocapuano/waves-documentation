@@ -47,7 +47,7 @@
 ![](/_assets/waves_leasing_07.png)
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Управление аккаунтом](/waves-client/account-management.md)
 

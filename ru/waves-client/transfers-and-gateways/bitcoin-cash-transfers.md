@@ -92,7 +92,7 @@ Bitcoin Cash поступают на Bitcoin Cash адрес выданный п
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/wallet-management.md)
 

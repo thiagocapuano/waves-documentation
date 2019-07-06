@@ -43,6 +43,6 @@ Please check our [_**Security notes**_](/waves-client/security-notes.md) to guar
 
 ___
 
-## More info
+
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com/) ticket or write a [question](https://forum.wavesplatform.com/) on our forum.

@@ -50,7 +50,7 @@
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Управление аккаунтом](/waves-client/mobile-apps/iOS/account-management.md)
 
