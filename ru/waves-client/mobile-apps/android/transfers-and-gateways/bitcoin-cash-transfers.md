@@ -93,7 +93,7 @@ You can send Bitcoin Cashs directly to another Waves account.
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/mobile-apps/android/wallet-management.md)
 

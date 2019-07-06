@@ -60,7 +60,7 @@ That's it! You'll see the **The leasing canceled complete**.
 
 ---
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 

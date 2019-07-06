@@ -63,7 +63,7 @@ After clicking on the **Show Pairing Code** you will be getting QR-code. After t
 
 ___
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/mobile-apps/iOS/account-management.md) chapter.
 

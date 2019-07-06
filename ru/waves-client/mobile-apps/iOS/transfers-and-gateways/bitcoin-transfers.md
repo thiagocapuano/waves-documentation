@@ -95,7 +95,7 @@ Bitcoin поступают на Bitcoin адрес выданный пользо
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/mobile-apps/iOS/wallet-management.md)
 

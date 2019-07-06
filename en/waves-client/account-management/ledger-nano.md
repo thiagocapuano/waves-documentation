@@ -85,7 +85,7 @@ After that you will be forwarded to the main page of the Waves app. All done!
 
 ---
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 

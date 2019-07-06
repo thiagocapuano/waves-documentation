@@ -86,6 +86,6 @@ The fee will be frozen for the order fee. If the order is not executed and then 
 
 ___
 
-## More info
+
 
 If you have troubles with our platform, please create a [support](https://support.wavesplatform.com) ticket or write a [question](https://forum.wavesplatform.com) on our forum.
