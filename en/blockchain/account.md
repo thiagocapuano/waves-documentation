@@ -1,6 +1,6 @@
 # Account
 
-An **account** is a mathematically bound pair of a public and a private keys, in which the public key of the pair participated in at least one [transaction](/blockchain/transaction.md) on the [blockchain](/blockchain/blockchain.md).
+An **account** is a mathematically bound pair of a public and a private keys on the [blockchain](/blockchain/blockchain.md).
 
 Each account has a _single_ [address](/blockchain/address.md).
 
