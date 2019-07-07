@@ -96,7 +96,7 @@ Monero поступают на Monero адрес выданный пользов
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/mobile-apps/iOS/wallet-management.md)
 

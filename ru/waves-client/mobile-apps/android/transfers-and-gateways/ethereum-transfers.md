@@ -94,7 +94,7 @@ Ethereum поступают на Ethereum адрес выданный польз
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/mobile-apps/android/wallet-management.md)
 

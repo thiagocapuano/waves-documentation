@@ -89,7 +89,7 @@ Waves client позволяет хранить и переводить Dash вн
 
 ___
 
-## Дополнительная информация
+
 
 Больше статей в разделе [Переводы и шлюзы](/waves-client/mobile-apps/android/wallet-management.md)
 

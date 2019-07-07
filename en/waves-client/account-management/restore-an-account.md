@@ -57,7 +57,7 @@ After clicking on the **Show Pairing Code** you will be getting QR-code. After t
 
 ---
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 

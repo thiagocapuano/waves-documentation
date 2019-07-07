@@ -52,7 +52,7 @@ The following window will appear. Click on the **Cancel Leasing**
 
 ___
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/mobile-apps/iOS/account-management.md) chapter.
 

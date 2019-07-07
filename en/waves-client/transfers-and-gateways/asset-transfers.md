@@ -56,7 +56,7 @@ Choose an available sponsored token and click on the **Continue** button.
 
 ___
 
-## More info
+
 
 See more articles in the [Transfers and Gateways](/waves-client/wallet-management.md) chapter.
 

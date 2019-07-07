@@ -98,7 +98,7 @@ Choose an available sponsored token and click on the **Continue** button.
 
 ___
 
-## More info
+
 
 See more articles in the [Transfers and gateways](/waves-client/mobile-apps/iOS/wallet-management.md) chapter.
 

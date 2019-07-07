@@ -79,7 +79,7 @@ In the opened profile, click on the **Backup phrase** to begin the process.
 
 ___
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/mobile-apps/iOS/account-management.md) chapter.
 

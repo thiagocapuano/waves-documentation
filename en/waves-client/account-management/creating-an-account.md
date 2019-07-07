@@ -91,7 +91,7 @@ In the opened window, click on the **Security** and click on the **Show** under 
 
 ---
 
-## More info
+
 
 See more articles in the [Account Management](/waves-client/account-management.md) chapter.
 
