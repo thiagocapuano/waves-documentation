@@ -8,7 +8,7 @@ An example of the default node configuration file is available [on Github](https
 
 | # | Name | Description |
 | :--- | :--- | :--- |
-| | Blockchain | Settings of a blockchain |
+| 1 | Blockchain | Settings of a blockchain |
 | 2 | Extensions | Settings of an extension |
 | 3 | Features | Settings of a [feature](/waves-node/extensions.md) |
 | 4 | Nodes synchronization | |
