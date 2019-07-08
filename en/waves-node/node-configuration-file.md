@@ -8,9 +8,9 @@ An example of the default node configuration file is available [on Github](https
 
 | # | Name | Description |
 | :--- | :--- | :--- |
-| 1 | Blockchain | Settings of a blockchain |
-| 2 | Extensions | Settings of an extension |
-| 3 | Features | Settings of a [feature](/waves-node/extensions.md) |
+| 1 | Blockchain | Settings of a [blockchain](/blockchain/blockchain.md) |
+| 2 | Extensions | Settings of an [extension](/waves-node/extensions.md) |
+| 3 | Features | Settings of a [feature](/waves-node/features/feature.md) |
 | 4 | Nodes synchronization | |
 | 5 | Non-aggregated data | |
 | 6 | NTP server | |
