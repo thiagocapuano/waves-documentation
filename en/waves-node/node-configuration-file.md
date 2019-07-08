@@ -1,6 +1,6 @@
 # Node configuration file
 
-The **node configuration file** is a settings file of a [node](http://confluence.wavesplatform.com/display/WDOCS/Node) in a [HOCON](https://en.wikipedia.org/wiki/HOCON) format.
+The **node configuration file** is a settings file of a [node](/blockchain/node.md) in a [HOCON](https://en.wikipedia.org/wiki/HOCON) format.
 
 An example of the default node configuration file is available [on Github](https://github.com/wavesplatform/Waves/blob/master/node/src/main/resources/application.conf).
 
