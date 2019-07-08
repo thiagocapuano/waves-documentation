@@ -85,8 +85,8 @@ tradable_balance(asset) = balance_of_asset -
 
 The current balance in `asset`:
 
-* [WAVES](../development-and-api/waves-node-rest-api/address.md#get-addressesbalanceaddress);
-* [assets](../development-and-api/waves-node-rest-api/address.md#get-assetsbalanceaddress).
+* [WAVES](../development-and-api/node-api/address.md#get-addressesbalanceaddress);
+* [assets](../development-and-api/node-api/address.md#get-assetsbalanceaddress).
 
 ## spendings of asset in transactions in utx pool
 

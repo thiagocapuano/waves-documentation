@@ -57,7 +57,7 @@
 3. [客户端读书馆 ](/development-and-api/client-libraries.md)\([PyWaves](/development-and-api/client-libraries/pywaves.md), [WavesJ](/development-and-api/client-libraries/wavesj.md), [WavesCS](/development-and-api/client-libraries/wavescs.md) 和 [WavesC](/development-and-api/client-libraries/waves-c.md)\)
 4. [DEX API](/development-and-api/dex-api.md) \([匹配器](/development-and-api/dex-api/matcher.md)\)
 5. [节点 API 概观](https://legacy.gitbook.com/book/waves-platform/wavesdocs/edit#)
-6. [Waves节点休息API ](/development-and-api/waves-node-rest-api.md)
+6. [Waves节点休息API ](/development-and-api/node-api.md)
 7. [例子](/development-and-api/examples.md)
 
 # 7. 常见问题  \(FAQ\)

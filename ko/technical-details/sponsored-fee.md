@@ -95,7 +95,7 @@ where:
 }
 ```
 
-Sponsorship information for the asset present in [asset description](/development-and-api/waves-node-rest-api/asset-transactions/public-functions.md#get-assetsdetailsassetid).
+Sponsorship information for the asset present in [asset description](/development-and-api/node-api/asset-transactions/public-functions.md#get-assetsdetailsassetid).
 
 ### Constraints
 
