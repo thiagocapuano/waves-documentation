@@ -230,7 +230,6 @@
 * [Waves node in Docker](waves-node/waves-node-in-docker.md)
 * [Joining testnet](waves-node/joining-testnet.md)
 * [Private Waves network](waves-node/private-waves-network.md)
-* [API limitations of the pool of public nodes](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 * [Extensions](waves-node/extensions.md)
   * [gRPC](waves-node/extensions/grpc-server.md)
   * [Matcher](waves-node/extensions/matcher.md)
@@ -253,6 +252,7 @@
   * [Blocks](waves-node/node-api/blocks.md)
   * [Utils](waves-node/node-api/utils.md)
   * [Examples of transactions](waves-node/node-api/example-transactions.md)
+* [API limitations of the pool of public nodes](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 
 ## Developer tools
 
