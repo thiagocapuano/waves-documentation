@@ -215,7 +215,7 @@
 
 ## Waves node
 
-* [NODE API: Waves node rest API](waves-node/node-api.md)
+* [Node API](waves-node/node-api.md)
   * [Address](waves-node/node-api/address.md)
   * [Lease Transactions](waves-node/node-api/lease-transactions.md)
   * [Assets](waves-node/node-api/asset-transactions.md)
@@ -228,6 +228,7 @@
   * [Blocks](waves-node/node-api/blocks.md)
   * [Utils](waves-node/node-api/utils.md)
   * [Examples of transactions](waves-node/node-api/example-transactions.md)
+* [Node configuration file](waves-node/node-configuration-file.md)
 * [What is Waves full node](waves-node/what-is-a-full-node.md)
 * [How To install a node](waves-node/how-to-install-a-node/how-to-install-a-node.md)
   * [On Mac](waves-node/how-to-install-a-node/on-mac.md)

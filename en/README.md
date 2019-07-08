@@ -20,6 +20,8 @@ Please select the page that fits you best:
 
 * [Feature](waves-node/features/feature.md)
 * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
+* [Node API](waves-node/node-api.md)
+* [Node configuration file](waves-node/node-configuration-file.md)
 
 ### RIDE
 
