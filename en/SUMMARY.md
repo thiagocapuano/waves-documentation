@@ -44,6 +44,7 @@
   * [WAVELET](blockchain/token/wavelet.md)
   * [WCT](blockchain/token/wct.md)
 * [Transaction](blockchain/transaction.md)
+* [Transaction body bytes](blockchain/transaction-body-bytes.md)
 * [Transaction data structure](blockchain/transaction-data-structure.md)
 * [Transaction fee](blockchain/transaction-fee.md)
 * [Transaction proof](blockchain/transaction-proof.md)

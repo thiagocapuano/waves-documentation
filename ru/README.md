@@ -16,6 +16,10 @@
 
 ## Новые статьи, добавленные в июле
 
+### Блокчейн
+
+* [Байты тела транзакции](blockchain/transaction-body-bytes.md)
+
 ### Ноды Waves
 
 * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
