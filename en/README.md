@@ -12,6 +12,10 @@ Please select the page that fits you best:
 
 ## New pages added in July
 
+### Blockchain
+
+* [Transaction body bytes](blockchain/transaction-body-bytes.md)
+
 ### Waves nodes
 
 * [Feature](waves-node/features/feature.md)

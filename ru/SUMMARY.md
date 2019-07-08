@@ -26,6 +26,7 @@
 * [Адрес](blockchain/address.md)
 * [Акаунт](blockchain/account.md)
 * [Ассет](blockchain/asset.md)
+* [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Блок](blockchain/block.md)
 * [Блокчейн](blockchain/blockchain.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
