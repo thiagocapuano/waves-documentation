@@ -454,15 +454,14 @@ The transaction's signature is calculated from the following bytes:
 
 #### Lease Transaction V2
 
-| \# | Field name | Type | Length in Bytes |
+| # | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
-| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1 
-| 2 | Transaction type | Byte \(constant, value = 8\) | 1 
+| 1 | Transaction multiple version mark | Byte (constant, value = 0) | 1 
+| 2 | Transaction type | Byte (constant, value = 8) | 1 
 | 3 | Version | Byte | 1 
-| 4.1 | Leasing asset flag\* \(1 - asset, 0 - Waves\) |  | 1 
-| 4.2 | Leasing asset | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 4.1\) 
-| 5 | Sender's public key | PublicKey \(Array[Byte]\) | 32
-| 6 | Recipient | Address or Alias | Depends on the first byte \(1 - Address, 2 - Alias\) 
+| 4 | Reserved field | Byte (constant, value = 0)| 1 
+| 5 | Sender's public key | PublicKey (Array[Byte]) | 32
+| 6 | Recipient | Address or Alias | Depends on the first byte (1 - Address, 2 - Alias) 
 | 7 | Amount | Long | 8 
 | 8 | Fee | Long | 8 
 | 9 | Timestamp | Long | 8 
