@@ -84,6 +84,9 @@
   * [Функции списка](ride/built-in-functions/list-functions.md)
   * [Функции строки](ride/built-in-functions/string-functions.md)
   * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
+* [Аннотации](ride/annotations.md)
+  * [Вызываемая функция](ride/annotations/callable-function.md)
+  * [Функция-верификатор](ride/annotations/verifier-function.md)
 * [Исключения](ride/exceptions.md)
 
 ## Смарт-контракты (Waves dApps)
