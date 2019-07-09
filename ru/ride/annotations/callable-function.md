@@ -1,6 +1,6 @@
 # Вызываемая функция
 
-**Вызываемая функция** — функция [dApp-скрипта](/blockchain/dapp-script.md) с аннотацией [@Callable](/ride/annotations.md#callable).
+**Вызываемая функция** — функция [dApp-скрипта](/blockchain/dapp-script.md) с [аннотацией](/ride/annotations.md) `@Callable`.
 
 dApp-скрипт может иметь несколько вызываемых функций.
 
