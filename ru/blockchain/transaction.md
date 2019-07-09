@@ -10,6 +10,6 @@
 
 У каждой транзакции есть уникальный ID.
 
-**ID транзакции** — хеш от [байтов тела транзакции](/blockchain/transaction-body-bytes.md), который вычислен с помощью хеш-функции [blake2b256](https://en.wikipedia.org/wiki/BLAKE_(hash_function)).
+**ID транзакции** — хеш от [байтов тела транзакции](/blockchain/transaction-body-bytes.md), который вычисляется хеш-функцией [blake2b256](https://en.wikipedia.org/wiki/BLAKE_(hash_function)).
 
 В отличие от остальных типов транзакций, ID [транзакции создания псевдонима](/blockchain/transaction-type/alias-transaction.md) рассчитывается как хеш от значений полей `type` и `alias`.
