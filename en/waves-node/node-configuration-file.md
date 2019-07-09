@@ -20,4 +20,4 @@ An example of the default node configuration file is available [on Github](https
 | 10 | REST API | Settings of [Node API](/waves-node/node-api.md) |
 | 11 | Unverified transactions pool | |
 | 12 | Wallet | |
-| 13 | Waves | |
+| 13 | Waves | | |
