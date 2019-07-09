@@ -56,10 +56,7 @@ Waves Keeper предназначен также и для удобства по
 
 ## Как импортировать аккаунт из Waves Keeper в онлайн Waves приложение
 
-Откройте [онлайн-приложение](https://dex.wavesplatform.com).
-
-
-Откройте страницу **Имрорт** [client.wavesplatform.com/import](https://dex.wavesplatform.com/import) и нажмите на **Waves Keeper**.
+Откройте страницу **Имрорт** [dex.wavesplatform.com/import](https://dex.wavesplatform.com/import) и нажмите на **Waves Keeper**.
 
 ![](/_assets/waves_keeper_09.png)
 
