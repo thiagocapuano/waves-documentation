@@ -28,9 +28,8 @@
 
 * [Аннотации](ride/annotations.md)
 * [Вызываемая функция](ride/annotations/callable-function.md)
-* [Функция-верификатор](ride/annotations/verifier-function.md)
-* [Аннотации](ride/annotations.md)
 * [Общие структуры](ride/structures/common-structures.md)
+* [Функция-верификатор](ride/annotations/verifier-function.md)
 
 ## Новые статьи, добавленные в июне
 
