@@ -25,7 +25,10 @@ Please select the page that fits you best:
 
 ### RIDE
 
+* [Annotations](ride/annotations.md)
+* [Callable function](ride/annotations/callable-function.md)
 * [Common structures](ride/structures/common-structures.md)
+* [Verifier function](ride/annotations/verifier-function.md)
 
 ## New pages added in June
 
