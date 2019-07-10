@@ -1,6 +1,6 @@
 # Annotations
 
-An **annotation** is a form of metadata that is added to a [function](/ride/functions.md) of a [dApp script](/blockchain/dapp-script.md).
+An **annotation** is a form of metadata that is added to a [function](/ride/functions.md) of a [dApp script](/ride/ride-script/dapp-script.md).
 
 At the present moment, there are two annotations: `@Callable` and `@Verifier`.
 
