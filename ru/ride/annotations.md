@@ -8,12 +8,12 @@
 
 ## @Callable(inv: [Invocation](/ride/structures/common-structures.md#invocation))
 
-Аннотация [вызываемой функции](/ride/annotations/callable-function.md).
+Аннотация [вызываемой функции](/ride/functions/callable-function.md).
 
 Переменная `inv` содержит информацию о транзакции, которая вызвала функцию [dApp](/blockchain/dapp.md).
 
 ## @Verifier(tx: Transaction|[Order](/ride/structures/common-structures.md#order))
 
-Аннотация [функции-верификатора](/ride/annotations/verifier-function.md).
+Аннотация [функции-верификатора](/ride/functions/verifier-function.md).
 
 Переменная `tx` содержит информацию об отправляемой транзакции или ордере.

@@ -12,6 +12,6 @@ Variable `inv` contains information about the transaction that invoked the funct
 
 ## @Verifier(tx: Transaction|[Order](/ride/structures/common-structures.md#order))
 
-Annotation of a [verifier function](/ride/annotations/verifier-function.md).
+Annotation of a [verifier function](/ride/functions/verifier-function.md).
 
 Variable `tx` contains information about the transaction or the order that was sent.

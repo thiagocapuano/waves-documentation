@@ -77,6 +77,8 @@
 * [Структуры](ride/structures.md)
   * [Общие структуры](ride/structures/common-structures.md)
 * [Функции](ride/functions.md)
+  * [Вызываемая функция](ride/functions/callable-function.md)
+  * [Функция-верификатор](ride/functions/verifier-function.md)
 * [Встроенные функции](ride/built-in-functions.md)
   * [Математические функции](ride/built-in-functions/math-functions.md)
   * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
@@ -85,8 +87,6 @@
   * [Функции строки](ride/built-in-functions/string-functions.md)
   * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
 * [Аннотации](ride/annotations.md)
-  * [Вызываемая функция](ride/annotations/callable-function.md)
-  * [Функция-верификатор](ride/annotations/verifier-function.md)
 * [Исключения](ride/exceptions.md)
 
 ## Смарт-контракты (Waves dApps)
