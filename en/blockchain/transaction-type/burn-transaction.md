@@ -4,4 +4,4 @@
 
 ## Transaction binary format
 
-See the page [Burn transaction binary format](/en/blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md).
+See the page [Burn transaction binary format](/blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md).
