@@ -35,7 +35,7 @@ You will need to know:
 
 * How to write a dApp \([_**Go ahead and write your first dApp**_](/smart-contracts/writing-dapps.md)\)
 
-let's suppose now that you understand the main idea of our smart contracts and you want to go through all functions and to understand how they work, please find here our[_**built-in functions**_](/ride/built-in-functions.md)_**, **_[_**operators**_](/ride/operators.md)_** **\_and **_\[_**structures**_\]\(/ride/structures.md\)_**.**\_
+let's suppose now that you understand the main idea of our smart contracts and you want to go through all functions and to understand how they work, please find here our[_**built-in functions**_](/ride/built-in-functions.md), [_**operators**_](/ride/operators.md) and [_**structures**_](/ride/structures.md).
 
 ### _**Tools to help you with RIDE**_
 
