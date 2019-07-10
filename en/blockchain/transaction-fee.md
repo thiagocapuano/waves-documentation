@@ -4,7 +4,7 @@ A **transaction fee** is a fee that an [account](/blockchain/account.md) owner p
 
 A sender can specify any amount of fee but not less than a certain amount. The larger the fee is, the quicker the transaction will be added to the new [block](/blockchain/block.md).
 
-> If a [smart account](/blockchain/smart-account.md) transfers a [smart asset](/blockchain/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](/blockchain/account-script.md) or an [asset script](/blockchain/asset-script.md), then the fee is increased by 0.004 WAVES
+> If a [smart account](/blockchain/smart-account.md) transfers a [smart asset](/blockchain/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](/ride/ride-script/account-script.md) or an [asset script](/ride/ride-script/asset-script.md), then the fee is increased by 0.004 WAVES
 
 | Transaction type | Transaction type ID | A minimum transaction fee in WAVES | Comments |
 | :--- | :--- | :--- | :--- |
@@ -22,4 +22,3 @@ A sender can specify any amount of fee but not less than a certain amount. The l
 | Set script transaction | 13 | 0.01 | |
 | Sponsorship transaction | 14 | 1 | |
 | Transfer transaction | 4 | 0.001 | | |
-

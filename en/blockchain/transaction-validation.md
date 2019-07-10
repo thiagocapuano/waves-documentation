@@ -8,4 +8,4 @@ By default, _only_ the fact that an outgoing transaction belongs to the owner of
 
 ## Transaction validation using account script
 
-If the validation logic goes beyond the detection of transaction ownership, then a programmer writes an [account script](/blockchain/account-script.md) that contains that logic. This script is attached to the account making this account a [smart account](/blockchain/smart-account.md). Now it's account script's duty to validate all the outgoing transactions from the account. Still, the `sigVerify` function is widely used by programmers inside of the account script.
+If the validation logic goes beyond the detection of transaction ownership, then a programmer writes an [account script](/ride/ride-script/account-script.md) that contains that logic. This script is attached to the account making this account a [smart account](/blockchain/smart-account.md). Now it's account script's duty to validate all the outgoing transactions from the account. Still, the `sigVerify` function is widely used by programmers inside of the account script.
