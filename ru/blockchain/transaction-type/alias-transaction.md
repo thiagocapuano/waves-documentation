@@ -6,4 +6,4 @@
 
 ## Бинарный формат транзакции
 
-Смотрите страницу [Бинарный формат транзакции создания псевдонима](/blockchain/binary-format/transaction-binary-formats/alias-transaction-binary-format.md).
+Смотрите страницу [Бинарный формат транзакции создания псевдонима](/blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md).
