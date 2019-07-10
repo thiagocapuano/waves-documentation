@@ -8,7 +8,7 @@
 
 1. Создадим [аккаунт](/blockchain/account.md) главы ТСЖ.
 2. Создадим аккаунты жильцов дома.
-3. Создадим [dApp-скрипт](/blockchain/dapp-script.md) с методом `vote`.
+3. Создадим [dApp-скрипт](/ride/ride-script/dapp-script.md) с методом `vote`.
 4. Привяжем dApp-скрипт к аккаунту главы ТСЖ, создав таким образом [dApp](/blockchain/dapp.md).
 5. Проголосуем с аккаунтов жильцов дома, вызвав метод `vote` dApp.
 6. Узнаем результаты голосования.
@@ -31,7 +31,7 @@
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты [комиссии](/blockchain/transaction-fee.md) за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/blockchain/dapp-script.md) к своему аккаунту.
+Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты [комиссии](/blockchain/transaction-fee.md) за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/ride/ride-script/dapp-script.md) к своему аккаунту.
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -43,7 +43,7 @@
 
 ## 3. Создание dApp-скрипта
 
-Создайте [dApp-скрипт](/blockchain/dapp-script.md), выбрав в выпадающем списке **DApp**.
+Создайте [dApp-скрипт](/ride/ride-script/dapp-script.md), выбрав в выпадающем списке **DApp**.
 
 <img src="img/voting/new-dapp-script.png" width="870"/>
 
@@ -57,35 +57,35 @@
 {-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
- 
+
 func voterIsAllowedToVote(voterPublicKey: ByteVector) = {
- 
+
     let alekseiPubKey = base58'8QvKvspfNF6cUv2DFMCfvT8SrbraERqXpNMEMqBfJZ3e'
     let annaPubKey = base58'AtYwJTqWNfwYrPnWVvfmnPTSTEioiLFzUTcZVttgDj1x'
- 
+
     if (voterPublicKey != alekseiPubKey && voterPublicKey != annaPubKey)
     then
         false
     else
         true
- 
+
 }
- 
+
 @Callable(i)
 func vote(theVote: Int) = {
-     
+
     if (!voterIsAllowedToVote(i.callerPublicKey))
     then
         throw("Вы не можете голосовать, так как вас нет в списке голосующих!")
     else
         let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
- 
+
         if (dataFromStorage.isDefined())
         then
             throw("Вы уже голосовали! Повтороное голосование запрещено.")
         else
             WriteSet([DataEntry(i.callerPublicKey.toBase58String(), theVote)])
- 
+
 }
 ```
 
