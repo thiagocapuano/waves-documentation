@@ -15,6 +15,8 @@ Please select the page that fits you best:
 ### Blockchain
 
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
+* [Binary format](blockchain/binary-format.md)
+* [Transaction binary format](blockchain/binary-format/transaction-binary-format.md)
 
 ### Waves nodes
 

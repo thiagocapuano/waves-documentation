@@ -4,9 +4,9 @@
 
 There are three kinds of RIDE scripts:
 
-* [dApp script](/blockchain/dapp-script.md)
-* [account script](/blockchain/account-script.md)
-* [asset script](/blockchain/asset-script.md)
+* [dApp script](/ride/ride-script/dapp-script.md)
+* [account script](/ride/ride-script/account-script.md)
+* [asset script](/ride/ride-script/asset-script.md)
 
 RIDE script has [complexity](/ride/ride-script-complexity.md).
 
