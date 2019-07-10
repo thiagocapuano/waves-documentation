@@ -261,7 +261,6 @@
 
 * [Waves IDE](developer-tools/waves-ide.md)
 * [REPL](developer-tools/repl.md)
-* [Visual Studio Code Extension](developer-tools/vs-code-plugin.md)
 
 ## Waves API and SDK
 
