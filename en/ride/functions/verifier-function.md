@@ -1,6 +1,6 @@
 # Verifier function
 
-A **verifier function** is a [function](/ride/functions/functions.md) of a [dApp script](/blockchain/dapp-script.md) that has `@Verifier` [annotation](/ride/annotations.md).
+A **verifier function** is a [function](/rid/functions.md) of a [dApp script](/blockchain/dapp-script.md) that has `@Verifier` [annotation](/ride/annotations.md).
 
 A verifier function is responsible for [validation of transactions](/blockchain/transaction-validation.md) and orders sent from [dApp](/blockchain/dapp.md).
 

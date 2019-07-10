@@ -1,12 +1,12 @@
 # Annotations
 
-An **annotation** is a form of metadata that is added to a [function](/ride/functions/functions.md) of a [dApp script](/blockchain/dapp-script.md).
+An **annotation** is a form of metadata that is added to a [function](/ride/functions.md) of a [dApp script](/blockchain/dapp-script.md).
 
 At the present moment, there are two annotations: `@Callable` and `@Verifier`.
 
 ## @Callable(inv: [Invocation](/ride/structures/common-structures.md#invocation))
 
-Annotation of a [callable function](/ride/annotations/callable-function.md).
+Annotation of a [callable function](/ride/functions/callable-function.md).
 
 Variable `inv` contains information about the transaction that invoked the function of a [dApp](/blockchain/dapp.md).
 
