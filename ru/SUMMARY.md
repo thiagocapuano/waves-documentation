@@ -2,8 +2,8 @@
 
 ## Обзор
 
-* [Introduction](README.md)
-* [Как использовать это руководство](overview/how-to-use-this-guide.md)
+* [Главная](README.md)
+* [Руководство пользователя](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 
