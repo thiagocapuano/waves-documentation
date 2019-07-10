@@ -6,7 +6,7 @@ This will give you all the information you need as a developer to get started in
 
 ## Client Libraries
 
-Waves Client is supported by many libraries, please Get to know our client libraries\_** **\_and use them depending on which language you're familiar with:
+Waves Client is supported by many libraries, please Get to know our client libraries and use them depending on which language you're familiar with:
 
 * [_**Python: PyWaves**_](/waves-api-and-sdk/client-libraries/pywaves.md)
 * [_**Java: WavesJ**_](/waves-api-and-sdk/client-libraries/wavesj.md)
@@ -25,7 +25,7 @@ Use the API to integrate a variety of functionalities including orders, transact
 
 Usually as a developer, you will need two things: **theoretical understanding** and **tools** to make your coding life easier, in our guide we will provide you with both:
 
-### _**Theoretical Understanding **_
+### Theoretical Understanding
 
 You will need to know:
 
@@ -35,7 +35,7 @@ You will need to know:
 
 * How to write a dApp \([_**Go ahead and write your first dApp**_](/smart-contracts/writing-dapps.md)\)
 
-let's suppose now that you understand the main idea of our smart contracts and you want to go through all functions and to understand how they work, please find here our_** **_[_**built-in functions**_](/ride/built-in-functions.md)_**, **_[_**operators**_](/ride/operators.md)_** **\_and_** **_\[_**structures**_\]\(/ride/structures.md\)_**.**\_
+let's suppose now that you understand the main idea of our smart contracts and you want to go through all functions and to understand how they work, please find here our[_**built-in functions**_](/ride/built-in-functions.md)_**, **_[_**operators**_](/ride/operators.md)_** **\_and **_\[_**structures**_\]\(/ride/structures.md\)_**.**\_
 
 ### _**Tools to help you with RIDE**_
 
@@ -55,7 +55,6 @@ Please take a look to [_**Waves DEX API **_](/waves-api-and-sdk/dex-api/matcher.
 
 ## Keeper API
 
-Check the new [_**Waves Keeper**_](/waves-api-and-sdk/waves-keeper-api.md)\_** **\_browser extension which turns your browser into a keychain that enables you to sign transactions securely on third-party web resources without entering your seed or password. So now, if a Waves-integrated website or Dapp requires you to sign a transaction, you can do it with just a couple of clicks, right in your browser.
+Check the new [_**Waves Keeper**_](/waves-api-and-sdk/waves-keeper-api.md) browser extension which turns your browser into a keychain that enables you to sign transactions securely on third-party web resources without entering your seed or password. So now, if a Waves-integrated website or Dapp requires you to sign a transaction, you can do it with just a couple of clicks, right in your browser.
 
 The extension will be particularly _**useful to developers**_ who want to embed Waves functionality in their projects, because it supports the Auth and Payment APIs. For testing purposes you can switch between using it on MainNet and TestNet.
-
