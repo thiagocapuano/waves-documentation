@@ -25,7 +25,6 @@
 * [Address](blockchain/address.md)
 * [Alias](blockchain/alias.md)
 * [Asset](blockchain/asset.md)
-* [Asset script](blockchain/asset-script.md)
 * [Binary format](blockchain/binary-format.md)
   * [Transaction binary format](blockchain/binary-format/transaction-binary-format.md)
     * [Alias transaction binary format](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
