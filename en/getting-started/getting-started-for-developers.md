@@ -51,7 +51,7 @@ The reason behind decentralized exchange is to perform secure exchange of assets
 
 The real-time trading is achieved thanks to the only centralized design element of our DEX - the order book Matcher, which matches incoming orders and execute trades at high speed, typically within milliseconds. There is no need to wait for the next block to know whether a trade has been executed successfully, this provides speed at the level of centralized exchange and the security of the decentralized protocol.
 
-Please take a look to [_**Waves DEX API **_](/waves-api-and-sdk/dex-api/matcher.md)for more details and get the theoretical details by reading our [_**DEX article**_](/waves-environment/decentralized-cryptocurrency-exchange-dex.md)_**.**_
+Please take a look to [_**Waves DEX API**_](/waves-api-and-sdk/dex-api/matcher.md) for more details and get the theoretical details by reading our [_**DEX article**_](/waves-environment/decentralized-cryptocurrency-exchange-dex.md)_**.**_
 
 ## Keeper API
 
