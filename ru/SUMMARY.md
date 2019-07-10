@@ -22,7 +22,6 @@
 ## Блокчейн
 
 * [dApp](blockchain/dapp.md)
-* [dApp-скрипт](blockchain/dapp-script.md)
 * [Адрес](blockchain/address.md)
 * [Акаунт](blockchain/account.md)
 * [Ассет](blockchain/asset.md)
@@ -39,8 +38,6 @@
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Псевдоним](blockchain/alias.md)
-* [Скрипт аккаунта](blockchain/account-script.md)
-* [Скрипт ассета](blockchain/asset-script.md)
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
@@ -73,6 +70,9 @@
 
 * [О RIDE](ride/about-ride.md)
 * [Скрипт на RIDE](ride/ride-script.md)
+  * [Скрипт аккаунта](ride/ride-script/account-script.md)
+  * [Скрипт ассета](ride/ride-script/asset-script.md)
+  * [dApp-скрипт](ride/ride-script/dapp-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Комментарии в коде](ride/comments-in-code.md)
@@ -80,6 +80,8 @@
 * [Структуры](ride/structures.md)
   * [Общие структуры](ride/structures/common-structures.md)
 * [Функции](ride/functions.md)
+  * [Вызываемая функция](ride/functions/callable-function.md)
+  * [Функция-верификатор](ride/functions/verifier-function.md)
 * [Встроенные функции](ride/built-in-functions.md)
   * [Математические функции](ride/built-in-functions/math-functions.md)
   * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
@@ -88,8 +90,6 @@
   * [Функции строки](ride/built-in-functions/string-functions.md)
   * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
 * [Аннотации](ride/annotations.md)
-  * [Вызываемая функция](ride/annotations/callable-function.md)
-  * [Функция-верификатор](ride/annotations/verifier-function.md)
 * [Исключения](ride/exceptions.md)
 
 ## Смарт-контракты (Waves dApps)
