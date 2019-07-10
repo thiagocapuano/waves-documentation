@@ -9,6 +9,8 @@
 ### Блокчейн
 
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
+* [Бинарный формат](blockchain/binary-format.md)
+* [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
 
 ### Ноды Waves
 
