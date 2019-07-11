@@ -9,6 +9,8 @@
 * [Расширение для Opera](https://addons.opera.com/ru/extensions/details/waves-keeper)
 * [Расширение для Microsoft Edge](https://www.microsoft.com/ru-ru/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab)
 
+Более подробно о [использовании Waves Keeper](/waves-keeper/how-to-use-waves-keeper.md)
+
 ## Исходный код
 
 Исходный код Waves Keeper доступен на [GitHub](https://github.com/wavesplatform/waveskeeper).

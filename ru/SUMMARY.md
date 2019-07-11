@@ -98,7 +98,7 @@
   * [Создание аккаунта](waves-client/account-management/creating-an-account.md)
   * [Восстановление аккаунта](waves-client/account-management/restore-an-account.md)
   * [Ledger Nano S в Waves приложении](waves-client/account-management/ledger-nano.md)
-  * [Waves Keeper](waves-client/account-management/waves-keeper.md)
+  * [Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
   * [Вход в аккаунт](waves-client/account-management/signing-in-to-your-account.md)
   * [Ваш Waves адрес](waves-client/account-management/waves-address.md)
   * [Создание персонального алиаса](waves-client/account-management/creating-an-alias.md)
@@ -193,6 +193,11 @@
 
 * [О Waves DEX](waves-dex/about-waves-dex.md)
 * [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
+
+## Waves Keeper
+
+* [О Waves Keeper](waves-keeper/about-waves-keeper.md)
+* [Как использовать Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
 
 ## Ноды Waves
 

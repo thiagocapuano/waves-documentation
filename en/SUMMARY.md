@@ -63,7 +63,7 @@
     * [Account creation](waves-client/account-management/creating-an-account.md)
     * [Account recovery](waves-client/account-management/restore-an-account.md)
     * [Ledger Nano S and Waves app](waves-client/account-management/ledger-nano.md)
-    * [Waves Keeper](waves-client/account-management/waves-keeper.md)
+    * [Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
     * [Signing in to your Account](waves-client/account-management/signing-in-to-your-account.md)
     * [Use your Waves address](waves-client/account-management/waves-address.md)
     * [Create a personal Alias](waves-client/account-management/creating-an-alias.md)
@@ -167,6 +167,7 @@
 ## Waves Keeper
 
 * [About Waves Keeper](waves-keeper/about-waves-keeper.md)
+* [How to use Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
 
 ## RIDE
 
