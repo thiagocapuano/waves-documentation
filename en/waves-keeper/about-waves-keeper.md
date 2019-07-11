@@ -9,6 +9,8 @@
 * [Opera extension](https://addons.opera.com/en/extensions/details/waves-keeper)
 * [Microsoft Edge extension](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab)
 
+Learn more about [using Waves Keeper](/waves-keeper/how-to-use-waves-keeper.md)
+
 ## Waves Keeper API
 
 See the page [Waves Keeper API](/waves-api-and-sdk/waves-keeper-api.md).
