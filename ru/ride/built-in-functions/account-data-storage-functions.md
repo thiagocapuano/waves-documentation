@@ -1,23 +1,25 @@
 # Функции хранилища данных аккаунта
 
+> Подробнее о [хранилище данных аккаунта](/blockchain/account-data-storage.md)
+
 |   #   | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | [assetBalancе(Address&#124;Alias, ByteVector): Int](#asset-balance)  | Получает баланс токенов на аккаунте по ID токена | 100 |
+| 1 | [assetBalancе(Address&#124;Alias, ByteVector): Int](#asset-balance)  | Получает баланс аккаунта по ID токена | 100 |
 | 2 | [getBinary(Address&#124;Alias, String): ByteVector&#124;Unit](#get-binary)  | Получает массив байтов по ключу | 100 |
-| 3 | [getBinaryValue(Address&#124;Alias, String): ByteVector](#get-binary-value)  | Получает массив байтов по ключу. Выбрасывает исключение если данных нет | 100 |
+| 3 | [getBinaryValue(Address&#124;Alias, String): ByteVector](#get-binary-value)  | Получает массив байтов по ключу. Выбрасывает исключение, если данных нет | 100 |
 | 4 | [getBoolean(Address&#124;Alias, String): Boolean&#124;Unit](#get-boolean)  | Получает логическое значение по ключу | 100 |
-| 5 | [getBooleanValue(Address&#124;Alias, String): Boolean](#get-boolean-value)  | Получает логическое значение по ключу. Выбрасывает исключение если данных нет | 100 |
-| 6 | [getInteger(Address&#124;Alias, String): Int&#124;Unit](#get-integer)  | Получает целочисленные данные по ключу | 100 |
-| 7 | [getIntegerValue(Address&#124;Alias, String): Int](#get-integer-value)  | Получает целое число по ключу. Выбрасывает исключение если данных нет | 100 |
+| 5 | [getBooleanValue(Address&#124;Alias, String): Boolean](#get-boolean-value)  | Получает логическое значение по ключу. Выбрасывает исключение, если данных нет | 100 |
+| 6 | [getInteger(Address&#124;Alias, String): Int&#124;Unit](#get-integer)  | Получает целое число по ключу | 100 |
+| 7 | [getIntegerValue(Address&#124;Alias, String): Int](#get-integer-value)  | Получает целое число по ключу. Выбрасывает исключение, если данных нет | 100 |
 | 8 | [getString(Address&#124;Alias, String): String&#124;Unit](#get-string)  | Получает строку по ключу | 100 |
-| 9 | [getStringValue(Address&#124;Alias, String): String](#get-string-value)  | Получает строку по ключу. Выбрасывает исключение если данных нет | 100 |
+| 9 | [getStringValue(Address&#124;Alias, String): String](#get-string-value)  | Получает строку по ключу. Выбрасывает исключение, если данных нет | 100 |
 | 10 | [wavesBalance(Address&#124;Alias): Int](#waves-balance)  | Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md) | 100 |
 
 ## assetBalance(Address|Alias, ByteVector): Int<a id="asset-balance"></a>
 
 Получает баланс токенов на аккаунте по ID токена.
 
-```
+``` ride
 assetBalance(addressOrAlias: Address|Alias, assetId: ByteVector): Int
 ```
 
@@ -25,7 +27,7 @@ assetBalance(addressOrAlias: Address|Alias, assetId: ByteVector): Int
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### assetId: ByteVector
 
@@ -35,7 +37,7 @@ ID токена.
 
 Получает массив байтов по ключу.
 
-```
+``` ride
 getBinary(addressOrAlias: Address|Alias, key: String): ByteVector|Unit
 ```
 
@@ -43,7 +45,7 @@ getBinary(addressOrAlias: Address|Alias, key: String): ByteVector|Unit
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -51,9 +53,9 @@ getBinary(addressOrAlias: Address|Alias, key: String): ByteVector|Unit
 
 ## getBinaryValue(Address|Alias, String): ByteVector<a id="get-binary-value"></a>
 
-Получает массив байтов по ключу. Выбрасывает исключение если данных нет.
+Получает массив байтов по ключу. Выбрасывает исключение, если данных нет.
 
-```
+``` ride
 getBinaryValue(addressOrAlias: Address|Alias, key: String): ByteVector
 ```
 
@@ -61,7 +63,7 @@ getBinaryValue(addressOrAlias: Address|Alias, key: String): ByteVector
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -71,7 +73,7 @@ getBinaryValue(addressOrAlias: Address|Alias, key: String): ByteVector
 
 Получает логическое значение по ключу.
 
-```
+``` ride
 getBoolean(addressOrAlias: Address|Alias, key: String): Boolean|Unit
 ```
 
@@ -79,7 +81,7 @@ getBoolean(addressOrAlias: Address|Alias, key: String): Boolean|Unit
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -87,9 +89,9 @@ getBoolean(addressOrAlias: Address|Alias, key: String): Boolean|Unit
 
 ## getBooleanValue(Address|Alias, String): Boolean<a id="get-boolean-value"></a>
 
-Получает логическое значение по ключу. Выбрасывает исключение если данных нет.
+Получает логическое значение по ключу. Выбрасывает исключение, если данных нет.
 
-```
+``` ride
 getBooleanValue(addressOrAlias: Address|Alias, key: String): Boolean
 ```
 
@@ -97,7 +99,7 @@ getBooleanValue(addressOrAlias: Address|Alias, key: String): Boolean
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -107,7 +109,7 @@ getBooleanValue(addressOrAlias: Address|Alias, key: String): Boolean
 
 Получает целое число по ключу.
 
-```
+``` ride
 getInteger(addressOrAlias: Address|Alias, key: String): Int|Unit
 ```
 
@@ -115,7 +117,7 @@ getInteger(addressOrAlias: Address|Alias, key: String): Int|Unit
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -123,9 +125,9 @@ getInteger(addressOrAlias: Address|Alias, key: String): Int|Unit
 
 ## getIntegerValue(Address|Alias, String): Int<a id="get-integer-value"></a>
 
-Получает целое число по ключу. Выбрасывает исключение если данных нет.
+Получает целое число по ключу. Выбрасывает исключение, если данных нет.
 
-```
+``` ride
 getIntegerValue(addressOrAlias: Address|Alias, key: String): Int
 ```
 
@@ -133,7 +135,7 @@ getIntegerValue(addressOrAlias: Address|Alias, key: String): Int
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -143,7 +145,7 @@ getIntegerValue(addressOrAlias: Address|Alias, key: String): Int
 
 Получает строку по ключу.
 
-```
+``` ride
 getString(addressOrAlias: Address|Alias, key: String): String|Unit
 ```
 
@@ -151,7 +153,7 @@ getString(addressOrAlias: Address|Alias, key: String): String|Unit
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -159,9 +161,9 @@ getString(addressOrAlias: Address|Alias, key: String): String|Unit
 
 ## getStringValue(Address|Alias, String): String<a id="get-string-value"></a>
 
-Получает строку по ключу. Выбрасывает исключение если данных нет.
+Получает строку по ключу. Выбрасывает исключение, если данных нет.
 
-```
+``` ride
 getStringValue(addressOrAlias: Address|Alias, key: String): String
 ```
 
@@ -169,7 +171,7 @@ getStringValue(addressOrAlias: Address|Alias, key: String): String
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
 
 #### key: String
 
@@ -179,7 +181,7 @@ getStringValue(addressOrAlias: Address|Alias, key: String): String
 
 Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md).
 
-```
+``` ride
 wavesBalance(addressOrAlias: Address|Alias): Int
 ```
 
@@ -187,4 +189,4 @@ wavesBalance(addressOrAlias: Address|Alias): Int
 
 #### addressOrAlias: Address|Alias
 
-[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md).
+[Адрес](/blockchain/address.md) или [псевдоним](/blockchain/alias.md) аккаунта.
