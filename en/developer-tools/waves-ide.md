@@ -10,4 +10,4 @@ The best way to check if the script works is to write tests and run them in the 
 
 ## Alternatives to Waves IDE
 
-For writing RIDE code you can use [Visual Studio Code](https://code.visualstudio.com) with the [waves-ride](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) extension installed in it.
+For writing RIDE code you can use [Visual Studio Code](https://code.visualstudio.com) with the [waves-ride](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) extension installed.
