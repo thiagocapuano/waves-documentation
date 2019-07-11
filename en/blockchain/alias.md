@@ -24,3 +24,7 @@ The following characters are allowed in the name of an alias:
 * underscore
 * hyphen
 * @
+
+# Binary format
+
+See the page [Alias binary format](/blockchain/binary-format/alias-binary-format.md).
