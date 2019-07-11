@@ -25,6 +25,7 @@ Please select the page that fits you best:
 
 ### RIDE
 
+* [Account data storage functions](ride/built-in-functions/account-data-storage-functions.md)
 * [Annotations](ride/annotations.md)
 * [Callable function](ride/functions/callable-function.md)
 * [Common structures](ride/structures/common-structures.md)
