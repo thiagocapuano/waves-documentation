@@ -2,8 +2,8 @@
 
 ## Обзор
 
-* [Introduction](README.md)
-* [Как использовать это руководство](overview/how-to-use-this-guide.md)
+* [Главная](README.md)
+* [Руководство пользователя](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
 
@@ -22,10 +22,17 @@
 ## Блокчейн
 
 * [dApp](blockchain/dapp.md)
-* [dApp-скрипт](blockchain/dapp-script.md)
 * [Адрес](blockchain/address.md)
 * [Акаунт](blockchain/account.md)
 * [Ассет](blockchain/asset.md)
+* [Байты тела транзакции](blockchain/transaction-body-bytes.md)
+* [Бинарный формат](blockchain/binary-format.md)
+  * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
+    * [Бинарный формат транзакции генезиса](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
+    * [Бинарный формат транзакции данных](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
+    * [Бинарный формат транзакции лизинга](blockchain/binary-format/transaction-binary-format/lease-transaction-binary-format.md)
+    * [Бинарный формат транзакции создания псевдонима](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
+    * [Бинарный формат транзакции сжигания токенов](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
 * [Блок](blockchain/block.md)
 * [Блокчейн](blockchain/blockchain.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
@@ -35,8 +42,6 @@
 * [Подпись транзакции](blockchain/transaction-signature.md)
 * [Подтверждение транзакции](blockchain/transaction-proof.md)
 * [Псевдоним](blockchain/alias.md)
-* [Скрипт аккаунта](blockchain/account-script.md)
-* [Скрипт ассета](blockchain/asset-script.md)
 * [Смарт-аккаунт](blockchain/smart-account.md)
 * [Смарт-ассет](blockchain/smart-asset.md)
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
@@ -55,6 +60,47 @@
 * [Транзакция](blockchain/transaction.md)
 * [Узел](blockchain/node.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
+
+## Waves Explorer
+
+* [О Waves Explorer](waves-explorer/about-waves-explorer.md)
+* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-the-test-network.md)
+
+## Waves Keeper
+
+* [О Waves Keeper](/waves-keeper/about-waves-keeper.md)
+
+## RIDE
+
+* [О RIDE](ride/about-ride.md)
+* [Скрипт на RIDE](ride/ride-script.md)
+  * [Скрипт аккаунта](ride/ride-script/account-script.md)
+  * [Скрипт ассета](ride/ride-script/asset-script.md)
+  * [dApp-скрипт](ride/ride-script/dapp-script.md)
+* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
+* [Неизменяемые переменные](ride/immutable-variables.md)
+* [Комментарии в коде](ride/comments-in-code.md)
+* [Типы данных](ride/data-types.md)
+* [Структуры](ride/structures.md)
+  * [Общие структуры](ride/structures/common-structures.md)
+* [Функции](ride/functions.md)
+  * [Вызываемая функция](ride/functions/callable-function.md)
+  * [Функция-верификатор](ride/functions/verifier-function.md)
+* [Встроенные функции](ride/built-in-functions.md)
+  * [Математические функции](ride/built-in-functions/math-functions.md)
+  * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
+  * [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
+  * [Функции списка](ride/built-in-functions/list-functions.md)
+  * [Функции строки](ride/built-in-functions/string-functions.md)
+  * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
+* [Аннотации](ride/annotations.md)
+* [Исключения](ride/exceptions.md)
+
+## Смарт-контракты (Waves dApps)
+
+* [Написание dApps](smart-contracts/writing-dapps.md)
+* [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
+* [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Waves приложение
 
@@ -173,8 +219,9 @@
 ## Ноды Waves
 
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
-* [Расширения](waves-node/extensions/extensions.md)
-  * [gRPC server](waves-node/extensions/grpc-server.md)
+* [Расширения](waves-node/extensions.md)
+  * [gRPC Server](waves-node/extensions/grpc-server.md)
+    * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Matcher](waves-node/extensions/matcher.md)
 
   ## RIDE

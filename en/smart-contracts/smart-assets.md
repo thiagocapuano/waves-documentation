@@ -123,7 +123,7 @@ Only the issuer can change the asset's script.
 
 ## Examples of Scripts for Smart Assets
 
-You can find an example of _**SetAssetScript **\_transaction on _**testnet**\_ in the following [transactions examples](../waves-api-and-sdk/waves-node-rest-api/example-transactions.md).
+You can find an example of _**SetAssetScript **\_transaction on _**testnet**\_ in the following [transactions examples](../waves-node/node-api/example-transactions.md).
 
 ### 1. Issue an unburnable asset
 

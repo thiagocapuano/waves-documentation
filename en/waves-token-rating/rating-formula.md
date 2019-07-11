@@ -46,12 +46,12 @@ If B<sub>n</sub> < 1, then the user's rate will not be taken into account during
 
 The value of the coefficient k<sub>n</sub> depends on the value of the effective balance B<sub>n</sub> of the user and is calculated by the formula:
 
-|The value of the effective balance B<sub>n</sub> of a user|The value of the weight coefficient k<sub>n</sub>|
-|---|---|
-|1 — 10|1|
-|11 — 150,000|– 0.091 × ln(B<sub>n</sub>) + 1.20958|
-|150,001 — 540,000|(– 0,00019 × B<sub>n</sub> + 153) / 1000|
-|540,001 — ∞|0,05|
+| The value of the effective balance B<sub>n</sub> of a user | The value of the weight coefficient k<sub>n</sub> |
+| --- | --- |
+| 1 — 10 | B<sub>n</sub> |
+| 11 — 150,000 | – 0.091 × ln(B<sub>n</sub>) + 1.20958 |
+| 150,001 — 540,000 | (– 0,00019 × B<sub>n</sub> + 153) / 1000 |
+| 540,001 — ∞ | 0,05 |
 
 The calculated value of k<sub>n</sub> is rounded to hundredths of a number.
 
@@ -77,17 +77,17 @@ There were no outgoing operations during the next 24 hours, therefore the effect
 
 B<sub>2</sub> is in the range of 1 — 10, therefore:
 
-k<sub>2</sub> = 1
+k<sub>2</sub> = 7
 
 The rate's weight:
 
-W<sub>2</sub> = B<sub>2</sub> × k<sub>2</sub> = 7 × 1 = 7
+W<sub>2</sub> = B<sub>2</sub> × k<sub>2</sub> = 7 × 7 = 49
 
-Summary: token received from the user 2 the rate 4 with the weight 7.
+Summary: token received from the user 2 the rate 4 with the weight 49.
 
 The rating R of the token will be calculated as weighted arithmetic mean of the rates of both users:
 
-R = (5 × 3,610 + 4 × 7) / (3,610 + 7) = 4.998 (rounded to 5.0)
+R = (5 × 3,610 + 4 × 49) / (3,610 + 49) = 4.987 (rounded to 5.0)
 
 3,610 WCT rated token with 5 stars, 7 — with 4:
 

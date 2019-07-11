@@ -52,5 +52,5 @@
 3. [Клиентские библиотеки](https://docs.wavesplatform.com/en/development-and-api/client-libraries.html)\([PyWaves](https://docs.wavesplatform.com/en/development-and-api/client-libraries/pywaves.html), [WavesJ](https://docs.wavesplatform.com/en/development-and-api/client-libraries/wavesj.html), [WavesCS](https://docs.wavesplatform.com/en/development-and-api/client-libraries/wavescs.html) and [WavesC](https://docs.wavesplatform.com/en/development-and-api/client-libraries/waves-c.html)\)
 4. [DEX API](https://docs.wavesplatform.com/en/development-and-api/dex-api.html) \([Matcher](https://docs.wavesplatform.com/en/development-and-api/dex-api/matcher.html)\)
 5. [Обзор API ноды](https://legacy.gitbook.com/book/waves-platform/wavesdocs/edit#)
-6. [Rest API Waves ноды](https://docs.wavesplatform.com/en/development-and-api/waves-node-rest-api.html)
+6. [Rest API Waves ноды](https://docs.wavesplatform.com/en/development-and-api/node-api.html)
 7. [Примеры](https://docs.wavesplatform.com/en/development-and-api/examples.html)

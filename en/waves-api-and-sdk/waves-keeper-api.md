@@ -21,7 +21,7 @@ You can use **WavesKeeper.initialPromise** for waiting end initializing api. Her
 
 ```js
     WavesKeeper.initialPromise
-        .then((keeperApi) => { 
+        .then((keeperApi) => {
             /*...init app*/
             keeperApi.publicState().then( state => startApp(state));
         })
@@ -109,8 +109,8 @@ Description of query return fields
 Possible errors
 
 * `{ message: "Init Waves Keeper and add account" }` – Waves Keeper is not initialized
-* `{ message: "Add Waves Keeper account" }` – Waves Keeper accessed, but there are no accounts 
-* `{ message: "User denied message" }` – the user denied the website operation with Waves Keeper 
+* `{ message: "Add Waves Keeper account" }` – Waves Keeper accessed, but there are no accounts
+* `{ message: "User denied message" }` – the user denied the website operation with Waves Keeper
 
 #### **on**
 
@@ -178,7 +178,7 @@ or
 Example
 
 ```js
-    const authData = { 
+    const authData = {
         data: "Generated string from server",
         name: "My test App",
         icon: "/img/icons/waves_logo.svg",
@@ -237,7 +237,7 @@ Example:
     };
     WavesKeeper.signTransaction(txData).then((data) => {
         //data – a line ready for sending to Waves network's node (server)
-    }).catch((error) => { 
+    }).catch((error) => {
         //Processing errors
     });
 ```
@@ -279,7 +279,7 @@ Example:
        };
        WavesKeeper.signAndPublishTransaction(txData).then((data) => {
            //data - a line ready for sending to Waves network's node (server)
-       }).catch((error) => { 
+       }).catch((error) => {
            //processing errors
        });
 ```
@@ -340,7 +340,7 @@ Example:
 
 Sign two transaction:
 
-* Transfer 1.567 WAVES to the alias test 
+* Transfer 1.567 WAVES to the alias test
 * Transfer 0.1 WAVES to the alias merry
 
 REPLY
@@ -352,7 +352,7 @@ ERRORS Same as in "`signTransaction`"
 ### [Transactions](/waves-api-and-sdk/client-libraries/waves-transactions.md)
 
 Every user of Waves' network has a state \(balances, assets, data, scripts\), and every past transactions changes these data. \  
-In Waves Keeper API it is different from [NODE REST API](/waves-api-and-sdk/waves-node-rest-api.md).
+In Waves Keeper API it is different from [NODE REST API](/waves-node/node-api.md).
 
 `signTransaction`, `signAndPublishTransaction` accept transactions as follows
 
@@ -419,7 +419,7 @@ Example:
 
 In case of a success, we are issuing a new asset in the quantity of 1,000,000, and your balance will show 10,000.00 Best Token
 
-#### [**Тype 4 TRANSFER – asset transfer**](/waves-api-and-sdk/waves-node-rest-api/asset-transactions/public-functions.md)
+#### [**Тype 4 TRANSFER – asset transfer**](/waves-node/node-api/asset-transactions/public-functions.md)
 
 * `amount` MoneyLike - amount,
 * `recipient` string – recipient's address or alias
@@ -507,7 +507,7 @@ Example:
 
 In case of a success, 1,000 coins `are burned`.
 
-#### [**Тype 8 LEASE - Leasing**](/waves-api-and-sdk/waves-node-rest-api/asset-transactions.md)
+#### [**Тype 8 LEASE - Leasing**](/waves-node/node-api/asset-transactions.md)
 
 * `recipient` string – recipient's address or alias,
 * `amount` \[0 - \(JLM\)\] number/string/MoneyLike - quantity,
@@ -729,7 +729,7 @@ Example:
         type: 14,
         data: {
              minSponsoredAssetFee: {
-                assetId: "6frvwF8uicAfyEfTfyC2sXqBJH7V5C8he5K4YH3BkNiS", 
+                assetId: "6frvwF8uicAfyEfTfyC2sXqBJH7V5C8he5K4YH3BkNiS",
                 tokens: 0.1
              },
              fee: {
@@ -781,12 +781,12 @@ In case of a success, the asset's script will be reset.
 #### [Тype 16 SCRIPT INVOCATION - call account script function \*\(testnet only\)](/waves-environment/waves-protocol/data-structures.md)
 
 * `dappAddress` string – address script account
-* `fee` MoneyLike – fee 
+* `fee` MoneyLike – fee
 * `call` object –
   * `function` string function name
   * `args` array
-    * `type` "binary"/string/"integer"/"boolean" - type, 
-    * `value` /string/string/number/boolean - value for type 
+    * `type` "binary"/string/"integer"/"boolean" - type,
+    * `value` /string/string/number/boolean - value for type
 * `*payment` array MoneyLike \(at now can use only 1 payment\)
 * `*senderPublicKey` string - public key in base58
 * `*timestamp` number/string - number/string – time in ms
@@ -805,8 +805,8 @@ Example:
              call: {
                      function: 'tellme',
                      args: [
-                         { 
-                           "type": "string", 
+                         {
+                           "type": "string",
                            "value": "Will?"
                          }]
                  }, payment: [{assetId: "WAVES", tokens: 2}]
@@ -1014,6 +1014,3 @@ ERRORS:
 * `{ message: "User denied message", code: 10 }` – the user rejected the request
 * `{ message: "Api rejected by user", code: 12 }` – The website is not trusted
 * `{ message: "Invalid data", data: "Reason", code: 9 }` - invalid/incomplete request data
-
-
-

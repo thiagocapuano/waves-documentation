@@ -4,9 +4,9 @@
 
 Существует три вида скриптов на RIDE:
 
-* [dApp-скрипты](/blockchain/dapp-script.md)
-* [скрипты аккаунтов](/blockchain/account-script.md)
-* [скрипты ассетов](/blockchain/asset-script.md)
+* [dApp-скрипты](/ride/ride-script/dapp-script.md)
+* [скрипты аккаунтов](/ride/ride-script/account-script.md)
+* [скрипты ассетов](/ride/ride-script/asset-script.md)
 
 У скрипта на RIDE есть [сложность](/ride/ride-script-complexity.md).
 
