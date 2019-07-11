@@ -190,6 +190,7 @@
   * [Callable function](ride/functions/callable-function.md)
   * [Verifier function](ride/functions/verifier-function.md)
 * [Built-in functions](ride/built-in-functions/built-in-functions.md)
+  * [Account data storage functions](ride/built-in-functions/account-data-storage-functions.md)
   * [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
   * [Byte array functions](ride/built-in-functions/byte-array-functions.md)
   * [Converting functions](ride/built-in-functions/converting-functions.md)
