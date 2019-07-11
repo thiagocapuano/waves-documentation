@@ -31,6 +31,6 @@ The `type` field specifies the type of the `value` field:
 
 The size of `value` field can be from 0 to 32767 bytes.
 
-## Transaction binary format
+## Binary format
 
 See the page [Data transaction binary format](/blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md).
