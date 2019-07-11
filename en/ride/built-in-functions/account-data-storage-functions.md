@@ -180,7 +180,7 @@ The key.
 
 ## wavesBalance(Address|Alias): Int<a id="waves-balance"></a>
 
-Gets account balance in [WAVES](/blockchain/token/waves.md)).
+Gets account balance in [WAVES](/blockchain/token/waves.md).
 
 ``` ride
 wavesBalance(addressOrAlias: Address|Alias): Int
