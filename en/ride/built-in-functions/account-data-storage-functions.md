@@ -3,18 +3,18 @@
 > [!NOTE]
 > Learn more about [account data storage](/blockchain/account-data-storage.md).
 
-| 1 | Name | Description | Complexity |
+| # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | [assetBalancе(Address|Alias, ByteVector): Int](#asset-balance) | Gets account balance by token ID | 100 |
-| 2 | [getBinary(Address|Alias, String): ByteVector&#124;Unit](#get-binary) | Gets an array of bytes by key | 100 |
-| 3 | [getBinaryValue(Address|Alias, String): ByteVector](#get-binary-value) | Gets an array of bytes by key. Throws an exception if there is no data | 100 |
-| 4 | [getBoolean(Address|Alias, String): Boolean&#124;Unit](#get-boolean) | Gets a boolean value by key | 100 |
-| 5 | [getBooleanValue(Address|Alias, String): Boolean](#get-boolean-value) | Gets a boolean value by key. Throws an exception if there is no data | 100 |
-| 6 | [getInteger(Address|Alias, String): Int&#124;Unit](#get-integer) | Gets an integer by key | 100 |
-| 7 | [getIntegerValue(Address|Alias, String): Int](#get-integer-value) | Gets an integer by key. Throws an exception if there is no data | 100 |
-| 8 | [getString(Address|Alias, String): String&#124;Unit](#get-string) | Gets a string by key | 100 |
-| 9 | [getStringValue(Address|Alias, String): String](#get-string-value) | Gets a string by key. Throws an exception if there is no data | 100 |
-| 10 | [wavesBalance(Address|Alias): Int](#waves-balance) | Gets account balance in [WAVES](/blockchain/token/waves.md) | 109 |
+| 1 | [assetBalancе(Address&#124;Alias, ByteVector): Int](#asset-balance) | Gets account balance by token ID | 100 |
+| 2 | [getBinary(Address&#124;Alias, String): ByteVector&#124;Unit](#get-binary) | Gets an array of bytes by key | 100 |
+| 3 | [getBinaryValue(Address&#124;Alias, String): ByteVector](#get-binary-value) | Gets an array of bytes by key. Throws an exception if there is no data | 100 |
+| 4 | [getBoolean(Address&#124;Alias, String): Boolean&#124;Unit](#get-boolean) | Gets a boolean value by key | 100 |
+| 5 | [getBooleanValue(Address&#124;Alias, String): Boolean](#get-boolean-value) | Gets a boolean value by key. Throws an exception if there is no data | 100 |
+| 6 | [getInteger(Address&#124;Alias, String): Int&#124;Unit](#get-integer) | Gets an integer by key | 100 |
+| 7 | [getIntegerValue(Address&#124;Alias, String): Int](#get-integer-value) | Gets an integer by key. Throws an exception if there is no data | 100 |
+| 8 | [getString(Address&#124;Alias, String): String&#124;Unit](#get-string) | Gets a string by key | 100 |
+| 9 | [getStringValue(Address&#124;Alias, String): String](#get-string-value) | Gets a string by key. Throws an exception if there is no data | 100 |
+| 10 | [wavesBalance(Address&#124;Alias): Int](#waves-balance) | Gets account balance in [WAVES](/blockchain/token/waves.md) | 109 |
 
 ## assetBalance(Address|Alias, ByteVector): Int<a id="asset-balance"></a>
 
