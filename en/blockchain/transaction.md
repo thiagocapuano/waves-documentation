@@ -16,4 +16,4 @@ Unlike the other transaction types, the transaction ID of an [alias transaction]
 
 ## Binary format
 
-See the page [Trnasction binary format](/blockchain/binary-format/transaction-binary-format.md)
+See the page [Transaction binary format](/blockchain/binary-format/transaction-binary-format.md)
