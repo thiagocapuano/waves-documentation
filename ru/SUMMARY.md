@@ -28,6 +28,7 @@
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
   * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
+    * [Бинарный формат транзакции генезиса](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
     * [Бинарный формат транзакции данных](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
     * [Бинарный формат транзакции создания псевдонима](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
     * [Бинарный формат транзакции сжигания токенов](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
