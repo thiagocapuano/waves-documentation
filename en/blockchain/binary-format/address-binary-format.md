@@ -12,6 +12,3 @@
 `Checksum` is first 4 bytes of SecureHash of version, scheme and hash bytes.
 
 `SecureHash` is hash function Keccak256(Blake2b256(data)).
-
-## Address binary format
-See the page [Address binary format](/blockchain/binary-format/address-binary-format.md).
