@@ -1,16 +1,18 @@
 # Functions
 
-A function has to return a value.
+A function must return a value. The return type is not specified in the signature of a function.
 
-The return type is not specified in a function's signature.
+A function must be declared above the place of its usage.
 
-A function has to be defined above the place of its usage.
+A function can be [annotated](/ride/annotations.md).
+
+There are multiple [built-in functions](/ride/built-in-functions/built-in-functions.md) in RIDE.
 
 ## Examples
 
-Definition of a function with no parameters that returns the integer:
+Definition of the function with no parameters that returns an integer:
 
-```ride
+``` ride
 func main() = {
    3
 }
@@ -18,7 +20,7 @@ func main() = {
 
 Definition of a function with two parameters:
 
-```ride
+``` ride
 func main(amount: Int, name: String) = {
    throw()
 }
