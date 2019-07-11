@@ -4,6 +4,6 @@
 
 > A created alias cannot be deleted
 
-## Transaction binary format
+## Binary format
 
 See the page [Alias transaction binary format](/blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md).
