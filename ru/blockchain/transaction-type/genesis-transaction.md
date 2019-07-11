@@ -6,6 +6,6 @@
 
 В блокчейне может быть только одна транзакция генезиса.
 
-## Бинарный формат транзакции
+## Бинарный формат
 
 Смотрите страницу [Бинарный формат транзакции генезиса](/blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md).
