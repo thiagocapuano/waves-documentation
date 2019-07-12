@@ -12,14 +12,24 @@ Please select the page that fits you best:
 
 ## New pages added in July
 
+### Blockchain
+
+* [Transaction body bytes](blockchain/transaction-body-bytes.md)
+
 ### Waves nodes
 
 * [Feature](waves-node/features/feature.md)
 * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
+* [Node API](waves-node/node-api.md)
+* [Node configuration file](waves-node/node-configuration-file.md)
 
 ### RIDE
 
+* [Account data storage functions](ride/built-in-functions/account-data-storage-functions.md)
+* [Annotations](ride/annotations.md)
+* [Callable function](ride/functions/callable-function.md)
 * [Common structures](ride/structures/common-structures.md)
+* [Verifier function](ride/functions/verifier-function.md)
 
 ## New pages added in June
 

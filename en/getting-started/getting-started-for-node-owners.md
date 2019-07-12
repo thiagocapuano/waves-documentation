@@ -11,7 +11,7 @@ The Waves full node serves **two critical roles**:
 
 ## Running a Node
 
-There're different options when you want to deal with Waves full node and you will need to [_**check the node configuration**_](/waves-node/configuration-parameters.md) before following any option. The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of **1000 WAVES**\(the minimum balance\)** **and create together a pool.
+There're different options when you want to deal with Waves full node and you will need to [_**check the node configuration**_](/waves-node/configuration-parameters.md) before following any option. The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of **1000 WAVES**\(the minimum balance\)** and create together a pool.
 
 ### Installing a node
 
@@ -33,18 +33,15 @@ If you're already a node owner, you will need to check the new updates and then 
 
 Basically, the node should be upgraded by following the [_**upgrading instructions**_](/waves-node/upgrading.md).
 
-### Dealing with Forks 
+### Dealing with Forks
 
 You can check the blockchain height or the last 100 signatures of blocks to understand if your node is on fork or not. You can use [**_chaincmp_**](https://github.com/wavesplatform/gowaves/releases/tag/v0.1.2) utility to compare blockchains on the node and reference nodes.
 
 
 Your node can be in one of two possibilities:
 * your node on fork with height **less** than 2000 blocks or **more** than 2000 blocks**.**  
-In case that your node is on fork with a height less than 2000 blocks, here you can implement **rollback**_** **through _[**rollback instructions**](/waves-node/how-to-rollback-a-node.md). 
+In case that your node is on fork with a height less than 2000 blocks, here you can implement **rollback**_** through _[**rollback instructions**](/waves-node/how-to-rollback-a-node.md). 
 
 * Otherwise, you need to choose an [_**option for Getting Actual Blockchain**_](/waves-node/options-for-getting-actual-blockchain.md).
 
 {% prettyhint type="info" %} If you're interested in joining the Testnet, you will need to follow these steps for<a href="/waves-node/joining-testnet.md">&nbsp;Joining The Testnet. </a> {% endprettyhint %}
-
-
-

@@ -32,4 +32,3 @@ java -Xmx4G -cp waves.jar org.h2.mvstore.MVStoreTool -compress state.dat
 ```
 
 Make sure to adjust paths to `waves.jar` and `state.dat` accordingly, if needed.
-

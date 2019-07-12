@@ -8,7 +8,7 @@ Objective: implement such voting among tenants on the Waves blockchain.
 
 1. Create an [account](/blockchain/account.md) of the head of the HOA.
 2. Create accounts of tenants.
-3. Create [dApp script](/blockchain/dapp-script.md) with the `vote` method.
+3. Create [dApp script](/ride/ride-script/dapp-script.md) with the `vote` method.
 4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/dapp.md).
 5. Vote from the accounts of tenants by invoking the `vote` method of the dApp.
 6. View the results of the voting.
@@ -31,7 +31,7 @@ Rename created account to "Head of HOA".
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-Copy the [address](/blockchain/address.md) of the head of HOA and top up its balance by 10 [WAVES](/blockchain/token/waves.md) using the [Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md). The head of HOA will need [tokens](/blockchain/token.md) to pay the [fee](/blockchain/transaction-fee.md) for the set script transaction when he will be attaching [dApp script](/blockchain/dapp-script.md) to his account.
+Copy the [address](/blockchain/address.md) of the head of HOA and top up its balance by 10 [WAVES](/blockchain/token/waves.md) using the [Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md). The head of HOA will need [tokens](/blockchain/token.md) to pay the [fee](/blockchain/transaction-fee.md) for the set script transaction when he will be attaching [dApp script](/ride/ride-script/dapp-script.md) to his account.
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -43,7 +43,7 @@ Similarly, create accounts of tenants Aleksei and Anna and top up their balances
 
 ## 3. Creation of a dApp script
 
-Create a [dApp script](/blockchain/dapp-script.md) by selecting **DApp** in the drop-down list.
+Create a [dApp script](/ride/ride-script/dapp-script.md) by selecting **DApp** in the drop-down list.
 
 <img src="img/voting/new-dapp-script.png" width="870"/>
 
@@ -57,35 +57,35 @@ Replace automatically generated code with the following:
 {-# STDLIB_VERSION 3 #-}
 {-# CONTENT_TYPE DAPP #-}
 {-# SCRIPT_TYPE ACCOUNT #-}
- 
+
 func voterIsAllowedToVote(voterPublicKey: ByteVector) = {
- 
+
     let alekseiPubKey = base58'8t38fWQhrYJsqxXtPpiRCEk1g5RJdq9bG5Rkr2N7mDFC'
     let annaPubKey = base58'BqHZaEwUMvoF8HKNC69gkHwQwHnw5FX9i67DJSH78z9E'
- 
+
     if (voterPublicKey != alekseiPubKey && voterPublicKey != annaPubKey)
     then
         false
     else
         true
- 
+
 }
- 
+
 @Callable(i)
 func vote(theVote: Int) = {
-     
+
     if(!voterIsAllowedToVote(i.callerPublicKey))
     then
         throw("You can not vote because you are not in the list of voters!")
     else
         let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
- 
+
         if(dataFromStorage.isDefined())
         then
             throw("You have already voted! Voting the second time is not allowed.")
         else
             WriteSet([DataEntry(i.callerPublicKey.toBase58String(), theVote)])
- 
+
 }
 ```
 

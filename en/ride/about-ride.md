@@ -2,7 +2,7 @@
 
 **RIDE** is a functional programming language based on expressions.
 
-RIDE is used to write [RIDE scripts](/ride/ride-script.md).
+RIDE is used for writing [scripts](/ride/ride-script.md).
 
 The language:
 

@@ -25,7 +25,7 @@ So, now just use the identificator on the DEX by putting ID to the search field
 > _Before sending, receiving and trading crypto assets, educate yourself to make informed decisions. Crypto assets are volatile, and the prices can go up and down. Carefully evaluate your trading goals and the financial risk you are willing to take.
 > Please beware that Wavesplatform does not provide financial, tax, or legal advice. You should make such decisions on your own or consult with reliable experts_.
 
-See more abount Waves DEX:
+See more about Waves DEX:
 
 * [Start trading on the Waves DEX](/waves-dex/start-trading-on-the-waves-dex.md)
 * [iOS: Start trading on the Waves DEX](/waves-client/mobile-apps/iOS/waves-dex/start-trading-on-the-waves-dex.md)
