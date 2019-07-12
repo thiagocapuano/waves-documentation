@@ -61,47 +61,6 @@
 * [Узел](blockchain/node.md)
 * [Хранилище данных аккаунта](blockchain/account-data-storage.md)
 
-## Waves Explorer
-
-* [О Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-the-test-network.md)
-
-## Waves Keeper
-
-* [О Waves Keeper](/waves-keeper/about-waves-keeper.md)
-
-## RIDE
-
-* [О RIDE](ride/about-ride.md)
-* [Скрипт на RIDE](ride/ride-script.md)
-  * [Скрипт аккаунта](ride/ride-script/account-script.md)
-  * [Скрипт ассета](ride/ride-script/asset-script.md)
-  * [dApp-скрипт](ride/ride-script/dapp-script.md)
-* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
-* [Неизменяемые переменные](ride/immutable-variables.md)
-* [Комментарии в коде](ride/comments-in-code.md)
-* [Типы данных](ride/data-types.md)
-* [Структуры](ride/structures.md)
-  * [Общие структуры](ride/structures/common-structures.md)
-* [Функции](ride/functions.md)
-  * [Вызываемая функция](ride/functions/callable-function.md)
-  * [Функция-верификатор](ride/functions/verifier-function.md)
-* [Встроенные функции](ride/built-in-functions.md)
-  * [Математические функции](ride/built-in-functions/math-functions.md)
-  * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
-  * [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
-  * [Функции списка](ride/built-in-functions/list-functions.md)
-  * [Функции строки](ride/built-in-functions/string-functions.md)
-  * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
-* [Аннотации](ride/annotations.md)
-* [Исключения](ride/exceptions.md)
-
-## Смарт-контракты (Waves dApps)
-
-* [Написание dApps](smart-contracts/writing-dapps.md)
-* [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
-* [Статьи о dApps](smart-contracts/articles-on-dapps.md)
-
 ## Waves приложение
 
 * [Установка Waves приложения](waves-client/install-waves-client.md)
@@ -216,6 +175,38 @@
 * [О Waves Keeper](waves-keeper/about-waves-keeper.md)
 * [Как использовать Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
 
+## RIDE
+
+* [О RIDE](ride/about-ride.md)
+  * [Скрипт на RIDE](ride/ride-script.md)
+    * [Скрипт аккаунта](ride/ride-script/account-script.md)
+    * [Скрипт ассета](ride/ride-script/asset-script.md)
+    * [dApp-скрипт](ride/ride-script/dapp-script.md)
+* [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
+* [Неизменяемые переменные](ride/immutable-variables.md)
+* [Комментарии в коде](ride/comments-in-code.md)
+* [Типы данных](ride/data-types.md)
+* [Структуры](ride/structures.md)
+  * [Общие структуры](ride/structures/common-structures.md)
+* [Функции](ride/functions.md)
+  * [Вызываемая функция](ride/functions/callable-function.md)
+  * [Функция-верификатор](ride/functions/verifier-function.md)
+* [Встроенные функции](ride/built-in-functions.md)
+  * [Математические функции](ride/built-in-functions/math-functions.md)
+  * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
+  * [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
+  * [Функции списка](ride/built-in-functions/list-functions.md)
+  * [Функции строки](ride/built-in-functions/string-functions.md)
+  * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
+* [Аннотации](ride/annotations.md)
+* [Исключения](ride/exceptions.md)
+
+## Смарт-контракты (Waves dApps)
+
+* [Написание dApps](smart-contracts/writing-dapps.md)
+* [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
+* [Статьи о dApps](smart-contracts/articles-on-dapps.md)
+
 ## Ноды Waves
 
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
@@ -223,31 +214,6 @@
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Matcher](waves-node/extensions/matcher.md)
-
-  ## RIDE
-
-  * [О RIDE](ride/about-ride.md)
-  * [Скрипт на RIDE](ride/ride-script.md)
-  * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
-  * [Неизменяемые переменные](ride/immutable-variables.md)
-  * [Комментарии в коде](ride/comments-in-code.md)
-  * [Типы данных](ride/data-types.md)
-  * [Структуры](ride/structures.md)
-  * [Функции](ride/functions.md)
-  * [Встроенные функции](ride/built-in-functions.md)
-    * [Математические функции](ride/built-in-functions/math-functions.md)
-    * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
-    * [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
-    * [Функции списка](ride/built-in-functions/list-functions.md)
-    * [Функции строки](ride/built-in-functions/string-functions.md)
-    * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
-  * [Исключения](ride/exceptions.md)
-
-  ## Смарт-контракты (Waves dApps)
-
-  * [Написание dApps](smart-contracts/writing-dapps.md)
-  * [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
-  * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Инструменты разработчика
 
