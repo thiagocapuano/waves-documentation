@@ -26,7 +26,7 @@
       "to": "/en/waves-node/node-api/example-transactions.html"
     },
     {
-      "from": "/en/getting-started/as-a-developer.html ",
+      "from": "/en/getting-started/as-a-developer.html",
       "to": "/en/getting-started/getting-started-for-developers.html"
     },
     {
@@ -42,7 +42,7 @@
       "to": "/en/blockchain/transaction-type/data-transaction.html"
     },
     {
-      "from": "/en/technical-details/waves-contracts-language-description.html ",
+      "from": "/en/technical-details/waves-contracts-language-description.html",
       "to": "/en/ride/about-ride.html"
     }
   ]
