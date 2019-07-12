@@ -38,7 +38,7 @@
 
 # Import blockchain
 
-1. Execute the following command [to import blocks from the binary file](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md) :
+1. Execute the following command [to import blocks from the binary file](/waves-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md) :
 ```
 # sudo -u waves waves import -c /etc/waves/waves.conf -i [input-file-name]
 ```
