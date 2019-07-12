@@ -1,51 +1,52 @@
-# Upgrading
+# Prerequisites
 
-1. First of all, you need to check the[ latest Waves Release.](https://github.com/wavesplatform/Waves/releases) and choose the latest Mainnet release.
-2. Download the DEB or Jar file depending on your operating system.
-3. Upgrade DEB by running the following command:
-   ```bash
-   sudo dpkg -i waves_X.Y.Z_all.deb
-   ```
-4. Or upgrade JAR by copying the new version over the old one
-5. Check the release notes. If there are new features to vote and activate, you will need to include that in the config.
+1. First of all, you need to check the [latest Waves Release.](https://github.com/wavesplatform/Waves/releases) and choose the latest Mainnet release.
+2. Second, identify your current version, which is logged in **/var/log/waves/waves.log** upon the node start or can be checked:
 
-## Upgrading the Node
+  a. If you are using **DEB**  package, then execute:
+```
+# dpkg -l waves
+```
+  b. If you are running **JAR** file, check the version in its name.
 
-Basically, the node should be upgraded as follows:  
-1. Stop the node  
-2. Export all existing blocks in the blockchain to a binary file. Please read the documentation about [_**export and import of the blockchain**_](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md) or [_**download the binary file**_](/waves-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md).  
-3. Update node's executables  
-4. Import binary file  
-5. Start the node
+3. Go through the release notes from your current version to the latest one and check if it is required to rebuild the state database. If required then export existing blocks.
 
-## Upgrading the Node to the Latest Version on Linux
+# Export existing blocks
 
 1. Stop the Node by executing the following command:
-   ```bash
-   sudo systemctl stop waves
-   ```
-2. After stopping the node execute following command to [export existing blocks to a binary file](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
-   ```bash
-   sudo -u waves exporter /etc/waves/waves.conf [output-file-name] [height]
-   ```
+```
+# sudo systemctl stop waves
+```
+2. After stopping the Node execute the following command to [export existing blocks to a binary file](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
+```
+# sudo -u waves waves export -c /etc/waves/waves.conf -o [output-file-name]
+```
 3. Remove data folder:
-   ```bash
-   sudo rm -rdf /var/lib/waves/data
-   ```
-4. Install the new version of the node:
-   ```bash
-   sudo dpkg -i waves_X.Y.Z_all.deb
-   ```
-5. [Import blocks from the binary file](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md):
-   ```bash
-   sudo -u waves importer /etc/waves/waves.conf [binary-file-name]
-   ```
-6. After import start the node:
-   ```bash
-   sudo systemctl start waves
-   ```
+```
+# sudo rm -rdf /var/lib/waves/data
+```
+
+# Install new version
+
+1. Download the **DEB** or **JAR** file depending on your operating system.
+2. Upgrade **JAR** by copying the new version over the old one or upgrade **DEB** by running the following command:
+```
+# sudo dpkg -i waves_X.Y.Z_all.deb
+```
+3. Check the release notes. If there are new features to vote and activate, you will need to include that in the config.
+4. If required Import the blockchain and start the node.
+
+# Import blockchain
+
+1. Execute the following command [to import blocks from the binary file](/waves-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md) :
+```
+# sudo -u waves waves import -c /etc/waves/waves.conf -i [input-file-name]
+```
+2. After import start the node:
+```
+# sudo systemctl start waves
+```
 
 ## Update the Configuration
 
 Please, read the updated documentation of [_**Waves node configuration file**_](/waves-node/configuration-parameters.md)_**.**_
-
