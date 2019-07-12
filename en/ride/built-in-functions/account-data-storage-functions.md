@@ -1,7 +1,6 @@
 # Account data storage functions
 
-> [!NOTE]
-> Learn more about [account data storage](/blockchain/account-data-storage.md).
+> Learn more about [account data storage](/blockchain/account-data-storage.md)
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |

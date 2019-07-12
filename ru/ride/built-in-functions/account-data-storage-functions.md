@@ -2,7 +2,7 @@
 
 > Подробнее о [хранилище данных аккаунта](/blockchain/account-data-storage.md)
 
-|   #   | Название | Описание | Сложность |
+| # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
 | 1 | [assetBalancе(Address&#124;Alias, ByteVector): Int](#asset-balance)  | Получает баланс аккаунта по ID токена | 100 |
 | 2 | [getBinary(Address&#124;Alias, String): ByteVector&#124;Unit](#get-binary)  | Получает массив байтов по ключу | 100 |
