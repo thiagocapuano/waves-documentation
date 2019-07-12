@@ -5,7 +5,7 @@ Waves client позволяет хранить и переводить Bitcoin C
 
 Всю исчерпывающую информацию о работе Bitcoin Cash шлюза вы найдёте в статье [Что такое платежный шлюз и как он работает?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-## Как получить Bitcoin Cash (временно недоступен)
+## Как получить Bitcoin Cash
 
 Откройте Waves приложение и войдите в свой Waves аккаунт.
 Нажмите на иконку ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) внизу страницы и затем нажмите на **Получить**.
@@ -35,7 +35,7 @@ Waves client позволяет хранить и переводить Bitcoin C
 
 **Важно**: Процесс обработки вашей входящей транзакции может занять до 120 минут.
 
-## Как отправить Bitcoin Cash (временно недоступен)
+## Как отправить Bitcoin Cash
 
 Откройте Waves приложение и войдите в свой Waves аккаунт.
 Нажмите на иконку ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) внизу вкладки и затем нажмите на кнопку **Отправить**.
