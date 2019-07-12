@@ -6,9 +6,59 @@
       "from": "/en/getting-started/as-a-developer.html"
     },
     {
+      "to": "/ru/getting-started/as-a-user.html",
+      "from": "/ru/getting-started/getting-started-for-users.html"
+    },
+    {
       "===============================  Blockchain  =====================================": null,
       "to": "/en/blockchain/transaction-type/data-transaction.html",
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
+    },
+    {
+      "===============================  Client  =====================================": null,
+      "to": "/ru/waves-dex/start-trading-on-the-waves-dex.html",
+      "from": "/ru/waves-client/waves-dex/start-trading-on-the-waves-dex.html"
+    },
+    {
+      "to": "/en/waves-client/mobile-apps/android/account-management/restore-an-account.html",
+      "from": "/en/mobile-apps/android/account-managment/restore-an-account.html"
+    },
+    {
+      "to": "/en/waves-client/transfers-and-gateways/waves-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/transfers-and-gateways/waves-transfers.html"
+    },
+    {
+      "to": "/en/waves-client/security-notes.html",
+      "from": "/en/waves-client/security/safe-place.html"
+    },
+    {
+      "to": "/en/waves-client/security-notes.html",
+      "from": "/en/overview/security-notes.html"
+    },
+    {
+      "to": "/en/waves-client/frequently-asked-questions-faq/waves-dex/asset-id.html",
+      "from": "/en/frequently-asked-questions-faq/waves-dex/asset-id.html"
+    },
+    {
+      "to": "/ru/waves-client/security-notes.html",
+      "from": "/ru/waves-client/security/safe-place.html"
+    },
+    {
+      "to": "/ru/waves-client/faq.html",
+      "from": "/ru/frequently-asked-questions-faq/waves-dex-faq.html"
+    },
+    {
+      "===============================  DEX  =====================================": null,
+      "to": "/ru/waves-dex/start-trading-on-the-waves-dex.html",
+      "from": "/ru/waves-client/waves-dex/start-trading-on-the-waves-dex.html"
+    },
+    {
+      "to": "/en/waves-dex/start-trading-on-the-waves-dex.html",
+      "from": "/en/waves-client/waves-dex/start-trading-on-the-waves-dex.html"
+    },
+    {
+      "to": "/ru/waves-dex/start-trading-on-the-waves-dex.html",
+      "from": "/ru/waves-client/waves-dex/start-trading-using-the-waves-dex.html"
     },
     {
       "===============================  RIDE  =====================================": null,
