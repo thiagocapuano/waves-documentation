@@ -8,6 +8,8 @@
 # dpkg -l waves
 ```
   b. If you are running **JAR** file, check the version in its name.
+
+
 3. Go through the release notes from your current version to the latest one and check if it is required to rebuild the state database. If required then export existing blocks.
 
 # Export existing blocks
