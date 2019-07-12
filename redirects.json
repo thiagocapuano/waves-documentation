@@ -1,52 +1,45 @@
 {
-
-"redirects":
-[
-  {
-    "===============================  Node  =====================================": null,
-    "to": "/en/waves-node/how-to-install-a-node/how-to-install-a-node.html",
-    "from": "/en/waves-full-node/how-to-install-a-node/how-to-install-a-node.html"
-  },
-  {
-    "to": "/en/waves-node/how-to-install-a-node/on-windows.html",
-    "from": "/en/waves-full-node/how-to-install-a-node/on-windows.html"
-  },
-  {
-    "to": "/en/waves-node/node-api/example-transactions.html",
-    "from": "/en/waves-api-and-sdk/waves-node-rest-api/example-transactions.html"
-  },
-  {
-    "to": "/en/waves-node/node-api.html",
-    "from": "/en/waves-api-and-sdk/waves-node-rest-api.html"
-  },
-  {
-     "from": "/en/blockchain/waves-protocol/leased-proof-of-stake-lpos.html",
-     "to": "/en/blockchain/waves-protocol/leased-proof-of-stake-lpos.html"
-  },
-  {
-    "from": "/en/smart-contracts/ride-language/ride-language.html",
-     "to": "/en/ride/about-ride.html"
-  },
-  {
-    "from": "/en/technical-details/smart-assets.html",
-    "to": "/en/smart-contracts/smart-assets"
-  },
-  {
-    "from": "/en/getting-started/as-a-developer.html",
-    "to": "/en/getting-started/getting-started-for-developers.html"
-  },
-
-  {
-    "from": "/ru/ru/ride/annotations.html",
-    "to": "/ru/ride/annotations.html"
-  },
-  {
-    "from": "/en/waves-environment/waves-protocol/data-transaction.html",
-    "to": "/en/blockchain/transaction-type/data-transaction.html"
-  },
-  {
-    "from": "/en/technical-details/waves-contracts-language-description.html",
-    "to": "/en/ride/about-ride.html"
-  }
-]
+  "redirects": [
+    {
+      "===============================  Getting started  =====================================": null,
+      "to": "/en/getting-started/getting-started-for-developers.html",
+      "from": "/en/getting-started/as-a-developer.html"
+    },
+    {
+      "===============================  Blockchain  =====================================": null,
+      "to": "/en/blockchain/transaction-type/data-transaction.html",
+      "from": "/en/waves-environment/waves-protocol/data-transaction.html"
+    },
+    {
+      "===============================  RIDE  =====================================": null,
+      "to": "/en/ride/about-ride.html",
+      "from": "/en/smart-contracts/ride-language/ride-language.html"
+    },
+    {
+      "to": "/en/ride/about-ride.html",
+      "from": "/en/technical-details/waves-contracts-language-description.html",
+    },
+    {
+      "===============================  Smart contracts  =====================================": null,
+      "to": "/en/smart-contracts/smart-assets",
+      "from": "/en/technical-details/smart-assets.html"
+    },
+    {
+      "===============================  Node  =====================================": null,
+      "to": "/en/waves-node/how-to-install-a-node/how-to-install-a-node.html",
+      "from": "/en/waves-full-node/how-to-install-a-node/how-to-install-a-node.html"
+    },
+    {
+      "to": "/en/waves-node/how-to-install-a-node/on-windows.html",
+      "from": "/en/waves-full-node/how-to-install-a-node/on-windows.html"
+    },
+    {
+      "to": "/en/waves-node/node-api/example-transactions.html",
+      "from": "/en/waves-api-and-sdk/waves-node-rest-api/example-transactions.html"
+    },
+    {
+      "to": "/en/waves-node/node-api.html",
+      "from": "/en/waves-api-and-sdk/waves-node-rest-api.html"
+    }
+  ]
 }
