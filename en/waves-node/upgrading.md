@@ -2,11 +2,13 @@
 
 1. First of all, you need to check the [latest Waves Release.](https://github.com/wavesplatform/Waves/releases) and choose the latest Mainnet release.
 2. Second, identify your current version, which is logged in **/var/log/waves/waves.log** upon the node start or can be checked:
-  a. If you are using **DEB**  package, then execute:
+
+  * If you are using **DEB**  package, then execute:
 ```
 # dpkg -l waves
 ```
-  b. If you are running **JAR** file, check the version in its name.
+  * If you are running **JAR** file, check the version in its name.
+
 3. Go through the release notes from your current version to the latest one and check if it is required to rebuild the state database. If required then export existing blocks.
 
 # Export existing blocks
