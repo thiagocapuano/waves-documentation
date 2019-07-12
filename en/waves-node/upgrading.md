@@ -1,16 +1,15 @@
 # Prerequisites
 
 1. First of all, you need to check the [latest Waves Release.](https://github.com/wavesplatform/Waves/releases) and choose the latest Mainnet release.
-2. Second, identify your current version, which is logged in **/var/log/waves/waves.log** upon the node start or can be checked:
+2. Second, identify your current version, which is logged in **/var/log/waves/waves.log** upon the node start or can be checked:<br>
   <ol type="a">
     <li>If you are using <b>DEB</b>  package, then execute:
 
     ```
     # dpkg -l waves
     ```
-
     </li>
-     <li>If you are running <b>JAR</b> file, check the version in its name.
+    <li>If you are running <b>JAR</b> file, check the version in its name.
     </li>
   </ol>
 
