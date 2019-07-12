@@ -173,7 +173,7 @@
 ## Waves Keeper
 
 * [О Waves Keeper](waves-keeper/about-waves-keeper.md)
-* [Как использовать Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
+* [Начало работы с Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
 
 ## RIDE
 

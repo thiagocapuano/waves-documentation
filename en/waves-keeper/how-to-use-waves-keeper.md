@@ -1,4 +1,4 @@
-## Introduction
+# Getting started with Waves Keeper
 
 Waves is a secure system, but we continue to take care of safekeeping of the clients funds. So, we developed and called it **Waves Keeper** because it allows you to hold your WAVES keys securely while interacting safely with third-party web resources. It is a kind of Simple Authentication and SSO for dApps or Waves-enabled web applications and enables you to sign transactions without entering your private key or password. Your seed is held securely within the extension and cannot be accessed by outside apps, keeping your funds safe from malicious sites.
 
@@ -6,13 +6,9 @@ SEEDs and private keys are encrypted and stored within the extension and cannot 
 
 Waves Keeper is designed for convenience, so you can sign transactions with just a couple of clicks. Users can create multiple wallets and switch between them easily, and if you ever forget the password to the account you can recover it from your SEED, as normal.
 
-## How to install Waves Keeper
+## Getting started
 
-Waves keeper extension available for [**Google Chrome**](https://chrome.google.com/webstore/detail/waves-keeper/lpilbniiabackdjcionkobglmddfbcjo?hl=en), [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/waves-keeper/), [**Opera**](https://addons.opera.com/ru/extensions/details/waves-keeper/) and [**Microsoft Edge**](https://www.microsoft.com/en-us/p/waves-keeper/9npz1hrq32nt?activetab=pivot:overviewtab) users.
-
-Choose, install and open up your Waves keeper.
-
-After installation you will be able to find installed extension at the top right corner. Click on it and click on the **Get Started**.
+[Download](/waves-keeper/about-waves-keeper.md) and launch Waves Keeper, then click on the **Get Started** button.
 
 ![](/_assets/waves_keeper_01.png)
 
