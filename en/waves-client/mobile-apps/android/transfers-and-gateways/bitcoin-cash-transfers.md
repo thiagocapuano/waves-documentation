@@ -4,7 +4,7 @@ Waves allow you to hold and transfer Bitcoin Cash on its blockchain. This works 
 
 Read more about [What is a payment gateway?](/waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
 
-## How to receive Bitcoin Cash (on the way)
+## How to receive Bitcoin Cash
 
 Open your Waves app and log in to your Account.
 At the bottom of the interface, click on the ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) and click on the **Receive**.
@@ -34,7 +34,7 @@ There you will find Bitcoin Cash address of your account. Copy it by clicking on
 
 **Note**: Processing may take up to 120 minutes.
 
-## How to send Bitcoin Cash (on the way)
+## How to send Bitcoin Cash
 
 Open your Waves app and log in to your Account.
 At the bottom of the interface, click on the ![](/waves-client/mobile-apps/_assets/waves_transfers_ios_01.png) and click on the **Send**.
