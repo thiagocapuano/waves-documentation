@@ -8,6 +8,7 @@
     ```
     # dpkg -l waves
     ```
+
     </li>
     <li>If you are running <b>JAR</b> file, check the version in its name.
     </li>
