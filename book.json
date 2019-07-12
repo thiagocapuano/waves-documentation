@@ -11,9 +11,14 @@
     "flexible-alerts",
     "anchor-navigation",
     "youtubex",
-    "gtm"
+    "gtm",
+    "bulk-redirect"
   ],
   "pluginsConfig": {
+    "bulk-redirect": {
+      "basepath": "/",
+      "redirectsFile": "redirects.json"
+    },
     "gtm": {
       "token": "GTM-KR7HQLF",
       "virtualPageViews": true
