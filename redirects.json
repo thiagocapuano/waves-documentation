@@ -44,10 +44,6 @@
       "from": "/ru/waves-client/security/safe-place.html"
     },
     {
-      "to": "/ru/waves-client/faq.html",
-      "from": "/ru/frequently-asked-questions-faq/waves-dex-faq.html"
-    },
-    {
       "===============================  DEX  =====================================": null,
       "to": "/ru/waves-dex/start-trading-on-the-waves-dex.html",
       "from": "/ru/waves-client/waves-dex/start-trading-on-the-waves-dex.html"
@@ -71,7 +67,7 @@
     },
     {
       "===============================  Smart contracts  =====================================": null,
-      "to": "/en/smart-contracts/smart-assets.html",
+      "to": "/en/smart-contracts/smart-assets",
       "from": "/en/technical-details/smart-assets.html"
     },
     {
