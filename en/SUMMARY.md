@@ -178,9 +178,9 @@
 
 * [About RIDE](ride/about-ride.md)
 * [RIDE script](ride/ride-script.md)
+  * [dApp script](ride/ride-script/dapp-script.md)
   * [Account script](ride/ride-script/account-script.md)
   * [Asset script](ride/ride-script/asset-script.md)
-  * [dApp script](ride/ride-script/dapp-script.md)
 * [RIDE script complexity](ride/ride-script-complexity.md)
 * [Immutable variables](ride/immutable-variables.md)
 * [Comments in code](ride/comments-in-code.md)
