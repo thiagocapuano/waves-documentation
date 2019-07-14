@@ -178,10 +178,10 @@
 ## RIDE
 
 * [О RIDE](ride/about-ride.md)
-  * [Скрипт на RIDE](ride/ride-script.md)
-    * [Скрипт аккаунта](ride/ride-script/account-script.md)
-    * [Скрипт ассета](ride/ride-script/asset-script.md)
-    * [dApp-скрипт](ride/ride-script/dapp-script.md)
+* [Скрипт на RIDE](ride/ride-script.md)
+  * [Скрипт аккаунта](ride/ride-script/account-script.md)
+  * [Скрипт ассета](ride/ride-script/asset-script.md)
+  * [dApp-скрипт](ride/ride-script/dapp-script.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 * [Неизменяемые переменные](ride/immutable-variables.md)
 * [Комментарии в коде](ride/comments-in-code.md)
