@@ -83,10 +83,6 @@
       "from": "/en/technical-details/smart-assets.html"
     },
     {
-      "to" : "/ru/smart-contracts/simple-voting-on-the-waves-blockchain.html",
-      "from": "/ru/ride/simple-voting-on-the-waves-blockchain.md "
-    },
-    {
       "===============================  Node  =====================================": null,
       "to": "/en/waves-node/how-to-install-a-node/how-to-install-a-node.html",
       "from": "/en/waves-full-node/how-to-install-a-node/how-to-install-a-node.html"
