@@ -20,6 +20,7 @@
 * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
 * [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
 * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
+* [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
 
 ### Ноды Waves
 

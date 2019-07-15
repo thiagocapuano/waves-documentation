@@ -23,6 +23,7 @@ Please select the page that fits you best:
 * [Leasing](blockchain/leasing.md)
 * [Mass transfer transaction](blockchain/transaction-type/mass-transfer-transaction.md)
 * [Order](blockchain/order.md)
+* [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
 * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
 * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
