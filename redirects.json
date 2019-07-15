@@ -19,12 +19,24 @@
       "from": "/en/waves-environment/waves-protocol/transactions-structure.html"
     },
     {
+      "to": "/en/blockchain/transaction-data-structure.html",
+      "from": "/en/blockchain/transaction-type-data-structure.html"
+    },
+    {
+      "to": "/en/blockchain/transaction-body-bytes.html",
+      "from": "/en/blockchain/waves-protocol/versioned-transactions.html"
+    },
+    {
       "to" :"/en/blockchain/token.html",
       "from": "/en/blockchain/custom-tokens.html"
     },
     {
       "to": "/en/blockchain/token.html",
       "from": "/en/blockchain/token/custom-tokens.html"
+    },
+    {
+      "to": "/en/blockchain/token/waves.html",
+      "from": "/en/blockchain/waves-tokens.html"
     },
     {
       "to": "/ru/blockchain/token/waves.html",
@@ -37,6 +49,10 @@
     {
       "to": "/en/blockchain/transaction-fee.html",
       "from": "/en/blockchain/transaction/transactions-fees.html"
+    },
+    {
+      "to": "/en/blockchain/transaction-type/data-transaction.html",
+      "from": "/en/blockchain/waves-protocol/data-transaction.html"
     },
     {
       "===============================  Client  =====================================": null,
@@ -147,8 +163,20 @@
       "from": "/en/blockchain-functions.html"
     },
     {
+      "to": "/en/ride/built-in-functions/converting-functions.html",
+      "from":"/en/converting-functions.html"
+    },
+    {
       "===============================  Smart contracts  =====================================": null,
-      "to": "/en/smart-contracts/smart-assets",
+      "to": "/en/smart-contracts/writing-dapps.html",
+      "from": "/en/blockchain/writing-dapps.html"
+    },
+    {
+      "to": "/en/smart-contracts/waves-smart-contracts-overview.html",
+      "from": "/en/blockchain/waves-protocol/smart-contracts.html"
+    },
+    {
+       "to": "/en/smart-contracts/smart-assets",
       "from": "/en/technical-details/smart-assets.html"
     },
     {
@@ -177,9 +205,23 @@
       "from": "/en/waves-api-and-sdk/waves-node-rest-api.html"
     },
     {
+      "=============================== Developer tools  =====================================": null,
+      "to": "/en/developer-tools/repl.html",
+      "from": "/en/developer-tools/waves-console/waves-console-examples.html"
+    },
+    {
       "===============================  API & SDK  =====================================": null,
       "to": "/en/waves-api-and-sdk/dex-api/matcher.html",
       "from": "/en/blockchain/node/matcher.html"
+    },
+    {
+      "to":"/en/waves-api-and-sdk/client-api/auth-api.html",
+      "from": "/en/development-and-api/client-api/auth-api.html"
+    },
+    {
+      "===============================  Resources  =====================================": null,
+      "to": "/en/resources/contributing.html",
+      "from": "/en/contributing.html"
     }
   ]
 }
