@@ -14,6 +14,7 @@
 * [Блок генезиса](blockchain/block/genesis-block.md)
 * [Ордер](blockchain/order.md)
 * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
+* [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
 * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
 
 ### Ноды Waves
