@@ -23,6 +23,7 @@ Please select the page that fits you best:
 * [Leasing](blockchain/leasing.md)
 * [Order](blockchain/order.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
+* [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
 
 ### Waves nodes
 
