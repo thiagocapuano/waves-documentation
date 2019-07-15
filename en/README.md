@@ -14,6 +14,7 @@ Please select the page that fits you best:
 
 ### Blockchain
 
+* [Order](blockchain/order.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
 
 ### Waves nodes
