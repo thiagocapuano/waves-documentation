@@ -34,6 +34,7 @@
     * [Бинарный формат транзакции создания псевдонима](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
     * [Бинарный формат транзакции сжигания токена](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
 * [Блок](blockchain/block.md)
+  * [Блок генезиса](blockchain/block/genesis-block.md)
 * [Блокчейн](blockchain/blockchain.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
 * [Высота блока](blockchain/block-height.md)

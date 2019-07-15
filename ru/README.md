@@ -11,6 +11,7 @@
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
 * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
+* [Блок генезиса](blockchain/block/genesis-block.md)
 * [Ордер](blockchain/order.md)
 * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
 
