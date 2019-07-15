@@ -53,6 +53,7 @@
   * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
   * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
+  * [Транзакция закрытия лизинга](blockchain/transaction-type/lease-cancel-transaction.md)
   * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
   * [Транзакция массового перевода](blockchain/transaction-type/mass-transfer-transaction.md)
   * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
