@@ -13,4 +13,3 @@ Waves Full Node provides access to the [REST API](/en/waves-node/node-api-overvi
 All libraries are open for contribution and testing.
 
 **Note**: Libraries above can upgrade later than REST API, use them wisely. If you want to use the latest features, please, use REST API directly. To use all features of REST API you have to set up a Full Node. If you want to use basic features you can use public nodes, for example, [https://nodes.wavesnodes.com/](https://nodes.wavesnodes.com/). The full list of public nodes is available [here](http://dev.pywaves.org/generators/).
-
