@@ -19,12 +19,20 @@
       "from": "/en/waves-environment/waves-protocol/transactions-structure.html"
     },
     {
+      "to": "en/blockchain/waves-protocol/data-structures.html",
+      "from": "/en/technical-details/transactions-structure.html"
+    },
+    {
+      "to": "en/blockchain/waves-protocol/data-structures.html",
+      "from": "/en/blockchain/waves-protocol/transactions-structure.html"
+    },
+    {
       "to": "/en/blockchain/transaction-data-structure.html",
       "from": "/en/blockchain/transaction-type-data-structure.html"
     },
     {
       "to": "/en/blockchain/waves-protocol/leased-proof-of-stake-lpos.html",
-      "from": "/en/waves-environment/waves-protocol/leased-proof-of-stake-lpos.html "
+      "from": "/en/waves-environment/waves-protocol/leased-proof-of-stake-lpos.html"
     },
     {
       "to": "/en/blockchain/transaction-body-bytes.html",
@@ -49,6 +57,10 @@
     {
       "to": "/en/blockchain/test-network.html",
       "from": "/en/blockchain/testnet.html"
+    },
+    {
+      "to": "/en/blockchain/test-network.html",
+      "from": "/en/blockchain/waves-testnet.html"
     },
     {
       "to": "/en/blockchain/transaction-fee.html",
@@ -171,7 +183,11 @@
       "from": "/en/technical-details/waves-contracts-language-description/approach-and-capabilities.html"
     },
     {
-      "to": "",
+      "to": "/en/ride/about-ride.html",
+      "from": "/en/ride/effective-ride-examples.html"
+    },
+    {
+      "to": "/en/ride/about-ride.html",
       "from": "/en/technical-details/waves-contracts-language-description/language-description.html"
     },
     {
@@ -179,19 +195,35 @@
       "from":"/en/technical-details/waves-contracts-language-description/standard-library.html"
     },
     {
+      "to": "/en/ride/ride-script.html",
+      "from": "/en/blockchain/script.html"
+    },
+    {
       "to": "/en/ride/functions.html",
       "from": "/en/blockchain-functions.html"
+    },
+    {
+      "to": "/en/ride/built-in-functions/built-in-functions.html",
+      "from": "/en/ride/built-in-functions.html"
     },
     {
       "to": "/en/ride/built-in-functions/converting-functions.html",
       "from":"/en/converting-functions.html"
     },
     {
-      "to": "ru/ride/built-in-functions/math-functions.html",
+      "to": "/ru/ride/built-in-functions/math-functions.html",
       "from": "/ru/ride/functions/math-functions.html"
     },
     {
+      "to":"/en/ride/built-in-functions/math-functions.html",
+      "from": "/en/ride/math-functions.html"
+    },
+    {
       "===============================  Smart contracts  =====================================": null,
+      "to":"/en/smart-contracts/what-is-a-dapp.html",
+      "from": "/en/smart-contracts/ride4dapps/overview.html"
+    },
+    {
       "to": "/en/smart-contracts/writing-dapps.html",
       "from": "/en/blockchain/writing-dapps.html"
     },
@@ -206,7 +238,7 @@
     {
       "===============================  Node  =====================================": null,
       "to": "/en/waves-node/what-is-a-full-node.html",
-      "from": "/en/waves-full-node/what-is-a-full-node.html "
+      "from": "/en/waves-full-node/what-is-a-full-node.html"
     },
     {
       "to": "/en/waves-node/what-is-a-full-node.html",
@@ -226,7 +258,7 @@
     },
     {
       "to": "/en/waves-node/upgrading.html",
-      "from": "/en/waves-full-node/upgrading.html "
+      "from": "/en/waves-full-node/upgrading.html"
     },
     {
       "to": "/en/waves-node/node-api/example-transactions.html",
@@ -234,7 +266,7 @@
     },
     {
       "to": "/en/waves-node/node-api/example-transactions.html",
-      "from": "/en/development-and-api/waves-node-rest-api/example-transactions.html "
+      "from": "/en/development-and-api/waves-node-rest-api/example-transactions.html"
     },
     {
       "to": "/en/waves-node/options-for-getting-actual-blockchain.html",
@@ -274,7 +306,7 @@
     },
     {
       "to": "/en/waves-node/private-waves-network.html",
-      "from": "/en/waves-full-node/private-waves-network.html "
+      "from": "/en/waves-full-node/private-waves-network.html"
     },
     {
       "=============================== Developer tools  =====================================": null,
@@ -289,6 +321,10 @@
     {
       "to":"/en/waves-api-and-sdk/client-api/auth-api.html",
       "from": "/en/development-and-api/client-api/auth-api.html"
+    },
+    {
+      "to": "/en/waves-api-and-sdk/examples/trading-bot.html",
+      "from": "/en/development-and-api/examples/trading-bot.html"
     },
     {
       "===============================  Oracles  =====================================": null,
