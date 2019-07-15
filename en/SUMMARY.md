@@ -32,7 +32,9 @@
     * [Alias transaction binary format](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
     * [Burn transaction binary format](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
     * [Data transaction binary format](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
+    * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
 * [Block](blockchain/block.md)
+  * [Genesis block](blockchain/block/genesis-block.md)
 * [Block height](blockchain/block-height.md)
 * [Blockchain](blockchain/blockchain.md)
 * [Blockchain height](blockchain/blockchain-height.md)
@@ -59,6 +61,7 @@
   * [Burn transaction](blockchain/transaction-type/burn-transaction.md)
   * [Data transaction](blockchain/transaction-type/data-transaction.md)
   * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
+  * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
