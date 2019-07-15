@@ -48,6 +48,46 @@
       "from": "/ru/waves-client/security/safe-place.html"
     },
     {
+      "to": "/en/waves-client/transfers-and-gateways/buying-waves-using-card.html",
+      "from": "/en/waves-client/transfers-and-gateways/buying-bitcoin-using-card.html"
+    },
+    {
+      "to": "/en/waves-client/transfers-and-gateways/litecoin-transfers.html",
+      "from": "/en/waves-client/transfers-and-gateways/transfers-and-gateways/litecoin-transfers.html"
+    },
+    {
+      "to": "/en/waves-client/account-management/restore-an-account.html",
+      "from": "/en/waves-clientx7f5zp0e/account-management/restore-an-account.html"
+    },
+    {
+      "to": "/en/waves-client/frequently-asked-questions-faq/waves-dex/asset-id.html",
+      "from": "/en/waves-dex/how-can-i-find-asset-on-the-dex-using-asset-id.html"
+    },
+    {
+      "to": "/en/waves-client/account-management.html",
+      "from": "/en/waves-client/account-management/account-migration.html"
+    },
+    {
+      "to": "/en/waves-client/account-management/creating-an-account.html",
+      "from": "/en/getting-started/waves-api-and-sdk/waves-api-and-sdk/waves-client/account-management/creating-an-account.html"
+    },
+    {
+      "to": "/en/waves-client/account-management.html",
+      "from": "/en/getting-started/waves-api-and-sdk/waves-api-and-sdk/waves-client/account-management.html"
+    },
+    {
+      "to": "/en/waves-client/onlinedesktop-apps.html",
+      "from": "/en/getting-started/waves-api-and-sdk/waves-api-and-sdk/waves-client/onlinedesktop-apps.html"
+    },
+    {
+      "to": "/en/waves-client/mobile-apps/android.html",
+      "from": "/en/waves-client/mobile-apps/android/android.html"
+    },
+    {
+      "to": "/en/waves-client/faq.html",
+      "from": "/en/waves-client/frequently-asked-questions-faq/account-management-faq.html"
+    },
+    {
       "===============================  DEX  =====================================": null,
       "to": "/ru/waves-dex/start-trading-on-the-waves-dex.html",
       "from": "/ru/waves-client/waves-dex/start-trading-on-the-waves-dex.html"
@@ -59,6 +99,11 @@
     {
       "to": "/ru/waves-dex/start-trading-on-the-waves-dex.html",
       "from": "/ru/waves-client/waves-dex/start-trading-using-the-waves-dex.html"
+    },
+    {
+      "===============================  Keeper  =====================================": null,
+      "to": "/en/waves-keeper/how-to-use-waves-keeper.html",
+      "from": "/en/waves-client/account-management/waves-keeper.html"
     },
     {
       "===============================  RIDE  =====================================": null,
