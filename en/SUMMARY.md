@@ -66,6 +66,7 @@
   * [Invoke script transaction](blockchain/transaction-type/invoke-script-transaction.md)
   * [Issue transaction](blockchain/transaction-type/issue-transaction.md)
   * [Lease transaction](blockchain/transaction-type/lease-transaction.md)
+  * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client

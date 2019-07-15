@@ -17,6 +17,7 @@
 * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
 * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
 * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
+* [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
 
 ### Ноды Waves
 
