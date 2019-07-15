@@ -1,11 +1,7 @@
 # Транзакция генезиса
 
-**Транзакция генезиса** — самая первая [транзакция](/blockchain/transaction.md) в блокчейне.
+**Транзакция генезиса** — [транзакция](/blockchain/transaction.md) [блока генезиса](/blockchain/block/genesis-block.md), которая начисляет [WAVES](/blockchain/token/waves.md) на [адрес](/blockchain/address.md).
 
-Транзакция генезиса отвечает за первоначальное распределение токенов между [адресами](/blockchain/address.md).
-
-В блокчейне может быть только одна транзакция генезиса.
-
-## Бинарный формат
+## Бинарный формат транзакции
 
 Смотрите страницу [Бинарный формат транзакции генезиса](/blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md).
