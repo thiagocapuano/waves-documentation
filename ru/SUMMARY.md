@@ -51,6 +51,7 @@
   * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
   * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
+  * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
   * [Транзакция сжигания токена](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
 * [Токен](blockchain/token.md)

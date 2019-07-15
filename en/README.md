@@ -14,6 +14,7 @@ Please select the page that fits you best:
 
 ### Blockchain
 
+* [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
 * [Order](blockchain/order.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
 
