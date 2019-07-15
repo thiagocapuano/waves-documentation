@@ -15,8 +15,28 @@
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
     },
     {
+      "to": "/en/blockchain/waves-protocol/data-structures.html",
+      "from": "/en/waves-environment/waves-protocol/transactions-structure.html"
+    },
+    {
+      "to" :"/en/blockchain/token.html",
+      "from": "/en/blockchain/custom-tokens.html"
+    },
+    {
+      "to": "/en/blockchain/token.html",
+      "from": "/en/blockchain/token/custom-tokens.html"
+    },
+    {
       "to": "/ru/blockchain/token/waves.html",
       "from": "/ru/overview/waves-tokens.html"
+    },
+    {
+      "to": "/en/blockchain/test-network.html",
+      "from": "/en/blockchain/testnet.html"
+    },
+    {
+      "to": "/en/blockchain/transaction-fee.html",
+      "from": "/en/blockchain/transaction/transactions-fees.html"
     },
     {
       "===============================  Client  =====================================": null,
@@ -123,6 +143,10 @@
       "from":"/en/technical-details/waves-contracts-language-description/standard-library.html"
     },
     {
+      "to": "/en/ride/functions.html",
+      "from": "/en/blockchain-functions.html"
+    },
+    {
       "===============================  Smart contracts  =====================================": null,
       "to": "/en/smart-contracts/smart-assets",
       "from": "/en/technical-details/smart-assets.html"
@@ -151,6 +175,11 @@
     {
       "to": "/en/waves-node/node-api.html",
       "from": "/en/waves-api-and-sdk/waves-node-rest-api.html"
-    }
+    },
+    {
+      "===============================  API & SDK  =====================================": null,
+      "to": "/en/waves-api-and-sdk/dex-api/matcher.html",
+      "from": "/en/blockchain/node/matcher.html"
+    },
   ]
 }
