@@ -58,6 +58,7 @@
   * [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
   * [Транзакция сжигания токена](blockchain/transaction-type/burn-transaction.md)
   * [Транзакция создания псевдонима](blockchain/transaction-type/alias-transaction.md)
+  * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
 * [Токен](blockchain/token.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WAVES](blockchain/token/waves.md)

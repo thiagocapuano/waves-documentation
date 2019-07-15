@@ -18,6 +18,7 @@
 * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
 * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
 * [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
+* [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
 
 ### Ноды Waves
 
