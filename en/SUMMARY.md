@@ -39,6 +39,7 @@
 * [Blockchain](blockchain/blockchain.md)
 * [Blockchain height](blockchain/blockchain-height.md)
 * [dApp](blockchain/dapp.md)
+* [Leasing](blockchain/leasing.md)
 * [Mainnet](blockchain/mainnet.md)
 * [Node](blockchain/node.md)
 * [Order](blockchain/order.md)
@@ -63,6 +64,7 @@
   * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
   * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
   * [Invoke script transaction](blockchain/transaction-type/invoke-script-transaction.md)
+  * [Lease transaction](blockchain/transaction-type/lease-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
