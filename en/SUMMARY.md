@@ -62,6 +62,7 @@
   * [Data transaction](blockchain/transaction-type/data-transaction.md)
   * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
   * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
+  * [Invoke script transaction](blockchain/transaction-type/invoke-script-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
 
 ## Waves Client
