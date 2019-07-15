@@ -19,6 +19,7 @@ Please select the page that fits you best:
 * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
 * [Invoke script transaction](blockchain/transaction-type/invoke-script-transaction.md)
 * [Issue transaction](blockchain/transaction-type/issue-transaction.md)
+* [Lease cancel transaction](blockchain/transaction-type/lease-cancel-transaction.md)
 * [Lease transaction](blockchain/transaction-type/lease-transaction.md)
 * [Leasing](blockchain/leasing.md)
 * [Mass transfer transaction](blockchain/transaction-type/mass-transfer-transaction.md)
