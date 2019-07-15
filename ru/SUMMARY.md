@@ -49,6 +49,7 @@
 * [Структура данных транзакции](blockchain/transaction-data-structure.md)
 * [Тестовая сеть](blockchain/test-network.md)
 * [Тип транзакции](blockchain/transaction-type.md)
+  * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
   * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
   * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)

@@ -17,6 +17,7 @@ Please select the page that fits you best:
 * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
 * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
 * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
+* [Invoke script transaction](blockchain/transaction-type/invoke-script-transaction.md)
 * [Order](blockchain/order.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
 

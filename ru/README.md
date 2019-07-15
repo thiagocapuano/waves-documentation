@@ -13,6 +13,7 @@
 * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
 * [Блок генезиса](blockchain/block/genesis-block.md)
 * [Ордер](blockchain/order.md)
+* [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
 * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
 
 ### Ноды Waves
