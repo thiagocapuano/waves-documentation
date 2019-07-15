@@ -1,7 +1,7 @@
-# Транзакция сжигания токенов
+# Транзакция сжигания токена
 
-**Транзакция сжигания токенов** — [транзакция](/blockchain/transaction.md), которая сжигает [токены](/blockchain/token.md).
+**Транзакция сжигания токена** — [транзакция](/blockchain/transaction.md), которая сжигает определенное количество [токена](/blockchain/token.md) на [адресе](/blockchain/address.md) отправителя.
 
 ## Бинарный формат
 
-Смотрите страницу [Бинарный формат транзакции сжигания токенов](/blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md).
+Смотрите страницу [Бинарный формат транзакции сжигания токена](/blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md).

@@ -1,6 +1,6 @@
 # Burn transaction
 
-**Burn transaction** is a [transaction](/blockchain/transaction.md) that burns [tokens](/blockchain/token.md).
+A **burn transaction** is a [transaction](/blockchain/transaction.md) that burns a certain amount of [token](/blockchain/token.md) at the [address](/blockchain/address.md) of the sender.
 
 ## Binary format
 
