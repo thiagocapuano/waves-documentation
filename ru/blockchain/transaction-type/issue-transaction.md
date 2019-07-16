@@ -16,7 +16,8 @@
 {
   "type": 3,
   "version": 1,
-  "chainId": 87"senderPublicKey": "FkoFqtAeibv2E6Y86ZDRfAkZz61LwUMjLAP2gmS1j7xe",
+  "chainId": 87,
+  "senderPublicKey": "FkoFqtAeibv2E6Y86ZDRfAkZz61LwUMjLAP2gmS1j7xe",
   "name": "The One Ring",
   "description": "Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul.",
   "amount": 1,
