@@ -4,13 +4,12 @@
 
 <img src="img/repl/repl.png" width="700px" />
 
-The console allows:
+You can write in the console any JavaScript code.
+
+The console has built-in functions which you can use to:
 
 * sign and send [transactions](/blockchain/transaction.md)
-* retrieve information about account balance
+* get account balance
 * read data from [account data storage](/blockchain/account-data-storage.md)
-* send and cancel orders on DEX
 
-You can write in the console any JavaScript code, including one that makes calls to the methods of the TypeScript library [Waves Transactions](https://github.com/wavesplatform/waves-transactions). The documentation on the Waves Transactions is available on [GitHub](https://wavesplatform.github.io/waves-transactions/).
-
-The console also has [objects and methods](https://wavesplatform.github.io/waves-transactions/globals.html) for accessing the environment of the Waves IDE.
+The documentation on the console functions is available on [GitHub](https://wavesplatform.github.io/js-test-env).
