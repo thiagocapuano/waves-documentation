@@ -106,7 +106,7 @@
   * [Сжигание токена](waves-client/assets-management/burn-an-asset.md)
   * [Распределение токена](waves-client/assets-management/mass-transfer.md)
   * [Спонсорские транзакции](waves-client/assets-management/sponsored-transaction.md)
-  * [Спосорская комиссия](waves-client/assets-management/sponsored-fee.md)
+  * [Спонсорская комиссия](waves-client/assets-management/sponsored-fee.md)
 * [Расширенные возможности](waves-client/advanced_features.md)
   * [Script транзакция](waves-client/advanced_features/script_transaction.md)
   * [JSON подтверждение](waves-client/advanced_features/json_confirmation.md)

@@ -8,4 +8,4 @@
 * [Сжигание токена](assets-management/burn-an-asset.md)
 * [Распределение токена](assets-management/mass-transfer.md)
 * [Спонсорские транзакции](assets-management/sponsored-transaction.md)
-* [Спосорская комиссия](assets-management/sponsored-fee.md)
+* [Спонсорская комиссия](assets-management/sponsored-fee.md)
