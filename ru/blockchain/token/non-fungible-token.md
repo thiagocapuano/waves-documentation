@@ -10,4 +10,4 @@
 
 ## Выпуск NFT
 
-Смотрите страницу [Транзакция выпуска](/blockchain/transaction-type/issue-transaction.md).
+Смотрите страницу [Транзакция выпуска](/blockchain/transaction-type/issue-transaction.md#nft).

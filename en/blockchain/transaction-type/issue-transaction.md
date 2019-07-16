@@ -2,7 +2,7 @@
 
 An **issue transaction** is a [transaction](/blockchain/transaction.md) that issues a new [token](/blockchain/token.md).
 
-## Issue of NFT
+## Issue of NFT <a id="nft"></a>
 
 The issue of an [NFT](/blockchain/token/non-fungible-token.md) is made by an issue transaction that has the "Amount" field equal 1, and the "Number of decimal places" and "Reissue flag" fields equal 0.
 
