@@ -6,5 +6,5 @@
 * [Android: Восстановление аккаунта](account-management/restore-an-account.md)
 * [Android: Вход в аккаунт](account-management/signing-in-to-your-account.md)
 * [Android: Ваш Waves адрес](account-management/waves-address.md)
-* [Android: Создание персонального алиаса](account-management/creating-an-alias.md)
+* [Android: Создание персонального Псевдонима](account-management/creating-an-alias.md)
 * [Android: Лизинг Waves токенов](account-management/waves-leasing.md)

@@ -8,5 +8,5 @@
 * [Waves Keeper](account-management/waves-keeper.md)
 * [Вход в аккаунт](account-management/signing-in-to-your-account.md)
 * [Ваш Waves адрес](account-management/waves-address.md)
-* [Создание персонального алиаса](account-management/creating-an-alias.md)
+* [Создание персонального Псевдонима](account-management/creating-an-alias.md)
 * [Лизинг Waves токенов](account-management/waves-leasing.md)

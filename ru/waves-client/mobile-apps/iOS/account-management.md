@@ -6,5 +6,5 @@
 * [iOS: Восстановление аккаунта](account-management/restore-an-account.md)
 * [iOS: Вход в аккаунт](account-management/signing-in-to-your-account.md)
 * [iOS: Ваш Waves адрес](account-management/waves-address.md)
-* [iOS: Создание персонального алиаса](account-management/creating-an-alias.md)
+* [iOS: Создание персонального Псевдонима](account-management/creating-an-alias.md)
 * [iOS: Лизинг Waves токенов](account-management/waves-leasing.md)
