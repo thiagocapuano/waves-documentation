@@ -4,13 +4,12 @@
 
 <img src="img/repl/repl.png" width="700px" />
 
-С помощью консоли вы можете:
+В консоли можно писать любой код на JavaScript.
+
+В консоли есть встроенные функции, с помощью которых можно:
 
 * подписывать и отправлять [транзакции](/blockchain/transaction.md)
-* получать информацию о балансе аккаунта
+* получать баланс аккаунта
 * читать данные из [хранилища данных аккаунта](/blockchain/account-data-storage.md)
-* отправлять и отменять ордера на DEX
 
-В консоли можно писать любой код на JavaScript, в том числе вызывающий методы TypeScript-библиотеки [Waves Transactions](https://github.com/wavesplatform/waves-transactions). Документация по Waves Transcations доступна на [GitHub](https://wavesplatform.github.io/waves-transactions/).
-
-У консоли также есть [объекты и функции](https://wavesplatform.github.io/waves-transactions/globals.html) для доступа к окружению Waves IDE.
+Документация по функциям консоли доступна на [GitHub](https://wavesplatform.github.io/js-test-env).
