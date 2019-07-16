@@ -10,4 +10,4 @@ NFTs are most commonly used in games.
 
 ## Issue of NFT
 
-See the page [Issue transaction](/en/blockchain/transaction-type/issue-transaction.md#nft).
+See the page [Issue transaction](/blockchain/transaction-type/issue-transaction.md#nft).
