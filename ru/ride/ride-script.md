@@ -12,4 +12,4 @@
 
 ## IDE
 
-В качестве среды разработки скриптов на RIDE можно использовать [Waves IDE](/developer-tools/waves-ide.md) или [Visual Studio Code](https://code.visualstudio.com/) с установленным расширением [waves-ride](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
+В качестве среды разработки [скриптов на RIDE](/ride/ride-script.md) можно использовать [Waves IDE](/developer-tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
