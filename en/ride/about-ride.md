@@ -12,7 +12,7 @@ The language:
 
 ## IDE
 
-As an IDE for writing RIDE scripts, you can use the [Waves IDE](/developer-tools/waves-ide.md) or [Visual Studio Code](https://code.visualstudio.com/) with the [waves-ride](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) extension installed.
+As an IDE for writing RIDE scripts, you can use the [Waves IDE](/developer-tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
 
 ## The history of creation
 
