@@ -11,7 +11,7 @@
 
 Verifies if a tree of hashes is part of the [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree).
 
-[Blake2b256](https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29) is used to hash the [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree).
+The [blake2b256](https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29) function is used for hashing the Merkle tree.
 
 ``` ride
 checkMerkleProof(merkleRoot: ByteVector, merkleProof: ByteVector, valueBytes: ByteVector): Boolean
