@@ -4,7 +4,7 @@
 
 | # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | [blake2b256(ByteVector): ByteVector](#blake2b256) | Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_%28хеш-функция%29) | 10 |
+| 1 | [blake2b256(ByteVector): ByteVector](#blake2b256) | Хеширует массив байтов с помощью алгоритма [blake2b256](https://ru.wikipedia.org/wiki/BLAKE_%28хеш-функция%29) | 10 |
 | 2 | [keccak256(ByteVector): ByteVector](#keccak256) | Хеширует массив байтов с помощью алгоритма [SHA-3-256](https://ru.wikipedia.org/wiki/SHA-3) | 10 |
 | 3 | [sha256(ByteVector): ByteVector](#sha256) | Хеширует массив байтов с помощью алгоритма [SHA-256](https://ru.wikipedia.org/wiki/SHA-2) | 10 |
 | 4 | [toBase16String(ByteVector): String](#to-base-16-string) | Кодирует массив байтов в строку [Base16](https://ru.wikipedia.org/wiki/Шестнадцатеричная_система_счисления) | 10 |
@@ -23,7 +23,7 @@
 
 ## blake2b256(ByteVector): ByteVector<a id="blake2b256"></a>
 
-Хеширует массив байтов с помощью алгоритма [BLAKE-256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция))
+Хеширует массив байтов с помощью алгоритма [blake2b256](https://ru.wikipedia.org/wiki/BLAKE_(хеш-функция))
 
 ``` ride
 blake2b256(bytes: ByteVector): ByteVector
