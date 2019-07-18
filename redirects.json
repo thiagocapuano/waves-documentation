@@ -15,15 +15,19 @@
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
     },
     {
+      "to": "/en/blockchain/mainnet.html",
+      "from": "/en/waves-environment/waves-mainnet.html"
+    },
+    {
       "to": "/en/blockchain/waves-protocol/data-structures.html",
       "from": "/en/waves-environment/waves-protocol/transactions-structure.html"
     },
     {
-      "to": "en/blockchain/waves-protocol/data-structures.html",
+      "to": "/en/blockchain/waves-protocol/data-structures.html",
       "from": "/en/technical-details/transactions-structure.html"
     },
     {
-      "to": "en/blockchain/waves-protocol/data-structures.html",
+      "to": "/en/blockchain/waves-protocol/data-structures.html",
       "from": "/en/blockchain/waves-protocol/transactions-structure.html"
     },
     {
