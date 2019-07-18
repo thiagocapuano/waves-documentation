@@ -41,6 +41,7 @@
 * [dApp](blockchain/dapp.md)
 * [Leasing](blockchain/leasing.md)
 * [Mainnet](blockchain/mainnet.md)
+* [Matcher fee](blockchain/matcher-fee.md)
 * [Node](blockchain/node.md)
 * [Order](blockchain/order.md)
 * [Smart account](blockchain/smart-account.md)
