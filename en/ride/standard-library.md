@@ -8,7 +8,6 @@
 | height| <a>Int</a> | Current blockchain height|
 | tx| [Order](#Order) [TransferTransaction](#TransferTransaction) [IssueTransaction](#IssueTransaction) [ReissueTransaction](#ReissueTransaction) [BurnTransaction](#BurnTransaction) [LeaseTransaction](#LeaseTransaction) [LeaseCancelTransaction](#LeaseCancelTransaction) [MassTransferTransaction](#MassTransferTransaction) [CreateAliasTransaction](#CreateAliasTransaction) [SetScriptTransaction](#SetScriptTransaction) [SponsorFeeTransaction](#SponsorFeeTransaction) [ExchangeTransaction](#ExchangeTransaction) [DataTransaction](#DataTransaction)|  Processing transaction|
 
-
 # Common fields
 |tx type|id | fee| timestamp|version|sender|senderPublicKey|bodyBytes|proofs|
 |---|---|---|---|---|---|---|---|---|
