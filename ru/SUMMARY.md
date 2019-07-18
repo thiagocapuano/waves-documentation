@@ -40,6 +40,7 @@
 * [Высота блока](blockchain/block-height.md)
 * [Высота блокчейна](blockchain/blockchain-height.md)
 * [Комиссия за транзакцию](blockchain/transaction-fee.md)
+* [Комиссия матчера](blockchain/matcher-fee.md)
 * [Лизинг](blockchain/leasing.md)
 * [Ордер](blockchain/order.md)
 * [Подпись транзакции](blockchain/transaction-signature.md)
