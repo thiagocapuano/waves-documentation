@@ -7,7 +7,3 @@
 В Waves IDE нет возможности выполнить отладку скрипта на RIDE.
 
 Лучший способ проверить работоспособность скрипта — написать тесты и запустить их в [тестовой сети](/blockchain/test-network.md).
-
-## Альтернативы Waves IDE
-
-Для написания кода на RIDE можно использовать [Visual Studio Code](https://code.visualstudio.com) с установленным расширением [waves-ride](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
