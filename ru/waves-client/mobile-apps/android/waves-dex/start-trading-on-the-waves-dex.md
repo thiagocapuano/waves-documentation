@@ -86,6 +86,4 @@
 
 ___
 
-
-
 Если у вас возникли проблемы с нашей платформой, пожалуйста, создайте билет [support] (https://support.wavesplatform.com/) или напишите [вопрос] (https://forum.wavesplatform.com/) на нашем форуме. '

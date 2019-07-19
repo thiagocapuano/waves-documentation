@@ -17,8 +17,6 @@ Seed фраза вашего аккаунта находится в раздел
 
 Если же при импорте секретной seed фразы вы получаете совершенно другой Waves адрес, в таком случае в импортируемой фразе есть изменения. Другими словами одна seed фраза, всегда генерирует только один Waves адрес. Если адрес другой это значит, что фраза имеет различия хотя бы в одном символе. Подробнее в [статье](/waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
 
-Больше информации:
-
 * [Заметки о безопасности](/overview/security-notes.md)
 * [Восстановление аккаунта](/waves-client/account-management/restore-an-account.md)
 * [iOS: Восстановление аккаунта](/waves-client/mobile-apps/iOS/account-management/restore-an-account.md)

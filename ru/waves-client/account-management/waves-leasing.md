@@ -47,8 +47,6 @@
 ![](/_assets/waves_leasing_07.png)
 ___
 
-
-
 Больше статей в разделе [Управление аккаунтом](/waves-client/account-management.md)
 
 Если у вас возникнут трудности с использованием нашей платформы, пожалуйста, создайте запрос в [службу поддержки](https://support.wavesplatform.com/) или задайте вопрос на нашем [форуме](https://forum.wavesplatform.com/).

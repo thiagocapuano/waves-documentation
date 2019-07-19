@@ -30,7 +30,7 @@
 ## Как использовать Ledger Nano S в Waves приложении
 
 1. Убедитесь, что ваш Ledger Nano S подключен и разблокирован, другие приложения не запущены и не перехватывают соединение между Ledger Nano и Waves приложением.
-2. Откройте онлайн Waves кошелёк [https://dex.wavesplatform.com](https://dex.wavesplatform.com) через браузер Google Chrome или Firefox или запустите [Настольную версию](https://wavesplatform.com/products-wallet) Waves приложения. 
+2. Откройте онлайн Waves кошелёк [https://dex.wavesplatform.com](https://dex.wavesplatform.com) через браузер Google Chrome или Firefox или запустите [Настольную версию](https://wavesplatform.com/products-wallet) Waves приложения.
 3. Нажмите на **Импорт аккаунтов** если вы впервые используете Waves приложение или нажмите на **Создать новый кошелек** > **Импортировать аккаунты**.
 4. Выбирете **Импортировать аккаунт с помощью Ledger Nano S**. После чего появится страница выбора адреса.
 
@@ -82,8 +82,6 @@ Ledger Nano S поддерживает столько Waves аккаунтов, 
 После этого вы будете перенаправлены на главную страницу Waves приложения. Все сделано!
 
 ___
-
-
 
 Больше статей в разделе [Управление аккаунтом](/waves-client/account-management.md)
 
