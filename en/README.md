@@ -14,6 +14,8 @@ Please select the page that fits you best:
 
 ### Blockchain
 
+* [Block binary format](blockchain/binary-format/block-binary-format.md)
+* [Block signature](blockchain/block-signature.md)
 * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
 * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
 * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
