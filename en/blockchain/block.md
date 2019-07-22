@@ -6,4 +6,4 @@ A block has the [height](/blockchain/block-height.md).
 
 ## Binary format
 
-See the page [Block binary format](/blockchain/binary-format/block-binary-format.md)
+See the page [Block binary format](/blockchain/binary-format/block-binary-format.md).
