@@ -22,7 +22,7 @@ where
 
 `T` is the block generation time in seconds fori-th account (30s &lt;= block generation time &lt;= 90s).
 
-`G` is the [generation signature](/blockchain/block-generation.md).
+`G` is the generation signature.
 
 `P` is the proportion of total mining power that thei-th account has and it depends on the account balance (the more balance a miner has, the more power to generate the next block).
 
