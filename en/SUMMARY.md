@@ -38,6 +38,8 @@
   * [Block height](blockchain/block-height.md)
   * [Block signature](blockchain/block/block-signature.md)
   * [Genesis block](blockchain/block/genesis-block.md)
+* [Block generation](blockchain/block-generation.md)
+  * [Base target](blockchain/block-generation/base-target.md)
 * [Blockchain](blockchain/blockchain.md)
   * [Blockchain height](blockchain/blockchain-height.md)
 * [dApp](blockchain/dapp.md)
