@@ -1,3 +1,3 @@
 # Block generation
 
-A **block generation** is a process of creation of new [blocks](/blockchain/block.md) on the [blockchain](/blockchain/blockchain.md).
+A **block generation** is a process of creation of a new [block](/blockchain/block.md) on the [blockchain](/blockchain/blockchain.md).
