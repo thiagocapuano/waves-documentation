@@ -36,7 +36,7 @@
     * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
 * [Block](blockchain/block.md)
   * [Block height](blockchain/block-height.md)
-  * [Block signature](blockchain/block-signature.md)
+  * [Block signature](blockchain/block/block-signature.md)
   * [Genesis block](blockchain/block/genesis-block.md)
 * [Blockchain](blockchain/blockchain.md)
   * [Blockchain height](blockchain/blockchain-height.md)
