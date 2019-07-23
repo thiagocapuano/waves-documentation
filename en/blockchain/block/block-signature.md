@@ -1,6 +1,6 @@
 # Block signature
 
-A **block signature** is the hash that miner acquires when he signs the [block](/blockchain/block.md) with his private key.
+A **block signature** is a hash that mining acquires when it signs the [generated block](/blockchain/block-generation.md) with the private key of the mining account.
 
 Hashing is done by [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash function which requires two input parameters:
 
