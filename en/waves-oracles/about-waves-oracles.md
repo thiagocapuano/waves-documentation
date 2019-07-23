@@ -9,7 +9,7 @@ Based on the tool provided, some users will be able to describe their protocols 
 1. [Create a Waves account](/waves-client/account-management.md) or use method GenerateAddress to get the address along with private and public keys\(one address can create one oracle\). The provider can also use an existing account and keys.
 2. Install [Waves Keeper](/waves-client/account-management/waves-keeper.md) for easy authorization.
 3. Open [Waves Oracles](https://oracles.wavesexplorer.com/) and choose Create an Oracle. It needs to be authorized by Waves Keeper.
-4. Fill the data provider information, create specification and send initiating [data transaction](/waves-environment/waves-protocol/data-transaction.md).
+4. Fill the data provider information, create specification and send initiating [data transaction](/blockchain/transaction-type/data-transaction.md).
 5. Oracle card created! Now you have a public card of your oracle, which will tell other users what kind of data and in what form your oracle will transfer from offchain to the blockchain. Next, start sending transaction in any convenient format supported by [Waves protocol.](/waves-environment/waves-protocol.md)
 
 ## Oracles Components
@@ -66,13 +66,13 @@ You can update the general attributes of the Oracle, such as an about, a link, o
 
 ## Initializing data transaction
 
-Initializing [data transaction](/waves-environment/waves-protocol/data-transaction.md) is a specific format set by Waves Platform, which allows you to categorize and describe Oracle data.
+Initializing [data transaction](/blockchain/transaction-type/data-transaction.md) is a specific format set by Waves Platform, which allows you to categorize and describe Oracle data.
 
 It is an usual data transaction that contains a well-defined set of attributes.
 
 The Waves Oracles tool helps in a user-friendly interface to create such Initializing data transactions.
 
-For a [data transaction](/waves-environment/waves-protocol/data-transaction.md) to be considered to initialize the Oracle, it must have a special attribute wpo\_oracle in the data\[\] array:
+For a [data transaction](/blockchain/transaction-type/data-transaction.md) to be considered to initialize the Oracle, it must have a special attribute wpo\_oracle in the data\[\] array:
 
 ```js
 {
