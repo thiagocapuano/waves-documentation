@@ -3,7 +3,6 @@
 * [Cryptographic Practical Details](/blockchain/waves-protocol/cryptographic-practical-details.md)
 * [Data Structures](/blockchain/waves-protocol/data-structures.md)
 * [Validation Rules](/blockchain/waves-protocol/validation-rules.md)
-* [Mass Transfer Transaction](/blockchain/waves-protocol/mass-transfer-transaction.md)
 * [Waves-NG Solution](/blockchain/waves-protocol/waves-ng-solution.md)
 * [Sponsored Fee](/blockchain/waves-protocol/sponsored-fee.md)
 * [Leased Proof of Stake (LPoS)](/blockchain/waves-protocol/leased-proof-of-stake-lpos.md)

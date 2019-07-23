@@ -554,7 +554,7 @@ The transaction's signature is calculated from the following bytes:
 
 The transaction signature is calculated from the fields 1 to 8.2, i.e. proofs and signatures are not included.
 
-**Note.** [**Here**](/waves-environment/waves-protocol/mass-transfer-transaction.md) you can find more details about Mass Transfer Transaction.
+**Note.** [**Here**](/blockchain/transaction-type/mass-transfer-transaction.md) you can find more details about Mass Transfer Transaction.
 
 Below is a sample **Mass Transfer transaction** encoded as **JSON**:
 
