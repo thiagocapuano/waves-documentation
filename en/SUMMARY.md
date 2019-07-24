@@ -32,6 +32,7 @@
     * [Alias transaction binary format](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
     * [Burn transaction binary format](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
     * [Data transaction binary format](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
+    * [Exchange transaction binary format](blockchain/binary-format/transaction-binary-format/exchange-transaction-binary-format.md)
     * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
 * [Block](blockchain/block.md)
   * [Block generation](blockchain/block/block-generation.md)
