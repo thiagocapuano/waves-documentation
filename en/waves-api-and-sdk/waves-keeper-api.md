@@ -537,7 +537,7 @@ Example:
 
 In case of a success, 0.00001000 WAVES is leased.
 
-#### [**Тype 9 LEASE CANCEL – cancel leasing**](/waves-environment/waves-protocol/data-structures.md)
+#### [**Тype 9 LEASE CANCEL – cancel leasing**](/blockchain/binary-format/transaction-binary-format/lease-cancel-transaction-binary-format.md)
 
 * `leaseId` string – leasing transaction ID,
 * `fee` MoneyLike -fee
@@ -565,7 +565,7 @@ Example:
 
 In case of a success, the leasing transaction is cancelled.
 
-#### [**Тype 10 CREATE ALIAS – creating an alias for an address**](/waves-environment/waves-protocol/data-structures.md)
+#### [**Тype 10 CREATE ALIAS – creating an alias for an address**](/blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
 
 * `alias`\[4, 30\] string - alias
 * `fee` MoneyLike -fee
@@ -593,7 +593,7 @@ Example:
 
 In case of a success, an alias \(another name\) is created.
 
-#### [**Тype 11 MASS TRANSFER - a mass transfer of an asset**](/waves-environment/waves-protocol/data-structures.md)
+#### [**Тype 11 MASS TRANSFER - a mass transfer of an asset**](/blockchain/binary-format/transaction-binary-format/mass-transfer-transaction-binary-format.md)
 
 * `totalAmount` moneyLike – total to be sent // instead of calculating the amount you may insert { assetId: "ID of the asset to be sent", coins: 0},
 * `transfers`  a mass of objects
@@ -628,7 +628,7 @@ Example:
 
 In case of a success, 0.002 WAVES will be sent to alias1 and alias2.
 
-#### [**Тype 12 DATA TRANSACTION - saving data**](/waves-environment/waves-protocol/data-structures.md)
+#### [**Тype 12 DATA TRANSACTION - saving data**](/blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
 
 * `data`  mass of objects
   * `type` "binary"/string/"integer"/"boolean" - type,
@@ -664,7 +664,7 @@ Field:
 
 In case of a success, new data will be stored in the state.
 
-#### [**Тype 13 SET SCRIPT – scrypting an account**](/waves-environment/waves-protocol/data-structures.md)
+#### [**Тype 13 SET SCRIPT – scrypting an account**](/blockchain/binary-format/transaction-binary-format/set-script-transaction-binary-format.md)
 
 * `script` string - [script](/smart-contracts/smart-accounts.md)
 * `fee` MoneyLike -fee
@@ -715,7 +715,7 @@ Example 2:
 
 In case of a success, a new script will be added to the account, allowing any transactions without a signature \(be careful!\).
 
-[**Тype 14 Sponsored Fee Transaction - Sponsorship**](/waves-environment/waves-protocol/data-structures.md)
+[**Тype 14 Sponsored Fee Transaction - Sponsorship**](/blockchain/binary-format/transaction-binary-format/sponsorship-transaction-binary-format.md)
 
 * `minSponsoredAssetFee` MoneyLike – fee price in the asset.
 * `fee` MoneyLike - fee
@@ -746,7 +746,7 @@ Example:
 
 In case of a success, a transfer fee can be paid in the asset.
 
-#### [**Тype 15 SET ASSET SCRIPT – setting a script to an asset**](/waves-environment/waves-protocol/data-structures.md)
+#### [**Тype 15 SET ASSET SCRIPT – setting a script to an asset**](/blockchain/binary-format/transaction-binary-format/set-asset-script-transaction-binary-format.md)
 
 * `assetId` string – asset ID
 * `script` string – [script](https://docs.wavesplatform.com/en/technical-details/waves-contracts-language-description/creating-and-deploying-a-script-manually.html#section-5e6520b97a7ead921d7fb6bce7292ce0)
@@ -778,7 +778,7 @@ Example:
 
 In case of a success, the asset's script will be reset.
 
-#### [Тype 16 SCRIPT INVOCATION - call account script function \*\(testnet only\)](/waves-environment/waves-protocol/data-structures.md)
+#### [Тype 16 SCRIPT INVOCATION - call account script function \*\(testnet only\)](/blockchain/binary-format/transaction-binary-format/invoke-script-transaction-binary-format.md)
 
 * `dappAddress` string – address script account
 * `fee` MoneyLike – fee

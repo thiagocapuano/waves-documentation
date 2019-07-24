@@ -11,7 +11,6 @@
 
 * [Waves protocol](blockchain/waves-protocol.md)
   * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
-  * [Data structures](blockchain/waves-protocol/data-structures.md)
   * [Validation rules](blockchain/waves-protocol/validation-rules.md)
   * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
   * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
@@ -39,7 +38,7 @@
     * [Score message binary format](blockchain/binary-format/network-message-binary-format/score-message-binary-format.md)
     * [Signatures message binary format](blockchain/binary-format/network-message-binary-format/signatures-message-binary-format.md)
     * [Transaction message binary format](blockchain/binary-format/network-message-binary-format/transaction-message-binary-format.md)
-
+  * [Order binary format](blockchain/binary-format/order-binary-format.md)
   * [Transaction binary format](blockchain/binary-format/transaction-binary-format.md)
     * [Alias transaction binary format](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
     * [Burn transaction binary format](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
@@ -56,6 +55,7 @@
     * [Set script transaction binary format](blockchain/binary-format/transaction-binary-format/set-script-transaction-binary-format.md)
     * [Sponsorship transaction binary format](blockchain/binary-format/transaction-binary-format/sponsorship-transaction-binary-format.md)
     * [Transfer transaction binary format](blockchain/binary-format/transaction-binary-format/transfer-transaction-binary-format.md)
+  * [Transaction proof binary format](blockchain/binary-format/transaction-proof-binary-format.md)
 * [Block](blockchain/block.md)
   * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)
