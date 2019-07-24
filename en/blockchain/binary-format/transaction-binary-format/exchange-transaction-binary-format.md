@@ -1,4 +1,6 @@
-# Exchange Transaction V1
+# Exchange transaction binary format
+
+## Binary format Version 1
 
 | # | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
@@ -31,7 +33,7 @@ The transaction's signature is calculated from the following bytes:
 | 10 | Fee | Long | 8 |
 | 11 | Timestamp | Long | 8 |
 
-# Exchange Transaction V2
+## Binary format Version 2
 
 | # | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |

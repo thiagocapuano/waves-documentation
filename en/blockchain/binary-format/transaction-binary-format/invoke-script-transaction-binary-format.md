@@ -1,4 +1,4 @@
-# Invoke Script Transaction
+# Invoke script transaction binary format
 
 | # | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |

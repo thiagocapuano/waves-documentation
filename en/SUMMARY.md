@@ -38,6 +38,8 @@
     * [Issue transaction binary format](blockchain/binary-format/transaction-binary-format/issue-transaction-binary-format.md)
     * [Lease cancel transaction binary format](blockchain/binary-format/transaction-binary-format/lease-cancel-transaction-binary-format.md)
     * [Lease transaction binary format](blockchain/binary-format/transaction-binary-format/lease-transaction-binary-format.md)
+    * [Mass transfer transaction binary format](blockchain/binary-format/transaction-binary-format/mass-transfer-transaction-binary-format.md)
+    * [Reissue transaction binary format](blockchain/binary-format/transaction-binary-format/reissue-transaction-binary-format.md)
 * [Block](blockchain/block.md)
   * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)

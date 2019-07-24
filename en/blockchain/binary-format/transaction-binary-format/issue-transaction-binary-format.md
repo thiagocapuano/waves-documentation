@@ -1,4 +1,6 @@
-# Issue transaction V1
+# Issue transaction binary format
+
+## Binary format Version 1
 
 | # | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
@@ -32,7 +34,7 @@ The transaction's signature is calculated from the following bytes:
 | 8 | Fee | Long | 8 |
 | 9 | Timestamp | Long | 8 |
 
-# Issue Transaction V2
+## Binary format Version 2
 
 | # | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |

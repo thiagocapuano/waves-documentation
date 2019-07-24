@@ -1,4 +1,6 @@
-# Lease Transaction V1
+# Lease transaction binary format
+
+## Binary format Version 1
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
@@ -21,7 +23,7 @@ The transaction's signature is calculated from the following bytes:
 | 5 | Fee | Long | 8 |
 | 6 | Timestamp | Long | 8 |
 
-#### Lease Transaction V2
+## Binary format Version 2
 
 | # | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
