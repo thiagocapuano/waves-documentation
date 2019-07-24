@@ -34,6 +34,8 @@
     * [Data transaction binary format](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
     * [Exchange transaction binary format](blockchain/binary-format/transaction-binary-format/exchange-transaction-binary-format.md)
     * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
+    * [Invoke script binary format](blockchain/binary-format/transaction-binary-format/invoke-script-transaction-binary-format.md)
+    * [Issue transaction binary format](blockchain/binary-format/transaction-binary-format/issue-transaction-binary-format.md)
 * [Block](blockchain/block.md)
   * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)
