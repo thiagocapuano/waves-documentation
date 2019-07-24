@@ -35,7 +35,7 @@
     * [Get peers message binary format](blockchain/binary-format/network-messages-binary-format/get-peers-message-binary-format.md)
     * [Get signatures message binary format](blockchain/binary-format/network-messages-binary-format/get-signatures-message-binary-format.md)
     * [Handshake message binary format](blockchain/binary-format/network-messages-binary-format/handshake-message-binary-format.md)
-    * [Peers message binary format](en/blockchain/binary-format/network-messages-binary-format/peers-message-binary-format.md)
+    * [Peers message binary format](blockchain/binary-format/network-messages-binary-format/peers-message-binary-format.md)
 
   * [Transaction binary format](blockchain/binary-format/transaction-binary-format.md)
     * [Alias transaction binary format](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
