@@ -8,10 +8,12 @@
 
 ### Блокчейн
 
+* [Базовая цель](blockchain/block/block-generation/base-target.md)
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
 * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
 * [Блок генезиса](blockchain/block/genesis-block.md)
+* [Генерация блока](blockchain/block/block-generation.md)
 * [Комиссия матчера](blockchain/matcher-fee.md)
 * [Лизинг](blockchain/leasing.md)
 * [Майнер](blockchain/mining/miner.md)

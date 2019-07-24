@@ -36,6 +36,8 @@
 * [Блок](blockchain/block.md)
   * [Блок генезиса](blockchain/block/genesis-block.md)
   * [Высота блока](blockchain/block/block-height.md)
+  * [Генерация блока](blockchain/block/block-generation.md)
+    * [Базовая цель](blockchain/block/block-generation/base-target.md)
 * [Блокчейн](blockchain/blockchain.md)
 * [Валидация транзакции](blockchain/transaction-validation.md)
 * [Высота блокчейна](blockchain/blockchain-height.md)
