@@ -28,6 +28,8 @@
   * [Address binary format](blockchain/binary-format/address-binary-format.md)
   * [Alias binary format](blockchain/binary-format/alias-binary-format.md)
   * [Block binary format](blockchain/binary-format/block-binary-format.md)
+  * [Network message binary format](blockchain/binary-format/network-messages-binary-format.md)
+    * [Checkpoint message binary format](blockchain/binary-format/network-messages-binary-format/checkpoint-message-binary-format.md)
   * [Transaction binary format](blockchain/binary-format/transaction-binary-format.md)
     * [Alias transaction binary format](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
     * [Burn transaction binary format](blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.md)
