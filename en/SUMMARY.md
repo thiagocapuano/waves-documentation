@@ -34,7 +34,7 @@
     * [Data transaction binary format](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
     * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
 * [Block](blockchain/block.md)
-  * [Block generation](blockchain//block/block-generation.md)
+  * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)
   * [Block height](blockchain/block/block-height.md)
   * [Block signature](blockchain/block/block-signature.md)
