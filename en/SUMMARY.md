@@ -40,6 +40,8 @@
     * [Lease transaction binary format](blockchain/binary-format/transaction-binary-format/lease-transaction-binary-format.md)
     * [Mass transfer transaction binary format](blockchain/binary-format/transaction-binary-format/mass-transfer-transaction-binary-format.md)
     * [Reissue transaction binary format](blockchain/binary-format/transaction-binary-format/reissue-transaction-binary-format.md)
+    * [Set asset script transaction binary format](blockchain/binary-format/transaction-binary-format/set-asset-script-transaction-binary-format.md)
+    * [Set script transaction binary format](blockchain/binary-format/transaction-binary-format/set-script-transaction-binary-format.md)
 * [Block](blockchain/block.md)
   * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)
