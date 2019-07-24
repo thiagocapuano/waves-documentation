@@ -21,6 +21,7 @@
 * [Майнящий аккаунт](blockchain/mining/mining-account.md)
 * [Майнящий узел](blockchain/mining/mining-node.md)
 * [Ордер](blockchain/order.md)
+* [Подпись блока](blockchain/block/block-signature.md)
 * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
 * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
 * [Транзакция закрытия лизинга](blockchain/transaction-type/lease-cancel-transaction.md)
