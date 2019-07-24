@@ -117,7 +117,7 @@ The assets that were issued without a script cannot become scripted. You can cre
 
 ## Changing a Smart Asset's Script
 
-A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](../waves-environment/waves-protocol/data-structures.md) \([fee](../technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
+A smart asset’s script can be changed via [_**SetAssetScriptTransaction**_](/blockchain/binary-format/transaction-binary-format/set-asset-script-transaction-binary-format.md) \([fee](../technical-details/transactions-fees.md) on changing is equal to 1 WAVES\).
 
 Only the issuer can change the asset's script.
 
@@ -236,4 +236,3 @@ In this case, the following validations are performed:
 \*Matcher validates Orders by the assets’ scripts as follows: the matcher creates an auxiliary counter-order, puts the two orders to an ExchangeTransaction and validates this transaction via the assets scripts’ “case tx: ExchangeTx =&gt; …” branches.
 
 As a result, for the Orders placement Alice pays fee=0.011 waves to the matcher, Bob pays fee=0.011 waves to the matcher. When the ExchangeTransaction is being put into the blockchain, the fee payed by the matcher is 0.011+0.004\(because of the matcher’s script\)=0.015 waves.
-
