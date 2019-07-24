@@ -1,4 +1,4 @@
-# Network messages binary format
+# Network message binary format
 
 All network messages shares the same structure except the Handshake.
 
