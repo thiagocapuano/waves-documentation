@@ -1,4 +1,6 @@
-# Lease Cancel Transaction V1
+# Lease Cancel transaction binary format
+
+## Binary format version 1
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
@@ -9,7 +11,7 @@
 | 5 | Lease ID | ByteStr \(Array[Byte]\) | 32
 | 6 | Signature | ByteStr \(Array[Byte]\) | 64
 
-# Lease Cancel Transaction V2
+## Binary format version 2
 
 | \# | Field name | Type | Length in Bytes |
 | --- | --- | --- | --- |
