@@ -29,9 +29,11 @@
   * [Alias binary format](blockchain/binary-format/alias-binary-format.md)
   * [Block binary format](blockchain/binary-format/block-binary-format.md)
   * [Network message binary format](blockchain/binary-format/network-message-binary-format.md)
-    * [Block message binary format](blockchain/binary-format/network-messages-binary-format/block-message-binary-format.md) 
+    * [Block message binary format](blockchain/binary-format/network-messages-binary-format/block-message-binary-format.md)
     * [Checkpoint message binary format](blockchain/binary-format/network-messages-binary-format/checkpoint-message-binary-format.md)
     * [Get block message binary format](blockchain/binary-format/network-messages-binary-format/get-block-message-binary-format.md)
+    * [Get peers message binary format](blockchain/binary-format/network-messages-binary-format/get-peers-message-binary-format.md)
+    * [Get signatures message binary format](blockchain/binary-format/network-messages-binary-format/get-signatures-message-binary-format.md)
 
   * [Transaction binary format](blockchain/binary-format/transaction-binary-format.md)
     * [Alias transaction binary format](blockchain/binary-format/transaction-binary-format/alias-transaction-binary-format.md)
