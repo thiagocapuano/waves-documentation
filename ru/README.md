@@ -43,7 +43,7 @@
 * [Аккаунт](blockchain/account.md)
 * [Блок](blockchain/block.md)
 * [Блокчейн](blockchain/blockchain.md)
-* [Высота блока](blockchain/block-height.md)
+* [Высота блока](blockchain/block/block-height.md)
 * [Высота блокчейна](blockchain/blockchain-height.md)
 * [Матчер](waves-node/extensions/matcher.md)
 * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
