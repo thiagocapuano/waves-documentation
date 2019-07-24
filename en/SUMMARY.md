@@ -34,6 +34,8 @@
     * [Data transaction binary format](blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md)
     * [Exchange transaction binary format](blockchain/binary-format/transaction-binary-format/exchange-transaction-binary-format.md)
     * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
+    * [Lease cancel transaction binary format](blockchain/binary-format/transaction-binary-format/lease-cancel-transaction-binary-format.md)
+    * [Lease transaction binary format](blockchain/binary-format/transaction-binary-format/lease-transaction-binary-format.md)
 * [Block](blockchain/block.md)
   * [Block generation](blockchain/block/block-generation.md)
     * [Base target](blockchain/block/block-generation/base-target.md)
