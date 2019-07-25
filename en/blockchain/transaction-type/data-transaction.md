@@ -8,7 +8,7 @@ Each data transaction has a **data array** that contains data to be written. In 
 
 The maximum length of an array is 100 elements.
 
-The maximum size of an array is 140 kilobytes.
+The maximum size of an array is 150 kilobytes.
 
 Each element of an array is an object that has 3 fields: `key`, `type`, `value`.
 
