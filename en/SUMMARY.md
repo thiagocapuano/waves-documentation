@@ -99,6 +99,7 @@
   * [Lease cancel transaction](blockchain/transaction-type/lease-cancel-transaction.md)
   * [Lease transaction](blockchain/transaction-type/lease-transaction.md)
   * [Mass transfer transaction](blockchain/transaction-type/mass-transfer-transaction.md)
+  * [Reissue transaction](blockchain/transaction-type/reissue-transaction.md)
   * [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
   * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
   * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)

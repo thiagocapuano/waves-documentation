@@ -24,6 +24,7 @@
 * [Подпись блока](blockchain/block/block-signature.md)
 * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
 * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
+* [Транзакция довыпуска](blockchain/transaction-type/reissue-transaction.md)
 * [Транзакция закрытия лизинга](blockchain/transaction-type/lease-cancel-transaction.md)
 * [Транзакция массового перевода](blockchain/transaction-type/mass-transfer-transaction.md)
 * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)

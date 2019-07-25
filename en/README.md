@@ -33,6 +33,7 @@ Please select the page that fits you best:
 * [Mining account](blockchain/mining-account.md)
 * [Mining node](blockchain/mining/mining-node.md)
 * [Order](blockchain/order.md)
+* [Reissue transaction](blockchain/transaction-type/reissue-transaction.md)
 * [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
 * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
