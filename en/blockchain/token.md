@@ -6,4 +6,4 @@ A **token** is an object on the [blockchain](/blockchain/blockchain.md) that rep
 
 Each token has a unique ID.
 
-Token ID is an [ID](/blockchain/transaction.md#transaction-id) of the [issue transaction](/blockchain/transaction-type/issue-transaction.md)
+**Token ID** is an [ID](/blockchain/transaction.md#transaction-id) of the [issue transaction](/blockchain/transaction-type/issue-transaction.md)
