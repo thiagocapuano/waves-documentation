@@ -2,7 +2,7 @@
 
 **Транзакция генезиса** — [транзакция](/blockchain/transaction.md) [блока генезиса](/blockchain/block/genesis-block.md), которая начисляет [WAVES](/blockchain/token/waves.md) на [аккаунт](/blockchain/account.md).
 
-Транзакции генезиса отвечают за первоначальное распределение WAVES между аккаунтами создаваемого [блокчейна](/blockchain/blockchain.md).
+Транзакции генезиса отвечают за первоначальное распределение WAVES между аккаунтами [блокчейна](/blockchain/blockchain.md).
 
 ## Бинарный формат транзакции
 
