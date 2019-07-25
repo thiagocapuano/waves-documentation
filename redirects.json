@@ -15,6 +15,10 @@
       "from": "/en/waves-environment/waves-protocol/data-transaction.html"
     },
     {
+      "to": "/en/blockchain/binary-format.html",
+      "from": "/en/blockchain/waves-protocol/data-structures.html"
+    },
+    {
       "to": "/en/blockchain/block/block-height.html",
       "from": "/en/blockchain/block-height.html"
     },
