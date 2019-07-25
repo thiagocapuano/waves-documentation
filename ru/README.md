@@ -8,6 +8,7 @@
 
 ### Блокчейн
 
+* [BurnTransaction](ride/structures/transaction-structures/burn-transaction-structure.md)
 * [Базовая цель](blockchain/block/block-generation/base-target.md)
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
@@ -22,6 +23,7 @@
 * [Майнящий узел](blockchain/mining/mining-node.md)
 * [Ордер](blockchain/order.md)
 * [Подпись блока](blockchain/block/block-signature.md)
+* [Структуры транзакций](ride/structures/transaction-structures.md)
 * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
 * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
 * [Транзакция довыпуска](blockchain/transaction-type/reissue-transaction.md)
