@@ -35,4 +35,4 @@
 
 ## Бинарный формат
 
-Смотрите страницу [Бинарный формат транзакции данных](/ru/blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md).
+Смотрите страницу [Бинарный формат транзакции данных](/blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md).
