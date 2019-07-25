@@ -36,3 +36,7 @@ To issue NFTs you can use the [waves-games](https://www.npmjs.com/package/@waves
   "height": 193
 }
 ```
+
+## Binary format
+
+See the page [Issue transaction binary format](/blockchain/binary-format/transaction-binary-format/issue-transaction-binary-format.md).
