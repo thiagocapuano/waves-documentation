@@ -37,7 +37,7 @@ Copy the [address](/blockchain/address.md) of the head of HOA and top up its bal
 
 ## 2. Creation of accounts of tenants
 
-Similarly, create accounts of tenants Aleksei and Anna and top up their balances by 10 WAVES. They will need tokens to pay a fee for the invoke script transaction when they will vote by calling the `vote` method of the dApp.
+Similarly, create accounts of tenants Aleksei and Anna and top up their balances by 10 WAVES. They will need tokens to pay a fee for the [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md) when they will vote by calling the `vote` method of the dApp.
 
 <img src="img/voting/accounts-residents.png" width="250"/>
 
@@ -135,7 +135,7 @@ Note that you can also sign a transaction with a seed phrase or using the [Waves
 
 <img src="img/voting/seed-and-waves-keeper.png" width="300"/>
 
-Send a set script transaction from the account of the head of the HOA by pressing **Publish**. By doing so, you just created a [dApp](/blockchain/dapp.md).
+Send a [set script transaction](/blockchain/transaction-type/set-script-transaction.md) from the account of the head of the HOA by pressing **Publish**. By doing so, you just created a [dApp](/blockchain/dapp.md).
 
 <img src="img/voting/publish.png" width="880"/>
 
@@ -143,7 +143,7 @@ In the [Waves Explorer](https://wavesexplorer.com/testnet), in the _test network
 
 <img src="img/voting/testnet-address.png" width="800"/>
 
-There are two transactions on the head of the HOA's address: the transfer transaction (balance top up by 10 WAVES using the Faucet) and the set script transaction. Note that the commission of 0.001 WAVES was charged from the head of the HOA's balance for the set script transaction.
+There are two transactions on the head of the HOA's address: the [transfer transaction](/blockchain/transaction-type/transfer-transaction.md) (balance top up by 10 WAVES using the Faucet) and the set script transaction. Note that the commission of 0.001 WAVES was charged from the head of the HOA's balance for the set script transaction.
 
 <img src="img/voting/waves-explorer-chief-transactions.png" width="900"/>
 

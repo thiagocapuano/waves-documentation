@@ -21,7 +21,7 @@
 
 ## Добавление записей
 
-Записи добавляются в хранилище данных аккаунта с помощью [транзакции данных](/blockchain/transaction-type/data-transaction.md) или транзакции вызова скрипта.
+Записи добавляются в хранилище данных аккаунта с помощью [транзакции данных](/blockchain/transaction-type/data-transaction.md) или [транзакции вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md).
 
 Максимальный размер одной записи — 32 килобайта.
 

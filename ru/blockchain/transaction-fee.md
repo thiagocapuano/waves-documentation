@@ -10,17 +10,17 @@
 
 | Тип транзакции | ID типа транзакции | Минимальный размер комиссии в WAVES | Комментарии |
 | :--- | :--- | :--- | :--- |
-| Транзакция вызова скрипта | 16 | 0,005 + `B` + `C` + 0,004 × `D` | Если транзакция отправляется со [смарт-аккаунта](/blockchain/smart-account.md), то `B` = 0,004 [WAVES](/blockchain/token/waves.md), иначе `B` = 0. <br>Если к транзакции прикреплены средства, то `С` = 0,004 WAVES, иначе `С` = 0. <br>`D` —  количество переводов смарт-ассетов |
-| Транзакция выпуска | 3 | 1 за обычный токен <br>0,001 за [не взаимозаменяемый токен](/blockchain/token/non-fungible-token.md) | |
+| [Транзакция вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md) | 16 | 0,005 + `B` + `C` + 0,004 × `D` | Если транзакция отправляется со [смарт-аккаунта](/blockchain/smart-account.md), то `B` = 0,004 [WAVES](/blockchain/token/waves.md), иначе `B` = 0. <br>Если к транзакции прикреплены средства, то `С` = 0,004 WAVES, иначе `С` = 0. <br>`D` —  количество переводов смарт-ассетов |
+| [Транзакция выпуска](/blockchain/transaction-type/issue-transaction.md) | 3 | 1 за обычный токен <br>0,001 за [не взаимозаменяемый токен](/blockchain/token/non-fungible-token.md) | |
 | [Транзакция данных](/blockchain/transaction-type/data-transaction.md) | 12 | 0,001 за килобайт | |
-| Транзакция довыпуска | 5 | 1 | |
-| Транзакция закрытия лизинга | 9 | 0,001 | |
-| Транзакция лизинга | 8 | 0,001 | |
-| Транзакция массовой отправки | 11 | 0,001 + 0,0005 × `N` | `N` — количество переводов внутри транзакции |
-| Транзакция обмена | 7 | 0,003 | |
-| Транзакция перевода | 4 | 0,001 | |
+| [Транзакция довыпуска](/blockchain/transaction-type/reissue-transaction.md) | 5 | 1 | |
+| [Транзакция закрытия лизинга](/blockchain/transaction-type/lease-cancel-transaction.md) | 9 | 0,001 | |
+| [Транзакция лизинга](/blockchain/transaction-type/lease-transaction.md) | 8 | 0,001 | |
+| [Транзакция массовой отправки](/blockchain/transaction-type/mass-transfer-transaction.md) | 11 | 0,001 + 0,0005 × `N` | `N` — количество переводов внутри транзакции |
+| [Транзакция обмена](/blockchain/transaction-type/exchange-transaction.md) | 7 | 0,003 | |
+| [Транзакция перевода](/blockchain/transaction-type/transfer-transaction.md) | 4 | 0,001 | |
 | [Транзакция сжигания токена](/blockchain/transaction-type/burn-transaction.md) | 6 | 0,001 | |
 | [Транзакция создания псевдонима](/blockchain/transaction-type/alias-transaction.md) | 10 | 0,001 | |
 | Транзакция спонсирования | 14 | 1 | |
-| Транзакция установки скрипта | 13 | 0,01 | |
-| Транзакция установки скрипта ассета | 15 | 1 | | |
+| [Транзакция установки скрипта](/blockchain/transaction-type/set-script-transaction.md) | 13 | 0,01 | |
+| [Транзакция установки скрипта ассета](/blockchain/transaction-type/set-asset-script-transaction.md) | 15 | 1 | | |

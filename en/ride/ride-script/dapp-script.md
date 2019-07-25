@@ -6,4 +6,4 @@ A **dApp script** — [RIDE script](/ride/ride-script.md), that has the followin
 {-# CONTENT_TYPE DAPP #-}
 ```
 
-A dApp script can be attached to an account with a set script transaction, thus creating a [dApp](/blockchain/dapp.md).
+A dApp script can be attached to an account with a [set script transaction](/blockchain/transaction-type/set-script-transaction.md), thus creating a [dApp](/blockchain/dapp.md).

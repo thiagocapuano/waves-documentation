@@ -5,14 +5,14 @@
 | 1 | [Address](#address) | Структура [адреса](/blockchain/address.md) |
 | 2 | [Asset](#asset) | Структура [токена](/blockchain/token.md) |
 | 3 | [AssetPair](#asset-pair) | Структура пары токенов ордера |
-| 4 | [AttachedPayment](#attached-payment) | Структура платежа транзакции вызова скрипта |
+| 4 | [AttachedPayment](#attached-payment) | Структура платежа [транзакции вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md) |
 | 5 | [BlockInfo](#block-info) | Структура [блока](/blockchain/block.md) |
 | 6 | [DataEntry](#data-entry) | Структура записи [хранилища данных аккаунта](/blockchain/account-data-storage.md) |
 | 7 | [Invocation](#invocation) | Структура сокращенного представления транзакции вызова скрипта |
 | 8 | [Order](#order) | Структура ордера |
 | 9 | [ScriptResult](#script-result) | Структура результата выполнения вызываемой функции |
 | 10 | [ScriptTransfer](#script-transfer) | Структура перевода токенов |
-| 11 | [Transfer](#transfer) | Структура перевода токенов транзакции массового перевода |
+| 11 | [Transfer](#transfer) | Структура перевода токенов [транзакции массового перевода](/blockchain/transaction-type/mass-transfer-transaction.md) |
 | 12 | [TransferSet](#transfer-set) | Структура списка переводов токенов |
 | 13 | [WriteSet](#write-set) | Структура списка записей хранилища данных аккаунта |
 

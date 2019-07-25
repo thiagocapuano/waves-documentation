@@ -51,7 +51,7 @@ ID of the transaction.
 
 ## transferTransactionById(ByteVector): TransferTransaction|Unit<a id="transfer-transaction-by-id"></a>
 
-Gets the data of a transfer transaction.
+Gets the data of a [transfer transaction](/blockchain/transaction-type/transfer-transaction.md).
 
 ```
 transferTransactionById(id: ByteVector): TransferTransaction|Unit
