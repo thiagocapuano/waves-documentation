@@ -66,7 +66,7 @@ or
       const result = await getPublicState();
 ```
 
-REPLY
+RESPONSE
 
 ```js
 {
@@ -248,7 +248,7 @@ A description of supported transaction types is below.
 
 In the example, we are signing a transaction for transferring WAVES to the alias `test`in Waves' network.
 
-REPLY `{"version":2,"assetId":"", "amount":156700000,"feeAssetId":"",fee:100000, "recipient":"recipient","attachment":"", "timestamp":1548770230589,"senderPublicKey":"public key","proofs":["signature"],"type":4}`
+RESPONSE `{"version":2,"assetId":"", "amount":156700000,"feeAssetId":"",fee:100000, "recipient":"recipient","attachment":"", "timestamp":1548770230589,"senderPublicKey":"public key","proofs":["signature"],"type":4}`
 
 ERRORS
 
@@ -284,7 +284,7 @@ Example:
        });
 ```
 
-REPLY A reply from Waves network returns as a line containing the entire past transaction.
+RESPONSE A response from Waves network returns as a line containing the entire past transaction.
 
 ERRORS
 
@@ -343,7 +343,7 @@ Sign two transaction:
 * Transfer 1.567 WAVES to the alias test
 * Transfer 0.1 WAVES to the alias merry
 
-REPLY
+RESPONSE
 
 A unit of two lines – transactions that are signed and ready to be broadcasted.
 
@@ -873,7 +873,7 @@ Example:
    });
 ```
 
-REPLY: A line with data for sending to the matcher.
+RESPONSE: A line with data for sending to the matcher.
 
 ERRORS:
 
@@ -885,7 +885,7 @@ ERRORS:
 
 Waves Keeper's method for creating an order to the matcher is identical to `signOrder`, but it also tries to send data to the matcher.
 
-REPLY: the matcher's reply line about successful creation of an order.
+RESPONSE: the matcher's response line about successful creation of an order.
 
 ERRORS:
 
@@ -919,7 +919,7 @@ Example:
     });
 ```
 
-REPLY: A data line for sending to the matcher.
+RESPONSE: A data line for sending to the matcher.
 
 ERRORS:
 
@@ -946,7 +946,7 @@ Example:
     });
 ```
 
-REPLY: Data that came from the matcher
+RESPONSE: Data that came from the matcher
 
 ERRORS:
 
@@ -984,7 +984,7 @@ Example:
     });
 ```
 
-REPLY: a line with a signature in base58.
+RESPONSE: a line with a signature in base58.
 
 ERRORS:
 
@@ -1007,7 +1007,7 @@ Request:
     });
 ```
 
-REPLY: a line with a signature in base58.
+RESPONSE: a line with a signature in base58.
 
 ERRORS:
 
