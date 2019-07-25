@@ -2,7 +2,7 @@
 
 **Транзакция данных** — [транзакция](/blockchain/transaction.md), которая записывает данные в [хранилище данных аккаунта](/blockchain/account-data-storage.md).
 
-У каждой транзакции данных есть **массив данных**, который содержит данные для записи. В [JSON-представлении транзакции](#json-representation) массив данных — поле `data`.
+У каждой транзакции данных есть **массив данных**, который содержит данные для записи. В [JSON-представлении транзакции](/blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md#json-representation) массив данных — поле `data`.
 
 ## Массив данных
 
