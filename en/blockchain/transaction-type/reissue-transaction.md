@@ -1,6 +1,6 @@
 # Reissue transaction
 
-A **reissue transaction** is a [transaction](/en/blockchain/transaction.md) that increases the amount of the [token](/blockchain/token.md) on the [blockchain](/blockchain/blockchain.md) and/or prohibits its reissue.
+A **reissue transaction** is a [transaction](/blockchain/transaction.md) that increases the amount of the [token](/blockchain/token.md) on the [blockchain](/blockchain/blockchain.md) and/or prohibits its reissue.
 
 ## Binary format
 
