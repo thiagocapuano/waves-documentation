@@ -208,6 +208,8 @@
 * [Типы данных](ride/data-types.md)
 * [Структуры](ride/structures.md)
   * [Общие структуры](ride/structures/common-structures.md)
+  * [Структуры транзакций](ride/structures/transaction-structures.md)
+    * [BurnTransaction](ride/structures/transaction-structures/burn-transaction-structure.md)
 * [Функции](ride/functions.md)
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
