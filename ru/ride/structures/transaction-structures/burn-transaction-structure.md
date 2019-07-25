@@ -14,7 +14,7 @@ BurnTransaction(quantity: Int, assetId: ByteVector, id: ByteVector, fee: Int, ti
 | :--- | :--- | :--- | :--- |
 | 1 | quantity | Int | Количество сжигаемого [токена](/blockchain/token.md) |
 | 2 | assetId | ByteVector | ID сжигаемого токена |
-| 3 | id | ByteVector | [ID транзакции](/blockchain/transaction#transaction-id) |
+| 3 | id | ByteVector | [ID транзакции](/blockchain/transaction#transaction-id.md) |
 | 4 | fee | Int | [Комиссия за транзакцию](/blockchain/transaction-fee.md) |
 | 5 | timestamp | Int | [Unix-время](https://ru.wikipedia.org/wiki/Unix-время) отправки транзакции в [блокчейн](/blockchain/blockchain.md) |
 | 6 | version | Int | Версия [бинарного формата](https://docs.wavesplatform.com/en/blockchain/binary-format/transaction-binary-format/burn-transaction-binary-format.html) транзакции сжигания токена |
