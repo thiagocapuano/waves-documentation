@@ -52,8 +52,8 @@ This section is displayed only if the token is traded on DEX.
 | Name | Name of the token |
 | Total amount | Amount of issued tokens |
 | Decimal points | Number of decimal places of token |
-| Type | Tells if the reissue transaction is possible. <br>Takes one of two values: "Reissuable" or "Not reissuable" |
+| Type | Tells if the [reissue transaction](/blockchain/transaction-type/reissue-transaction.md) is possible. <br>Takes one of two values: "Reissuable" or "Not reissuable" |
 | Issuer | Address from which the token was issued |
-| Block | The blockchain height at which the issue transaction went to the block |
+| Block | The blockchain height at which the [issue transaction](/blockchain/transaction-type/issue-transaction.md) went to the block |
 | Issue date | Token issue date |
 | Description | Token description |

@@ -74,7 +74,7 @@ AssetPair(amountAsset: ByteVector|Unit, priceAsset: ByteVector|Unit)
 
 ## AttachedPayment <a id="attached-payment"></a>
 
-The structure of an invoke script transaction payment.
+The structure of an [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md) payment.
 
 ### Constructor
 
@@ -214,7 +214,7 @@ ScriptTransfer(recipient: Address|Alias, amount: Int, asset: ByteVector|Unit)
 
 ## Transfer <a id="transfer"></a>
 
-The structure of a mass transfer transaction [token](/blockchain/token.md) transfer.
+The structure of a [mass transfer transaction](/blockchain/transaction-type/mass-transfer-transaction.md) [token](/blockchain/token.md) transfer.
 
 ### Constructor
 
