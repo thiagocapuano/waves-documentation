@@ -6,7 +6,7 @@
 
 | # | Field name | Field type | Field size in bytes | Comments |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version of the binary format of the block | Byte | 0 | The value must be 3 |
+| 1 | Version of the binary format of the block | Byte | 1 | The value must be 3 |
 | 2 | [Unix time](https://en.wikipedia.org/wiki/Unix_time) when the [block](/blockchain/block.md) was [generated](/blockchain/block/block-generation.md) | Long | 1 | |
 | 3 | [Block signature](/blockchain/block/block-signature.md) of the parent block | Array of bytes | 64 | |
 | 4 | [Base target](/blockchain/block/block-generation/base-target.md) | Long | 8 | |
