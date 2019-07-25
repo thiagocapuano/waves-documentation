@@ -27,15 +27,15 @@
       "from": "/en/waves-environment/waves-mainnet.html"
     },
     {
-      "to": "/en/blockchain/waves-protocol/data-structures.html",
+      "to": "/en/blockchain/binary-format.html",
       "from": "/en/waves-environment/waves-protocol/transactions-structure.html"
     },
     {
-      "to": "/en/blockchain/waves-protocol/data-structures.html",
+      "to": "/en/blockchain/binary-format.html",
       "from": "/en/technical-details/transactions-structure.html"
     },
     {
-      "to": "/en/blockchain/waves-protocol/data-structures.html",
+      "to": "/en/blockchain/binary-format.html",
       "from": "/en/blockchain/waves-protocol/transactions-structure.html"
     },
     {
