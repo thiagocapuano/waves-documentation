@@ -2,7 +2,7 @@
 
 **Data transaction** is a [transaction](/blockchain/transaction.md) that writes data to an [account data storage](/blockchain/account-data-storage.md).
 
-Each data transaction has a **data array** that contains data to be written. In [JSON representation](/blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md#json-representation) of a transaction the data array is the field `data`.
+Each data transaction has a **data array** that contains data to be written. In [JSON representation of a transaction](/blockchain/binary-format/transaction-binary-format/data-transaction-binary-format.md#json-representation) the data array is the field `data`.
 
 ## Data array of a data transaction
 
