@@ -13,7 +13,7 @@
 | 9 | LeaseTransaction | Структура [транзакции лизинга](/blockchain/transaction-type/lease-transaction.md) |
 | 10 | MassTransferTransaction | Структура [транзакции массового перевода](/blockchain/transaction-type/mass-transfer-transaction.md) |
 | 11 | ReissueTransaction | Структура [транзакции довыпуска](/blockchain/transaction-type/reissue-transaction.md) |
-| 12 | SetAssetScriptTransaction | Структура [транзакции установки скрипта ассета](/blockchain/transaction-type/set-asset-script-transaction.md)) |
+| 12 | SetAssetScriptTransaction | Структура [транзакции установки скрипта ассета](/blockchain/transaction-type/set-asset-script-transaction.md) |
 | 13 | SetScriptTransaction | Структура [транзакции установки скрипта](/blockchain/transaction-type/set-script-transaction.md) |
 | 14 | SponsorshipTransaction | Структура транзакции спонсирования |
 | 15 | TransferTransaction | Структура [транзакции перевода](/blockchain/transaction-type/transfer-transaction.md) |
