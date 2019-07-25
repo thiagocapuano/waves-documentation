@@ -36,3 +36,7 @@
   "height": 193
 }
 ```
+
+## Бинарный формат
+
+Смотрите страницу [Бинарный формат транзакции выпуска](/blockchain/binary-format/transaction-binary-format/issue-transaction-binary-format.md).

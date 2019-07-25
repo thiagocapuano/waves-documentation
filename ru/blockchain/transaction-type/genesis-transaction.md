@@ -4,6 +4,6 @@
 
 Транзакции генезиса отвечают за первоначальное распределение WAVES между аккаунтами [блокчейна](/blockchain/blockchain.md).
 
-## Бинарный формат транзакции
+## Бинарный формат
 
 Смотрите страницу [Бинарный формат транзакции генезиса](/blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md).
