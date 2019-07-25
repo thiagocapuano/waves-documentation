@@ -235,6 +235,8 @@
 * [Structures](ride/structures.md)
   * [Built-in structures](ride/structures/built-in-structures.md)
   * [Common structures](ride/structures/common-structures.md)
+  * [Transaction structures](ride/structures/transaction-structures.md)
+    * [BurnTransaction](ride/structures/transaction-structures/burn-transaction-structure.md)
 * [Functions](ride/functions.md)
   * [Callable function](ride/functions/callable-function.md)
   * [Verifier function](ride/functions/verifier-function.md)

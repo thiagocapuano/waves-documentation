@@ -18,6 +18,7 @@ Please select the page that fits you best:
 * [Block binary format](blockchain/binary-format/block-binary-format.md)
 * [Block generation](blockchain/block/block-generation.md)
 * [Block signature](blockchain/block/block-signature.md)
+* [BurnTransaction](ride/structures/transaction-structures/burn-transaction-structure.md)
 * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
 * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
 * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
@@ -37,6 +38,7 @@ Please select the page that fits you best:
 * [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
 * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
+* [Transaction structures](ride/structures/transaction-structures.md)
 * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
 
 ### Waves nodes
