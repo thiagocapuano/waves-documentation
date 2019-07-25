@@ -31,13 +31,13 @@
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты [комиссии](/blockchain/transaction-fee.md) за транзакцию установки скрипта, когда он будет привязывать [dApp-скрипт](/ride/ride-script/dapp-script.md) к своему аккаунту.
+Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты [комиссии](/blockchain/transaction-fee.md) за [транзакцию установки скрипта](/blockchain/transaction-type/set-script-transaction.md), когда он будет привязывать [dApp-скрипт](/ride/ride-script/dapp-script.md) к своему аккаунту.
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
 ## 2. Создание аккаунтов жильцов дома
 
-Аналогично создайте аккаунты жильцов дома Алексея и Анны и пополните их балансы на 10 WAVES. Токены им понадобятся для оплаты комиссии за транзакцию вызова скрипта, когда они будут голосовать, вызывая метод `vote` dApp.
+Аналогично создайте аккаунты жильцов дома Алексея и Анны и пополните их балансы на 10 WAVES. Токены им понадобятся для оплаты комиссии за [транзакцию вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md), когда они будут голосовать, вызывая метод `vote` dApp.
 
 <img src="img/voting/accounts-residents.png" width="250"/>
 
@@ -145,7 +145,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/testnet-address.png" width="800"/>
 
-По адресу главы ТСЖ отображаются две транзакции: транзакция перевода (пополнение баланса на 10 WAVES с помощью faucet) и отправка транзакции установки скрипта. Отметим, что с баланса аккаунта главы ТСЖ списали комиссию за транзакцию установки скрипта в 0,001 WAVES.
+По адресу главы ТСЖ отображаются две транзакции: [транзакция перевода](/blockchain/transaction-type/transfer-transaction.md) (пополнение баланса на 10 WAVES с помощью faucet) и отправка транзакции установки скрипта. Отметим, что с баланса аккаунта главы ТСЖ списали комиссию за транзакцию установки скрипта в 0,001 WAVES.
 
 <img src="img/voting/waves-explorer-chief-transactions.png" width="900"/>
 

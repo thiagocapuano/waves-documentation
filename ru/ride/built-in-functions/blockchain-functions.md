@@ -5,7 +5,7 @@
 |   1  | [assetInfo(ByteVector): Аsset&#124;Unit](#asset-info) | Получает информацию о [токене](/blockchain/token.md) | 100 |
 |   2  | [blockInfoByHeight(Int): BlockInfo&#124;Unit](#block-info-by-height) | Получает информацию о [блоке](/blockchain/block.md) по [высоте блока](/blockchain/block/block-height.md) | 100 |
 |   3  | [transactionHeightById(ByteVector): Int&#124;Unit](#transaction-height-by-id) | Получает [высоту блока](/blockchain/block/block-height.md) транзакции | 100 |
-|   4  | [transferTransactionById(ByteVector): TransferTransaction&#124;Unit](#transfer-transaction-by-id) | Получает данные транзакции перевода | 100 |
+|   4  | [transferTransactionById(ByteVector): TransferTransaction&#124;Unit](#transfer-transaction-by-id) | Получает данные [транзакции перевода](/blockchain/transaction-type/transfer-transaction.md) | 100 |
 
 ## assetInfo(ByteVector): Аsset|Unit<a id="asset-info"></a>
 
