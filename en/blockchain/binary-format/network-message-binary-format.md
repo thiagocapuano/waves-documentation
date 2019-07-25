@@ -1,14 +1,12 @@
 # Network message binary format
 
-All network messages shares the same structure except the Handshake.
-
-| \# | Field name | Type | Length in Bytes |
-| --- | --- | --- | --- |
-| 1 | Packet length \(BigEndian\) | Int | 4 |
-| 2 | Magic Bytes | Bytes | 4 |
-| 3 | Content ID | Byte | 1 |
-| 4 | Payload length | Int | 4 |
-| 5 | Payload checksum | Bytes | 4 |
-| 6 | Payload | Bytes | N |
-
-Magic Bytes are 0x12, 0x34, 0x56, 0x78. Payload checksum is first 4 bytes of \_FastHash\_ of Payload bytes. FastHash is hash function Blake2b256\(data\).
+* [Block message binary format](/blockchain/binary-format/network-message-binary-format/block-message-binary-format.md)
+* [Checkpoint message binary format](/blockchain/binary-format/network-message-binary-format/checkpoint-message-binary-format.md)
+* [Get block message binary format](/blockchain/binary-format/network-message-binary-format/get-block-message-binary-format.md)
+* [Get peers message binary format](/blockchain/binary-format/network-message-binary-format/get-peers-message-binary-format.md)
+* [Get signatures message binary format](/blockchain/binary-format/network-message-binary-format/get-signatures-message-binary-format.md)
+* [Handshake message binary format](/blockchain/binary-format/network-message-binary-format/handshake-message-binary-format.md)
+* [Peers message binary format](/blockchain/binary-format/network-message-binary-format/peers-message-binary-format.md)
+* [Score message binary format](/blockchain/binary-format/network-message-binary-format/score-message-binary-format.md)
+* [Signatures message binary format](/blockchain/binary-format/network-message-binary-format/signatures-message-binary-format.md)
+* [Transaction message binary format](/blockchain/binary-format/network-message-binary-format/transaction-message-binary-format.md)
