@@ -1,6 +1,6 @@
 # Новости
 
-## Новые статьи, добавленные в июле
+## Июльские статьи
 
 ### Блокчейн
 
@@ -49,7 +49,7 @@
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
 
-## Новые статьи, добавленные в июне
+##  Июньские статьи
 
 ### Блокчейн
 
@@ -102,3 +102,5 @@
 * [Транзакция данных оракула Token Rating](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
 * [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Формула рейтинга](waves-token-rating/rating-formula.md)
+
+> Посмотреть репозиторий документации на [Github](https://github.com/wavesplatform/waves-documentation)

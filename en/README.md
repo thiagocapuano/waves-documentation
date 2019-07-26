@@ -1,6 +1,6 @@
 # News
 
-## New pages added in July
+## July articles
 
 ### Blockchain
 
@@ -55,7 +55,7 @@
 * [Node API](waves-node/node-api.md)
 * [Node configuration file](waves-node/node-configuration-file.md)
 
-## New pages added in June
+## June articles
 
 ### Blockchain
 
@@ -120,3 +120,5 @@
 * [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Rating formula](waves-token-rating/rating-formula.md)
 * [User interface](waves-token-rating/user-interface.md)
+
+> Check out documentation repository on [Github](https://github.com/wavesplatform/waves-documentation)
