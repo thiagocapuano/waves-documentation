@@ -36,35 +36,38 @@
 
 ### Ноды Waves
 
-* [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
+* Расширения
+  * [gRPC Server](waves-node/extensions/grpc-server.md)
+    * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
+  * [Матчер](waves-node/extensions/matcher.md)
 
 ### RIDE
 
+* [Аннотации](ride/annotations.md)
 * Структуры
   * [Общие структуры](ride/structures/common-structures.md)
-  * [Структуры транзакций](ride/structures/transaction-structures/burn-transaction.md)
+  * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)
 * Функции
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
-* [Аннотации](ride/annotations.md)
 
 ## Новые статьи, добавленные в июне
 
 ### Блокчейн
 
-* [gRPC Server](waves-node/extensions/grpc-server.md)
 * [Аккаунт](blockchain/account.md)
 * [Блок](blockchain/block.md)
+  * [Высота блока](blockchain/block/block-height.md)
 * [Блокчейн](blockchain/blockchain.md)
-* [Высота блока](blockchain/block/block-height.md)
 * [Высота блокчейна](blockchain/blockchain-height.md)
-* [Матчер](waves-node/extensions/matcher.md)
-* [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
-* [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
-* [Транзакция данных](blockchain/transaction-type/data-transaction.md)
-* [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
+* Тип транзакции
+  * [Транзакция генезиса](blockchain/transaction-type/genesis-transaction.md)
+  * [Транзакция данных](blockchain/transaction-type/data-transaction.md)
+  * [Транзакция лизинга](blockchain/transaction-type/lease-transaction.md)
+* Токен
+  * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
 * [Узел](blockchain/node.md)
 
 ### Waves DEX
@@ -73,13 +76,14 @@
 
 ### RIDE
 
-* [Математические функции](ride/built-in-functions/math-functions.md)
+* Встроенные функции
+  * [Математические функции](ride/built-in-functions/math-functions.md)
+  * [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
+  * [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
+  * [Функции списка](ride/built-in-functions/list-functions.md)
+  * [Функции строки](ride/built-in-functions/string-functions.md)
+  * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
-* [Функции блокчейна](ride/built-in-functions/blockchain-functions.md)
-* [Функции кодирования и декодирования](ride/built-in-functions/encoding-and-decoding-functions.md)
-* [Функции списка](ride/built-in-functions/list-functions.md)
-* [Функции строки](ride/built-in-functions/string-functions.md)
-* [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
 
 ### Смарт-котракты (Waves dApps)
 
@@ -87,9 +91,9 @@
 
 ### Ноды Waves
 
-* [Расширения](waves-node/extensions/extensions.md)
-* [gRPC Server](waves-node/extensions/grpc-server.md)
-* [Матчер](waves-node/extensions/matcher.md)
+* [Расширения](waves-node/extensions.md)
+  * [gRPC Server](waves-node/extensions/grpc-server.md)
+  * [Матчер](waves-node/extensions/matcher.md)
 
 ### Инструменты разработчика
 
