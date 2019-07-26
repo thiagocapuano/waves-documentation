@@ -18,7 +18,7 @@ Please select the page that fits you best:
 * [Block binary format](blockchain/binary-format/block-binary-format.md)
 * [Block generation](blockchain/block/block-generation.md)
 * [Block signature](blockchain/block/block-signature.md)
-* [BurnTransaction](ride/structures/transaction-structures/burn-transaction-structure.md)
+* [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
 * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
 * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
 * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)

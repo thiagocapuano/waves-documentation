@@ -3,7 +3,7 @@
 | # | Name | Description |
 | :--- | :--- | :--- |
 | 1 | [BurnTransaction](/ride/structures/transaction-structures/burn-transaction-structure.md) | Structure of [burn transaction](/blockchain/transaction-type/burn-transaction.md) |
-| 2 | CreateAliasTransaction | Structure of [alias transaction](/blockchain/transaction-type/alias-transaction.md) |
+| 2 | [CreateAliasTransaction](/ride/structures/transaction-structures/alias-transaction-structure.md) | Structure of [alias transaction](/blockchain/transaction-type/alias-transaction.md) |
 | 3 | DataTransaction | Structure of [data transaction](/blockchain/transaction-type/data-transaction.md) |
 | 4 | ExchangeTransaction | Structure of [exchange transaction](/blockchain/transaction-type/exchange-transaction.md) |
 | 5 | GenesisTransaction | Structure of [genesis transaction](/blockchain/transaction-type/genesis-transaction.md) |
