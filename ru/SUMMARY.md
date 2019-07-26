@@ -2,7 +2,7 @@
 
 ## Обзор
 
-* [Главная](README.md)
+* [Новости](README.md)
 * [Руководство пользователя](overview/how-to-use-this-guide.md)
 * [Компоненты платформы](overview/platform-components.md)
 * [Официальные ресурсы](overview/waves-official-resources.md)
