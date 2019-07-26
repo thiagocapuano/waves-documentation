@@ -8,8 +8,8 @@
 
 ### Блокчейн
 
-* [BurnTransaction](ride/structures/transaction-structures/burn-transaction-structure.md)
-* [CreateAlias](/ride/structures/transaction-structures/alias-transaction-structure.md)
+* [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
+* [CreateAlias](/ride/structures/transaction-structures/alias-transaction.md)
 * [Базовая цель](blockchain/block/block-generation/base-target.md)
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
