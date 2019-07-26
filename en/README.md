@@ -14,48 +14,56 @@ Please select the page that fits you best:
 
 ### Blockchain
 
-* [Base target](blockchain/block/block-generation/base-target.md)
-* [Block binary format](blockchain/binary-format/block-binary-format.md)
-* [Block generation](blockchain/block/block-generation.md)
-* [Block signature](blockchain/block/block-signature.md)
-* [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
-* [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
-* [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
-* [Invoke script transaction](blockchain/transaction-type/invoke-script-transaction.md)
-* [Issue transaction](blockchain/transaction-type/issue-transaction.md)
-* [Lease cancel transaction](blockchain/transaction-type/lease-cancel-transaction.md)
-* [Lease transaction](blockchain/transaction-type/lease-transaction.md)
+* Binary format
+  * [Block binary format](blockchain/binary-format/block-binary-format.md)
+  * Transaction binary format
+    * [Genesis transaction binary format](blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md)
+* Block
+  * [Block generation](blockchain/block/block-generation.md)
+    * [Base target](blockchain/block/block-generation/base-target.md)
+  * [Block signature](blockchain/block/block-signature.md)
 * [Leasing](blockchain/leasing.md)
-* [Mass transfer transaction](blockchain/transaction-type/mass-transfer-transaction.md)
 * [Matcher fee](blockchain/matcher-fee.md)
-* [Miner](blockchain/mining/miner.md)
 * [Mining](blockchain/mining.md)
-* [Mining account](blockchain/mining-account.md)
-* [Mining node](blockchain/mining/mining-node.md)
+  * [Miner](blockchain/mining/miner.md)
+  * [Mining account](blockchain/mining/mining-account.md)
+  * [Mining node](blockchain/mining/mining-node.md)
 * [Order](blockchain/order.md)
-* [Reissue transaction](blockchain/transaction-type/reissue-transaction.md)
-* [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
-* [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
-* [Transaction structures](ride/structures/transaction-structures.md)
-* [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
-
-### Waves nodes
-
-* [Feature](waves-node/features/feature.md)
-* [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
-* [Node API](waves-node/node-api.md)
-* [Node configuration file](waves-node/node-configuration-file.md)
+* Transaction type
+  * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
+  * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
+  * [Invoke script transaction](blockchain/transaction-type/invoke-script-transaction.md)
+  * [Issue transaction](blockchain/transaction-type/issue-transaction.md)
+  * [Lease cancel transaction](blockchain/transaction-type/lease-cancel-transaction.md)
+  * [Lease transaction](blockchain/transaction-type/lease-transaction.md)
+  * [Mass transfer transaction](blockchain/transaction-type/mass-transfer-transaction.md)
+  * [Reissue transaction](blockchain/transaction-type/reissue-transaction.md)
+  * [Set asset script transaction](blockchain/transaction-type/set-asset-script-transaction.md)
+  * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
+  * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
 
 ### RIDE
 
-* [Account data storage functions](ride/built-in-functions/account-data-storage-functions.md)
 * [Annotations](ride/annotations.md)
-* [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
-* [Callable function](ride/functions/callable-function.md)
-* [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
-* [Common structures](ride/structures/common-structures.md)
-* [Verifier function](ride/functions/verifier-function.md)
+* Built-in functions
+  * [Account data storage functions](ride/built-in-functions/account-data-storage-functions.md)
+* Functions
+  * [Callable function](ride/functions/callable-function.md)
+  * [Verifier function](ride/functions/verifier-function.md)
+* Structures
+  * [Common structures](ride/structures/common-structures.md)
+  * [Transaction structures](ride/structures/transaction-structures.md)
+    * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
+    * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
+
+### Waves nodes
+
+* Features
+  * [Feature](waves-node/features/feature.md)
+  * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
+* [Node API](waves-node/node-api.md)
+* [Node configuration file](waves-node/node-configuration-file.md)
 
 ## New pages added in June
 
@@ -64,19 +72,42 @@ Please select the page that fits you best:
 * [Account](blockchain/account.md)
 * [Account data storage](blockchain/account-data-storage.md)
 * [Block](blockchain/block.md)
-* [Block height](blockchain/block/block-height.md)
+  * [Block height](blockchain/block/block-height.md)
 * [Blockchain](blockchain/blockchain.md)
 * [Blockchain height](blockchain/blockchain-height.md)
 * [dApp](blockchain/dapp.md)
-* [Data transaction](blockchain/transaction-type/data-transaction.md)
-* [gRPC Server](waves-node/extensions/grpc-server.md)
-* [Matcher](waves-node/extensions/matcher.md)
+* Token
+  * [Non-fungible token](blockchain/token/non-fungible-token.md)
+* Transaction type
+  * [Data transaction](blockchain/transaction-type/data-transaction.md)
 * [Node](blockchain/node.md)
-* [Non-fungible token](blockchain/token/non-fungible-token.md)
+
+### Developer tools
+
+* [REPL](developer-tools/repl.md)
+
+### RIDE
+
+* Built-in functions
+  * [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
+  * [Byte array functions](ride/built-in-functions/byte-array-functions.md)
+  * [Converting functions](ride/built-in-functions/converting-functions.md)
+  * [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
+  * [Exception functions](ride/built-in-functions/exception-functions.md)
+  * [List functions](ride/built-in-functions/list-functions.md)
+  * [Math functions](ride/built-in-functions/math-functions.md)
+  * [String functions](ride/built-in-functions/string-functions.md)
+  * [Verification functions](ride/built-in-functions/verification-functions.md)
+* [RIDE script complexity](ride/ride-script-complexity.md)
+
+### Smart contracts (Waves dApps)
+
+* [Simple voting on the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md)
 
 ### Waves Client
 
-* [Vostok transfers](waves-client/transfers-and-gateways/vostok-transfers.md)
+* Transfers and gateways
+  * [Vostok transfers](waves-client/transfers-and-gateways/vostok-transfers.md)
 
 ### Waves DEX
 
@@ -86,26 +117,11 @@ Please select the page that fits you best:
 
 * [Waves Keeper](waves-keeper/about-waves-keeper.md)
 
-## RIDE
+### Waves Node
 
-* [Blockchain functions](ride/built-in-functions/blockchain-functions.md)
-* [Byte array functions](ride/built-in-functions/byte-array-functions.md)
-* [Converting functions](ride/built-in-functions/converting-functions.md)
-* [Encoding and decoding functions](ride/built-in-functions/encoding-and-decoding-functions.md)
-* [Exception functions](ride/built-in-functions/exception-functions.md)
-* [List functions](ride/built-in-functions/list-functions.md)
-* [Math functions](ride/built-in-functions/math-functions.md)
-* [RIDE script complexity](ride/ride-script-complexity.md)
-* [String functions](ride/built-in-functions/string-functions.md)
-* [Verification functions](ride/built-in-functions/verification-functions.md)
-
-## Smart contracts (Waves dApps)
-
-* [Simple voting on the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md)
-
-## Developer tools
-
-* [REPL](developer-tools/repl.md)
+* Extensions
+  * [gRPC Server](waves-node/extensions/grpc-server.md)
+  * [Matcher](waves-node/extensions/matcher.md)
 
 ### Waves Token Rating
 
