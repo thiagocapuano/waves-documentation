@@ -1,7 +1,5 @@
 # News
 
-> Documentation repository on [Github](https://github.com/wavesplatform/waves-documentation)
-
 ## July articles
 
 ### Blockchain
@@ -122,3 +120,5 @@
 * [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Rating formula](waves-token-rating/rating-formula.md)
 * [User interface](waves-token-rating/user-interface.md)
+
+> Check out documentation repository on [Github](https://github.com/wavesplatform/waves-documentation)
