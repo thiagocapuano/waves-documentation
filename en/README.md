@@ -1,6 +1,8 @@
 # News
 
-## Articles added in July
+> Documentation repository on [Github](https://github.com/wavesplatform/waves-documentation)
+
+## July articles
 
 ### Blockchain
 
@@ -55,7 +57,7 @@
 * [Node API](waves-node/node-api.md)
 * [Node configuration file](waves-node/node-configuration-file.md)
 
-## Articles added in June
+## June articles
 
 ### Blockchain
 

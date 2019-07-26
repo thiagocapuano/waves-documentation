@@ -1,6 +1,7 @@
 # Новости
+> Репозиторий документации на [Github](https://github.com/wavesplatform/waves-documentation)
 
-## Статьи, добавленные в июле
+## Статьи июля
 
 ### Блокчейн
 
@@ -49,7 +50,7 @@
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
 
-## Статьи, добавленные в июне
+## Статьи июня
 
 ### Блокчейн
 
