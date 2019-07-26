@@ -230,7 +230,7 @@
 * [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
-## Ноды Waves
+## Waves Node
 
 * [Ограничения API пула публичных нод](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
 * [Расширения](waves-node/extensions.md)
