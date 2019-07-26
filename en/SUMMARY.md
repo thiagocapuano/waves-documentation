@@ -274,7 +274,7 @@
   * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
 * [Articles on dApps](smart-contracts/articles-on-dapps.md)
 
-## Waves node
+## Waves Node
 
 * [What is Waves full node](waves-node/what-is-a-full-node.md)
 * [How To install a node](waves-node/how-to-install-a-node/how-to-install-a-node.md)

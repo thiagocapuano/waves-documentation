@@ -47,7 +47,7 @@
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
 
-### Waves nodes
+### Waves Node
 
 * Features
   * [Feature](waves-node/features/feature.md)
