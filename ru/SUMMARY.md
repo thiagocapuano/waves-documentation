@@ -1,6 +1,6 @@
 # Summary
 
-## Обзор
+## Начало работы
 
 * [Новости](README.md)
 * [Руководство пользователя](overview/how-to-use-this-guide.md)

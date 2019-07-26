@@ -1,6 +1,6 @@
 # News
 
-## New pages added in July
+## Pages added in July
 
 ### Blockchain
 
@@ -55,7 +55,7 @@
 * [Node API](waves-node/node-api.md)
 * [Node configuration file](waves-node/node-configuration-file.md)
 
-## New pages added in June
+## Pages added in June
 
 ### Blockchain
 
