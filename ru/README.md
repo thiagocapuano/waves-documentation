@@ -81,9 +81,9 @@
   * [Функции хранилища данных аккаунта](ride/built-in-functions/account-data-storage-functions.md)
 * [Сложность скрипта на RIDE](ride/ride-script-complexity.md)
 
-### Смарт-котракты (Waves dApps)
+### Смарт-контракты (Waves dApps)
 
-* [Простое голосование на блокчейне Waves](ride/simple-voting-on-the-waves-blockchain.md)
+* [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
 
 ### Ноды Waves
 
@@ -99,6 +99,6 @@
 
 * [Интерфейс пользователя](waves-token-rating/user-interface.md)
 * [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Транзакция данных оракула Token Rating](waves-token-rating/token-rating-oracle-data-transaction.md)
+* [Транзакция данных оракула Token Rating](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
 * [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Формула рейтинга](waves-token-rating/rating-formula.md)
