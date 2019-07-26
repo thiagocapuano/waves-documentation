@@ -2,8 +2,8 @@
 
 | # | Название | Описание |
 | :--- | :--- | :--- |
-| 1 | [BurnTransaction](/ride/structures/transaction-structures/burn-transaction-structure.md) | Структура [транзакции сжигания токена](/blockchain/transaction-type/burn-transaction.md) |
-| 2 | [CreateAliasTransaction](/ride/structures/transaction-structures/alias-transaction-structure.md) | Структура [транзакции создания псевдонима](/blockchain/transaction-type/alias-transaction.md) |
+| 1 | [BurnTransaction](/ride/structures/transaction-structures/burn-transaction.md) | Структура [транзакции сжигания токена](/blockchain/transaction-type/burn-transaction.md) |
+| 2 | [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md) | Структура [транзакции создания псевдонима](/blockchain/transaction-type/alias-transaction.md) |
 | 3 | DataTransaction | Структура [транзакции данных](/blockchain/transaction-type/data-transaction.md) |
 | 4 | ExchangeTransaction | Структура [транзакции обмена](/blockchain/transaction-type/exchange-transaction.md) |
 | 5 | GenesisTransaction | Структура [транзакции генезиса](/blockchain/transaction-type/genesis-transaction.md) |

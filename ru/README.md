@@ -8,8 +8,6 @@
 
 ### Блокчейн
 
-* [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
-* [CreateAlias](/ride/structures/transaction-structures/alias-transaction.md)
 * [Базовая цель](blockchain/block/block-generation/base-target.md)
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
@@ -41,10 +39,15 @@
 
 ### RIDE
 
+* Структуры
+  * [Общие структуры](ride/structures/common-structures.md)
+  * [Структуры транзакций](ride/structures/transaction-structures/burn-transaction.md)
+    * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
+    * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)
+* Функции
+  * [Вызываемая функция](ride/functions/callable-function.md)
+  * [Функция-верификатор](ride/functions/verifier-function.md)
 * [Аннотации](ride/annotations.md)
-* [Вызываемая функция](ride/functions/callable-function.md)
-* [Общие структуры](ride/structures/common-structures.md)
-* [Функция-верификатор](ride/functions/verifier-function.md)
 
 ## Новые статьи, добавленные в июне
 
