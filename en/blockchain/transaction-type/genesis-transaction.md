@@ -4,7 +4,6 @@ A **genesis transaction** is a [transaction](/blockchain/transaction.md) of the 
 
 Genesis transactions are responsible for the initial distribution of WAVES among the accounts of the [blockchain](/blockchain/blockchain.md).
 
-
 ## Binary format
 
 See the page [Genesis transaction binary format](/blockchain/binary-format/transaction-binary-format/genesis-transaction-binary-format.md).

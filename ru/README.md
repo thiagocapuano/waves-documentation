@@ -30,7 +30,7 @@
   * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
   * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
 
-### Ноды Waves
+### Waves Node
 
 * Расширения
   * [gRPC Server](waves-node/extensions/grpc-server.md)
