@@ -8,30 +8,31 @@
 
 ### Блокчейн
 
-* [Базовая цель](blockchain/block/block-generation/base-target.md)
 * [Байты тела транзакции](blockchain/transaction-body-bytes.md)
 * [Бинарный формат](blockchain/binary-format.md)
 * [Бинарный формат транзакции](blockchain/binary-format/transaction-binary-format.md)
-* [Блок генезиса](blockchain/block/genesis-block.md)
-* [Генерация блока](blockchain/block/block-generation.md)
+* Блок
+  * [Блок генезиса](blockchain/block/genesis-block.md)
+  * [Генерация блока](blockchain/block/block-generation.md)
+    * [Базовая цель](blockchain/block/block-generation/base-target.md)
+  * [Подпись блока](blockchain/block/block-signature.md)
 * [Комиссия матчера](blockchain/matcher-fee.md)
 * [Лизинг](blockchain/leasing.md)
-* [Майнер](blockchain/mining/miner.md)
 * [Майнинг](blockchain/mining.md)
-* [Майнящий аккаунт](blockchain/mining/mining-account.md)
-* [Майнящий узел](blockchain/mining/mining-node.md)
+  * [Майнер](blockchain/mining/miner.md)
+  * [Майнящий аккаунт](blockchain/mining/mining-account.md)
+  * [Майнящий узел](blockchain/mining/mining-node.md)
 * [Ордер](blockchain/order.md)
-* [Подпись блока](blockchain/block/block-signature.md)
-* [Структуры транзакций](ride/structures/transaction-structures.md)
-* [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
-* [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
-* [Транзакция довыпуска](blockchain/transaction-type/reissue-transaction.md)
-* [Транзакция закрытия лизинга](blockchain/transaction-type/lease-cancel-transaction.md)
-* [Транзакция массового перевода](blockchain/transaction-type/mass-transfer-transaction.md)
-* [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
-* [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
-* [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
-* [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
+* Тип транзакции
+  * [Транзакция вызова скрипта](blockchain/transaction-type/invoke-script-transaction.md)
+  * [Транзакция выпуска](blockchain/transaction-type/issue-transaction.md)
+  * [Транзакция довыпуска](blockchain/transaction-type/reissue-transaction.md)
+  * [Транзакция закрытия лизинга](blockchain/transaction-type/lease-cancel-transaction.md)
+  * [Транзакция массового перевода](blockchain/transaction-type/mass-transfer-transaction.md)
+  * [Транзакция обмена](blockchain/transaction-type/exchange-transaction.md)
+  * [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
+  * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
+  * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
 
 ### Ноды Waves
 
