@@ -2,14 +2,13 @@
 
 | # | Название | Описание | Сложность |
 | :--- | :--- | :--- | :--- |
-| 1 | [getElement(List[T], Int): T](#get-element)  | Получает элемент из списка по индексу | 2 |
-| 2 | [cons(T, List[T]): List[T]](#cons)  | Добавляет новый элемент в начало списка | 2 |
+| 1 | [getElement(List[T], Int): T](#get-element)  | Получает элемент по индексу | 2 |
+| 2 | [cons(T, List[T]): List[T]](#cons)  | Вставляет элемент в начало списка | 2 |
 | 3 | [size(List[T]): Int](#size)  | Возвращает размер списка | 2 |
 
 ## getElement(List[T], Int): T<a id="get-element"></a>
 
-Получает элемент из списка по индексу.
-
+Получает элемент по индексу.
 ``` ride
 getElement(arr: List[T], pos: Int): T
 ```
@@ -24,9 +23,9 @@ getElement(arr: List[T], pos: Int): T
 
 Индекс элемента.
 
-## cons(T, List[T]): List[T]<a id="cons"></a>
+## cons(T, List[T]): List[T] <a id="cons"></a>
 
-Добавляет новый элемент в начало списка.
+Вставляет элемент в начало списка.
 
 ``` ride
 cons(head:T, tail: List[T]): List[T]
@@ -42,7 +41,7 @@ cons(head:T, tail: List[T]): List[T]
 
 Список.
 
-## size(List[T]): Int<a id="size"></a>
+## size(List[T]): Int <a id="size"></a>
 
 Возвращает размер списка.
 

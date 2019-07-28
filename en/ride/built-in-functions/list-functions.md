@@ -2,13 +2,13 @@
 
 | # | Name | Description | Complexity |
 | :--- | :--- | :--- | :--- |
-| 1 | [getElement(List[T], Int): T](#get-element) | Gets an element from a list by index | 2 |
-| 2 | [cons(T, List[T]): List[T]](#cons) | Prepends a new element to the list | 2 |
-| 3 | [size(List[T]): Int](#size) | Returns the size of a list | 2 |
+| 1 | [getElement(List[T], Int): T](#get-element) | Gets the element by index | 2 |
+| 2 | [cons(T, List[T]): List[T]](#cons) | Inserts the element at the beginning of the list | 2 |
+| 3 | [size(List[T]): Int](#size) | Returns the size of the list | 2 |
 
-## getElement(List[T], Int): T<a id="get-element"></a>
+## getElement(List[T], Int): T <a id="get-element"></a>
 
-Gets an element from a list by index.
+Gets the element by index.
 
 ``` ride
 getElement(arr: List[T], pos: Int): T
@@ -18,15 +18,15 @@ getElement(arr: List[T], pos: Int): T
 
 #### `arr`: List[T]
 
-The list.
+List.
 
 #### `pos`: Int
 
-The index of the element.
+Index of the element.
 
 ## cons(T, List[T]): List[T] <a id="cons"></a>
 
-Prepends a new element to the list.
+Inserts the element at the beginning of the list.
 
 ``` ride
 cons(head:T, tail: List[T]): List[T]
@@ -36,15 +36,15 @@ cons(head:T, tail: List[T]): List[T]
 
 #### `head`: T
 
-The element.
+Element.
 
 #### `tail`: List[T]
 
-The list.
+List.
 
-## size(List[T]): Int<a id="size"></a>
+## size(List[T]): Int <a id="size"></a>
 
-Returns the size of a list.
+Returns the size of the list.
 
 ``` ride
 size(arr: List[T]): Int
@@ -54,4 +54,4 @@ size(arr: List[T]): Int
 
 #### `arr`: List[T]
 
-The list.
+List.
