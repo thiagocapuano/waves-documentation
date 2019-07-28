@@ -38,6 +38,7 @@
 * [Annotations](ride/annotations.md)
 * Built-in functions
   * [Account data storage functions](ride/built-in-functions/account-data-storage-functions.md)
+* [Data types](/ride/data-types.md)
 * Functions
   * [Callable function](ride/functions/callable-function.md)
   * [Verifier function](ride/functions/verifier-function.md)

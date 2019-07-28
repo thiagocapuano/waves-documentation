@@ -45,6 +45,7 @@
   * [Структуры транзакций](ride/structures/transaction-structures.md)
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](/ride/structures/transaction-structures/create-alias-transaction.md)
+* [Типы данных](/ride/data-types.md)
 * Функции
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
