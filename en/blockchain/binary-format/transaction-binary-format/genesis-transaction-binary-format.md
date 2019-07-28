@@ -9,7 +9,7 @@
 | 3 | Account address | recipient | Array of bytes | 26 |  |
 | 4 | Amount | amount | Long | 8 | The number of [WAVES](/blockchain/token/waves.md) that will be credited to the [account](/blockchain/account.md) |
 | 5 | Fee |fee | Long | 8 | [Transaction fee](/blockchain/transaction-fee.md) in [WAVELETs](/blockchain/token/wavelet.md) |
-| 6 | Signature | signature | Массив байтов | 64 | [Transaction signature](/blockchain/transaction-signature.md) |
+| 6 | Signature | signature | Array of bytes | 64 | [Transaction signature](/blockchain/transaction-signature.md) |
 
 ## JSON representation of a transaction with binary format version 1 <a id="json"></a>
 
