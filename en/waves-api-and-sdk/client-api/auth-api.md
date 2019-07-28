@@ -21,8 +21,6 @@ If the user interrupts the process, he stays on the Waves Client page.
 
 Due to the length limitations of the query string all parameters are expressed with one character.
 
-[**Here**](https://demo.wavesplatform.com) you can find the demo project which shows how to use Web auth API.
-
 ### Request
 
 [Example](https://dex.wavesplatform.com#gateway/auth?r=https://example.com&n=Service%20Name&d=0123456789abc&i=/img/logo.png&success=/wavesAuth): `https://dex.wavesplatform.com#gateway/auth?r=https://example.com&n=Service%20Name&d=0123456789abc&i=/img/logo.png&success=/wavesAuth`.
