@@ -79,6 +79,7 @@
 * [Test network](blockchain/test-network.md)
 * [Token](blockchain/token.md)
   * [Non-fungible token](blockchain/token/non-fungible-token.md)
+  * [Token issue](/blockchain/token/token-issue.md)
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WCT](blockchain/token/wct.md)
