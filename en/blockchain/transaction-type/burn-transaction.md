@@ -4,7 +4,9 @@ A **burn transaction** is a [transaction](/blockchain/transaction.md) that decre
 
 Tokens are burned _only_ on the [account](/blockchain/account.md) of the sender of the transaction.
 
-Burned tokens cannot be restored.
+Burned tokens cannot be restored back to the account.
+
+[Reissue transaction](/blockchain/transaction-type/reissue-transaction.md) increases the amount of the token on the blockchain.
 
 ## Binary format
 
