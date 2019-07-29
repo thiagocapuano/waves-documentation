@@ -2,7 +2,7 @@
 
 A **token** is an object on the [blockchain](/blockchain/blockchain.md) that represents another object from the real or virtual world, or an abstract concept.
 
-## Token ID <a id="token-id"> 
+## Token ID <a id="token-id"></a>
 
 Each token has a unique ID.
 
