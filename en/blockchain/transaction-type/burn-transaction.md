@@ -1,6 +1,10 @@
 # Burn transaction
 
-A **burn transaction** is a [transaction](/blockchain/transaction.md) that burns a certain amount of the [token](/blockchain/token.md) at the [account](/blockchain/account.md) of the sender.
+A **burn transaction** is a [transaction](/blockchain/transaction.md) that decreases the amount of the [token](/blockchain/token.md) on the [blockchain](/blockchain/blockchain.md).
+
+Tokens are burned _only_ on the [account](/blockchain/account.md) of the sender of the transaction.
+
+Burned tokens cannot be restored.
 
 ## Binary format
 
