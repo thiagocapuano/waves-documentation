@@ -29,8 +29,6 @@
   * [Транзакция перевода](blockchain/transaction-type/transfer-transaction.md)
   * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
   * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
-* Токен
-  * [Выпуск токена](blockchain/token/token-issue.md)
 
 ### Waves Node
 

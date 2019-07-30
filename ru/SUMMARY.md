@@ -76,7 +76,6 @@
   * [WAVELET](blockchain/token/wavelet.md)
   * [WAVES](blockchain/token/waves.md)
   * [WCT](blockchain/token/wct.md)
-  * [Выпуск токена](blockchain/token/token-issue.md)
   * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
 * [Транзакция](blockchain/transaction.md)
 * [Узел](blockchain/node.md)

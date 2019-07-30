@@ -20,8 +20,6 @@
   * [Mining node](blockchain/mining/mining-node.md)
 * [Order](blockchain/order.md)
 * [Transaction body bytes](blockchain/transaction-body-bytes.md)
-* Token
-  * [Token issue](blockchain/token/token-issue.md)
 * Transaction type
   * [Exchange transaction](blockchain/transaction-type/exchange-transaction.md)
   * [Genesis transaction](blockchain/transaction-type/genesis-transaction.md)
