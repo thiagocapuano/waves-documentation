@@ -187,7 +187,7 @@ def verifyAddress(public_key, address):
     address_hash = crypto.hashChain(crypto.str2bytes(unhashed_address))[0:4]
     address_from_public_key = base58.b58encode(crypto.str2bytes(unhashed_address + address_hash))
 
-    return address_from_public_key.decode() == address
+    return address_from_public_key == address
 
 
 
